@@ -1,0 +1,466 @@
+{
+	"_id": "Ebm8N7aN0WzOZToi",
+	"_key": "!items!Ebm8N7aN0WzOZToi",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/feats/weapon-focus-epic.png",
+	"name": "Epic Weapon Focus (No Weapon Selected)",
+	"system": {
+		"ability": {
+			"attack": null,
+			"critMult": 2,
+			"critRange": 20,
+			"damage": null,
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"abilityType": "",
+		"actionType": "",
+		"activateActions": [
+		],
+		"activation": {
+			"cost": 1,
+			"type": ""
+		},
+		"addedLevel": 0,
+		"associations": {
+			"classes": [
+			]
+		},
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"bookSource": "",
+		"carried": false,
+		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+			[
+				"attack",
+				"",
+				"'@item.baseWeaponType' === '@self.custom.weaponname'",
+				"featAttackBonus",
+				"2",
+				""
+			]
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"constantWeight": false,
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"counterName": "",
+		"crOffset": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"critConfirmBonus": "",
+		"customAttributes": {
+			"_kh4mdayuu": {
+				"id": "_kh4mdayuu",
+				"name": "Weapon Name",
+				"selectList": "No Weapon Selected|Armor Spikes|Bastard Sword|Battleaxe|Bayonet|Blowgun|Bolas|Club|Dagger|Dart|Dire Flail|Dwarven Urgrosh|Dwarven Waraxe|Falchion|Flail|Gauntlet|Glaive|Gnome Hooked Hammer|Grappling Hook|Greataxe|Greatclub|Greatsword|Guisarme|Halberd|Hand Crossbow|Handaxe|Heavy Crossbow|Heavy Flail|Heavy Mace|Heavy Pick|Heavy Repeating Crossbow|Javelin|Kama|Kukri|Lance|Light Crossbow|Light Hammer|Light Mace|Light Pick|Light Repeating Crossbow|Longbow|Longspear|Longsword|Morningstar|Net|Nunchaku|Orc Double Axe|Punching Dagger|Quarterstaff|Ranseur|Rapier|Repeating Crossbow Bolt|Sai|Sap|Scimitar|Scythe|Shield Spikes (Heavy)|Shield Spikes (Light)|Shortbow|Shortspear|Shortsword|Shuriken|Siangham|Sickle|Sling|Spear|Spiked Chain|Spiked Gauntlet|Throwing Axe|Trident|Two-Bladed Sword|Unarmed Strike|Warhammer|Whip|Simple Light|Dagger, disguised|Flute, steel|Muspelrule|Poison ring|Sickle, heavy|Fauchard|Simple Ranged|Blowgun|Cutlass|Cutlass|Lancet, Gehennan|Razored armor|Razored shield, light|Stabaxe|Straightblade|Wakizashi|Cloak, weighted|Razored shield, heavy|Saber|Swordcane|Truncheon|Bardiche|Duom|Lucerne hammer|Lucerne hammer|Maquahuitl|Maul|Nagamaki|Naginata|Partisan|Pick, dire|Pilum|Spetum|Voulge|Warmace|Ripper|Atlatl|Dart Thruster|Longbow, aquatic|Lute-bow|Pilum",
+				"selectListArray": {
+					"Armor Spikes": "Armor Spikes",
+					"Atlatl": "Atlatl",
+					"Bardiche": "Bardiche",
+					"Bastard Sword": "Bastard Sword",
+					"Battleaxe": "Battleaxe",
+					"Bayonet": "Bayonet",
+					"Blowgun": "Blowgun",
+					"Bolas": "Bolas",
+					"Cloak, weighted": "Cloak, weighted",
+					"Club": "Club",
+					"Cutlass": "Cutlass",
+					"Dagger": "Dagger",
+					"Dagger, disguised": "Dagger, disguised",
+					"Dart": "Dart",
+					"Dart Thruster": "Dart Thruster",
+					"Dire Flail": "Dire Flail",
+					"Duom": "Duom",
+					"Dwarven Urgrosh": "Dwarven Urgrosh",
+					"Dwarven Waraxe": "Dwarven Waraxe",
+					"Falchion": "Falchion",
+					"Fauchard": "Fauchard",
+					"Flail": "Flail",
+					"Flute, steel": "Flute, steel",
+					"Gauntlet": "Gauntlet",
+					"Glaive": "Glaive",
+					"Gnome Hooked Hammer": "Gnome Hooked Hammer",
+					"Grappling Hook": "Grappling Hook",
+					"Greataxe": "Greataxe",
+					"Greatclub": "Greatclub",
+					"Greatsword": "Greatsword",
+					"Guisarme": "Guisarme",
+					"Halberd": "Halberd",
+					"Hand Crossbow": "Hand Crossbow",
+					"Handaxe": "Handaxe",
+					"Heavy Crossbow": "Heavy Crossbow",
+					"Heavy Flail": "Heavy Flail",
+					"Heavy Mace": "Heavy Mace",
+					"Heavy Pick": "Heavy Pick",
+					"Heavy Repeating Crossbow": "Heavy Repeating Crossbow",
+					"Javelin": "Javelin",
+					"Kama": "Kama",
+					"Kukri": "Kukri",
+					"Lance": "Lance",
+					"Lancet, Gehennan": "Lancet, Gehennan",
+					"Light Crossbow": "Light Crossbow",
+					"Light Hammer": "Light Hammer",
+					"Light Mace": "Light Mace",
+					"Light Pick": "Light Pick",
+					"Light Repeating Crossbow": "Light Repeating Crossbow",
+					"Longbow": "Longbow",
+					"Longbow, aquatic": "Longbow, aquatic",
+					"Longspear": "Longspear",
+					"Longsword": "Longsword",
+					"Lucerne hammer": "Lucerne hammer",
+					"Lute-bow": "Lute-bow",
+					"Maquahuitl": "Maquahuitl",
+					"Maul": "Maul",
+					"Morningstar": "Morningstar",
+					"Muspelrule": "Muspelrule",
+					"Nagamaki": "Nagamaki",
+					"Naginata": "Naginata",
+					"Net": "Net",
+					"No Weapon Selected": "No Weapon Selected",
+					"Nunchaku": "Nunchaku",
+					"Orc Double Axe": "Orc Double Axe",
+					"Partisan": "Partisan",
+					"Pick, dire": "Pick, dire",
+					"Pilum": "Pilum",
+					"Poison ring": "Poison ring",
+					"Punching Dagger": "Punching Dagger",
+					"Quarterstaff": "Quarterstaff",
+					"Ranseur": "Ranseur",
+					"Rapier": "Rapier",
+					"Razored armor": "Razored armor",
+					"Razored shield, heavy": "Razored shield, heavy",
+					"Razored shield, light": "Razored shield, light",
+					"Repeating Crossbow Bolt": "Repeating Crossbow Bolt",
+					"Ripper": "Ripper",
+					"Saber": "Saber",
+					"Sai": "Sai",
+					"Sap": "Sap",
+					"Scimitar": "Scimitar",
+					"Scythe": "Scythe",
+					"Shield Spikes (Heavy)": "Shield Spikes (Heavy)",
+					"Shield Spikes (Light)": "Shield Spikes (Light)",
+					"Shortbow": "Shortbow",
+					"Shortspear": "Shortspear",
+					"Shortsword": "Shortsword",
+					"Shuriken": "Shuriken",
+					"Siangham": "Siangham",
+					"Sickle": "Sickle",
+					"Sickle, heavy": "Sickle, heavy",
+					"Simple Light": "Simple Light",
+					"Simple Ranged": "Simple Ranged",
+					"Sling": "Sling",
+					"Spear": "Spear",
+					"Spetum": "Spetum",
+					"Spiked Chain": "Spiked Chain",
+					"Spiked Gauntlet": "Spiked Gauntlet",
+					"Stabaxe": "Stabaxe",
+					"Straightblade": "Straightblade",
+					"Swordcane": "Swordcane",
+					"Throwing Axe": "Throwing Axe",
+					"Trident": "Trident",
+					"Truncheon": "Truncheon",
+					"Two-Bladed Sword": "Two-Bladed Sword",
+					"Unarmed Strike": "Unarmed Strike",
+					"Voulge": "Voulge",
+					"Wakizashi": "Wakizashi",
+					"Warhammer": "Warhammer",
+					"Warmace": "Warmace",
+					"Whip": "Whip"
+				},
+				"showOnDetails": true,
+				"value": "No Weapon Selected"
+			}
+		},
+		"customAttributesLocked": true,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"damageType": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"deactivateActions": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<h3><span id=\"Prerequisite\">Prerequisite</span></h3>\n<p>Weapon Focus in the chosen weapon.</p>\n<h3><span id=\"Benefit\">Benefit</span></h3>\n<p>Add a +2 bonus to all attack rolls the character makes using the selected weapon.</p>\n<h3><span id=\"Special\">Special</span></h3>\n<p>A character can gain this feat multiple times. Its effects do not stack. Each time the character takes the feat it applies to a different type of weapon.</p>\n<p>&nbsp;</p>"
+		},
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"effectNotes": "",
+		"epic": "",
+		"equippedWeightless": false,
+		"favorite": false,
+		"featType": "feat",
+		"formula": "",
+		"identifiedName": "Epic Weapon Focus (No Weapon Selected)",
+		"index": {
+			"subType": "feat",
+			"uniqueId": ""
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"linkedItems": [
+		],
+		"links": {
+			"charges": [
+			]
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 0,
+			"type": ""
+		},
+		"metamagic": {
+			"code": "",
+			"enabled": false,
+			"shortDesc": ""
+		},
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "Epic Weapon Focus (${this.custom.weaponname})",
+		"nameFromFormula": true,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 106,
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"pr": false,
+		"psionic": "",
+		"range": {
+			"long": null,
+			"units": "",
+			"value": null
+		},
+		"recharge": {
+			"_deprecated": true,
+			"charged": false,
+			"current": 0,
+			"enabled": false,
+			"formula": "",
+			"value": null
+		},
+		"requirements": [
+		],
+		"requiresPsionicFocus": false,
+		"resistances": [
+		],
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": 0,
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "",
+			"originVersion": 97,
+			"type": ""
+		},
+		"showInQuickbar": false,
+		"sizeOverride": "",
+		"source": "",
+		"specialActions": [
+		],
+		"spellSpecialization": {
+			"isDomain": false,
+			"spells": {
+				"level1": {
+					"id": null,
+					"img": "",
+					"level": 1,
+					"name": "",
+					"pack": null
+				},
+				"level2": {
+					"id": null,
+					"img": "",
+					"level": 2,
+					"name": "",
+					"pack": null
+				},
+				"level3": {
+					"id": null,
+					"img": "",
+					"level": 3,
+					"name": "",
+					"pack": null
+				},
+				"level4": {
+					"id": null,
+					"img": "",
+					"level": 4,
+					"name": "",
+					"pack": null
+				},
+				"level5": {
+					"id": null,
+					"img": "",
+					"level": 5,
+					"name": "",
+					"pack": null
+				},
+				"level6": {
+					"id": null,
+					"img": "",
+					"level": 6,
+					"name": "",
+					"pack": null
+				},
+				"level7": {
+					"id": null,
+					"img": "",
+					"level": 7,
+					"name": "",
+					"pack": null
+				},
+				"level8": {
+					"id": null,
+					"img": "",
+					"level": 8,
+					"name": "",
+					"pack": null
+				},
+				"level9": {
+					"id": null,
+					"img": "",
+					"level": 9,
+					"name": "",
+					"pack": null
+				}
+			}
+		},
+		"spellSpecializationForbiddenNames": "",
+		"spellSpecializationName": "",
+		"sr": false,
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"time": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": null,
+			"rechargeFormula": null,
+			"value": 0
+		}
+	},
+	"type": "feat"
+}

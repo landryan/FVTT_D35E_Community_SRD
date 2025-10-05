@@ -1,0 +1,203 @@
+{
+	"_id": "Rwwll19LISUgCJIA",
+	"_key": "!items!Rwwll19LISUgCJIA",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/items/inventory/Quest_47.png",
+	"name": "Thunderstone",
+	"system": {
+		"ability": {
+			"attack": "",
+			"critMult": 2,
+			"critRange": 21,
+			"damage": "",
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"actionType": "rwak",
+		"activation": {
+			"cost": 1,
+			"type": "attack"
+		},
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "Treat target squre as AC 5",
+		"attackParts": [
+		],
+		"autoDestroy": {
+			"_deprecated": true,
+			"value": true
+		},
+		"autoUse": {
+			"_deprecated": true,
+			"value": true
+		},
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"brokenResalePrice": "",
+		"carried": true,
+		"charges": {
+			"_deprecated": true,
+			"max": 1,
+			"value": 1
+		},
+		"classSource": "",
+		"constantWeight": false,
+		"consumableType": "misc",
+		"consume": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"container": "None",
+		"containerId": "none",
+		"containerWeightless": false,
+		"createdBy": "",
+		"critConfirmBonus": "",
+		"curseActive": false,
+		"cursed": false,
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customReferenceId": "",
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p>You can throw this stone as a ranged attack with a range increment of 20 feet. When it strikes a hard surface (or is struck hard), it creates a deafening bang that is treated as a sonic attack. Each creature within a 10-foot-radius spread must make a DC 15 Fortitude save or be deafened for 1 hour. A deafened creature, in addition to the obvious effects, takes a &ndash;4 penalty on initiative and has a 20% chance to miscast and lose any spell with a verbal component that it tries to cast. Since you don&rsquo;t need to hit a specific target, you can simply aim at a particular 5-foot square. Treat the target square as AC 5; if you miss, see Throw Splash Weapon, page 158, to determine where the thunderstone lands.</p>"
+		},
+		"duration": {
+			"units": "inst",
+			"value": null
+		},
+		"effectNotes": "Deafened for 1 Hour on Fortitude Save fail.",
+		"epic": "",
+		"equippedWeightless": false,
+		"favorite": false,
+		"formula": "",
+		"fullResalePrice": false,
+		"hardness": 0,
+		"hp": {
+			"max": 10,
+			"value": 10
+		},
+		"identified": true,
+		"identifiedCurse": false,
+		"identifiedName": "Thunderstone",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"isFromSpell": false,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 10,
+			"type": "circle"
+		},
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"possibleUpdate": false,
+		"pr": false,
+		"price": 0,
+		"psionic": "",
+		"quantity": 1,
+		"range": {
+			"long": null,
+			"units": "ft",
+			"value": "20"
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requiresPsionicFocus": false,
+		"resalePrice": "",
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": "15",
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "Fortitude",
+			"originVersion": 97,
+			"type": ""
+		},
+		"scrollType": "",
+		"source": "",
+		"specialActions": [
+		],
+		"sr": false,
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"unidentified": {
+			"name": "",
+			"price": 0
+		},
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": "single",
+			"rechargeFormula": null,
+			"value": 0
+		},
+		"weight": 0
+	},
+	"type": "consumable"
+}

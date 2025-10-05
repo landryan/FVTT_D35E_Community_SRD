@@ -1,0 +1,197 @@
+{
+	"_id": "YfSi5LDdVEczUIPq",
+	"_key": "!items!YfSi5LDdVEczUIPq",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/races/dwarf-deep.png",
+	"name": "Dwarf, Deep",
+	"system": {
+		"activateActions": [
+		],
+		"addedAbilities": [
+			{
+				"level": 0,
+				"uid": "rac-las"
+			},
+			{
+				"level": 0,
+				"uid": "racial-goblinslayer"
+			},
+			{
+				"level": 0,
+				"uid": "rac-stability"
+			},
+			{
+				"level": 0,
+				"uid": "racial-stand-against-giants"
+			},
+			{
+				"level": 0,
+				"uid": "rac-stonecunning"
+			}
+		],
+		"attackParts": [
+		],
+		"carried": false,
+		"changeFlags": {
+			"hasted": false,
+			"heavyArmorFullSpeed": true,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": true,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": true,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+			[
+				"-10",
+				"speed",
+				"allSpeeds",
+				"racial"
+			],
+			[
+				"-2",
+				"ability",
+				"cha",
+				"racial"
+			],
+			[
+				"2",
+				"ability",
+				"con",
+				"racial"
+			]
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"constantWeight": false,
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+			[
+				"[[+3]] against poison",
+				"savingThrows",
+				"fort"
+			],
+			[
+				"[[+3]] against spells and spell-like effects",
+				"savingThrows",
+				"allSavingThrows"
+			]
+		],
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"creatureType": "humanoid",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p class=\"initial\">These dwarves live far underground and tend to be more standoffish with non-dwarves.</p>\n<p>Deep dwarves are the same height as other dwarves, but leaner. Their skin sometimes has a reddish tinge, and their large eyes lack the brightness of those of their kindred, being a washed-out blue. Their hair color ranges from bright red to straw blond. They have little contact with surface dwellers, relying on hill dwarves or mountain dwarves to trade goods for them.</p>\n<p>Deep dwarves speak Dwarven and Goblin, and occasionally Draconic or Undercommon.</p>\n<ul>\n<li>+2 Constitution, &ndash;2 Charisma.</li>\n<li>Humanoid (Dwarf).</li>\n<li>Medium: As Medium creatures, deep dwarves have no special bonuses or penalties due to their size.</li>\n<li>Deep dwarf base land speed is 20 feet. However, deep dwarves can move at this speed even when wearing medium or heavy armor or when carrying a medium or heavy load (unlike other creatures, whose speed is reduced in such situations).</li>\n<li>Darkvision: deep dwarves can see in the dark up to 90 feet. Darkvision is black and white only, but it is otherwise like normal sight, and deep dwarves can function just fine with no light at all.</li>\n<li>Stonecunning: This ability grants a deep dwarf a +2 racial bonus on Search checks to notice unusual stonework, such as sliding walls, stonework traps, new construction (even when built to match the old), unsafe stone surfaces, shaky stone ceilings, and the like. Something that isn&rsquo;t stone but that is disguised as stone also counts as unusual stonework. A deep dwarf who merely comes within 10 feet of unusual stonework can make a Search check as if he were actively searching, and a deep dwarf can use the Search skill to find stonework traps as a rogue can. A deep dwarf can also intuit depth, sensing his approximate depth underground as naturally as a human can sense which way is up.</li>\n<li>Weapon Familiarity: deep dwarves may treat dwarven waraxes and dwarven urgroshes as martial weapons, rather than exotic weapons.</li>\n<li>Stability: A deep dwarf gains a +4 bonus on ability checks made to resist being bull rushed or tripped when standing on the ground (but not when climbing, flying, riding, or otherwise not standing firmly on the ground).</li>\n<li>+3 racial bonus on saving throws against poison.</li>\n<li>+3 racial bonus on saving throws against spells and spell-like effects.</li>\n<li>+1 racial bonus on attack rolls against orcs and goblinoids.</li>\n<li>+4 dodge bonus to Armor Class against monsters of the giant type. Any time a creature loses its Dexterity bonus (if any) to Armor Class, such as when it&rsquo;s caught flat-footed, it loses its dodge bonus, too.</li>\n<li>+2 racial bonus on Appraise checks that are related to stone or metal items.</li>\n<li>+2 racial bonus on Craft checks that are related to stone or metal.</li>\n<li>Light Sensitivity: Deep dwarves are dazzled in bright sunlight or within the radius of a daylight spell.</li>\n<li>Automatic Languages: Dwarven and Goblin. Bonus Languages: Giant, Gnome, Common, Draconic, Orc, Terran, and Undercommon.</li>\n<li>Favored Class: Fighter. A multiclass deep dwarf&rsquo;s Fighter class does not count when determining whether he takes an experience point penalty for multiclassing.</li>\n<li>Level Adjustment: +0.</li>\n</ul>"
+		},
+		"disabledAbilities": [
+		],
+		"epic": "",
+		"equippedWeightless": false,
+		"identifiedName": "Dwarf, Deep",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"la": null,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"links": {
+			"children": [
+			]
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"psionic": "",
+		"requirements": [
+		],
+		"resistances": [
+		],
+		"senses": {
+			"blindsight": null,
+			"darkvision": 90,
+			"lowLight": false,
+			"tremorsense": null,
+			"truesight": null
+		},
+		"sizeOverride": "",
+		"source": "",
+		"specialActions": [
+		],
+		"subTypes": [
+		],
+		"tags": [
+		],
+		"uniqueId": "",
+		"userNonRemovable": false
+	},
+	"type": "race"
+}

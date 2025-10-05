@@ -1,0 +1,790 @@
+{
+	"_id": "BadNF2AvW8s5rEqd",
+	"_key": "!items!BadNF2AvW8s5rEqd",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/items/magic/weapons/named/everwhirling-chain.png",
+	"name": "Everwhirling Chain",
+	"system": {
+		"attackNotes": "",
+		"baseWeaponType": "Spiked Chain",
+		"bonus": {
+			"_deprecated": true,
+			"value": 0
+		},
+		"brokenResalePrice": "",
+		"carried": true,
+		"changeFlags": {
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"constantWeight": true,
+		"container": "None",
+		"containerId": "none",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"curseActive": false,
+		"cursed": false,
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"parts": [
+			]
+		},
+		"damage2": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"damage2Type": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"damageReduction": [
+		],
+		"damageType": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"description": {
+			"chat": "",
+			"unidentified": "<p>A spiked chain has reach, so you can strike opponents 10 feet away with it. In addition, unlike most other weapons with reach, it can be used against an adjacent foe. Because the chain can wrap around an enemy’s leg or other limb, you can make trip attacks with the chain. If you are tripped during your own trip attempt, you can drop the chain to avoid being tripped. When using a spiked chain, you get a +2 bonus on opposed attack rolls made to disarm an opponent (including the roll to avoid being disarmed if such an attempt fails). You can use the Weapon Finesse feat (page 102) to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a spiked chain sized for you, even though it isn’t a light weapon for you.</p>",
+			"value": "<p><strong>Everwhirling Chain:</strong>&nbsp;This +<em>4 defending everdancing spiked chain of speed</em>&nbsp;continuously twitches in its wielder's hands. The wielder of the&nbsp;<em>everwhirling chain</em>&nbsp;can use it to make any number of attacks of opportunity per round (as if he or she had the Improved Combat Reflexes feat).</p>\n<p><em>Caster Level:</em>&nbsp;23rd;&nbsp;<em>Prerequisites:</em>&nbsp;Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor,&nbsp;<em>animate objects</em>,&nbsp;<em>haste</em>,&nbsp;<em>shield</em>&nbsp;(or&nbsp;<em>shield of faith</em>);&nbsp;<em>Market Price:</em>&nbsp;5,220,325 gp;&nbsp;<em>Cost to Create:</em>&nbsp;2,610,325 gp + 52,200 XP.</p>"
+		},
+		"effectNotes": "",
+		"enh": 4,
+		"enhancements": {
+			"automation": {
+				"updateName": false,
+				"updatePrice": false
+			},
+			"clFormula": "",
+			"items": [
+				{
+					"_id": "BadNF2AvW8s5rEqd-Ng5AlRupmkMOgqQi",
+					"calcPrice": "+1",
+					"data": {
+						"ability": {
+							"attack": null,
+							"critMult": 2,
+							"critRange": 20,
+							"damage": null,
+							"damageMult": 1
+						},
+						"actionType": "",
+						"activateActions": [
+						],
+						"activation": {
+							"cost": 1,
+							"type": ""
+						},
+						"allowedTypes": [
+						],
+						"attack": {
+							"parts": [
+							]
+						},
+						"attackBonus": "",
+						"attackNotes": "",
+						"attackParts": [
+						],
+						"changeFlags": {
+							"heavyArmorFullSpeed": false,
+							"loseDexToAC": false,
+							"mediumArmorFullSpeed": false,
+							"noDex": false,
+							"noEncumbrance": false,
+							"noStr": false,
+							"oneCha": false,
+							"oneInt": false,
+							"oneWis": false
+						},
+						"changes": [
+						],
+						"conditionFlags": {
+							"dazzled": false,
+							"polymorphed": false,
+							"wildshaped": false
+						},
+						"container": "None",
+						"containerWeightless": false,
+						"contextNotes": [
+						],
+						"critConfirmBonus": "",
+						"damage": {
+							"parts": [
+							]
+						},
+						"deactivateActions": [
+						],
+						"description": {
+							"chat": "",
+							"unidentified": "",
+							"value": "<p>Magic weapons have enhancement bonuses ranging from +1 to +5. They apply these bonuses to both attack and damage rolls when used in combat. All magic weapons are also masterwork weapons, but their masterwork bonus on attack rolls does not stack with their enhancement bonus on attack rolls.</p>"
+						},
+						"duration": {
+							"units": "",
+							"value": null
+						},
+						"effectNotes": "",
+						"enh": 4,
+						"enhIncrease": 4,
+						"enhIncreaseFormula": "@enhancement",
+						"enhancementType": "weapon",
+						"formula": "",
+						"identifiedName": "+1 Weapon Enhancement",
+						"measureTemplate": {
+							"customColor": "",
+							"customTexture": "",
+							"overrideColor": false,
+							"overrideTexture": false,
+							"size": 0,
+							"type": ""
+						},
+						"nameExtension": {
+							"prefix": "",
+							"suffix": ""
+						},
+						"originVersion": 97,
+						"price": 0,
+						"priceFormula": "",
+						"properties": {
+						},
+						"range": {
+							"long": null,
+							"units": "",
+							"value": null
+						},
+						"requirements": "",
+						"save": {
+							"dc": 0,
+							"description": "",
+							"originVersion": 97
+						},
+						"sizeOverride": "",
+						"specialActions": [
+						],
+						"tags": [
+						],
+						"target": {
+							"value": ""
+						},
+						"uses": {
+							"allowMultipleUses": false,
+							"autoDeductCharges": true,
+							"chargesPerUse": 1,
+							"max": 0,
+							"per": null,
+							"value": 0
+						},
+						"weaponAttackNotes": [
+						],
+						"weaponData": {
+							"damageRoll": "",
+							"damageType": ""
+						}
+					},
+					"flags": {
+					},
+					"hasAction": false,
+					"hasUses": false,
+					"img": "systems/D35E/icons/crafting-station/enhancements/enhancement-weapon.png",
+					"incorrect": false,
+					"isCharged": false,
+					"name": "+1 Weapon Enhancement",
+					"permission": {
+						"default": 0,
+						"wbFPpmVfPG23MbMC": 3
+					},
+					"type": "enhancement"
+				},
+				{
+					"_id": "BadNF2AvW8s5rEqd-slKKGJe2ge31NiIt",
+					"calcPrice": "+1",
+					"data": {
+						"ability": {
+							"attack": null,
+							"critMult": 2,
+							"critRange": 20,
+							"damage": "",
+							"damageMult": 1
+						},
+						"actionType": "special",
+						"activation": {
+							"cost": 1,
+							"type": "free"
+						},
+						"allowedTypes": [
+							[
+								"weapon"
+							]
+						],
+						"attack": {
+							"parts": [
+							]
+						},
+						"attackBonus": "",
+						"attackNotes": "",
+						"attackParts": [
+						],
+						"changeFlags": {
+							"heavyArmorFullSpeed": false,
+							"loseDexToAC": false,
+							"mediumArmorFullSpeed": false,
+							"noDex": false,
+							"noEncumbrance": false,
+							"noStr": false,
+							"oneCha": false,
+							"oneInt": false,
+							"oneWis": false
+						},
+						"changes": [
+						],
+						"conditionFlags": {
+							"dazzled": false,
+							"polymorphed": false,
+							"wildshaped": false
+						},
+						"contextNotes": [
+						],
+						"critConfirmBonus": "",
+						"damage": {
+							"parts": [
+							]
+						},
+						"description": {
+							"chat": "",
+							"unidentified": "",
+							"value": "<p>A defending weapon allows the wielder to transfer some or all of the sword’s enhancement bonus to his AC as a bonus that stacks with all others. As a free action, the wielder chooses how to allocate the weapon’s enhancement bonus at the start of his turn before using the weapon, and the effect to AC lasts until his next turn.</p>"
+						},
+						"duration": {
+							"units": "round",
+							"value": "1"
+						},
+						"effectNotes": "",
+						"enh": 0,
+						"enhIncrease": 1,
+						"enhIncreaseFormula": "1",
+						"enhIsLevel": false,
+						"enhancementType": "weapon",
+						"formula": "",
+						"measureTemplate": {
+							"customColor": "",
+							"customTexture": "",
+							"overrideColor": false,
+							"overrideTexture": false,
+							"size": 0,
+							"type": ""
+						},
+						"nameExtension": {
+							"prefix": "Defending",
+							"suffix": ""
+						},
+						"originVersion": 97,
+						"price": 0,
+						"priceFormula": "",
+						"properties": {
+							"def": true,
+							"dis": false,
+							"kee": false,
+							"mnk": false,
+							"spd": false,
+							"thr": false
+						},
+						"range": {
+							"long": null,
+							"units": "personal",
+							"value": null
+						},
+						"requirements": "CL 8th; Craft Magic Arms and Armor, shield or shield of faith",
+						"save": {
+							"dc": "0",
+							"description": "",
+							"originVersion": 97
+						},
+						"sizeOverride": "",
+						"specialActions": [
+						],
+						"tags": [
+						],
+						"target": {
+							"value": "Self"
+						},
+						"uses": {
+							"allowMultipleUses": false,
+							"autoDeductCharges": true,
+							"chargesPerUse": 1,
+							"max": 0,
+							"per": "",
+							"value": 0
+						},
+						"weaponAttackNotes": [
+						],
+						"weaponData": {
+							"damageRoll": "",
+							"damageType": ""
+						}
+					},
+					"flags": {
+					},
+					"hasAction": true,
+					"hasUses": false,
+					"img": "systems/D35E/icons/crafting-station/enhancements/weapons/defending.png",
+					"incorrect": false,
+					"isCharged": false,
+					"name": "Defending",
+					"permission": {
+						"default": 0,
+						"wbFPpmVfPG23MbMC": 3
+					},
+					"type": "enhancement"
+				},
+				{
+					"_id": "BadNF2AvW8s5rEqd-2wZe6N32jo7bNdSn",
+					"calcPrice": "+8",
+					"data": {
+						"ability": {
+							"attack": null,
+							"critMult": 2,
+							"critRange": 20,
+							"damage": null,
+							"damageMult": 1
+						},
+						"actionType": "",
+						"activation": {
+							"cost": 1,
+							"type": ""
+						},
+						"allowedTypes": [
+							[
+								"weapon"
+							]
+						],
+						"attack": {
+							"parts": [
+							]
+						},
+						"attackBonus": "",
+						"attackNotes": "",
+						"attackParts": [
+						],
+						"changeFlags": {
+							"heavyArmorFullSpeed": false,
+							"loseDexToAC": false,
+							"mediumArmorFullSpeed": false,
+							"noDex": false,
+							"noEncumbrance": false,
+							"noStr": false,
+							"oneCha": false,
+							"oneInt": false,
+							"oneWis": false
+						},
+						"changes": [
+						],
+						"conditionFlags": {
+							"dazzled": false,
+							"polymorphed": false,
+							"wildshaped": false
+						},
+						"contextNotes": [
+						],
+						"critConfirmBonus": "",
+						"damage": {
+							"parts": [
+							]
+						},
+						"description": {
+							"chat": "",
+							"unidentified": "",
+							"value": "<p>An everdancing weapon is much like a dancing weapon, though it can be loosed with a free action and will fight as long as desired. It can move up to 60 feet away from its owner. Its owner can instruct it to move to a different target as a move-equivalent action. If its owner is rendered unconscious or otherwise unable to direct it, it will fight the same opponent as long as that opponent is conscious and within range. The owner of an everdancing weapon can grasp it again as a free action (assuming it is within reach).</p>"
+						},
+						"duration": {
+							"units": "",
+							"value": null
+						},
+						"effectNotes": "",
+						"enh": 0,
+						"enhIncrease": 8,
+						"enhIncreaseFormula": "8",
+						"enhIsLevel": false,
+						"enhancementType": "weapon",
+						"formula": "",
+						"measureTemplate": {
+							"customColor": "",
+							"customTexture": "",
+							"overrideColor": false,
+							"overrideTexture": false,
+							"size": 0,
+							"type": ""
+						},
+						"nameExtension": {
+							"prefix": "Everdancing",
+							"suffix": ""
+						},
+						"originVersion": 97,
+						"price": 0,
+						"priceFormula": "",
+						"properties": {
+							"def": false,
+							"dis": false,
+							"kee": false,
+							"mnk": false,
+							"spd": false,
+							"thr": false
+						},
+						"range": {
+							"long": null,
+							"units": "",
+							"value": null
+						},
+						"requirements": "Caster Level: 23rd; Prerequisites: Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor, animate objects",
+						"save": {
+							"dc": 0,
+							"description": "",
+							"originVersion": 97
+						},
+						"sizeOverride": "",
+						"specialActions": [
+						],
+						"tags": [
+						],
+						"target": {
+							"value": ""
+						},
+						"uses": {
+							"allowMultipleUses": false,
+							"autoDeductCharges": true,
+							"chargesPerUse": 1,
+							"max": 0,
+							"per": null,
+							"value": 0
+						},
+						"weaponAttackNotes": [
+						],
+						"weaponData": {
+							"damageRoll": "",
+							"damageType": ""
+						}
+					},
+					"flags": {
+					},
+					"hasAction": false,
+					"hasUses": false,
+					"img": "systems/D35E/icons/crafting-station/enhancements/weapons/everdancing.png",
+					"incorrect": false,
+					"isCharged": false,
+					"name": "Everdancing",
+					"permission": {
+						"default": 0,
+						"wbFPpmVfPG23MbMC": 3
+					},
+					"type": "enhancement"
+				},
+				{
+					"_id": "BadNF2AvW8s5rEqd-i5uiIHPkrW4US3fl",
+					"calcPrice": "+3",
+					"data": {
+						"ability": {
+							"attack": null,
+							"critMult": 2,
+							"critRange": 20,
+							"damage": null,
+							"damageMult": 1
+						},
+						"actionType": "",
+						"activation": {
+							"cost": 1,
+							"type": ""
+						},
+						"allowedTypes": [
+						],
+						"attack": {
+							"parts": [
+							]
+						},
+						"attackBonus": "",
+						"attackNotes": "",
+						"attackParts": [
+						],
+						"changeFlags": {
+							"heavyArmorFullSpeed": false,
+							"loseDexToAC": false,
+							"mediumArmorFullSpeed": false,
+							"noDex": false,
+							"noEncumbrance": false,
+							"noStr": false,
+							"oneCha": false,
+							"oneInt": false,
+							"oneWis": false
+						},
+						"changes": [
+						],
+						"conditionFlags": {
+							"dazzled": false,
+							"polymorphed": false,
+							"wildshaped": false
+						},
+						"contextNotes": [
+						],
+						"critConfirmBonus": "",
+						"damage": {
+							"parts": [
+							]
+						},
+						"description": {
+							"chat": "",
+							"unidentified": "",
+							"value": "<p>When making a full attack action, the wielder of a speed weapon may make one extra attack with it. The attack uses the wielder&rsquo;s full base attack bonus, plus any modifiers appropriate to the situation. (This benefit is not cumulative with similar effects, such as a haste spell.)</p>"
+						},
+						"duration": {
+							"units": "",
+							"value": null
+						},
+						"effectNotes": "",
+						"enh": 0,
+						"enhIncrease": 3,
+						"enhIncreaseFormula": "3",
+						"enhIsLevel": false,
+						"enhancementType": "weapon",
+						"formula": "",
+						"measureTemplate": {
+							"customColor": "",
+							"customTexture": "",
+							"overrideColor": false,
+							"overrideTexture": false,
+							"size": 0,
+							"type": ""
+						},
+						"nameExtension": {
+							"prefix": "",
+							"suffix": "Speed"
+						},
+						"originVersion": 97,
+						"price": 0,
+						"priceFormula": "",
+						"properties": {
+							"dis": false,
+							"kee": false,
+							"mnk": false,
+							"spd": true,
+							"thr": false
+						},
+						"range": {
+							"long": null,
+							"units": "",
+							"value": null
+						},
+						"requirements": "CL 7th; Craft Magic Arms and Armor, haste",
+						"save": {
+							"dc": 0,
+							"description": "",
+							"originVersion": 97
+						},
+						"sizeOverride": "",
+						"specialActions": [
+						],
+						"tags": [
+						],
+						"target": {
+							"value": ""
+						},
+						"uses": {
+							"allowMultipleUses": false,
+							"autoDeductCharges": true,
+							"chargesPerUse": 1,
+							"max": 0,
+							"per": null,
+							"value": 0
+						},
+						"weaponAttackNotes": [
+						],
+						"weaponData": {
+							"damageRoll": "",
+							"damageType": ""
+						}
+					},
+					"flags": {
+					},
+					"hasAction": false,
+					"hasUses": false,
+					"img": "systems/D35E/icons/crafting-station/enhancements/weapons/speed.png",
+					"incorrect": false,
+					"isCharged": false,
+					"name": "Speed",
+					"permission": {
+						"default": 0,
+						"wbFPpmVfPG23MbMC": 3
+					},
+					"type": "enhancement"
+				}
+			],
+			"spellcastingAbility": "",
+			"uses": {
+				"allowMultipleUses": false,
+				"autoDeductCharges": true,
+				"commonPool": false,
+				"max": 0,
+				"per": null,
+				"rechargeFormula": null,
+				"value": 0
+			}
+		},
+		"epic": "",
+		"equipped": true,
+		"equippedWeightless": false,
+		"fullResalePrice": false,
+		"hardness": 10,
+		"hp": {
+			"max": 10,
+			"value": 10
+		},
+		"identified": true,
+		"identifiedCurse": false,
+		"identifiedName": "Everwhirling Chain",
+		"index": {
+			"subType": "exotic",
+			"uniqueId": ""
+		},
+		"light": {
+			"alpha": 0.5,
+			"animationIntensity": "",
+			"animationSpeed": "",
+			"color": "#000000",
+			"dimRadius": "",
+			"emitLight": false,
+			"lightAngle": 360,
+			"opacity": 0,
+			"radius": null,
+			"type": ""
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedItems": [
+		],
+		"masterwork": false,
+		"material": {
+			"data": null
+		},
+		"melded": false,
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 100,
+		"possibleUpdate": false,
+		"price": 5220325,
+		"properties": {
+			"blc": false,
+			"brc": false,
+			"dbl": false,
+			"dis": true,
+			"fin": true,
+			"frg": false,
+			"grp": false,
+			"imp": false,
+			"mnk": false,
+			"nnl": false,
+			"prf": false,
+			"rch": false,
+			"snd": false,
+			"thr": false,
+			"trp": true
+		},
+		"psionic": "",
+		"quantity": 1,
+		"requirements": [
+		],
+		"resalePrice": "",
+		"resistances": [
+		],
+		"sizeOverride": "",
+		"source": "",
+		"tags": [
+		],
+		"unidentified": {
+			"name": "Spiked Chain",
+			"price": 25
+		},
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"weaponBaseType": "",
+		"weaponData": {
+			"alignment": {
+				"chaotic": false,
+				"evil": false,
+				"good": false,
+				"lawful": false
+			},
+			"attackFormula": "",
+			"critMult": "2",
+			"critRange": "20",
+			"damageFormula": "",
+			"damageRoll": "2d4",
+			"damageType": "P",
+			"damageTypeId": "",
+			"range": null,
+			"size": "med"
+		},
+		"weaponSubtype": "2h",
+		"weaponType": "exotic",
+		"weight": 10
+	},
+	"type": "weapon"
+}

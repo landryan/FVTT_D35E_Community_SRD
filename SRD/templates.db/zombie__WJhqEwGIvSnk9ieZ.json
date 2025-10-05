@@ -1,0 +1,383 @@
+{
+	"_id": "WJhqEwGIvSnk9ieZ",
+	"_key": "!items!WJhqEwGIvSnk9ieZ",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/racialhd/zombie.png",
+	"name": "Zombie",
+	"system": {
+		"activateActions": [
+		],
+		"addedAbilities": [
+		],
+		"allSpellsKnown": false,
+		"attackParts": [
+		],
+		"automaticFeatures": false,
+		"bab": "",
+		"changeFlags": {
+			"hasted": false,
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": true,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": true,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+			[
+				"2",
+				"ability",
+				"str",
+				"untyped"
+			],
+			[
+				"-2",
+				"ability",
+				"dex",
+				"untyped"
+			],
+			[
+				"-1",
+				"ability",
+				"int",
+				"replace"
+			],
+			[
+				"-1",
+				"ability",
+				"con",
+				"replace"
+			],
+			[
+				"10",
+				"ability",
+				"wis",
+				"replace"
+			],
+			[
+				"1",
+				"ability",
+				"cha",
+				"replace"
+			],
+			[
+				"100",
+				"misc",
+				"fortification",
+				"untyped"
+			]
+		],
+		"classSkills": {
+			"apr": false,
+			"aut": false,
+			"blc": false,
+			"blf": false,
+			"clm": false,
+			"coc": false,
+			"crf": false,
+			"dev": false,
+			"dip": false,
+			"dis": false,
+			"dsc": false,
+			"esc": false,
+			"fog": false,
+			"gif": false,
+			"han": false,
+			"hea": false,
+			"hid": false,
+			"int": false,
+			"jmp": false,
+			"kar": false,
+			"kdu": false,
+			"ken": false,
+			"kge": false,
+			"khi": false,
+			"klo": false,
+			"kna": false,
+			"kno": false,
+			"kpl": false,
+			"kps": false,
+			"kre": false,
+			"lis": false,
+			"mos": false,
+			"opl": false,
+			"prf": false,
+			"pro": false,
+			"psi": false,
+			"rid": false,
+			"sen": false,
+			"slt": false,
+			"spl": false,
+			"spt": false,
+			"src": false,
+			"sur": false,
+			"swm": false,
+			"tmb": false,
+			"umd": false,
+			"upd": false,
+			"uro": false
+		},
+		"classSource": "",
+		"classType": "template",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"counterName": "",
+		"crPerHD": 4,
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"creatureType": "undead",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"parts": [
+			]
+		},
+		"damageReduction": [
+			[
+				"5",
+				"slashing",
+				false
+			]
+		],
+		"deactivateActions": [
+		],
+		"deckHandSizeFormula": "0",
+		"deckPrestigeClass": false,
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<div style=\"box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75); border-radius: 3px; margin: 3px; padding: 3px; background-color: #ffffff73;\">This template requires you do rebuild a creature/character. Replace Racial HD with Undead type and reroll hp. Features denoted with <strong>*</strong> and <strong><span style=\"text-decoration: underline;\">underlined</span></strong> are set up automatically.</div>\n<p>Zombies are corpses reanimated through dark and sinister magic.</p>\n<p>Because of their utter lack of intelligence, the instructions given to a newly created zombie must be very simple.</p>\n<h2>Creating a Zombie</h2>\n<p>&ldquo;Zombie&rdquo; is an acquired template that can be added to any corporeal creature (other than an undead) that has a skeletal system (referred to hereafter as the base creature).</p>\n<p><strong>Size and Type: </strong>The creature&rsquo;s type changes to undead. It retains any subtypes except alignment subtypes and subtypes that indicate kind. It does not gain the augmented subtype. It uses all the base creature&rsquo;s statistics and special abilities except as noted here.</p>\n<p><strong>Hit Dice: </strong>Drop any Hit Dice from class levels (to a minimum of 1), double the number of Hit Dice left, and raise them to d12s. If the base creature has more than 10 Hit Dice (not counting those gained with experience), it can&rsquo;t be made into a zombie with the animate dead spell.</p>\n<p><strong>Speed: </strong>If the base creature can fly, its maneuverability rating drops to clumsy.</p>\n<p><strong>Armor Class: </strong>Natural armor bonus increases by a number based on the zombie&rsquo;s size:</p>\n<table>\n<tbody>\n<tr>\n<td>Tiny or smaller</td>\n<td>+0</td>\n</tr>\n<tr>\n<td>Small</td>\n<td>+1</td>\n</tr>\n<tr>\n<td>Medium</td>\n<td>+2</td>\n</tr>\n<tr>\n<td>Large</td>\n<td>+3</td>\n</tr>\n<tr>\n<td>Huge</td>\n<td>+4</td>\n</tr>\n<tr>\n<td>Gargantuan</td>\n<td>+7</td>\n</tr>\n<tr>\n<td>Colossal</td>\n<td>+11</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Base Attack: </strong>A zombie has a base attack bonus equal to 1/2 its Hit Dice.</p>\n<p><strong>Attacks: </strong>A zombie retains all the natural weapons, manufactured weapon attacks, and weapon proficiencies of the base creature. A zombie also gains a slam attack.</p>\n<p><strong>Damage: </strong>Natural and manufactured weapons deal damage normally. A slam attack deals damage depending on the zombie&rsquo;s size. (Use the base creature&rsquo;s slam damage if it&rsquo;s better.)</p>\n<table>\n<tbody>\n<tr>\n<td>Fine</td>\n<td>1</td>\n</tr>\n<tr>\n<td>Diminutive</td>\n<td>1d2</td>\n</tr>\n<tr>\n<td>Tiny</td>\n<td>1d3</td>\n</tr>\n<tr>\n<td>Small</td>\n<td>1d4</td>\n</tr>\n<tr>\n<td>Medium</td>\n<td>1d6</td>\n</tr>\n<tr>\n<td>Large</td>\n<td>1d8</td>\n</tr>\n<tr>\n<td>Huge</td>\n<td>2d6</td>\n</tr>\n<tr>\n<td>Gargantuan</td>\n<td>2d8</td>\n</tr>\n<tr>\n<td>Colossal</td>\n<td>4d6</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Special Attacks: </strong>A zombie retains none of the base creature&rsquo;s special attacks.</p>\n<p><strong>Special Qualities: </strong>A zombie loses most special qualities of the base creature. It retains any extraordinary special qualities that improve its melee or ranged attacks. A zombie gains the following special quality.</p>\n<p><span style=\"text-decoration: underline;\"><em>Damage Reduction 5/Slashing (Ex)*</em></span>: Zombies are lumbering masses of flesh.</p>\n<p><em>Single Actions Only (Ex)</em>: Zombies have poor reflexes and can perform only a single move action or attack action each round. A zombie can move up to its speed and attack in the same round, but only if it attempts a charge.</p>\n<p><strong>Saves: </strong>Base save bonuses are Fort +1/3 HD, Ref +1/3 HD, and Will +1/2 HD + 2.</p>\n<p><span style=\"text-decoration: underline;\"><strong>Abilities*: </strong></span>A zombie&rsquo;s Strength increases by +2, its Dexterity decreases by 2, it has no Constitution or Intelligence score, its Wisdom changes to 10, and its Charisma changes to 1.</p>\n<p><strong>Skills: </strong>A zombie has no skills.</p>\n<p><strong>Feats: </strong>A zombie loses all feats of the base creature and gains Toughness.</p>\n<p><strong>Environment:</strong> Any land and underground.</p>\n<p><strong>Organization: </strong>Any.</p>\n<p><strong>Challenge Rating: </strong>Depends on Hit Dice, as follows:</p>\n<p>Hit Dice Challenge Rating</p>\n<table>\n<tbody>\n<tr>\n<th>Hit Dice</th>\n<th>Challenge Rating</th>\n</tr>\n<tr>\n<td>1/2</td>\n<td>1/8</td>\n</tr>\n<tr>\n<td>1</td>\n<td>1/4</td>\n</tr>\n<tr>\n<td>2</td>\n<td>1/2</td>\n</tr>\n<tr>\n<td>4</td>\n<td>1</td>\n</tr>\n<tr>\n<td>6</td>\n<td>2</td>\n</tr>\n<tr>\n<td>8&ndash;10</td>\n<td>3</td>\n</tr>\n<tr>\n<td>12&ndash;14</td>\n<td>4</td>\n</tr>\n<tr>\n<td>15&ndash;16</td>\n<td>5</td>\n</tr>\n<tr>\n<td>18&ndash;20</td>\n<td>6</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Treasure: </strong>None.</p>\n<p><strong>Alignment: </strong>Always neutral evil.</p>\n<p><strong>Advancement: </strong>As base creature, but double Hit Dice (maximum 20), or &mdash; if the base creature advances by character class.</p>\n<p><strong>Level Adjustment: </strong>&mdash;.</p>"
+		},
+		"disabledAbilities": [
+		],
+		"epic": "",
+		"fc": {
+			"alt": {
+				"value": 0
+			},
+			"hp": {
+				"value": 0
+			},
+			"skill": {
+				"value": 0
+			}
+		},
+		"halfCasterLevel": false,
+		"hasLimitedSpellbook": false,
+		"hasSpecialSlot": false,
+		"hasSpellbook": false,
+		"hd": 0,
+		"hdReplace": "",
+		"hdReplaceRacialOnly": false,
+		"hp": 0,
+		"identifiedName": "Zombie",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"knownCardsSizeFormula": "0",
+		"la": 0,
+		"levels": 0,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"maxLevel": 1,
+		"minionGroup": "none",
+		"minionLevelFormula": "0",
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"nonActiveClassAbilities": [
+		],
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"powerPointBonusBaseAbility": "0",
+		"powerPointTable": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"powersKnown": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"powersMaxLevel": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"prestigeLevels": 0,
+		"psionic": "",
+		"requirements": [
+		],
+		"resistances": [
+		],
+		"savingThrows": {
+			"fort": {
+				"value": ""
+			},
+			"ref": {
+				"value": ""
+			},
+			"will": {
+				"value": ""
+			}
+		},
+		"sizeOverride": "",
+		"skillsPerLevel": 0,
+		"sneakAttackFormula": "0",
+		"sneakAttackGroup": "none",
+		"source": "",
+		"specialActions": [
+		],
+		"spellPointBonusFormula": "0",
+		"spellPointGroup": "wizard",
+		"spellPointTable": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"spellbook": [
+		],
+		"spellcastingAbility": "int",
+		"spellcastingDescription": "None",
+		"spellcastingSpellname": "Spell",
+		"spellcastingSpellnamePl": "Spells",
+		"spellcastingSpontaneus": false,
+		"spellcastingType": "none",
+		"spellsKnownPerLevel": [
+		],
+		"spellsPerLevel": [
+		],
+		"spellslotAbility": "",
+		"tags": [
+		],
+		"turnUndeadLevelFormula": "0",
+		"uniqueId": "",
+		"userNonRemovable": false
+	},
+	"type": "class"
+}

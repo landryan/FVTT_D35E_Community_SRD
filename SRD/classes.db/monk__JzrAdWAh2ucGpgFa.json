@@ -1,0 +1,445 @@
+{
+	"_id": "JzrAdWAh2ucGpgFa",
+	"_key": "!items!JzrAdWAh2ucGpgFa",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/class/monk.png",
+	"name": "Monk",
+	"system": {
+		"addedAbilities": [
+		],
+		"allSpellsKnown": false,
+		"automaticFeatures": true,
+		"bab": "med",
+		"changeFlags": {
+			"hasted": false,
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+			[
+				"floor(@classes.monk.level/5)+max(0,@abilities.wis.mod)",
+				"ac",
+				"ac",
+				"inherent"
+			],
+			[
+				"${this.attributes.encumbrance.level > 0 ? 0 : Math.floor(this.classes.monk.level/3)*10}",
+				"speed",
+				"landSpeed",
+				"enh"
+			]
+		],
+		"classSkills": {
+			"acr": true,
+			"apr": false,
+			"art": false,
+			"aut": false,
+			"blc": true,
+			"blf": false,
+			"clm": true,
+			"coc": true,
+			"crf": true,
+			"dev": false,
+			"dip": true,
+			"dis": false,
+			"dsc": false,
+			"esc": true,
+			"fly": false,
+			"fog": false,
+			"gif": false,
+			"han": false,
+			"hea": false,
+			"hid": true,
+			"int": false,
+			"jmp": true,
+			"kar": true,
+			"kdu": false,
+			"ken": false,
+			"kge": false,
+			"khi": false,
+			"klo": false,
+			"kna": false,
+			"kno": false,
+			"kpl": false,
+			"kps": false,
+			"kre": true,
+			"lin": false,
+			"lis": true,
+			"lor": false,
+			"mos": true,
+			"opl": false,
+			"per": true,
+			"prf": true,
+			"pro": true,
+			"psi": false,
+			"rid": false,
+			"sen": true,
+			"slt": false,
+			"spl": false,
+			"spt": true,
+			"src": false,
+			"ste": false,
+			"sur": false,
+			"swm": true,
+			"tmb": true,
+			"umd": false,
+			"upd": false,
+			"uro": false
+		},
+		"classSource": "",
+		"classType": "base",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"counterName": "",
+		"crPerHD": 4,
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"creatureType": "humanoid",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "monk",
+		"damage": {
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"deckHandSizeFormula": "0",
+		"deckPrestigeClass": false,
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p class=\"p1\"><img style=\"border: none; float: right; shape-outside: polygon(40% 0, 0 100%, 100% 100%, 100% 0);\" src=\"systems/D35E/icons/art/monk-male.png\" alt=\"\" width=\"300\"> For the truly exemplary, martial skill transcends the battlefield—it is a lifestyle, a doctrine, a state of mind. These warrior-artists search out methods of battle beyond swords and shields, finding weapons within themselves just as capable of crippling or killing as any blade. These monks (so called since they adhere to ancient philosophies and strict martial disciplines) elevate their bodies to become weapons of war, from battle-minded ascetics to self-taught brawlers. Monks tread the path of discipline, and those with the will to endure that path discover within themselves not what they are, but what they are meant to be.</p>\n<p class=\"p1\"><strong>Alignment:</strong> Any lawful.</p>\n<p class=\"p1\"><strong>Hit Die:</strong> d8.</p>\n<h2 class=\"p1\">Class Skills</h2>\n<p class=\"p1\">The monk’s class skills (and the key ability for each skill) are Balance (Dex), Climb (Str), Concentration (Con), Craft (Int), Diplomacy (Cha), Escape Artist (Dex), Hide (Dex), Jump (Str), Knowledge (arcana) (Int), Knowledge (religion) (Int), Listen (Wis), Move Silently (Dex), Perform (Cha), Profession (Wis), Sense Motive (Wis), Spot (Wis), Swim (Str), and Tumble (Dex).</p>\n<p class=\"p1\"><strong>Skill Points at 1st Level:</strong> (4 + Int modifier) x4.</p>\n<p class=\"p1\"><strong>Skill Points at Each Additional Level:</strong> 4 + Int modifier.</p>\n<h2 class=\"p1\">Ex-Monks</h2>\n<p class=\"p1\">A monk who becomes nonlawful cannot gain new levels as a monk but retains all monk abilities.</p>\n<p class=\"p1\">Like a member of any other class, a monk may be a multiclass character, but multiclass monks face a special restriction. A monk who gains a new class or (if already multiclass) raises another class by a level may never again raise her monk level, though she retains all her monk abilities.</p>\n<p><br><span style=\"font-size: 13px; opacity: 0.8;\">Some description after&nbsp; Pathfinder RPG Core Rulebook. © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams. Artwork by Daniel Comerci.</span></p>"
+		},
+		"disabledAbilities": [
+		],
+		"epic": "",
+		"extraDescription": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<h2>Weapon and Armor Proficiency</h2>\n<p>A brawler is proficient with all simple weapons plus the&nbsp;<a href=\"https://www.d20pfsrd.com/equipment/weapons/weapon-descriptions/handaxe\">handaxe</a>, short sword, and weapons from the close&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/fighter\">fighter</a>&nbsp;weapon group. She is proficient with light armor and shields (except tower shields).</p>\n<h2>Brawler's Cunning (Ex)</h2>\n<p>If the brawler’s&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/ability-scores#TOC-Intelligence-Int-\">Intelligence</a>&nbsp;score is less than 13, it counts as 13 for the purpose of meeting the prerequisites of&nbsp;<a href=\"https://www.d20pfsrd.com/feats/combat-feats\">combat feats</a>.</p>\n<h2>Martial Flexibility (Ex)</h2>\n<p>A brawler can take a&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Move-Actions\">move action</a>&nbsp;to gain the benefit of a&nbsp;<a href=\"https://www.d20pfsrd.com/feats/combat-feats\">combat feat</a>&nbsp;she doesn’t possess. This effect lasts for 1 minute. The brawler must meet all the feat’s prerequisites. She may use this ability a number of times per day equal to 3 + 1/2 her brawler level (minimum 1).</p>\n<p>The brawler can use this ability again before the duration expires in order to replace the previous&nbsp;<a href=\"https://www.d20pfsrd.com/feats/combat-feats\">combat feat</a>&nbsp;with another choice.</p>\n<p>If a&nbsp;<a href=\"https://www.d20pfsrd.com/feats/combat-feats\">combat feat</a>&nbsp;has a daily use limitation (such as&nbsp;<a href=\"https://www.d20pfsrd.com/feats/combat-feats/stunning-fist-combat\">Stunning Fist</a>), any uses of that&nbsp;<a href=\"https://www.d20pfsrd.com/feats/combat-feats\">combat feat</a>&nbsp;while using this ability count toward that feat’s daily limit.</p>\n<p>At 6th level, a brawler can use this ability to gain the benefit of two&nbsp;<a href=\"https://www.d20pfsrd.com/feats/combat-feats\">combat feats</a>&nbsp;at the same time. She may select one feat as a&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Swift-Actions\">swift action</a>&nbsp;or two feats as a&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Move-Actions\">move action</a>. She may use one of these feats to meet a prerequisite of the second feat; doing so means that she cannot replace a feat currently fulfilling another’s prerequisite without also replacing those feats that require it. Each individual feat selected counts toward her daily uses of this ability.</p>\n<p>At 10th level, a brawler can use this ability to gain the benefit of three&nbsp;<a href=\"https://www.d20pfsrd.com/feats/combat-feats\">combat feats</a>&nbsp;at the same time. She may select one feat as a&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Free-Actions\">free action</a>, two feats as a&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Swift-Actions\">swift action</a>, or three feats as a&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Move-Actions\">move action</a>. She may use one of the feats to meet a prerequisite of the second and third feats, and use the second feat to meet a prerequisite of the third feat. Each individual feat selected counts toward her daily uses of this ability.</p>\n<p>At 12th level, a brawler can use this ability to gain the benefit of one&nbsp;<a href=\"https://www.d20pfsrd.com/feats/combat-feats\">combat feat</a>&nbsp;as an&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Immediate-Actions\">immediate action</a>&nbsp;or three&nbsp;<a href=\"https://www.d20pfsrd.com/feats/combat-feats\">combat feats</a>&nbsp;as a&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Swift-Actions\">swift action</a>. Each individual feat selected counts toward her daily uses of this ability.</p>\n<p>At 20th level, a brawler can use this ability to gain the benefit of any number of&nbsp;<a href=\"https://www.d20pfsrd.com/feats/combat-feats\">combat feats</a>&nbsp;as a&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Swift-Actions\">swift action</a>. Each feat selected counts toward her daily uses of this ability.</p>\n<h2>Martial Training (Ex)</h2>\n<p>At 1st level, a brawler counts her total brawler levels as both&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/fighter\">fighter</a>&nbsp;levels and&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/monk\">monk</a>&nbsp;levels for the purpose of qualifying for feats. She also counts as both a&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/fighter\">fighter</a>&nbsp;and a&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/monk\">monk</a>&nbsp;for feats and magic items that have different effects based on whether the character has levels in those classes (such as&nbsp;<a href=\"https://www.d20pfsrd.com/feats/combat-feats/stunning-fist-combat\">Stunning Fist</a>&nbsp;and a&nbsp;<a href=\"https://www.d20pfsrd.com/magic-items/wondrous-items/wondrous-items/r-z/robe-monk-s\">monk’s robe</a>). This ability does not automatically grant feats normally granted to&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/fighter\">fighters</a>&nbsp;and&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/monk\">monks</a>&nbsp;based on class level, namely&nbsp;<a href=\"https://www.d20pfsrd.com/feats/combat-feats/stunning-fist-combat\">Stunning Fist</a>.</p>\n<h2>Unarmed Strike</h2>\n<p>At 1st level, a brawler gains&nbsp;<a href=\"https://www.d20pfsrd.com/feats/combat-feats/improved-unarmed-strike-combat\">Improved Unarmed Strike</a>&nbsp;as a bonus feat. A brawler may attack with fists, elbows, knees, and feet. This means that a brawler may make unarmed strikes with her hands full. A brawler applies her full&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/ability-scores#TOC-Strength-Str-\">Strength</a>&nbsp;modifier (not half ) on damage rolls for all her unarmed strikes.</p>\n<p>Usually, a brawler’s unarmed strikes deal lethal damage, but she can choose to deal&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Nonlethal-Damage\">nonlethal damage</a>&nbsp;instead with no penalty on her&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Attack-Roll\">attack roll</a>. She has the same choice to deal lethal or&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Nonlethal-Damage\">nonlethal damage</a>&nbsp;while&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Grapple\">grappling</a>.</p>\n<p>A brawler’s&nbsp;<a href=\"https://www.d20pfsrd.com/equipment/weapons/weapon-descriptions/strike-unarmed\">unarmed strike</a>&nbsp;is treated as both a manufactured weapon and a&nbsp;<a href=\"https://www.d20pfsrd.com/bestiary/rules-for-monsters/universal-monster-rules#TOC-Natural-Attacks\">natural weapon</a>&nbsp;for the purpose of spells and effects that modify either manufactured weapons or&nbsp;<a href=\"https://www.d20pfsrd.com/bestiary/rules-for-monsters/universal-monster-rules#TOC-Natural-Attacks\">natural weapons</a>.</p>\n<p>A brawler also deals more damage with her unarmed strikes than others, as shown on&nbsp;Table: Brawler. The unarmed damage values listed on that table are for Medium brawlers. A Small brawler deals less damage than the amount given there with her unarmed attacks, while a Large brawler deals more damage; see the following table.</p>\n<table style=\"box-sizing: border-box; border-spacing: 0px; background-color: #ffffff; margin: 10px; table-layout: fixed; border-color: #888888; min-width: 200px; color: #333333; font-family: Varela, sans-serif;\" border=\"1\" cellpadding=\"5\"><caption style=\"box-sizing: border-box; padding: 10px 0px; color: black; text-align: left; font-weight: bold;\">Table: Small or Large Brawler Unarmed Damage</caption>\n<thead style=\"box-sizing: border-box; background-color: #cfe2f3;\">\n<tr style=\"box-sizing: border-box;\">\n<th class=\"text\" style=\"box-sizing: border-box; padding: 2px; text-align: left; border: 1px solid #888888;\">Level</th>\n<th class=\"text\" style=\"box-sizing: border-box; padding: 2px; text-align: left; border: 1px solid #888888;\">Small Brawler</th>\n<th class=\"text\" style=\"box-sizing: border-box; padding: 2px; text-align: left; border: 1px solid #888888;\">Large Brawler</th>\n</tr>\n</thead>\n<tbody style=\"box-sizing: border-box;\">\n<tr style=\"box-sizing: border-box;\">\n<td class=\"number\" style=\"box-sizing: border-box; padding: 2px; vertical-align: top; text-align: center; border: 1px solid #888888;\">1st-3rd</td>\n<td class=\"number\" style=\"box-sizing: border-box; padding: 2px; vertical-align: top; text-align: center; border: 1px solid #888888;\">1d4</td>\n<td class=\"number\" style=\"box-sizing: border-box; padding: 2px; vertical-align: top; text-align: center; border: 1px solid #888888;\">1d8</td>\n</tr>\n<tr style=\"box-sizing: border-box; background-color: #f3f3f3;\">\n<td class=\"number\" style=\"box-sizing: border-box; padding: 2px; vertical-align: top; text-align: center; border: 1px solid #888888;\">4th-7th</td>\n<td class=\"number\" style=\"box-sizing: border-box; padding: 2px; vertical-align: top; text-align: center; border: 1px solid #888888;\">1d6</td>\n<td class=\"number\" style=\"box-sizing: border-box; padding: 2px; vertical-align: top; text-align: center; border: 1px solid #888888;\">2d6</td>\n</tr>\n<tr style=\"box-sizing: border-box;\">\n<td class=\"number\" style=\"box-sizing: border-box; padding: 2px; vertical-align: top; text-align: center; border: 1px solid #888888;\">8th-11th</td>\n<td class=\"number\" style=\"box-sizing: border-box; padding: 2px; vertical-align: top; text-align: center; border: 1px solid #888888;\">1d8</td>\n<td class=\"number\" style=\"box-sizing: border-box; padding: 2px; vertical-align: top; text-align: center; border: 1px solid #888888;\">2d8</td>\n</tr>\n<tr style=\"box-sizing: border-box; background-color: #f3f3f3;\">\n<td class=\"number\" style=\"box-sizing: border-box; padding: 2px; vertical-align: top; text-align: center; border: 1px solid #888888;\">12th-15th</td>\n<td class=\"number\" style=\"box-sizing: border-box; padding: 2px; vertical-align: top; text-align: center; border: 1px solid #888888;\">1d10</td>\n<td class=\"number\" style=\"box-sizing: border-box; padding: 2px; vertical-align: top; text-align: center; border: 1px solid #888888;\">3d6</td>\n</tr>\n<tr style=\"box-sizing: border-box;\">\n<td class=\"number\" style=\"box-sizing: border-box; padding: 2px; vertical-align: top; text-align: center; border: 1px solid #888888;\">16th-19th</td>\n<td class=\"number\" style=\"box-sizing: border-box; padding: 2px; vertical-align: top; text-align: center; border: 1px solid #888888;\">2d6</td>\n<td class=\"number\" style=\"box-sizing: border-box; padding: 2px; vertical-align: top; text-align: center; border: 1px solid #888888;\">3d8</td>\n</tr>\n<tr style=\"box-sizing: border-box; background-color: #f3f3f3;\">\n<td class=\"number\" style=\"box-sizing: border-box; padding: 2px; vertical-align: top; text-align: center; border: 1px solid #888888;\">20th</td>\n<td class=\"number\" style=\"box-sizing: border-box; padding: 2px; vertical-align: top; text-align: center; border: 1px solid #888888;\">2d8</td>\n<td class=\"number\" style=\"box-sizing: border-box; padding: 2px; vertical-align: top; text-align: center; border: 1px solid #888888;\">4d8</td>\n</tr>\n</tbody>\n</table>\n<h2>Bonus Combat Feats</h2>\n<p>At 2nd level and every 3 levels thereafter, a brawler gains a bonus&nbsp;<a href=\"https://www.d20pfsrd.com/feats/combat-feats\">combat feat</a>&nbsp;in addition to those gained from normal advancement. These bonus feats must be ones that affect or improve her defenses or melee attacks. The brawler must meet the prerequisites of the selected bonus&nbsp;<a href=\"https://www.d20pfsrd.com/feats/combat-feats\">combat feat</a>.</p>\n<p>Upon reaching 5th level and every 3 levels thereafter, a brawler can choose to learn a new bonus&nbsp;<a href=\"https://www.d20pfsrd.com/feats/combat-feats\">combat feat</a>&nbsp;in place of a bonus&nbsp;<a href=\"https://www.d20pfsrd.com/feats/combat-feats\">combat feat</a>&nbsp;she has already learned. In effect, the brawler loses the bonus&nbsp;<a href=\"https://www.d20pfsrd.com/feats/combat-feats\">combat feat</a>&nbsp;in exchange for the new one. The old feat cannot be one that was used as a prerequisite for another feat, prestige class, or other ability. A brawler can only change one feat at any given level, and must choose whether or not to swap the feat at the time she gains a new bonus&nbsp;<a href=\"https://www.d20pfsrd.com/feats/combat-feats\">combat feat</a>&nbsp;for the level.</p>\n<h2>Brawler's Flurry (Ex)</h2>\n<p>Starting at 2nd level, a brawler can make a brawler’s flurry as a full-attack action. When doing so, a brawler has the&nbsp;<a href=\"https://www.d20pfsrd.com/feats/combat-feats/two-weapon-fighting-combat\">Two-Weapon Fighting</a>&nbsp;feat when attacking with any combination of unarmed strikes, weapons from the close&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/fighter\">fighter</a>&nbsp;weapon group, or weapons with the “<a href=\"https://www.d20pfsrd.com/classes/core-classes/monk\">monk</a>” special feature. She does not need to use two different weapons to use this ability.</p>\n<p>A brawler applies her full&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/ability-scores#TOC-Strength-Str-\">Strength</a>&nbsp;modifier to her damage rolls for all attacks made with brawler’s flurry, whether the attacks are made with an off-hand weapon or a weapon wielded in both hands. A brawler can substitute&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Disarm\">disarm</a>,&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Sunder\">sunder</a>, and&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Trip\">trip</a>&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Combat-Maneuvers\">combat maneuvers</a>&nbsp;for unarmed attacks as part of brawler’s flurry. A brawler with&nbsp;<a href=\"https://www.d20pfsrd.com/bestiary/rules-for-monsters/universal-monster-rules#TOC-Natural-Attacks\">natural weapons</a>&nbsp;can’t use such weapons as part of brawler’s flurry, nor can she make&nbsp;<a href=\"https://www.d20pfsrd.com/bestiary/rules-for-monsters/universal-monster-rules#TOC-Natural-Attacks\">natural weapon</a>&nbsp;attacks in addition to her brawler’s flurry attacks.</p>\n<p>At 8th level, the brawler gains use of the&nbsp;<a href=\"https://www.d20pfsrd.com/feats/combat-feats/improved-two-weapon-fighting-combat\">Improved Two-Weapon Fighting</a>&nbsp;feat when using brawler’s flurry. At 15th level, she gains use of the&nbsp;<a href=\"https://www.d20pfsrd.com/feats/combat-feats/greater-two-weapon-fighting-combat\">Greater Two-Weapon Fighting</a>&nbsp;feat when using brawler’s flurry.</p>\n<h2>Maneuver Training (Ex)</h2>\n<p>At 3rd level, a brawler can select one&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Combat-Maneuvers\">combat maneuver</a>&nbsp;to receive additional training. She gains a +1 bonus on&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Combat-Maneuvers\">combat maneuver</a>&nbsp;checks when performing that&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Combat-Maneuvers\">combat maneuver</a>&nbsp;and a +1 bonus to her&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Combat-Maneuver-Defense\">CMD</a>&nbsp;when defending against that maneuver.</p>\n<p>At 7th level and every 4 levels thereafter, the brawler becomes further trained in another&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Combat-Maneuvers\">combat maneuver</a>, gaining the above +1 bonus&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Combat-Maneuvers\">combat maneuver</a>&nbsp;checks and to&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Combat-Maneuver-Defense\">CMD</a>. In addition, the bonuses granted by all previous&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/monk#TOC-Maneuver-Training-Ex-\">maneuver training</a>&nbsp;increase by 1 each. (For example, if a brawler chooses&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Grapple\">grapple</a>&nbsp;at 3rd level and&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Sunder\">sunder</a>&nbsp;at 7th level, her bonuses to&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Grapple\">grapple</a>&nbsp;are +2 and bonuses to&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Sunder\">sunder</a>&nbsp;are +1. If she then chooses&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Bull-Rush\">bull rush</a>&nbsp;upon reaching 11th level, her bonuses to&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Grapple\">grapple</a>&nbsp;are +3, to&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Sunder\">sunder</a>&nbsp;are +2, and to&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Bull-Rush\">bull rush</a>&nbsp;are +1.)</p>\n<h2>AC Bonus (Ex)</h2>\n<p>At 4th level, when a brawler wears light or no&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/glossary#TOC-Armor-Bonus\">armor</a>, she gains a +1&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/glossary#TOC-Dodge-Bonus\">dodge bonus</a>&nbsp;to AC and&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Combat-Maneuver-Defense\">CMD</a>. This bonus increases by 1 at 9th, 13th, and 18th levels.</p>\n<p>These bonuses to AC apply against&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Touch-Attacks\">touch</a>&nbsp;attacks. She loses these bonuses while immobilized or&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/conditions#TOC-Helpless\">helpless</a>, wearing medium or heavy&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/glossary#TOC-Armor-Bonus\">armor</a>, or carrying a medium or heavy load.</p>\n<h2>Knockout (Ex)</h2>\n<p>At 4th level, once per day a brawler can unleash a devastating attack that can instantly knock a target&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/conditions#TOC-Unconscious\">unconscious</a>. She must announce this intent before making her&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Attack-Roll\">attack roll</a>. If the brawler hits and the target takes damage from the blow, the target must succeed at a&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Fortitude\">Fortitude</a>&nbsp;saving throw (DC = 10 + 1/2 the brawler’s level + the higher of the brawler’s&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/ability-scores#TOC-Strength-Str-\">Strength</a>&nbsp;or&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/ability-scores#TOC-Dexterity-Dex-\">Dexterity</a>&nbsp;modifier) or fall&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/conditions#TOC-Unconscious\">unconscious</a>&nbsp;for 1d6 rounds. Each round on its turn, the&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/conditions#TOC-Unconscious\">unconscious</a>&nbsp;target may attempt a new saving throw to end the effect as a&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Full-Round-Actions\">full-round action</a>&nbsp;that does not provoke&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Attacks-of-Opportunity\">attacks of opportunity</a>. Creatures immune to critical hits or&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Nonlethal-Damage\">nonlethal damage</a>&nbsp;are immune to this ability. At 10th level, the brawler may use this ability twice per day; at 16th level, she may use it three times per day.</p>\n<h2>Brawler's Strike (Ex)</h2>\n<p>At 5th level, a brawler’s unarmed strikes are treated as magic weapons for the purpose of overcoming&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/special-abilities#TOC-Damage-Reduction\">damage reduction</a>. At 9th level, her unarmed attacks are also treated as&nbsp;<a href=\"https://www.d20pfsrd.com/equipment/special-materials#TOC-Iron-Cold\">cold iron</a>&nbsp;and silver for the purpose of overcoming&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/special-abilities#TOC-Damage-Reduction\">damage reduction</a>. At 12th level, she chooses one&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/glossary#TOC-Alignment\">alignment</a>&nbsp;component: chaotic, evil, good, or lawful; her unarmed strikes also count as this&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/glossary#TOC-Alignment\">alignment</a>&nbsp;for the purpose of overcoming&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/special-abilities#TOC-Damage-Reduction\">damage reduction</a>. (This&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/glossary#TOC-Alignment\">alignment</a>&nbsp;component cannot be the opposite of the brawler’s actual&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/glossary#TOC-Alignment\">alignment</a>, such as a good brawler choosing evil strikes.) At 17th level, her unarmed attacks are also treated as&nbsp;<a href=\"https://www.d20pfsrd.com/equipment/special-materials#TOC-Adamantine\">adamantine</a>&nbsp;weapons for the purpose of overcoming&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/special-abilities#TOC-Damage-Reduction\">damage reduction</a>&nbsp;and bypassing&nbsp;<a href=\"https://www.d20pfsrd.com/equipment/damaging-objects#TOC-Hardness\">hardness</a>.</p>\n<h2>Close Weapon Mastery (Ex)</h2>\n<p>At 5th level, a brawler’s damage with close weapons increases. When wielding a close weapon, she uses the&nbsp;<a href=\"https://www.d20pfsrd.com/equipment/weapons/weapon-descriptions/strike-unarmed\">unarmed strike</a>&nbsp;damage of a brawler 4 levels lower instead of the base damage for that weapon (for example, a 5th-level Medium brawler wielding a punching&nbsp;<a href=\"https://www.d20pfsrd.com/equipment/weapons/weapon-descriptions/dagger\">dagger</a>&nbsp;deals 1d6 points of damage instead of the weapon’s normal 1d4). If the weapon normally deals more damage than this, its damage is unchanged. This ability does not affect any other aspect of the weapon. The brawler can decide to use the weapon’s base damage instead of her adjusted&nbsp;<a href=\"https://www.d20pfsrd.com/equipment/weapons/weapon-descriptions/strike-unarmed\">unarmed strike</a>&nbsp;damage—this must be declared before the&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Attack-Roll\">attack roll</a>&nbsp;is made.</p>\n<h2>Awesome Blow (Ex)</h2>\n<p>At 16th level, the brawler can as a&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Standard-Actions\">standard action</a>&nbsp;perform an awesome blow&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Combat-Maneuvers\">combat maneuver</a>&nbsp;against a corporeal creature of her size or smaller. If the&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Combat-Maneuvers\">combat maneuver</a>&nbsp;check succeeds, the opponent takes damage as if the brawler hit it with the close weapon she is wielding or an&nbsp;<a href=\"https://www.d20pfsrd.com/equipment/weapons/weapon-descriptions/strike-unarmed\">unarmed strike</a>, it is knocked flying 10 feet in a direction of the brawler’s choice, and it falls&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/conditions#TOC-Prone\">prone</a>. The brawler can only push the opponent in a straight line, and the opponent can’t move closer to the brawler than the square it started in. If an obstacle prevents the completion of the opponent’s move, the opponent and the obstacle each take 1d6 points of damage, and the opponent is knocked&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/conditions#TOC-Prone\">prone</a>&nbsp;in the space adjacent to the obstacle. (Unlike the&nbsp;<a href=\"https://www.d20pfsrd.com/feats/monster-feats/awesome-blow\">Awesome Blow</a>&nbsp;monster feat, the brawler can be of any size to use this ability.)</p>\n<h2>Improved Awesome Blow (Ex)</h2>\n<p>At 20th level, the brawler can use her awesome blow ability as an attack rather than as a&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Standard-Actions\">standard action</a>. She may use it on creatures of any size. If the maneuver roll is a natural 20, the brawler can immediately attempt to confirm the critical by rolling another&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Combat-Maneuvers\">combat maneuver</a>&nbsp;check with all the same modifiers as the one just rolled; if the confirmation roll is successful, the attack deals double damage, and the damage from hitting an obstacle (if any) is also doubled.</p>"
+		},
+		"fc": {
+			"alt": {
+				"value": 0
+			},
+			"hp": {
+				"value": 0
+			},
+			"skill": {
+				"value": 0
+			}
+		},
+		"halfCasterLevel": false,
+		"hasLimitedSpellbook": false,
+		"hasSpecialSlot": false,
+		"hasSpellbook": false,
+		"hd": 8,
+		"hdReplace": "",
+		"hdReplaceRacialOnly": false,
+		"hp": 0,
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"knownCardsSizeFormula": "0",
+		"la": 0,
+		"levels": 0,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"maxLevel": 20,
+		"minionGroup": "",
+		"minionLevelFormula": "",
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"nonActiveClassAbilities": [
+			[
+				0,
+				"Weapon and Armor Proficiency",
+				"Monks are proficient with club, crossbow (light or heavy), dagger, handaxe, javelin, kama, nunchaku, quarterstaff, sai, shuriken, siangham, and sling.  Monks are not proficient with any armor or shields  When wearing armor, using a shield, or carrying a medium or heavy load, a monk loses her AC bonus, as well as her fast movement and flurry of blows abilities."
+			],
+			[
+				1,
+				"AC Bonus (Ex)",
+				"When unarmored and unencumbered, the monk adds her Wisdom bonus (if any) to her AC. In addition, a monk gains a +1 bonus to AC at 5th level. This bonus increases by 1 for every five monk levels thereafter (+2 at 10th, +3 at 15th, and +4 at 20th level).  These bonuses to AC apply even against touch attacks or when the monk is flat-footed. She loses these bonuses when she is immobilized or helpless, when she wears any armor, when she carries a shield, or when she carries a medium or heavy load."
+			],
+			[
+				6,
+				"Slow fall 30 ft.",
+				""
+			],
+			[
+				8,
+				"Slow fall 40 ft.",
+				""
+			],
+			[
+				10,
+				"Slow fall 50 ft.",
+				""
+			],
+			[
+				12,
+				"Slow fall 60 ft.",
+				""
+			],
+			[
+				14,
+				"Slow fall 70 ft.",
+				""
+			],
+			[
+				16,
+				"Slow fall 80 ft.",
+				""
+			],
+			[
+				18,
+				"Slow fall 90 ft.",
+				""
+			],
+			[
+				20,
+				"Slow fall any distance",
+				""
+			],
+			[
+				11,
+				"Greater flurry",
+				""
+			],
+			[
+				17,
+				"Tongue of the sun and moon",
+				"A monk of 17th level or higher can speak with any living creature."
+			],
+			[
+				17,
+				"Timeless Body (Ex)",
+				" Upon attaining 17th level, a monk no longer takes penalties to her ability scores for aging and cannot be magically aged. Any such penalties that she has already taken, however, remain in place. Bonuses still accrue, and the monk still dies of old age when her time is up."
+			],
+			[
+				3,
+				"Fast Movement",
+				"At 3rd level, a monk gains 10ft. enhancement bonus to her speed. Speed bonus changes with level, as shown on progression table. A monk in armor or carrying a medium or heavy load loses this extra speed."
+			],
+			[
+				6,
+				"Fast Movement 20 ft.",
+				""
+			],
+			[
+				9,
+				"Fast Movement 30 ft.",
+				""
+			],
+			[
+				12,
+				"Fast Movement 40 ft.",
+				""
+			],
+			[
+				15,
+				"Fast Movement 50 ft.",
+				""
+			],
+			[
+				18,
+				"Fast Movement 60 ft.",
+				""
+			]
+		],
+		"originId": "",
+		"originPack": "",
+		"originVersion": 100,
+		"possibleUpdate": false,
+		"powerPointBonusBaseAbility": "",
+		"powerPointTable": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"powersKnown": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"powersMaxLevel": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"preparation": {
+			"maxAmount": 0
+		},
+		"prestigeLevels": 0,
+		"psionic": "",
+		"requirements": [
+		],
+		"resistances": [
+		],
+		"savingThrows": {
+			"fort": {
+				"value": "high"
+			},
+			"ref": {
+				"value": "high"
+			},
+			"will": {
+				"value": "high"
+			}
+		},
+		"sizeOverride": "",
+		"skillsPerLevel": 4,
+		"sneakAttackFormula": "0",
+		"sneakAttackGroup": "none",
+		"source": "",
+		"spellPointBonusFormula": "0",
+		"spellPointGroup": "wizard",
+		"spellPointTable": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"spellbook": [
+		],
+		"spellcastingAbility": "int",
+		"spellcastingDescription": "None",
+		"spellcastingSpellname": "Spell",
+		"spellcastingSpellnamePl": "Spells",
+		"spellcastingSpontaneus": false,
+		"spellcastingType": "none",
+		"spellsKnownPerLevel": [
+		],
+		"spellsPerLevel": [
+		],
+		"spellslotAbility": "",
+		"tags": [
+		],
+		"turnUndeadLevelFormula": "0",
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"weaponData": {
+			"critMult": 2,
+			"critRange": 20
+		}
+	},
+	"type": "class"
+}

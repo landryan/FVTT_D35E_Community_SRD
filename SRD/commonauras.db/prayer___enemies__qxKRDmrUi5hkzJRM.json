@@ -1,0 +1,162 @@
+{
+	"_id": "qxKRDmrUi5hkzJRM",
+	"_key": "!items!qxKRDmrUi5hkzJRM",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/buffs/prayer-negative.png",
+	"name": "Prayer - Enemies",
+	"system": {
+		"activateActions": [
+		],
+		"active": true,
+		"attackParts": [
+		],
+		"auraTarget": "enemy",
+		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+			[
+				"-1",
+				"attack",
+				"attack",
+				"luck"
+			],
+			[
+				"-1",
+				"attack",
+				"attack",
+				"luck"
+			],
+			[
+				"-1",
+				"savingThrows",
+				"allSavingThrows",
+				"luck"
+			],
+			[
+				"-1",
+				"skills",
+				"skills",
+				"luck"
+			]
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p>You and your each of your allies gain a +1 <a href=\"https://www.d20srd.org/srd/theBasics.htm#luckModifier\">luck bonus</a> on <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#attackRoll\">attack rolls</a>, weapon damage rolls, saves, and <a href=\"https://www.d20srd.org/srd/skills/usingSkills.htm#skillChecks\">skill checks</a>, while each of your foes takes a -1 penalty on such rolls.&nbsp;</p>"
+		},
+		"epic": "",
+		"hideFromToken": false,
+		"identifiedName": "Prayer - Enemies",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"level": "",
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 2,
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"psionic": "",
+		"range": 40,
+		"requirements": [
+		],
+		"resistances": [
+		],
+		"sizeOverride": "",
+		"source": "",
+		"sourceActorName": "",
+		"sourceAuraId": "",
+		"sourceTokenId": "",
+		"specialActions": [
+		],
+		"tags": [
+		],
+		"uniqueId": "",
+		"userNonRemovable": false
+	},
+	"type": "aura"
+}

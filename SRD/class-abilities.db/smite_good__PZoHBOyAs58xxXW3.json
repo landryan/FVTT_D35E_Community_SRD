@@ -1,0 +1,315 @@
+{
+	"_id": "PZoHBOyAs58xxXW3",
+	"_key": "!items!PZoHBOyAs58xxXW3",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/classfeatures/smite-good.png",
+	"name": "Smite Good",
+	"system": {
+		"ability": {
+			"attack": null,
+			"critMult": 2,
+			"critRange": 20,
+			"damage": "",
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"abilityType": "",
+		"actionType": "other",
+		"activation": {
+			"cost": 1,
+			"type": "immediate"
+		},
+		"associations": {
+			"classes": [
+				[
+					"Blackguard",
+					2
+				]
+			]
+		},
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"changeFlags": {
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"contextNotes": [
+		],
+		"counterName": "",
+		"crOffset": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"critConfirmBonus": "",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p>Once a day, a blackguard of 2nd level or higher may attempt to smite good with one normal melee attack.</p>\n<p>He adds his Charisma modifier (if positive) to his attack roll and deals 1 extra point of damage per class level. If a blackguard accidentally smites a creature that is not good, the smite has no effect but it is still used up for that day.</p>\n<p>At 5th level, and again at 10th level, a blackguard may smite good one additional time per day.</p>"
+		},
+		"duration": {
+			"units": "inst",
+			"value": null
+		},
+		"effectNotes": "Add [[@abilities.cha.mod]] to next attack roll, and [[@classess.blackguard.level]] to damage if attacked creature is evil.",
+		"epic": "",
+		"favorite": false,
+		"featType": "classFeat",
+		"formula": "",
+		"index": {
+			"subType": "classFeat",
+			"uniqueId": "blck-smt"
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"linkedItems": [
+		],
+		"links": {
+			"charges": [
+			]
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 0,
+			"type": ""
+		},
+		"metamagic": {
+			"code": "",
+			"enabled": false,
+			"shortDesc": ""
+		},
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"possibleUpdate": false,
+		"pr": false,
+		"psionic": "",
+		"range": {
+			"long": null,
+			"units": "",
+			"value": null
+		},
+		"recharge": {
+			"_deprecated": true,
+			"charged": false,
+			"current": 0,
+			"enabled": false,
+			"formula": "",
+			"value": null
+		},
+		"requirements": [
+		],
+		"requiresPsionicFocus": false,
+		"resistances": [
+		],
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": "0",
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "",
+			"originVersion": 97,
+			"type": ""
+		},
+		"showInQuickbar": true,
+		"sizeOverride": "",
+		"source": "",
+		"specialActions": [
+		],
+		"spellSpecialization": {
+			"isDomain": false,
+			"spells": {
+				"level1": {
+					"id": null,
+					"img": "",
+					"level": 1,
+					"name": "",
+					"pack": null
+				},
+				"level2": {
+					"id": null,
+					"img": "",
+					"level": 2,
+					"name": "",
+					"pack": null
+				},
+				"level3": {
+					"id": null,
+					"img": "",
+					"level": 3,
+					"name": "",
+					"pack": null
+				},
+				"level4": {
+					"id": null,
+					"img": "",
+					"level": 4,
+					"name": "",
+					"pack": null
+				},
+				"level5": {
+					"id": null,
+					"img": "",
+					"level": 5,
+					"name": "",
+					"pack": null
+				},
+				"level6": {
+					"id": null,
+					"img": "",
+					"level": 6,
+					"name": "",
+					"pack": null
+				},
+				"level7": {
+					"id": null,
+					"img": "",
+					"level": 7,
+					"name": "",
+					"pack": null
+				},
+				"level8": {
+					"id": null,
+					"img": "",
+					"level": 8,
+					"name": "",
+					"pack": null
+				},
+				"level9": {
+					"id": null,
+					"img": "",
+					"level": 9,
+					"name": "",
+					"pack": null
+				}
+			}
+		},
+		"spellSpecializationForbiddenNames": "",
+		"spellSpecializationName": "",
+		"sr": false,
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"uniqueId": "blck-smt",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 1,
+			"maxFormula": "floor(@classes.blackguard.level/5)+1",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": "day",
+			"rechargeFormula": null,
+			"value": 1
+		}
+	},
+	"type": "feat"
+}

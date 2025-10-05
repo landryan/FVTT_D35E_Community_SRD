@@ -1,0 +1,319 @@
+{
+	"_id": "zUJHj5dAyLHX43ME",
+	"_key": "!items!zUJHj5dAyLHX43ME",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/classfeatures/animal-companion.png",
+	"name": "Animal Companion",
+	"system": {
+		"ability": {
+			"attack": null,
+			"critMult": 2,
+			"critRange": 20,
+			"damage": null,
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"abilityType": "",
+		"actionType": "",
+		"activation": {
+			"cost": 1,
+			"type": ""
+		},
+		"associations": {
+			"classes": [
+				[
+					"Druid",
+					1
+				],
+				[
+					"Ranger",
+					4
+				]
+			]
+		},
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"changeFlags": {
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"contextNotes": [
+		],
+		"counterName": "",
+		"crOffset": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"critConfirmBonus": "",
+		"customAttributes": {
+		},
+		"customAttributesLocked": true,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p style=\"margin-top: 0px;\">A druid&rsquo;s or ranger's animal companion is different from a normal animal of its kind in many ways. A druid&rsquo;s animal companion is superior to a normal animal of its kind and has special powers, as described below.</p>\n<p>Druid or ranger gains an animal companion selected from the following list: badger, camel, dire rat, dog, riding dog, eagle, hawk, horse (light or heavy), owl, pony, snake (Small or Medium viper), or wolf.</p>\n<p>Ranger&rsquo;s effective druid level is one-half his ranger level and a ranger may select from the alternative lists of animal companions just as a druid can, though again his effective druid level is half his ranger level. Like a druid, a ranger cannot select an alternative animal if the choice would reduce his effective druid level below 1st.</p>\n<table cellspacing=\"0\">\n<tbody>\n<tr style=\"height: 17px;\">\n<th align=\"left\">Class Level</th>\n<th>Bonus HD</th>\n<th>Natural Armor Adj.</th>\n<th>Str/Dex Adj.</th>\n<th style=\"width: 78px; height: 17px;\">Bonus Tricks</th>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 68px; height: 17px;\">1st-2nd</td>\n<td align=\"center\">+0</td>\n<td align=\"center\">+0</td>\n<td align=\"center\">+0</td>\n<td style=\"width: 78px; height: 17px;\" align=\"center\">1</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 68px; height: 17px;\">3rd-5th</td>\n<td align=\"center\">+2</td>\n<td align=\"center\">+2</td>\n<td align=\"center\">+1</td>\n<td style=\"width: 78px; height: 17px;\" align=\"center\">2</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 68px; height: 17px;\">6th-8th</td>\n<td align=\"center\">+4</td>\n<td align=\"center\">+4</td>\n<td align=\"center\">+2</td>\n<td style=\"width: 78px; height: 17px;\" align=\"center\">3</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 68px; height: 17px;\">9th-11th</td>\n<td align=\"center\">+6</td>\n<td align=\"center\">+6</td>\n<td align=\"center\">+3</td>\n<td style=\"width: 78px; height: 17px;\" align=\"center\">4</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 68px; height: 17px;\">12th-14th</td>\n<td align=\"center\">+8</td>\n<td align=\"center\">+8</td>\n<td align=\"center\">+4</td>\n<td style=\"width: 78px; height: 17px;\" align=\"center\">5</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 68px; height: 17px;\">15th-17th</td>\n<td align=\"center\">+10</td>\n<td align=\"center\">+10</td>\n<td align=\"center\">+5</td>\n<td style=\"width: 78px; height: 17px;\" align=\"center\">6</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 68px; height: 17px;\">18th-20th</td>\n<td align=\"center\">+12</td>\n<td align=\"center\">+12</td>\n<td align=\"center\">+6</td>\n<td style=\"width: 78px; height: 17px;\" align=\"center\">7</td>\n</tr>\n</tbody>\n</table>"
+		},
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"effectNotes": "",
+		"epic": "",
+		"favorite": false,
+		"featType": "classFeat",
+		"formula": "",
+		"index": {
+			"subType": "classFeat",
+			"uniqueId": "anim-cmp"
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"linkedItems": [
+		],
+		"links": {
+			"charges": [
+			]
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 0,
+			"type": ""
+		},
+		"metamagic": {
+			"code": "",
+			"enabled": false,
+			"shortDesc": ""
+		},
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"possibleUpdate": false,
+		"pr": false,
+		"psionic": "",
+		"range": {
+			"long": null,
+			"units": "",
+			"value": null
+		},
+		"recharge": {
+			"_deprecated": true,
+			"charged": false,
+			"current": 0,
+			"enabled": false,
+			"formula": "",
+			"value": null
+		},
+		"requirements": [
+		],
+		"requiresPsionicFocus": false,
+		"resistances": [
+		],
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": 0,
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "",
+			"originVersion": 97,
+			"type": ""
+		},
+		"showInQuickbar": false,
+		"sizeOverride": "",
+		"source": "",
+		"specialActions": [
+		],
+		"spellSpecialization": {
+			"isDomain": false,
+			"spells": {
+				"level1": {
+					"id": null,
+					"img": "",
+					"level": 1,
+					"name": "",
+					"pack": null
+				},
+				"level2": {
+					"id": null,
+					"img": "",
+					"level": 2,
+					"name": "",
+					"pack": null
+				},
+				"level3": {
+					"id": null,
+					"img": "",
+					"level": 3,
+					"name": "",
+					"pack": null
+				},
+				"level4": {
+					"id": null,
+					"img": "",
+					"level": 4,
+					"name": "",
+					"pack": null
+				},
+				"level5": {
+					"id": null,
+					"img": "",
+					"level": 5,
+					"name": "",
+					"pack": null
+				},
+				"level6": {
+					"id": null,
+					"img": "",
+					"level": 6,
+					"name": "",
+					"pack": null
+				},
+				"level7": {
+					"id": null,
+					"img": "",
+					"level": 7,
+					"name": "",
+					"pack": null
+				},
+				"level8": {
+					"id": null,
+					"img": "",
+					"level": 8,
+					"name": "",
+					"pack": null
+				},
+				"level9": {
+					"id": null,
+					"img": "",
+					"level": 9,
+					"name": "",
+					"pack": null
+				}
+			}
+		},
+		"spellSpecializationForbiddenNames": "",
+		"spellSpecializationName": "",
+		"sr": false,
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"uniqueId": "anim-cmp",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": null,
+			"rechargeFormula": null,
+			"value": 0
+		}
+	},
+	"type": "feat"
+}

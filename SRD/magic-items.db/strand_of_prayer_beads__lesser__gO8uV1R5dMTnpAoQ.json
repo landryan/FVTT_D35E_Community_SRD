@@ -1,0 +1,261 @@
+{
+	"_id": "gO8uV1R5dMTnpAoQ",
+	"_key": "!items!gO8uV1R5dMTnpAoQ",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/items/magic/wonders/bracelet_b_04.png",
+	"name": "Strand of Prayer Beads, Lesser",
+	"system": {
+		"ability": {
+			"attack": null,
+			"critMult": 2,
+			"critRange": 20,
+			"damage": null,
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"actionType": "",
+		"activation": {
+			"cost": null,
+			"type": ""
+		},
+		"armor": {
+			"acp": 0,
+			"dex": null,
+			"enh": 0,
+			"value": 0
+		},
+		"armorType": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"brokenResalePrice": "",
+		"carried": true,
+		"changeFlags": {
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"constantWeight": true,
+		"container": "None",
+		"containerId": "none",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"critConfirmBonus": "",
+		"curseActive": false,
+		"cursed": false,
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "\n      <div topic='Strand of Prayer Beads' level='8'><p><b>Strand of Prayer Beads:</b> This item appears to be a normal string of prayer beads until the owner casts a divine spell. Once that occurs, the owner instantly knows the powers of the prayer beads and how to activate them. Each strand includes two or more special beads, each with a different magic power.</p><table width='100%' border='1' cellpadding='2' cellspacing='2' frame='VOID' rules='ROWS'>\n\n<tr maxcol='3' curcol='3'>\n<td><b>Special Bead Type</b><br/></td>\n<td><b>Special Bead Ability</b><br/></td>\n\n</tr>\n\n<tr maxcol='3' curcol='3'>\n<td>Bead of blessing<br/></td>\n<td>Wearer can cast <i>bless</i>.<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>Bead of healing<br/></td>\n<td>Wearer can cast his choice of <i>cure serious wounds</i>,  <i>remove blindness/deafness</i>,  or <i>remove disease</i>.<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>Bead of karma<br/></td>\n<td>Wearer casts his spells at +4 caster level. Effect lasts 10 minutes.<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>Bead of smiting<br/></td>\n<td>Wearer can cast <i>chaos hammer</i>,  <i>holy smite</i>,  <i>order's wrath</i>,  or <i>unholy blight</i> (Will DC 17 partial).<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>Bead of summons<br/></td>\n<td>Summons a powerful creature of appropriate alignment from the Outer Planes (an angel, devil, etc.) to aid the wearer for one day. (If the wearer uses the <i>bead of summons</i> to summon a deity's emissary frivolously, the deity takes that character's items and places a <i>geas</i> upon him as punishment in the very least.)<br/></td>\n\n</tr>\n\n<tr maxcol='3' curcol='3'>\n<td>Bead of wind walking<br/></td>\n<td>Wearer can cast <i>wind walk</i>.<br/></td>\n\n</tr>\n</table><p>A <i>lesser strand of prayer beads</i> has a <i>bead of blessing</i> and a <i>bead of healing</i>. A <i>strand of prayer beads</i> has a <i>bead of healing</i>,  a <i>bead of karma</i>,  and a <i>bead of smiting</i>. A <i>greater strand of prayer beads</i> has a <i>bead of healing</i>,  a <i>bead of karma</i>,  a <i>bead of summons</i>,  and a <i>bead of wind walking</i>.</p><p>Each special bead can be used once per day, except for the <i>bead of summons</i>,  which works only once and then becomes nonmagical. The <i>beads of blessing</i>,  <i>smiting</i>,  and <i>wind walking</i> function as spell trigger items; the <i>beads of karma</i> and <i>summons</i> can be activated by any character capable of casting divine spells. The owner need not hold or wear the <i>strand of prayer beads</i> in any specific location, as long as he carries it somewhere on his person.</p><p>The power of a special bead is lost if it is removed from the strand. Reduce the price of a strand of prayer beads that is missing one or more beads by the following amounts: <i>bead of blessing</i> -600 gp, <i>bead of healing</i> -9,000 gp, <i>bead of karma</i> -20,000 gp, <i>bead of smiting</i> -16,800 gp, <i>bead of summons</i> -20,000 gp, <i>bead of wind walking</i> -46,800 gp.</p><p>Faint, moderate or strong (many schools); CL 1st (<i>blessing</i>), 5th (<i>healing</i>), 7th (<i>smiting</i>), 9th (<i>karma</i>), 11th (<i>wind walking</i>), 17th (<i>summons</i>); Craft Wondrous Items and one of the following spells per bead, as appropriate: <i>bless</i> (<i>blessing</i>), <i>cure serious wounds</i>,  <i>remove blindness/ deafness</i>,  or <i>remove disease</i> (<i>healing</i>), <i>righteous might</i> (<i>karma</i>), <i>gate</i> (<i>summons</i>), <i>chaos hammer</i>,  <i>holy smite</i>,  <i>order's wrath</i>,  or <i>unholy blight</i> (<i>smiting</i>), <i>wind walk</i> (<i>wind walking</i>); Price 9,600 gp (lesser), 25,800 gp (standard), 95,800 gp (greater).</p>\n</div>\n    "
+		},
+		"effectNotes": "",
+		"enhancements": {
+			"automation": {
+				"updateName": false,
+				"updatePrice": false
+			},
+			"clFormula": "",
+			"items": [
+			],
+			"spellcastingAbility": "",
+			"uses": {
+				"allowMultipleUses": false,
+				"autoDeductCharges": true,
+				"commonPool": false,
+				"max": 0,
+				"per": null,
+				"rechargeFormula": null,
+				"value": 0
+			}
+		},
+		"epic": "",
+		"equipmentSubtype": "wondrous",
+		"equipmentType": "misc",
+		"equipped": true,
+		"equippedWeightless": false,
+		"favorite": false,
+		"formula": "",
+		"fullResalePrice": false,
+		"hardness": 0,
+		"hp": {
+			"max": 10,
+			"value": 10
+		},
+		"identified": true,
+		"identifiedCurse": false,
+		"identifiedName": "Strand of Prayer Beads, Lesser",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"light": {
+			"alpha": 0.5,
+			"animationIntensity": "",
+			"animationSpeed": "",
+			"color": "",
+			"dimRadius": "",
+			"emitLight": false,
+			"lightAngle": 360,
+			"opacity": 0,
+			"radius": 0,
+			"type": ""
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedItems": [
+		],
+		"masterwork": false,
+		"material": {
+			"data": null
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 0,
+			"type": ""
+		},
+		"melded": false,
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"possibleUpdate": false,
+		"pr": false,
+		"price": 9600,
+		"psionic": "",
+		"quantity": 1,
+		"requirements": [
+		],
+		"resalePrice": "",
+		"resistances": [
+		],
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": 0,
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "",
+			"originVersion": 97,
+			"type": ""
+		},
+		"sizeOverride": "",
+		"slot": "slotless",
+		"source": "",
+		"specialActions": [
+		],
+		"spellFailure": 0,
+		"sr": false,
+		"summon": [
+		],
+		"tags": [
+		],
+		"unidentified": {
+			"name": "",
+			"price": 0
+		},
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"weight": 0
+	},
+	"type": "equipment"
+}

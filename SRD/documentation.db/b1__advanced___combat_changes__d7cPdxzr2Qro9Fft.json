@@ -1,0 +1,14 @@
+{
+	"_id": "d7cPdxzr2Qro9Fft",
+	"_key": "!journal!d7cPdxzr2Qro9Fft",
+	"content": "<p>Combat Changes allow you do change different values of rollData - object that is passed as a data source for fields in roll.</p>\n<h2>Available fields and commands</h2>\n<p>You can change any field in roll data. You can either *replace* the field value or add a number (that can be retrieved by roll) to it. As you are directly manipulating&nbsp;<em>roll data</em>, you will get only final value in roll box unless you use one of provided special fields. $fieldName - Replaces value fieldName - Adds roll result to the value</p>\n<h2>Special fields</h2>\n<h3>Combat Rolls</h3>\n<p><span style=\"font-family: monospace;\">featClBonus</span>&nbsp;- Bonus to Caster Level (accepts numbers, evaluated and combined)<br /><span style=\"font-family: monospace;\">featSpellDCBonus</span>&nbsp;- Bonus to spell DC (accepts numbers, evaluated and combined)<br /><span style=\"font-family: monospace;\">featDamageBonus</span>&nbsp;- Bonus to damage roll (accepts numbers, affected by critical hits, evaluated and combined)<br /><span style=\"font-family: monospace;\">featAttackBonus</span>&nbsp;- Bonus to attack roll (accepts numbers or fields, evaluated and combined)<br /><span style=\"font-family: monospace;\">&amp;featDamagPrecision</span>&nbsp;- Bonus precision damage (accepts numbers and dice rolls, *not* affected by critical hits by default)<br /><span style=\"font-family: monospace;\">&amp;featDamage.[Type (eg. Fire)]</span>&nbsp;- Bonus damage of type (accepts numbers and dice rolls, *not* affected by critical hits by default)</p>\n<h3>Defense Rolls</h3>\n<p><span style=\"font-family: monospace;\">featAC</span>&nbsp;- Bonus to AC (accepts numbers or fields, evaluated and combined)</p>\n<h3>Saving Throw Rolls</h3>\n<p><span style=\"font-family: monospace;\">featSavingThrow</span> - Bonus to saving throw roll (accepts numbers or fields, evaluated and combined)</p>",
+	"folder": "",
+	"img": "",
+	"name": "B1. Advanced - Combat Changes",
+	"pages": [
+	],
+	"permission": {
+		"VIfT2pClvTXfstmc": 3,
+		"default": 0
+	}
+}

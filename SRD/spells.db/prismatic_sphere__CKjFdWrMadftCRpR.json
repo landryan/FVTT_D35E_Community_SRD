@@ -1,0 +1,285 @@
+{
+	"_id": "CKjFdWrMadftCRpR",
+	"_key": "!items!CKjFdWrMadftCRpR",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/spells/named-spells/prismatic-sphere.png",
+	"name": "Prismatic Sphere",
+	"system": {
+		"ability": {
+			"attack": "",
+			"critMult": 2,
+			"critRange": 20,
+			"damage": "",
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"actionType": "other",
+		"activateActions": [
+		],
+		"activation": {
+			"cost": 1,
+			"type": "standard"
+		},
+		"atWill": false,
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"castTime": "",
+		"changes": [
+		],
+		"clOffset": 0,
+		"classSource": "",
+		"combatChanges": [
+		],
+		"components": {
+			"divineFocus": 0,
+			"focus": false,
+			"material": false,
+			"somatic": false,
+			"value": "",
+			"verbal": true
+		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"critConfirmBonus": "",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customReferenceId": "",
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<div class=\"spell-description\">\n  <p>\n      <strong>School:</strong>&nbsp;abjuration;\n    <br>\n    <strong>Level:</strong>&nbsp;Sorcerer 9, Wizard 9;\n    <strong>Domain:</strong>&nbsp;Artifice 9, Protection 9, Sun 9;\n    \n    \n    \n    <br>\n    <strong>Components:</strong>&nbsp;V<br>\n    \n      <strong>Casting Time:</strong>&nbsp;1 standard action<br>\n    <strong>Range:</strong>&nbsp;10 feet<br>\n    \n    \n    <strong>Effect:</strong>&nbsp;10-ft.-radius sphere centered on you<br>\n    <strong>Duration:</strong>&nbsp;10 Minute/Level (D)<br>\n    <strong>Power Points/Spell Points Cost:</strong>&nbsp;17<br>\n        <strong>Saving Throw:</strong>&nbsp;See text\n        <br>\n        <strong>Spell Resistance:</strong>&nbsp;yes<br>\n  </p>\n  <h2>Description</h2>\n  <p>This spell functions like <a href=\"https://www.d20srd.org/srd/spells/prismaticWall.htm\">prismatic wall</a>, except you conjure up an immobile, opaque globe of shimmering, multicolored light that surrounds you and protects you from all forms of attack. The sphere flashes in all colors of the visible spectrum.</p>\n<p>The sphere&rsquo;s <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#blinded\">blindness</a> effect on creatures with less than 8 HD lasts <a class=\"diceRoller\" title=\"Roll the dice!\">2d4</a>&times;10 minutes.</p>\n<p>You can pass into and out of the prismatic sphere and remain near it without harm. However, when you&rsquo;re inside it, the sphere blocks any attempt to project something through the sphere (including spells). Other creatures that attempt to attack you or pass through suffer the effects of each color, one at a time.</p>\n<p>Typically, only the upper hemisphere of the globe will exist, since you are at the center of the sphere, so the lower half is usually excluded by the floor surface you are standing on.</p>\n<p>The colors of the sphere have the same effects as the colors of a <a href=\"https://www.d20srd.org/srd/spells/prismaticWall.htm\">prismatic wall</a>.</p>\n<p>Prismatic sphere can be made permanent with a <a href=\"https://www.d20srd.org/srd/spells/permanency.htm\">permanency</a> spell.&nbsp;</p>\n<table style=\"margin-bottom: 10px;\" cellspacing=\"0\">\n<thead style=\"text-shadow: 1px 1px var(--color-shadow-dark); border-bottom: 1px solid var(--color-border-dark);\">\n<tr>\n<th align=\"left\">Color</th>\n<th>Order</th>\n<th align=\"left\">Effect of Color</th>\n<th align=\"left\">Negated By</th>\n</tr>\n</thead>\n<tfoot>\n<tr>\n<td colspan=\"4\">\n<ol>\n<li>The violet effect makes the special effects of the other six colors redundant, but these six effects are included here because certain magic items can create prismatic effects one color at a time, and&nbsp;<a href=\"https://www.d20srd.org/srd/specialAbilities.htm#spellResistance\">spell resistance</a>&nbsp;might render some colors ineffective (see above).</li>\n</ol>\n</td>\n</tr>\n</tfoot>\n<tbody>\n<tr>\n<td>Red</td>\n<td align=\"center\">1st</td>\n<td>Stops nonmagical ranged weapons.<br />Deals 20 points of fire damage (Reflex half).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/coneOfCold.htm\">Cone of cold</a></td>\n</tr>\n<tr>\n<td>Orange</td>\n<td align=\"center\">2nd</td>\n<td>Stops magical ranged weapons.<br />Deals 40 points of acid damage (Reflex half).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/gustOfWind.htm\">Gust of wind</a></td>\n</tr>\n<tr>\n<td>Yellow</td>\n<td align=\"center\">3rd</td>\n<td>Stops&nbsp;<a href=\"https://www.d20srd.org/srd/specialAbilities.htm#poison\">poisons</a>, gases, and petrification.<br />Deals 80 points of electricity damage (Reflex half).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/disintegrate.htm\">Disintegrate</a></td>\n</tr>\n<tr>\n<td>Green</td>\n<td align=\"center\">4th</td>\n<td>Stops&nbsp;<a href=\"https://www.d20srd.org/srd/specialAbilities.htm#breathWeapon\">breath weapons</a>.<br /><a href=\"https://www.d20srd.org/srd/specialAbilities.htm#poison\">Poison</a>&nbsp;(Kills; Fortitude partial for&nbsp;<a class=\"diceRoller\" title=\"Roll the dice!\">1d6</a>&nbsp;points of Con damage instead).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/passwall.htm\">Passwall</a></td>\n</tr>\n<tr>\n<td>Blue</td>\n<td align=\"center\">5th</td>\n<td>Stops divination and mental attacks.<br />Turned to stone (Fortitude negates).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/magicMissile.htm\">Magic missile</a></td>\n</tr>\n<tr>\n<td>Indigo</td>\n<td align=\"center\">6th</td>\n<td>Stops all spells.<br />Will save or become insane (as&nbsp;<a class=\"spell\" href=\"https://www.d20srd.org/srd/spells/insanity.htm\">insanity</a>&nbsp;spell).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/daylight.htm\">Daylight</a></td>\n</tr>\n<tr>\n<td>Violet</td>\n<td align=\"center\">7th</td>\n<td>Energy field destroys all objects and effects.<sup>1</sup><br />Creatures sent to another plane (Will negates).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/dispelMagic.htm\">Dispel magic</a></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n</div>\n"
+		},
+		"display": "",
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"effectNotes": "",
+		"epic": "",
+		"favorite": false,
+		"formula": "",
+		"identifiedName": "Prismatic Sphere",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"isDomainSpell": false,
+		"isPower": false,
+		"isSpellSpontaneousReplacement": false,
+		"learnedAt": {
+			"bloodline": [
+			],
+			"class": [
+				[
+					"Wizard",
+					9
+				],
+				[
+					"Sorcerer",
+					9
+				]
+			],
+			"domain": [
+				[
+					"Artifice",
+					9
+				],
+				[
+					"Protection",
+					9
+				],
+				[
+					"Sun",
+					9
+				]
+			],
+			"elementalSchool": [
+			],
+			"subDomain": [
+			]
+		},
+		"level": 9,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"materials": {
+			"consumed": {
+				"_deprecated": true,
+				"value": false
+			},
+			"focus": "",
+			"value": ""
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 10,
+			"type": "circle"
+		},
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "CKjFdWrMadftCRpR",
+		"originPack": "D35E.spells",
+		"originVersion": 109,
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"powerPointsCost": 17,
+		"pr": false,
+		"preparation": {
+			"autoDeductCharges": true,
+			"maxAmount": 0,
+			"mode": "prepared",
+			"preparedAmount": 0
+		},
+		"psionic": "",
+		"range": {
+			"long": null,
+			"units": "ft",
+			"value": "10"
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requirements": [
+		],
+		"requiresPsionicFocus": false,
+		"resistances": [
+		],
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": "0",
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "See text",
+			"originVersion": 97,
+			"type": ""
+		},
+		"school": "abj",
+		"shortDescription": "<p>This spell functions like <a href=\"https://www.d20srd.org/srd/spells/prismaticWall.htm\">prismatic wall</a>, except you conjure up an immobile, opaque globe of shimmering, multicolored light that surrounds you and protects you from all forms of attack. The sphere flashes in all colors of the visible spectrum.</p>\n<p>The sphere&rsquo;s <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#blinded\">blindness</a> effect on creatures with less than 8 HD lasts <a class=\"diceRoller\" title=\"Roll the dice!\">2d4</a>&times;10 minutes.</p>\n<p>You can pass into and out of the prismatic sphere and remain near it without harm. However, when you&rsquo;re inside it, the sphere blocks any attempt to project something through the sphere (including spells). Other creatures that attempt to attack you or pass through suffer the effects of each color, one at a time.</p>\n<p>Typically, only the upper hemisphere of the globe will exist, since you are at the center of the sphere, so the lower half is usually excluded by the floor surface you are standing on.</p>\n<p>The colors of the sphere have the same effects as the colors of a <a href=\"https://www.d20srd.org/srd/spells/prismaticWall.htm\">prismatic wall</a>.</p>\n<p>Prismatic sphere can be made permanent with a <a href=\"https://www.d20srd.org/srd/spells/permanency.htm\">permanency</a> spell.&nbsp;</p>\n<table style=\"margin-bottom: 10px;\" cellspacing=\"0\">\n<thead style=\"text-shadow: 1px 1px var(--color-shadow-dark); border-bottom: 1px solid var(--color-border-dark);\">\n<tr>\n<th align=\"left\">Color</th>\n<th>Order</th>\n<th align=\"left\">Effect of Color</th>\n<th align=\"left\">Negated By</th>\n</tr>\n</thead>\n<tfoot>\n<tr>\n<td colspan=\"4\">\n<ol>\n<li>The violet effect makes the special effects of the other six colors redundant, but these six effects are included here because certain magic items can create prismatic effects one color at a time, and&nbsp;<a href=\"https://www.d20srd.org/srd/specialAbilities.htm#spellResistance\">spell resistance</a>&nbsp;might render some colors ineffective (see above).</li>\n</ol>\n</td>\n</tr>\n</tfoot>\n<tbody>\n<tr>\n<td>Red</td>\n<td align=\"center\">1st</td>\n<td>Stops nonmagical ranged weapons.<br />Deals 20 points of fire damage (Reflex half).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/coneOfCold.htm\">Cone of cold</a></td>\n</tr>\n<tr>\n<td>Orange</td>\n<td align=\"center\">2nd</td>\n<td>Stops magical ranged weapons.<br />Deals 40 points of acid damage (Reflex half).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/gustOfWind.htm\">Gust of wind</a></td>\n</tr>\n<tr>\n<td>Yellow</td>\n<td align=\"center\">3rd</td>\n<td>Stops&nbsp;<a href=\"https://www.d20srd.org/srd/specialAbilities.htm#poison\">poisons</a>, gases, and petrification.<br />Deals 80 points of electricity damage (Reflex half).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/disintegrate.htm\">Disintegrate</a></td>\n</tr>\n<tr>\n<td>Green</td>\n<td align=\"center\">4th</td>\n<td>Stops&nbsp;<a href=\"https://www.d20srd.org/srd/specialAbilities.htm#breathWeapon\">breath weapons</a>.<br /><a href=\"https://www.d20srd.org/srd/specialAbilities.htm#poison\">Poison</a>&nbsp;(Kills; Fortitude partial for&nbsp;<a class=\"diceRoller\" title=\"Roll the dice!\">1d6</a>&nbsp;points of Con damage instead).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/passwall.htm\">Passwall</a></td>\n</tr>\n<tr>\n<td>Blue</td>\n<td align=\"center\">5th</td>\n<td>Stops divination and mental attacks.<br />Turned to stone (Fortitude negates).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/magicMissile.htm\">Magic missile</a></td>\n</tr>\n<tr>\n<td>Indigo</td>\n<td align=\"center\">6th</td>\n<td>Stops all spells.<br />Will save or become insane (as&nbsp;<a class=\"spell\" href=\"https://www.d20srd.org/srd/spells/insanity.htm\">insanity</a>&nbsp;spell).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/daylight.htm\">Daylight</a></td>\n</tr>\n<tr>\n<td>Violet</td>\n<td align=\"center\">7th</td>\n<td>Energy field destroys all objects and effects.<sup>1</sup><br />Creatures sent to another plane (Will negates).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/dispelMagic.htm\">Dispel magic</a></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+		"showInQuickbar": false,
+		"slOffset": 0,
+		"snip": "As prismatic wall, but surrounds on all sides.",
+		"source": "",
+		"specialActions": [
+			{
+				"action": "Create unique \"PS1 - Red Beam\" from \"world.srd-update-attacks\" on self; Set attack \"PS1 - Red Beam\" field data.save.dc to (@dc) on self; Create unique \"PS2 - Orange Beam\" from \"world.srd-update-attacks\" on self; Set attack \"PS2 - Orange Beam\" field data.save.dc to (@dc) on self; Create unique \"PS3 - Yellow Beam\" from \"world.srd-update-attacks\" on self; Set attack \"PS3 - Yellow Beam\" field data.save.dc to (@dc) on self; Create unique \"PS4 - Green Beam\" from \"world.srd-update-attacks\" on self; Set attack \"PS4 - Green Beam\" field data.save.dc to (@dc) on self; Create unique \"PS5 - Blue Beam\" from \"world.srd-update-attacks\" on self; Set attack \"PS5 - Blue Beam\" field data.save.dc to (@dc) on self; Create unique \"PS6 - Indigo Beam\" from \"world.srd-update-attacks\" on self; Set attack \"PS6 - Indigo Beam\" field data.save.dc to (@dc) on self; Create unique \"PS7 - Violet Beam\" from \"world.srd-update-attacks\" on self; Set attack \"PS7 - Violet Beam\" field data.save.dc to (@dc) on self;",
+				"condition": "",
+				"img": "icons/svg/item-bag.svg",
+				"name": "Prismatic Effects"
+			},
+			{
+				"action": "Create unique \"Prismatic Sphere\" from \"D35E.commonbuffs\" on self;Set buff \"Prismatic Sphere\" field data.level to max(1,(@cl)) on self;Activate buff \"Prismatic Sphere\" on self",
+				"condition": "",
+				"img": "icons/svg/item-bag.svg",
+				"name": "Prismatic Sphere"
+			},
+			{
+				"action": "Create unique \"Blind\" from \"D35E.commonbuffs\" on target;Set buff \"Blind\" field data.level to 2d4 on target;Activate buff \"Blind\" on target",
+				"condition": "",
+				"img": "systems/D35E/icons/conditions/blind.png",
+				"name": "Blinded (<8HD)"
+			}
+		],
+		"specialId": null,
+		"specialPrepared": false,
+		"spellArea": "",
+		"spellDuration": "10 min./level (D)",
+		"spellDurationData": {
+			"dismissable": false,
+			"units": "minutePerLevel",
+			"value": "10*@cl"
+		},
+		"spellEffect": "10-ft.-radius sphere centered on you",
+		"spellType": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"spellbook": "primary",
+		"sr": true,
+		"subschool": "",
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"types": "",
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": "",
+			"rechargeFormula": null,
+			"value": 0
+		}
+	},
+	"type": "spell"
+}

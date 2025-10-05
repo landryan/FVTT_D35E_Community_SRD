@@ -1,0 +1,290 @@
+{
+	"_id": "d4H8qB8A8reojhMW",
+	"_key": "!items!d4H8qB8A8reojhMW",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/spells/school/evo.png",
+	"name": "Shout, Greater",
+	"system": {
+		"ability": {
+			"attack": "",
+			"critMult": 2,
+			"critRange": 20,
+			"damage": "",
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"actionType": "spellsave",
+		"activateActions": [
+		],
+		"activation": {
+			"cost": 1,
+			"type": "standard"
+		},
+		"atWill": false,
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"castTime": "",
+		"changes": [
+		],
+		"clOffset": 0,
+		"classSource": "",
+		"combatChanges": [
+		],
+		"components": {
+			"divineFocus": 0,
+			"focus": true,
+			"material": false,
+			"somatic": true,
+			"value": "",
+			"verbal": true
+		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"critConfirmBonus": "",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customReferenceId": "",
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+				[
+					"min(20, @cl)d6",
+					"",
+					"energy-sonic"
+				]
+			],
+			"parts": [
+				[
+					"10d6",
+					null,
+					"energy-sonic"
+				]
+			]
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<div class=\"spell-description\">\n  <p>\n      <strong>School:</strong>&nbsp;evocation&nbsp;[sonic];\n    <br>\n    <strong>Level:</strong>&nbsp;Bard 6, Sorcerer 8, Wizard 8;\n    \n    \n    \n    \n    <br>\n    <strong>Components:</strong>&nbsp;V, S, F (a small metal or ivory horn)<br>\n    \n      <strong>Casting Time:</strong>&nbsp;1 standard action<br>\n    <strong>Range:</strong>&nbsp;60 feet<br>\n    <strong>Area:</strong>&nbsp;cone-shaped burst<br>\n    \n    \n    <strong>Duration:</strong>&nbsp;Instantaneous<br>\n    <strong>Power Points/Spell Points Cost:</strong>&nbsp;15<br>\n        <strong>Saving Throw:</strong>&nbsp;Fortitude partial or Reflex negates (object); see text\n        <br>\n        <strong>Spell Resistance:</strong>&nbsp;yes<br>\n  </p>\n  <h2>Description</h2>\n  \n\n\n<p>\nYou emit an ear-splitting yell that deafens and damages creatures in its path. Any creature within the area is stunned for 1 round and deafened for 4d6 rounds, and takes 10d6 points of sonic damage (or 1d6 points of sonic damage per caster level, maximum 20d6, against exposed brittle or crystalline objects or crystalline creatures). A creature in the area of the cone can negate the stunning and halve both the damage and the duration of the deafness with a successful Fortitude save. A creature holding vulnerable objects can attempt a Reflex save to negate the damage to those objects.\n</p><p>A <i>shout </i>spell cannot penetrate a <i>silence </i>spell.\n</p><p><i>Arcane Focus: </i>A small metal or ivory horn.\n</p>\n<hr/>\n\n\n\n</div>\n"
+		},
+		"display": "",
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"effectNotes": "",
+		"epic": "",
+		"favorite": false,
+		"formula": "",
+		"identifiedName": "Shout, Greater",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"isDomainSpell": false,
+		"isPower": false,
+		"isSpellSpontaneousReplacement": false,
+		"learnedAt": {
+			"bloodline": [
+			],
+			"class": [
+				[
+					"Bard",
+					6
+				],
+				[
+					"Wizard",
+					8
+				],
+				[
+					"Sorcerer",
+					8
+				]
+			],
+			"domain": [
+			],
+			"elementalSchool": [
+			],
+			"subDomain": [
+			]
+		},
+		"level": 8,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"materials": {
+			"consumed": {
+				"_deprecated": true,
+				"value": false
+			},
+			"focus": "a small metal or ivory horn",
+			"value": ""
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": "60",
+			"type": "cone"
+		},
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "d4H8qB8A8reojhMW",
+		"originPack": "D35E.spells",
+		"originVersion": 108,
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"powerPointsCost": 15,
+		"pr": false,
+		"preparation": {
+			"autoDeductCharges": true,
+			"maxAmount": 0,
+			"mode": "prepared",
+			"preparedAmount": 0
+		},
+		"psionic": "",
+		"range": {
+			"long": null,
+			"units": "ft",
+			"value": "60"
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requirements": [
+		],
+		"requiresPsionicFocus": false,
+		"resistances": [
+		],
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": "0",
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "Fortitude partial or Reflex negates (object); see text",
+			"originVersion": 97,
+			"type": ""
+		},
+		"school": "evo",
+		"shortDescription": "\n\n\n<p>\nYou emit an ear-splitting yell that deafens and damages creatures in its path. Any creature within the area is stunned for 1 round and deafened for 4d6 rounds, and takes 10d6 points of sonic damage (or 1d6 points of sonic damage per caster level, maximum 20d6, against exposed brittle or crystalline objects or crystalline creatures). A creature in the area of the cone can negate the stunning and halve both the damage and the duration of the deafness with a successful Fortitude save. A creature holding vulnerable objects can attempt a Reflex save to negate the damage to those objects.\n</p><p>A <i>shout </i>spell cannot penetrate a <i>silence </i>spell.\n</p><p><i>Arcane Focus: </i>A small metal or ivory horn.\n</p>\n<hr/>\n\n\n",
+		"showInQuickbar": false,
+		"slOffset": 0,
+		"snip": "Devastating yell deals 10d6 sonic damage; stuns creatures, damages objects.",
+		"source": "",
+		"specialActions": [
+			{
+				"action": "Create unique \"Stunned (Shout, Greater)\" from \"D35E.commonbuffs\" on target;Set buff \"Stunned (Shout, Greater)\" field data.level to max(1,(@cl)) on target;Activate buff \"Stunned (Shout, Greater)\" on target",
+				"condition": "",
+				"img": "icons/svg/item-bag.svg",
+				"name": "Stunned (Shout, Greater)",
+				"range": ""
+			},
+			{
+				"action": "Create unique \"Deafened (Shout, Greater)\" from \"D35E.commonbuffs\" on target;Set buff \"Deafened (Shout, Greater)\" field data.level to max(1,(@cl)) on target;Activate buff \"Deafened (Shout, Greater)\" on target",
+				"condition": "",
+				"img": "icons/svg/item-bag.svg",
+				"name": "Deafened (Shout, Greater)",
+				"range": ""
+			},
+			{
+				"action": "Create unique \"Deafened, Half (Shout, Greater)\" from \"D35E.commonbuffs\" on target;Set buff \"Deafened, Half (Shout, Greater)\" field data.level to max(1,(@cl)) on target;Activate buff \"Deafened, Half (Shout, Greater)\" on target",
+				"condition": "",
+				"img": "icons/svg/item-bag.svg",
+				"name": "Deafened, Half (Shout, Greater)",
+				"range": ""
+			}
+		],
+		"specialId": null,
+		"specialPrepared": false,
+		"spellArea": "cone-shaped burst",
+		"spellDuration": "Instantaneous",
+		"spellDurationData": {
+			"dismissable": false,
+			"units": "inst",
+			"value": ""
+		},
+		"spellEffect": "",
+		"spellType": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"spellbook": "primary",
+		"sr": true,
+		"subschool": "",
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"types": "sonic",
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": "",
+			"rechargeFormula": null,
+			"value": 0
+		}
+	},
+	"type": "spell"
+}

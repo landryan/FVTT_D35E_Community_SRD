@@ -1,0 +1,431 @@
+{
+	"_id": "StMHz7ySB5UB01zo",
+	"_key": "!items!StMHz7ySB5UB01zo",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/racialhd/lich.png",
+	"name": "Lich",
+	"system": {
+		"activateActions": [
+		],
+		"addedAbilities": [
+			{
+				"level": 1,
+				"uid": "template-paralysing-touch"
+			},
+			{
+				"level": 1,
+				"uid": "template-lich-touch-attack"
+			},
+			{
+				"level": 1,
+				"uid": "template-frea-aura"
+			}
+		],
+		"allSpellsKnown": false,
+		"attackParts": [
+		],
+		"automaticFeatures": true,
+		"bab": "",
+		"changeFlags": {
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": true,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+			[
+				"2",
+				"ability",
+				"int",
+				"untyped"
+			],
+			[
+				"2",
+				"ability",
+				"wis",
+				"untyped"
+			],
+			[
+				"2",
+				"ability",
+				"cha",
+				"untyped"
+			],
+			[
+				"2",
+				"misc",
+				"cr",
+				"untyped"
+			],
+			[
+				"8",
+				"skill",
+				"skill.hid",
+				"untyped"
+			],
+			[
+				"8",
+				"skill",
+				"skill.lis",
+				"untyped"
+			],
+			[
+				"8",
+				"skill",
+				"skill.mos",
+				"untyped"
+			],
+			[
+				"8",
+				"skill",
+				"skill.sen",
+				"untyped"
+			],
+			[
+				"8",
+				"skill",
+				"skill.spt",
+				"untyped"
+			],
+			[
+				"max((5 - ${this.attributes.naturalAC || 0}), 0 )",
+				"ac",
+				"nac",
+				"untyped"
+			],
+			[
+				"100",
+				"misc",
+				"fortification",
+				"untyped"
+			]
+		],
+		"classSkills": {
+			"apr": false,
+			"aut": false,
+			"blc": false,
+			"blf": false,
+			"clm": false,
+			"coc": false,
+			"crf": false,
+			"dev": false,
+			"dip": false,
+			"dis": false,
+			"dsc": false,
+			"esc": false,
+			"fog": false,
+			"gif": false,
+			"han": false,
+			"hea": false,
+			"hid": false,
+			"int": false,
+			"jmp": false,
+			"kar": false,
+			"kdu": false,
+			"ken": false,
+			"kge": false,
+			"khi": false,
+			"klo": false,
+			"kna": false,
+			"kno": false,
+			"kpl": false,
+			"kps": false,
+			"kre": false,
+			"lis": false,
+			"mos": false,
+			"opl": false,
+			"prf": false,
+			"pro": false,
+			"psi": false,
+			"rid": false,
+			"sen": false,
+			"slt": false,
+			"spl": false,
+			"spt": false,
+			"src": false,
+			"sur": false,
+			"swm": false,
+			"tmb": false,
+			"umd": false,
+			"upd": false,
+			"uro": false
+		},
+		"classSource": "",
+		"classType": "template",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"counterName": "",
+		"crPerHD": 4,
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"creatureType": "undead",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"parts": [
+			]
+		},
+		"damageReduction": [
+			[
+				"15",
+				"bludgeoning"
+			],
+			[
+				"15",
+				"magic"
+			]
+		],
+		"deactivateActions": [
+		],
+		"deckHandSizeFormula": "0",
+		"deckPrestigeClass": false,
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<div style=\"box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75); border-radius: 3px; margin: 3px; padding: 3px; background-color: #ffffff73;\">This template requires you do rebuild a creature/character. Replace HD value in classes/racial HD and reroll hp. Features denoted with&nbsp;<strong>*</strong>&nbsp;and&nbsp;<strong><span style=\"text-decoration: underline;\">underlined</span></strong>&nbsp;are set up automatically.</div>\n<p>A lich is an undead spellcaster, usually a wizard or sorcerer but sometimes a cleric or other spellcaster, who has used its magical powers to unnaturally extend its life.</p>\n<p>A lich is a gaunt and skeletal humanoid with withered flesh stretched tight across horribly visible bones. Its eyes have long ago been lost to decay, but bright pinpoints of crimson light burn on in the empty sockets.</p>\n<p>Liches speak Common plus any other languages they knew in life.</p>\n<h2>Creating a Lich</h2>\n<p>&ldquo;Lich&rdquo; is an acquired template that can be added to any humanoid creature (referred to hereafter as the base creature), provided it can create the required phylactery; see The Lich&rsquo;s Phylactery, below.</p>\n<p>A lich has all the base creature&rsquo;s statistics and special abilities except as noted here.</p>\n<p><strong>Size and Type:</strong> The creature&rsquo;s type changes to undead. Do not recalculate base attack bonus, saves, or skill points. Size is unchanged.</p>\n<p><strong>Hit Dice: </strong>Increase all current and future Hit Dice to d12s.</p>\n<p><span style=\"text-decoration: underline;\"><strong>Armor Class*: </strong></span>A lich has a +5 natural armor bonus or the base creature&rsquo;s natural armor bonus, whichever is better.</p>\n<p><strong>Attack:</strong> A lich has a touch attack that it can use once per round. If the base creature can use weapons, the lich retains this ability. A creature with natural weapons retains those natural weapons. A lich fighting without weapons uses either its touch attack or its primary natural weapon (if it has any). A lich armed with a weapon uses its touch or a weapon, as it desires.</p>\n<p><strong>Full Attack: </strong>A lich fighting without weapons uses either its touch attack (see above) or its natural weapons (if it has any). If armed with a weapon, it usually uses the weapon as its primary attack along with a touch as a natural secondary attack, provided it has a way to make that attack (either a free hand or a natural weapon that it can use as a secondary attack).</p>\n<p><strong>Damage: </strong>A lich without natural weapons has a touch attack that uses negative energy to deal 1d8+5 points of damage to living creatures; a Will save (DC 10 + 1/2 lich&rsquo;s HD + lich&rsquo;s Cha modifier) halves the damage. A lich with natural weapons can use its touch attack or its natural weaponry, as it prefers. If it chooses the latter, it deals 1d8+5 points of extra damage on one natural weapon attack.</p>\n<p><strong>Special Attacks:</strong> A lich retains all the base creature&rsquo;s special attacks and gains those described below. Save DCs are equal to 10 + 1/2 lich&rsquo;s HD + lich&rsquo;s Cha modifier unless otherwise noted.</p>\n<p><span style=\"text-decoration: underline;\"><em>Fear Aura (Su)*:</em></span>&nbsp;Liches are shrouded in a dreadful aura of death and evil. Creatures of less than 5 HD in a 60-foot radius that look at the lich must succeed on a Will save or be affected as though by a fear spell from a sorcerer of the lich&rsquo;s level. A creature that successfully saves cannot be affected again by the same lich&rsquo;s aura for 24 hours.</p>\n<p><em><span style=\"text-decoration: underline;\">Paralyzing Touch (Su)*</span>:</em> Any living creature a lich hits with its touch attack must succeed on a Fortitude save or be permanently paralyzed. Remove paralysis or any spell that can remove a curse can free the victim (see the bestow curse spell description).</p>\n<p>The effect cannot be dispelled. Anyone paralyzed by a lich seems dead, though a DC 20 Spot check or a DC 15 Heal check reveals that the victim is still alive.</p>\n<p><em>Spells: </em>A lich can cast any spells it could cast while alive.</p>\n<p><strong>Special Qualities:</strong> A lich retains all the base creature&rsquo;s special qualities and gains those described below.</p>\n<p><em>Turn Resistance (Ex):</em> A lich has +4 turn resistance.</p>\n<p><em><span style=\"text-decoration: underline;\">Damage Reduction (Su)*</span>: </em>A lich&rsquo;s undead body is tough, giving the creature damage reduction 15/bludgeoning and magic. Its natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.</p>\n<p><em>Immunities (Ex):</em> Liches have immunity to <span style=\"text-decoration: underline;\">cold*</span>, <span style=\"text-decoration: underline;\">electricity*</span>, polymorph (though they can use polymorph effects on themselves), and mind-affecting attacks.</p>\n<p><strong><span style=\"text-decoration: underline;\">Abilities*</span>: </strong>Increase from the base creature as follows: Int +2, Wis +2, Cha +2. Being undead, a lich has no Constitution score.</p>\n<p><strong><span style=\"text-decoration: underline;\">Skills*</span>: </strong>Liches have a +8 racial bonus on Hide, Listen, Move Silently, Search, Sense Motive, and Spot checks. Otherwise same as the base creature.</p>\n<p><strong>Organization: </strong>Solitary or troupe (1 lich, plus 2&ndash;4 vampires and 5&ndash;8 vampire spawn).</p>\n<p><strong><span style=\"text-decoration: underline;\">Challenge Rating*</span>: </strong>Same as the base creature + 2.</p>\n<p><strong>Treasure: </strong>Standard coins; double goods; double items.</p>\n<p><strong>Alignment:</strong> Any evil.</p>\n<p><strong>Advancement:</strong> By character class.</p>\n<p><strong><span style=\"text-decoration: underline;\">Level Adjustment*</span>:</strong> Same as the base creature +4.</p>"
+		},
+		"disabledAbilities": [
+		],
+		"epic": "",
+		"fc": {
+			"alt": {
+				"value": 0
+			},
+			"hp": {
+				"value": 0
+			},
+			"skill": {
+				"value": 0
+			}
+		},
+		"halfCasterLevel": false,
+		"hasLimitedSpellbook": false,
+		"hasSpecialSlot": false,
+		"hasSpellbook": false,
+		"hd": 0,
+		"hdReplace": "",
+		"hdReplaceRacialOnly": false,
+		"hp": 0,
+		"identifiedName": "Lich",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"knownCardsSizeFormula": "0",
+		"la": 4,
+		"levels": 0,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"maxLevel": 1,
+		"minionGroup": "none",
+		"minionLevelFormula": "0",
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"nonActiveClassAbilities": [
+		],
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"possibleUpdate": false,
+		"powerPointBonusBaseAbility": "0",
+		"powerPointTable": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"powersKnown": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"powersMaxLevel": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"prestigeLevels": 0,
+		"psionic": "",
+		"requirements": [
+		],
+		"resistances": [
+			[
+				"",
+				"energy-cold",
+				true,
+				false
+			],
+			[
+				"",
+				"energy-electric",
+				true,
+				false
+			]
+		],
+		"savingThrows": {
+			"fort": {
+				"value": ""
+			},
+			"ref": {
+				"value": ""
+			},
+			"will": {
+				"value": ""
+			}
+		},
+		"sizeOverride": "",
+		"skillsPerLevel": 0,
+		"sneakAttackFormula": "0",
+		"sneakAttackGroup": "none",
+		"source": "",
+		"specialActions": [
+		],
+		"spellPointBonusFormula": "0",
+		"spellPointGroup": "wizard",
+		"spellPointTable": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"spellbook": [
+		],
+		"spellcastingAbility": "int",
+		"spellcastingDescription": "None",
+		"spellcastingSpellname": "Spell",
+		"spellcastingSpellnamePl": "Spells",
+		"spellcastingSpontaneus": false,
+		"spellcastingType": "none",
+		"spellsKnownPerLevel": [
+		],
+		"spellsPerLevel": [
+		],
+		"spellslotAbility": "",
+		"tags": [
+		],
+		"turnUndeadLevelFormula": "0",
+		"uniqueId": "",
+		"userNonRemovable": false
+	},
+	"type": "class"
+}

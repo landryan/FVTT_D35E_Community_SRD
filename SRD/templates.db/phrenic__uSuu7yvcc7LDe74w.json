@@ -1,0 +1,433 @@
+{
+	"_id": "uSuu7yvcc7LDe74w",
+	"_key": "!items!uSuu7yvcc7LDe74w",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/racialhd/phrenic.png",
+	"name": "Phrenic",
+	"system": {
+		"activateActions": [
+		],
+		"addedAbilities": [
+			{
+				"level": 7,
+				"uid": "template-psi-psionicblast"
+			},
+			{
+				"level": 9,
+				"uid": "template-psi-psychiccrush"
+			},
+			{
+				"level": 13,
+				"uid": "template-psi-toiw"
+			},
+			{
+				"level": 19,
+				"uid": "template-psi-ultra"
+			},
+			{
+				"level": 15,
+				"uid": "template-psi-tele"
+			},
+			{
+				"level": 1,
+				"uid": "template-psi-precognition"
+			},
+			{
+				"level": 9,
+				"uid": "template-psi-intelelct-fortress"
+			},
+			{
+				"level": 1,
+				"uid": "template-psi-forcescreen"
+			},
+			{
+				"level": 13,
+				"uid": "template-psi-energycurrent"
+			},
+			{
+				"level": 11,
+				"uid": "template-psi-dominate"
+			},
+			{
+				"level": 3,
+				"uid": "template-psi-empty-mind"
+			},
+			{
+				"level": 5,
+				"uid": "template-psi-bodyadj"
+			},
+			{
+				"level": 5,
+				"uid": "template-psi-block"
+			},
+			{
+				"level": 7,
+				"uid": "template-psi-aver"
+			},
+			{
+				"level": 17,
+				"uid": "template-psi-fission"
+			},
+			{
+				"level": 3,
+				"uid": "template-mind-thrust"
+			}
+		],
+		"allSpellsKnown": false,
+		"attackParts": [
+		],
+		"automaticFeatures": true,
+		"bab": "",
+		"changeFlags": {
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+			[
+				"1",
+				"psionic",
+				"powerPoints",
+				"untyped"
+			],
+			[
+				"10+@item.levels",
+				"misc",
+				"spellResistance",
+				"untyped"
+			],
+			[
+				"2",
+				"ability",
+				"int",
+				"untyped"
+			],
+			[
+				"2",
+				"ability",
+				"wis",
+				"untyped"
+			],
+			[
+				"4",
+				"ability",
+				"cha",
+				"untyped"
+			],
+			[
+				"(@attributes.hd.total < 6 ? 1 : (@attributes.hd.total < 11 ? 2 : 3))",
+				"misc",
+				"cr",
+				"untyped"
+			]
+		],
+		"classSkills": {
+			"apr": false,
+			"aut": false,
+			"blc": false,
+			"blf": false,
+			"clm": false,
+			"coc": false,
+			"crf": false,
+			"dev": false,
+			"dip": false,
+			"dis": false,
+			"dsc": false,
+			"esc": false,
+			"fog": false,
+			"gif": false,
+			"han": false,
+			"hea": false,
+			"hid": false,
+			"int": false,
+			"jmp": false,
+			"kar": false,
+			"kdu": false,
+			"ken": false,
+			"kge": false,
+			"khi": false,
+			"klo": false,
+			"kna": false,
+			"kno": false,
+			"kpl": false,
+			"kps": false,
+			"kre": false,
+			"lis": false,
+			"mos": false,
+			"opl": false,
+			"prf": false,
+			"pro": false,
+			"psi": false,
+			"rid": false,
+			"sen": false,
+			"slt": false,
+			"spl": false,
+			"spt": false,
+			"src": false,
+			"sur": false,
+			"swm": false,
+			"tmb": false,
+			"umd": false,
+			"upd": false,
+			"uro": false
+		},
+		"classSource": "",
+		"classType": "template",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"counterName": "",
+		"crPerHD": 4,
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"creatureType": "humanoid",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
+		"deckHandSizeFormula": "0",
+		"deckPrestigeClass": false,
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p>Seemingly no different from standard examples of their kind, phrenic creatures harbor mental might.</p>\n<p>Monsters who naturally possess psionic ability are not found as phrenic creatures. Phrenic creatures are freaks among their kind, otherwise normal creatures whose minds are more powerful than those of their fellows. Similarly, creatures who advance by character class are usually not phrenic creatures&mdash;they simply take levels in a psionic class to hone their mental powers.</p>\n<h2>Creating a Phrenic Creature</h2>\n<p>&ldquo;Phrenic&rdquo; is an inherited template that can be added to any nonmindless creature that does not already have the psionic subtype (referred to hereafter as the &ldquo;base creature&rdquo;). A phrenic creature uses all the base creature&rsquo;s statistics and special abilities except as noted here.</p>\n<p><strong>Size and Type: </strong>The creature&rsquo;s type does not change, unless it is an animal (in which case it becomes a magical beast [augmented animal]). It gains the psionic subtype.</p>\n<p><strong>Psi-Like Abilities (Sp):</strong> A phrenic creature possesses the psi-like abilities indicated below, depending on its Hit Dice. The abilities are cumulative. Unless otherwise noted, an ability is usable once per day. Manifester level is equal to the creature&rsquo;s HD. The save DCs for a phrenic creature&rsquo;s psi-like abilities are Charisma-based.</p>\n<p><strong>Special Qualities: </strong>A phrenic creature has all the special qualities of the base creature, plus the following special qualities.</p>\n<p><em>Naturally Psionic: </em>A phrenic creature gains 1 bonus power point.</p>\n<p><em>Power Resistance (Ex):</em> A phrenic creature has power resistance equal to its Hit Dice +10.</p>\n<p><strong>Abilities: </strong>Increase from the base creature as follows: Int +2 (if Int is 3 or greater), Wis +2, Cha +4.</p>\n<p><strong>Feats: </strong>A phrenic creature can take psionic feats, if it meets the prerequisites for such feats.</p>\n<p><strong>Challenge Rating: </strong>Up to 5 HD, same as base creature +1; 6&ndash;10 HD, same as base creature +2; 11+ HD, same as base creature +3.</p>\n<p><strong>Level Adjustment: </strong>Same as base creature +2.</p>"
+		},
+		"disabledAbilities": [
+		],
+		"epic": "",
+		"fc": {
+			"alt": {
+				"value": 0
+			},
+			"hp": {
+				"value": 0
+			},
+			"skill": {
+				"value": 0
+			}
+		},
+		"halfCasterLevel": false,
+		"hasLimitedSpellbook": false,
+		"hasSpecialSlot": false,
+		"hasSpellbook": false,
+		"hd": 0,
+		"hdReplace": "",
+		"hdReplaceRacialOnly": false,
+		"hp": 0,
+		"identifiedName": "Phrenic",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"knownCardsSizeFormula": "0",
+		"la": 2,
+		"levels": 0,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"maxLevel": 20,
+		"minionGroup": "none",
+		"minionLevelFormula": "0",
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"nonActiveClassAbilities": [
+		],
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"possibleUpdate": false,
+		"powerPointBonusBaseAbility": "0",
+		"powerPointTable": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"powersKnown": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"powersMaxLevel": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"prestigeLevels": 0,
+		"psionic": "",
+		"requirements": [
+		],
+		"resistances": [
+		],
+		"savingThrows": {
+			"fort": {
+				"value": ""
+			},
+			"ref": {
+				"value": ""
+			},
+			"will": {
+				"value": ""
+			}
+		},
+		"sizeOverride": "",
+		"skillsPerLevel": 0,
+		"sneakAttackFormula": "0",
+		"sneakAttackGroup": "none",
+		"source": "",
+		"specialActions": [
+		],
+		"spellPointBonusFormula": "0",
+		"spellPointGroup": "wizard",
+		"spellPointTable": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"spellbook": [
+		],
+		"spellcastingAbility": "int",
+		"spellcastingDescription": "None",
+		"spellcastingSpellname": "Spell",
+		"spellcastingSpellnamePl": "Spells",
+		"spellcastingSpontaneus": false,
+		"spellcastingType": "none",
+		"spellsKnownPerLevel": [
+		],
+		"spellsPerLevel": [
+		],
+		"spellslotAbility": "",
+		"tags": [
+		],
+		"turnUndeadLevelFormula": "0",
+		"uniqueId": "",
+		"userNonRemovable": false
+	},
+	"type": "class"
+}

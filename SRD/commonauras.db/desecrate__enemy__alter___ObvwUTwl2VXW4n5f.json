@@ -1,0 +1,145 @@
+{
+	"_id": "ObvwUTwl2VXW4n5f",
+	"_key": "!items!ObvwUTwl2VXW4n5f",
+	"effects": [
+	],
+	"folder": null,
+	"img": "icons/svg/item-bag.svg",
+	"name": "Desecrate (Enemy, Alter)",
+	"system": {
+		"activateActions": [
+		],
+		"active": true,
+		"attackParts": [
+		],
+		"auraTarget": "enemy",
+		"buffType": "misc",
+		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+			[
+				"-6",
+				"misc",
+				"turnUndeadDiceTotal",
+				"profane"
+			]
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p>This spell imbues an area with negative energy. Each Charisma check made to turn undead within this area takes a &ndash;3 profane penalty, and every undead creature entering a&nbsp;<em>desecrated&nbsp;</em>area gains a +1 profane bonus on attack rolls, damage rolls, and saving throws. An undead creature created within or summoned into such an area gains +1 hit points per HD.</p>\n<p>If the&nbsp;<em>desecrated&nbsp;</em>area contains an altar, shrine, or other permanent fixture dedicated to your deity or aligned higher power, the modifiers given above are doubled (&ndash;6 profane penalty on turning checks, +2 profane bonus and +2 hit points per HD for undead in the area).</p>\n<p>Furthermore, anyone who casts&nbsp;<em>animate dead&nbsp;</em>within this area may create as many as double the normal amount of undead (that is, 4 HD per caster level rather than 2 HD per caster level).</p>\n<p>If the area contains an altar, shrine, or other permanent fixture of a deity, pantheon, or higher power other than your patron, the&nbsp;<em>desecrate&nbsp;</em>spell instead curses the area, cutting off its connection with the associated deity or power. This secondary function, if used, does not also grant the bonuses and penalties relating to undead, as given above.</p>\n<p><em>Desecrate&nbsp;</em>counters and dispels&nbsp;<em>consecrate</em>.</p>\n<p><em>Material Component:&nbsp;</em>A vial of unholy water and 25 gp worth (5 pounds) of silver dust, all of which must be sprinkled around the area.</p>"
+		},
+		"epic": "",
+		"hideFromToken": false,
+		"identifiedName": "Desecrate (Enemy, Alter)",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"level": "",
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 2,
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"psionic": "",
+		"range": 20,
+		"requirements": [
+		],
+		"resistances": [
+		],
+		"sizeOverride": "",
+		"source": "",
+		"sourceActorName": "",
+		"sourceAuraId": "",
+		"sourceTokenId": "",
+		"specialActions": [
+		],
+		"tags": [
+		],
+		"uniqueId": "",
+		"userNonRemovable": false
+	},
+	"type": "aura"
+}

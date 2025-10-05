@@ -1,0 +1,228 @@
+{
+	"_id": "qfu7mRqrjOts26RW",
+	"_key": "!items!qfu7mRqrjOts26RW",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/races/gnome-forest.png",
+	"name": "Gnome, Forest",
+	"system": {
+		"activateActions": [
+		],
+		"addedAbilities": [
+			{
+				"level": 0,
+				"uid": "gnome-illus"
+			},
+			{
+				"level": 0,
+				"uid": "racial-stand-against-giants"
+			},
+			{
+				"level": 0,
+				"uid": "rac-spell-ghost-sound"
+			},
+			{
+				"level": 0,
+				"uid": "rac-spell-predistigination"
+			},
+			{
+				"level": 0,
+				"uid": "rac-spell-speak-with-animals"
+			},
+			{
+				"level": 0,
+				"uid": "rac-spell-dancing"
+			},
+			{
+				"level": 0,
+				"uid": "racial-fgsmallhunter"
+			},
+			{
+				"level": 0,
+				"uid": "racial-pwat"
+			}
+		],
+		"attackParts": [
+		],
+		"brokenResalePrice": null,
+		"carried": false,
+		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+			[
+				"-10",
+				"speed",
+				"allSpeeds",
+				"racial"
+			],
+			[
+				"2",
+				"skill",
+				"skill.lis",
+				"racial"
+			],
+			[
+				"-2",
+				"ability",
+				"str",
+				"racial"
+			],
+			[
+				"2",
+				"ability",
+				"con",
+				"racial"
+			],
+			[
+				"4",
+				"skill",
+				"skill.hid",
+				"racial"
+			]
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"constantWeight": false,
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+			[
+				"+1 racial bonus on attack rolls against kobolds, goblinoids, orcs, and reptilian humanoids.",
+				"attacks",
+				"attack"
+			],
+			[
+				"+4 extra racial bonus on Hide checks in a wooded area.",
+				"skill",
+				"skill.hid"
+			]
+		],
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"creatureType": "humanoid",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p>They are the smallest of all the gnomes, averaging 2 to 2-1/2 feet in height, but look just like regular gnomes except with bark-colored or gray-green skin, and eyes that can be brown or green as well as blue. A very long-lived people, forest gnomes have an average life expectancy of 500 years.</p>\n<ul>\n<li>+2 Constitution, &ndash;2 Strength.</li>\n<li>Humanoid (Gnome)</li>\n<li>Small: As a Small creature, a forest gnome gains a +1 size bonus to Armor Class, a +1 size bonus on attack rolls, and a +4 size bonus on Hide checks, but he uses smaller weapons than humans use, and his lifting and carrying limits are three-quarters of those of a Medium character.</li>\n<li>Forest gnome base land speed is 20 feet.</li>\n<li>Low-Light Vision: A forest gnome can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. He retains the ability to distinguish color and detail under these conditions.</li>\n<li>Weapon Familiarity: Forest gnomes may treat gnome hooked hammers as martial weapons rather than exotic weapons.</li>\n<li>Pass without Trace (Su): A forest gnome has the innate ability to use pass without trace (self only, as a free action) as the spell cast by a druid of the forest gnome&rsquo;s class levels.</li>\n<li>+2 racial bonus on saving throws against illusions.</li>\n<li>Add +1 to the Difficulty Class for all saving throws against illusion spells cast by forest gnomes. This adjustment stacks with those from similar effects.</li>\n<li>+1 racial bonus on attack rolls against goblinoids, orcs, and reptilian humanoids.</li>\n<li>+4 dodge bonus to Armor Class against monsters of the giant type. Any time a creature loses its Dexterity bonus (if any) to Armor Class, such as when it&rsquo;s caught flat-footed, it loses its dodge bonus, too.</li>\n<li>+2 racial bonus on Listen checks.</li>\n<li>+2 racial bonus on Craft (alchemy) checks.</li>\n<li>+4 racial bonus on Hide checks, which improves to +8 in a wooded area.</li>\n<li>Automatic Languages: Gnome, Elven, Sylvan, and a simple language that enables them to communicate on a very basic level with forest animals. Bonus Languages: Common, Draconic, Dwarven, Giant, Goblin, Orc.</li>\n<li>Spell-Like Abilities: A forest gnome with a Charisma score of at least 10 has the following spell-like abilities: 1/day&mdash;dancing lights, ghost sound, prestidigitation. Caster level 1st; save DC 10 + forest gnome&rsquo;s Cha modifier + spell level.</li>\n<li>Favored Class: Bard. A multiclass forest gnome&rsquo;s bard class does not count when determining whether he takes an experience point penalty.</li>\n<li>Level Adjustment: +0</li>\n</ul>"
+		},
+		"disabledAbilities": [
+		],
+		"epic": "",
+		"equippedWeightless": false,
+		"fullResalePrice": false,
+		"identifiedName": "Gnome, Forest",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"la": null,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"links": {
+			"children": [
+			]
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 100,
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"psionic": "",
+		"requirements": [
+		],
+		"resalePrice": null,
+		"resistances": [
+		],
+		"senses": {
+			"blindsight": null,
+			"darkvision": null,
+			"lowLight": true,
+			"lowLightMultiplier": null,
+			"tremorsense": null,
+			"truesight": null
+		},
+		"sizeOverride": "sm",
+		"source": "",
+		"specialActions": [
+		],
+		"subTypes": [
+		],
+		"tags": [
+		],
+		"uniqueId": "",
+		"userNonRemovable": false
+	},
+	"type": "race"
+}
