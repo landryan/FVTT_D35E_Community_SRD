@@ -43,3 +43,8 @@ A community-managed SRD for the DnD 3.5 System for Foundry VTT.
 5. Run Import_to_LevelDB.bat
 6. Commit & Raise a Pull Request to share your change.
 
+## FAQ
+
+Q: Can I use the built-in Export to JSON feature use those files instead?
+A: No it doesn't look like it. This JSON format crashes Smelter. You need to stick with the Smelter-exported format.
+
