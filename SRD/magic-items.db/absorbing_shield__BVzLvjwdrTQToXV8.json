@@ -1,0 +1,813 @@
+{
+	"_id": "BVzLvjwdrTQToXV8",
+	"_key": "!items!BVzLvjwdrTQToXV8",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/items/magic/shield/named/absorbing-shield.png",
+	"name": "Absorbing Shield",
+	"system": {
+		"ability": {
+			"attack": "",
+			"critMult": null,
+			"critRange": "",
+			"damage": "",
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"actionType": "msak",
+		"activateActions": [
+		],
+		"activation": {
+			"cost": null,
+			"type": "standard"
+		},
+		"armor": {
+			"acp": 2,
+			"dex": "",
+			"enh": 1,
+			"value": 2
+		},
+		"armorType": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "@Compendium[D35E.spells.dbzLkfBfQHCpcuao]{Disintegrate} object it touches,as the spell.",
+		"attackParts": [
+		],
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"brokenResalePrice": "",
+		"carried": true,
+		"changeFlags": {
+			"hasted": false,
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"constantWeight": true,
+		"container": "None",
+		"containerId": "none",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"convertedWeight": null,
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"critConfirmBonus": "",
+		"curseActive": false,
+		"cursed": false,
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">You strap a shield to your forearm and grip it with your hand. A heavy shield is so heavy that you can’t use your shield hand for anything else.</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Wooden or Steel:</strong>&nbsp;Wooden and steel shields offer the same basic protection, though they respond differently to special attacks (such as warp wood and heat metal).</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Shield Bash Attacks:</strong>&nbsp;You can bash an opponent with a heavy shield, using it as an off-hand weapon. See Table 7–5: Weapons for the damage dealt by a shield bash. Used this way, a heavy shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a heavy shield as a one-handed weapon. If you use your shield as a weapon, you lose its AC bonus until your next action (usually until the next round). An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.</p>",
+			"value": "<div>\n<p><strong>Absorbing Shield:</strong> This <em>+1 heavy steel shield</em> is flat black and seems to absorb light. Once every two days, on command, it can @Compendium[D35E.spells.dbzLkfBfQHCpcuao]{Disintegrate} an object that it touches, as the spell but requiring a melee touch attack.</p>\n<p>Strong transmutation; CL 17th; Craft Magic Arms and Armor, <em>disintegrate</em>; Price 50,170 gp; Cost 25,170 gp + 2,000 XP.</p>\n</div>"
+		},
+		"duration": {
+			"units": "inst",
+			"value": null
+		},
+		"effectNotes": "",
+		"enhancements": {
+			"automation": {
+				"updateName": false,
+				"updatePrice": false
+			},
+			"clFormula": "",
+			"items": [
+				{
+					"_id": null,
+					"calcPrice": "+1",
+					"data": {
+						"ability": {
+							"attack": null,
+							"critMult": 2,
+							"critRange": 20,
+							"damage": null,
+							"damageMult": 1,
+							"twoHandedOnly": false,
+							"vsTouchAc": false
+						},
+						"actionType": "",
+						"activateActions": [
+						],
+						"activation": {
+							"cost": 1,
+							"type": ""
+						},
+						"allowedTypes": [
+							[
+								"armor"
+							]
+						],
+						"attack": {
+							"parts": [
+							]
+						},
+						"attackBonus": "",
+						"attackCountFormula": "",
+						"attackNotes": "",
+						"attackParts": [
+						],
+						"autoscaleAttackParts": "",
+						"baseCl": "0",
+						"changeFlags": {
+							"heavyArmorFullSpeed": false,
+							"loseDexToAC": false,
+							"mediumArmorFullSpeed": false,
+							"multiAttack": false,
+							"multiweaponAttack": false,
+							"noCon": false,
+							"noDex": false,
+							"noEncumbrance": false,
+							"noInt": false,
+							"noStr": false,
+							"oneCha": false,
+							"oneInt": false,
+							"oneWis": false
+						},
+						"changes": [
+						],
+						"classSource": "",
+						"combatChangeCustomDisplayName": "",
+						"combatChangeCustomReferenceName": "",
+						"combatChanges": [
+						],
+						"combatChangesAdditionalRanges": {
+							"hasAdditionalRanges": false,
+							"slider1": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							},
+							"slider2": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							},
+							"slider3": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							}
+						},
+						"combatChangesApplySpecialActionsOnce": true,
+						"combatChangesRange": {
+							"max": 0,
+							"maxFormula": ""
+						},
+						"combatChangesUsesCost": "chargesPerUse",
+						"conditionFlags": {
+							"dazzled": false,
+							"polymorphed": false,
+							"wildshaped": false
+						},
+						"container": "None",
+						"containerWeightless": false,
+						"contextNotes": [
+						],
+						"counterName": "",
+						"createdBy": "",
+						"creationChanges": [
+						],
+						"critConfirmBonus": "",
+						"customAttributes": {
+						},
+						"customAttributesLocked": false,
+						"customTag": "",
+						"damage": {
+							"alternativeParts": [
+							],
+							"parts": [
+							]
+						},
+						"damageReduction": [
+						],
+						"deactivateActions": [
+						],
+						"description": {
+							"chat": "",
+							"unidentified": "",
+							"value": "<p>Magic weapons have enhancement bonuses ranging from +1 to +5. They apply these bonuses to both attack and damage rolls when used in combat. All magic weapons are also masterwork weapons, but their masterwork bonus on attack rolls does not stack with their enhancement bonus on attack rolls.</p>"
+						},
+						"duration": {
+							"units": "",
+							"value": null
+						},
+						"effectNotes": "",
+						"enh": 1,
+						"enhIncrease": 1,
+						"enhIncreaseFormula": "@enhancement",
+						"enhIsLevel": false,
+						"enhancementType": "armor",
+						"favorite": false,
+						"formula": "",
+						"identifiedName": "+1 Armor Enhancement",
+						"isFromBuff": false,
+						"isFromSpell": false,
+						"linkId": "",
+						"linkImported": false,
+						"linkSourceId": "",
+						"linkSourceName": "",
+						"linkedChargeItem": {
+							"id": null,
+							"img": null,
+							"name": null
+						},
+						"maxDamageDice": 0,
+						"maxDamageDiceFormula": "",
+						"measureTemplate": {
+							"customColor": "",
+							"customTexture": "",
+							"overrideColor": false,
+							"overrideTexture": false,
+							"size": 0,
+							"type": ""
+						},
+						"metamagicFeats": {
+							"empowered": false,
+							"enhanced": false,
+							"enhancedHalf": false,
+							"enlarged": false,
+							"intensified": false,
+							"maximized": false,
+							"widened": false
+						},
+						"nameExtension": {
+							"prefix": "",
+							"suffix": ""
+						},
+						"nameFormula": "",
+						"nameFromFormula": false,
+						"originVersion": 97,
+						"pr": false,
+						"price": 0,
+						"priceFormula": "",
+						"properties": {
+						},
+						"range": {
+							"long": null,
+							"units": "",
+							"value": null
+						},
+						"recharge": {
+							"current": 0,
+							"enabled": false,
+							"formula": ""
+						},
+						"requirements": "",
+						"requiresPsionicFocus": false,
+						"resistances": [
+						],
+						"rollTableDraw": {
+							"formula": "",
+							"id": "",
+							"name": "",
+							"pack": ""
+						},
+						"save": {
+							"ability": "",
+							"dc": 0,
+							"description": "",
+							"originVersion": 97,
+							"type": ""
+						},
+						"sizeOverride": "",
+						"source": "",
+						"specialActions": [
+						],
+						"sr": false,
+						"tags": [
+						],
+						"target": {
+							"value": ""
+						},
+						"uniqueId": "",
+						"userNonRemovable": false,
+						"uses": {
+							"allowMultipleUses": false,
+							"autoDeductCharges": true,
+							"canBeLinked": false,
+							"chargesPerUse": 1,
+							"isResource": false,
+							"max": 0,
+							"maxFormula": "",
+							"maxPerUse": null,
+							"maxPerUseFormula": "",
+							"per": null,
+							"rechargeFormula": null,
+							"value": 0
+						},
+						"weaponAttackNotes": [
+						],
+						"weaponData": {
+							"alignment": {
+								"chaotic": false,
+								"evil": false,
+								"good": false,
+								"lawful": false
+							},
+							"attackRoll": "",
+							"damageRoll": "",
+							"damageType": "",
+							"damageTypeId": "",
+							"optionalDamage": false
+						}
+					},
+					"effects": [
+					],
+					"flags": {
+					},
+					"folder": null,
+					"hasAction": false,
+					"hasUses": false,
+					"img": "systems/D35E/icons/crafting-station/enhancements/enhancement-armor.png",
+					"incorrect": false,
+					"isCharged": false,
+					"name": "+1 Armor Enhancement",
+					"permission": {
+						"default": 0,
+						"wbFPpmVfPG23MbMC": 3
+					},
+					"sort": 0,
+					"tag": "1ArmorEnhancement",
+					"type": "enhancement"
+				},
+				{
+					"_id": null,
+					"calcPrice": "0",
+					"data": {
+						"ability": {
+							"attack": null,
+							"critMult": 2,
+							"critRange": "20",
+							"damage": null,
+							"damageMult": 1,
+							"twoHandedOnly": false,
+							"vsTouchAc": false
+						},
+						"actionType": "rsak",
+						"activation": {
+							"cost": 1,
+							"type": "standard"
+						},
+						"allowedTypes": [
+						],
+						"attackBonus": "",
+						"attackCountFormula": "",
+						"attackNotes": "",
+						"attackParts": [
+						],
+						"autoscaleAttackParts": "",
+						"baseCl": 11,
+						"changeFlags": {
+							"heavyArmorFullSpeed": false,
+							"loseDexToAC": false,
+							"mediumArmorFullSpeed": false,
+							"multiAttack": false,
+							"multiweaponAttack": false,
+							"noCon": false,
+							"noDex": false,
+							"noEncumbrance": false,
+							"noInt": false,
+							"noStr": false,
+							"oneCha": false,
+							"oneInt": false,
+							"oneWis": false
+						},
+						"changes": [
+						],
+						"classSource": "",
+						"combatChangeCustomDisplayName": "",
+						"combatChangeCustomReferenceName": "",
+						"combatChanges": [
+						],
+						"combatChangesAdditionalRanges": {
+							"hasAdditionalRanges": false,
+							"slider1": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							},
+							"slider2": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							},
+							"slider3": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							}
+						},
+						"combatChangesApplySpecialActionsOnce": true,
+						"combatChangesRange": {
+							"max": 0,
+							"maxFormula": ""
+						},
+						"combatChangesUsesCost": "chargesPerUse",
+						"conditionFlags": {
+							"dazzled": false,
+							"polymorphed": false,
+							"wildshaped": false
+						},
+						"contextNotes": [
+						],
+						"counterName": "",
+						"createdBy": "",
+						"creationChanges": [
+						],
+						"critConfirmBonus": "",
+						"customAttributes": {
+						},
+						"customAttributesLocked": false,
+						"customTag": "",
+						"damage": {
+							"alternativeParts": [
+							],
+							"parts": [
+								[
+									"(@cl*2)d6",
+									"",
+									""
+								]
+							]
+						},
+						"damageReduction": [
+						],
+						"description": {
+							"chat": "",
+							"unidentified": "",
+							"value": "<div class=\"spell-description\">\n  <p>\n      <strong>School:</strong>&nbsp;transmutation;\n    <br>\n    <strong>Level:</strong>&nbsp;Sorcerer 6, Wizard 6;\n    <strong>Domain:</strong>&nbsp;Destruction 7;\n    \n    \n    \n    <br>\n    <strong>Components:</strong>&nbsp;V, S, M/DF (a lodestone and a pinch of dust), F<br>\n    \n      <strong>Casting Time:</strong>&nbsp;1 standard action<br>\n    <strong>Range:</strong>&nbsp;medium (100 ft. + 10 ft./level)<br>\n    \n    \n    <strong>Effect:</strong>&nbsp;Ray<br>\n    <strong>Duration:</strong>&nbsp;Instantaneous<br>\n    \n        <strong>Saving Throw:</strong>&nbsp;Fortitude Partial\n        <br>\n        <strong>Spell Resistance:</strong>&nbsp;yes<br>\n  </p>\n  <h2>Description</h2>\n  \n\n\n<p>\nA thin, green ray springs from your pointing finger. You must make a successful ranged touch attack to hit. Any creature struck by the ray takes 2d6 points of damage per caster level (to a maximum of 40d6). Any creature reduced to 0 or fewer hit points by this spell is entirely disintegrated, leaving behind only a trace of fine dust. A disintegrated creature’s equipment is unaffected.\n</p><p>When used against an object, the ray simply disintegrates as much as one 10- foot cube of nonliving matter. Thus, the spell disintegrates only part of any very large object or structure targeted. The ray affects even objects constructed entirely of force, such as <i>forceful hand</i> or a <i>wall of force</i>, but not magical effects such as a <i>globe of invulnerability</i> or an <i>antimagic field.</i>\n</p><p>A creature or object that makes a successful Fortitude save is partially affected, taking only 5d6 points of damage. If this damage reduces the creature or object to 0 or fewer hit points, it is entirely disintegrated.\n</p><p>Only the first creature or object struck can be affected; that is, the ray affects only one target per casting.\n</p><p><i>Arcane Material Component:</i> A lodestone and a pinch of dust.\n</p>\n<hr/>\n\n\n\n</div>\n"
+						},
+						"duration": {
+							"units": "",
+							"value": null
+						},
+						"effectNotes": "If the creature is reduced to 0 it is completely disintegrated",
+						"enh": 0,
+						"enhIncrease": 0,
+						"enhIncreaseFormula": "",
+						"enhIsLevel": false,
+						"enhancementType": "misc",
+						"favorite": false,
+						"formula": "",
+						"isFromBuff": false,
+						"isFromSpell": true,
+						"linkId": "",
+						"linkImported": false,
+						"linkSourceId": "",
+						"linkSourceName": "",
+						"linkedChargeItem": {
+							"id": null,
+							"img": null,
+							"name": null
+						},
+						"maxDamageDice": 0,
+						"maxDamageDiceFormula": "",
+						"measureTemplate": {
+							"customColor": "",
+							"customTexture": "",
+							"overrideColor": false,
+							"overrideTexture": false,
+							"size": 0,
+							"type": ""
+						},
+						"metamagicFeats": {
+							"empowered": false,
+							"enhanced": false,
+							"enhancedHalf": false,
+							"enlarged": false,
+							"intensified": false,
+							"maximized": false,
+							"widened": false
+						},
+						"nameExtension": {
+							"prefix": "",
+							"suffix": ""
+						},
+						"nameFormula": "",
+						"nameFromFormula": false,
+						"originVersion": 97,
+						"pr": false,
+						"price": 0,
+						"priceFormula": "",
+						"properties": {
+						},
+						"range": {
+							"units": "",
+							"value": null
+						},
+						"recharge": {
+							"current": 0,
+							"enabled": false,
+							"formula": ""
+						},
+						"requirements": [
+						],
+						"requiresPsionicFocus": false,
+						"resistances": [
+						],
+						"rollTableDraw": {
+							"formula": "",
+							"id": "",
+							"name": "",
+							"pack": ""
+						},
+						"save": {
+							"ability": "",
+							"dc": 19,
+							"description": "Fortitude partial (object)",
+							"originVersion": 97,
+							"type": "fortitudepartial"
+						},
+						"sizeOverride": "",
+						"source": "",
+						"specialActions": [
+						],
+						"sr": false,
+						"tags": [
+						],
+						"target": {
+							"value": ""
+						},
+						"uniqueId": "",
+						"userNonRemovable": false,
+						"uses": {
+							"allowMultipleUses": false,
+							"autoDeductCharges": true,
+							"canBeLinked": false,
+							"chargesPerUse": 1,
+							"isResource": false,
+							"max": 2,
+							"maxFormula": "2",
+							"maxPerUse": null,
+							"maxPerUseFormula": "",
+							"per": "day",
+							"rechargeFormula": null,
+							"value": 2
+						},
+						"weaponAttackNotes": [
+						],
+						"weaponData": {
+							"alignment": {
+								"chaotic": false,
+								"evil": false,
+								"good": false,
+								"lawful": false
+							},
+							"attackRoll": "",
+							"damageRoll": "",
+							"damageType": "",
+							"damageTypeId": "",
+							"optionalDamage": false
+						}
+					},
+					"effects": [
+					],
+					"flags": {
+					},
+					"folder": null,
+					"hasAction": true,
+					"hasUses": true,
+					"id": "dbzLkfBfQHCpcuao",
+					"img": "systems/D35E/icons/spells/named-spells/disintegrate.png",
+					"incorrect": false,
+					"isCharged": true,
+					"name": "Disintegrate",
+					"permission": {
+						"default": 0
+					},
+					"sort": 0,
+					"tag": "disintegrate",
+					"type": "enhancement"
+				}
+			],
+			"spellcastingAbility": "",
+			"uses": {
+				"allowMultipleUses": false,
+				"autoDeductCharges": true,
+				"commonPool": false,
+				"max": 0,
+				"per": null,
+				"rechargeFormula": null,
+				"value": 0
+			}
+		},
+		"epic": "",
+		"equipmentSubtype": "heavyShield",
+		"equipmentType": "shield",
+		"equipped": true,
+		"equippedWeightless": false,
+		"favorite": false,
+		"formula": "",
+		"fullResalePrice": false,
+		"hardness": 0,
+		"hp": {
+			"max": 10,
+			"value": 10
+		},
+		"identified": true,
+		"identifiedCurse": false,
+		"identifiedName": "Absorbing Shield",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"light": {
+			"alpha": 0.5,
+			"animationIntensity": 6,
+			"animationSpeed": 6,
+			"color": "#000000",
+			"dimRadius": null,
+			"emitLight": false,
+			"lightAngle": 360,
+			"opacity": 0,
+			"radius": null,
+			"type": ""
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedItems": [
+		],
+		"masterwork": true,
+		"material": {
+			"data": null
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 0,
+			"type": ""
+		},
+		"melded": false,
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"pr": false,
+		"price": 50170,
+		"psionic": "",
+		"quantity": 1,
+		"range": {
+			"long": null,
+			"units": "touch",
+			"value": null
+		},
+		"recharge": {
+			"enabled": false
+		},
+		"requirements": [
+		],
+		"requiresPsionicFocus": false,
+		"resalePrice": "",
+		"resistances": [
+		],
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": "",
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "",
+			"originVersion": 97,
+			"type": ""
+		},
+		"senses": {
+			"blindsight": null,
+			"darkvision": null,
+			"lowLight": false,
+			"tremorsense": null,
+			"truesight": null
+		},
+		"sizeOverride": "",
+		"slot": "shield",
+		"source": "",
+		"specialActions": [
+		],
+		"spellFailure": 15,
+		"sr": false,
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": "One object touched by the shield"
+		},
+		"unidentified": {
+			"name": "Heavy Steel Shield",
+			"price": 20
+		},
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": null,
+			"isResource": false,
+			"max": 3,
+			"maxFormula": "3",
+			"per": "week",
+			"rechargeFormula": "",
+			"value": 3
+		},
+		"weight": 0
+	},
+	"type": "equipment"
+}

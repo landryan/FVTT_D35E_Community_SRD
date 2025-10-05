@@ -1,0 +1,791 @@
+{
+	"_id": "xW9DZYjv13sRGQM1",
+	"_key": "!items!xW9DZYjv13sRGQM1",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/items/magic/weapons/named/stormbrand.png",
+	"name": "Stormbrand",
+	"system": {
+		"attackNotes": "",
+		"baseWeaponType": "Greatsword",
+		"bonus": {
+			"_deprecated": true,
+			"value": 0
+		},
+		"brokenResalePrice": "",
+		"carried": true,
+		"changeFlags": {
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"constantWeight": true,
+		"container": "None",
+		"containerId": "none",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"curseActive": false,
+		"cursed": false,
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"parts": [
+			]
+		},
+		"damage2": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"damage2Type": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"damageReduction": [
+		],
+		"damageType": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"description": {
+			"chat": "",
+			"unidentified": "<p>Adventurers recognize the greatsword as one of the best melee weapons available. It’s reliable and powerful.</p>",
+			"value": "<p><strong>Stormbrand:</strong>&nbsp;This +<em>4 thundering shocking burst greatsword</em>&nbsp;allows its wielder to fly at will (as the&nbsp;<em>fly</em>&nbsp;spell). Furthermore, the wielder can move normally (including flying) even in the strongest winds. When the weapon is drawn, the wielder gains electricity resistance 30 and sonic resistance 30.</p>\n<p><em>Caster Level:</em>&nbsp;21st;&nbsp;<em>Prerequisites:</em>&nbsp;Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor,&nbsp;<em>blindness/deafness</em>,&nbsp;<em>call lightning</em>&nbsp;or&nbsp;<em>lightning bolt</em>,&nbsp;<em>control winds</em>,&nbsp;<em>fly</em>,&nbsp;<em>protection from energy; Market Price:</em>&nbsp;235,350 gp;&nbsp;<em>Cost to Create:</em>&nbsp;117,850 gp + 12,350 XP.</p>"
+		},
+		"effectNotes": "",
+		"enh": 4,
+		"enhancements": {
+			"automation": {
+				"updateName": false,
+				"updatePrice": false
+			},
+			"clFormula": "",
+			"items": [
+				{
+					"_id": "xW9DZYjv13sRGQM1-Ng5AlRupmkMOgqQi",
+					"calcPrice": "+4",
+					"data": {
+						"ability": {
+							"attack": null,
+							"critMult": 2,
+							"critRange": 20,
+							"damage": null,
+							"damageMult": 1
+						},
+						"actionType": "",
+						"activateActions": [
+						],
+						"activation": {
+							"cost": 1,
+							"type": ""
+						},
+						"allowedTypes": [
+						],
+						"attack": {
+							"parts": [
+							]
+						},
+						"attackBonus": "",
+						"attackNotes": "",
+						"attackParts": [
+						],
+						"changeFlags": {
+							"heavyArmorFullSpeed": false,
+							"loseDexToAC": false,
+							"mediumArmorFullSpeed": false,
+							"noDex": false,
+							"noEncumbrance": false,
+							"noStr": false,
+							"oneCha": false,
+							"oneInt": false,
+							"oneWis": false
+						},
+						"changes": [
+						],
+						"conditionFlags": {
+							"dazzled": false,
+							"polymorphed": false,
+							"wildshaped": false
+						},
+						"container": "None",
+						"containerWeightless": false,
+						"contextNotes": [
+						],
+						"critConfirmBonus": "",
+						"damage": {
+							"parts": [
+							]
+						},
+						"deactivateActions": [
+						],
+						"description": {
+							"chat": "",
+							"unidentified": "",
+							"value": "<p>Magic weapons have enhancement bonuses ranging from +1 to +5. They apply these bonuses to both attack and damage rolls when used in combat. All magic weapons are also masterwork weapons, but their masterwork bonus on attack rolls does not stack with their enhancement bonus on attack rolls.</p>"
+						},
+						"duration": {
+							"units": "",
+							"value": null
+						},
+						"effectNotes": "",
+						"enh": 4,
+						"enhIncrease": 4,
+						"enhIncreaseFormula": "@enhancement",
+						"enhancementType": "weapon",
+						"formula": "",
+						"identifiedName": "+1 Weapon Enhancement",
+						"measureTemplate": {
+							"customColor": "",
+							"customTexture": "",
+							"overrideColor": false,
+							"overrideTexture": false,
+							"size": 0,
+							"type": ""
+						},
+						"nameExtension": {
+							"prefix": "",
+							"suffix": ""
+						},
+						"originVersion": 97,
+						"price": 0,
+						"priceFormula": "",
+						"properties": {
+						},
+						"range": {
+							"long": null,
+							"units": "",
+							"value": null
+						},
+						"requirements": "",
+						"save": {
+							"dc": 0,
+							"description": "",
+							"originVersion": 97
+						},
+						"sizeOverride": "",
+						"specialActions": [
+						],
+						"tags": [
+						],
+						"target": {
+							"value": ""
+						},
+						"uses": {
+							"allowMultipleUses": false,
+							"autoDeductCharges": true,
+							"chargesPerUse": 1,
+							"max": 0,
+							"per": null,
+							"value": 0
+						},
+						"weaponAttackNotes": [
+						],
+						"weaponData": {
+							"damageRoll": "",
+							"damageType": ""
+						}
+					},
+					"flags": {
+					},
+					"hasAction": false,
+					"hasUses": false,
+					"img": "systems/D35E/icons/crafting-station/enhancements/enhancement-weapon.png",
+					"incorrect": false,
+					"isCharged": false,
+					"name": "+1 Weapon Enhancement",
+					"permission": {
+						"default": 0,
+						"wbFPpmVfPG23MbMC": 3
+					},
+					"type": "enhancement"
+				},
+				{
+					"_id": "xW9DZYjv13sRGQM1-AVr5C03szoFJQkDO",
+					"calcPrice": "+1",
+					"data": {
+						"ability": {
+							"attack": "",
+							"critMult": 2,
+							"critRange": 20,
+							"damage": "",
+							"damageMult": 1
+						},
+						"actionType": "save",
+						"activateActions": [
+						],
+						"activation": {
+							"cost": 1,
+							"type": ""
+						},
+						"allowedTypes": [
+							[
+								"weapon"
+							]
+						],
+						"attack": {
+							"parts": [
+							]
+						},
+						"attackBonus": "",
+						"attackNotes": "DC 14 Fortitude save or deafened permanently on Critical Hit.",
+						"attackParts": [
+						],
+						"changeFlags": {
+							"heavyArmorFullSpeed": false,
+							"loseDexToAC": false,
+							"mediumArmorFullSpeed": false,
+							"noDex": false,
+							"noEncumbrance": false,
+							"noStr": false,
+							"oneCha": false,
+							"oneInt": false,
+							"oneWis": false,
+							"uncannyDodge": false
+						},
+						"changes": [
+						],
+						"conditionFlags": {
+							"dazzled": false,
+							"polymorphed": false,
+							"wildshaped": false
+						},
+						"container": "None",
+						"containerWeightless": false,
+						"contextNotes": [
+						],
+						"critConfirmBonus": "",
+						"damage": {
+							"parts": [
+							]
+						},
+						"deactivateActions": [
+						],
+						"description": {
+							"chat": "",
+							"unidentified": "",
+							"value": "<p>A thundering weapon creates a cacophonous roar like thunder upon striking a successful critical hit. The sonic energy does not harm the wielder. A thundering weapon deals an extra 1d8 points of sonic damage on a successful critical hit. If the weapon’s critical multiplier is ×3, add an extra 2d8 points of sonic damage instead, and if the multiplier is ×4, add an extra 3d8 points of sonic damage. Bows, crossbows, and slings so crafted bestow the sonic energy upon their ammunition. Subjects dealt a critical hit by a thundering weapon must make a DC 14 Fortitude save or be deafened permanently.</p>"
+						},
+						"duration": {
+							"units": "",
+							"value": null
+						},
+						"effectNotes": "",
+						"enh": 0,
+						"enhIncrease": 1,
+						"enhIncreaseFormula": "1",
+						"enhancementType": "weapon",
+						"formula": "",
+						"identifiedName": "Thundering",
+						"measureTemplate": {
+							"customColor": "",
+							"customTexture": "",
+							"overrideColor": false,
+							"overrideTexture": false,
+							"size": 0,
+							"type": ""
+						},
+						"nameExtension": {
+							"prefix": "Thundering",
+							"suffix": ""
+						},
+						"originVersion": 97,
+						"price": 0,
+						"priceFormula": "0",
+						"properties": {
+						},
+						"range": {
+							"long": null,
+							"units": "",
+							"value": null
+						},
+						"requirements": "CL 5th; Craft Magic Arms and Armor, blindness/deafness",
+						"save": {
+							"dc": "0",
+							"description": "",
+							"originVersion": 97
+						},
+						"sizeOverride": "",
+						"specialActions": [
+						],
+						"tags": [
+						],
+						"target": {
+							"value": ""
+						},
+						"uses": {
+							"allowMultipleUses": false,
+							"autoDeductCharges": true,
+							"chargesPerUse": null,
+							"max": 3,
+							"maxFormula": "3",
+							"per": "",
+							"value": 1
+						},
+						"weaponAttackNotes": [
+						],
+						"weaponData": {
+							"damageRoll": "(((@critMult))-(1))d10",
+							"damageType": "Sonic"
+						}
+					},
+					"flags": {
+					},
+					"hasAction": false,
+					"hasUses": true,
+					"img": "systems/D35E/icons/crafting-station/enhancements/weapons/thundering.png",
+					"incorrect": false,
+					"isCharged": false,
+					"name": "Thundering",
+					"permission": {
+						"default": 0,
+						"wbFPpmVfPG23MbMC": 3
+					},
+					"type": "enhancement"
+				},
+				{
+					"_id": "xW9DZYjv13sRGQM1-Kj7YAs2ELLFJfjlO",
+					"calcPrice": "+2",
+					"data": {
+						"ability": {
+							"attack": "",
+							"critMult": 2,
+							"critRange": 20,
+							"damage": "",
+							"damageMult": 1
+						},
+						"actionType": "",
+						"activation": {
+							"cost": 1,
+							"type": ""
+						},
+						"allowedTypes": [
+							[
+								"weapon"
+							]
+						],
+						"attack": {
+							"parts": [
+							]
+						},
+						"attackBonus": "",
+						"attackNotes": "",
+						"attackParts": [
+						],
+						"changeFlags": {
+							"heavyArmorFullSpeed": false,
+							"loseDexToAC": false,
+							"mediumArmorFullSpeed": false,
+							"noDex": false,
+							"noEncumbrance": false,
+							"noStr": false,
+							"oneCha": false,
+							"oneInt": false,
+							"oneWis": false,
+							"uncannyDodge": false
+						},
+						"changes": [
+						],
+						"conditionFlags": {
+							"dazzled": false,
+							"polymorphed": false,
+							"wildshaped": false
+						},
+						"contextNotes": [
+						],
+						"critConfirmBonus": "",
+						"damage": {
+							"parts": [
+							]
+						},
+						"description": {
+							"chat": "",
+							"unidentified": "",
+							"value": "<p>A shocking burst weapon functions as a shock weapon that also explodes with electricity upon striking a successful critical hit. The electricity does not harm the wielder. In addition to the extra electricity damage from the shock ability, a shocking burst weapon deals an extra 1d10 points of electricity damage on a successful critical hit. If the weapon’s critical multiplier is ×3, add an extra 2d10 points of electricity damage instead, and if the multiplier is ×4, add an extra 3d10 points. Bows, crossbows, and slings so crafted bestow the electricity energy upon their ammunition.</p>\n<p>&nbsp;</p>\n<p>Even if the shock ability is not active, the weapon still deals its extra electricity damage on a successful critical hit.</p>"
+						},
+						"duration": {
+							"units": "",
+							"value": null
+						},
+						"effectNotes": "",
+						"enh": 0,
+						"enhIncrease": 2,
+						"enhIncreaseFormula": "2",
+						"enhancementType": "weapon",
+						"formula": "",
+						"measureTemplate": {
+							"customColor": "",
+							"customTexture": "",
+							"overrideColor": false,
+							"overrideTexture": false,
+							"size": 0,
+							"type": ""
+						},
+						"nameExtension": {
+							"prefix": "Shocking Burst",
+							"suffix": ""
+						},
+						"originVersion": 97,
+						"price": 0,
+						"priceFormula": "0",
+						"properties": {
+						},
+						"range": {
+							"long": null,
+							"units": "",
+							"value": null
+						},
+						"requirements": "CL 10th; Craft Magic Arms and Armor, call lightning or lightning bolt",
+						"save": {
+							"dc": "0",
+							"description": "",
+							"originVersion": 97
+						},
+						"sizeOverride": "",
+						"specialActions": [
+						],
+						"tags": [
+						],
+						"target": {
+							"value": ""
+						},
+						"uses": {
+							"allowMultipleUses": false,
+							"autoDeductCharges": true,
+							"chargesPerUse": null,
+							"max": 3,
+							"maxFormula": "3",
+							"per": "",
+							"value": 1
+						},
+						"weaponAttackNotes": [
+						],
+						"weaponData": {
+							"damageRoll": "1d6+(((@critMult))-(1))d10",
+							"damageType": "Electricity"
+						}
+					},
+					"flags": {
+					},
+					"hasAction": false,
+					"hasUses": true,
+					"img": "systems/D35E/icons/crafting-station/enhancements/weapons/shocking-burst.png",
+					"incorrect": false,
+					"isCharged": false,
+					"name": "Shocking Burst",
+					"permission": {
+						"default": 0,
+						"wbFPpmVfPG23MbMC": 3
+					},
+					"type": "enhancement"
+				},
+				{
+					"_id": "xW9DZYjv13sRGQM1-guJfSZDQMFqDFyXc",
+					"data": {
+						"ability": {
+							"attack": null,
+							"critMult": 2,
+							"critRange": 20,
+							"damage": "",
+							"damageMult": 1
+						},
+						"actionType": "special",
+						"activateActions": [
+						],
+						"activation": {
+							"cost": 1,
+							"type": "swift"
+						},
+						"allowedTypes": [
+						],
+						"attack": {
+							"parts": [
+							]
+						},
+						"attackBonus": "",
+						"attackNotes": "",
+						"attackParts": [
+						],
+						"changeFlags": {
+							"heavyArmorFullSpeed": false,
+							"loseDexToAC": false,
+							"mediumArmorFullSpeed": false,
+							"noDex": false,
+							"noEncumbrance": false,
+							"noStr": false,
+							"oneCha": false,
+							"oneInt": false,
+							"oneWis": false
+						},
+						"changes": [
+						],
+						"conditionFlags": {
+							"dazzled": false,
+							"polymorphed": false,
+							"wildshaped": false
+						},
+						"container": "None",
+						"containerWeightless": false,
+						"contextNotes": [
+						],
+						"critConfirmBonus": "",
+						"damage": {
+							"parts": [
+							]
+						},
+						"deactivateActions": [
+						],
+						"description": {
+							"chat": "",
+							"unidentified": "",
+							"value": "<p>@Compendium[D35E.spells.7V1PIzImnnFj5ApS]{Fly} as the spell.</p>"
+						},
+						"duration": {
+							"units": "",
+							"value": null
+						},
+						"effectNotes": "@Compendium[D35E.spells.7V1PIzImnnFj5ApS]{Fly} as the spell.",
+						"enh": 0,
+						"enhIncrease": 0,
+						"enhIncreaseFormula": "0",
+						"enhIsLevel": false,
+						"enhancementType": "misc",
+						"formula": "",
+						"identifiedName": "Fly",
+						"measureTemplate": {
+							"customColor": "",
+							"customTexture": "",
+							"overrideColor": false,
+							"overrideTexture": false,
+							"size": 0,
+							"type": ""
+						},
+						"nameExtension": {
+							"prefix": "",
+							"suffix": ""
+						},
+						"originVersion": 97,
+						"price": 0,
+						"priceFormula": "",
+						"properties": {
+							"def": false,
+							"dis": false,
+							"kee": false,
+							"mnk": false,
+							"spd": false,
+							"thr": false
+						},
+						"range": {
+							"long": null,
+							"units": "personal",
+							"value": null
+						},
+						"requirements": "",
+						"save": {
+							"dc": "0",
+							"description": "",
+							"originVersion": 97
+						},
+						"sizeOverride": "",
+						"specialActions": [
+						],
+						"tags": [
+						],
+						"target": {
+							"value": "Self"
+						},
+						"uses": {
+							"allowMultipleUses": false,
+							"autoDeductCharges": true,
+							"chargesPerUse": 1,
+							"max": 0,
+							"per": "",
+							"value": 0
+						},
+						"weaponAttackNotes": [
+						],
+						"weaponData": {
+							"damageRoll": "",
+							"damageType": ""
+						}
+					},
+					"flags": {
+					},
+					"img": "systems/D35E/icons/crafting-station/enhancements/specific-items/fly.png",
+					"name": "Fly",
+					"permission": {
+						"default": 0,
+						"wbFPpmVfPG23MbMC": 3
+					},
+					"sort": 100001,
+					"type": "enhancement"
+				}
+			],
+			"spellcastingAbility": "",
+			"uses": {
+				"allowMultipleUses": false,
+				"autoDeductCharges": true,
+				"commonPool": false,
+				"max": 0,
+				"per": null,
+				"rechargeFormula": null,
+				"value": 0
+			}
+		},
+		"epic": "",
+		"equipped": true,
+		"equippedWeightless": false,
+		"fullResalePrice": false,
+		"hardness": 10,
+		"hp": {
+			"max": 10,
+			"value": 10
+		},
+		"identified": true,
+		"identifiedCurse": false,
+		"identifiedName": "Stormbrand",
+		"index": {
+			"subType": "martial",
+			"uniqueId": ""
+		},
+		"light": {
+			"alpha": 0.5,
+			"animationIntensity": "",
+			"animationSpeed": "",
+			"color": "#000000",
+			"dimRadius": "",
+			"emitLight": false,
+			"lightAngle": 360,
+			"opacity": 0,
+			"radius": null,
+			"type": ""
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedItems": [
+		],
+		"masterwork": false,
+		"material": {
+			"data": null
+		},
+		"melded": false,
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 100,
+		"possibleUpdate": false,
+		"price": 235350,
+		"properties": {
+			"blc": false,
+			"brc": false,
+			"dbl": false,
+			"dis": false,
+			"fin": false,
+			"frg": false,
+			"grp": false,
+			"imp": false,
+			"mnk": false,
+			"nnl": false,
+			"prf": false,
+			"rch": false,
+			"snd": false,
+			"thr": false,
+			"trp": false
+		},
+		"psionic": "",
+		"quantity": 1,
+		"requirements": [
+		],
+		"resalePrice": "",
+		"resistances": [
+		],
+		"sizeOverride": "",
+		"source": "",
+		"tags": [
+		],
+		"unidentified": {
+			"name": "Greatsword",
+			"price": 50
+		},
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"weaponBaseType": "",
+		"weaponData": {
+			"alignment": {
+				"chaotic": false,
+				"evil": false,
+				"good": false,
+				"lawful": false
+			},
+			"attackFormula": "",
+			"critMult": "2",
+			"critRange": "19",
+			"damageFormula": "",
+			"damageRoll": "2d6",
+			"damageType": "S",
+			"damageTypeId": "",
+			"range": null,
+			"size": "med"
+		},
+		"weaponSubtype": "2h",
+		"weaponType": "martial",
+		"weight": 8
+	},
+	"type": "weapon"
+}

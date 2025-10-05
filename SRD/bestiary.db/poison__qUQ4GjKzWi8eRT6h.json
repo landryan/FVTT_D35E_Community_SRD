@@ -1,0 +1,239 @@
+{
+	"_id": "qUQ4GjKzWi8eRT6h",
+	"_key": "!actors.items!Warss0J4XvYIAPMx.qUQ4GjKzWi8eRT6h",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/special-abilities/poison.png",
+	"name": "Poison",
+	"system": {
+		"ability": {
+			"attack": null,
+			"critMult": 2,
+			"critRange": 20,
+			"damage": "",
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"actionType": "save",
+		"activateActions": [
+		],
+		"activation": {
+			"cost": 1,
+			"type": "special"
+		},
+		"addedLevel": 0,
+		"alignment": {
+			"chaotic": false,
+			"evil": false,
+			"good": false,
+			"lawful": false
+		},
+		"associations": {
+			"classes": [
+			]
+		},
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"attackType": "racialAbility",
+		"autoScaleOption": "default",
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"baseWeaponType": "",
+		"changes": [
+		],
+		"classSource": "",
+		"combatChanges": [
+		],
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"critConfirmBonus": "",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customReferenceId": "",
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<div>\n<p>Injury, Fortitude DC 17, initial and secondary damage 1d8 Con. The save DC is Constitution-based.</p>\n</div>"
+		},
+		"duration": {
+			"units": "seeText",
+			"value": null
+		},
+		"effectNotes": "",
+		"enh": null,
+		"epic": false,
+		"favorite": true,
+		"finesseable": false,
+		"formula": "",
+		"identifiedName": "Poison",
+		"incorporeal": false,
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"isNaturalEquivalent": false,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"magic": false,
+		"masterwork": false,
+		"material": {
+			"data": null
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 0,
+			"type": ""
+		},
+		"melded": false,
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"nonLethal": false,
+		"nonLethalNoPenalty": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 0,
+		"originalWeaponCreated": false,
+		"originalWeaponId": null,
+		"originalWeaponImg": "",
+		"originalWeaponName": "",
+		"originalWeaponProperties": {
+		},
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"pr": false,
+		"primaryAttack": true,
+		"proficient": true,
+		"psionic": "",
+		"range": {
+			"long": null,
+			"units": "",
+			"value": null
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requirements": [
+		],
+		"requiresPsionicFocus": false,
+		"resistances": [
+		],
+		"returning": false,
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": "17",
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "",
+			"type": "fortitudenegates"
+		},
+		"selectedMaterial": "none",
+		"showInQuickbar": true,
+		"source": "",
+		"specialActions": [
+			{
+				"action": "AbilityDamage con 1d8 on target;",
+				"condition": "",
+				"img": "systems/D35E/icons/special-abilities/poison-initial.png",
+				"name": "Initial Damage"
+			},
+			{
+				"action": "AbilityDamage con 1d8 on target;",
+				"condition": "",
+				"img": "systems/D35E/icons/special-abilities/poison-secondary.png",
+				"name": "Secondary Damage"
+			},
+			{
+				"action": "Create unique \"Poisoned\" from \"D35E.commonbuffs\" on target;Set buff \"Poisoned\" field data.level to max(1,17) on target;Set buff \"Poisoned\" field system.description.value exact \"Fortitude DC 17, secondary damage 1d8 Con\" on target;Set buff \"Poisoned\" field name to \"Poisoned (Phase Spider)\" on target;Activate buff \"Poisoned (Phase Spider)\" on target;",
+				"condition": "",
+				"img": "systems/D35E/icons/special-abilities/poison.png",
+				"name": "Apply Poison"
+			}
+		],
+		"sr": false,
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"threatRangeExtended": false,
+		"thrown": false,
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": "",
+			"rechargeFormula": null,
+			"value": 0
+		},
+		"weaponSubtype": "light"
+	},
+	"type": "attack"
+}

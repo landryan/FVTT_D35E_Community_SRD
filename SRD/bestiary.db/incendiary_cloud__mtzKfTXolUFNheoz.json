@@ -1,0 +1,236 @@
+{
+	"_id": "mtzKfTXolUFNheoz",
+	"_key": "!actors.items!yJNejNtMOQWrJ4jG.mtzKfTXolUFNheoz",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/spells/named-spells/incendiary-cloud.png",
+	"name": "Incendiary Cloud",
+	"system": {
+		"ability": {
+			"attack": "",
+			"critMult": 2,
+			"critRange": 20,
+			"damage": "",
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"actionType": "other",
+		"activation": {
+			"cost": 1,
+			"type": "standard"
+		},
+		"addedLevel": 0,
+		"atWill": false,
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"castTime": "",
+		"clOffset": 0,
+		"classSource": "",
+		"components": {
+			"divineFocus": 0,
+			"focus": false,
+			"material": false,
+			"somatic": true,
+			"value": "",
+			"verbal": true
+		},
+		"conditionals": [
+		],
+		"createdBy": "",
+		"critConfirmBonus": "",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customReferenceId": "",
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+				[
+					"4d6",
+					"fire",
+					""
+				]
+			]
+		},
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<div class=\"spell-description\">\n  <p>\n      <strong>School:</strong>&nbsp;conjuration&nbsp;(creation)&nbsp;[fire];\n    <br>\n    <strong>Level:</strong>&nbsp;Sorcerer 8, Wizard 8;\n    <strong>Domain:</strong>&nbsp;Fire 8;\n    \n    \n    \n    <br>\n    <strong>Components:</strong>&nbsp;V, S<br>\n    \n      <strong>Casting Time:</strong>&nbsp;1 standard action<br>\n    <strong>Range:</strong>&nbsp;medium (100 ft. + 10 ft./level)<br>\n    \n    \n    <strong>Effect:</strong>&nbsp;Cloud spreads in 20-ft. radius, 20 ft. high<br>\n    <strong>Duration:</strong>&nbsp;1 round/level<br>\n    \n        <strong>Saving Throw:</strong>&nbsp;Reflex half; see text\n        <br>\n        <strong>Spell Resistance:</strong>&nbsp;no<br>\n  </p>\n  <h2>Description</h2>\n  \n\n\n<p>\nAn <i>incendiary cloud </i>spell creates a cloud of roiling smoke shot through with white-hot embers. The smoke obscures all sight as a <i>fog cloud</i> does. In addition, the white-hot embers within the cloud deal 4d6 points of fire damage to everything within the cloud on your turn each round. All targets can make Reflex saves each round to take half damage.\n</p><p>As with a <i>cloudkill</i> spell, the smoke moves away from you at 10 feet per round. Figure out the smoke’s new spread each round based on its new point of origin, which is 10 feet farther away from where you were when you cast the spell. By concentrating, you can make the cloud (actually its point of origin) move as much as 60 feet each round. Any portion of the cloud that would extend beyond your maximum range dissipates harmlessly, reducing the remainder’s spread thereafter.\n</p><p>As with <i>fog cloud</i>, wind disperses the smoke, and the spell can’t be cast underwater.\n</p>\n<hr/>\n\n\n\n</div>\n"
+		},
+		"display": "",
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"effectNotes": "Cloud last [[(@cl)]] Rounds",
+		"epic": "",
+		"favorite": false,
+		"formula": "",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"isDomainSpell": false,
+		"isPower": false,
+		"isSpellSpontaneousReplacement": false,
+		"learnedAt": {
+			"bloodline": [
+			],
+			"class": [
+				[
+					"Wizard",
+					8
+				],
+				[
+					"Sorcerer",
+					8
+				]
+			],
+			"domain": [
+				[
+					"Fire",
+					8
+				]
+			],
+			"elementalSchool": [
+			],
+			"subDomain": [
+			]
+		},
+		"level": 8,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"materials": {
+			"consumed": {
+				"_deprecated": true,
+				"value": false
+			},
+			"focus": "",
+			"value": ""
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 20,
+			"type": "circle"
+		},
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 0,
+		"possibleUpdate": false,
+		"powerPointsCost": 0,
+		"pr": false,
+		"preparation": {
+			"autoDeductCharges": true,
+			"maxAmount": 3,
+			"mode": "prepared",
+			"preparedAmount": 3
+		},
+		"psionic": "",
+		"range": {
+			"long": null,
+			"units": "medium",
+			"value": null
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requiresPsionicFocus": false,
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": "0",
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "Reflex half; see text",
+			"type": ""
+		},
+		"school": "con",
+		"shortDescription": "\n\n\n<p>\nAn <i>incendiary cloud </i>spell creates a cloud of roiling smoke shot through with white-hot embers. The smoke obscures all sight as a <i>fog cloud</i> does. In addition, the white-hot embers within the cloud deal 4d6 points of fire damage to everything within the cloud on your turn each round. All targets can make Reflex saves each round to take half damage.\n</p><p>As with a <i>cloudkill</i> spell, the smoke moves away from you at 10 feet per round. Figure out the smoke’s new spread each round based on its new point of origin, which is 10 feet farther away from where you were when you cast the spell. By concentrating, you can make the cloud (actually its point of origin) move as much as 60 feet each round. Any portion of the cloud that would extend beyond your maximum range dissipates harmlessly, reducing the remainder’s spread thereafter.\n</p><p>As with <i>fog cloud</i>, wind disperses the smoke, and the spell can’t be cast underwater.\n</p>\n<hr/>\n\n\n",
+		"showInQuickbar": false,
+		"slOffset": 0,
+		"snip": "Cloud deals 4d6 fire damage/round.",
+		"source": "",
+		"specialActions": [
+		],
+		"specialId": null,
+		"specialPrepared": false,
+		"spellArea": "",
+		"spellDuration": "1 round/level",
+		"spellEffect": "Cloud spreads in 20-ft. radius, 20 ft. high",
+		"spellType": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"spellbook": "spelllike",
+		"sr": false,
+		"subschool": "creation",
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"types": "fire",
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": "",
+			"rechargeFormula": null,
+			"value": 0
+		}
+	},
+	"type": "spell"
+}

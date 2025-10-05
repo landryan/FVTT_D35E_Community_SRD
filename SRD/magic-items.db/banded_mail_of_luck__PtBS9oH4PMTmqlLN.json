@@ -1,0 +1,816 @@
+{
+	"_id": "PtBS9oH4PMTmqlLN",
+	"_key": "!items!PtBS9oH4PMTmqlLN",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/items/magic/armor/banded-mail-of-luck.png",
+	"name": "Banded Mail of Luck",
+	"system": {
+		"ability": {
+			"attack": null,
+			"critMult": 2,
+			"critRange": 20,
+			"damage": null,
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"actionType": "",
+		"activateActions": [
+		],
+		"activation": {
+			"cost": 4,
+			"type": "minute"
+		},
+		"armor": {
+			"acp": 6,
+			"dex": "1",
+			"enh": 3,
+			"value": 6
+		},
+		"armorType": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"brokenResalePrice": "",
+		"carried": true,
+		"changeFlags": {
+			"hasted": false,
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"constantWeight": true,
+		"container": "None",
+		"containerId": "none",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"convertedWeight": 35,
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"critConfirmBonus": "",
+		"curseActive": false,
+		"cursed": false,
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "<p><span style=\"color: #191813; font-size: 13px;\">This armor is made of overlapping strips of metal sewn to a backing of leather and chainmail. The strips cover vulnerable areas, while the chain and leather protect the joints and provide freedom of movement. Straps and buckles distribute the weight evenly. The suit includes gauntlets.</span></p>",
+			"value": "<p><strong>Banded Mail of Luck:</strong>&nbsp;Ten 100-gp gems adorn this&nbsp;<em>+3 banded mail</em>. Once per week, the armor allows its wearer to require that an attack roll made against him be rerolled. He must take whatever consequences come from the second roll. The wearer's player must decide whether to have the attack roll rerolled before damage is rolled.</p>\n<p>Strong enchantment; CL 12th; Craft Magic Arms and Armor,@Compendium[D35E.spells.7lIiKvIuEVVbr9dn]{Bless}; Price 18,900 gp; Cost 10,150 gp + 700 XP.</p>"
+		},
+		"duration": {
+			"units": ""
+		},
+		"effectNotes": "",
+		"enhancements": {
+			"automation": {
+				"updateName": false,
+				"updatePrice": false
+			},
+			"clFormula": "",
+			"items": [
+				{
+					"_id": "iOhtLsgtgmt2l9CM",
+					"calcPrice": "+3",
+					"data": {
+						"ability": {
+							"attack": null,
+							"critMult": 2,
+							"critRange": 20,
+							"damage": null,
+							"damageMult": 1,
+							"twoHandedOnly": false,
+							"vsTouchAc": false
+						},
+						"actionType": "",
+						"activation": {
+							"cost": 1,
+							"type": ""
+						},
+						"allowedTypes": [
+							[
+								"armor"
+							]
+						],
+						"attack": {
+							"parts": [
+							]
+						},
+						"attackBonus": "",
+						"attackCountFormula": "",
+						"attackNotes": "",
+						"attackParts": [
+						],
+						"autoscaleAttackParts": "",
+						"baseCl": "0",
+						"changeFlags": {
+							"heavyArmorFullSpeed": false,
+							"loseDexToAC": false,
+							"mediumArmorFullSpeed": false,
+							"multiAttack": false,
+							"multiweaponAttack": false,
+							"noCon": false,
+							"noDex": false,
+							"noEncumbrance": false,
+							"noInt": false,
+							"noStr": false,
+							"oneCha": false,
+							"oneInt": false,
+							"oneWis": false
+						},
+						"changes": [
+						],
+						"classSource": "",
+						"combatChangeCustomDisplayName": "",
+						"combatChangeCustomReferenceName": "",
+						"combatChanges": [
+						],
+						"combatChangesAdditionalRanges": {
+							"hasAdditionalRanges": false,
+							"slider1": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							},
+							"slider2": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							},
+							"slider3": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							}
+						},
+						"combatChangesApplySpecialActionsOnce": true,
+						"combatChangesRange": {
+							"max": 0,
+							"maxFormula": ""
+						},
+						"combatChangesUsesCost": "chargesPerUse",
+						"conditionFlags": {
+							"dazzled": false,
+							"polymorphed": false,
+							"wildshaped": false
+						},
+						"contextNotes": [
+						],
+						"counterName": "",
+						"createdBy": "",
+						"creationChanges": [
+						],
+						"critConfirmBonus": "",
+						"customAttributes": {
+						},
+						"customAttributesLocked": false,
+						"customTag": "",
+						"damage": {
+							"alternativeParts": [
+							],
+							"parts": [
+							]
+						},
+						"damageReduction": [
+						],
+						"description": {
+							"chat": "",
+							"unidentified": "",
+							"value": "<p>Magic weapons have enhancement bonuses ranging from +1 to +5. They apply these bonuses to both attack and damage rolls when used in combat. All magic weapons are also masterwork weapons, but their masterwork bonus on attack rolls does not stack with their enhancement bonus on attack rolls.</p>"
+						},
+						"duration": {
+							"units": "",
+							"value": null
+						},
+						"effectNotes": "",
+						"enh": 3,
+						"enhIncrease": 3,
+						"enhIncreaseFormula": "@enhancement",
+						"enhIsLevel": false,
+						"enhancementType": "armor",
+						"favorite": false,
+						"formula": "",
+						"isFromBuff": false,
+						"isFromSpell": false,
+						"linkId": "",
+						"linkImported": false,
+						"linkSourceId": "",
+						"linkSourceName": "",
+						"linkedChargeItem": {
+							"id": null,
+							"img": null,
+							"name": null
+						},
+						"maxDamageDice": 0,
+						"maxDamageDiceFormula": "",
+						"measureTemplate": {
+							"customColor": "",
+							"customTexture": "",
+							"overrideColor": false,
+							"overrideTexture": false,
+							"size": 0,
+							"type": ""
+						},
+						"metamagicFeats": {
+							"empowered": false,
+							"enhanced": false,
+							"enhancedHalf": false,
+							"enlarged": false,
+							"intensified": false,
+							"maximized": false,
+							"widened": false
+						},
+						"nameExtension": {
+							"prefix": "",
+							"suffix": ""
+						},
+						"nameFormula": "",
+						"nameFromFormula": false,
+						"originVersion": 97,
+						"pr": false,
+						"price": 0,
+						"priceFormula": "",
+						"properties": {
+						},
+						"range": {
+							"long": null,
+							"units": "",
+							"value": null
+						},
+						"recharge": {
+							"current": 0,
+							"enabled": false,
+							"formula": ""
+						},
+						"requirements": "",
+						"requiresPsionicFocus": false,
+						"resistances": [
+						],
+						"rollTableDraw": {
+							"formula": "",
+							"id": "",
+							"name": "",
+							"pack": ""
+						},
+						"save": {
+							"ability": "",
+							"dc": 0,
+							"description": "",
+							"originVersion": 97,
+							"type": ""
+						},
+						"sizeOverride": "",
+						"source": "",
+						"specialActions": [
+						],
+						"sr": false,
+						"tags": [
+						],
+						"target": {
+							"value": ""
+						},
+						"uniqueId": "",
+						"userNonRemovable": false,
+						"uses": {
+							"allowMultipleUses": false,
+							"autoDeductCharges": true,
+							"canBeLinked": false,
+							"chargesPerUse": 1,
+							"isResource": false,
+							"max": 0,
+							"maxFormula": "",
+							"maxPerUse": null,
+							"maxPerUseFormula": "",
+							"per": null,
+							"rechargeFormula": null,
+							"value": 0
+						},
+						"weaponAttackNotes": [
+						],
+						"weaponData": {
+							"alignment": {
+								"chaotic": false,
+								"evil": false,
+								"good": false,
+								"lawful": false
+							},
+							"attackRoll": "",
+							"damageRoll": "",
+							"damageType": "",
+							"damageTypeId": "",
+							"optionalDamage": false
+						}
+					},
+					"effects": [
+					],
+					"flags": {
+						"core": {
+							"sourceId": "Compendium.D35E.enhancements.iOhtLsgtgmt2l9CM"
+						}
+					},
+					"folder": null,
+					"hasAction": false,
+					"hasUses": false,
+					"id": "PtBS9oH4PMTmqlLN-iOhtLsgtgmt2l9CM",
+					"img": "systems/D35E/icons/crafting-station/enhancements/enhancement-armor.png",
+					"incorrect": false,
+					"isCharged": false,
+					"name": "+1 Armor Enhancement",
+					"permission": {
+						"default": 0,
+						"wbFPpmVfPG23MbMC": 3
+					},
+					"sort": 0,
+					"tag": "1ArmorEnhancement",
+					"type": "enhancement"
+				},
+				{
+					"_id": "cc3q66F6A6U1wx44",
+					"data": {
+						"ability": {
+							"attack": null,
+							"critMult": 2,
+							"critRange": "20",
+							"damage": null,
+							"damageMult": 1,
+							"twoHandedOnly": false,
+							"vsTouchAc": false
+						},
+						"actionType": "",
+						"activateActions": [
+						],
+						"activation": {
+							"cost": 1,
+							"type": "special"
+						},
+						"allowedTypes": [
+						],
+						"attackBonus": "",
+						"attackCountFormula": "",
+						"attackNotes": "",
+						"attackParts": [
+						],
+						"autoscaleAttackParts": "",
+						"baseCl": "0",
+						"carried": false,
+						"changeFlags": {
+							"heavyArmorFullSpeed": false,
+							"loseDexToAC": false,
+							"mediumArmorFullSpeed": false,
+							"multiAttack": false,
+							"multiweaponAttack": false,
+							"noCon": false,
+							"noDex": false,
+							"noEncumbrance": false,
+							"noInt": false,
+							"noStr": false,
+							"oneCha": false,
+							"oneInt": false,
+							"oneWis": false
+						},
+						"changes": [
+						],
+						"classSource": "",
+						"combatChangeCustomDisplayName": "",
+						"combatChangeCustomReferenceName": "",
+						"combatChanges": [
+						],
+						"combatChangesAdditionalRanges": {
+							"hasAdditionalRanges": false,
+							"slider1": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							},
+							"slider2": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							},
+							"slider3": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							}
+						},
+						"combatChangesApplySpecialActionsOnce": true,
+						"combatChangesRange": {
+							"max": 0,
+							"maxFormula": ""
+						},
+						"combatChangesUsesCost": "chargesPerUse",
+						"conditionFlags": {
+							"dazzled": false,
+							"polymorphed": false,
+							"wildshaped": false
+						},
+						"conditionals": [
+						],
+						"constantWeight": false,
+						"container": "None",
+						"containerWeightless": false,
+						"contextNotes": [
+						],
+						"counterName": "",
+						"createdBy": "",
+						"creationChanges": [
+						],
+						"critConfirmBonus": "",
+						"customAttributes": {
+						},
+						"customAttributesLocked": false,
+						"customTag": "",
+						"damage": {
+							"alternativeParts": [
+							],
+							"parts": [
+							]
+						},
+						"damageReduction": [
+						],
+						"deactivateActions": [
+						],
+						"description": {
+							"chat": "",
+							"unidentified": "",
+							"value": "<p><span style=\"color: #191813; font-size: 13px;\">An attack roll made against wearer of&nbsp;</span><span style=\"color: #191813; font-size: 13px;\">@Compendium[D35E.magicitems.PtBS9oH4PMTmqlLN]{Banded Mail of Luck} must</span><span style=\"color: #191813; font-size: 13px;\">&nbsp;be rerolled.</span></p>"
+						},
+						"duration": {
+							"units": "",
+							"value": null
+						},
+						"effectNotes": "",
+						"enh": 0,
+						"enhIncrease": 0,
+						"enhIncreaseFormula": "0",
+						"enhIsLevel": false,
+						"enhancementType": "misc",
+						"equippedWeightless": false,
+						"favorite": false,
+						"formula": "",
+						"identifiedName": "Lucky!",
+						"isFromBuff": false,
+						"isFromSpell": false,
+						"linkId": "",
+						"linkImported": false,
+						"linkSourceId": "",
+						"linkSourceName": "",
+						"linkedChargeItem": {
+							"id": null,
+							"img": null,
+							"name": null
+						},
+						"maxDamageDice": 0,
+						"maxDamageDiceFormula": "",
+						"measureTemplate": {
+							"customColor": "",
+							"customTexture": "",
+							"overrideColor": false,
+							"overrideTexture": false,
+							"size": 0,
+							"type": ""
+						},
+						"metamagicFeats": {
+							"empowered": false,
+							"enhanced": false,
+							"enhancedHalf": false,
+							"enlarged": false,
+							"intensified": false,
+							"maximized": false,
+							"widened": false
+						},
+						"nameExtension": {
+							"prefix": "",
+							"suffix": ""
+						},
+						"nameFormula": "",
+						"nameFromFormula": false,
+						"originVersion": 97,
+						"perRoundActions": [
+						],
+						"pr": false,
+						"price": 0,
+						"priceFormula": "",
+						"properties": {
+							"def": false,
+							"dis": false,
+							"inc": false,
+							"kee": false,
+							"mnk": false,
+							"spd": false,
+							"thr": false
+						},
+						"range": {
+							"units": "",
+							"value": null
+						},
+						"recharge": {
+							"current": 0,
+							"enabled": false,
+							"formula": ""
+						},
+						"requirements": [
+						],
+						"requiresPsionicFocus": false,
+						"resistances": [
+						],
+						"rollTableDraw": {
+							"formula": "",
+							"id": "",
+							"name": "",
+							"pack": ""
+						},
+						"save": {
+							"ability": "",
+							"dc": 0,
+							"description": "",
+							"originVersion": 97,
+							"type": ""
+						},
+						"sizeOverride": "",
+						"source": "",
+						"specialActions": [
+						],
+						"sr": false,
+						"tags": [
+						],
+						"target": {
+							"value": ""
+						},
+						"uniqueId": "",
+						"userNonRemovable": false,
+						"uses": {
+							"allowMultipleUses": false,
+							"autoDeductCharges": true,
+							"canBeLinked": false,
+							"chargesPerUse": 1,
+							"isResource": false,
+							"max": 1,
+							"maxFormula": "1",
+							"maxPerUse": null,
+							"maxPerUseFormula": "",
+							"per": "day",
+							"rechargeFormula": "",
+							"value": 1
+						},
+						"weaponAttackNotes": [
+						],
+						"weaponData": {
+							"alignment": {
+								"chaotic": false,
+								"evil": false,
+								"good": false,
+								"lawful": false
+							},
+							"attackRoll": "",
+							"damageRoll": "",
+							"damageType": "",
+							"damageTypeId": "",
+							"optionalDamage": false
+						}
+					},
+					"effects": [
+					],
+					"flags": {
+						"core": {
+							"sourceId": "Item.cc3q66F6A6U1wx44"
+						}
+					},
+					"folder": null,
+					"id": "PtBS9oH4PMTmqlLN-cc3q66F6A6U1wx44",
+					"img": "icons/magic/control/buff-luck-fortune-clover-green.webp",
+					"name": "Lucky!",
+					"permission": {
+						"WyRWObWynDS1DrJs": 3,
+						"default": 0
+					},
+					"sort": 0,
+					"type": "enhancement"
+				}
+			],
+			"spellcastingAbility": "",
+			"uses": {
+				"allowMultipleUses": false,
+				"autoDeductCharges": true,
+				"commonPool": false,
+				"max": 0,
+				"per": null,
+				"rechargeFormula": null,
+				"value": 0
+			}
+		},
+		"epic": "",
+		"equipmentSubtype": "heavyArmor",
+		"equipmentType": "armor",
+		"equipped": true,
+		"equippedWeightless": false,
+		"favorite": false,
+		"formula": "",
+		"fullResalePrice": false,
+		"hardness": 10,
+		"hp": {
+			"max": 30,
+			"value": 30
+		},
+		"identified": true,
+		"identifiedCurse": false,
+		"identifiedName": "Banded Mail of Luck",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"light": {
+			"alpha": 0.5,
+			"animationIntensity": 6,
+			"animationSpeed": 6,
+			"color": "#000000",
+			"dimRadius": null,
+			"emitLight": false,
+			"lightAngle": 360,
+			"opacity": 0,
+			"radius": 0,
+			"type": ""
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedItems": [
+		],
+		"masterwork": false,
+		"material": {
+			"data": null
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 0,
+			"type": ""
+		},
+		"melded": false,
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"pr": false,
+		"price": 250,
+		"psionic": "",
+		"quantity": 1,
+		"range": {
+			"long": null,
+			"units": "personal",
+			"value": null
+		},
+		"requirements": [
+		],
+		"requiresPsionicFocus": false,
+		"resalePrice": "",
+		"resistances": [
+		],
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": 0,
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "",
+			"originVersion": 97,
+			"type": ""
+		},
+		"senses": {
+			"blindsight": null,
+			"darkvision": null,
+			"lowLight": false,
+			"tremorsense": null,
+			"truesight": null
+		},
+		"sizeOverride": "",
+		"slot": "slotless",
+		"source": "",
+		"specialActions": [
+		],
+		"spellFailure": 35,
+		"sr": false,
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": "Self"
+		},
+		"unidentified": {
+			"name": "Banded Mail",
+			"price": 0
+		},
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": false,
+			"canBeLinked": false,
+			"chargesPerUse": null,
+			"isResource": false,
+			"per": ""
+		},
+		"weight": 35
+	},
+	"type": "equipment"
+}

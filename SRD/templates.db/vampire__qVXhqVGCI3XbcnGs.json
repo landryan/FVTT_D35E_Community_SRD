@@ -1,0 +1,469 @@
+{
+	"_id": "qVXhqVGCI3XbcnGs",
+	"_key": "!items!qVXhqVGCI3XbcnGs",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/racialhd/vampire.png",
+	"name": "Vampire",
+	"system": {
+		"activateActions": [
+		],
+		"addedAbilities": [
+			{
+				"level": 1,
+				"uid": "template-gaseous-form"
+			},
+			{
+				"level": 1,
+				"uid": "template-children-of-the-night"
+			},
+			{
+				"level": 1,
+				"uid": "template-blood-drain"
+			},
+			{
+				"level": 1,
+				"uid": "template-altform-vampire"
+			},
+			{
+				"level": 1,
+				"uid": "template-vampire-dominate"
+			}
+		],
+		"allSpellsKnown": false,
+		"attackParts": [
+		],
+		"automaticFeatures": true,
+		"bab": "",
+		"changeFlags": {
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": true,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+			[
+				"2",
+				"misc",
+				"cr",
+				"untyped"
+			],
+			[
+				"6",
+				"ac",
+				"nac",
+				"untyped"
+			],
+			[
+				"6",
+				"ability",
+				"str",
+				"untyped"
+			],
+			[
+				"4",
+				"ability",
+				"dex",
+				"untyped"
+			],
+			[
+				"2",
+				"ability",
+				"int",
+				"untyped"
+			],
+			[
+				"2",
+				"ability",
+				"wis",
+				"untyped"
+			],
+			[
+				"4",
+				"ability",
+				"cha",
+				"untyped"
+			],
+			[
+				"8",
+				"skill",
+				"skill.blf",
+				"untyped"
+			],
+			[
+				"8",
+				"skill",
+				"skill.hid",
+				"untyped"
+			],
+			[
+				"8",
+				"skill",
+				"skill.lis",
+				"untyped"
+			],
+			[
+				"8",
+				"skill",
+				"skill.mos",
+				"untyped"
+			],
+			[
+				"8",
+				"skill",
+				"skill.src",
+				"untyped"
+			],
+			[
+				"8",
+				"skill",
+				"skill.sen",
+				"untyped"
+			],
+			[
+				"8",
+				"skill",
+				"skill.spt",
+				"untyped"
+			],
+			[
+				"-1",
+				"ability",
+				"con",
+				"replace"
+			],
+			[
+				"100",
+				"misc",
+				"fortification",
+				"untyped"
+			]
+		],
+		"classSkills": {
+			"apr": false,
+			"aut": false,
+			"blc": false,
+			"blf": false,
+			"clm": false,
+			"coc": false,
+			"crf": false,
+			"dev": false,
+			"dip": false,
+			"dis": false,
+			"dsc": false,
+			"esc": false,
+			"fog": false,
+			"gif": false,
+			"han": false,
+			"hea": false,
+			"hid": false,
+			"int": false,
+			"jmp": false,
+			"kar": false,
+			"kdu": false,
+			"ken": false,
+			"kge": false,
+			"khi": false,
+			"klo": false,
+			"kna": false,
+			"kno": false,
+			"kpl": false,
+			"kps": false,
+			"kre": false,
+			"lis": false,
+			"mos": false,
+			"opl": false,
+			"prf": false,
+			"pro": false,
+			"psi": false,
+			"rid": false,
+			"sen": false,
+			"slt": false,
+			"spl": false,
+			"spt": false,
+			"src": false,
+			"sur": false,
+			"swm": false,
+			"tmb": false,
+			"umd": false,
+			"upd": false,
+			"uro": false
+		},
+		"classSource": "",
+		"classType": "template",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"counterName": "",
+		"crPerHD": 4,
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"creatureType": "undead",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"parts": [
+			]
+		},
+		"damageReduction": [
+			[
+				"10",
+				"magic"
+			],
+			[
+				"10",
+				"silver"
+			]
+		],
+		"deactivateActions": [
+		],
+		"deckHandSizeFormula": "0",
+		"deckPrestigeClass": false,
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<div style=\"box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75); border-radius: 3px; margin: 3px; padding: 3px; background-color: #ffffff73;\">This template requires you do rebuild a creature/character. Replace HD value in classes/racial HD and reroll hp. Features denoted with <strong>*</strong> and <strong><span style=\"text-decoration: underline;\">underlined</span></strong> are set up automatically.</div>\n<p>Vampires appear just as they did in life, although their features are often hardened and feral, with the predatory look of wolves.</p>\n<p>Like liches, they often embrace finery and decadence and may assume the guise of nobility. Despite their human appearance, vampires can be easily recognized, for they cast no shadows and throw no reflections in mirrors.</p>\n<p>Vampires speak any languages they knew in life.</p>\n<h2>Creating a Vampire</h2>\n<p>&ldquo;Vampire&rdquo; is an acquired template that can be added to any humanoid or monstrous humanoid creature (referred to hereafter as the base creature).</p>\n<p>A vampire uses all the base creature&rsquo;s statistics and special abilities except as noted here.</p>\n<p><strong>Size and Type: </strong>The creature&rsquo;s type changes to undead (augmented humanoid or monstrous humanoid). Do not recalculate base attack bonus, saves, or skill points. Size is unchanged.</p>\n<p><strong>Hit Dice:</strong> Increase all current and future Hit Dice to d12s.</p>\n<p><strong>Speed: </strong>Same as the base creature. If the base creature has a swim speed, the vampire retains the ability to swim and is not vulnerable to immersion in running water (see below).</p>\n<p><span style=\"text-decoration: underline;\"><strong>Armor Class*: </strong></span>The base creature&rsquo;s natural armor bonus improves by +6.</p>\n<p><strong>Attack: </strong>A vampire retains all the attacks of the base creature and also gains a slam attack if it didn&rsquo;t already have one. If the base creature can use weapons, the vampire retains this ability. A creature with natural weapons retains those natural weapons. A vampire fighting without weapons uses either its slam attack or its primary natural weapon (if it has any). A vampire armed with a weapon uses its slam or a weapon, as it desires.</p>\n<p><strong>Full Attack: </strong>A vampire fighting without weapons uses either its slam attack (see above) or its natural weapons (if it has any). If armed with a weapon, it usually uses the weapon as its primary attack along with a slam or other natural weapon as a natural secondary attack.</p>\n<p><strong>Damage: </strong>Vampires have slam attacks. If the base creature does not have this attack form, use the appropriate damage value from the table below according to the vampire&rsquo;s size. Creatures that have other kinds of natural weapons retain their old damage values or use the appropriate value from the table below, whichever is better.</p>\n<table>\n<tbody>\n<tr>\n<th>Size</th>\n<th>Damage</th>\n</tr>\n<tr>\n<td>Fine</td>\n<td>1</td>\n</tr>\n<tr>\n<td>Diminutive</td>\n<td>1d2</td>\n</tr>\n<tr>\n<td>Tiny</td>\n<td>1d3</td>\n</tr>\n<tr>\n<td>Small</td>\n<td>1d4</td>\n</tr>\n<tr>\n<td>Medium</td>\n<td>1d6</td>\n</tr>\n<tr>\n<td>Large</td>\n<td>1d8</td>\n</tr>\n<tr>\n<td>Huge</td>\n<td>2d6</td>\n</tr>\n<tr>\n<td>Gargantuan</td>\n<td>2d8</td>\n</tr>\n<tr>\n<td>Colossal</td>\n<td>4d6</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Special Attacks: </strong>A vampire retains all the special attacks of the base creature and gains those described below. Saves have a DC of 10 + 1/2 vampire&rsquo;s HD + vampire&rsquo;s Cha modifier unless noted otherwise.</p>\n<p><em><span style=\"text-decoration: underline;\">Blood Drain (Ex)*</span>: </em>A vampire can suck blood from a living victim with its fangs by making a successful grapple check. If it pins the foe, it drains blood, dealing 1d4 points of Constitution drain each round the pin is maintained. On each such successful attack, the vampire gains 5 temporary hit points.</p>\n<p><em><span style=\"text-decoration: underline;\">Children of the Night (Su)*</span>: </em>Vampires command the lesser creatures of the world and once per day can call forth 1d6+1 rat swarms, 1d4+1 bat swarms, or a pack of 3d6 wolves as a standard action. (If the base creature is not terrestrial, this power might summon other creatures of similar power.) These creatures arrive in 2d6 rounds and serve the vampire for up to 1 hour.</p>\n<p><span style=\"text-decoration: underline;\"><em>Dominate (Su)*:</em></span> A vampire can crush an opponent&rsquo;s will just by looking onto his or her eyes. This is similar to a gaze attack, except that the vampire must use a standard action, and those merely looking at it are not affected. Anyone the vampire targets must succeed on a Will save or fall instantly under the vampire&rsquo;s influence as though by a dominate person spell (caster level 12th). The ability has a range of 30 feet.</p>\n<p><em>Create Spawn (Su): </em>A humanoid or monstrous humanoid slain by a vampire&rsquo;s energy drain rises as a vampire spawn (see the Vampire Spawn entry) 1d4 days after burial.</p>\n<p>If the vampire instead drains the victim&rsquo;s Constitution to 0 or lower, the victim returns as a spawn if it had 4 or less HD and as a vampire if it had 5 or more HD. In either case, the new vampire or spawn is under the command of the vampire that created it and remains enslaved until its master&rsquo;s destruction. At any given time a vampire may have enslaved spawn totaling no more than twice its own Hit Dice; any spawn it creates that would exceed this limit are created as free-willed vampires or vampire spawn. A vampire that is enslaved may create and enslave spawn of its own, so a master vampire can control a number of lesser vampires in this fashion. A vampire may voluntarily free an enslaved spawn in order to enslave a new spawn, but once freed, a vampire or vampire spawn cannot be enslaved again.</p>\n<p><em>Energy Drain (Su):</em> Living creatures hit by a vampire&rsquo;s slam attack (or any other natural weapon the vampire might possess) gain two negative levels. For each negative level bestowed, the vampire gains 5 temporary hit points. A vampire can use its energy drain ability once per round.</p>\n<p><strong>Special Qualities:</strong> A vampire retains all the special qualities of the base creature and gains those described below.</p>\n<p><span style=\"text-decoration: underline;\"><em>Alternate Form (Su)*:</em></span> A vampire can assume the shape of a bat, dire bat, wolf, or dire wolf as a standard action. While in its alternate form, the vampire loses its natural slam attack and dominate ability, but it gains the natural weapons and extraordinary special attacks of its new form. It can remain in that form until it assumes another or until the next sunrise. (If the base creature is not terrestrial, this power might allow other forms.)</p>\n<p><span style=\"text-decoration: underline;\"><em>Damage Reduction (Su)*: </em></span>A vampire has damage reduction 10/silver and magic. A vampire&rsquo;s natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.</p>\n<p><em>Fast Healing (Ex): </em>A vampire heals 5 points of damage each round so long as it has at least 1 hit point. If reduced to 0 hit points in combat, it automatically assumes gaseous form and attempts to escape. It must reach its coffin home within 2 hours or be utterly destroyed. (It can travel up to nine miles in 2 hours.) Any additional damage dealt to a vampire forced into gaseous form has no effect. Once at rest in its coffin, a vampire is helpless. It regains 1 hit point after 1 hour, then is no longer helpless and resumes healing at the rate of 5 hit points per round.</p>\n<p><span style=\"text-decoration: underline;\"><em>Gaseous Form (Su)*: </em></span>As a standard action, a vampire can assume gaseous form at will as the spell (caster level 5th), but it can remain gaseous indefinitely and has a fly speed of 20 feet with perfect maneuverability.</p>\n<p><span style=\"text-decoration: underline;\"><em>Resistances (Ex)*: </em></span>A vampire has resistance to cold 10 and electricity 10.</p>\n<p><em>Spider Climb (Ex): </em>A vampire can climb sheer surfaces as though with a @Compendium[D35E.spells.Z5JXBkkKvoklXyno]{Spider Climb} spell.</p>\n<p><em>Turn Resistance (Ex): </em>A vampire has +4 turn resistance.</p>\n<p><span style=\"text-decoration: underline;\"><strong>Abilities*: </strong></span>Increase from the base creature as follows: Str +6, Dex +4, Int +2, Wis +2, Cha +4. As an undead creature, a vampire has no Constitution score.</p>\n<p><span style=\"text-decoration: underline;\"><strong>Skills*: </strong></span>Vampires have a +8 racial bonus on Bluff, Hide, Listen, Move Silently, Search, Sense Motive, and Spot checks. Otherwise same as the base creature.</p>\n<p><strong>Feats: </strong>Vampires gain @Compendium[D35E.feats.mLFy9Bv4M0Mr1IUv]{Alertness}, @Compendium[D35E.feats.rJ7H4RC2xMCzR7gv]{Combat Reflexes}, @Compendium[D35E.feats.dzNV9lzcgPIDGxaK]{Dodge}, @Compendium[D35E.feats.EGKfnHuKmjGHXLNZ]{Improved Initiative}, @Compendium[D35E.feats.fHP8EcfROnyrgm4z]{Lightning Reflexes}, assuming the base creature meets the prerequisites and doesn&rsquo;t already have these feats.</p>\n<p><strong>Environment: </strong>Any, usually same as base creature.</p>\n<p><strong>Organization: </strong>Solitary, pair, gang (3&ndash;5), or troupe (1&ndash;2 plus 2&ndash;5 vampire spawn)</p>\n<p><span style=\"text-decoration: underline;\"><strong>Challenge Rating*: </strong></span>Same as the base creature +2.</p>\n<p><strong>Treasure:</strong> Double standard.</p>\n<p><strong>Alignment: </strong>Always evil (any).</p>\n<p><strong>Advancement: </strong>By character class.</p>\n<p><span style=\"text-decoration: underline;\"><strong>Level Adjustment*: </strong></span>Same as the base creature +8.</p>\n<p>&nbsp;</p>"
+		},
+		"disabledAbilities": [
+		],
+		"epic": "",
+		"fc": {
+			"alt": {
+				"value": 0
+			},
+			"hp": {
+				"value": 0
+			},
+			"skill": {
+				"value": 0
+			}
+		},
+		"halfCasterLevel": false,
+		"hasLimitedSpellbook": false,
+		"hasSpecialSlot": false,
+		"hasSpellbook": false,
+		"hd": 0,
+		"hdReplace": "",
+		"hdReplaceRacialOnly": false,
+		"hp": 0,
+		"identifiedName": "Vampire",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"knownCardsSizeFormula": "0",
+		"la": 8,
+		"levels": 0,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"maxLevel": 1,
+		"minionGroup": "none",
+		"minionLevelFormula": "0",
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"nonActiveClassAbilities": [
+		],
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"possibleUpdate": false,
+		"powerPointBonusBaseAbility": "0",
+		"powerPointTable": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"powersKnown": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"powersMaxLevel": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"prestigeLevels": 0,
+		"psionic": "",
+		"requirements": [
+		],
+		"resistances": [
+			[
+				"10",
+				"energy-cold",
+				false,
+				false
+			],
+			[
+				"10",
+				"energy-electric",
+				false,
+				false
+			]
+		],
+		"savingThrows": {
+			"fort": {
+				"value": ""
+			},
+			"ref": {
+				"value": ""
+			},
+			"will": {
+				"value": ""
+			}
+		},
+		"sizeOverride": "",
+		"skillsPerLevel": 0,
+		"sneakAttackFormula": "0",
+		"sneakAttackGroup": "none",
+		"source": "",
+		"specialActions": [
+		],
+		"spellPointBonusFormula": "0",
+		"spellPointGroup": "wizard",
+		"spellPointTable": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"spellbook": [
+		],
+		"spellcastingAbility": "int",
+		"spellcastingDescription": "None",
+		"spellcastingSpellname": "Spell",
+		"spellcastingSpellnamePl": "Spells",
+		"spellcastingSpontaneus": false,
+		"spellcastingType": "none",
+		"spellsKnownPerLevel": [
+		],
+		"spellsPerLevel": [
+		],
+		"spellslotAbility": "",
+		"tags": [
+		],
+		"turnUndeadLevelFormula": "0",
+		"uniqueId": "",
+		"userNonRemovable": false
+	},
+	"type": "class"
+}

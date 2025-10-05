@@ -1,0 +1,220 @@
+{
+	"_id": "rqipVYQRU75CL7sv",
+	"_key": "!items!rqipVYQRU75CL7sv",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/buffs/inspire-courage.png",
+	"name": "Inspire Courage",
+	"system": {
+		"activateActions": [
+		],
+		"activation": {
+			"cost": 1,
+			"type": ""
+		},
+		"active": false,
+		"addedLevel": 0,
+		"buffType": "temp",
+		"changeFlags": {
+			"hasted": false,
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+			[
+				"1 + max(0, ceil((@item.level - 7) / 6))",
+				"attack",
+				"attack",
+				"competence"
+			],
+			[
+				"1 + max(0, ceil((@item.level - 7) / 6))",
+				"damage",
+				"wdamage",
+				"competence"
+			]
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+			[
+				"savingThrowOptional",
+				"",
+				"",
+				"featSavingThrow",
+				"1 + max(0, ceil((@self.level - 7) / 6))"
+			]
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"contextNotes": [
+			[
+				"+[[1 + max(0, ceil((@item.level - 7) / 6))]] Morale vs Fear and Charm effects",
+				"savingThrows",
+				"allSavingThrows"
+			]
+		],
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"parts": [
+			]
+		},
+		"damagePool": {
+			"current": 0,
+			"deleteOnDamagePoolEmpty": false,
+			"enabled": false,
+			"formula": "",
+			"max": 0
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p>Someone is inspiring you with courage. You gain a morale bonus on saves vs charm and fear effects, and a competence bonus on attack rolls and weapon damage rolls.</p>\n<p><strong>Usage</strong>: Set the buff's level to the bard level of the person using Inspire Courage.</p>"
+		},
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"epic": "",
+		"hideFromToken": false,
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"level": "1",
+		"light": {
+			"alpha": 0.5,
+			"animationIntensity": "",
+			"animationSpeed": "",
+			"color": "",
+			"dimRadius": "",
+			"emitLight": false,
+			"lightAngle": 360,
+			"opacity": 0,
+			"radius": 0,
+			"type": ""
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 100,
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"psionic": "",
+		"range": {
+			"long": null,
+			"units": "",
+			"value": null
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requirements": [
+		],
+		"requiresPsionicFocus": false,
+		"resistances": [
+		],
+		"shapechange": {
+			"source": {
+			},
+			"type": "polymorph"
+		},
+		"sizeOverride": "",
+		"source": "",
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"timeline": {
+			"deleteOnExpiry": true,
+			"elapsed": null,
+			"enabled": true,
+			"formula": "5",
+			"tickOnEnd": false,
+			"total": 5
+		},
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": null,
+			"rechargeFormula": null,
+			"value": 0
+		}
+	},
+	"type": "buff"
+}

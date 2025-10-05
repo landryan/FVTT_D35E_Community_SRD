@@ -1,0 +1,195 @@
+{
+	"_id": "EmpmbjAcz8WPe65U",
+	"_key": "!actors.items!8BrHrw2dh7KMwG4g.EmpmbjAcz8WPe65U",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/special-abilities/frightful-presence.png",
+	"name": "Frightful Presence",
+	"system": {
+		"ability": {
+			"attack": null,
+			"critMult": 2,
+			"critRange": 20,
+			"damage": "",
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"actionType": "save",
+		"activation": {
+			"cost": 1,
+			"type": "passive"
+		},
+		"addedLevel": 0,
+		"alignment": {
+			"chaotic": false,
+			"evil": false,
+			"good": false,
+			"lawful": false
+		},
+		"associations": {
+			"classes": [
+			]
+		},
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"attackType": "misc",
+		"autoScaleOption": "default",
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"baseWeaponType": "",
+		"classSource": "",
+		"conditionals": [
+		],
+		"createdBy": "",
+		"critConfirmBonus": "",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customReferenceId": "",
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p>A young adult or older dragon can unsettle foes with its mere presence. The ability takes effect automatically whenever the dragon attacks, charges, or flies overhead. Creatures within a radius of 30 feet &times; the dragon&rsquo;s age category are subject to the effect if they have fewer HD than the dragon. A potentially affected creature that succeeds on a Will save (DC 10 + &frac12; dragon&rsquo;s HD + dragon&rsquo;s Cha modifier) remains immune to that dragon&rsquo;s frightful presence for 24 hours. On a failure, creatures with 4 or less HD become panicked for 4d6 rounds and those with 5 or more HD become shaken for 4d6 rounds. Dragons ignore the frightful presence of other dragons.</p>"
+		},
+		"duration": {
+			"units": "hour",
+			"value": "24"
+		},
+		"effectNotes": "Creatures with 4 or less HD become panicked for [[/r 4d6]] rounds and those with 5 or more HD become shaken for [[/r 4d6]] rounds",
+		"enh": null,
+		"epic": false,
+		"favorite": true,
+		"finesseable": false,
+		"formula": "",
+		"incorporeal": false,
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"magic": false,
+		"masterwork": false,
+		"material": {
+			"data": null
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 0,
+			"type": ""
+		},
+		"melded": false,
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"nonLethal": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 0,
+		"originalWeaponCreated": false,
+		"originalWeaponId": null,
+		"originalWeaponImg": "",
+		"originalWeaponName": "",
+		"originalWeaponProperties": {
+		},
+		"possibleUpdate": false,
+		"pr": false,
+		"primaryAttack": true,
+		"proficient": true,
+		"psionic": "",
+		"range": {
+			"long": null,
+			"units": "seeText",
+			"value": null
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requiresPsionicFocus": false,
+		"returning": false,
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": "29",
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "",
+			"type": "willnegates"
+		},
+		"showInQuickbar": true,
+		"source": "",
+		"specialActions": [
+		],
+		"sr": false,
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"threatRangeExtended": false,
+		"thrown": false,
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": "",
+			"rechargeFormula": null,
+			"value": 0
+		},
+		"weaponSubtype": "light"
+	},
+	"type": "attack"
+}

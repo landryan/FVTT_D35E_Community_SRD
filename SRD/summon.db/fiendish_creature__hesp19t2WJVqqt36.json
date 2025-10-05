@@ -1,0 +1,396 @@
+{
+	"_id": "hesp19t2WJVqqt36",
+	"_key": "!actors.items!tx1yeqL7SYmLzxsc.hesp19t2WJVqqt36",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/racialhd/fiendish.png",
+	"name": "Fiendish Creature",
+	"system": {
+		"addedAbilities": [
+			{
+				"level": 0,
+				"uid": "template-smt-good"
+			}
+		],
+		"allSpellsKnown": false,
+		"automaticFeatures": true,
+		"bab": "",
+		"changeFlags": {
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+			[
+				"5+@attributes.hd.total",
+				"misc",
+				"spellResistance",
+				"untyped"
+			]
+		],
+		"classSkills": {
+			"apr": false,
+			"aut": false,
+			"blc": false,
+			"blf": false,
+			"clm": false,
+			"coc": false,
+			"crf": false,
+			"dev": false,
+			"dip": false,
+			"dis": false,
+			"dsc": false,
+			"esc": false,
+			"fog": false,
+			"gif": false,
+			"han": false,
+			"hea": false,
+			"hid": false,
+			"int": false,
+			"jmp": false,
+			"kar": false,
+			"kdu": false,
+			"ken": false,
+			"kge": false,
+			"khi": false,
+			"klo": false,
+			"kna": false,
+			"kno": false,
+			"kpl": false,
+			"kps": false,
+			"kre": false,
+			"lis": false,
+			"mos": false,
+			"opl": false,
+			"prf": false,
+			"pro": false,
+			"psi": false,
+			"rid": false,
+			"sen": false,
+			"slt": false,
+			"spl": false,
+			"spt": false,
+			"src": false,
+			"sur": false,
+			"swm": false,
+			"tmb": false,
+			"umd": false,
+			"upd": false,
+			"uro": false
+		},
+		"classSource": "",
+		"classType": "base",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"counterName": "",
+		"crPerHD": 4,
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"creatureType": "humanoid",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"parts": [
+			]
+		},
+		"damageReduction": [
+			[
+				"(@levels < 4 ? 0 : (@levels < 12 ? 5 : 10))",
+				"magic"
+			]
+		],
+		"deckHandSizeFormula": "0",
+		"deckPrestigeClass": false,
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p>Fiendish creatures dwell on the lower planes, the realms of evil, although they resemble beings found on the Material Plane. They are more fearsome in appearance than their earthly counterparts.</p>\n<h2><span id=\"Creating_a_Fiendish_Creature\">Creating a Fiendish Creature</span></h2>\n<p>&ldquo;Fiendish&rdquo; is an inherited template that can be added to any corporeal aberration, animal, dragon, fey, giant, humanoid, magical beast, monstrous humanoid, ooze, plant, or vermin of nongood alignment (referred to hereafter as the base creature).</p>\n<p>A fiendish creature uses all the base creature&rsquo;s statistics and abilities except as noted here. Do not recalculate the creature&rsquo;s Hit Dice, base attack bonus, saves, or skill points if its type changes.</p>\n<p><strong>Size and Type:</strong> Animals or vermin with this template become magical beasts, but otherwise the creature type is unchanged. Size is unchanged. Fiendish creatures encountered on the Material Plane have the extraplanar subtype.</p>\n<p><strong>Special Attacks:</strong> A fiendish creature retains all the special attacks of the base creature and also gains the following special attack.</p>\n<p><em>Smite Good (Su)</em>: Once per day the creature can make a normal melee attack to deal extra damage equal to its HD total (maximum of +20) against a good foe.</p>\n<p><strong>Special Qualities:</strong> A fiendish creature retains all the special qualities of the base creature and also gains the following.</p>\n<ul>\n<li>Darkvision out to 60 feet.</li>\n<li>Damage reduction (see the table below).</li>\n<li>Resistance to cold and fire (see the table below).</li>\n<li>Spell resistance equal to the creature&rsquo;s HD + 5 (maximum 25).</li>\n</ul>\n<table style=\"height: 97px; width: 98.8462%;\" cellspacing=\"0\">\n<tbody>\n<tr style=\"height: 33px;\">\n<th style=\"height: 33px; width: 22.179%;\">Hit Dice</th>\n<th style=\"height: 33px; width: 38.9105%;\">Resistance to Acid,<br />Cold, Electricity</th>\n<th style=\"height: 33px; width: 38.9105%;\">Damage Reduction</th>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 22.179%;\" align=\"center\">1-3</td>\n<td style=\"height: 16px; width: 38.9105%;\" align=\"center\">5</td>\n<td style=\"height: 16px; width: 38.9105%;\" align=\"center\">&mdash;</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 22.179%;\" align=\"center\">4-7</td>\n<td style=\"height: 16px; width: 38.9105%;\" align=\"center\">5</td>\n<td style=\"height: 16px; width: 38.9105%;\" align=\"center\">5/magic</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 22.179%;\" align=\"center\">8-11</td>\n<td style=\"height: 16px; width: 38.9105%;\" align=\"center\">10</td>\n<td style=\"height: 16px; width: 38.9105%;\" align=\"center\">5/magic</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 22.179%;\" align=\"center\">12 or more</td>\n<td style=\"height: 16px; width: 38.9105%;\" align=\"center\">10</td>\n<td style=\"height: 16px; width: 38.9105%;\" align=\"center\">10/magic</td>\n</tr>\n</tbody>\n</table>\n<p>If the base creature already has one or more of these special qualities, use the better value.</p>\n<p>If a fiendish creature gains damage reduction, its natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.</p>\n<p><strong>Abilities:</strong> Same as the base creature, but Intelligence is at least 3.</p>\n<p><strong>Environment:</strong> Any evil-aligned plane.</p>\n<p><strong>Challenge Rating:</strong> HD 3 or less, as base creature; HD 4 to 7, as base creature +1; HD 8 or more, as base creature +2.</p>\n<p><strong>Alignment:</strong> Always evil (any).</p>\n<p><strong>Level Adjustment:</strong> Same as the base creature +2.</p>"
+		},
+		"disabledAbilities": [
+		],
+		"epic": "",
+		"fc": {
+			"alt": {
+				"value": 0
+			},
+			"hp": {
+				"value": 0
+			},
+			"skill": {
+				"value": 0
+			}
+		},
+		"halfCasterLevel": false,
+		"hasLimitedSpellbook": false,
+		"hasSpecialSlot": false,
+		"hasSpellbook": false,
+		"hd": 0,
+		"hdReplace": "",
+		"hdReplaceRacialOnly": false,
+		"hp": 0,
+		"knownCardsSizeFormula": "0",
+		"la": 2,
+		"levels": 3,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"maxLevel": 1,
+		"minionGroup": "none",
+		"minionLevelFormula": "0",
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"nonActiveClassAbilities": [
+		],
+		"originId": "R1sXEBMMAt3g6Kcf",
+		"originPack": "D35E.templates",
+		"originVersion": 97,
+		"possibleUpdate": false,
+		"powerPointBonusBaseAbility": "0",
+		"powerPointTable": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"powersKnown": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"powersMaxLevel": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"prestigeLevels": 0,
+		"psionic": "",
+		"requirements": [
+		],
+		"resistances": [
+			[
+				"(@levels > 7 ? 10 : 5)",
+				"energy-acid",
+				false,
+				false
+			],
+			[
+				"(@levels > 7 ? 10 : 5)",
+				"energy-cold",
+				false,
+				false
+			],
+			[
+				"(@levels > 7 ? 10 : 5)",
+				"energy-electric",
+				false,
+				false
+			]
+		],
+		"savingThrows": {
+			"fort": {
+				"value": ""
+			},
+			"ref": {
+				"value": ""
+			},
+			"will": {
+				"value": ""
+			}
+		},
+		"sizeOverride": "",
+		"skillsPerLevel": 0,
+		"sneakAttackFormula": "0",
+		"sneakAttackGroup": "none",
+		"source": "",
+		"spellPointBonusFormula": "0",
+		"spellPointGroup": "wizard",
+		"spellPointTable": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"spellbook": [
+			{
+				"level": 0,
+				"spells": [
+				]
+			},
+			{
+				"level": 1,
+				"spells": [
+				]
+			},
+			{
+				"level": 2,
+				"spells": [
+				]
+			},
+			{
+				"level": 3,
+				"spells": [
+				]
+			},
+			{
+				"level": 4,
+				"spells": [
+				]
+			},
+			{
+				"level": 5,
+				"spells": [
+				]
+			},
+			{
+				"level": 6,
+				"spells": [
+				]
+			},
+			{
+				"level": 7,
+				"spells": [
+				]
+			},
+			{
+				"level": 8,
+				"spells": [
+				]
+			},
+			{
+				"level": 9,
+				"spells": [
+				]
+			}
+		],
+		"spellcastingAbility": "int",
+		"spellcastingDescription": "None",
+		"spellcastingSpellname": "Spell",
+		"spellcastingSpellnamePl": "Spells",
+		"spellcastingSpontaneus": false,
+		"spellcastingType": "none",
+		"spellsKnownPerLevel": [
+		],
+		"spellsPerLevel": [
+		],
+		"spellslotAbility": "",
+		"tags": [
+		],
+		"turnUndeadLevelFormula": "0",
+		"uniqueId": "",
+		"userNonRemovable": false
+	},
+	"type": "class"
+}

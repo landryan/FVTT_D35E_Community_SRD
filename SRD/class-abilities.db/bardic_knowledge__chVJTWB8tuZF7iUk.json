@@ -1,0 +1,316 @@
+{
+	"_id": "chVJTWB8tuZF7iUk",
+	"_key": "!items!chVJTWB8tuZF7iUk",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/class/bard.png",
+	"name": "Bardic Knowledge",
+	"system": {
+		"ability": {
+			"attack": null,
+			"critMult": 2,
+			"critRange": 20,
+			"damage": "",
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"abilityType": "",
+		"actionType": "other",
+		"activation": {
+			"cost": 1,
+			"type": "free"
+		},
+		"associations": {
+			"classes": [
+				[
+					"Bard",
+					0
+				]
+			]
+		},
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"changeFlags": {
+			"hasted": false,
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"contextNotes": [
+		],
+		"counterName": "",
+		"crOffset": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"critConfirmBonus": "",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p>A bard may make a special bardic knowledge check with a bonus equal to his bard level + his Intelligence modifier to see whether he knows some relevant information about local notable people, legendary items, or noteworthy places. (If the bard has 5 or more ranks in Knowledge (history), he gains a +2 bonus on this check.)</p>\n<p>A successful bardic knowledge check will not reveal the powers of a magic item but may give a hint as to its general function. A bard may not take 10 or take 20 on this check; this sort of knowledge is essentially random.</p>"
+		},
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"effectNotes": "",
+		"epic": "",
+		"favorite": false,
+		"featType": "classFeat",
+		"formula": "",
+		"index": {
+			"subType": "classFeat",
+			"uniqueId": "bard-knowledge"
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"linkedItems": [
+		],
+		"links": {
+			"charges": [
+			]
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 0,
+			"type": ""
+		},
+		"metamagic": {
+			"code": "",
+			"enabled": false,
+			"shortDesc": ""
+		},
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"possibleUpdate": false,
+		"pr": false,
+		"psionic": "",
+		"range": {
+			"long": null,
+			"units": "",
+			"value": null
+		},
+		"recharge": {
+			"_deprecated": true,
+			"charged": false,
+			"current": 0,
+			"enabled": false,
+			"formula": "",
+			"value": null
+		},
+		"requirements": [
+		],
+		"requiresPsionicFocus": false,
+		"resistances": [
+		],
+		"rollTableDraw": {
+			"formula": "1d20+@classes.bard.level+@abilities.int.mod+(@skills.khi.rank >= 5 ? 2 : 0)",
+			"id": "H3mAzdg1nrDFe6DM",
+			"name": "Bardic Knowledge",
+			"pack": "D35E.roll-tables"
+		},
+		"save": {
+			"ability": "",
+			"dc": "0",
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "",
+			"originVersion": 97,
+			"type": ""
+		},
+		"showInQuickbar": false,
+		"sizeOverride": "",
+		"source": "",
+		"specialActions": [
+		],
+		"spellSpecialization": {
+			"isDomain": false,
+			"spells": {
+				"level1": {
+					"id": null,
+					"img": "",
+					"level": 1,
+					"name": "",
+					"pack": null
+				},
+				"level2": {
+					"id": null,
+					"img": "",
+					"level": 2,
+					"name": "",
+					"pack": null
+				},
+				"level3": {
+					"id": null,
+					"img": "",
+					"level": 3,
+					"name": "",
+					"pack": null
+				},
+				"level4": {
+					"id": null,
+					"img": "",
+					"level": 4,
+					"name": "",
+					"pack": null
+				},
+				"level5": {
+					"id": null,
+					"img": "",
+					"level": 5,
+					"name": "",
+					"pack": null
+				},
+				"level6": {
+					"id": null,
+					"img": "",
+					"level": 6,
+					"name": "",
+					"pack": null
+				},
+				"level7": {
+					"id": null,
+					"img": "",
+					"level": 7,
+					"name": "",
+					"pack": null
+				},
+				"level8": {
+					"id": null,
+					"img": "",
+					"level": 8,
+					"name": "",
+					"pack": null
+				},
+				"level9": {
+					"id": null,
+					"img": "",
+					"level": 9,
+					"name": "",
+					"pack": null
+				}
+			}
+		},
+		"spellSpecializationForbiddenNames": "",
+		"spellSpecializationName": "",
+		"sr": false,
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"uniqueId": "bard-knowledge",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": "",
+			"rechargeFormula": null,
+			"value": 0
+		}
+	},
+	"type": "feat"
+}

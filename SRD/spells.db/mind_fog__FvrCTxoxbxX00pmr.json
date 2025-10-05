@@ -1,0 +1,271 @@
+{
+	"_id": "FvrCTxoxbxX00pmr",
+	"_key": "!items!FvrCTxoxbxX00pmr",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/spells/school/enc.png",
+	"name": "Mind Fog",
+	"system": {
+		"ability": {
+			"attack": "",
+			"critMult": 2,
+			"critRange": 20,
+			"damage": "",
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"actionType": "other",
+		"activateActions": [
+		],
+		"activation": {
+			"cost": 1,
+			"type": "standard"
+		},
+		"atWill": false,
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"castTime": "",
+		"changes": [
+		],
+		"clOffset": 0,
+		"classSource": "",
+		"combatChanges": [
+		],
+		"components": {
+			"divineFocus": 0,
+			"focus": false,
+			"material": false,
+			"somatic": true,
+			"value": "",
+			"verbal": true
+		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"critConfirmBonus": "",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customReferenceId": "",
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<div class=\"spell-description\">\n  <p>\n      <strong>School:</strong>&nbsp;enchantment&nbsp;(compulsion)&nbsp;[mind-affecting];\n    <br>\n    <strong>Level:</strong>&nbsp;Bard 5, Sorcerer 5, Wizard 5;\n    \n    \n    \n    \n    <br>\n    <strong>Components:</strong>&nbsp;V, S<br>\n    \n      <strong>Casting Time:</strong>&nbsp;1 standard action<br>\n    <strong>Range:</strong>&nbsp;medium (100 ft. + 10 ft./level)<br>\n    \n    \n    <strong>Effect:</strong>&nbsp;Fog spreads in 20-ft. radius, 20 ft. high<br>\n    <strong>Duration:</strong>&nbsp;See Text<br>\n    <strong>Power Points/Spell Points Cost:</strong>&nbsp;9<br>\n        <strong>Saving Throw:</strong>&nbsp;Will Negates\n        <br>\n        <strong>Spell Resistance:</strong>&nbsp;yes<br>\n  </p>\n  <h2>Description</h2>\n  \n\n\n<p>\n<i>Mind fog </i>produces a bank of thin mist that weakens the mental resistance of those caught in it. Creatures in the <i>mind fog </i>take a –10 competence penalty on Wisdom checks and Will saves. (A creature that successfully saves against the fog is not affected and need not make further saves even if it remains in the fog.) Affected creatures take the penalty as long as they remain in the fog and for 2d6 rounds thereafter. The fog is stationary and lasts for 30 minutes (or until dispersed by wind).\n</p><p>A moderate wind (11+ mph) disperses the fog in four rounds; a strong wind (21+ mph) disperses the fog in 1 round.\n</p><p>The fog is thin and does not significantly hamper vision.\n</p>\n<hr/>\n\n\n\n</div>\n"
+		},
+		"display": "",
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"effectNotes": "Apply Special Action \"Mind Fog - Effect\" to any creatures who fail their save.",
+		"epic": "",
+		"favorite": false,
+		"formula": "",
+		"identifiedName": "Mind Fog",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"isDomainSpell": false,
+		"isPower": false,
+		"isSpellSpontaneousReplacement": false,
+		"learnedAt": {
+			"bloodline": [
+			],
+			"class": [
+				[
+					"Bard",
+					5
+				],
+				[
+					"Wizard",
+					5
+				],
+				[
+					"Sorcerer",
+					5
+				]
+			],
+			"domain": [
+			],
+			"elementalSchool": [
+			],
+			"subDomain": [
+			]
+		},
+		"level": 5,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"materials": {
+			"consumed": {
+				"_deprecated": true,
+				"value": false
+			},
+			"focus": "",
+			"value": ""
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": "20",
+			"type": "circle"
+		},
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "FvrCTxoxbxX00pmr",
+		"originPack": "D35E.spells",
+		"originVersion": 109,
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"powerPointsCost": 9,
+		"pr": false,
+		"preparation": {
+			"autoDeductCharges": true,
+			"maxAmount": 0,
+			"mode": "prepared",
+			"preparedAmount": 0
+		},
+		"psionic": "",
+		"range": {
+			"long": null,
+			"units": "medium",
+			"value": null
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requirements": [
+		],
+		"requiresPsionicFocus": false,
+		"resistances": [
+		],
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": "0",
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "Will negates",
+			"originVersion": 97,
+			"type": "willnegates"
+		},
+		"school": "enc",
+		"shortDescription": "\n\n\n<p>\n<i>Mind fog </i>produces a bank of thin mist that weakens the mental resistance of those caught in it. Creatures in the <i>mind fog </i>take a –10 competence penalty on Wisdom checks and Will saves. (A creature that successfully saves against the fog is not affected and need not make further saves even if it remains in the fog.) Affected creatures take the penalty as long as they remain in the fog and for 2d6 rounds thereafter. The fog is stationary and lasts for 30 minutes (or until dispersed by wind).\n</p><p>A moderate wind (11+ mph) disperses the fog in four rounds; a strong wind (21+ mph) disperses the fog in 1 round.\n</p><p>The fog is thin and does not significantly hamper vision.\n</p>\n<hr/>\n\n\n",
+		"showInQuickbar": false,
+		"slOffset": 0,
+		"snip": "Subjects in fog get -10 to Wis and Will checks.",
+		"source": "",
+		"specialActions": [
+			{
+				"action": "Create unique \"Mind Fog - Cloud\" from \"D35E.commonbuffs\" on self;Set buff \"Mind Fog - Cloud\" field data.level to max(1,(@cl)) on self;Activate buff \"Mind Fog - Cloud\" on self;",
+				"condition": "",
+				"img": "icons/svg/item-bag.svg",
+				"name": "Mind Fog - Cloud"
+			},
+			{
+				"action": "Create unique \"Mind Fog - Effect\" from \"D35E.commonbuffs\" on target;Set buff \"Mind Fog - Effect\" field data.level to max(1,(@cl)) on target;Activate buff \"Mind Fog - Effect\" on target",
+				"condition": "",
+				"img": "icons/svg/item-bag.svg",
+				"name": "Mind Fog - Effect"
+			}
+		],
+		"specialId": null,
+		"specialPrepared": false,
+		"spellArea": "",
+		"spellDuration": "30 minutes and 2d6 rounds; see text",
+		"spellDurationData": {
+			"dismissable": false,
+			"units": "seeText",
+			"value": 30
+		},
+		"spellEffect": "Fog spreads in 20-ft. radius, 20 ft. high",
+		"spellType": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"spellbook": "primary",
+		"sr": true,
+		"subschool": "compulsion",
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"types": "mind-affecting",
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": "",
+			"rechargeFormula": null,
+			"value": 0
+		}
+	},
+	"type": "spell"
+}

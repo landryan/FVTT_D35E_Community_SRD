@@ -1,0 +1,243 @@
+{
+	"_id": "BcyutmrAyWSr1f0z",
+	"_key": "!items!BcyutmrAyWSr1f0z",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/spells/buffs/buff/heroes-feast.png",
+	"name": "Heroes' Feast",
+	"system": {
+		"activateActions": [
+			{
+				"action": "Remove buff insanity from target; Remove buff contagion from target; Condition set sickened to false on target;",
+				"condition": "",
+				"img": "",
+				"name": "Heroes' Feast"
+			}
+		],
+		"activation": {
+			"cost": 1,
+			"type": ""
+		},
+		"active": false,
+		"addedLevel": 0,
+		"attackParts": [
+		],
+		"buffType": "temp",
+		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+			[
+				"1",
+				"attack",
+				"attack",
+				"untyped"
+			],
+			[
+				"1",
+				"savingThrows",
+				"will",
+				"untyped"
+			]
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+			[
+				"savingThrowOptional",
+				"",
+				"Heroes' Feast (vs fear + poison)",
+				"featSavingThrow",
+				"99",
+				""
+			]
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damagePool": {
+			"current": 0,
+			"deleteOnDamagePoolEmpty": false,
+			"enabled": false,
+			"formula": "",
+			"max": 0
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p><em>Manually add&nbsp;</em><em style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">1d8+min(@item.level,10) (</em><em style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">[[1d8+min(@item.level,10)]]) temporary hit points.</em></p>\n<hr />\n<p>You bring forth a great feast, including a magnificent table, chairs, service, and food and drink. The feast takes 1 hour to consume, and the beneficial effects do not set in until this hour is over. Every creature partaking of the feast is cured of all <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#disease\">diseases</a>, sickness, and nausea; becomes immune to <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#poison\">poison</a> for 12 hours; and gains <a class=\"diceRoller\" title=\"Roll the dice!\">1d8</a> temporary hit points +1 point per two caster levels (maximum +10) after imbibing the nectar-like beverage that is part of the feast. The ambrosial food that is consumed grants each creature that partakes a +1 <a href=\"https://www.d20srd.org/srd/theBasics.htm#moraleModifier\">morale bonus</a> on <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#attackRoll\">attack rolls</a> and <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#will\">Will saves</a> and immunity to <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#fear\">fear</a> effects for 12 hours.</p>\n<p>If the feast is interrupted for any reason, the spell is ruined and all effects of the spell are negated.&nbsp;</p>"
+		},
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"epic": "",
+		"hideFromToken": false,
+		"identifiedName": "Heroes' Feast",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"level": "",
+		"light": {
+			"alpha": 0.5,
+			"animationIntensity": "",
+			"animationSpeed": "",
+			"color": "",
+			"dimRadius": "",
+			"emitLight": false,
+			"lightAngle": 360,
+			"opacity": 0,
+			"radius": 0,
+			"type": ""
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 4,
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"psionic": "",
+		"range": {
+			"units": "",
+			"value": null
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requirements": [
+		],
+		"requiresPsionicFocus": false,
+		"resistances": [
+		],
+		"senses": {
+			"blindsight": null,
+			"darkvision": null,
+			"lowLight": false,
+			"lowLightMultiplier": null,
+			"tremorsense": null,
+			"truesight": null
+		},
+		"shapechange": {
+			"source": {
+			},
+			"type": "polymorph"
+		},
+		"sizeOverride": "",
+		"source": "",
+		"specialActions": [
+		],
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"timeline": {
+			"deleteOnExpiry": true,
+			"elapsed": 0,
+			"enabled": true,
+			"formula": "7200",
+			"tickOnEnd": false,
+			"total": 7200
+		},
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": null,
+			"rechargeFormula": null,
+			"value": 0
+		}
+	},
+	"type": "buff"
+}

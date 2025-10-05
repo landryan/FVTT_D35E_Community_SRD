@@ -1,0 +1,263 @@
+{
+	"_id": "STDeZl8OzwXSyLTB",
+	"_key": "!items!STDeZl8OzwXSyLTB",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/crafting-station/enhancements/armors/fortification.png",
+	"name": "Fortification",
+	"system": {
+		"ability": {
+			"attack": "",
+			"critMult": 2,
+			"critRange": 20,
+			"damage": "",
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"actionType": "other",
+		"activation": {
+			"cost": 1,
+			"type": "free"
+		},
+		"allowedTypes": [
+			[
+				"armor"
+			]
+		],
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"changeFlags": {
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false
+		},
+		"changes": [
+			[
+				"@enhancement === 1 ? 25 : (@enhancement  === 2 ? 75 : 100)",
+				"misc",
+				"fortification",
+				"enh"
+			]
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"contextNotes": [
+		],
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"critConfirmBonus": "",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p>This suit of armor or shield produces a magical force that protects vital areas of the wearer more effectively. When a critical hit or sneak attack is scored on the wearer, there is a chance that the critical hit or sneak attack is negated and damage is instead rolled normally.</p>\n<table style=\"height: 68px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"width: 83px; height: 17px;\"><strong>Enhancement</strong></td>\n<td style=\"width: 111px; height: 17px;\"><strong>Fortification Type</strong></td>\n<td style=\"width: 115px; height: 17px;\"><strong>Chance for normal Damage</strong></td>\n<td style=\"width: 75px; height: 17px;\"><strong>Base Price Mod</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 83px; height: 17px;\">1</td>\n<td style=\"width: 111px; height: 17px;\">Light</td>\n<td style=\"width: 115px; height: 17px;\">25%</td>\n<td style=\"width: 75px; height: 17px;\">+1 bonus</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 83px; height: 17px;\">2</td>\n<td style=\"width: 111px; height: 17px;\">Moderate</td>\n<td style=\"width: 115px; height: 17px;\">75%</td>\n<td style=\"width: 75px; height: 17px;\">+3 bonus</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 83px; height: 17px;\">3</td>\n<td style=\"width: 111px; height: 17px;\">Heavy</td>\n<td style=\"width: 115px; height: 17px;\">100%</td>\n<td style=\"width: 75px; height: 17px;\">+5 bonus</td>\n</tr>\n</tbody>\n</table>"
+		},
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"effectNotes": "[[/r 1d100 #Fortification Enhancement Check]], if less than [[@item.enh == 1 ? 25 : 25 + (@item.enh)*25]] take normal damage, else take critical/sneak attack.",
+		"enh": 1,
+		"enhIncrease": 1,
+		"enhIncreaseFormula": "@enhancement*2-1",
+		"enhIsLevel": true,
+		"enhancementType": "armor",
+		"epic": "",
+		"favorite": false,
+		"formula": "",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"isFromBuff": false,
+		"isFromSpell": false,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 0,
+			"type": ""
+		},
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameExtension": {
+			"prefix": "",
+			"suffix": "Fortification"
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"possibleUpdate": false,
+		"pr": false,
+		"price": 0,
+		"priceFormula": "",
+		"properties": {
+			"dis": false,
+			"kee": false,
+			"mnk": false,
+			"spd": false,
+			"thr": false
+		},
+		"psionic": "",
+		"range": {
+			"long": null,
+			"units": "",
+			"value": null
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requirements": "CL 13th; Craft Magic Arms and Armor, limited wish or miracle",
+		"requiresPsionicFocus": false,
+		"resistances": [
+		],
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": "0",
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "",
+			"originVersion": 97,
+			"type": ""
+		},
+		"sizeOverride": "",
+		"source": "",
+		"specialActions": [
+		],
+		"sr": false,
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": "unlimited",
+			"rechargeFormula": null,
+			"value": 0
+		},
+		"weaponAttackNotes": [
+		],
+		"weaponData": {
+			"alignment": {
+				"chaotic": false,
+				"evil": false,
+				"good": false,
+				"lawful": false
+			},
+			"attackRoll": "",
+			"damageRoll": "",
+			"damageType": "",
+			"damageTypeId": "",
+			"optionalDamage": false
+		}
+	},
+	"type": "enhancement"
+}

@@ -1,0 +1,240 @@
+{
+	"_id": "MrxbFuYdBpgO7EFh",
+	"_key": "!items!MrxbFuYdBpgO7EFh",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/racialfeatures/corrupting-touch.png",
+	"name": "Corrupting Touch",
+	"system": {
+		"ability": {
+			"attack": "",
+			"critMult": 2,
+			"critRange": 20,
+			"damage": "",
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": true
+		},
+		"actionType": "mwak",
+		"activation": {
+			"cost": 1,
+			"type": ""
+		},
+		"alignment": {
+			"chaotic": false,
+			"evil": false,
+			"good": false,
+			"lawful": false
+		},
+		"associations": {
+			"classes": [
+			]
+		},
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"attackType": "racialAbility",
+		"autoScaleOption": "default",
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"baseWeaponType": "",
+		"classSource": "",
+		"conditionals": [
+			{
+				"default": false,
+				"modifiers": [
+					{
+						"critical": "",
+						"formula": "@abilities.str.mod",
+						"subTarget": "allAttack",
+						"target": "attack",
+						"type": "untyped"
+					},
+					{
+						"critical": "",
+						"formula": "@abilities.str.mod",
+						"subTarget": "allDamage",
+						"target": "damage",
+						"type": "energy-negative"
+					}
+				],
+				"name": "Ethereal Opponent"
+			},
+			{
+				"default": true,
+				"modifiers": [
+					{
+						"critical": "",
+						"formula": "@abilities.dex.mod",
+						"subTarget": "allAttack",
+						"target": "attack",
+						"type": "untyped"
+					},
+					{
+						"critical": "",
+						"formula": "@abilities.dex.mod",
+						"subTarget": "allDamage",
+						"target": "damage",
+						"type": "energy-negative"
+					}
+				],
+				"name": "Nonethereal Opponent"
+			}
+		],
+		"createdBy": "",
+		"critConfirmBonus": "",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customReferenceId": "",
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+				[
+					"1d6",
+					null,
+					"energy-negative"
+				]
+			]
+		},
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p>A ghost that hits a living target with its incorporeal touch attack deals 1d6 points of damage. Against ethereal opponents, it adds its Strength modifier to attack and damage rolls. Against nonethereal opponents, it adds its Dexterity modifier to attack rolls only.</p>"
+		},
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"effectNotes": "",
+		"enh": null,
+		"epic": false,
+		"favorite": true,
+		"finesseable": false,
+		"formula": "",
+		"incorporeal": false,
+		"index": {
+			"subType": null,
+			"uniqueId": "template-corrupting-touch"
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"magic": false,
+		"masterwork": false,
+		"material": {
+			"data": null
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 0,
+			"type": ""
+		},
+		"melded": false,
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"nonLethal": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"originalWeaponCreated": false,
+		"originalWeaponId": null,
+		"originalWeaponImg": "",
+		"originalWeaponName": "",
+		"originalWeaponProperties": {
+		},
+		"possibleUpdate": false,
+		"pr": false,
+		"primaryAttack": true,
+		"proficient": true,
+		"psionic": "",
+		"range": {
+			"long": null,
+			"units": "",
+			"value": null
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requiresPsionicFocus": false,
+		"returning": false,
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": "0",
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "",
+			"originVersion": 97,
+			"type": ""
+		},
+		"showInQuickbar": true,
+		"source": "",
+		"specialActions": [
+		],
+		"sr": false,
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"threatRangeExtended": false,
+		"thrown": false,
+		"uniqueId": "template-corrupting-touch",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": null,
+			"rechargeFormula": null,
+			"value": 0
+		},
+		"weaponSubtype": "light"
+	},
+	"type": "attack"
+}

@@ -1,0 +1,235 @@
+{
+	"_id": "0n5keqjldGWi1Xoa",
+	"_key": "!actors.items!oc4rSEgrIjUcKUcv.0n5keqjldGWi1Xoa",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/spells/named-spells/chain-lightning.png",
+	"name": "Chain Lightning",
+	"system": {
+		"ability": {
+			"attack": "",
+			"critMult": 2,
+			"critRange": 20,
+			"damage": "",
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"actionType": "other",
+		"activation": {
+			"cost": 1,
+			"type": "standard"
+		},
+		"addedLevel": 0,
+		"atWill": false,
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "Bolt deals full damage to primary target and half damage on up to [[@cl]] targets",
+		"attackParts": [
+		],
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"castTime": "",
+		"clOffset": 0,
+		"classSource": "",
+		"components": {
+			"divineFocus": 0,
+			"focus": true,
+			"material": false,
+			"somatic": true,
+			"value": "",
+			"verbal": true
+		},
+		"conditionals": [
+		],
+		"createdBy": "",
+		"critConfirmBonus": "",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customReferenceId": "",
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+				[
+					"(@cl)d6",
+					"electricity"
+				]
+			]
+		},
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<div class=\"spell-description\">\n  <p>\n      <strong>School:</strong>&nbsp;evocation&nbsp;[electricity];\n    <br>\n    <strong>Level:</strong>&nbsp;Sorcerer 6, Wizard 6;\n    <strong>Domain:</strong>&nbsp;Air 6;\n    \n    \n    \n    <br>\n    <strong>Components:</strong>&nbsp;V, S, F (a bit of fur; a piece of amber, glass, or a crystal rod; plus one silver pin for each of your caster levels)<br>\n    \n      <strong>Casting Time:</strong>&nbsp;1 standard action<br>\n    <strong>Range:</strong>&nbsp;long (400 ft. + 40 ft./level)<br>\n    \n    <strong>Target:</strong>&nbsp;one primary target, plus one secondary target/level (each of which must be within 30 ft. of the primary target)<br>\n    \n    <strong>Duration:</strong>&nbsp;Instantaneous<br>\n    \n        <strong>Saving Throw:</strong>&nbsp;Reflex half\n        <br>\n        <strong>Spell Resistance:</strong>&nbsp;yes<br>\n  </p>\n  <h2>Description</h2>\n  \n\n\n<p>\nThis spell creates an electrical discharge that begins as a single stroke commencing from your fingertips. Unlike <i>lightning bolt</i>, <i>chain lightning </i>strikes one object or creature initially, then arcs to other targets.\n</p><p>The bolt deals 1d6 points of electricity damage per caster level (maximum 20d6) to the primary target. After it strikes, lightning can arc to a number of secondary targets equal to your caster level (maximum 20). The secondary bolts each strike one target and deal half as much damage as the primary one did (rounded down).\n</p><p>Each target can attempt a Reflex saving throw for half damage. You choose secondary targets as you like, but they must all be within 30 feet of the primary target, and no target can be struck more than once. You can choose to affect fewer secondary targets than the maximum.\n</p><p><i>Focus: </i>A bit of fur; a piece of amber, glass, or a crystal rod; plus one silver pin for each of your caster levels.\n</p>\n<hr/>\n\n\n\n</div>\n"
+		},
+		"display": "",
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"effectNotes": "",
+		"epic": "",
+		"favorite": false,
+		"formula": "",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"isDomainSpell": false,
+		"isPower": false,
+		"isSpellSpontaneousReplacement": false,
+		"learnedAt": {
+			"bloodline": [
+			],
+			"class": [
+				[
+					"Wizard",
+					6
+				],
+				[
+					"Sorcerer",
+					6
+				]
+			],
+			"domain": [
+				[
+					"Air",
+					6
+				]
+			],
+			"elementalSchool": [
+			],
+			"subDomain": [
+			]
+		},
+		"level": 6,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"materials": {
+			"consumed": {
+				"_deprecated": true,
+				"value": false
+			},
+			"focus": "a bit of fur; a piece of amber, glass, or a crystal rod; plus one silver pin for each of your caster levels",
+			"value": ""
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 0,
+			"type": ""
+		},
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 0,
+		"possibleUpdate": false,
+		"powerPointsCost": 0,
+		"pr": false,
+		"preparation": {
+			"autoDeductCharges": true,
+			"maxAmount": 3,
+			"mode": "prepared",
+			"preparedAmount": 3
+		},
+		"psionic": "",
+		"range": {
+			"long": null,
+			"units": "long",
+			"value": null
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requiresPsionicFocus": false,
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": "0",
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "Reflex half",
+			"type": ""
+		},
+		"school": "evo",
+		"shortDescription": "\n\n\n<p>\nThis spell creates an electrical discharge that begins as a single stroke commencing from your fingertips. Unlike <i>lightning bolt</i>, <i>chain lightning </i>strikes one object or creature initially, then arcs to other targets.\n</p><p>The bolt deals 1d6 points of electricity damage per caster level (maximum 20d6) to the primary target. After it strikes, lightning can arc to a number of secondary targets equal to your caster level (maximum 20). The secondary bolts each strike one target and deal half as much damage as the primary one did (rounded down).\n</p><p>Each target can attempt a Reflex saving throw for half damage. You choose secondary targets as you like, but they must all be within 30 feet of the primary target, and no target can be struck more than once. You can choose to affect fewer secondary targets than the maximum.\n</p><p><i>Focus: </i>A bit of fur; a piece of amber, glass, or a crystal rod; plus one silver pin for each of your caster levels.\n</p>\n<hr/>\n\n\n",
+		"showInQuickbar": false,
+		"slOffset": 0,
+		"snip": "1d6/level damage; 1 secondary bolt/level each deals half damage.",
+		"source": "",
+		"specialActions": [
+		],
+		"specialId": null,
+		"specialPrepared": false,
+		"spellArea": "",
+		"spellDuration": "Instantaneous",
+		"spellEffect": "",
+		"spellType": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"spellbook": "spelllike",
+		"sr": true,
+		"subschool": "",
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": "one primary target, plus one secondary target/level (each of which must be within 30 ft. of the primary target)"
+		},
+		"types": "electricity",
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": "",
+			"rechargeFormula": null,
+			"value": 0
+		}
+	},
+	"type": "spell"
+}

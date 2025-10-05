@@ -1,0 +1,247 @@
+{
+	"_id": "YlCbk5gZP4FDDP0P",
+	"_key": "!actors.items!ui3NVQRuhNwaNiKu.YlCbk5gZP4FDDP0P",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/spells/named-spells/dispel-magic.png",
+	"name": "Dispel Magic",
+	"system": {
+		"ability": {
+			"attack": "",
+			"critMult": 2,
+			"critRange": 20,
+			"damage": "",
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"actionType": "other",
+		"activation": {
+			"cost": 1,
+			"type": "standard"
+		},
+		"addedLevel": 0,
+		"atWill": true,
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"castTime": "",
+		"clOffset": 0,
+		"classSource": "",
+		"components": {
+			"divineFocus": 0,
+			"focus": false,
+			"material": false,
+			"somatic": true,
+			"value": "",
+			"verbal": true
+		},
+		"conditionals": [
+		],
+		"createdBy": "",
+		"critConfirmBonus": "",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customReferenceId": "",
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<div class=\"spell-description\">\n  <p>\n      <strong>School:</strong>&nbsp;abjuration;\n    <br>\n    <strong>Level:</strong>&nbsp;Bard 3, Cleric 3, Druid 4, Paladin 3, Sorcerer 3, Wizard 3;\n    <strong>Domain:</strong>&nbsp;Magic 3;\n    \n    \n    \n    <br>\n    <strong>Components:</strong>&nbsp;V, S<br>\n    \n      <strong>Casting Time:</strong>&nbsp;1 standard action<br>\n    <strong>Range:</strong>&nbsp;medium (100 ft. + 10 ft./level)<br>\n    <strong>Area:</strong>&nbsp;one spellcaster, creature, or object; or 20-ft.-radius burst<br>\n    <strong>Target:</strong>&nbsp;one spellcaster, creature, or object; or 20-ft.-radius burst<br>\n    \n    <strong>Duration:</strong>&nbsp;Instantaneous<br>\n    \n        <strong>Saving Throw:</strong>&nbsp;None\n        <br>\n        <strong>Spell Resistance:</strong>&nbsp;no<br>\n  </p>\n  <h2>Description</h2>\n  \n\n\n<p>\nYou can use <i>dispel magic </i>to end ongoing spells that have been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, to end ongoing spells (or at least their effects) within an area, or to counter another spellcaster’s spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can’t be defeated by <i>dispel magic</i>. <i>Dispel magic </i>can dispel (but not counter) spell-like effects just as it does spells.\n</p><p><i>Note: </i>The effect of a spell with an instantaneous duration can’t be dispelled, because the magical effect is already over before the <i>dispel magic </i>can take effect.\n</p><p>You choose to use <i>dispel magic </i>in one of three ways: a targeted dispel, an area dispel, or a counterspell:\n</p><p><i>Targeted Dispel: </i>One object, creature, or spell is the target of the <i>dispel magic </i>spell. You make a dispel check (1d20 + your caster level, maximum +10) against the spell or against each ongoing spell currently in effect on the object or creature. The DC for this dispel check is 11 + the spell’s caster level. If you succeed on a particular check, that spell is dispelled; if you fail, that spell remains in effect.\n</p><p>If you target an object or creature that is the effect of an ongoing spell (such as a monster summoned by <i>monster summoning</i>), you make a dispel check to end the spell that conjured the object or creature.\n</p><p>If the object that you target is a magic item, you make a dispel check against the item’s caster level. If you succeed, all the item’s magical properties are suppressed for 1d4 rounds, after which the item recovers on its own. A suppressed item becomes nonmagical for the duration of the effect. An interdimensional interface (such as a <i>bag of holding</i>) is temporarily closed. A magic item’s physical properties are unchanged: A suppressed magic sword is still a sword (a masterwork sword, in fact). Artifacts and deities are unaffected by mortal magic such as this.\n</p><p>You automatically succeed on your dispel check against any spell that you cast yourself.\n</p><p><i>Area Dispel: </i>When <i>dispel magic </i>is used in this way, the spell affects everything within a 20-foot radius.\n</p><p>For each creature within the area that is the subject of one or more spells, you make a dispel check against the spell with the highest caster level. If that check fails, you make dispel checks against progressively weaker spells until you dispel one spell (which discharges the <i>dispel magic </i>spell so far as that target is concerned) or until you fail all your checks. The creature’s magic items are not affected.\n</p><p>For each object within the area that is the target of one or more spells, you make dispel checks as with creatures. Magic items are not affected by an area dispel.\n</p><p>For each ongoing area or effect spell whose point of origin is within the area of the <i>dispel magic </i>spell, you can make a dispel check to dispel the spell.\n</p><p>For each ongoing spell whose area overlaps that of the <i>dispel magic </i>spell, you can make a dispel check to end the effect, but only within the overlapping area.\n</p><p>If an object or creature that is the effect of an ongoing spell (such as a monster summoned by <i>monster summoning</i>) is in the area, you can make a dispel check to end the spell that conjured that object or creature (returning it whence it came) in addition to attempting to dispel spells targeting the creature or object.\n</p><p>You may choose to automatically succeed on dispel checks against any spell that you have cast.\n</p><p><i>Counterspell: </i>When <i>dispel magic </i>is used in this way, the spell targets a spellcaster and is cast as a counterspell. Unlike a true counterspell, however, <i>dispel magic </i>may not work; you must make a dispel check to counter the other spellcaster’s spell.\n</p>\n<hr/>\n\n\n\n</div>\n"
+		},
+		"display": "",
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"effectNotes": "",
+		"epic": "",
+		"favorite": false,
+		"formula": "",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"isDomainSpell": false,
+		"isPower": false,
+		"isSpellSpontaneousReplacement": false,
+		"learnedAt": {
+			"bloodline": [
+			],
+			"class": [
+				[
+					"Bard",
+					3
+				],
+				[
+					"Cleric",
+					3
+				],
+				[
+					"Druid",
+					4
+				],
+				[
+					"Paladin",
+					3
+				],
+				[
+					"Wizard",
+					3
+				],
+				[
+					"Sorcerer",
+					3
+				]
+			],
+			"domain": [
+				[
+					"Magic",
+					3
+				]
+			],
+			"elementalSchool": [
+			],
+			"subDomain": [
+			]
+		},
+		"level": 0,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"materials": {
+			"consumed": {
+				"_deprecated": true,
+				"value": false
+			},
+			"focus": "",
+			"value": ""
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 0,
+			"type": "circle"
+		},
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 0,
+		"possibleUpdate": false,
+		"powerPointsCost": 0,
+		"pr": false,
+		"preparation": {
+			"autoDeductCharges": true,
+			"maxAmount": 0,
+			"mode": "prepared",
+			"preparedAmount": 0
+		},
+		"psionic": "",
+		"range": {
+			"long": null,
+			"units": "medium",
+			"value": null
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requiresPsionicFocus": false,
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": "0",
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "None",
+			"type": ""
+		},
+		"school": "abj",
+		"shortDescription": "\n\n\n<p>\nYou can use <i>dispel magic </i>to end ongoing spells that have been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, to end ongoing spells (or at least their effects) within an area, or to counter another spellcaster’s spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can’t be defeated by <i>dispel magic</i>. <i>Dispel magic </i>can dispel (but not counter) spell-like effects just as it does spells.\n</p><p><i>Note: </i>The effect of a spell with an instantaneous duration can’t be dispelled, because the magical effect is already over before the <i>dispel magic </i>can take effect.\n</p><p>You choose to use <i>dispel magic </i>in one of three ways: a targeted dispel, an area dispel, or a counterspell:\n</p><p><i>Targeted Dispel: </i>One object, creature, or spell is the target of the <i>dispel magic </i>spell. You make a dispel check (1d20 + your caster level, maximum +10) against the spell or against each ongoing spell currently in effect on the object or creature. The DC for this dispel check is 11 + the spell’s caster level. If you succeed on a particular check, that spell is dispelled; if you fail, that spell remains in effect.\n</p><p>If you target an object or creature that is the effect of an ongoing spell (such as a monster summoned by <i>monster summoning</i>), you make a dispel check to end the spell that conjured the object or creature.\n</p><p>If the object that you target is a magic item, you make a dispel check against the item’s caster level. If you succeed, all the item’s magical properties are suppressed for 1d4 rounds, after which the item recovers on its own. A suppressed item becomes nonmagical for the duration of the effect. An interdimensional interface (such as a <i>bag of holding</i>) is temporarily closed. A magic item’s physical properties are unchanged: A suppressed magic sword is still a sword (a masterwork sword, in fact). Artifacts and deities are unaffected by mortal magic such as this.\n</p><p>You automatically succeed on your dispel check against any spell that you cast yourself.\n</p><p><i>Area Dispel: </i>When <i>dispel magic </i>is used in this way, the spell affects everything within a 20-foot radius.\n</p><p>For each creature within the area that is the subject of one or more spells, you make a dispel check against the spell with the highest caster level. If that check fails, you make dispel checks against progressively weaker spells until you dispel one spell (which discharges the <i>dispel magic </i>spell so far as that target is concerned) or until you fail all your checks. The creature’s magic items are not affected.\n</p><p>For each object within the area that is the target of one or more spells, you make dispel checks as with creatures. Magic items are not affected by an area dispel.\n</p><p>For each ongoing area or effect spell whose point of origin is within the area of the <i>dispel magic </i>spell, you can make a dispel check to dispel the spell.\n</p><p>For each ongoing spell whose area overlaps that of the <i>dispel magic </i>spell, you can make a dispel check to end the effect, but only within the overlapping area.\n</p><p>If an object or creature that is the effect of an ongoing spell (such as a monster summoned by <i>monster summoning</i>) is in the area, you can make a dispel check to end the spell that conjured that object or creature (returning it whence it came) in addition to attempting to dispel spells targeting the creature or object.\n</p><p>You may choose to automatically succeed on dispel checks against any spell that you have cast.\n</p><p><i>Counterspell: </i>When <i>dispel magic </i>is used in this way, the spell targets a spellcaster and is cast as a counterspell. Unlike a true counterspell, however, <i>dispel magic </i>may not work; you must make a dispel check to counter the other spellcaster’s spell.\n</p>\n<hr/>\n\n\n",
+		"showInQuickbar": false,
+		"slOffset": 0,
+		"snip": "Cancels magical spells and effects.",
+		"source": "",
+		"specialActions": [
+		],
+		"specialId": null,
+		"specialPrepared": false,
+		"spellArea": "one spellcaster, creature, or object; or 20-ft.-radius burst",
+		"spellDuration": "Instantaneous",
+		"spellEffect": "",
+		"spellType": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"spellbook": "spelllike",
+		"sr": false,
+		"subschool": "",
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": "one spellcaster, creature, or object; or 20-ft.-radius burst"
+		},
+		"types": "",
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": "",
+			"rechargeFormula": null,
+			"value": 0
+		}
+	},
+	"type": "spell"
+}

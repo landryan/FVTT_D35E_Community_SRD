@@ -1,0 +1,379 @@
+{
+	"_id": "MCgQdTcxACCXs813",
+	"_key": "!items!MCgQdTcxACCXs813",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/racialhd/skeleton.png",
+	"name": "Skeleton",
+	"system": {
+		"activateActions": [
+		],
+		"addedAbilities": [
+		],
+		"allSpellsKnown": false,
+		"attackParts": [
+		],
+		"automaticFeatures": false,
+		"bab": "",
+		"changeFlags": {
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": true,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": true,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+			[
+				"2",
+				"ability",
+				"dex",
+				"untyped"
+			],
+			[
+				"-1",
+				"ability",
+				"con",
+				"replace"
+			],
+			[
+				"10",
+				"ability",
+				"wis",
+				"replace"
+			],
+			[
+				"1",
+				"ability",
+				"cha",
+				"replace"
+			],
+			[
+				"-1",
+				"ability",
+				"int",
+				"replace"
+			],
+			[
+				"100",
+				"misc",
+				"fortification",
+				"untyped"
+			]
+		],
+		"classSkills": {
+			"apr": false,
+			"aut": false,
+			"blc": false,
+			"blf": false,
+			"clm": false,
+			"coc": false,
+			"crf": false,
+			"dev": false,
+			"dip": false,
+			"dis": false,
+			"dsc": false,
+			"esc": false,
+			"fog": false,
+			"gif": false,
+			"han": false,
+			"hea": false,
+			"hid": false,
+			"int": false,
+			"jmp": false,
+			"kar": false,
+			"kdu": false,
+			"ken": false,
+			"kge": false,
+			"khi": false,
+			"klo": false,
+			"kna": false,
+			"kno": false,
+			"kpl": false,
+			"kps": false,
+			"kre": false,
+			"lis": false,
+			"mos": false,
+			"opl": false,
+			"prf": false,
+			"pro": false,
+			"psi": false,
+			"rid": false,
+			"sen": false,
+			"slt": false,
+			"spl": false,
+			"spt": false,
+			"src": false,
+			"sur": false,
+			"swm": false,
+			"tmb": false,
+			"umd": false,
+			"upd": false,
+			"uro": false
+		},
+		"classSource": "",
+		"classType": "template",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"counterName": "",
+		"crPerHD": 4,
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"creatureType": "undead",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"parts": [
+			]
+		},
+		"damageReduction": [
+			[
+				"5",
+				"bludgeoning"
+			]
+		],
+		"deactivateActions": [
+		],
+		"deckHandSizeFormula": "0",
+		"deckPrestigeClass": false,
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<div style=\"box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75); border-radius: 3px; margin: 3px; padding: 3px; background-color: #ffffff73;\">This template requires you do rebuild a creature/character. Replace Racial HD with Undead type and reroll hp. Features denoted with <strong>*</strong> and <strong><span style=\"text-decoration: underline;\">underlined</span></strong> are set up automatically.</div>\n<p>Skeletons are the animated bones of the dead, mindless automatons that obey the orders of their evil masters.</p>\n<p>A skeleton is seldom garbed in anything more than the rotting remnants of any clothing or armor it was wearing when slain. A skeleton does only what it is ordered to do. It can draw no conclusions of its own and takes no initiative. Because of this limitation, its instructions must always be simple. A skeleton attacks until destroyed.</p>\n<h2>Creating a Skeleton</h2>\n<p>&ldquo;Skeleton&rdquo; is an acquired template that can be added to any corporeal creature (other than an undead) that has a skeletal system (referred to hereafter as the base creature).</p>\n<p><strong>Size and Type: </strong>The creature&rsquo;s type changes to undead. It retains any subtype except for alignment subtypes (such as good) and subtypes that indicate kind. It does not gain the augmented subtype. It uses all the base creature&rsquo;s statistics and special abilities except as noted here.</p>\n<p><strong>Hit Dice: </strong>Drop any Hit Dice gained from class levels (to a minimum of 1) and raise remaining Hit Dice to d12s. If the creature has more than 20 Hit Dice, it can&rsquo;t be made into a skeleton by the animate dead spell.</p>\n<p><strong>Speed: </strong>Winged skeletons can&rsquo;t use their wings to fly. If the base creature flew magically, so can the skeleton.</p>\n<p><strong>Armor Class: </strong>Natural armor bonus changes to a number based on the skeleton&rsquo;s size:</p>\n<table style=\"height: 113px; width: 98.8462%;\">\n<tbody>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 80.3502%;\">Tiny or smaller</td>\n<td style=\"height: 16px; width: 18.677%;\">+0</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 80.3502%;\">Small</td>\n<td style=\"height: 16px; width: 18.677%;\">+1</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 80.3502%;\">Medium or Large</td>\n<td style=\"height: 16px; width: 18.677%;\">+2</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 80.3502%;\">Huge</td>\n<td style=\"height: 16px; width: 18.677%;\">+3</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 80.3502%;\">Gargantuan</td>\n<td style=\"height: 16px; width: 18.677%;\">+6</td>\n</tr>\n<tr style=\"height: 33px;\">\n<td style=\"height: 33px; width: 80.3502%;\">Colossal</td>\n<td style=\"height: 33px; width: 18.677%;\">+10</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Attacks: </strong>A skeleton retains all the natural weapons, manufactured weapon attacks, and weapon proficiencies of the base creature, except for attacks that can&rsquo;t work without flesh. A creature with hands gains one claw attack per hand; the skeleton can strike with each of its claw attacks at its full attack bonus. A skeleton&rsquo;s base attack bonus is equal to 1/2 its Hit Dice.</p>\n<p><strong>Damage: </strong>Natural and manufactured weapons deal damage normally. A claw attack deals damage depending on the skeleton&rsquo;s size. (If the base creature already had claw attacks with its hands, use the skeleton claw damage only if it&rsquo;s better.)</p>\n<table>\n<tbody>\n<tr>\n<td>Diminutive or Fine</td>\n<td>1</td>\n</tr>\n<tr>\n<td>Tiny</td>\n<td>1d2</td>\n</tr>\n<tr>\n<td>Small</td>\n<td>1d3</td>\n</tr>\n<tr>\n<td>Medium</td>\n<td>1d4</td>\n</tr>\n<tr>\n<td>Large</td>\n<td>1d6</td>\n</tr>\n<tr>\n<td>Huge</td>\n<td>1d8</td>\n</tr>\n<tr>\n<td>Gargantuan</td>\n<td>2d6</td>\n</tr>\n<tr>\n<td>Colossal</td>\n<td>2d8</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Special Attacks: </strong>A skeleton retains none of the base creature&rsquo;s special attacks.</p>\n<p><strong>Special Qualities: </strong>A skeleton loses most special qualities of the base creature. It retains any extraordinary special qualities that improve its melee or ranged attacks. A skeleton gains the following special qualities.</p>\n<p><span style=\"text-decoration: underline;\"><em>Immunity to Cold (Ex)*:</em></span>&nbsp;Skeletons are not affected by cold.</p>\n<p><span style=\"text-decoration: underline;\"><em>Damage Reduction 5/Bludgeoning (Ex)*:</em></span> Skeletons lack flesh or internal organs.</p>\n<p><strong>Saves: </strong>Base save bonuses are Fort +1/3 HD, Ref +1/3 HD, and Will +1/2 HD + 2.</p>\n<p><span style=\"text-decoration: underline;\"><strong>Abilities*: </strong></span>A skeleton&rsquo;s Dexterity increases by +2, it has no Constitution or Intelligence score, its Wisdom changes to 10, and its Charisma changes to 1.</p>\n<p><strong>Skills: </strong>A skeleton has no skills.</p>\n<p><strong>Feats: </strong>A skeleton loses all feats of the base creature and gains .@Compendium[D35E.feats.EGKfnHuKmjGHXLNZ]{Improved Initiative}</p>\n<p><strong>Environment: </strong>Any, usually same as base creature.</p>\n<p><strong>Organization:</strong> Any.</p>\n<p><strong>Challenge Rating:</strong> Depends on Hit Dice, as follows:</p>\n<p>Hit Dice Challenge Rating</p>\n<table>\n<tbody>\n<tr>\n<th>Hit Dice</th>\n<th>Challenge Rating</th>\n</tr>\n<tr>\n<td>1/2</td>\n<td>1/6</td>\n</tr>\n<tr>\n<td>1</td>\n<td>1/3</td>\n</tr>\n<tr>\n<td>2&ndash;3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>4&ndash;5</td>\n<td>2</td>\n</tr>\n<tr>\n<td>6&ndash;7</td>\n<td>3</td>\n</tr>\n<tr>\n<td>8&ndash;9</td>\n<td>4</td>\n</tr>\n<tr>\n<td>10&ndash;11</td>\n<td>5</td>\n</tr>\n<tr>\n<td>12&ndash;14</td>\n<td>6</td>\n</tr>\n<tr>\n<td>15&ndash;17</td>\n<td>7</td>\n</tr>\n<tr>\n<td>18&ndash;20</td>\n<td>8</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Treasure: </strong>None.</p>\n<p><strong>Alignment: </strong>Always neutral evil.</p>\n<p><strong>Advancement: </strong>As base creature (or &mdash; if the base creature advances by character class).</p>\n<p><strong>Level Adjustment: </strong>&mdash;.</p>"
+		},
+		"disabledAbilities": [
+		],
+		"epic": "",
+		"fc": {
+			"alt": {
+				"value": 0
+			},
+			"hp": {
+				"value": 0
+			},
+			"skill": {
+				"value": 0
+			}
+		},
+		"halfCasterLevel": false,
+		"hasLimitedSpellbook": false,
+		"hasSpecialSlot": false,
+		"hasSpellbook": false,
+		"hd": 0,
+		"hdReplace": "",
+		"hdReplaceRacialOnly": false,
+		"hp": 0,
+		"identifiedName": "Skeleton",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"knownCardsSizeFormula": "0",
+		"la": 0,
+		"levels": 0,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"maxLevel": 20,
+		"minionGroup": "none",
+		"minionLevelFormula": "0",
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"nonActiveClassAbilities": [
+		],
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"possibleUpdate": false,
+		"powerPointBonusBaseAbility": "0",
+		"powerPointTable": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"powersKnown": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"powersMaxLevel": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"prestigeLevels": 0,
+		"psionic": "",
+		"requirements": [
+		],
+		"resistances": [
+			[
+				"",
+				"energy-cold",
+				true,
+				false
+			]
+		],
+		"savingThrows": {
+			"fort": {
+				"value": ""
+			},
+			"ref": {
+				"value": ""
+			},
+			"will": {
+				"value": ""
+			}
+		},
+		"sizeOverride": "",
+		"skillsPerLevel": 0,
+		"sneakAttackFormula": "0",
+		"sneakAttackGroup": "none",
+		"source": "",
+		"specialActions": [
+		],
+		"spellPointBonusFormula": "0",
+		"spellPointGroup": "wizard",
+		"spellPointTable": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"spellbook": [
+		],
+		"spellcastingAbility": "int",
+		"spellcastingDescription": "None",
+		"spellcastingSpellname": "Spell",
+		"spellcastingSpellnamePl": "Spells",
+		"spellcastingSpontaneus": false,
+		"spellcastingType": "none",
+		"spellsKnownPerLevel": [
+		],
+		"spellsPerLevel": [
+		],
+		"spellslotAbility": "",
+		"tags": [
+		],
+		"turnUndeadLevelFormula": "0",
+		"uniqueId": "",
+		"userNonRemovable": false
+	},
+	"type": "class"
+}

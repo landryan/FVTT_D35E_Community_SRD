@@ -1,0 +1,195 @@
+{
+	"_id": "2mIvMWgjAiPb8Q6Z",
+	"_key": "!items!2mIvMWgjAiPb8Q6Z",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/racialfeatures/dominate.png",
+	"name": "Dominate",
+	"system": {
+		"ability": {
+			"attack": null,
+			"critMult": 2,
+			"critRange": 20,
+			"damage": "",
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"actionType": "save",
+		"activation": {
+			"cost": 1,
+			"type": "swift"
+		},
+		"alignment": {
+			"chaotic": false,
+			"evil": false,
+			"good": false,
+			"lawful": false
+		},
+		"associations": {
+			"classes": [
+			]
+		},
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"attackType": "racialAbility",
+		"autoScaleOption": "default",
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"baseWeaponType": "",
+		"classSource": "",
+		"conditionals": [
+		],
+		"createdBy": "",
+		"critConfirmBonus": "",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customReferenceId": "",
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p>A vampire can crush an opponent&rsquo;s will just by looking onto his or her eyes. This is similar to a gaze attack, except that the vampire must use a standard action, and those merely looking at it are not affected. Anyone the vampire targets must succeed on a Will save or fall instantly under the vampire&rsquo;s influence as though by a @Compendium[D35E.spells.eWrsXRG3zUNKkOkL]{Dominate Person} spell (caster level 12th). The ability has a range of 30 feet.</p>"
+		},
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"effectNotes": "Dominate creature as @Compendium[D35E.spells.eWrsXRG3zUNKkOkL]{Dominate Person} spell.",
+		"enh": null,
+		"epic": false,
+		"favorite": true,
+		"finesseable": false,
+		"formula": "",
+		"incorporeal": false,
+		"index": {
+			"subType": null,
+			"uniqueId": "template-vampire-dominate"
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"magic": false,
+		"masterwork": false,
+		"material": {
+			"data": null
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 0,
+			"type": ""
+		},
+		"melded": false,
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"nonLethal": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"originalWeaponCreated": false,
+		"originalWeaponId": null,
+		"originalWeaponImg": "",
+		"originalWeaponName": "",
+		"originalWeaponProperties": {
+		},
+		"possibleUpdate": false,
+		"pr": false,
+		"primaryAttack": true,
+		"proficient": true,
+		"psionic": "",
+		"range": {
+			"long": null,
+			"units": "ft",
+			"value": "30"
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requiresPsionicFocus": false,
+		"returning": false,
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": "10+ceil(@attributes.hd.total/2)+@abilities.cha.mod",
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "Will negates",
+			"originVersion": 97,
+			"type": ""
+		},
+		"showInQuickbar": true,
+		"source": "",
+		"specialActions": [
+		],
+		"sr": false,
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"threatRangeExtended": false,
+		"thrown": false,
+		"uniqueId": "template-vampire-dominate",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": "",
+			"rechargeFormula": null,
+			"value": 0
+		},
+		"weaponSubtype": "light"
+	},
+	"type": "attack"
+}

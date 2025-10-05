@@ -1,0 +1,263 @@
+{
+	"_id": "ulJT76GsSoSUoYCK",
+	"_key": "!items!ulJT76GsSoSUoYCK",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/crafting-station/enhancements/armors/silent-moves.png",
+	"name": "Silent Moves",
+	"system": {
+		"ability": {
+			"attack": null,
+			"critMult": 2,
+			"critRange": 20,
+			"damage": null,
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"actionType": "",
+		"activation": {
+			"cost": 1,
+			"type": ""
+		},
+		"allowedTypes": [
+			[
+				"armor"
+			]
+		],
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"changeFlags": {
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false
+		},
+		"changes": [
+			[
+				"5*@enhancement",
+				"skill",
+				"skill.mos",
+				"competence"
+			]
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"contextNotes": [
+		],
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"critConfirmBonus": "",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p>This armor is well oiled and magically constructed so that it not only makes little sound, but it dampens sound around it, granting a +5/+10/+15 competence bonus on Move Silently checks. (The armor’s armor check penalty still applies normally.)</p>\n<p>Set Enhancement level from 1 to 3 to set enhancement strength:</p>\n<ol>\n<li>Standard (+5)</li>\n<li>Improved&nbsp;(+10)</li>\n<li>Greater&nbsp;(+15)</li>\n</ol>"
+		},
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"effectNotes": "",
+		"enh": 3,
+		"enhIncrease": 0,
+		"enhIncreaseFormula": "0",
+		"enhIsLevel": true,
+		"enhancementType": "armor",
+		"epic": "",
+		"favorite": false,
+		"formula": "",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"isFromBuff": false,
+		"isFromSpell": false,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 0,
+			"type": ""
+		},
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameExtension": {
+			"prefix": "",
+			"suffix": "Silent Moves"
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"possibleUpdate": false,
+		"pr": false,
+		"price": 33750,
+		"priceFormula": "3750+((@enhancement)-(1))*15000-((@enhancement) == 2 ? 1 : 0)*3750",
+		"properties": {
+			"dis": false,
+			"kee": false,
+			"mnk": false,
+			"spd": false,
+			"thr": false
+		},
+		"psionic": "",
+		"range": {
+			"long": null,
+			"units": "",
+			"value": null
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requirements": "CL 5th/10th/15th; Craft Magic Arms and Armor, silence",
+		"requiresPsionicFocus": false,
+		"resistances": [
+		],
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": 0,
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "",
+			"originVersion": 97,
+			"type": ""
+		},
+		"sizeOverride": "",
+		"source": "",
+		"specialActions": [
+		],
+		"sr": false,
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": null,
+			"rechargeFormula": null,
+			"value": 0
+		},
+		"weaponAttackNotes": [
+		],
+		"weaponData": {
+			"alignment": {
+				"chaotic": false,
+				"evil": false,
+				"good": false,
+				"lawful": false
+			},
+			"attackRoll": "",
+			"damageRoll": "",
+			"damageType": "",
+			"damageTypeId": "",
+			"optionalDamage": false
+		}
+	},
+	"type": "enhancement"
+}

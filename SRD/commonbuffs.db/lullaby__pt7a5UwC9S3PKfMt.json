@@ -1,0 +1,240 @@
+{
+	"_id": "pt7a5UwC9S3PKfMt",
+	"_key": "!items!pt7a5UwC9S3PKfMt",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/buffs/lullaby.png",
+	"name": "Lullaby",
+	"system": {
+		"activateActions": [
+		],
+		"activation": {
+			"cost": 1,
+			"type": ""
+		},
+		"active": false,
+		"addedLevel": 0,
+		"attackParts": [
+		],
+		"buffType": "temp",
+		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+			[
+				"-5",
+				"skill",
+				"skill.lis",
+				"penalty"
+			],
+			[
+				"-5",
+				"skill",
+				"skill.spt",
+				"penalty"
+			]
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+			[
+				"savingThrowOptional",
+				"",
+				"",
+				"featSavingThrow",
+				"-2",
+				""
+			]
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+			[
+				"-2 on Will saves vs. Sleep",
+				"savingThrows",
+				"will"
+			]
+		],
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damagePool": {
+			"current": 0,
+			"deleteOnDamagePoolEmpty": false,
+			"enabled": false,
+			"formula": "",
+			"max": 0
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p>&ndash;5 penalty on Listen and Spot checks and a &ndash;2 penalty on Will saves against&nbsp;<em>sleep&nbsp;</em>effects while the @Compendium[D35E.spells.frCME2IswsJC6aIz]{Lullaby} is in effect.</p>\n<p><em>Note: Duration is Concentration + 1 so the buff must be deleted by the GM.</em></p>"
+		},
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"epic": "",
+		"hideFromToken": false,
+		"identifiedName": "Lullaby",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"level": 0,
+		"light": {
+			"alpha": 0.5,
+			"animationIntensity": "",
+			"animationSpeed": "",
+			"color": "",
+			"dimRadius": "",
+			"emitLight": false,
+			"lightAngle": 360,
+			"opacity": 0,
+			"radius": 0,
+			"type": ""
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 100,
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"psionic": "",
+		"range": {
+			"units": "",
+			"value": null
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requirements": [
+		],
+		"requiresPsionicFocus": false,
+		"resistances": [
+		],
+		"senses": {
+			"blindsight": null,
+			"darkvision": null,
+			"lowLight": false,
+			"lowLightMultiplier": null,
+			"tremorsense": null,
+			"truesight": null
+		},
+		"shapechange": {
+			"source": {
+			},
+			"type": "polymorph"
+		},
+		"sizeOverride": "",
+		"source": "",
+		"specialActions": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"timeline": {
+			"deleteOnExpiry": false,
+			"elapsed": 0,
+			"enabled": false,
+			"formula": "",
+			"tickOnEnd": false,
+			"total": 0
+		},
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": null,
+			"rechargeFormula": null,
+			"value": -1
+		}
+	},
+	"type": "buff"
+}

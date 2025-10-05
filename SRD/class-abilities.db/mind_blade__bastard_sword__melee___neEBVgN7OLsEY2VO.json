@@ -1,0 +1,199 @@
+{
+	"_id": "neEBVgN7OLsEY2VO",
+	"_key": "!items!neEBVgN7OLsEY2VO",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/classfeatures/mind-blade.png",
+	"name": "Mind Blade (Bastard Sword, Melee)",
+	"system": {
+		"ability": {
+			"attack": "str",
+			"critMult": 2,
+			"critRange": 20,
+			"damage": "str",
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"actionType": "mwak",
+		"activation": {
+			"cost": 1,
+			"type": ""
+		},
+		"alignment": {
+			"chaotic": false,
+			"evil": false,
+			"good": false,
+			"lawful": false
+		},
+		"associations": {
+			"classes": [
+			]
+		},
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "floor(@classes.soulknife.level/4) + 1 + (@classes.soulknife.level > 8 ? 1 : 0)",
+		"attackCountFormula": "",
+		"attackNotes": "Treat as a magic weapon with +[[floor(@classes.soulknife.level/4)]] enhancement.",
+		"attackParts": [
+		],
+		"attackType": "weapon",
+		"autoScaleOption": "default",
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"baseWeaponType": "",
+		"classSource": "",
+		"conditionals": [
+		],
+		"createdBy": "",
+		"critConfirmBonus": "",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+				[
+					"1d10+floor(@classes.soulknife.level/4)",
+					"Slashing",
+					""
+				]
+			]
+		},
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p>This is a&nbsp;&nbsp;semisolid blade composed of psychic energy distilled from Soulknife mind. It functions as a bastard sword.</p>\n<p>This attack has Weapon Focus and Greater Weapon Focus (if Soulknife is at level 8+) applied.&nbsp;</p>"
+		},
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"effectNotes": "",
+		"enh": null,
+		"epic": false,
+		"favorite": true,
+		"finesseable": false,
+		"formula": "",
+		"incorporeal": false,
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"magic": false,
+		"masterwork": false,
+		"material": {
+			"data": null
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 0,
+			"type": ""
+		},
+		"melded": false,
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"nonLethal": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"originalWeaponCreated": false,
+		"originalWeaponId": null,
+		"originalWeaponImg": "",
+		"originalWeaponName": "",
+		"originalWeaponProperties": {
+		},
+		"possibleUpdate": false,
+		"pr": false,
+		"primaryAttack": true,
+		"proficient": true,
+		"psionic": "",
+		"range": {
+			"long": null,
+			"units": "",
+			"value": null
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requiresPsionicFocus": false,
+		"returning": false,
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": "0",
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "",
+			"originVersion": 97,
+			"type": ""
+		},
+		"showInQuickbar": true,
+		"source": "",
+		"specialActions": [
+		],
+		"sr": false,
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"threatRangeExtended": false,
+		"thrown": false,
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": null,
+			"rechargeFormula": null,
+			"value": 0
+		},
+		"weaponSubtype": "light"
+	},
+	"type": "attack"
+}

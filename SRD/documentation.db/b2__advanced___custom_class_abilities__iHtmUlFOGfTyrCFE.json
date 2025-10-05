@@ -1,0 +1,13 @@
+{
+	"_id": "iHtmUlFOGfTyrCFE",
+	"_key": "!journal!iHtmUlFOGfTyrCFE",
+	"content": "<h2 id=\"creating-custom-class-abilities-compendium\">Creating Custom Class Abilities compendium</h2>\n<p>System checks for custom Class Abilities in a world compendium named&nbsp;Class Abilities. All items stored in this comepndium are scanned on load and added to progression lists of correct classes.</p>\n<h2 id=\"creating-custom-class-abilities\">Creating Custom Class Abilities</h2>\n<blockquote>\n<p>After you create or edit Class Abilities, you must reload your session to make it appear in Class details of connected class. This is done for performance reasons.</p>\n</blockquote>\n<p>To create a custom Class Ability you have to create new world Feat type Item first (as Compendiums do not allow direct item creation inside). To make class ability work correctly, you must set&nbsp;UID&nbsp;field to be a unique value. This field is used to allow system to differentiate abilities and keep them from appearing multiple times.</p>\n<p>If your ability can be added multiple times, like Fighter Bonus Feat, add&nbsp;*&nbsp;at the end of&nbsp;UID.</p>\n<div>&nbsp;</div>\n<h2 id=\"adding-custom-class-ability-to-class\">Adding Custom Class Ability to Class</h2>\n<p>There are currently to ways of adding custom ability to a class.</p>\n<h3 id=\"adding-abilities-to-class-directly\">Adding Abilities to Class Directly!</h3>\n<blockquote>\n<p>This is a preferred way of adding Class Abilities from default Compendiums to custom Classes.</p>\n</blockquote>\n<p>You can add abilities to a class directly in Class item Special Features tab. To do this, navigate there and you will be presented with a list of all Class Abilities assigned to a Class. You can use&nbsp;+ Add&nbsp;button to add any available Ability to a class and set up level its available at. To remove a Class Ability added that way, use&nbsp;- Delete&nbsp;button located near in the same line as ability you want to remove.</p>\n<h3 id=\"using-class-information-inside-class-ability\">Using Class information inside Class Ability</h3>\n<p>When designing abilities that may be used by multiple classes, it may be easier to mark them as Class Abilities directly in the Class Ability item. To do this, edit Classes in Class Ability. This information will be reflected in Classes after reloading the system.</p>",
+	"folder": "",
+	"name": "B2. Advanced - Custom Class Abilities",
+	"pages": [
+	],
+	"permission": {
+		"VIfT2pClvTXfstmc": 3,
+		"default": 0
+	}
+}

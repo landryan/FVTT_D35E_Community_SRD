@@ -1,0 +1,248 @@
+{
+	"_id": "wmr6yxhtV0xLGNey",
+	"_key": "!items!wmr6yxhtV0xLGNey",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/races/pixie.png",
+	"name": "Sprite, Pixie",
+	"system": {
+		"addedAbilities": [
+			{
+				"level": 0,
+				"uid": "racial-dancinglights"
+			},
+			{
+				"level": 0,
+				"uid": "racial-pixiedodge"
+			},
+			{
+				"level": 0,
+				"uid": "racial-splabconflesser"
+			},
+			{
+				"level": 0,
+				"uid": "racial-splabdetevil"
+			},
+			{
+				"level": 0,
+				"uid": "racial-splabdetgood"
+			},
+			{
+				"level": 0,
+				"uid": "racial-splabdetlaw"
+			},
+			{
+				"level": 0,
+				"uid": "racial-splabdetthoughts"
+			},
+			{
+				"level": 0,
+				"uid": "racial-splabdispmagic"
+			},
+			{
+				"level": 0,
+				"uid": "racial-splabentangle"
+			},
+			{
+				"level": 0,
+				"uid": "racial-splabpermimage"
+			},
+			{
+				"level": 0,
+				"uid": "racial-splabdetchaos"
+			},
+			{
+				"level": 0,
+				"uid": "racial-greaterinvisibility"
+			}
+		],
+		"changeFlags": {
+			"hasted": false,
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+			[
+				"-4",
+				"ability",
+				"str",
+				"racial"
+			],
+			[
+				"8",
+				"ability",
+				"dex",
+				"racial"
+			],
+			[
+				"6",
+				"ability",
+				"int",
+				"racial"
+			],
+			[
+				"4",
+				"ability",
+				"wis",
+				"racial"
+			],
+			[
+				"6",
+				"ability",
+				"cha",
+				"racial"
+			],
+			[
+				"-10",
+				"speed",
+				"landSpeed",
+				"racial"
+			],
+			[
+				"60",
+				"speed",
+				"flySpeed",
+				"racial"
+			],
+			[
+				"2",
+				"skill",
+				"skill.lis",
+				"racial"
+			],
+			[
+				"2",
+				"skill",
+				"skill.src",
+				"racial"
+			],
+			[
+				"2",
+				"skill",
+				"skill.spt",
+				"racial"
+			],
+			[
+				"1",
+				"ac",
+				"nac",
+				"racial"
+			],
+			[
+				"15+(@attributes.hd.total)",
+				"misc",
+				"spellResistance",
+				"racial"
+			]
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"contextNotes": [
+		],
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"creatureType": "fey",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"parts": [
+			]
+		},
+		"damageReduction": [
+			[
+				"10",
+				"coldiron"
+			]
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p><span class=\"fontstyle0\">Sprites are reclusive fey. They go out of their way to fight evil and ugliness and to protect their homelands. Legend claims that sprites die only through injury or disease.</span></p>\n<p>&nbsp;Pixies are merry pranksters that love to lead travelers astray. They <span class=\"fontstyle0\">can, however, be roused to surprising ire when dealing with evil creatures.<br />These sprites love to trick misers out of their wealth. They do not covet treasure themselves but use it to taunt and frustrate greedy folk. If a victim of pixie pranks exhibits no greed or demonstrates a good sense of humor, the tricksters may allow the individual to choose a reward from their hoard. </span></p>\n<p><span class=\"fontstyle0\">Pixies wear bright clothing, often including a cap and shoes with curled and pointed toes. </span></p>\n<p><span class=\"fontstyle0\">A pixie stands about 2-1/2 feet tall and weighs about 30 pounds. </span></p>\n<p><span class=\"fontstyle0\">Pixies speak Sylvan and Common, and may know other languages as well.</span></p>\n<p>Pixie characters possess the following racial traits.</p>\n<ul>\n<li>\n<p>&ndash;4 Strength, +8 Dexterity, +6 Intelligence, +4 Wisdom, +6 Charisma.</p>\n</li>\n<li>\n<p>Small size. +1 bonus to Armor Class, +1 bonus on attack rolls, +4 bonus on Hide checks, &ndash;4 penalty on grapple checks, lifting and carrying limits 3/4 those of Medium characters.</p>\n</li>\n<li>\n<p>A pixie&rsquo;s base land speed is 20 feet. It also has a fly speed of 60 feet (good).</p>\n</li>\n<li>\n<p>Low-light vision.</p>\n</li>\n<li>\n<p>Skills: Pixies have a +2 racial bonus on Listen, Search, and Spot checks.</p>\n</li>\n<li>\n<p>Racial Feats: A pixie receives Dodge as a bonus feat.</p>\n</li>\n<li>\n<p>+1 natural armor bonus.</p>\n</li>\n<li>\n<p>Spell-like abilities: 1/day - lesser confusion , dancing lights, detect chaos, detect good, detect evil, detect law, detect thoughts, dispel magic, entangle , permanent image (visual and auditory elements only)</p>\n</li>\n<li>\n<p>Damage reduction 10/cold iron</p>\n</li>\n<li>\n<p>Greater invisibility at will functioning awlays unless the pixie cancels it.</p>\n</li>\n<li>\n<p>spell resistance equal to 15 + class levels.</p>\n</li>\n<li>\n<p>Automatic Languages: Common, Sylvan. Bonus Languages: Elven, Gnome, Halfling.</p>\n</li>\n<li>\n<p>Favored Class: Sorcerer.</p>\n</li>\n<li>\n<p>Level adjustment +4&nbsp;</p>\n</li>\n</ul>"
+		},
+		"disabledAbilities": [
+		],
+		"epic": "",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"la": 4,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"links": {
+			"children": [
+			]
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"possibleUpdate": false,
+		"psionic": "",
+		"requirements": [
+		],
+		"resistances": [
+		],
+		"sizeOverride": "sm",
+		"source": "",
+		"subTypes": [
+		],
+		"tags": [
+		],
+		"uniqueId": "",
+		"userNonRemovable": false
+	},
+	"type": "race"
+}

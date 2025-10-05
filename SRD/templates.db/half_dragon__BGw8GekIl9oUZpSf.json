@@ -1,0 +1,369 @@
+{
+	"_id": "BGw8GekIl9oUZpSf",
+	"_key": "!items!BGw8GekIl9oUZpSf",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/racialhd/half-dragon.png",
+	"name": "Half-Dragon",
+	"system": {
+		"activateActions": [
+		],
+		"addedAbilities": [
+		],
+		"allSpellsKnown": false,
+		"attackParts": [
+		],
+		"automaticFeatures": true,
+		"bab": "",
+		"changeFlags": {
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+			[
+				"8",
+				"ability",
+				"str",
+				"untyped"
+			],
+			[
+				"2",
+				"ability",
+				"con",
+				"untyped"
+			],
+			[
+				"2",
+				"ability",
+				"int",
+				"untyped"
+			],
+			[
+				"2",
+				"ability",
+				"cha",
+				"untyped"
+			],
+			[
+				"5",
+				"ac",
+				"nac",
+				"untyped"
+			],
+			[
+				"2",
+				"misc",
+				"cr",
+				"untyped"
+			]
+		],
+		"classSkills": {
+			"apr": false,
+			"aut": false,
+			"blc": false,
+			"blf": false,
+			"clm": false,
+			"coc": false,
+			"crf": false,
+			"dev": false,
+			"dip": false,
+			"dis": false,
+			"dsc": false,
+			"esc": false,
+			"fog": false,
+			"gif": false,
+			"han": false,
+			"hea": false,
+			"hid": false,
+			"int": false,
+			"jmp": false,
+			"kar": false,
+			"kdu": false,
+			"ken": false,
+			"kge": false,
+			"khi": false,
+			"klo": false,
+			"kna": false,
+			"kno": false,
+			"kpl": false,
+			"kps": false,
+			"kre": false,
+			"lis": false,
+			"mos": false,
+			"opl": false,
+			"prf": false,
+			"pro": false,
+			"psi": false,
+			"rid": false,
+			"sen": false,
+			"slt": false,
+			"spl": false,
+			"spt": false,
+			"src": false,
+			"sur": false,
+			"swm": false,
+			"tmb": false,
+			"umd": false,
+			"upd": false,
+			"uro": false
+		},
+		"classSource": "",
+		"classType": "template",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"counterName": "",
+		"crPerHD": 4,
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"creatureType": "dragon",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
+		"deckHandSizeFormula": "0",
+		"deckPrestigeClass": false,
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p>Half-dragon creatures are always more formidable than others of their kind that do not have dragon blood, and their appearance betrays their nature&mdash;scales, elongated features, reptilian eyes, and exaggerated teeth and claws. Sometimes they have wings.</p>\n<h2>Creating a Half-Dragon</h2>\n<p>&ldquo;Half-dragon&rdquo; is an inherited template that can be added to any living, corporeal creature (referred to hereafter as the base creature).</p>\n<p>A half-dragon uses all the base creature&rsquo;s statistics and special abilities except as noted here.</p>\n<p><strong><span style=\"text-decoration: underline;\">Size and Type*</span>: </strong>The creature&rsquo;s type changes to dragon. Size is unchanged. Do not recalculate base attack bonus or saves.</p>\n<p><strong>Hit Dice: </strong>Increase base creature&rsquo;s racial HD by one die size, to a maximum of d12. Do not increase class HD.</p>\n<p><strong>Speed: </strong>A half-dragon that is Large or larger has wings and can fly at twice its base land speed (maximum 120 ft.) with average maneuverability. A half-dragon that is Medium or smaller does not have wings.</p>\n<p><strong><span style=\"text-decoration: underline;\">Armor Class*</span>:</strong> Natural armor improves by +4.</p>\n<p><strong>Attack: </strong>A half-dragon has two claw attacks and a bite attack, and the claws are the primary natural weapon. If the base creature can use weapons, the half-dragon retains this ability. A half-dragon fighting without weapons uses a claw when making an attack action. When it has a weapon, it usually uses the weapon instead.</p>\n<p><strong>Full Attack: </strong>A half-dragon fighting without weapons uses both claws and its bite when making a full attack. If armed with a weapon, it usually uses the weapon as its primary attack and its bite as a natural secondary attack. If it has a hand free, it uses a claw as an additional natural secondary attack.</p>\n<p><strong>Damage: </strong>Half-dragons have bite and claw attacks. If the base creature does not have these attack forms, use the damage values in the table below. Otherwise, use the values below or the base creature&rsquo;s damage values, whichever are greater.</p>\n<table>\n<tbody>\n<tr>\n<th align=\"left\">Size</th>\n<th>Bite Damage</th>\n<th>Claw Damage</th>\n</tr>\n<tr>\n<td align=\"left\">Fine</td>\n<td style=\"text-align: center;\">1</td>\n<td style=\"text-align: center;\">&mdash;</td>\n</tr>\n<tr>\n<td align=\"left\">Diminutive</td>\n<td style=\"text-align: center;\">1d2</td>\n<td style=\"text-align: center;\">1</td>\n</tr>\n<tr>\n<td align=\"left\">Tiny</td>\n<td style=\"text-align: center;\">1d3</td>\n<td style=\"text-align: center;\">1d2</td>\n</tr>\n<tr>\n<td align=\"left\">Small</td>\n<td style=\"text-align: center;\">1d4</td>\n<td style=\"text-align: center;\">1d3</td>\n</tr>\n<tr>\n<td align=\"left\">Medium</td>\n<td style=\"text-align: center;\">1d6</td>\n<td style=\"text-align: center;\">1d4</td>\n</tr>\n<tr>\n<td align=\"left\">Large</td>\n<td style=\"text-align: center;\">1d8</td>\n<td style=\"text-align: center;\">1d6</td>\n</tr>\n<tr>\n<td align=\"left\">Huge</td>\n<td style=\"text-align: center;\">2d6</td>\n<td style=\"text-align: center;\">1d8</td>\n</tr>\n<tr>\n<td align=\"left\">Gargantuan</td>\n<td style=\"text-align: center;\">3d6</td>\n<td style=\"text-align: center;\">2d6</td>\n</tr>\n<tr>\n<td align=\"left\">Colossal</td>\n<td style=\"text-align: center;\">4d6</td>\n<td style=\"text-align: center;\">3d6</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Special Attacks: </strong>A half-dragon retains all the special attacks of the base creature and gains a breath weapon based on the dragon variety (see the table below), usable once per day. A half-dragon&rsquo;s breath weapon deals 6d8 points of damage. A successful Reflex save (DC 10 + 1/2 half-dragon&rsquo;s racial HD + half-dragon&rsquo;s Con modifier) reduces damage by half.</p>\n<table>\n<tbody>\n<tr>\n<th>Dragon Variety</th>\n<th align=\"left\">Breath Weapon</th>\n</tr>\n<tr>\n<td>Black</td>\n<td align=\"left\">60-foot line of acid</td>\n</tr>\n<tr>\n<td>Blue</td>\n<td align=\"left\">60-foot line of lightning</td>\n</tr>\n<tr>\n<td>Green</td>\n<td align=\"left\">30-foot cone of corrosive (acid) gas</td>\n</tr>\n<tr>\n<td>Red</td>\n<td align=\"left\">30-foot cone of fire</td>\n</tr>\n<tr>\n<td>White</td>\n<td align=\"left\">30-foot cone of cold</td>\n</tr>\n<tr>\n<td>Brass</td>\n<td align=\"left\">60-foot line of fire</td>\n</tr>\n<tr>\n<td>Bronze</td>\n<td align=\"left\">60-foot line of lightning</td>\n</tr>\n<tr>\n<td>Copper</td>\n<td align=\"left\">60-foot line of acid</td>\n</tr>\n<tr>\n<td>Gold</td>\n<td align=\"left\">30-foot cone of fire</td>\n</tr>\n<tr>\n<td>Silver</td>\n<td align=\"left\">30-foot cone of cold</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Special Qualities: </strong>A half-dragon has all the special qualities of the base creature, plus darkvision out to 60 feet and low-light vision. A half-dragon has immunity to sleep and paralysis effects, and an additional immunity based on its dragon variety.</p>\n<table>\n<tbody>\n<tr>\n<th><span title=\"SRD:Dragon Type\">Dragon</span>&nbsp;Variety</th>\n<th>Immunity</th>\n<th><span title=\"SRD:Dragon Type\">Dragon</span>&nbsp;Variety</th>\n<th>Immunity</th>\n</tr>\n<tr>\n<td><span title=\"SRD:Black Dragon\">Black</span></td>\n<td>Acid</td>\n<td><span title=\"SRD:Brass Dragon\">Brass</span></td>\n<td>Fire</td>\n</tr>\n<tr>\n<td><span title=\"SRD:Blue Dragon\">Blue</span></td>\n<td>Electricity</td>\n<td><span title=\"SRD:Bronze Dragon\">Bronze</span></td>\n<td>Electricity</td>\n</tr>\n<tr>\n<td><span title=\"SRD:Green Dragon\">Green</span></td>\n<td>Acid</td>\n<td><span title=\"SRD:Copper Dragon\">Copper</span></td>\n<td>Acid</td>\n</tr>\n<tr>\n<td><span title=\"SRD:Red Dragon\">Red</span></td>\n<td>Fire</td>\n<td><span title=\"SRD:Gold Dragon\">Gold</span></td>\n<td>Fire</td>\n</tr>\n<tr>\n<td><span title=\"SRD:White Dragon\">White</span></td>\n<td>Cold</td>\n<td><span title=\"SRD:Silver Dragon\">Silver</span></td>\n<td>Cold</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Abilities*: </strong>Increase from the base creature as follows: Str +8, Con +2, Int +2, Cha +2.</p>\n<p><strong>Skills: </strong>A half-dragon gains skill points as a dragon and has skill points equal to (6 + Int modifier) x (HD + 3). Do not include Hit Dice from class levels in this calculation&mdash;the half-dragon gains dragon skill points only for its racial Hit Dice, and gains the normal amount of skill points for its class levels. Treat skills from the base creature&rsquo;s list as class skills, and other skills as cross-class.</p>\n<p><strong>Environment: </strong>Same as either the base creature or the dragon variety.</p>\n<p><strong>Challenge</strong> <strong>Rating*:</strong> Same as the base creature + 2 (minimum 3).</p>\n<p><strong>Alignment:</strong> Same as the dragon variety.</p>\n<p><strong>Level Adjustment*: </strong>Same as base creature +3.</p>"
+		},
+		"disabledAbilities": [
+		],
+		"epic": "",
+		"fc": {
+			"alt": {
+				"value": 0
+			},
+			"hp": {
+				"value": 0
+			},
+			"skill": {
+				"value": 0
+			}
+		},
+		"halfCasterLevel": false,
+		"hasLimitedSpellbook": false,
+		"hasSpecialSlot": false,
+		"hasSpellbook": false,
+		"hd": 0,
+		"hdReplace": "",
+		"hdReplaceRacialOnly": false,
+		"hp": 0,
+		"identifiedName": "Half-Dragon",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"knownCardsSizeFormula": "0",
+		"la": 3,
+		"levels": 0,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"maxLevel": 20,
+		"minionGroup": "none",
+		"minionLevelFormula": "0",
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"nonActiveClassAbilities": [
+		],
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"possibleUpdate": false,
+		"powerPointBonusBaseAbility": "0",
+		"powerPointTable": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"powersKnown": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"powersMaxLevel": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"prestigeLevels": 0,
+		"psionic": "",
+		"requirements": [
+		],
+		"resistances": [
+		],
+		"savingThrows": {
+			"fort": {
+				"value": ""
+			},
+			"ref": {
+				"value": ""
+			},
+			"will": {
+				"value": ""
+			}
+		},
+		"sizeOverride": "",
+		"skillsPerLevel": 0,
+		"sneakAttackFormula": "0",
+		"sneakAttackGroup": "none",
+		"source": "",
+		"specialActions": [
+		],
+		"spellPointBonusFormula": "0",
+		"spellPointGroup": "wizard",
+		"spellPointTable": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"spellbook": [
+		],
+		"spellcastingAbility": "int",
+		"spellcastingDescription": "None",
+		"spellcastingSpellname": "Spell",
+		"spellcastingSpellnamePl": "Spells",
+		"spellcastingSpontaneus": false,
+		"spellcastingType": "none",
+		"spellsKnownPerLevel": [
+		],
+		"spellsPerLevel": [
+		],
+		"spellslotAbility": "",
+		"tags": [
+		],
+		"turnUndeadLevelFormula": "0",
+		"uniqueId": "",
+		"userNonRemovable": false
+	},
+	"type": "class"
+}

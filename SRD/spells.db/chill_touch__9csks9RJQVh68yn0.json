@@ -1,0 +1,266 @@
+{
+	"_id": "9csks9RJQVh68yn0",
+	"_key": "!items!9csks9RJQVh68yn0",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/spells/named-spells/chill-touch.png",
+	"name": "Chill Touch",
+	"system": {
+		"ability": {
+			"attack": "",
+			"critMult": 1,
+			"critRange": "21",
+			"damage": "",
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": true
+		},
+		"actionType": "msak",
+		"activateActions": [
+		],
+		"activation": {
+			"cost": 1,
+			"type": "standard"
+		},
+		"atWill": false,
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"castTime": "",
+		"changes": [
+		],
+		"clOffset": 0,
+		"classSource": "",
+		"combatChanges": [
+		],
+		"components": {
+			"divineFocus": 0,
+			"focus": false,
+			"material": false,
+			"somatic": true,
+			"value": "",
+			"verbal": true
+		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"critConfirmBonus": "",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customReferenceId": "",
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+				[
+					"1d6",
+					null,
+					"energy-negative"
+				]
+			]
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<div class=\"spell-description\">\n  <p>\n      <strong>School:</strong>&nbsp;necromancy;\n    <br>\n    <strong>Level:</strong>&nbsp;Sorcerer 1, Wizard 1;\n    \n    \n    \n    \n    <br>\n    <strong>Components:</strong>&nbsp;V, S<br>\n    \n      <strong>Casting Time:</strong>&nbsp;1 standard action<br>\n    <strong>Range:</strong>&nbsp;touch<br>\n    \n    <strong>Target:</strong>&nbsp;creature or creatures touched (up to one/level)<br>\n    \n    <strong>Duration:</strong>&nbsp;Instantaneous<br>\n    <strong>Power Points/Spell Points Cost:</strong>&nbsp;1<br>\n        <strong>Saving Throw:</strong>&nbsp;Fortitude Partial\n        <br>\n        <strong>Spell Resistance:</strong>&nbsp;yes<br>\n  </p>\n  <h2>Description</h2>\n  \n\n\n<p>\nA touch from your hand, which glows with blue energy, disrupts the life force of living creatures. Each touch channels negative energy that deals 1d6 points of damage. The touched creature also takes 1 point of Strength damage unless it makes a successful Fortitude saving throw. You can use this melee touch attack up to one time per level.\n</p><p>An undead creature you touch takes no damage of either sort, but it must make a successful Will saving throw or flee as if panicked for 1d4 rounds +1 round per caster level.\n</p>\n<hr/>\n\n\n\n</div>\n"
+		},
+		"display": "",
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"effectNotes": "Undead creatures take no damage of either sort, but must make a successful Will saving throw or flee as if panicked for [[1d4+@cl]] rounds.",
+		"epic": "",
+		"favorite": false,
+		"formula": "",
+		"identifiedName": "Chill Touch",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"isDomainSpell": false,
+		"isPower": false,
+		"isSpellSpontaneousReplacement": false,
+		"learnedAt": {
+			"bloodline": [
+			],
+			"class": [
+				[
+					"Wizard",
+					1
+				],
+				[
+					"Sorcerer",
+					1
+				]
+			],
+			"domain": [
+			],
+			"elementalSchool": [
+			],
+			"subDomain": [
+			]
+		},
+		"level": 1,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"materials": {
+			"consumed": {
+				"_deprecated": true,
+				"value": false
+			},
+			"focus": "",
+			"value": ""
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 0,
+			"type": ""
+		},
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "9csks9RJQVh68yn0",
+		"originPack": "D35E.spells",
+		"originVersion": 109,
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"powerPointsCost": 1,
+		"pr": false,
+		"preparation": {
+			"autoDeductCharges": true,
+			"maxAmount": 0,
+			"mode": "prepared",
+			"preparedAmount": 0
+		},
+		"psionic": "",
+		"range": {
+			"long": null,
+			"units": "touch",
+			"value": null
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requirements": [
+		],
+		"requiresPsionicFocus": false,
+		"resistances": [
+		],
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": "0",
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "Fortitude partial or Will negates; see text",
+			"originVersion": 97,
+			"type": "fortitudepartial"
+		},
+		"school": "nec",
+		"shortDescription": "\n\n\n<p>\nA touch from your hand, which glows with blue energy, disrupts the life force of living creatures. Each touch channels negative energy that deals 1d6 points of damage. The touched creature also takes 1 point of Strength damage unless it makes a successful Fortitude saving throw. You can use this melee touch attack up to one time per level.\n</p><p>An undead creature you touch takes no damage of either sort, but it must make a successful Will saving throw or flee as if panicked for 1d4 rounds +1 round per caster level.\n</p>\n<hr/>\n\n\n",
+		"showInQuickbar": false,
+		"slOffset": 0,
+		"snip": "One touch/level deals 1d6 damage and possibly 1 Str damage.",
+		"source": "",
+		"specialActions": [
+			{
+				"action": "AbilityDamage str 1 on target",
+				"condition": "",
+				"img": "",
+				"name": "Strength Damage"
+			}
+		],
+		"specialId": null,
+		"specialPrepared": false,
+		"spellArea": "",
+		"spellDuration": "Instantaneous",
+		"spellDurationData": {
+			"dismissable": false,
+			"units": "inst",
+			"value": ""
+		},
+		"spellEffect": "",
+		"spellType": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"spellbook": "primary",
+		"sr": true,
+		"subschool": "",
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": "creature or creatures touched (up to one/level)"
+		},
+		"types": "",
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": "",
+			"rechargeFormula": null,
+			"value": 0
+		}
+	},
+	"type": "spell"
+}

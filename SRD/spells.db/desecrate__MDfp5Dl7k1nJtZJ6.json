@@ -1,0 +1,255 @@
+{
+	"_id": "MDfp5Dl7k1nJtZJ6",
+	"_key": "!items!MDfp5Dl7k1nJtZJ6",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/spells/named-spells/desecrate.png",
+	"name": "Desecrate",
+	"system": {
+		"ability": {
+			"attack": "",
+			"critMult": 2,
+			"critRange": 20,
+			"damage": "",
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"actionType": "other",
+		"activateActions": [
+		],
+		"activation": {
+			"cost": 1,
+			"type": "standard"
+		},
+		"atWill": false,
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"castTime": "",
+		"changes": [
+		],
+		"clOffset": 0,
+		"classSource": "",
+		"combatChanges": [
+		],
+		"components": {
+			"divineFocus": 1,
+			"focus": true,
+			"material": true,
+			"somatic": true,
+			"value": "",
+			"verbal": true
+		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"critConfirmBonus": "",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customReferenceId": "",
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<div class=\"spell-description\">\n  <p>\n      <strong>School:</strong>&nbsp;evocation&nbsp;[evil];\n    <br>\n    <strong>Level:</strong>&nbsp;Cleric 2;\n    <strong>Domain:</strong>&nbsp;Evil 2;\n    \n    \n    \n    <br>\n    <strong>Components:</strong>&nbsp;V, S, M (a vial of unholy water and 25 gp worth (5 pounds) of silver dust, all of which must be sprinkled around the area), F, DF<br>\n    \n      <strong>Casting Time:</strong>&nbsp;1 standard action<br>\n    <strong>Range:</strong>&nbsp;close (25 ft. + 5 ft./2 levels)<br>\n    <strong>Area:</strong>&nbsp;20-ft.-radius emanation<br>\n    \n    \n    <strong>Duration:</strong>&nbsp;2 Hours/Level<br>\n    <strong>Power Points/Spell Points Cost:</strong>&nbsp;3<br>\n        <strong>Saving Throw:</strong>&nbsp;None\n        <br>\n        <strong>Spell Resistance:</strong>&nbsp;yes<br>\n  </p>\n  <h2>Description</h2>\n  <p>This spell imbues an area with negative energy. Each Charisma check made to turn undead within this area takes a &ndash;3 profane penalty, and every undead creature entering a <em>desecrated </em>area gains a +1 profane bonus on attack rolls, damage rolls, and saving throws. An undead creature created within or summoned into such an area gains +1 hit points per HD.</p>\n<p>If the <em>desecrated </em>area contains an altar, shrine, or other permanent fixture dedicated to your deity or aligned higher power, the modifiers given above are doubled (&ndash;6 profane penalty on turning checks, +2 profane bonus and +2 hit points per HD for undead in the area).</p>\n<p>Furthermore, anyone who casts <em>animate dead </em>within this area may create as many as double the normal amount of undead (that is, 4 HD per caster level rather than 2 HD per caster level).</p>\n<p>If the area contains an altar, shrine, or other permanent fixture of a deity, pantheon, or higher power other than your patron, the <em>desecrate </em>spell instead curses the area, cutting off its connection with the associated deity or power. This secondary function, if used, does not also grant the bonuses and penalties relating to undead, as given above.</p>\n<p><em>Desecrate </em>counters and dispels <em>consecrate</em>.</p>\n<p><em>Material Component: </em>A vial of unholy water and 25 gp worth (5 pounds) of silver dust, all of which must be sprinkled around the area.</p>\n<p><strong><span style=\"text-decoration: underline;\">Instructions for use</span>:</strong> Create an invisible<span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">&nbsp;</span><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">NPC</span><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\"> place holder in the center of the aura.&nbsp; Make sure that NPC is set to the appropriate dispostion (friendly, Neutral, or Hostile). Drag the appropriate aura's below into that NPC's buffs tab and activate the auras.</span></p>\n<p>Becuase of the limitations in coding, this spell will apply the bonuses to <em>ALL</em> allies in the aura, not just undead!</p>\n<hr />\n<p>@Compendium[D35E.common-auras.oqAyshzCS66Axi5Z]{Desecrate (Ally, No Alter)}</p>\n<p>@Compendium[D35E.common-auras.nATgJckDOBPD5v3N]{Desecrate (Enemy, No Alter)}</p>\n<p>@Compendium[D35E.common-auras.EA4BXOAr3RVeeyFT]{Desecrate (Ally, Alter)}</p>\n<p>@Compendium[D35E.common-auras.ObvwUTwl2VXW4n5f]{Desecrate (Enemy, Alter)}</p>\n<p>&nbsp;</p>\n</div>\n"
+		},
+		"display": "",
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"effectNotes": "",
+		"epic": "",
+		"favorite": false,
+		"formula": "",
+		"identifiedName": "Desecrate",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"isDomainSpell": false,
+		"isPower": false,
+		"isSpellSpontaneousReplacement": false,
+		"learnedAt": {
+			"bloodline": [
+			],
+			"class": [
+				[
+					"Cleric",
+					2
+				]
+			],
+			"domain": [
+				[
+					"Evil",
+					2
+				]
+			],
+			"elementalSchool": [
+			],
+			"subDomain": [
+			]
+		},
+		"level": 2,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"materials": {
+			"consumed": {
+				"_deprecated": true,
+				"value": false
+			},
+			"focus": "",
+			"value": "a vial of unholy water and 25 gp worth (5 pounds) of silver dust, all of which must be sprinkled around the area"
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": "20",
+			"type": "circle"
+		},
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "MDfp5Dl7k1nJtZJ6",
+		"originPack": "D35E.spells",
+		"originVersion": 109,
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"powerPointsCost": 3,
+		"pr": false,
+		"preparation": {
+			"autoDeductCharges": true,
+			"maxAmount": 0,
+			"mode": "prepared",
+			"preparedAmount": 0
+		},
+		"psionic": "",
+		"range": {
+			"long": null,
+			"units": "close",
+			"value": null
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requirements": [
+		],
+		"requiresPsionicFocus": false,
+		"resistances": [
+		],
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": "0",
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "None",
+			"originVersion": 97,
+			"type": ""
+		},
+		"school": "evo",
+		"shortDescription": "<p>This spell imbues an area with negative energy. Each Charisma check made to turn undead within this area takes a &ndash;3 profane penalty, and every undead creature entering a <em>desecrated </em>area gains a +1 profane bonus on attack rolls, damage rolls, and saving throws. An undead creature created within or summoned into such an area gains +1 hit points per HD.</p>\n<p>If the <em>desecrated </em>area contains an altar, shrine, or other permanent fixture dedicated to your deity or aligned higher power, the modifiers given above are doubled (&ndash;6 profane penalty on turning checks, +2 profane bonus and +2 hit points per HD for undead in the area).</p>\n<p>Furthermore, anyone who casts <em>animate dead </em>within this area may create as many as double the normal amount of undead (that is, 4 HD per caster level rather than 2 HD per caster level).</p>\n<p>If the area contains an altar, shrine, or other permanent fixture of a deity, pantheon, or higher power other than your patron, the <em>desecrate </em>spell instead curses the area, cutting off its connection with the associated deity or power. This secondary function, if used, does not also grant the bonuses and penalties relating to undead, as given above.</p>\n<p><em>Desecrate </em>counters and dispels <em>consecrate</em>.</p>\n<p><em>Material Component: </em>A vial of unholy water and 25 gp worth (5 pounds) of silver dust, all of which must be sprinkled around the area.</p>\n<p><strong><span style=\"text-decoration: underline;\">Instructions for use</span>:</strong> Create an invisible<span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">&nbsp;</span><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">NPC</span><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\"> place holder in the center of the aura.&nbsp; Make sure that NPC is set to the appropriate dispostion (friendly, Neutral, or Hostile). Drag the appropriate aura's below into that NPC's buffs tab and activate the auras.</span></p>\n<p>Becuase of the limitations in coding, this spell will apply the bonuses to <em>ALL</em> allies in the aura, not just undead!</p>\n<hr />\n<p>@Compendium[D35E.common-auras.oqAyshzCS66Axi5Z]{Desecrate (Ally, No Alter)}</p>\n<p>@Compendium[D35E.common-auras.nATgJckDOBPD5v3N]{Desecrate (Enemy, No Alter)}</p>\n<p>@Compendium[D35E.common-auras.EA4BXOAr3RVeeyFT]{Desecrate (Ally, Alter)}</p>\n<p>@Compendium[D35E.common-auras.ObvwUTwl2VXW4n5f]{Desecrate (Enemy, Alter)}</p>\n<p>&nbsp;</p>",
+		"showInQuickbar": false,
+		"slOffset": 0,
+		"snip": "Fills area with negative energy, making undead stronger.",
+		"source": "",
+		"specialActions": [
+		],
+		"specialId": null,
+		"specialPrepared": false,
+		"spellArea": "20-ft.-radius emanation",
+		"spellDuration": "2 hours/level",
+		"spellDurationData": {
+			"dismissable": false,
+			"units": "hourPerLevel",
+			"value": "2*@cl"
+		},
+		"spellEffect": "",
+		"spellType": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"spellbook": "primary",
+		"sr": true,
+		"subschool": "",
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"types": "evil",
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": "",
+			"rechargeFormula": null,
+			"value": 0
+		}
+	},
+	"type": "spell"
+}

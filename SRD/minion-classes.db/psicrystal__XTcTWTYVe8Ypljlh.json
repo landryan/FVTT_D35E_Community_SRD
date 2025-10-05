@@ -1,0 +1,386 @@
+{
+	"_id": "XTcTWTYVe8Ypljlh",
+	"_key": "!items!XTcTWTYVe8Ypljlh",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/minions/psicrystal.png",
+	"name": "Psicrystal",
+	"system": {
+		"activateActions": [
+		],
+		"addedAbilities": [
+			{
+				"level": 1,
+				"uid": "psi-self"
+			},
+			{
+				"level": 9,
+				"uid": "psi-fly"
+			}
+		],
+		"allSpellsKnown": false,
+		"attackParts": [
+		],
+		"automaticFeatures": true,
+		"bab": "",
+		"changeFlags": {
+			"hasted": false,
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+			[
+				"ceil(@classes.psicrystal.level / 2) - 1",
+				"ability",
+				"int",
+				"untyped"
+			],
+			[
+				"ceil(@classes.psicrystal.level / 2) - 1",
+				"ac",
+				"nac",
+				"untyped"
+			],
+			[
+				"(@master.data.attributes.savingThrows.fort.base - 2) > 2 ? (@master.data.attributes.savingThrows.fort.base - 2) : 0",
+				"savingThrows",
+				"fort",
+				"base"
+			],
+			[
+				"(@master.data.attributes.savingThrows.will.base) > 2 ? (@master.data.attributes.savingThrows.will.base) : 0",
+				"savingThrows",
+				"will",
+				"base"
+			],
+			[
+				"(@master.data.attributes.savingThrows.ref.base - 2) > 2 ? (@master.data.attributes.savingThrows.ref.base - 2) : 0",
+				"savingThrows",
+				"ref",
+				"base"
+			],
+			[
+				"@master.data.attributes.bab.base",
+				"attack",
+				"babattack",
+				"base"
+			],
+			[
+				"floor(@master.data.attributes.hp.max / 2)",
+				"misc",
+				"mhp",
+				"replace"
+			]
+		],
+		"classSkills": {
+			"apr": false,
+			"aut": false,
+			"blc": false,
+			"blf": false,
+			"clm": false,
+			"coc": false,
+			"crf": false,
+			"dev": false,
+			"dip": false,
+			"dis": false,
+			"dsc": false,
+			"esc": false,
+			"fog": false,
+			"gif": false,
+			"han": false,
+			"hea": false,
+			"hid": false,
+			"int": false,
+			"jmp": false,
+			"kar": false,
+			"kdu": false,
+			"ken": false,
+			"kge": false,
+			"khi": false,
+			"klo": false,
+			"kna": false,
+			"kno": false,
+			"kpl": false,
+			"kps": false,
+			"kre": false,
+			"lis": false,
+			"mos": false,
+			"opl": false,
+			"prf": false,
+			"pro": false,
+			"psi": false,
+			"rid": false,
+			"sen": false,
+			"slt": false,
+			"spl": false,
+			"spt": false,
+			"src": false,
+			"sur": false,
+			"swm": false,
+			"tmb": false,
+			"umd": false,
+			"upd": false,
+			"uro": false
+		},
+		"classSource": "",
+		"classType": "minion",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"counterName": "",
+		"crPerHD": 4,
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"creatureType": "humanoid",
+		"custom": {
+		},
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
+		"deckHandSizeFormula": "0",
+		"deckPrestigeClass": false,
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p>A psicrystal is a fragment of a psionic character&rsquo;s personality, brought into physical form and a semblance of life (via the Psicrystal Affinity feat). A psicrystal appears as a crystalline construct about the size of a human hand.</p>\n<p>Because it is an extension of its creator&rsquo;s personality, a character&rsquo;s psicrystal is in some ways a part of him. That&rsquo;s why, for example, a psionic character can manifest a personal range power on his psicrystal even though normally he can manifest such a power only on himself.</p>\n<p>A psicrystal is treated as a construct for the purposes of all effects that depend on its type.</p>\n<p>A psicrystal grants special abilities to its owner, as shown on the Psicrystal Special Abilities table below. In addition, a psicrystal has a personality (being a fragment of the owner&rsquo;s personality), which gives its owner a bonus on certain types of checks or saving throws, as given on the Psicrystal Personalities table below. These special abilities and bonuses apply only when the owner and the psicrystal are within 1 mile of each other.</p>\n<p>Psicrystal abilities are based on the owner&rsquo;s levels in psionic classes. Levels from other classes do not count toward the owner&rsquo;s level for purposes of psicrystal abilities.</p>\n<p>A psicrystal can speak one language of its owner&rsquo;s choice (so long as it is a language the owner knows). A psicrystal can understand all other languages known by its owner, but cannot speak them. This is a supernatural ability.</p>\n<h3 id=\"psicrystalAbilityDescriptions\">Psicrystal Ability Descriptions</h3>\n<p>All familiars have special abilities (or impart abilities to their masters) depending on the master&rsquo;s combined level in classes that grant familiars, as shown on the table below and in Progression and Features Tab</p>\n<table id=\"tableFamiliarSpecialAbilities\" style=\"width: 98.8462%; height: 176px;\" cellspacing=\"0\">\n<tbody>\n<tr style=\"height: 16px;\">\n<th style=\"width: 30.7393%; height: 16px;\" align=\"left\">Master Class Level</th>\n<th style=\"width: 17.7043%; height: 16px;\">Natural Armor Adj.</th>\n<th style=\"width: 13.2296%; height: 16px;\">Int</th>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 30.7393%; height: 16px;\">1st-2nd</td>\n<td style=\"width: 17.7043%; height: 16px;\" align=\"center\">+0</td>\n<td style=\"width: 13.2296%; height: 16px;\" align=\"center\">+0</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 30.7393%; height: 16px;\">3rd-4th</td>\n<td style=\"width: 17.7043%; height: 16px;\" align=\"center\">+1</td>\n<td style=\"width: 13.2296%; height: 16px;\" align=\"center\"><span style=\"background-color: rgba(255, 255, 255, 0.2);\">+1</span></td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 30.7393%; height: 16px;\">5th-6th</td>\n<td style=\"width: 17.7043%; height: 16px;\" align=\"center\">+2</td>\n<td style=\"width: 13.2296%; height: 16px;\" align=\"center\">+2</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 30.7393%; height: 16px;\">7th-8th</td>\n<td style=\"width: 17.7043%; height: 16px;\" align=\"center\">+3</td>\n<td style=\"width: 13.2296%; height: 16px;\" align=\"center\">+3</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 30.7393%; height: 16px;\">9th-10th</td>\n<td style=\"width: 17.7043%; height: 16px;\" align=\"center\">+4</td>\n<td style=\"width: 13.2296%; height: 16px;\" align=\"center\">+4</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 30.7393%; height: 16px;\">11th-12th</td>\n<td style=\"width: 17.7043%; height: 16px;\" align=\"center\">+5</td>\n<td style=\"width: 13.2296%; height: 16px;\" align=\"center\">+5</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 30.7393%; height: 16px;\">13th-14th</td>\n<td style=\"width: 17.7043%; height: 16px;\" align=\"center\">+6</td>\n<td style=\"width: 13.2296%; height: 16px;\" align=\"center\">+6</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 30.7393%; height: 16px;\">15th-16th</td>\n<td style=\"width: 17.7043%; height: 16px;\" align=\"center\">+7</td>\n<td style=\"width: 13.2296%; height: 16px;\" align=\"center\">+7</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 30.7393%; height: 16px;\">17th-18th</td>\n<td style=\"width: 17.7043%; height: 16px;\" align=\"center\">+8</td>\n<td style=\"width: 13.2296%; height: 16px;\" align=\"center\">+8</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 30.7393%; height: 16px;\">19th-20th</td>\n<td style=\"width: 17.7043%; height: 16px;\" align=\"center\">+9</td>\n<td style=\"width: 13.2296%; height: 16px;\" align=\"center\">+9</td>\n</tr>\n</tbody>\n</table>"
+		},
+		"disabledAbilities": [
+		],
+		"epic": "",
+		"fc": {
+			"alt": {
+				"value": 0
+			},
+			"hp": {
+				"value": 0
+			},
+			"skill": {
+				"value": 0
+			}
+		},
+		"halfCasterLevel": false,
+		"hasLimitedSpellbook": false,
+		"hasSpecialSlot": false,
+		"hasSpellbook": false,
+		"hd": 0,
+		"hdReplace": "",
+		"hdReplaceRacialOnly": false,
+		"hp": 0,
+		"identifiedName": "Psicrystal",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"knownCardsSizeFormula": "0",
+		"la": 0,
+		"levels": 0,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"maxLevel": 20,
+		"minionGroup": "psion",
+		"minionLevelFormula": "0",
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"nonActiveClassAbilities": [
+		],
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"possibleUpdate": false,
+		"powerPointBonusBaseAbility": "0",
+		"powerPointTable": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"powersKnown": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"powersMaxLevel": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"prestigeLevels": 0,
+		"psionic": "",
+		"requirements": [
+		],
+		"resistances": [
+		],
+		"savingThrows": {
+			"fort": {
+				"value": ""
+			},
+			"ref": {
+				"value": ""
+			},
+			"will": {
+				"value": ""
+			}
+		},
+		"sizeOverride": "",
+		"skillsPerLevel": 0,
+		"sneakAttackFormula": "0",
+		"sneakAttackGroup": "none",
+		"source": "",
+		"specialActions": [
+		],
+		"spellPointBonusFormula": "0",
+		"spellPointGroup": "wizard",
+		"spellPointTable": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"spellbook": [
+		],
+		"spellcastingAbility": "int",
+		"spellcastingDescription": "None",
+		"spellcastingSpellname": "Spell",
+		"spellcastingSpellnamePl": "Spells",
+		"spellcastingSpontaneus": false,
+		"spellcastingType": "none",
+		"spellsKnownPerLevel": [
+		],
+		"spellsPerLevel": [
+		],
+		"spellslotAbility": "",
+		"tags": [
+		],
+		"turnUndeadLevelFormula": "0",
+		"uniqueId": "",
+		"userNonRemovable": false
+	},
+	"type": "class"
+}

@@ -1,0 +1,366 @@
+{
+	"_id": "6QOJWCHi79k6R1YZ",
+	"_key": "!items!6QOJWCHi79k6R1YZ",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/feats/spell-focus-epic.png",
+	"name": "Epic Spell Focus (No Spell School Selected)",
+	"system": {
+		"ability": {
+			"attack": null,
+			"critMult": 2,
+			"critRange": 20,
+			"damage": null,
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"abilityType": "",
+		"actionType": "",
+		"activateActions": [
+		],
+		"activation": {
+			"cost": 1,
+			"type": ""
+		},
+		"addedLevel": 0,
+		"associations": {
+			"classes": [
+			]
+		},
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"bookSource": "",
+		"brokenResalePrice": null,
+		"carried": false,
+		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+			[
+				"spell",
+				"",
+				"'@item.school' === '@self.custom.spellschool'",
+				"featSpellDCBonus",
+				"1",
+				""
+			]
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"constantWeight": false,
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"counterName": "",
+		"crOffset": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"critConfirmBonus": "",
+		"customAttributes": {
+			"_6zv0nkvei": {
+				"id": "_6zv0nkvei",
+				"name": "Spell School",
+				"selectList": "No Spell School Selected:no|Abjuration:abj|Conjuration:con|Divination:div|Enchantment:enc|Evocation:evo|Illusion:ill|Necromancy:nec|Transmutation:trs",
+				"selectListArray": {
+					"abj": "Abjuration",
+					"con": "Conjuration",
+					"div": "Divination",
+					"enc": "Enchantment",
+					"evo": "Evocation",
+					"ill": "Illusion",
+					"nec": "Necromancy",
+					"no": "No Spell School Selected",
+					"trs": "Transmutation"
+				},
+				"showOnDetails": true,
+				"value": "no"
+			}
+		},
+		"customAttributesLocked": true,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"damageType": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"deactivateActions": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<h3><span id=\"Prerequisites\" class=\"mw-headline\">Prerequisites</span></h3>\n<p>Greater Spell Focus and Spell Focus in the school selected, ability to cast at least one 9th-level spell of the school to be chosen.</p>\n<h3><span id=\"Benefit\" class=\"mw-headline\">Benefit</span></h3>\n<p>Add +1 to the Difficulty Class for all saving throws against spells from the school of magic the character selects to focus on. This stacks with the bonuses from Spell Focus and Greater Spell Focus.</p>\n<h3><span id=\"Special\" class=\"mw-headline\">Special</span></h3>\n<p>A character can gain this feat multiple times. Its effects do not stack. Each time the character takes the feat, it applies to a different school of magic.</p>"
+		},
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"effectNotes": "",
+		"epic": "",
+		"equippedWeightless": false,
+		"favorite": false,
+		"featType": "feat",
+		"formula": "",
+		"fullResalePrice": false,
+		"identifiedName": "Epic Spell Focus (No Spell School Selected)",
+		"index": {
+			"subType": "feat",
+			"uniqueId": ""
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"linkedItems": [
+		],
+		"links": {
+			"charges": [
+			]
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 0,
+			"type": ""
+		},
+		"metamagic": {
+			"code": "",
+			"enabled": false,
+			"shortDesc": ""
+		},
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "Epic Spell Focus (${this.customNames.spellschool})",
+		"nameFromFormula": true,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 113,
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"pr": false,
+		"psionic": "",
+		"range": {
+			"long": null,
+			"units": "",
+			"value": null
+		},
+		"recharge": {
+			"_deprecated": true,
+			"charged": false,
+			"current": 0,
+			"enabled": false,
+			"formula": "",
+			"value": null
+		},
+		"requirements": [
+		],
+		"requiresPsionicFocus": false,
+		"resalePrice": null,
+		"resistances": [
+		],
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": 0,
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "",
+			"originVersion": 97,
+			"type": ""
+		},
+		"showInQuickbar": false,
+		"sizeOverride": "",
+		"source": "",
+		"specialActions": [
+		],
+		"spellSpecialization": {
+			"isDomain": false,
+			"spells": {
+				"level1": {
+					"id": null,
+					"img": "",
+					"level": 1,
+					"name": "",
+					"pack": null
+				},
+				"level2": {
+					"id": null,
+					"img": "",
+					"level": 2,
+					"name": "",
+					"pack": null
+				},
+				"level3": {
+					"id": null,
+					"img": "",
+					"level": 3,
+					"name": "",
+					"pack": null
+				},
+				"level4": {
+					"id": null,
+					"img": "",
+					"level": 4,
+					"name": "",
+					"pack": null
+				},
+				"level5": {
+					"id": null,
+					"img": "",
+					"level": 5,
+					"name": "",
+					"pack": null
+				},
+				"level6": {
+					"id": null,
+					"img": "",
+					"level": 6,
+					"name": "",
+					"pack": null
+				},
+				"level7": {
+					"id": null,
+					"img": "",
+					"level": 7,
+					"name": "",
+					"pack": null
+				},
+				"level8": {
+					"id": null,
+					"img": "",
+					"level": 8,
+					"name": "",
+					"pack": null
+				},
+				"level9": {
+					"id": null,
+					"img": "",
+					"level": 9,
+					"name": "",
+					"pack": null
+				}
+			}
+		},
+		"spellSpecializationForbiddenNames": "",
+		"spellSpecializationName": "",
+		"sr": false,
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"time": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": null,
+			"rechargeFormula": null,
+			"value": 0
+		}
+	},
+	"type": "feat"
+}

@@ -1,0 +1,261 @@
+{
+	"_id": "zBdh15JPpL9dueSX",
+	"_key": "!items!zBdh15JPpL9dueSX",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/items/magic/staff/Wand_v2_53.png",
+	"name": "Rod of Wonder",
+	"system": {
+		"ability": {
+			"attack": null,
+			"critMult": 2,
+			"critRange": 20,
+			"damage": null,
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"actionType": "",
+		"activation": {
+			"cost": null,
+			"type": ""
+		},
+		"armor": {
+			"acp": 0,
+			"dex": null,
+			"enh": 0,
+			"value": 0
+		},
+		"armorType": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"brokenResalePrice": "",
+		"carried": true,
+		"changeFlags": {
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"constantWeight": true,
+		"container": "None",
+		"containerId": "none",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"critConfirmBonus": "",
+		"curseActive": false,
+		"cursed": false,
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "\n      <div topic='Wonder' level='8'><p><b>Wonder:</b> A <i>rod of wonder</i> is a strange and unpredictable device that randomly generates any number of weird effects each time it is used. (Activating the rod is a standard action.) Typical powers of the rod include the following.</p><table width='100%' border='1' cellpadding='2' cellspacing='2' frame='VOID' rules='ROWS'>\n\n<tr maxcol='3' curcol='3'>\n<td><b>d%</b><br/></td>\n<td><b>Wondrous Effect</b><br/></td>\n\n</tr>\n\n<tr maxcol='3' curcol='3'>\n<td>01-05<br/></td>\n<td><i>Slow</i> creature pointed at for 10 rounds (Will DC 15 negates).<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>06-10<br/></td>\n<td><i>Faerie fire</i> surrounds the target.<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>11-15<br/></td>\n<td>Deludes wielder for 1 round into believing the rod functions as indicated by a second die roll (no save).<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>16-20<br/></td>\n<td><i>Gust of wind</i>,  but at windstorm force (Fortitude DC 14 negates).<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>21-25<br/></td>\n<td>Wielder learns target's surface thoughts (as with <i>detect thoughts)</i> for 1d4 rounds (no save).<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>26-30<br/></td>\n<td><i>Stinking cloud</i> at 30-ft. range (Fortitude DC 15 negates).<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>31-33<br/></td>\n<td>Heavy rain falls for 1 round in 60-ft. radius centered on rod wielder.<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>34-36<br/></td>\n<td><i>Summon</i> an animal-a rhino (01-25 on d%), elephant (26-50), or mouse (51-100).<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>37-46<br/></td>\n<td><i>Lightning bolt</i> (70 ft. long, 5 ft. wide), 6d6 damage (Reflex DC 15 half).<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>47-49<br/></td>\n<td>Stream of 600 large butterflies pours forth and flutters around for 2 rounds, blinding everyone (including wielder) within 25 ft. (Reflex DC 14 negates).<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>50-53<br/></td>\n<td><i>Enlarge person</i> if within 60 ft. of rod (Fortitude DC 13 negates).<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>54-58<br/></td>\n<td><i>Darkness</i>, 30-ft. -diameter hemisphere, centered 30 ft. away from rod.<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>59-62<br/></td>\n<td>Grass grows in 160-sq. -ft. area before the rod, or grass existing there grows to ten times normal size.<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>63-65<br/></td>\n<td>Turn ethereal any nonliving object of up to 1,000 lb. mass and up to 30 cu. ft. in size.<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>66-69<br/></td>\n<td>Reduce wielder to 1/12 height (no save).<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>70-79<br/></td>\n<td><i>Fireball</i> at target or 100 ft. straight ahead, 6d6 damage (Reflex DC 15 half).<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>80-84<br/></td>\n<td><i>Invisibility</i> covers rod wielder.<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>85-87<br/></td>\n<td>Leaves grow from target if within 60 ft. of rod. These last 24 hours.<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>88-90<br/></td>\n<td>10-40 gems, value 1 gp each, shoot forth in a 30-ft. -long stream. Each gem deals 1 point of damage to any creature in its path: Roll 5d4 for the number of hits and divide them among the available targets.<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>91-95<br/></td>\n<td>Shimmering colors dance and play over a 40-ft. -by-30-ft. area in front of rod. Creatures therein are blinded for 1d6 rounds (Fortitude DC 15 negates).<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>96-97<br/></td>\n<td>Wielder (50% chance) or target (50% chance) turns permanently blue, green, or purple (no save).<br/></td>\n\n</tr>\n\n<tr maxcol='3' curcol='3'>\n<td>98-100<br/></td>\n<td><i>Flesh to stone</i> (or <i>stone to flesh</i> if target is stone already) if target is within 60 ft. (Fortitude DC 18 negates).<br/></td>\n\n</tr>\n</table><p>Moderate enchantment; CL 10th; Craft Rod, <i>confusion</i>, creator must be chaotic; Price 12,000 gp.</p><p/>\n</div>\n    "
+		},
+		"effectNotes": "",
+		"enhancements": {
+			"automation": {
+				"updateName": false,
+				"updatePrice": false
+			},
+			"clFormula": "",
+			"items": [
+			],
+			"spellcastingAbility": "",
+			"uses": {
+				"allowMultipleUses": false,
+				"autoDeductCharges": true,
+				"commonPool": false,
+				"max": 0,
+				"per": null,
+				"rechargeFormula": null,
+				"value": 0
+			}
+		},
+		"epic": "",
+		"equipmentSubtype": "wondrous",
+		"equipmentType": "misc",
+		"equipped": true,
+		"equippedWeightless": false,
+		"favorite": false,
+		"formula": "",
+		"fullResalePrice": false,
+		"hardness": 0,
+		"hp": {
+			"max": 10,
+			"value": 10
+		},
+		"identified": true,
+		"identifiedCurse": false,
+		"identifiedName": "Rod of Wonder",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"light": {
+			"alpha": 0.5,
+			"animationIntensity": "",
+			"animationSpeed": "",
+			"color": "",
+			"dimRadius": "",
+			"emitLight": false,
+			"lightAngle": 360,
+			"opacity": 0,
+			"radius": 0,
+			"type": ""
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedItems": [
+		],
+		"masterwork": false,
+		"material": {
+			"data": null
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 0,
+			"type": ""
+		},
+		"melded": false,
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"possibleUpdate": false,
+		"pr": false,
+		"price": 12000,
+		"psionic": "",
+		"quantity": 1,
+		"requirements": [
+		],
+		"resalePrice": "",
+		"resistances": [
+		],
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": 0,
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "",
+			"originVersion": 97,
+			"type": ""
+		},
+		"sizeOverride": "",
+		"slot": "slotless",
+		"source": "",
+		"specialActions": [
+		],
+		"spellFailure": 0,
+		"sr": false,
+		"summon": [
+		],
+		"tags": [
+		],
+		"unidentified": {
+			"name": "",
+			"price": 0
+		},
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"weight": 0
+	},
+	"type": "equipment"
+}

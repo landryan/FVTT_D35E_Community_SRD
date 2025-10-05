@@ -1,0 +1,620 @@
+{
+	"_id": "u7dga44lYsIPLYvV",
+	"_key": "!items!u7dga44lYsIPLYvV",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/class/ranger.png",
+	"name": "Ranger",
+	"system": {
+		"activateActions": [
+		],
+		"addedAbilities": [
+		],
+		"allSpellsKnown": true,
+		"attackParts": [
+		],
+		"automaticFeatures": true,
+		"bab": "high",
+		"changeFlags": {
+			"hasted": false,
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+		],
+		"classSkills": {
+			"acr": false,
+			"apr": false,
+			"art": false,
+			"aut": false,
+			"blc": false,
+			"blf": false,
+			"clm": true,
+			"coc": true,
+			"crf": true,
+			"dev": false,
+			"dip": false,
+			"dis": false,
+			"dsc": false,
+			"esc": false,
+			"fly": false,
+			"fog": false,
+			"gif": false,
+			"han": true,
+			"hea": true,
+			"hid": true,
+			"int": false,
+			"jmp": true,
+			"kar": false,
+			"kdu": true,
+			"ken": false,
+			"kge": true,
+			"khi": false,
+			"klo": false,
+			"kna": true,
+			"kno": false,
+			"kpl": false,
+			"kps": false,
+			"kre": false,
+			"lin": false,
+			"lis": true,
+			"lor": false,
+			"mos": true,
+			"opl": false,
+			"per": true,
+			"prf": false,
+			"pro": true,
+			"psi": false,
+			"rid": true,
+			"sen": false,
+			"slt": false,
+			"spl": false,
+			"spt": true,
+			"src": true,
+			"ste": true,
+			"sur": true,
+			"swm": true,
+			"tmb": false,
+			"umd": false,
+			"upd": false,
+			"uro": true
+		},
+		"classSource": "",
+		"classType": "base",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"counterName": "",
+		"crPerHD": 4,
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"creatureType": "humanoid",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
+		"deckHandSizeFormula": "0",
+		"deckPrestigeClass": false,
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p class=\"p1\"><img style=\"border: none; float: right; shape-outside: polygon(40% 0, 0 30%, 0 100%, 100% 100%, 100% 0);\" src=\"systems/D35E/icons/art/ranger-female.png\" alt=\"\" width=\"300\" /></p>\n<p class=\"p1\">For those who relish the thrill of the hunt, there are only predators and prey. Be they scouts, trackers, or bounty hunters, rangers share much in common: unique mastery of specialized weapons, skill at stalking even the most elusive game, and the expertise to defeat a wide range of quarries. Knowledgeable, patient, and skilled hunters, these rangers hound man, beast, and monster alike, gaining insight into the way of the predator, skill in varied environments, and ever more lethal martial prowess. While some track man-eating creatures to protect the frontier, others pursue more cunning game&mdash;even fugitives among their own people.</p>\n<p class=\"p1\"><strong>Alignment:</strong> Any.</p>\n<p class=\"p1\"><strong>Hit Die:</strong> d8.</p>\n<h2 class=\"p1\">Class Skills</h2>\n<p class=\"p1\">The ranger&rsquo;s class skills (and the key ability for each skill) are Climb (Str), Concentration (Con), Craft (Int), Handle Animal (Cha), Heal (Wis), Hide (Dex), Jump (Str), Knowledge (dungeoneering) (Int), Knowledge (geography) (Int), Knowledge (nature) (Int), Listen (Wis), Move Silently (Dex), Profession (Wis), Ride (Dex), Search (Int), Spot (Wis), Survival (Wis), Swim (Str), and Use Rope (Dex).</p>\n<p class=\"p1\"><strong>Skill Points at 1st Level:</strong> (6 + Int modifier) x<span class=\"s1\" style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: Helvetica;\"></span>4.</p>\n<p class=\"p1\"><strong>Skill Points at Each Additional Level:</strong> 6 + Int modifier.</p>\n<p><br /><span style=\"font-size: 13px; opacity: 0.8;\">Some description after&nbsp; Pathfinder RPG Core Rulebook. &copy; 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams. Artwork by Daniel Comerci.</span></p>"
+		},
+		"disabledAbilities": [
+		],
+		"epic": "",
+		"extraDescription": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<h2>Weapon and Armor Proficiency</h2>\n<p>A ranger is proficient with all&nbsp;<a href=\"https://www.d20pfsrd.com/equipment/weapons#simple-martial-and-exotic-weapons\">simple</a>&nbsp;and&nbsp;<a href=\"https://www.d20pfsrd.com/equipment/weapons#simple-martial-and-exotic-weapons\">martial</a>&nbsp;weapons and with light&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/glossary#TOC-Armor-Bonus\">armor</a>, medium&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/glossary#TOC-Armor-Bonus\">armor</a>, and shields (except tower shields).</p>\n<h2>Favored Enemy (Ex)</h2>\n<p>At 1st level, a ranger selects a creature type from the ranger&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/Ranger/#Ranger-Favored-Enemies-Table\">favored enemies</a>&nbsp;table. He gains a +2 bonus on&nbsp;<a href=\"https://www.d20pfsrd.com/skills/bluff\">Bluff</a>,&nbsp;<a href=\"https://www.d20pfsrd.com/skills/knowledge\">Knowledge</a>,&nbsp;<a href=\"https://www.d20pfsrd.com/skills/perception\">Perception</a>,&nbsp;<a href=\"https://www.d20pfsrd.com/skills/sense-motive\">Sense Motive</a>, and&nbsp;<a href=\"https://www.d20pfsrd.com/skills/survival\">Survival</a>&nbsp;checks against creatures of his selected type. Likewise, he gets a +2 bonus on weapon attack and damage rolls against them. A ranger may make&nbsp;<a href=\"https://www.d20pfsrd.com/skills/knowledge\">Knowledge</a>&nbsp;<a href=\"https://www.d20pfsrd.com/skills#TOC-Skill-Checks\">skill checks</a>&nbsp;untrained when attempting to identify these creatures.</p>\n<p>At 5th level and every five levels thereafter (10th, 15th, and 20th level), the ranger may select an additional&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/Ranger/#TOC-Favored-Enemy-Ex-\">favored enemy</a>. In addition, at each such interval, the bonus against any one&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/Ranger/#TOC-Favored-Enemy-Ex-\">favored enemy</a>&nbsp;(including the one just selected, if so desired) increases by +2.</p>\n<p>If the ranger chooses&nbsp;<a href=\"https://www.d20pfsrd.com/bestiary/rules-for-monsters/creature-types#TOC-Humanoid\">humanoids</a>&nbsp;or&nbsp;<a href=\"https://www.d20pfsrd.com/bestiary/rules-for-monsters/creature-types#TOC-Outsider\">outsiders</a>&nbsp;as a&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/Ranger/#TOC-Favored-Enemy-Ex-\">favored enemy</a>, he must also choose an associated subtype, as indicated on the table below. (Note that there are other types of humanoid to choose from—those called out specifically on the table below are merely the most common.) If a specific creature falls into more than one category of&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/Ranger/#TOC-Favored-Enemy-Ex-\">favored enemy</a>, the ranger’s bonuses do not stack; he simply uses whichever bonus is higher.</p>\n<h2>Track (Ex)</h2>\n<p>A ranger adds half his level (minimum 1) to&nbsp;<a href=\"https://www.d20pfsrd.com/skills/survival\">Survival</a>&nbsp;<a href=\"https://www.d20pfsrd.com/skills#TOC-Skill-Checks\">skill checks</a>&nbsp;made to follow tracks.</p>\n<h2>Wild Empathy (Ex)</h2>\n<p>A ranger can improve the initial attitude of an&nbsp;<a href=\"https://www.d20pfsrd.com/bestiary/rules-for-monsters/creature-types#TOC-Animal\">animal</a>. This ability functions just like a&nbsp;<a href=\"https://www.d20pfsrd.com/skills/diplomacy\">Diplomacy</a>&nbsp;check to improve the attitude of a person (see&nbsp;<a href=\"https://www.d20pfsrd.com/skills\">Using Skills</a>). The ranger rolls 1d20 and adds his ranger level and his&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/ability-scores#TOC-Charisma-Cha-\">Charisma</a>&nbsp;bonus to determine the&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid#TOC-Wild-Empathy-Ex-\">wild empathy</a>&nbsp;check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly.</p>\n<p>To use&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid#TOC-Wild-Empathy-Ex-\">wild empathy</a>, the ranger and the&nbsp;<a href=\"https://www.d20pfsrd.com/bestiary/rules-for-monsters/creature-types#TOC-Animal\">animal</a>&nbsp;must be within 30 feet of one another under normal visibility conditions. Generally, influencing an animal in this way takes 1 minute, but, as with influencing people, it might take more or less time.</p>\n<p>The ranger can also use this ability to influence a&nbsp;<a href=\"https://www.d20pfsrd.com/bestiary/rules-for-monsters/creature-types#TOC-Magical-Beast\">magical beast</a>&nbsp;with an&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/ability-scores#TOC-Intelligence-Int-\">Intelligence</a>&nbsp;score of 1 or 2, but he takes a –4 penalty on the check.</p>\n<h2>Combat Style Feat (Ex)</h2>\n<p>At 2nd level, a ranger must select one&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/ranger/ranger-combat-styles/\">combat style</a>&nbsp;to pursue.</p>\n<p>The ranger’s expertise manifests in the form of bonus feats at 2nd, 6th, 10th, 14th, and 18th level. He can choose feats from his selected combat style, even if he does not have the normal prerequisites.</p>\n<p>The benefits of the ranger’s chosen style feats apply&nbsp;only&nbsp;when he wears light, medium, or no armor. He loses all benefits of his combat style feats when wearing heavy armor. Once a ranger selects a combat style, it cannot be changed.</p>\n<h2>Endurance</h2>\n<p>A ranger gains&nbsp;<a href=\"https://www.d20pfsrd.com/feats/general-feats/endurance\">Endurance</a>&nbsp;as a bonus feat at 3rd level.</p>\n<h2>Favored Terrain (Ex)</h2>\n<p>At 3rd level, a ranger may select a type of terrain from&nbsp;Table: Ranger Favored Terrains. The ranger gains a +2 bonus on&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Initiative\">initiative</a>&nbsp;checks and&nbsp;<a href=\"https://www.d20pfsrd.com/skills/knowledge\">Knowledge</a>&nbsp;(geography),&nbsp;<a href=\"https://www.d20pfsrd.com/skills/perception\">Perception</a>,&nbsp;<a href=\"https://www.d20pfsrd.com/skills/stealth\">Stealth</a>, and&nbsp;<a href=\"https://www.d20pfsrd.com/skills/survival\">Survival</a>&nbsp;<a href=\"https://www.d20pfsrd.com/skills#TOC-Skill-Checks\">skill checks</a>&nbsp;when he is in this terrain. A ranger traveling through his&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/Ranger/#TOC-Favored-Terrain-Ex-\">favored terrain</a>&nbsp;normally leaves no trail and cannot be tracked (though he may leave a trail if he so chooses).</p>\n<p>At 8th level and every five levels thereafter, the ranger may select an additional&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/Ranger/#TOC-Favored-Terrain-Ex-\">favored terrain</a>. In addition, at each such interval, the skill bonus and&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Initiative\">initiative</a>&nbsp;bonus in any one&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/Ranger/#TOC-Favored-Terrain-Ex-\">favored terrain</a>&nbsp;(including the one just selected, if so desired), increases by +2.</p>\n<p>If a specific terrain falls into more than one category of&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/Ranger/#TOC-Favored-Terrain-Ex-\">favored terrain</a>, the ranger’s bonuses do not stack; he simply uses whichever bonus is higher.</p>\n<h2>Hunter's Bond (Ex)</h2>\n<p>At 4th level, a ranger forms a bond with his hunting companions. This bond can take one of two forms. Once the form is chosen, it cannot be changed. The first is a bond to his companions. This bond allows him to spend a&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Move-Actions\">move action</a>&nbsp;to grant half his&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/Ranger/#TOC-Favored-Enemy-Ex-\">favored enemy</a>&nbsp;bonus against a single target of the appropriate type to all allies within 30 feet who can see or hear him. This bonus lasts for a number of rounds equal to the ranger’s&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/ability-scores#TOC-Wisdom-Wis-\">Wisdom</a>&nbsp;modifier (minimum 1). This bonus does not stack with any&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/Ranger/#TOC-Favored-Enemy-Ex-\">favored enemy</a>&nbsp;bonuses possessed by his allies; they use whichever bonus is higher.</p>\n<p>The second option is to form a close bond with an&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions\">animal companion</a>. A ranger who selects an&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions\">animal companion</a>&nbsp;can choose from the following list:&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions#TOC-Badger\">badger</a>,&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions#TOC-Bird\">bird</a>,&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions#TOC-camel\">camel</a>,&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions#TOC-Cat-Small\">cat (small)</a>,&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions#TOC-Rat-Dire\">dire rat</a>,&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions#TOC-Dog\">dog</a>,&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions#TOC-Horse\">horse</a>,&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions#TOC-Pony\">pony</a>, snake (<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions#TOC-Snake-Viper\">viper</a>&nbsp;or&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions#TOC-Snake-Constrictor\">constrictor</a>), or&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions#TOC-Wolf\">wolf</a>. If the campaign takes place wholly or partly in an aquatic environment, the ranger may choose a shark instead. This animal is a loyal companion that accompanies the ranger on his adventures as appropriate for its kind. A ranger’s&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions\">animal companion</a>&nbsp;shares his&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/Ranger/#TOC-Favored-Enemy-Ex-\">favored enemy</a>&nbsp;and&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/Ranger/#TOC-Favored-Terrain-Ex-\">favored terrain</a>&nbsp;bonuses.</p>\n<p>This ability functions like the&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid\">druid</a>&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions\">animal companion</a>&nbsp;ability (which is part of the Nature Bond class feature), except that the ranger’s effective&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid\">druid</a>&nbsp;level is equal to his ranger level –3.</p>\n<p>A ranger can select a antelope, baboon, bustard, capybara, elk, falcon, kangaroo,&nbsp;<a href=\"https://www.d20pfsrd.com/bestiary/monster-listings/animals/lizard/lizard-common\">lizard</a>&nbsp;(<a href=\"https://www.d20pfsrd.com/bestiary/monster-listings/animals/lizard/lizard-giant-gecko\">giant gecko</a>), marsupial devil, ram, reindeer,&nbsp;<a href=\"https://www.d20pfsrd.com/bestiary/monster-listings/animals/snake\">snake</a>&nbsp;(reef snake or&nbsp;<a href=\"https://www.d20pfsrd.com/bestiary/monster-listings/animals/snake/snake-cobra-spitting\">spitting cobra</a>), stag, trumpeter swan, thylacine, wolfdog, yak, or zebra as an&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions\">animal companion</a>. If the campaign takes place in an aquatic environment, the ranger can choose an armorfish or reef snake. A falconer ranger can select a falcon companion instead of a bird companion.</p>\n<p>If the campaign takes place in an aquatic environment, the ranger can choose a stingray.</p>\n<p>The&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions/animal-companion-archetypes/ambusher-companion-archetype/\">ambusher</a>,&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions/animal-companion-archetypes/bully-companion-archetype/\">bully</a>,&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions/animal-companion-archetypes/daredevil-companion-archetype/\">daredevil</a>,&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions/animal-companion-archetypes/feytouched-companion-archetype/\">feytouched companion</a>,&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions/animal-companion-archetypes/precocious-companion-archetype/\">precocious companion</a>,&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions/animal-companion-archetypes/totem-guide-companion-archetype/\">totem guide</a>,&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions/animal-companion-archetypes/tracker-companion-archetype/\">tracker</a>,&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions/animal-companion-archetypes/verdant-companion-archetype/\">verdant companion</a>, and&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions/animal-companion-archetypes/wrecker-companion-archetype/\">wrecker archetypes</a>&nbsp;are all particularly appropriate for a&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/ranger\">ranger’s</a>&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions\">animal companion</a>.</p>\n<h2>Spells</h2>\n<p>Beginning at 4th level, a ranger gains the ability to cast a small number of divine spells, which are drawn from the&nbsp;<a href=\"https://www.d20pfsrd.com/magic/spell-lists-and-domains/spell-lists-ranger\">ranger spell list</a>. A ranger must choose and prepare his spells in advance.</p>\n<p>To prepare or cast a spell, a ranger must have a&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/ability-scores#TOC-Wisdom-Wis-\">Wisdom</a>&nbsp;score equal to at least 10 + the spell level. The&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/glossary#TOC-Difficulty-Class-DC-\">Difficulty Class</a>&nbsp;for a&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Saving-Throws\">saving throw</a>&nbsp;against a ranger’s spell is 10 + the spell level + the ranger’s&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/ability-scores#TOC-Wisdom-Wis-\">Wisdom</a>&nbsp;modifier.</p>\n<p>Like other spellcasters, a ranger can cast only a certain number of spells of each spell level per day. His base daily spell allotment is given on&nbsp;Table: Ranger. In addition, he receives bonus spells per day if he has a high&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/ability-scores#TOC-Wisdom-Wis-\">Wisdom</a>&nbsp;score (see&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/ability-scores#TOC-Abilities-and-Spellcasters\">Table: Ability Modifiers and Bonus Spells</a>). When&nbsp;Table: Ranger&nbsp;indicates that the ranger gets 0 spells per day of a given spell level, he gains only the bonus spells he would be entitled to based on his&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/ability-scores#TOC-Wisdom-Wis-\">Wisdom</a>&nbsp;score for that spell level.</p>\n<p>A ranger must spend 1 hour per day in quiet meditation to regain his daily allotment of spells. A ranger may prepare and cast any spell on the&nbsp;<a href=\"https://www.d20pfsrd.com/magic/spell-lists-and-domains/spell-lists-ranger\">ranger spell list</a>, provided that he can cast spells of that level, but he must choose which spells to prepare during his daily meditation.</p>\n<p>Through 3rd level, a ranger has no&nbsp;<a href=\"https://www.d20pfsrd.com/magic#TOC-Caster-Level\">caster level</a>. At 4th level and higher, his&nbsp;<a href=\"https://www.d20pfsrd.com/magic#TOC-Caster-Level\">caster level</a>&nbsp;is equal to his ranger level – 3.</p>\n<h2>Woodland Stride (Ex)</h2>\n<p>Starting at 7th level, a ranger may move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at his normal speed and without taking damage or suffering any other impairment.</p>\n<p>Thorns, briars, and overgrown areas that are enchanted or magically manipulated to impede motion, however, still affect him.</p>\n<h2>Swift Tracker (Ex)</h2>\n<p>Beginning at 8th level, a ranger can move at his normal speed while using&nbsp;<a href=\"https://www.d20pfsrd.com/skills/survival\">Survival</a>&nbsp;to follow tracks without taking the normal –5 penalty. He takes only a –10 penalty (instead of the normal –20) when moving at up to twice normal speed while tracking.</p>\n<h2>Evasion (Ex)</h2>\n<p>When he reaches 9th level, a ranger can avoid even magical and unusual attacks with great agility. If he makes a successful&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Reflex\">Reflex</a>&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Saving-Throws\">saving throw</a>&nbsp;against an attack that normally deals half damage on a successful save, he instead takes no damage. Evasion can be used only if the ranger is wearing light&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/glossary#TOC-Armor-Bonus\">armor</a>, medium&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/glossary#TOC-Armor-Bonus\">armor</a>, or no armor. A&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/conditions#TOC-Helpless\">helpless</a>&nbsp;ranger does not gain the benefit of&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/rogue#TOC-Evasion-Ex-\">evasion</a>.</p>\n<h2>Quarry (Ex)</h2>\n<p>At 11th level, a ranger can, as a&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Standard-Actions\">standard action</a>, denote one target within his line of sight as his quarry. Whenever he is following the tracks of his quarry, a ranger can take 10 on his&nbsp;<a href=\"https://www.d20pfsrd.com/skills/survival\">Survival</a>&nbsp;<a href=\"https://www.d20pfsrd.com/skills#TOC-Skill-Checks\">skill checks</a>&nbsp;while moving at normal speed, without penalty. In addition, he receives a +2&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/glossary#TOC-Insight-Bonus\">insight bonus</a>&nbsp;on&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Attack-Roll\">attack rolls</a>&nbsp;made against his quarry, and all critical threats are automatically confirmed. A ranger can have no more than one quarry at a time and the creature’s type must correspond to one of his&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/Ranger/#TOC-Favored-Enemy-Ex-\">favored enemy</a>&nbsp;types. He can dismiss this effect at any time as a&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Free-Actions\">free action</a>, but he cannot select a new quarry for 24 hours. If the ranger sees proof that his quarry is&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/conditions#TOC-Dead\">dead</a>, he can select a new quarry after waiting 1 hour.</p>\n<h2>Camouflage (Ex)</h2>\n<p>A ranger of 12th level or higher can use the&nbsp;<a href=\"https://www.d20pfsrd.com/skills/stealth\">Stealth</a>&nbsp;skill to hide in any of his favored terrains, even if the terrain doesn’t grant&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Cover\">cover</a>&nbsp;or&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Concealment\">concealment</a>.</p>\n<h2>Improved Evasion (Ex)</h2>\n<p>At 16th level, a ranger’s&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/rogue#TOC-Evasion-Ex-\">evasion</a>&nbsp;improves. This ability works like&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/rogue#TOC-Evasion-Ex-\">evasion</a>, except that while the ranger still takes no damage on a successful&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Reflex\">Reflex</a>&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Saving-Throws\">saving throw</a>&nbsp;against attacks, he henceforth takes only half damage on a failed save. A&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/conditions#TOC-Helpless\">helpless</a>&nbsp;ranger does not gain the benefit of&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/rogue/rogue-talents/paizo-rogue-advanced-talents/improved-evasion-ex\">improved evasion</a>.</p>\n<h2>Hide in Plain Sight (Ex)</h2>\n<p>While in any of his favored terrains, a ranger of 17th level or higher can use the&nbsp;<a href=\"https://www.d20pfsrd.com/skills/stealth\">Stealth</a>&nbsp;skill even while being observed.</p>\n<h2>Improved Quarry (Ex)</h2>\n<p>At 19th level, the ranger’s ability to hunt his quarry improves. He can now select a quarry as a&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Free-Actions\">free action</a>, and can now take 20 while using&nbsp;<a href=\"https://www.d20pfsrd.com/skills/survival\">Survival</a>&nbsp;to track his quarry, while moving at normal speed without penalty. His&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/glossary#TOC-Insight-Bonus\">insight bonus</a>&nbsp;to attack his quarry increases to +4. If his quarry is killed or dismissed, he can select a new one after 10 minutes have passed.</p>\n<h2>Master Hunter (Ex)</h2>\n<p>A ranger of 20th level becomes a master hunter. He can always move at full speed while using&nbsp;<a href=\"https://www.d20pfsrd.com/skills/survival\">Survival</a>&nbsp;to follow tracks without penalty. He can, as a&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Standard-Actions\">standard action</a>, make a single attack against a&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/Ranger/#TOC-Favored-Enemy-Ex-\">favored enemy</a>&nbsp;at his full&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Attack-Bonus\">attack bonus</a>. If the attack hits, the target takes damage normally and must make a&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Fortitude\">Fortitude</a>&nbsp;save or die. The DC of this save is equal to 10 + 1/2 the ranger’s level + the ranger’s&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/ability-scores#TOC-Wisdom-Wis-\">Wisdom</a>&nbsp;modifier. A ranger can choose instead to deal an amount of&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Nonlethal-Damage\">nonlethal damage</a>&nbsp;equal to the creature’s current&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Hit-Points\">hit points</a>. A successful save negates this damage. A ranger can use this ability once per day against each&nbsp;<a href=\"https://www.d20pfsrd.com/classes/core-classes/Ranger/#TOC-Favored-Enemy-Ex-\">favored enemy</a>&nbsp;type he possesses, but not against the same creature more than once in a 24-hour period.</p>"
+		},
+		"fc": {
+			"alt": {
+				"value": 0
+			},
+			"hp": {
+				"value": 0
+			},
+			"skill": {
+				"value": 0
+			}
+		},
+		"halfCasterLevel": true,
+		"hasLimitedSpellbook": false,
+		"hasSpecialSlot": false,
+		"hasSpellbook": false,
+		"hd": 8,
+		"hdReplace": "",
+		"hdReplaceRacialOnly": false,
+		"hp": 0,
+		"identifiedName": "Ranger",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"knownCardsSizeFormula": "0",
+		"la": 0,
+		"levels": 0,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"maxLevel": 20,
+		"minionGroup": "animalcompanion",
+		"minionLevelFormula": "floor(@level/2)",
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"nonActiveClassAbilities": [
+			[
+				8,
+				"Swift Tracker (Ex)",
+				"Beginning at 8th level, a ranger can move at his normal speed while following tracks without taking the normal –5 penalty. He takes only a –10 penalty (instead of the normal –20) when moving at up to twice normal speed while tracking."
+			]
+		],
+		"originId": "",
+		"originPack": "",
+		"originVersion": 100,
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"powerPointBonusBaseAbility": "",
+		"powerPointTable": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"powersKnown": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"powersMaxLevel": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"preparation": {
+			"maxAmount": 0
+		},
+		"prestigeLevels": 0,
+		"psionic": "",
+		"requirements": [
+		],
+		"resistances": [
+		],
+		"savingThrows": {
+			"fort": {
+				"value": "high"
+			},
+			"ref": {
+				"value": "high"
+			},
+			"will": {
+				"value": "low"
+			}
+		},
+		"sizeOverride": "",
+		"skillsPerLevel": 6,
+		"sneakAttackFormula": "0",
+		"sneakAttackGroup": "none",
+		"source": "",
+		"specialActions": [
+		],
+		"spellPointBonusFormula": "0",
+		"spellPointGroup": "wizard",
+		"spellPointTable": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"spellbook": [
+		],
+		"spellcastingAbility": "wis",
+		"spellcastingDescription": "<p>Beginning at 4th level, a ranger gains the ability to cast a small number of divine spells, which are drawn from the ranger spell list. A ranger must choose and prepare his spells in advance (see below).</p>\n<p>To prepare or cast a spell, a ranger must have a Wisdom score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a ranger’s spell is 10 + the spell level + the ranger’s Wisdom modifier.</p>\n<p>Like other spellcasters, a ranger can cast only a certain number of spells of each spell level per day. His base daily spell allotment is given on Table: The Ranger. In addition, he receives bonus spells per day if he has a high Wisdom score. When Table: The Ranger indicates that the ranger gets 0 spells per day of a given spell level, he gains only the bonus spells he would be entitled to based on his Wisdom score for that spell level. The ranger does not have access to any domain spells or granted powers, as a cleric does.</p>\n<p>A ranger prepares and casts spells the way a cleric does, though he cannot lose a prepared spell to cast a&nbsp;cure&nbsp;spell in its place. A ranger may prepare and cast any spell on the ranger spell list, provided that he can cast spells of that level, but he must choose which spells to prepare during his daily meditation.</p>\n<p>Through 3rd level, a ranger has no caster level. At 4th level and higher, his caster level is one-half his ranger level.</p>",
+		"spellcastingSpellname": "Spell",
+		"spellcastingSpellnamePl": "Spells",
+		"spellcastingSpontaneus": false,
+		"spellcastingType": "divine",
+		"spellsKnownPerLevel": [
+		],
+		"spellsPerLevel": [
+			[
+				1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1
+			],
+			[
+				2,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1
+			],
+			[
+				3,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1
+			],
+			[
+				4,
+				-1,
+				0,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1
+			],
+			[
+				5,
+				-1,
+				0,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1
+			],
+			[
+				6,
+				-1,
+				1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1
+			],
+			[
+				7,
+				-1,
+				1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1
+			],
+			[
+				8,
+				-1,
+				1,
+				0,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1
+			],
+			[
+				9,
+				-1,
+				1,
+				0,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1
+			],
+			[
+				10,
+				-1,
+				1,
+				1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1
+			],
+			[
+				11,
+				-1,
+				1,
+				1,
+				0,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1
+			],
+			[
+				12,
+				-1,
+				1,
+				1,
+				1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1
+			],
+			[
+				13,
+				-1,
+				1,
+				1,
+				1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1
+			],
+			[
+				14,
+				-1,
+				2,
+				1,
+				1,
+				0,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1
+			],
+			[
+				15,
+				-1,
+				2,
+				1,
+				1,
+				1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1
+			],
+			[
+				16,
+				-1,
+				2,
+				2,
+				1,
+				1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1
+			],
+			[
+				17,
+				-1,
+				2,
+				2,
+				2,
+				1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1
+			],
+			[
+				18,
+				-1,
+				3,
+				2,
+				2,
+				1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1
+			],
+			[
+				19,
+				-1,
+				3,
+				3,
+				3,
+				2,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1
+			],
+			[
+				20,
+				-1,
+				3,
+				3,
+				3,
+				3,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1
+			]
+		],
+		"spellslotAbility": "",
+		"tags": [
+		],
+		"turnUndeadLevelFormula": "0",
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"weaponData": {
+			"critMult": 2,
+			"critRange": 20
+		}
+	},
+	"type": "class"
+}

@@ -1,0 +1,222 @@
+{
+	"_id": "8CvcUXm4NJ3GB9wE",
+	"_key": "!items!8CvcUXm4NJ3GB9wE",
+	"effects": [
+	],
+	"folder": null,
+	"img": "icons/svg/item-bag.svg",
+	"name": "Prismatic Wall",
+	"system": {
+		"activateActions": [
+		],
+		"activation": {
+			"cost": 1,
+			"type": ""
+		},
+		"active": false,
+		"addedLevel": 0,
+		"attackParts": [
+		],
+		"buffType": "temp",
+		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damagePool": {
+			"current": 0,
+			"deleteOnDamagePoolEmpty": false,
+			"enabled": false,
+			"formula": "",
+			"max": 0
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+			{
+				"action": "Remove attack ps1RedBeam on self; Remove attack ps2OrangeBeam on self; Remove attack ps3YellowBeam on self; Remove attack ps4GreenBeam on self; Remove attack ps5BlueBeam on self; Remove attack ps6IndigoBeam on self; Remove attack ps7VioletBeam on self;",
+				"condition": "",
+				"img": "",
+				"name": "Remove Attacks"
+			}
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p><em>This buff only tracks the duration of the spell.</em></p>\n<hr />\n<p>Prismatic wall creates a vertical, opaque wall&mdash;a shimmering, multicolored plane of light that protects you from all forms of attack. The wall flashes with seven colors, each of which has a distinct power and purpose. The wall is immobile, and you can pass through and remain near the wall without harm. However, any other creature with less than 8 HD that is within 20 feet of the wall is&nbsp;<a href=\"https://www.d20srd.org/srd/conditionSummary.htm#blinded\">blinded</a>&nbsp;for&nbsp;<a title=\"Roll the dice!\">2d4</a>&nbsp;rounds by the colors if it looks at the wall.</p>\n<p>The wall&rsquo;s maximum proportions are 4 feet wide per caster level and 2 feet high per caster level. A prismatic wall spell cast to materialize in a space occupied by a creature is disrupted, and the spell is wasted.</p>\n<p>Each color in the wall has a special effect. The accompanying table shows the seven colors of the wall, the order in which they appear, their effects on creatures trying to attack you or pass through the wall, and the magic needed to negate each color.</p>\n<p>The wall can be destroyed, color by color, in consecutive order, by various magical effects; however, the first color must be brought down before the second can be affected, and so on. A rod of cancellation or a&nbsp;<a href=\"https://www.d20srd.org/srd/spells/magesDisjunction.htm\">mage&rsquo;s disjunction</a>&nbsp;spell destroys a prismatic wall, but an&nbsp;<a href=\"https://www.d20srd.org/srd/specialAbilities.htm#antimagic\">antimagic field</a>&nbsp;fails to penetrate it.&nbsp;<a href=\"https://www.d20srd.org/srd/spells/dispelMagic.htm\">Dispel magic</a>&nbsp;and&nbsp;<a href=\"https://www.d20srd.org/srd/spells/dispelMagicGreater.htm\">greater dispel magic</a>&nbsp;cannot dispel the wall or anything beyond it.&nbsp;<a href=\"https://www.d20srd.org/srd/specialAbilities.htm#spellResistance\">Spell resistance</a>&nbsp;is effective against a prismatic wall, but the&nbsp;<a href=\"https://www.d20srd.org/srd/magicOverview/castingSpells.htm#casterLevelChecks\">caster level check</a>&nbsp;must be repeated for each color present.</p>\n<p>Prismatic wall can be made permanent with a&nbsp;<a href=\"https://www.d20srd.org/srd/spells/permanency.htm\">permanency</a>&nbsp;spell.&nbsp;</p>\n<table style=\"margin-bottom: 10px;\" cellspacing=\"0\">\n<thead style=\"text-shadow: 1px 1px var(--color-shadow-dark); border-bottom: 1px solid var(--color-border-dark);\">\n<tr>\n<th align=\"left\">Color</th>\n<th>Order</th>\n<th align=\"left\">Effect of Color</th>\n<th align=\"left\">Negated By</th>\n</tr>\n</thead>\n<tfoot>\n<tr>\n<td colspan=\"4\">\n<ol>\n<li>The violet effect makes the special effects of the other six colors redundant, but these six effects are included here because certain magic items can create prismatic effects one color at a time, and&nbsp;<a href=\"https://www.d20srd.org/srd/specialAbilities.htm#spellResistance\">spell resistance</a>&nbsp;might render some colors ineffective (see above).</li>\n</ol>\n</td>\n</tr>\n</tfoot>\n<tbody>\n<tr>\n<td>Red</td>\n<td align=\"center\">1st</td>\n<td>Stops nonmagical ranged weapons.<br />Deals 20 points of fire damage (Reflex half).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/coneOfCold.htm\">Cone of cold</a></td>\n</tr>\n<tr>\n<td>Orange</td>\n<td align=\"center\">2nd</td>\n<td>Stops magical ranged weapons.<br />Deals 40 points of acid damage (Reflex half).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/gustOfWind.htm\">Gust of wind</a></td>\n</tr>\n<tr>\n<td>Yellow</td>\n<td align=\"center\">3rd</td>\n<td>Stops&nbsp;<a href=\"https://www.d20srd.org/srd/specialAbilities.htm#poison\">poisons</a>, gases, and petrification.<br />Deals 80 points of electricity damage (Reflex half).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/disintegrate.htm\">Disintegrate</a></td>\n</tr>\n<tr>\n<td>Green</td>\n<td align=\"center\">4th</td>\n<td>Stops&nbsp;<a href=\"https://www.d20srd.org/srd/specialAbilities.htm#breathWeapon\">breath weapons</a>.<br /><a href=\"https://www.d20srd.org/srd/specialAbilities.htm#poison\">Poison</a>&nbsp;(Kills; Fortitude partial for&nbsp;<a class=\"diceRoller\" title=\"Roll the dice!\">1d6</a>&nbsp;points of Con damage instead).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/passwall.htm\">Passwall</a></td>\n</tr>\n<tr>\n<td>Blue</td>\n<td align=\"center\">5th</td>\n<td>Stops divination and mental attacks.<br />Turned to stone (Fortitude negates).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/magicMissile.htm\">Magic missile</a></td>\n</tr>\n<tr>\n<td>Indigo</td>\n<td align=\"center\">6th</td>\n<td>Stops all spells.<br />Will save or become insane (as&nbsp;<a class=\"spell\" href=\"https://www.d20srd.org/srd/spells/insanity.htm\">insanity</a>&nbsp;spell).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/daylight.htm\">Daylight</a></td>\n</tr>\n<tr>\n<td>Violet</td>\n<td align=\"center\">7th</td>\n<td>Energy field destroys all objects and effects.<sup>1</sup><br />Creatures sent to another plane (Will negates).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/dispelMagic.htm\">Dispel magic</a></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
+		},
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"epic": "",
+		"hideFromToken": false,
+		"identifiedName": "Prismatic Wall",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"level": "",
+		"light": {
+			"alpha": 0.5,
+			"animationIntensity": "",
+			"animationSpeed": "",
+			"color": "",
+			"dimRadius": "",
+			"emitLight": false,
+			"lightAngle": 360,
+			"opacity": 0,
+			"radius": 0,
+			"type": ""
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "LEd5XZqMzjYp2w4F",
+		"originPack": "D35E.commonbuffs",
+		"originVersion": 3,
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"psionic": "",
+		"range": {
+			"long": null,
+			"units": "",
+			"value": null
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requirements": [
+		],
+		"requiresPsionicFocus": false,
+		"resistances": [
+		],
+		"senses": {
+			"blindsight": null,
+			"darkvision": null,
+			"lowLight": false,
+			"lowLightMultiplier": null,
+			"tremorsense": null,
+			"truesight": null
+		},
+		"shapechange": {
+			"source": {
+			},
+			"type": "polymorph"
+		},
+		"sizeOverride": "",
+		"source": "",
+		"specialActions": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"timeline": {
+			"deleteOnExpiry": true,
+			"elapsed": 0,
+			"enabled": true,
+			"formula": "@item.level*600",
+			"tickOnEnd": false,
+			"total": 600
+		},
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": null,
+			"rechargeFormula": null,
+			"value": 0
+		}
+	},
+	"type": "buff"
+}

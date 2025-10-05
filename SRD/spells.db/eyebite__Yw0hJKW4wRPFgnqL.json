@@ -1,0 +1,282 @@
+{
+	"_id": "Yw0hJKW4wRPFgnqL",
+	"_key": "!items!Yw0hJKW4wRPFgnqL",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/spells/named-spells/eyebite.png",
+	"name": "Eyebite",
+	"system": {
+		"ability": {
+			"attack": "",
+			"critMult": 2,
+			"critRange": 20,
+			"damage": "",
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"actionType": "other",
+		"activateActions": [
+		],
+		"activation": {
+			"cost": 1,
+			"type": "standard"
+		},
+		"atWill": false,
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"castTime": "",
+		"changes": [
+		],
+		"clOffset": 0,
+		"classSource": "",
+		"combatChanges": [
+		],
+		"components": {
+			"divineFocus": 0,
+			"focus": false,
+			"material": false,
+			"somatic": true,
+			"value": "",
+			"verbal": true
+		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"critConfirmBonus": "",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customReferenceId": "",
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<div class=\"spell-description\">\n  <p>\n      <strong>School:</strong>&nbsp;necromancy&nbsp;[evil];\n    <br>\n    <strong>Level:</strong>&nbsp;Bard 6, Sorcerer 6, Wizard 6;\n    <strong>Domain:</strong>&nbsp;Scalykind 6;\n    \n    \n    \n    <br>\n    <strong>Components:</strong>&nbsp;V, S<br>\n    \n      <strong>Casting Time:</strong>&nbsp;1 standard action<br>\n    <strong>Range:</strong>&nbsp;close (25 ft. + 5 ft./2 levels)<br>\n    \n    <strong>Target:</strong>&nbsp;one living creature<br>\n    \n    <strong>Duration:</strong>&nbsp;See Text<br>\n    <strong>Power Points/Spell Points Cost:</strong>&nbsp;11<br>\n        <strong>Saving Throw:</strong>&nbsp;Fortitude negates\n        <br>\n        <strong>Spell Resistance:</strong>&nbsp;yes<br>\n  </p>\n  <h2>Description</h2>\n  <p>Each round, you may target a single living creature, striking it with waves of evil power. Depending on the target&rsquo;s HD, this attack has as many as three effects.</p>\n<p>The effects are cumulative and concurrent.</p>\n<p><em><strong>10 HD or More: </strong>Sickened: </em>Sudden pain and fever sweeps over the subject&rsquo;s body. A sickened creature takes a &ndash;2 penalty on attack rolls, weapon damage rolls, saving throws, skill checks, and ability checks. A creature affected by this spell remains sickened for 10 minutes per caster level. The effects cannot be negated by a <em>remove disease </em>or <em>heal </em>spell, but a <em>remove curse </em>is effective.</p>\n<p><em><strong>5-9 HD: </strong>Panicked: </em>The subject becomes panicked for [[1d4]] rounds. Even after the panic ends, the creature remains shaken for 10 minutes per caster level, and it automatically becomes panicked again if it comes within sight of you during that time. This is a fear effect.</p>\n<p><em><strong>4 HD or Less: </strong>Comatose: </em>The subject falls into a catatonic coma for 10 minutes per caster level. During this time, it cannot be awakened by any means short of dispelling the effect. This is not a <em>sleep </em>effect, and thus elves are not immune to it.</p>\n<p>The spell lasts for 1 round per three caster levels. You must spend a move action each round after the first to target a foe.</p>\n<hr />\n</div>\n"
+		},
+		"display": "",
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"effectNotes": "Lasts [[(floor(@cl/3))]] round(s).",
+		"epic": "",
+		"favorite": false,
+		"formula": "",
+		"identifiedName": "Eyebite",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"isDomainSpell": false,
+		"isPower": false,
+		"isSpellSpontaneousReplacement": false,
+		"learnedAt": {
+			"bloodline": [
+			],
+			"class": [
+				[
+					"Bard",
+					6
+				],
+				[
+					"Wizard",
+					6
+				],
+				[
+					"Sorcerer",
+					6
+				]
+			],
+			"domain": [
+				[
+					"Scalykind",
+					6
+				]
+			],
+			"elementalSchool": [
+			],
+			"subDomain": [
+			]
+		},
+		"level": 6,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"materials": {
+			"consumed": {
+				"_deprecated": true,
+				"value": false
+			},
+			"focus": "",
+			"value": ""
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 0,
+			"type": ""
+		},
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "Yw0hJKW4wRPFgnqL",
+		"originPack": "D35E.spells",
+		"originVersion": 108,
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"powerPointsCost": 11,
+		"pr": false,
+		"preparation": {
+			"autoDeductCharges": true,
+			"maxAmount": 0,
+			"mode": "prepared",
+			"preparedAmount": 0
+		},
+		"psionic": "",
+		"range": {
+			"long": null,
+			"units": "close",
+			"value": null
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requirements": [
+		],
+		"requiresPsionicFocus": false,
+		"resistances": [
+		],
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": "0",
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "Fortitude negates",
+			"originVersion": 97,
+			"type": ""
+		},
+		"school": "nec",
+		"shortDescription": "<p>Each round, you may target a single living creature, striking it with waves of evil power. Depending on the target&rsquo;s HD, this attack has as many as three effects.</p>\n<p>The effects are cumulative and concurrent.</p>\n<p><em><strong>10 HD or More: </strong>Sickened: </em>Sudden pain and fever sweeps over the subject&rsquo;s body. A sickened creature takes a &ndash;2 penalty on attack rolls, weapon damage rolls, saving throws, skill checks, and ability checks. A creature affected by this spell remains sickened for 10 minutes per caster level. The effects cannot be negated by a <em>remove disease </em>or <em>heal </em>spell, but a <em>remove curse </em>is effective.</p>\n<p><em><strong>5-9 HD: </strong>Panicked: </em>The subject becomes panicked for [[1d4]] rounds. Even after the panic ends, the creature remains shaken for 10 minutes per caster level, and it automatically becomes panicked again if it comes within sight of you during that time. This is a fear effect.</p>\n<p><em><strong>4 HD or Less: </strong>Comatose: </em>The subject falls into a catatonic coma for 10 minutes per caster level. During this time, it cannot be awakened by any means short of dispelling the effect. This is not a <em>sleep </em>effect, and thus elves are not immune to it.</p>\n<p>The spell lasts for 1 round per three caster levels. You must spend a move action each round after the first to target a foe.</p>\n<hr />",
+		"showInQuickbar": false,
+		"slOffset": 0,
+		"snip": "Target becomes panicked, sickened, and comatose.",
+		"source": "",
+		"specialActions": [
+			{
+				"action": "Create unique \"Sickened (Eyebite)\" from \"D35E.commonbuffs\" on target;Set buff \"Sickened (Eyebite)\" field data.level to max(1,(@cl)) on target;Activate buff \"Sickened (Eyebite)\" on target",
+				"condition": "",
+				"img": "icons/svg/item-bag.svg",
+				"name": "Sickened (Eyebite)"
+			},
+			{
+				"action": "Create unique \"Panicked (Eyebite)\" from \"D35E.commonbuffs\" on target;Set buff \"Panicked (Eyebite)\" field data.level to max(1,(@cl)) on target;Activate buff \"Panicked (Eyebite)\" on target",
+				"condition": "",
+				"img": "icons/svg/item-bag.svg",
+				"name": "Panicked (Eyebite)"
+			},
+			{
+				"action": "Create unique \"Comatose (Eyebite)\" from \"D35E.commonbuffs\" on target;Set buff \"Comatose (Eyebite)\" field data.level to max(1,(@cl)) on target;Activate buff \"Comatose (Eyebite)\" on target",
+				"condition": "",
+				"img": "icons/svg/item-bag.svg",
+				"name": "Comatose (Eyebite)",
+				"range": ""
+			}
+		],
+		"specialId": null,
+		"specialPrepared": false,
+		"spellArea": "",
+		"spellDuration": "1 round per three levels; see text",
+		"spellDurationData": {
+			"dismissable": false,
+			"units": "seeText",
+			"value": 1
+		},
+		"spellEffect": "",
+		"spellType": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"spellbook": "primary",
+		"sr": true,
+		"subschool": "",
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": "one living creature"
+		},
+		"types": "evil",
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": "",
+			"rechargeFormula": null,
+			"value": 0
+		}
+	},
+	"type": "spell"
+}

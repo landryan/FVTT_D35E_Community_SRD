@@ -1,0 +1,305 @@
+{
+	"_id": "CWR9oiFgcv2q1aOJ",
+	"_key": "!items!CWR9oiFgcv2q1aOJ",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/items/magic/wonders/Tailoring_46_enchantment_bag.png",
+	"name": "Bag of Tricks, Tan",
+	"system": {
+		"ability": {
+			"attack": null,
+			"critMult": 2,
+			"critRange": 20,
+			"damage": "",
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"actionType": "other",
+		"activateActions": [
+		],
+		"activation": {
+			"cost": null,
+			"type": "standard"
+		},
+		"armor": {
+			"acp": 0,
+			"dex": "",
+			"enh": 0,
+			"value": 0
+		},
+		"armorType": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"brokenResalePrice": "",
+		"carried": true,
+		"changeFlags": {
+			"hasted": false,
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"constantWeight": true,
+		"container": "None",
+		"containerId": "none",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"convertedWeight": null,
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"critConfirmBonus": "",
+		"curseActive": false,
+		"cursed": false,
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<div>\n<p><strong>Bag of Tricks:</strong> This small sack appears normal and empty. However, anyone reaching into the bag feels a small, fuzzy ball. If the ball is removed and tossed up to 20 feet away, it turns into an animal. The animal serves the character who drew it from the bag for 10 minutes (or until slain or ordered back into the bag), at which point it disappears. It can follow any of the commands described in the Handle Animal skill. Each of the three kinds of a <em>bag of tricks</em> produces a different set of animals. Use the following tables to determine what animals can be drawn out of each.</p>\n<p>The heavy warhorse appears with harness and tack and accepts the character who drew it from the bag as a rider.</p>\n<p>Animals produced are always random, and only one may exist at a time. Up to ten animals can be drawn from the bag each week.</p>\n<p>Faint or moderate conjuration; CL 9th; Craft Wondrous Item, @Compendium[D35E.spells.3Htd80RU83vSvhwc]{Summon Nature's Ally V}; Price 6,300 gp.</p>\n<table style=\"height: 119px; width: 100%;\" border=\"1\" width=\"100%\" frame=\"VOID\" rules=\"ROWS\" cellspacing=\"2\" cellpadding=\"2\">\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"width: 11.0236%; height: 17px;\"><strong>d%</strong></td>\n<td style=\"width: 25%; height: 17px;\"><strong>Animal</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 11.0236%; height: 17px;\">01-30</td>\n<td style=\"width: 25%; height: 17px;\">Brown bear</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 11.0236%; height: 17px;\">31-60</td>\n<td style=\"width: 25%; height: 17px;\">Lion</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 11.0236%; height: 17px;\">61-80</td>\n<td style=\"width: 25%; height: 17px;\">Heavy warhorse</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 11.0236%; height: 17px;\">81-90</td>\n<td style=\"width: 25%; height: 17px;\">Tiger</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 11.0236%; height: 17px;\">91-100</td>\n<td style=\"width: 25%; height: 17px;\">Rhinoceros</td>\n</tr>\n</tbody>\n</table>\n</div>"
+		},
+		"duration": {
+			"units": "minute",
+			"value": "10"
+		},
+		"effectNotes": "Summons an animal 20 ft. from the user.",
+		"enhancements": {
+			"automation": {
+				"updateName": false,
+				"updatePrice": false
+			},
+			"clFormula": "",
+			"items": [
+			],
+			"spellcastingAbility": "",
+			"uses": {
+				"allowMultipleUses": false,
+				"autoDeductCharges": true,
+				"commonPool": false,
+				"max": 0,
+				"per": null,
+				"rechargeFormula": null,
+				"value": 0
+			}
+		},
+		"epic": "",
+		"equipmentSubtype": "wondrous",
+		"equipmentType": "misc",
+		"equipped": true,
+		"equippedWeightless": false,
+		"favorite": false,
+		"formula": "",
+		"fullResalePrice": false,
+		"hardness": 0,
+		"hp": {
+			"max": 10,
+			"value": 10
+		},
+		"identified": true,
+		"identifiedCurse": false,
+		"identifiedName": "Bag of Tricks, Tan",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"light": {
+			"alpha": 0.5,
+			"animationIntensity": 6,
+			"animationSpeed": 6,
+			"color": "#000000",
+			"dimRadius": null,
+			"emitLight": false,
+			"lightAngle": 360,
+			"opacity": 0,
+			"radius": 0,
+			"type": ""
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedItems": [
+		],
+		"masterwork": false,
+		"material": {
+			"data": null
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 0,
+			"type": ""
+		},
+		"melded": false,
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"pr": false,
+		"price": 6300,
+		"psionic": "",
+		"quantity": 1,
+		"range": {
+			"units": "ft",
+			"value": "20"
+		},
+		"recharge": {
+			"enabled": false
+		},
+		"requirements": [
+		],
+		"requiresPsionicFocus": false,
+		"resalePrice": "",
+		"resistances": [
+		],
+		"rollTableDraw": {
+			"formula": "",
+			"id": "3VPXiR0FOedo2aF1",
+			"name": "Bag of Tricks, Tan",
+			"pack": "D35E.item-roll-tables"
+		},
+		"save": {
+			"ability": "",
+			"dc": "0",
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "",
+			"originVersion": 97,
+			"type": ""
+		},
+		"senses": {
+			"blindsight": null,
+			"darkvision": null,
+			"lowLight": false,
+			"tremorsense": null,
+			"truesight": null
+		},
+		"sizeOverride": "",
+		"slot": "slotless",
+		"source": "",
+		"specialActions": [
+		],
+		"spellFailure": 0,
+		"sr": false,
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"unidentified": {
+			"name": "",
+			"price": 0
+		},
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": null,
+			"isResource": false,
+			"max": 10,
+			"maxFormula": "10",
+			"per": "week",
+			"rechargeFormula": "",
+			"value": 10
+		},
+		"weight": 0
+	},
+	"type": "equipment"
+}

@@ -1,0 +1,261 @@
+{
+	"_id": "C962Sa2Q8ePr0Tjx",
+	"_key": "!items!C962Sa2Q8ePr0Tjx",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/items/magic/ring/Ring_29.png",
+	"name": "Ring of Nine Facets",
+	"system": {
+		"ability": {
+			"attack": null,
+			"critMult": 2,
+			"critRange": 20,
+			"damage": null,
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"actionType": "",
+		"activation": {
+			"cost": null,
+			"type": ""
+		},
+		"armor": {
+			"acp": 0,
+			"dex": null,
+			"enh": 0,
+			"value": 0
+		},
+		"armorType": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"brokenResalePrice": "",
+		"carried": true,
+		"changeFlags": {
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"constantWeight": true,
+		"container": "None",
+		"containerId": "none",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"critConfirmBonus": "",
+		"curseActive": false,
+		"cursed": false,
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damageReduction": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "\n      <div topic='Ring of Nine Facets' level='8'><p><b>Ring of Nine Facets:</b> This ring is set with a gem of nine facets, each one in-scribed with a different incomprehensible rune. Each day at sunrise, the gem turns to display a different facet. The active facet determines the <i>Ring</i>'s power for that day. Each day, roll 1d10 to determine which facet (and thus which power) is active.</p><p/><table width='100%' border='1' cellpadding='2' cellspacing='2' frame='VOID' rules='ROWS'>\n\n<tr maxcol='3' curcol='3'>\n<td><b>1d10</b><br/></td>\n<td><b>Active Facet Power</b> <br/></td>\n\n</tr>\n\n<tr maxcol='3' curcol='3'>\n<td>1<br/></td>\n<td>Wearer is immune to disease<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>2<br/></td>\n<td>Wearer needs no air to survive<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>3<br/></td>\n<td>Wearer gains +5 natural armor bonus<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>4<br/></td>\n<td>Wearer gains low-light vision<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>5<br/></td>\n<td>Wearer gains fast healing 1<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>6<br/></td>\n<td>Wearer can <i>fly</i> at will<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>7<br/></td>\n<td>Wearer gains cold resistance 30<br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>8<br/></td>\n<td>Wearer gains <i>freedom of movement</i> <br/></td>\n\n</tr>\n<tr maxcol='3' curcol='3'>\n<td>9<br/></td>\n<td>Wearer gains +5 resistance bonus on saving throws<br/></td>\n\n</tr>\n\n<tr maxcol='3' curcol='3'>\n<td>10<br/></td>\n<td>Wearer may select which facet is active<br/></td>\n\n</tr>\n</table><p/><p>The wearer of the <i>Ring</i> can, with a great deal of mental exertion, attempt to change the active facet away from one he or she does not desire. This requires a full-round action and a Concentration check (DC 50), and deals 2d6 points of nonlethal damage regardless of success. If the save is successful, the new facet is determined randomly. If the <i>Ring</i> is removed, the former wearer takes 2d6 points of nonlethal damage each minute until it is replaced or until his or her nonlethal damage exceeds his or her current hit points (though the nonlethal damage resumes again immediately when the former wearer regains consciousness).</p><p/>\n</div>\n    "
+		},
+		"effectNotes": "",
+		"enhancements": {
+			"automation": {
+				"updateName": false,
+				"updatePrice": false
+			},
+			"clFormula": "",
+			"items": [
+			],
+			"spellcastingAbility": "",
+			"uses": {
+				"allowMultipleUses": false,
+				"autoDeductCharges": true,
+				"commonPool": false,
+				"max": 0,
+				"per": null,
+				"rechargeFormula": null,
+				"value": 0
+			}
+		},
+		"epic": "",
+		"equipmentSubtype": "wondrous",
+		"equipmentType": "misc",
+		"equipped": true,
+		"equippedWeightless": false,
+		"favorite": false,
+		"formula": "",
+		"fullResalePrice": false,
+		"hardness": 0,
+		"hp": {
+			"max": 10,
+			"value": 10
+		},
+		"identified": true,
+		"identifiedCurse": false,
+		"identifiedName": "Ring of Nine Facets",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"light": {
+			"alpha": 0.5,
+			"animationIntensity": "",
+			"animationSpeed": "",
+			"color": "",
+			"dimRadius": "",
+			"emitLight": false,
+			"lightAngle": 360,
+			"opacity": 0,
+			"radius": 0,
+			"type": ""
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedItems": [
+		],
+		"masterwork": false,
+		"material": {
+			"data": null
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 0,
+			"type": ""
+		},
+		"melded": false,
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"possibleUpdate": false,
+		"pr": false,
+		"price": 0,
+		"psionic": "",
+		"quantity": 1,
+		"requirements": [
+		],
+		"resalePrice": "",
+		"resistances": [
+		],
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": 0,
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "",
+			"originVersion": 97,
+			"type": ""
+		},
+		"sizeOverride": "",
+		"slot": "slotless",
+		"source": "",
+		"specialActions": [
+		],
+		"spellFailure": 0,
+		"sr": false,
+		"summon": [
+		],
+		"tags": [
+		],
+		"unidentified": {
+			"name": "",
+			"price": 0
+		},
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"weight": 0
+	},
+	"type": "equipment"
+}

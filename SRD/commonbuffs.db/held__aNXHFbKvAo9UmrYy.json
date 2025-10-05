@@ -1,0 +1,259 @@
+{
+	"_id": "aNXHFbKvAo9UmrYy",
+	"_key": "!items!aNXHFbKvAo9UmrYy",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/buffs/imprisoned.png",
+	"name": "Held",
+	"system": {
+		"activateActions": [
+			{
+				"action": "Condition set paralyzed to true on target;",
+				"condition": "",
+				"img": "",
+				"name": ""
+			}
+		],
+		"activation": {
+			"cost": 1,
+			"type": ""
+		},
+		"active": true,
+		"addedLevel": 0,
+		"attackParts": [
+		],
+		"buffType": "temp",
+		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+			[
+				"-@attributes.speed.land.total",
+				"speed",
+				"landSpeed",
+				"untyped"
+			],
+			[
+				"-@attributes.speed.climb.total",
+				"speed",
+				"climbSpeed",
+				"untyped"
+			],
+			[
+				"-@attributes.speed.swim.total",
+				"speed",
+				"swimSpeed",
+				"untyped"
+			],
+			[
+				"-@attributes.speed.burrow.total",
+				"speed",
+				"burrowSpeed",
+				"untyped"
+			],
+			[
+				"-@attributes.speed.fly.total",
+				"speed",
+				"flySpeed",
+				"untyped"
+			]
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damagePool": {
+			"current": 0,
+			"deleteOnDamagePoolEmpty": false,
+			"enabled": false,
+			"formula": "",
+			"max": 0
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+			{
+				"action": "Condition set paralyzed to false on target;",
+				"condition": "",
+				"img": "",
+				"name": ""
+			}
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p>The subject becomes <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#paralyzed\">paralyzed</a> and freezes in place. It is aware and breathes normally but cannot take any actions, even speech. Each round on its turn, the subject may attempt a new <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#savingThrows\">saving throw</a> to end the effect. (This is a <a href=\"https://www.d20srd.org/srd/combat/actionsInCombat.htm#fullRoundActions\">full-round action</a> that does not provoke <a href=\"https://www.d20srd.org/srd/combat/attacksOfOpportunity.htm\">attacks of opportunity</a>.)</p>\n<p>A winged creature who is <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#paralyzed\">paralyzed</a> cannot flap its wings and falls. A swimmer can&rsquo;t swim and may <a href=\"https://www.d20srd.org/srd/environment.htm#drowning\">drown</a>.&nbsp;</p>"
+		},
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"epic": "",
+		"hideFromToken": false,
+		"identifiedName": "Held",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"level": "",
+		"light": {
+			"alpha": 0.5,
+			"animationIntensity": "",
+			"animationSpeed": "",
+			"color": "",
+			"dimRadius": "",
+			"emitLight": false,
+			"lightAngle": 360,
+			"opacity": 0,
+			"radius": 0,
+			"type": ""
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 4,
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"psionic": "",
+		"range": {
+			"units": "",
+			"value": null
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requirements": [
+		],
+		"requiresPsionicFocus": false,
+		"resistances": [
+		],
+		"senses": {
+			"blindsight": null,
+			"darkvision": null,
+			"lowLight": false,
+			"lowLightMultiplier": null,
+			"tremorsense": null,
+			"truesight": null
+		},
+		"shapechange": {
+			"source": {
+			},
+			"type": "polymorph"
+		},
+		"sizeOverride": "",
+		"source": "",
+		"specialActions": [
+		],
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"timeline": {
+			"deleteOnExpiry": true,
+			"elapsed": 0,
+			"enabled": true,
+			"formula": "@item.level",
+			"tickOnEnd": false,
+			"total": 0
+		},
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": null,
+			"rechargeFormula": null,
+			"value": 0
+		}
+	},
+	"type": "buff"
+}

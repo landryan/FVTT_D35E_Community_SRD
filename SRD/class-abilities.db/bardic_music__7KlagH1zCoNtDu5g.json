@@ -1,0 +1,216 @@
+{
+	"_id": "7KlagH1zCoNtDu5g",
+	"_key": "!items!7KlagH1zCoNtDu5g",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/classfeatures/bardic-music.png",
+	"name": "Bardic Music",
+	"system": {
+		"ability": {
+			"attack": null,
+			"critMult": 2,
+			"critRange": 20,
+			"damage": "",
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"actionType": "special",
+		"activation": {
+			"cost": 1,
+			"type": "standard"
+		},
+		"alignment": {
+			"chaotic": false,
+			"evil": false,
+			"good": false,
+			"lawful": false
+		},
+		"associations": {
+			"classes": [
+				[
+					"Bard",
+					1
+				]
+			]
+		},
+		"attack": {
+			"parts": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"attackType": "ability",
+		"autoScaleOption": "default",
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"baseWeaponType": "",
+		"classSource": "",
+		"conditionals": [
+		],
+		"createdBy": "",
+		"critConfirmBonus": "",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Once per day per bard level, a bard can use his song or poetics to produce magical effects on those around him (usually including himself, if desired). While these abilities fall under the category of bardic music and the descriptions discuss singing or playing instruments, they can all be activated by reciting poetry, chanting, singing lyrical songs, singing melodies, whistling, playing an instrument, or playing an instrument in combination with some spoken performance. Each ability requires both a minimum bard level and a minimum number of ranks in the Perform skill to qualify; if a bard does not have the required number of ranks in at least one Perform skill, he does not gain the bardic music ability until he acquires the needed ranks.</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Starting a bardic music effect is a standard action. Some bardic music abilities require concentration, which means the bard must take a standard action each round to maintain the ability. Even while using bardic music that doesn&rsquo;t require concentration, a bard cannot cast spells, activate magic items by spell completion (such as scrolls), or activate magic items by magic word (such as wands). Just as for casting a spell with a verbal component, a deaf bard has a 20% chance to fail when attempting to use bardic music. If he fails, the attempt still counts against his daily limit.</p>"
+		},
+		"duration": {
+			"units": "seeText",
+			"value": null
+		},
+		"effectNotes": "",
+		"enh": null,
+		"epic": false,
+		"favorite": true,
+		"finesseable": false,
+		"formula": "",
+		"incorporeal": false,
+		"index": {
+			"subType": null,
+			"uniqueId": "bam"
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"magic": false,
+		"masterwork": false,
+		"material": {
+			"data": null
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": 0,
+			"type": ""
+		},
+		"melded": false,
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"nonLethal": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"originalWeaponCreated": false,
+		"originalWeaponId": null,
+		"originalWeaponImg": "",
+		"originalWeaponName": "",
+		"originalWeaponProperties": {
+		},
+		"possibleUpdate": false,
+		"pr": false,
+		"primaryAttack": true,
+		"proficient": true,
+		"psionic": "",
+		"range": {
+			"long": null,
+			"units": "seeText",
+			"value": null
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requiresPsionicFocus": false,
+		"returning": false,
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": "0",
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "",
+			"originVersion": 97,
+			"type": ""
+		},
+		"showInQuickbar": true,
+		"source": "",
+		"specialActions": [
+			{
+				"action": "Create unique \"Inspire Courage\" from D35E.commonbuffs on target;Activate buff \"Inspire Courage\" on target; Set buff \"Inspire Courage\" field data.level to @classes.bard.level on target;",
+				"condition": "@skills.prf.subSkills.prf1.rank > 1",
+				"img": "systems/D35E/icons/buffs/inspire-courage.png",
+				"name": "Inspire Courage"
+			},
+			{
+				"action": "Create unique \"Inspire Greatness\" from D35E.commonbuffs on target;Activate buff \"Inspire Greatness\" on target; Set buff \"Inspire Greatness\" field data.level to @classes.bard.level on target;",
+				"condition": "@skills.prf.subSkills.prf1.rank > 12 && @classes.bard.level > 9",
+				"img": "systems/D35E/icons/buffs/inspire-greatness.png",
+				"name": "Inspire Greatness"
+			},
+			{
+				"action": "Create unique \"Inspire Heroics\" from D35E.commonbuffs on target;Activate buff \"Inspire Heroics\" on target; Set buff \"Inspire Heroics\" field data.level to @classes.bard.level on target;",
+				"condition": "@skills.prf.subSkills.prf1.rank > 18 && @classes.bard.level > 15",
+				"img": "systems/D35E/icons/buffs/inspire-heroics.png",
+				"name": "Inspire Heroics"
+			}
+		],
+		"sr": false,
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"threatRangeExtended": false,
+		"thrown": false,
+		"uniqueId": "bam",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": null,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "@classes.bard.level",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": "day",
+			"rechargeFormula": null,
+			"value": null
+		},
+		"weaponSubtype": "light"
+	},
+	"type": "attack"
+}

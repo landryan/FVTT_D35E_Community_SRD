@@ -1,0 +1,376 @@
+{
+	"_id": "l3vI1GqaEOMXNlik",
+	"_key": "!items!l3vI1GqaEOMXNlik",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/items/magic/weapons/named/sword-of-subtelty.png",
+	"name": "Sword of Subtlety",
+	"system": {
+		"attackNotes": "",
+		"baseWeaponType": "Shortsword",
+		"bonus": {
+			"_deprecated": true,
+			"value": 0
+		},
+		"brokenResalePrice": "",
+		"carried": true,
+		"changeFlags": {
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"constantWeight": true,
+		"container": "None",
+		"containerId": "none",
+		"containerWeightless": false,
+		"contextNotes": [
+			[
+				"[[+4]] when used to make Sneak Attack with",
+				"attacks",
+				"attack"
+			],
+			[
+				"[[+4]] when used to make Sneak Attack with",
+				"attacks",
+				"effect"
+			]
+		],
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"curseActive": false,
+		"cursed": false,
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"parts": [
+			]
+		},
+		"damage2": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"damage2Type": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"damageReduction": [
+		],
+		"damageType": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"description": {
+			"chat": "",
+			"unidentified": "<p>This sword is popular as an off-hand weapon.</p>",
+			"value": "<p><strong>Sword of Subtlety:</strong>&nbsp;A&nbsp;<em>+1 short sword</em>&nbsp;with a thin, dull gray blade, this weapon provides a +4 bonus on its wielder's attack and damage rolls when he is making a sneak attack with it.</p>\n<p>Moderate illusion; CL 7th; Craft Magic Arms and Armor,&nbsp;<em>blur</em>; Price 22,310 gp; Cost 11,155 gp + 892 XP.</p>"
+		},
+		"effectNotes": "",
+		"enh": 1,
+		"enhancements": {
+			"automation": {
+				"updateName": false,
+				"updatePrice": false
+			},
+			"clFormula": "",
+			"items": [
+				{
+					"_id": "l3vI1GqaEOMXNlik-Ng5AlRupmkMOgqQi",
+					"data": {
+						"ability": {
+							"attack": null,
+							"critMult": 2,
+							"critRange": 20,
+							"damage": null,
+							"damageMult": 1
+						},
+						"actionType": "",
+						"activateActions": [
+						],
+						"activation": {
+							"cost": 1,
+							"type": ""
+						},
+						"allowedTypes": [
+						],
+						"attack": {
+							"parts": [
+							]
+						},
+						"attackBonus": "",
+						"attackNotes": "",
+						"attackParts": [
+						],
+						"changeFlags": {
+							"heavyArmorFullSpeed": false,
+							"loseDexToAC": false,
+							"mediumArmorFullSpeed": false,
+							"noDex": false,
+							"noEncumbrance": false,
+							"noStr": false,
+							"oneCha": false,
+							"oneInt": false,
+							"oneWis": false
+						},
+						"changes": [
+						],
+						"conditionFlags": {
+							"dazzled": false,
+							"polymorphed": false,
+							"wildshaped": false
+						},
+						"container": "None",
+						"containerWeightless": false,
+						"contextNotes": [
+						],
+						"critConfirmBonus": "",
+						"damage": {
+							"parts": [
+							]
+						},
+						"deactivateActions": [
+						],
+						"description": {
+							"chat": "",
+							"unidentified": "",
+							"value": "<p>Magic weapons have enhancement bonuses ranging from +1 to +5. They apply these bonuses to both attack and damage rolls when used in combat. All magic weapons are also masterwork weapons, but their masterwork bonus on attack rolls does not stack with their enhancement bonus on attack rolls.</p>"
+						},
+						"duration": {
+							"units": "",
+							"value": null
+						},
+						"effectNotes": "",
+						"enh": 1,
+						"enhIncrease": 1,
+						"enhIncreaseFormula": "@enhancement",
+						"enhancementType": "weapon",
+						"formula": "",
+						"identifiedName": "+1 Weapon Enhancement",
+						"measureTemplate": {
+							"customColor": "",
+							"customTexture": "",
+							"overrideColor": false,
+							"overrideTexture": false,
+							"size": 0,
+							"type": ""
+						},
+						"nameExtension": {
+							"prefix": "",
+							"suffix": ""
+						},
+						"originVersion": 97,
+						"price": 0,
+						"priceFormula": "",
+						"properties": {
+						},
+						"range": {
+							"long": null,
+							"units": "",
+							"value": null
+						},
+						"requirements": "",
+						"save": {
+							"dc": 0,
+							"description": "",
+							"originVersion": 97
+						},
+						"sizeOverride": "",
+						"specialActions": [
+						],
+						"tags": [
+						],
+						"target": {
+							"value": ""
+						},
+						"uses": {
+							"allowMultipleUses": false,
+							"autoDeductCharges": true,
+							"chargesPerUse": 1,
+							"max": 0,
+							"per": null,
+							"value": 0
+						},
+						"weaponAttackNotes": [
+						],
+						"weaponData": {
+							"damageRoll": "",
+							"damageType": ""
+						}
+					},
+					"flags": {
+					},
+					"img": "systems/D35E/icons/crafting-station/enhancements/enhancement-weapon.png",
+					"name": "+1 Weapon Enhancement",
+					"permission": {
+						"default": 0,
+						"wbFPpmVfPG23MbMC": 3
+					},
+					"type": "enhancement"
+				}
+			],
+			"spellcastingAbility": "",
+			"uses": {
+				"allowMultipleUses": false,
+				"autoDeductCharges": true,
+				"commonPool": false,
+				"max": 0,
+				"per": null,
+				"rechargeFormula": null,
+				"value": 0
+			}
+		},
+		"epic": "",
+		"equipped": true,
+		"equippedWeightless": false,
+		"fullResalePrice": false,
+		"hardness": 10,
+		"hp": {
+			"max": 2,
+			"value": 2
+		},
+		"identified": true,
+		"identifiedCurse": false,
+		"identifiedName": "Sword of Subtlety",
+		"index": {
+			"subType": "martial",
+			"uniqueId": ""
+		},
+		"light": {
+			"alpha": 0.5,
+			"animationIntensity": "",
+			"animationSpeed": "",
+			"color": "#000000",
+			"dimRadius": "",
+			"emitLight": false,
+			"lightAngle": 360,
+			"opacity": 0,
+			"radius": null,
+			"type": ""
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedItems": [
+		],
+		"masterwork": true,
+		"material": {
+			"data": null
+		},
+		"melded": false,
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 100,
+		"possibleUpdate": false,
+		"price": 22310,
+		"properties": {
+			"blc": false,
+			"brc": false,
+			"dbl": false,
+			"dis": false,
+			"fin": false,
+			"frg": false,
+			"grp": false,
+			"imp": false,
+			"mnk": false,
+			"nnl": false,
+			"prf": false,
+			"rch": false,
+			"snd": false,
+			"thr": false,
+			"trp": false
+		},
+		"psionic": "",
+		"quantity": 1,
+		"requirements": [
+		],
+		"resalePrice": "",
+		"resistances": [
+		],
+		"sizeOverride": "",
+		"source": "",
+		"tags": [
+		],
+		"unidentified": {
+			"name": "Shortsword",
+			"price": 10
+		},
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"weaponBaseType": "",
+		"weaponData": {
+			"alignment": {
+				"chaotic": false,
+				"evil": false,
+				"good": false,
+				"lawful": false
+			},
+			"attackFormula": "",
+			"critMult": "2",
+			"critRange": "19",
+			"damageFormula": "",
+			"damageRoll": "1d6",
+			"damageType": "P",
+			"damageTypeId": "",
+			"range": null,
+			"size": "med"
+		},
+		"weaponSubtype": "light",
+		"weaponType": "martial",
+		"weight": 2
+	},
+	"type": "weapon"
+}

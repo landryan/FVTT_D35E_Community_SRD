@@ -1,0 +1,457 @@
+{
+	"_id": "3vGgT4QypAbBpCWI",
+	"_key": "!items!3vGgT4QypAbBpCWI",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/racialhd/half-fiend.png",
+	"name": "Half-Fiend",
+	"system": {
+		"activateActions": [
+		],
+		"addedAbilities": [
+			{
+				"level": 1,
+				"uid": "template-smt-good"
+			},
+			{
+				"level": 1,
+				"uid": "spelllike-darkness"
+			},
+			{
+				"level": 3,
+				"uid": "spelllike-desecrate"
+			},
+			{
+				"level": 5,
+				"uid": "spelllike-unholy-blight"
+			},
+			{
+				"level": 7,
+				"uid": "spelllike-posion"
+			},
+			{
+				"level": 9,
+				"uid": "spelllike-contagion"
+			},
+			{
+				"level": 11,
+				"uid": "spelllike-blasphemy"
+			},
+			{
+				"level": 13,
+				"uid": "spelllike-unholy-aura"
+			},
+			{
+				"level": 13,
+				"uid": "spelllike-unhallow"
+			},
+			{
+				"level": 15,
+				"uid": "spelllike-horrid-wilting"
+			},
+			{
+				"level": 17,
+				"uid": "rac-spell-summon-monster-ix"
+			},
+			{
+				"level": 19,
+				"uid": "spelllike-destruction"
+			}
+		],
+		"allSpellsKnown": false,
+		"attackParts": [
+		],
+		"automaticFeatures": true,
+		"bab": "",
+		"changeFlags": {
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+			[
+				"10+@item.levels",
+				"misc",
+				"spellResistance",
+				"untyped"
+			],
+			[
+				"4",
+				"ability",
+				"str",
+				"untyped"
+			],
+			[
+				"4",
+				"ability",
+				"dex",
+				"untyped"
+			],
+			[
+				"2",
+				"ability",
+				"con",
+				"untyped"
+			],
+			[
+				"4",
+				"ability",
+				"int",
+				"untyped"
+			],
+			[
+				"2",
+				"ability",
+				"cha",
+				"untyped"
+			],
+			[
+				"1",
+				"ac",
+				"nac",
+				"untyped"
+			],
+			[
+				"(@attributes.speed.fly.base ? 0 : @attributes.speed.land.total)",
+				"speed",
+				"flySpeed",
+				"untyped"
+			],
+			[
+				"(@attributes.hd.total < 6 ? 1 : (@attributes.hd.total < 11 ? 2 : 3))",
+				"misc",
+				"cr",
+				"untyped"
+			]
+		],
+		"classSkills": {
+			"apr": false,
+			"aut": false,
+			"blc": false,
+			"blf": false,
+			"clm": false,
+			"coc": false,
+			"crf": false,
+			"dev": false,
+			"dip": false,
+			"dis": false,
+			"dsc": false,
+			"esc": false,
+			"fog": false,
+			"gif": false,
+			"han": false,
+			"hea": false,
+			"hid": false,
+			"int": false,
+			"jmp": false,
+			"kar": false,
+			"kdu": false,
+			"ken": false,
+			"kge": false,
+			"khi": false,
+			"klo": false,
+			"kna": false,
+			"kno": false,
+			"kpl": false,
+			"kps": false,
+			"kre": false,
+			"lis": false,
+			"mos": false,
+			"opl": false,
+			"prf": false,
+			"pro": false,
+			"psi": false,
+			"rid": false,
+			"sen": false,
+			"slt": false,
+			"spl": false,
+			"spt": false,
+			"src": false,
+			"sur": false,
+			"swm": false,
+			"tmb": false,
+			"umd": false,
+			"upd": false,
+			"uro": false
+		},
+		"classSource": "",
+		"classType": "template",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"counterName": "",
+		"crPerHD": 4,
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"creatureType": "humanoid",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"parts": [
+			]
+		},
+		"damageReduction": [
+			[
+				"(@levels < 11 ? 5 : 10)",
+				"magic"
+			]
+		],
+		"deactivateActions": [
+		],
+		"deckHandSizeFormula": "0",
+		"deckPrestigeClass": false,
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p>No matter its form, a half-fiend is always hideous to behold, having dark scales, horns, glowing red eyes, bat wings, a fetid odor, or some other obvious sign that it is tainted with evil.</p>\n<h2>Creating a Half-Fiend</h2>\n<p>&ldquo;Half-fiend&rdquo; is an inherited template that can be added to any living, corporeal creature with an Intelligence score of 4 or more and non-good alignment (referred to hereafter as the base creature).</p>\n<p>A half-fiend uses all the base creature&rsquo;s statistics and special abilities except as noted here.</p>\n<p><strong>Size and Type:</strong> The creature&rsquo;s type changes to outsider. Do not recalculate Hit Dice, base attack bonus, or saves. Size is unchanged. Half-fiends are normally native outsiders.</p>\n<p><strong>Speed: </strong>A half-fiend has bat wings. Unless the base creature has a better fly speed, the creature can fly at the base creature&rsquo;s base land speed (average maneuverability).</p>\n<p><strong>Armor Class: </strong>Natural armor improves by +1 (this stacks with any natural armor bonus the base creature has).</p>\n<p><strong>Attack: </strong>A half-fiend has two claw attacks and a bite attack, and the claws are the primary natural weapon. If the base creature can use weapons, the half-fiend retains this ability. A half-fiend fighting without weapons uses a claw when making an attack action. When it has a weapon, it usually uses the weapon instead.</p>\n<p><strong>Full Attack: </strong>A half-fiend fighting without weapons uses both claws and its bite when making a full attack. If armed with a weapon, it usually uses the weapon as its primary attack and its bite as a natural secondary attack. If it has a hand free, it uses a claw as an additional natural secondary attack.</p>\n<p><strong>Damage: </strong>Half-fiends have bite and claw attacks. If the base creature does not have these attack forms, use the damage values in the table below. Otherwise, use the values below or the base creature&rsquo;s damage values, whichever are greater.</p>\n<table style=\"height: 160px; width: 98.8462%;\">\n<tbody>\n<tr style=\"height: 16px;\">\n<th style=\"height: 16px; width: 31.1284%;\" align=\"left\">Size</th>\n<th style=\"height: 16px; width: 33.2685%; text-align: right;\">Bite Damage</th>\n<th style=\"height: 16px; width: 35.6031%; text-align: right;\">Claw Damage</th>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 31.1284%;\" align=\"left\">Fine</td>\n<td style=\"height: 16px; width: 33.2685%; text-align: right;\">1</td>\n<td style=\"height: 16px; width: 35.6031%; text-align: right;\">&mdash;</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 31.1284%;\" align=\"left\">Diminutive</td>\n<td style=\"height: 16px; width: 33.2685%; text-align: right;\">1d2</td>\n<td style=\"height: 16px; width: 35.6031%; text-align: right;\">1</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 31.1284%;\" align=\"left\">Tiny</td>\n<td style=\"height: 16px; width: 33.2685%; text-align: right;\">1d3</td>\n<td style=\"height: 16px; width: 35.6031%; text-align: right;\">1d2</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 31.1284%;\" align=\"left\">Small</td>\n<td style=\"height: 16px; width: 33.2685%; text-align: right;\">1d4</td>\n<td style=\"height: 16px; width: 35.6031%; text-align: right;\">1d3</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 31.1284%;\" align=\"left\">Medium</td>\n<td style=\"height: 16px; width: 33.2685%; text-align: right;\">1d6</td>\n<td style=\"height: 16px; width: 35.6031%; text-align: right;\">1d4</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 31.1284%;\" align=\"left\">Large</td>\n<td style=\"height: 16px; width: 33.2685%; text-align: right;\">1d8</td>\n<td style=\"height: 16px; width: 35.6031%; text-align: right;\">1d6</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 31.1284%;\" align=\"left\">Huge</td>\n<td style=\"height: 16px; width: 33.2685%; text-align: right;\">2d6</td>\n<td style=\"height: 16px; width: 35.6031%; text-align: right;\">1d8</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 31.1284%;\" align=\"left\">Gargantuan</td>\n<td style=\"height: 16px; width: 33.2685%; text-align: right;\">3d6</td>\n<td style=\"height: 16px; width: 35.6031%; text-align: right;\">2d6</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 31.1284%;\" align=\"left\">Colossal</td>\n<td style=\"height: 16px; width: 33.2685%; text-align: right;\">4d6</td>\n<td style=\"height: 16px; width: 35.6031%; text-align: right;\">3d6</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Special Attacks: </strong>A half-fiend retains all the special attacks of the base creature and gains the following special attack.</p>\n<p><em>Smite Good (Su)</em>: Once per day the creature can make a normal melee attack to deal extra damage equal to its HD (maximum of +20) against a good foe.</p>\n<p><strong>Spell-Like Abilities: </strong>A half-fiend with an Intelligence or Wisdom score of 8 or higher has spell-like abilities depending on its Hit Dice, as indicated on the table below. The abilities are cumulative. Unless otherwise noted, an ability is usable once per day. Caster level equals the creature&rsquo;s HD, and the save DC is Charisma-based.</p>\n<p><strong>Special Qualities:</strong> A half-fiend has all the special qualities of the base creature, plus the following special qualities.</p>\n<ul>\n<li>Darkvision out to 60 feet.</li>\n<li>Immunity to poison.</li>\n<li>Resistance to acid 10, cold 10, electricity 10, and fire 10.</li>\n<li>Damage reduction: 5/magic (if HD 11 or less) or 10/magic (if HD 12 or more).</li>\n<li>A half-fiend&rsquo;s natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.</li>\n<li>Spell resistance equal to creature&rsquo;s HD + 10 (maximum 35).</li>\n</ul>\n<p><strong>Abilities: </strong>Increase from the base creature as follows: Str +4, Dex +4, Con +2, Int +4, Cha +2.</p>\n<p><strong>Skills: </strong>A half-fiend gains skill points as an outsider and has skill points equal to (8 + Int modifier) x (HD + 3). Do not include Hit Dice from class levels in this calculation&mdash;the half-fiend gains outsider skill points only for its racial Hit Dice, and gains the normal amount of skill points for its class levels. Treat skills from the base creature&rsquo;s list as class skills, and other skills as cross-class.</p>\n<p><strong>Challenge Rating: </strong>HD 4 or less, as base creature +1; HD 5 to 10, as base creature +2; HD 11 or more, as base creature +3.</p>\n<p><strong>Alignment: </strong>Always evil (any).</p>\n<p><strong>Level Adjustment:</strong> +4.</p>\n<p>&nbsp;</p>"
+		},
+		"disabledAbilities": [
+		],
+		"epic": "",
+		"fc": {
+			"alt": {
+				"value": 0
+			},
+			"hp": {
+				"value": 0
+			},
+			"skill": {
+				"value": 0
+			}
+		},
+		"halfCasterLevel": false,
+		"hasLimitedSpellbook": false,
+		"hasSpecialSlot": false,
+		"hasSpellbook": false,
+		"hd": 0,
+		"hdReplace": "",
+		"hdReplaceRacialOnly": false,
+		"hp": 0,
+		"identifiedName": "Half-Fiend",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"knownCardsSizeFormula": "0",
+		"la": 4,
+		"levels": 0,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"maxLevel": 20,
+		"minionGroup": "none",
+		"minionLevelFormula": "0",
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"nonActiveClassAbilities": [
+		],
+		"originId": "",
+		"originPack": "",
+		"originVersion": 99,
+		"possibleUpdate": false,
+		"powerPointBonusBaseAbility": "0",
+		"powerPointTable": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"powersKnown": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"powersMaxLevel": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"prestigeLevels": 0,
+		"psionic": "",
+		"requirements": [
+		],
+		"resistances": [
+			[
+				"10",
+				"energy-acid",
+				false,
+				false
+			],
+			[
+				"10",
+				"energy-electric",
+				false,
+				false
+			],
+			[
+				"10",
+				"energy-cold",
+				false,
+				false
+			]
+		],
+		"savingThrows": {
+			"fort": {
+				"value": ""
+			},
+			"ref": {
+				"value": ""
+			},
+			"will": {
+				"value": ""
+			}
+		},
+		"sizeOverride": "",
+		"skillsPerLevel": 0,
+		"sneakAttackFormula": "0",
+		"sneakAttackGroup": "none",
+		"source": "",
+		"specialActions": [
+		],
+		"spellPointBonusFormula": "0",
+		"spellPointGroup": "wizard",
+		"spellPointTable": {
+			"1": 0,
+			"10": 0,
+			"11": 0,
+			"12": 0,
+			"13": 0,
+			"14": 0,
+			"15": 0,
+			"16": 0,
+			"17": 0,
+			"18": 0,
+			"19": 0,
+			"2": 0,
+			"20": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0,
+			"9": 0
+		},
+		"spellbook": [
+		],
+		"spellcastingAbility": "int",
+		"spellcastingDescription": "None",
+		"spellcastingSpellname": "Spell",
+		"spellcastingSpellnamePl": "Spells",
+		"spellcastingSpontaneus": false,
+		"spellcastingType": "none",
+		"spellsKnownPerLevel": [
+		],
+		"spellsPerLevel": [
+		],
+		"spellslotAbility": "",
+		"tags": [
+		],
+		"turnUndeadLevelFormula": "0",
+		"uniqueId": "",
+		"userNonRemovable": false
+	},
+	"type": "class"
+}

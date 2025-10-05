@@ -1,0 +1,366 @@
+{
+	"_id": "BcFtLaCHxW2ZxKCs",
+	"_key": "!items!BcFtLaCHxW2ZxKCs",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/items/magic/weapons/named/shatterspike.png",
+	"name": "Shatterspike",
+	"system": {
+		"attackNotes": "",
+		"baseWeaponType": "Longsword",
+		"bonus": {
+			"_deprecated": true,
+			"value": 0
+		},
+		"brokenResalePrice": "",
+		"carried": true,
+		"changeFlags": {
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"constantWeight": true,
+		"container": "None",
+		"containerId": "none",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"curseActive": false,
+		"cursed": false,
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"parts": [
+			]
+		},
+		"damage2": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"damage2Type": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"damageReduction": [
+		],
+		"damageType": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"description": {
+			"chat": "",
+			"unidentified": "<p>This classic, straight blade is the weapon of knighthood and valor. It is a favorite weapon of many paladins.</p>",
+			"value": "<p><strong>Shatterspike:</strong>&nbsp;Wielders without the Improved Sunder feat use&nbsp;<em>Shatterspike</em>&nbsp;as a&nbsp;<em>+1 longsword</em>&nbsp;only; wielders with the Improved Sunder feat add a +4 bonus (including the sword's +1 enhancement bonus) to the opposed roll when attempting to strike a foe's weapon. If successful,&nbsp;<em>Shatterspike</em>&nbsp;deals 1d8+4 points of damage plus the wielder's Strength modifier to the target weapon (the target weapon's hardness must still be overcome with each hit).&nbsp;<em>Shatterspike</em>&nbsp;can damage weapons with an enhancement bonus of +4 or lower.</p>\n<p>Strong evocation; CL 13th; Str 13, Craft Arms and Armor, Power Attack, Improved Sunder,&nbsp;<em>shatter</em>; Price 4,315 gp; Cost 2,315 gp + 160 XP; Weight 4 lb.</p>"
+		},
+		"effectNotes": "",
+		"enh": 1,
+		"enhancements": {
+			"automation": {
+				"updateName": false,
+				"updatePrice": false
+			},
+			"clFormula": "",
+			"items": [
+				{
+					"_id": "BcFtLaCHxW2ZxKCs-Ng5AlRupmkMOgqQi",
+					"data": {
+						"ability": {
+							"attack": null,
+							"critMult": 2,
+							"critRange": 20,
+							"damage": null,
+							"damageMult": 1
+						},
+						"actionType": "",
+						"activateActions": [
+						],
+						"activation": {
+							"cost": 1,
+							"type": ""
+						},
+						"allowedTypes": [
+						],
+						"attack": {
+							"parts": [
+							]
+						},
+						"attackBonus": "",
+						"attackNotes": "",
+						"attackParts": [
+						],
+						"changeFlags": {
+							"heavyArmorFullSpeed": false,
+							"loseDexToAC": false,
+							"mediumArmorFullSpeed": false,
+							"noDex": false,
+							"noEncumbrance": false,
+							"noStr": false,
+							"oneCha": false,
+							"oneInt": false,
+							"oneWis": false
+						},
+						"changes": [
+						],
+						"conditionFlags": {
+							"dazzled": false,
+							"polymorphed": false,
+							"wildshaped": false
+						},
+						"container": "None",
+						"containerWeightless": false,
+						"contextNotes": [
+						],
+						"critConfirmBonus": "",
+						"damage": {
+							"parts": [
+							]
+						},
+						"deactivateActions": [
+						],
+						"description": {
+							"chat": "",
+							"unidentified": "",
+							"value": "<p>Magic weapons have enhancement bonuses ranging from +1 to +5. They apply these bonuses to both attack and damage rolls when used in combat. All magic weapons are also masterwork weapons, but their masterwork bonus on attack rolls does not stack with their enhancement bonus on attack rolls.</p>"
+						},
+						"duration": {
+							"units": "",
+							"value": null
+						},
+						"effectNotes": "",
+						"enh": 1,
+						"enhIncrease": 1,
+						"enhIncreaseFormula": "@enhancement",
+						"enhancementType": "weapon",
+						"formula": "",
+						"identifiedName": "+1 Weapon Enhancement",
+						"measureTemplate": {
+							"customColor": "",
+							"customTexture": "",
+							"overrideColor": false,
+							"overrideTexture": false,
+							"size": 0,
+							"type": ""
+						},
+						"nameExtension": {
+							"prefix": "",
+							"suffix": ""
+						},
+						"originVersion": 97,
+						"price": 0,
+						"priceFormula": "",
+						"properties": {
+						},
+						"range": {
+							"long": null,
+							"units": "",
+							"value": null
+						},
+						"requirements": "",
+						"save": {
+							"dc": 0,
+							"description": "",
+							"originVersion": 97
+						},
+						"sizeOverride": "",
+						"specialActions": [
+						],
+						"tags": [
+						],
+						"target": {
+							"value": ""
+						},
+						"uses": {
+							"allowMultipleUses": false,
+							"autoDeductCharges": true,
+							"chargesPerUse": 1,
+							"max": 0,
+							"per": null,
+							"value": 0
+						},
+						"weaponAttackNotes": [
+						],
+						"weaponData": {
+							"damageRoll": "",
+							"damageType": ""
+						}
+					},
+					"flags": {
+					},
+					"img": "systems/D35E/icons/crafting-station/enhancements/enhancement-weapon.png",
+					"name": "+1 Weapon Enhancement",
+					"permission": {
+						"default": 0,
+						"wbFPpmVfPG23MbMC": 3
+					},
+					"type": "enhancement"
+				}
+			],
+			"spellcastingAbility": "",
+			"uses": {
+				"allowMultipleUses": false,
+				"autoDeductCharges": true,
+				"commonPool": false,
+				"max": 0,
+				"per": null,
+				"rechargeFormula": null,
+				"value": 0
+			}
+		},
+		"epic": "",
+		"equipped": true,
+		"equippedWeightless": false,
+		"fullResalePrice": false,
+		"hardness": 10,
+		"hp": {
+			"max": 5,
+			"value": 5
+		},
+		"identified": true,
+		"identifiedCurse": false,
+		"identifiedName": "Shatterspike",
+		"index": {
+			"subType": "martial",
+			"uniqueId": ""
+		},
+		"light": {
+			"alpha": 0.5,
+			"animationIntensity": "",
+			"animationSpeed": "",
+			"color": "#000000",
+			"dimRadius": "",
+			"emitLight": false,
+			"lightAngle": 360,
+			"opacity": 0,
+			"radius": "",
+			"type": ""
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedItems": [
+		],
+		"masterwork": false,
+		"material": {
+			"data": null
+		},
+		"melded": false,
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 100,
+		"possibleUpdate": false,
+		"price": 4315,
+		"properties": {
+			"blc": false,
+			"brc": false,
+			"dbl": false,
+			"dis": false,
+			"fin": false,
+			"frg": false,
+			"grp": false,
+			"imp": false,
+			"mnk": false,
+			"nnl": false,
+			"prf": false,
+			"rch": false,
+			"snd": false,
+			"thr": false,
+			"trp": false
+		},
+		"psionic": "",
+		"quantity": 1,
+		"requirements": [
+		],
+		"resalePrice": "",
+		"resistances": [
+		],
+		"sizeOverride": "",
+		"source": "",
+		"tags": [
+		],
+		"unidentified": {
+			"name": "Longsword",
+			"price": 15
+		},
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"weaponBaseType": "",
+		"weaponData": {
+			"alignment": {
+				"chaotic": false,
+				"evil": false,
+				"good": false,
+				"lawful": false
+			},
+			"attackFormula": "",
+			"critMult": "2",
+			"critRange": "19",
+			"damageFormula": "",
+			"damageRoll": "1d8",
+			"damageType": "S",
+			"damageTypeId": "",
+			"range": null,
+			"size": "med"
+		},
+		"weaponSubtype": "1h",
+		"weaponType": "martial",
+		"weight": 4
+	},
+	"type": "weapon"
+}

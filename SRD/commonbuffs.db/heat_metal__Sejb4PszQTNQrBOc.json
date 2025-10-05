@@ -1,0 +1,223 @@
+{
+	"_id": "Sejb4PszQTNQrBOc",
+	"_key": "!items!Sejb4PszQTNQrBOc",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/spells/buffs/debuff/heat-metal.png",
+	"name": "Heat Metal",
+	"system": {
+		"activateActions": [
+		],
+		"activation": {
+			"cost": 1,
+			"type": ""
+		},
+		"active": false,
+		"addedLevel": 0,
+		"attackParts": [
+		],
+		"buffType": "misc",
+		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damagePool": {
+			"current": 0,
+			"deleteOnDamagePoolEmpty": false,
+			"enabled": false,
+			"formula": "",
+			"max": 0
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p>Heat metal makes metal extremely warm. Unattended, nonmagical metal gets no <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#savingThrows\">saving throw</a>. Magical metal is allowed a saving throw against the spell. An item in a creature&rsquo;s possession uses the creature&rsquo;s saving throw bonus unless its own is higher.</p>\n<p>A creature takes fire damage if its equipment is heated.</p>\n<p>It takes <span style=\"text-decoration: underline;\">full damage</span> if</p>\n<ul>\n<li>its armor is affected or</li>\n<li>if it is holding, touching, wearing, or carrying metal weighing one-fifth of its weight.</li>\n</ul>\n<p>The creature takes <span style=\"text-decoration: underline;\">minimum damage</span> (1 point or 2 points; see the table) if</p>\n<ul>\n<li>it&rsquo;s not wearing metal armor and</li>\n<li>the metal that it&rsquo;s carrying weighs less than one-fifth of its weight.</li>\n</ul>\n<p>&nbsp;</p>\n<table class=\"right\" cellspacing=\"0\">\n<tbody>\n<tr>\n<th style=\"text-align: center;\">Round</th>\n<th style=\"text-align: left;\" align=\"left\">Metal Temperature</th>\n<th style=\"text-align: left;\" align=\"left\">Damage</th>\n</tr>\n<tr>\n<td style=\"text-align: center;\" align=\"center\">1</td>\n<td style=\"text-align: left;\">Warm</td>\n<td style=\"text-align: left;\">None</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\" align=\"center\">2</td>\n<td style=\"text-align: left;\">Hot</td>\n<td style=\"text-align: left;\"><a class=\"diceRoller\" title=\"Roll the dice!\">1d4</a> points</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\" align=\"center\">3-5</td>\n<td style=\"text-align: left;\">Searing</td>\n<td style=\"text-align: left;\"><a class=\"diceRoller\" title=\"Roll the dice!\">2d4</a> points</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\" align=\"center\">6</td>\n<td style=\"text-align: left;\">Hot</td>\n<td style=\"text-align: left;\"><a class=\"diceRoller\" title=\"Roll the dice!\">1d4</a> points</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\" align=\"center\">7</td>\n<td style=\"text-align: left;\">Warm</td>\n<td style=\"text-align: left;\">None</td>\n</tr>\n</tbody>\n</table>\n<p>On the first round of the spell, the metal becomes warm and uncomfortable to touch but deals no damage. The same effect also occurs on the last round of the spell&rsquo;s duration. During the second (and also the next-to-last) round, intense heat causes pain and damage. In the third, fourth, and fifth rounds, the metal is searing hot, causing more damage, as shown on the table below.</p>\n<p>Any cold intense enough to damage the creature negates fire damage from the spell (and vice versa) on a point-for-point basis. If cast underwater, heat metal deals half damage and boils the surrounding water.</p>\n<p>Heat metal counters and dispels <a class=\"spell\" href=\"https://www.d20srd.org/srd/spells/chillMetal.htm\">chill metal</a>.</p>\n<p>&nbsp;</p>"
+		},
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"epic": "",
+		"hideFromToken": false,
+		"identifiedName": "Heat Metal",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"level": "",
+		"light": {
+			"alpha": 0.5,
+			"animationIntensity": "",
+			"animationSpeed": "",
+			"color": "",
+			"dimRadius": "",
+			"emitLight": false,
+			"lightAngle": 360,
+			"opacity": 0,
+			"radius": 0,
+			"type": ""
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 4,
+		"perRoundActions": [
+			{
+				"action": "SelfDamage ((2==2)?(1d1):(2d1)) on self;",
+				"condition": "",
+				"img": "",
+				"name": ""
+			}
+		],
+		"possibleUpdate": false,
+		"psionic": "",
+		"range": {
+			"units": "",
+			"value": null
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requirements": [
+		],
+		"requiresPsionicFocus": false,
+		"resistances": [
+		],
+		"senses": {
+			"blindsight": null,
+			"darkvision": null,
+			"lowLight": false,
+			"lowLightMultiplier": null,
+			"tremorsense": null,
+			"truesight": null
+		},
+		"shapechange": {
+			"source": {
+			},
+			"type": "polymorph"
+		},
+		"sizeOverride": "",
+		"source": "",
+		"specialActions": [
+		],
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"timeline": {
+			"deleteOnExpiry": false,
+			"elapsed": 3,
+			"enabled": true,
+			"formula": "7",
+			"tickOnEnd": false,
+			"total": 7
+		},
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": null,
+			"rechargeFormula": null,
+			"value": 0
+		}
+	},
+	"type": "buff"
+}

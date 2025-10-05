@@ -1,0 +1,258 @@
+{
+	"_id": "XVhSlCm7lJhQ7XPC",
+	"_key": "!items!XVhSlCm7lJhQ7XPC",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/spells/buffs/buff/gaseous-form.png",
+	"name": "Gaseous Form",
+	"system": {
+		"activateActions": [
+		],
+		"activation": {
+			"cost": 1,
+			"type": ""
+		},
+		"active": true,
+		"addedLevel": 0,
+		"attackParts": [
+		],
+		"buffType": "temp",
+		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
+			"heavyArmorFullSpeed": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+			[
+				"10",
+				"speed",
+				"flySpeed",
+				"replace"
+			],
+			[
+				"100",
+				"misc",
+				"fortification",
+				"untyped"
+			],
+			[
+				"-@attributes.speed.land.total",
+				"speed",
+				"landSpeed",
+				"penalty"
+			],
+			[
+				"-@attributes.speed.swim.total",
+				"speed",
+				"swimSpeed",
+				"penalty"
+			],
+			[
+				"-@attributes.speed.burrow.total",
+				"speed",
+				"burrowSpeed",
+				"untyped"
+			],
+			[
+				"-@attributes.speed.climb.total",
+				"speed",
+				"climbSpeed",
+				"untyped"
+			]
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damagePool": {
+			"current": 0,
+			"deleteOnDamagePoolEmpty": false,
+			"enabled": false,
+			"formula": "",
+			"max": 0
+		},
+		"damageReduction": [
+			[
+				"10",
+				"magic",
+				false
+			]
+		],
+		"deactivateActions": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p><em style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">This buff only tracks the duration of the spell.</em></p>\n<hr />\n<p>&nbsp; The subject and all its gear become insubstantial, misty, and translucent. Its material armor (including natural armor) becomes worthless, though its size, Dexterity, <a href=\"https://www.d20srd.org/srd/theBasics.htm#deflectionBonus\">deflection bonuses</a>, and <a href=\"https://www.d20srd.org/srd/theBasics.htm#armorBonus\">armor bonuses</a> from force effects still apply. The subject gains <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#damageReduction\">damage reduction</a> 10/magic and becomes immune to <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#poison\">poison</a> and <a href=\"https://www.d20srd.org/srd/combat/actionsInCombat.htm#criticalHits\">critical hits</a>. It can&rsquo;t attack or cast spells with verbal, somatic, material, or focus components while in <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#gaseousForm\">gaseous form</a>. (This does not rule out the use of certain spells that the subject may have prepared using the feats <a href=\"https://www.d20srd.org/srd/feats.htm#silentSpell\">Silent Spell</a>, <a href=\"https://www.d20srd.org/srd/feats.htm#stillSpell\">Still Spell</a>, and <a href=\"https://www.d20srd.org/srd/feats.htm#eschewMaterials\">Eschew Materials</a>.) The subject also loses <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#supernaturalAbilities\">supernatural abilities</a> while in gaseous form. If it has a touch spell ready to use, that spell is discharged harmlessly when the gaseous form spell takes effect.</p>\n<p>&nbsp;</p>\n<p>A gaseous creature can&rsquo;t <a href=\"https://www.d20srd.org/srd/combat/actionsInCombat.htm#run\">run</a>, but it can fly at a speed of 10 feet (maneuverability perfect). It can pass through small holes or narrow openings, even mere cracks, with all it was wearing or holding in its hands, as long as the spell persists. The creature is subject to the effects of wind, and it can&rsquo;t enter water or other liquid. It also can&rsquo;t manipulate objects or activate items, even those carried along with its gaseous form. Continuously active items remain active, though in some cases their effects may be moot.&nbsp;</p>"
+		},
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"epic": "",
+		"hideFromToken": false,
+		"identifiedName": "Gaseous Form",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"level": "",
+		"light": {
+			"alpha": 0.5,
+			"animationIntensity": "",
+			"animationSpeed": "",
+			"color": "",
+			"dimRadius": "",
+			"emitLight": false,
+			"lightAngle": 360,
+			"opacity": 0,
+			"radius": 0,
+			"type": ""
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 4,
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"psionic": "",
+		"range": {
+			"units": "",
+			"value": null
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requirements": [
+		],
+		"requiresPsionicFocus": false,
+		"resistances": [
+		],
+		"senses": {
+			"blindsight": null,
+			"darkvision": null,
+			"lowLight": false,
+			"lowLightMultiplier": null,
+			"tremorsense": null,
+			"truesight": null
+		},
+		"shapechange": {
+			"source": {
+			},
+			"type": "polymorph"
+		},
+		"sizeOverride": "",
+		"source": "",
+		"specialActions": [
+		],
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"timeline": {
+			"deleteOnExpiry": true,
+			"elapsed": 0,
+			"enabled": true,
+			"formula": "@item.level*20",
+			"tickOnEnd": false,
+			"total": 20
+		},
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": null,
+			"rechargeFormula": null,
+			"value": 0
+		}
+	},
+	"type": "buff"
+}
