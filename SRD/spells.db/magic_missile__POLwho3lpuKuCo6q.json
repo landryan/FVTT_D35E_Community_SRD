@@ -1,7 +1,8 @@
 {
 	"_id": "POLwho3lpuKuCo6q",
 	"_key": "!items!POLwho3lpuKuCo6q",
-	"effects": [],
+	"effects": [
+	],
 	"folder": null,
 	"img": "systems/D35E/icons/spells/named-spells/magic-missile.png",
 	"name": "Magic Missile",
@@ -16,26 +17,31 @@
 			"vsTouchAc": false
 		},
 		"actionType": "other",
-		"activateActions": [],
+		"activateActions": [
+		],
 		"activation": {
 			"cost": 1,
 			"type": "standard"
 		},
+		"atWill": false,
 		"attack": {
-			"parts": []
+			"parts": [
+			]
 		},
 		"attackBonus": "",
 		"attackCountFormula": "max(min(5,ceil(@cl/2)),1)",
 		"attackNotes": "",
-		"attackParts": [],
-		"atWill": false,
+		"attackParts": [
+		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
 		"castTime": "",
-		"changes": [],
-		"classSource": "",
+		"changes": [
+		],
 		"clOffset": 0,
-		"combatChanges": [],
+		"classSource": "",
+		"combatChanges": [
+		],
 		"components": {
 			"divineFocus": 0,
 			"focus": false,
@@ -44,18 +50,22 @@
 			"value": "",
 			"verbal": true
 		},
-		"conditionals": [],
+		"conditionals": [
+		],
 		"container": "None",
 		"containerWeightless": false,
-		"contextNotes": [],
+		"contextNotes": [
+		],
 		"createdBy": "",
 		"critConfirmBonus": "",
-		"customAttributes": {},
+		"customAttributes": {
+		},
 		"customAttributesLocked": false,
 		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
-			"alternativeParts": [],
+			"alternativeParts": [
+			],
 			"parts": [
 				[
 					"1d4+1",
@@ -64,8 +74,10 @@
 				]
 			]
 		},
-		"damageReduction": [],
-		"deactivateActions": [],
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
@@ -89,7 +101,8 @@
 		"isPower": false,
 		"isSpellSpontaneousReplacement": false,
 		"learnedAt": {
-			"bloodline": [],
+			"bloodline": [
+			],
 			"class": [
 				[
 					"Wizard",
@@ -100,20 +113,23 @@
 					1
 				]
 			],
-			"domain": [],
-			"elementalSchool": [],
-			"subDomain": []
+			"domain": [
+			],
+			"elementalSchool": [
+			],
+			"subDomain": [
+			]
 		},
 		"level": 1,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
 		"linkedChargeItem": {
 			"id": null,
 			"img": null,
 			"name": null
 		},
-		"linkId": "",
-		"linkImported": false,
-		"linkSourceId": "",
-		"linkSourceName": "",
 		"materials": {
 			"consumed": {
 				"_deprecated": true,
@@ -167,7 +183,8 @@
 			"formula": ""
 		},
 		"requiresPsionicFocus": false,
-		"resistances": [],
+		"resistances": [
+		],
 		"rollTableDraw": {
 			"formula": "",
 			"id": "",
@@ -189,11 +206,11 @@
 		"slOffset": 0,
 		"snip": "1d4+1 damage; +1 missile per two levels above 1st (max 5).",
 		"source": "",
-		"specialActions": [],
+		"specialActions": [
+		],
 		"specialId": null,
 		"specialPrepared": false,
 		"spellArea": "",
-		"spellbook": "primary",
 		"spellDuration": "Instantaneous",
 		"spellDurationData": {
 			"dismissable": false,
@@ -205,10 +222,13 @@
 			"_deprecated": true,
 			"value": ""
 		},
+		"spellbook": "primary",
 		"sr": true,
 		"subschool": "",
-		"summon": [],
-		"tags": [],
+		"summon": [
+		],
+		"tags": [
+		],
 		"target": {
 			"value": "up to five creatures, no two of which can be more than 15 ft. apart"
 		},
