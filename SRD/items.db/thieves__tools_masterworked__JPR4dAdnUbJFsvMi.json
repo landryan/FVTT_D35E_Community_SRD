@@ -7,9 +7,41 @@
 	"img": "systems/D35E/icons/items/inventory/Loot_131.png",
 	"name": "Thieves’ tools masterworked",
 	"system": {
+		"ability": {
+			"attack": null,
+			"critMult": 2,
+			"critRange": "20",
+			"damage": null,
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"actionType": "",
+		"activateActions": [
+		],
+		"activation": {
+			"cost": null,
+			"type": ""
+		},
+		"addedLevel": 0,
+		"armor": {
+			"acp": 0,
+			"dex": "",
+			"enh": 0,
+			"value": 0
+		},
+		"armorType": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
 		"attackParts": [
 		],
+		"autoscaleAttackParts": "",
 		"bagOfHoldingLike": false,
+		"baseCl": "0",
 		"bonus": {
 			"_deprecated": true,
 			"value": 0
@@ -20,33 +52,91 @@
 		"bonusAmmoDamageType": "",
 		"bonusAmmoDamageUid": "",
 		"bonusAmmoEnhancement": "",
-		"brokenResalePrice": "",
+		"brokenResalePrice": null,
 		"capacity": 0,
 		"carried": true,
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
 			"noDex": false,
 			"noEncumbrance": false,
+			"noInt": false,
 			"noStr": false,
 			"oneCha": false,
 			"oneInt": false,
-			"oneWis": false
+			"oneWis": false,
+			"uncannyDodge": false
 		},
 		"changes": [
+			[
+				"2",
+				"skill",
+				"skill.dev",
+				"circumstance"
+			],
+			[
+				"2",
+				"skill",
+				"skill.opl",
+				"circumstance"
+			]
 		],
 		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
 		"constantWeight": false,
-		"container": "",
+		"container": "None",
 		"containerCanUseItems": false,
-		"containerId": "",
+		"containerId": "none",
 		"containerWeightless": false,
 		"contextNotes": [
 		],
+		"convertedWeight": 2,
+		"counterName": "",
 		"createdBy": "",
 		"creationChanges": [
 		],
+		"critConfirmBonus": "",
 		"curseActive": false,
 		"cursed": false,
 		"customAttributes": {
@@ -55,6 +145,8 @@
 		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
+			"alternativeParts": [
+			],
 			"parts": [
 			]
 		},
@@ -66,19 +158,47 @@
 			"_deprecated": true,
 			"value": ""
 		},
+		"damageReduction": [
+		],
 		"damageType": {
 			"_deprecated": true,
 			"value": ""
 		},
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
 			"value": "<p>This kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on Disable Device and Open Lock checks.</p>"
 		},
+		"effectNotes": "",
 		"enh": null,
+		"enhancements": {
+			"automation": {
+				"updateName": false,
+				"updatePrice": false
+			},
+			"clFormula": "",
+			"items": [
+			],
+			"spellcastingAbility": "",
+			"uses": {
+				"allowMultipleUses": false,
+				"autoDeductCharges": true,
+				"commonPool": false,
+				"max": 0,
+				"per": null,
+				"rechargeFormula": null,
+				"value": 0
+			}
+		},
 		"epic": "",
+		"equipmentSubtype": "other",
+		"equipmentType": "misc",
 		"equipped": true,
 		"equippedWeightless": false,
+		"favorite": false,
+		"formula": "",
 		"fullResalePrice": false,
 		"hardness": 0,
 		"hp": {
@@ -89,13 +209,27 @@
 		"identifiedCurse": false,
 		"identifiedName": "Thieves’ tools masterworked",
 		"index": {
-			"subType": null,
+			"subType": "gear",
 			"uniqueId": ""
+		},
+		"light": {
+			"alpha": 0.5,
+			"animationIntensity": 6,
+			"animationSpeed": 6,
+			"color": "#000000",
+			"dimRadius": null,
+			"emitLight": false,
+			"lightAngle": 360,
+			"opacity": 0,
+			"radius": 0,
+			"type": ""
 		},
 		"linkId": "",
 		"linkImported": false,
 		"linkSourceId": "",
 		"linkSourceName": "",
+		"linkedItems": [
+		],
 		"lootData": {
 			"critMult": "2",
 			"critRange": "20",
@@ -105,16 +239,167 @@
 		},
 		"lootSubtype": "other",
 		"lootType": "misc",
-		"masterwork": false,
+		"masterwork": true,
 		"material": {
-			"data": null
+			"_id": "3BjppeGWC0CRxJs1",
+			"_stats": {
+				"coreVersion": null,
+				"createdTime": null,
+				"lastModifiedBy": null,
+				"modifiedTime": null,
+				"systemId": null,
+				"systemVersion": null
+			},
+			"data": null,
+			"effects": [
+			],
+			"flags": {
+			},
+			"folder": null,
+			"img": "icons/commodities/metal/ingot-iron.webp",
+			"name": "Iron",
+			"ownership": {
+				"default": 0
+			},
+			"sort": 0,
+			"system": {
+				"activateActions": [
+				],
+				"attackParts": [
+				],
+				"baseWeaponType": "",
+				"changeFlags": {
+					"heavyArmorFullSpeed": false,
+					"loseDexToAC": false,
+					"mediumArmorFullSpeed": false,
+					"multiAttack": false,
+					"multiweaponAttack": false,
+					"noCon": false,
+					"noDex": false,
+					"noEncumbrance": false,
+					"noInt": false,
+					"noStr": false,
+					"oneCha": false,
+					"oneInt": false,
+					"oneWis": false
+				},
+				"changes": [
+				],
+				"combatChangeCustomDisplayName": "",
+				"combatChangeCustomReferenceName": "",
+				"combatChanges": [
+				],
+				"combatChangesAdditionalRanges": {
+					"hasAdditionalRanges": false,
+					"slider1": {
+						"max": 0,
+						"maxFormula": "",
+						"name": ""
+					},
+					"slider2": {
+						"max": 0,
+						"maxFormula": "",
+						"name": ""
+					},
+					"slider3": {
+						"max": 0,
+						"maxFormula": "",
+						"name": ""
+					}
+				},
+				"combatChangesApplySpecialActionsOnce": true,
+				"combatChangesRange": {
+					"max": 0,
+					"maxFormula": ""
+				},
+				"combatChangesUsesCost": "chargesPerUse",
+				"conditionFlags": {
+					"dazzled": false,
+					"polymorphed": false,
+					"wildshaped": false
+				},
+				"conditionals": [
+				],
+				"container": "None",
+				"containerWeightless": false,
+				"contextNotes": [
+				],
+				"counterName": "",
+				"createdBy": "",
+				"creationChanges": [
+				],
+				"customReferenceId": "",
+				"damage": {
+					"alternativeParts": [
+					],
+					"parts": [
+					]
+				},
+				"damageReduction": [
+				],
+				"deactivateActions": [
+				],
+				"description": {
+					"value": ""
+				},
+				"hardness": "10",
+				"hpPerInch": "30",
+				"identifiedName": "Iron",
+				"identifiers": [
+				],
+				"index": {
+					"subType": null,
+					"uniqueId": "mat-iron"
+				},
+				"isAdamantineEquivalent": false,
+				"isAlchemicalSilverEquivalent": false,
+				"isColdIronEquivalent": false,
+				"magicEquivalent": 0,
+				"originVersion": 3,
+				"perRoundActions": [
+				],
+				"priceDifference": 0,
+				"requirements": [
+				],
+				"resistances": [
+				],
+				"sizeOverride": "",
+				"slug": "damage",
+				"specialActions": [
+				],
+				"uniqueId": "mat-iron"
+			},
+			"type": "material"
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": "",
+			"type": ""
+		},
+		"melded": false,
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
 		},
 		"nameFormula": "",
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 99,
+		"originVersion": 113,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
+		"pr": false,
 		"price": 100,
 		"properties": {
 			"blc": false,
@@ -133,11 +418,44 @@
 		},
 		"psionic": "",
 		"quantity": 1,
-		"resalePrice": "",
+		"requirements": [
+		],
+		"resalePrice": null,
+		"resistances": [
+		],
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": 0,
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "",
+			"type": ""
+		},
+		"selectedMaterial": "mat-iron",
+		"senses": {
+			"blindsight": null,
+			"darkvision": null,
+			"lowLight": false,
+			"lowLightMultiplier": null,
+			"tremorsense": null,
+			"truesight": null
+		},
+		"sizeOverride": "",
+		"slot": "slotless",
 		"source": "",
 		"specialActions": [
 		],
+		"spellFailure": 0,
+		"sr": false,
 		"subType": "gear",
+		"summon": [
+		],
 		"tags": [
 		],
 		"unidentified": {
@@ -148,5 +466,5 @@
 		"userNonRemovable": false,
 		"weight": 2
 	},
-	"type": "loot"
+	"type": "equipment"
 }
