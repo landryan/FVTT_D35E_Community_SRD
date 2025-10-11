@@ -7,6 +7,9 @@
 	"img": "systems/D35E/icons/items/inventory/Blacksmith_29_horseshoe.png",
 	"name": "Saddlebags",
 	"system": {
+		"activateActions": [
+		],
+		"addedLevel": 0,
 		"attackParts": [
 		],
 		"bagOfHoldingLike": false,
@@ -20,8 +23,8 @@
 		"bonusAmmoDamageType": "",
 		"bonusAmmoDamageUid": "",
 		"bonusAmmoEnhancement": "",
-		"brokenResalePrice": "",
-		"capacity": 0,
+		"brokenResalePrice": null,
+		"capacity": 40,
 		"carried": true,
 		"changeFlags": {
 			"heavyArmorFullSpeed": false,
@@ -37,13 +40,19 @@
 		"changes": [
 		],
 		"classSource": "",
+		"combatChanges": [
+		],
+		"conditionals": [
+		],
 		"constantWeight": false,
-		"container": "",
+		"container": "None",
 		"containerCanUseItems": false,
-		"containerId": "",
+		"containerId": "none",
 		"containerWeightless": false,
 		"contextNotes": [
 		],
+		"convertedCapacity": 40,
+		"convertedWeight": 8,
 		"createdBy": "",
 		"creationChanges": [
 		],
@@ -55,6 +64,8 @@
 		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
+			"alternativeParts": [
+			],
 			"parts": [
 			]
 		},
@@ -66,10 +77,14 @@
 			"_deprecated": true,
 			"value": ""
 		},
+		"damageReduction": [
+		],
 		"damageType": {
 			"_deprecated": true,
 			"value": ""
 		},
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
@@ -113,7 +128,9 @@
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 99,
+		"originVersion": 101,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"price": 4,
 		"properties": {
@@ -133,11 +150,17 @@
 		},
 		"psionic": "",
 		"quantity": 1,
-		"resalePrice": "",
+		"requirements": [
+		],
+		"resalePrice": null,
+		"resistances": [
+		],
 		"source": "",
 		"specialActions": [
 		],
-		"subType": "gear",
+		"subType": "container",
+		"summon": [
+		],
 		"tags": [
 		],
 		"unidentified": {
