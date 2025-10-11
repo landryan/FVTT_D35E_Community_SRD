@@ -7,6 +7,9 @@
 	"img": "systems/D35E/icons/items/inventory/Loot_35.png",
 	"name": "Pouch, belt",
 	"system": {
+		"activateActions": [
+		],
+		"addedLevel": 0,
 		"attackParts": [
 		],
 		"bagOfHoldingLike": false,
@@ -20,8 +23,8 @@
 		"bonusAmmoDamageType": "",
 		"bonusAmmoDamageUid": "",
 		"bonusAmmoEnhancement": "",
-		"brokenResalePrice": "",
-		"capacity": 0,
+		"brokenResalePrice": null,
+		"capacity": 10,
 		"carried": true,
 		"changeFlags": {
 			"heavyArmorFullSpeed": false,
@@ -37,6 +40,10 @@
 		"changes": [
 		],
 		"classSource": "",
+		"combatChanges": [
+		],
+		"conditionals": [
+		],
 		"constantWeight": false,
 		"container": "None",
 		"containerCanUseItems": false,
@@ -44,6 +51,8 @@
 		"containerWeightless": false,
 		"contextNotes": [
 		],
+		"convertedCapacity": 10,
+		"convertedWeight": 0.5,
 		"createdBy": "",
 		"creationChanges": [
 		],
@@ -55,6 +64,8 @@
 		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
+			"alternativeParts": [
+			],
 			"parts": [
 			]
 		},
@@ -66,10 +77,14 @@
 			"_deprecated": true,
 			"value": ""
 		},
+		"damageReduction": [
+		],
 		"damageType": {
 			"_deprecated": true,
 			"value": ""
 		},
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
@@ -113,7 +128,9 @@
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 99,
+		"originVersion": 100,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"price": 1,
 		"properties": {
@@ -133,11 +150,17 @@
 		},
 		"psionic": "",
 		"quantity": 1,
-		"resalePrice": "",
+		"requirements": [
+		],
+		"resalePrice": null,
+		"resistances": [
+		],
 		"source": "",
 		"specialActions": [
 		],
 		"subType": "container",
+		"summon": [
+		],
 		"tags": [
 		],
 		"unidentified": {
