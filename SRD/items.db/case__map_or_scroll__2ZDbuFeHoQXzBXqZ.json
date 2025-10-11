@@ -7,10 +7,13 @@
 	"img": "systems/D35E/icons/items/inventory/Quest_16.png",
 	"name": "Case, map or scroll",
 	"system": {
+		"activateActions": [
+		],
 		"activation": {
 			"cost": "",
 			"type": ""
 		},
+		"addedLevel": 0,
 		"armor": {
 			"acp": 0,
 			"dex": null,
@@ -34,7 +37,7 @@
 		"bonusAmmoDamageType": "",
 		"bonusAmmoDamageUid": "",
 		"bonusAmmoEnhancement": "",
-		"brokenResalePrice": "",
+		"brokenResalePrice": null,
 		"capacity": 0,
 		"carried": true,
 		"changeFlags": {
@@ -51,13 +54,18 @@
 		"changes": [
 		],
 		"classSource": "",
+		"combatChanges": [
+		],
+		"conditionals": [
+		],
 		"constantWeight": false,
-		"container": "",
+		"container": "None",
 		"containerCanUseItems": false,
-		"containerId": "",
+		"containerId": "none",
 		"containerWeightless": false,
 		"contextNotes": [
 		],
+		"convertedWeight": 0.5,
 		"createdBy": "",
 		"creationChanges": [
 		],
@@ -69,9 +77,15 @@
 		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
+			"alternativeParts": [
+			],
 			"parts": [
 			]
 		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
@@ -109,18 +123,26 @@
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 99,
+		"originVersion": 100,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"price": 1,
 		"psionic": "",
 		"quantity": 1,
-		"resalePrice": "",
+		"requirements": [
+		],
+		"resalePrice": null,
+		"resistances": [
+		],
 		"slot": "body",
 		"source": "",
 		"specialActions": [
 		],
 		"spellFailure": 0,
-		"subType": "gear",
+		"subType": "container",
+		"summon": [
+		],
 		"tags": [
 		],
 		"unidentified": {
