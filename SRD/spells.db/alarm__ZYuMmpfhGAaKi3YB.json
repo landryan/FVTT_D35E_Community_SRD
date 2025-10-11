@@ -4,7 +4,7 @@
 	"effects": [
 	],
 	"folder": null,
-	"img": "systems/D35E/icons/spells/school/abj.png",
+	"img": "icons/tools/instruments/bell-brass-brown.webp",
 	"name": "Alarm",
 	"system": {
 		"ability": {
@@ -23,6 +23,7 @@
 			"cost": 1,
 			"type": "standard"
 		},
+		"addedLevel": 0,
 		"atWill": false,
 		"attack": {
 			"parts": [
@@ -85,7 +86,7 @@
 			"units": "",
 			"value": null
 		},
-		"effectNotes": "Alarm lasts for [[(@cl)]] hours.",
+		"effectNotes": "Alarm lasts for [[(@cl*2)]] hours.",
 		"epic": "",
 		"favorite": false,
 		"formula": "",
@@ -166,7 +167,7 @@
 		"nameFromFormula": false,
 		"originId": "ZYuMmpfhGAaKi3YB",
 		"originPack": "D35E.spells",
-		"originVersion": 108,
+		"originVersion": 113,
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,
@@ -222,9 +223,9 @@
 		"spellArea": "20-ft.-radius emanation centered on a point in space",
 		"spellDuration": "2 hours/level (D)",
 		"spellDurationData": {
-			"dismissable": false,
+			"dismissable": true,
 			"units": "hourPerLevel",
-			"value": "2*@cl"
+			"value": "2"
 		},
 		"spellEffect": "",
 		"spellType": {
