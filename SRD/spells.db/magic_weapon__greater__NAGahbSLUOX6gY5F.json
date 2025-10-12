@@ -217,10 +217,34 @@
 		"source": "",
 		"specialActions": [
 			{
-				"action": "Create unique \"Magic Weapon, Greater\" from \"D35E.commonbuffs\" on target;Set buff \"Magic Weapon, Greater\" field data.level to max(1,(@cl)) on target;Activate buff \"Magic Weapon, Greater\" on target",
-				"condition": "",
-				"img": "systems/D35E/icons/spells/named-spells/magic-weapon-greater.png",
-				"name": "Magic Weapon, Greater"
+				"action": "Create unique \"Magic Weapon, Greater +1\" from \"D35E.commonbuffs\" on target;Set buff \"Magic Weapon, Greater +1\" field data.level to max(1,(@cl)) on target;Activate buff \"Magic Weapon, Greater +1\" on target",
+				"condition": "@cl > 3 && @cl < 8",
+				"img": "systems/D35E/icons/spells/buffs/buff/magic-weapon-greater.png",
+				"name": "Magic Weapon, Greater +1"
+			},
+			{
+				"action": "Create unique \"Magic Weapon, Greater +2\" from \"D35E.commonbuffs\" on target;Set buff \"Magic Weapon, Greater +2\" field data.level to max(1,(@cl)) on target;Activate buff \"Magic Weapon, Greater +2\" on target",
+				"condition": "@cl > 7 && @cl < 12",
+				"img": "systems/D35E/icons/spells/buffs/buff/magic-weapon-greater.png",
+				"name": "Magic Weapon, Greater +2"
+			},
+			{
+				"action": "Create unique \"Magic Weapon, Greater +3\" from \"D35E.commonbuffs\" on target;Set buff \"Magic Weapon, Greater +3\" field data.level to max(1,(@cl)) on target;Activate buff \"Magic Weapon, Greater +3\" on target",
+				"condition": "@cl > 11 && @cl < 16",
+				"img": "systems/D35E/icons/spells/buffs/buff/magic-weapon-greater.png",
+				"name": "Magic Weapon, Greater +3"
+			},
+			{
+				"action": "Create unique \"Magic Weapon, Greater +4\" from \"D35E.commonbuffs\" on target;Set buff \"Magic Weapon, Greater +4\" field data.level to max(1,(@cl)) on target;Activate buff \"Magic Weapon, Greater +4\" on target",
+				"condition": "@cl > 15 && @cl < 20",
+				"img": "systems/D35E/icons/spells/buffs/buff/magic-weapon-greater.png",
+				"name": "Magic Weapon, Greater +4"
+			},
+			{
+				"action": "Create unique \"Magic Weapon, Greater +5\" from \"D35E.commonbuffs\" on target;Set buff \"Magic Weapon, Greater +5\" field data.level to max(1,(@cl)) on target;Activate buff \"Magic Weapon, Greater +5\" on target",
+				"condition": "@cl > 19",
+				"img": "systems/D35E/icons/spells/buffs/buff/magic-weapon-greater.png",
+				"name": "Magic Weapon, Greater +5"
 			}
 		],
 		"specialId": null,

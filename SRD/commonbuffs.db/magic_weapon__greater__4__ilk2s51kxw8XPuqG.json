@@ -1,11 +1,11 @@
 {
-	"_id": "j40SVnqoOi89Q1yo",
-	"_key": "!items!j40SVnqoOi89Q1yo",
+	"_id": "ilk2s51kxw8XPuqG",
+	"_key": "!items!ilk2s51kxw8XPuqG",
 	"effects": [
 	],
 	"folder": "UY9tBTFGXYFt0KrO",
-	"img": "systems/D35E/icons/spells/buffs/buff/magic-weapon.png",
-	"name": "Magic Weapon",
+	"img": "systems/D35E/icons/spells/buffs/buff/magic-weapon-greater.png",
+	"name": "Magic Weapon, Greater +4",
 	"system": {
 		"activateActions": [
 		],
@@ -13,7 +13,7 @@
 			"cost": 1,
 			"type": ""
 		},
-		"active": false,
+		"active": true,
 		"addedLevel": 0,
 		"attackParts": [
 		],
@@ -47,7 +47,7 @@
 				"",
 				"",
 				"$item.enh",
-				"1",
+				"4",
 				""
 			]
 		],
@@ -75,6 +75,7 @@
 			"maxFormula": ""
 		},
 		"combatChangesUsesCost": "chargesPerUse",
+		"combatChanges[0][4]": 4,
 		"conditionFlags": {
 			"dazzled": false,
 			"polymorphed": false,
@@ -114,7 +115,7 @@
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "<p><em>Magic weapon </em>gives a weapon a +1 enhancement bonus on attack and damage rolls. (An enhancement bonus does not stack with a masterwork weapon&rsquo;s +1 bonus on attack rolls.)</p>\n<p>You can&rsquo;t cast this spell on a natural weapon, such as an unarmed strike (instead, see <em>magic fang</em>). A monk&rsquo;s unarmed strike is considered a weapon, and thus it can be enhanced by this spell.</p>\n<p>&nbsp;</p>"
+			"value": "<p><em>Magic weapon </em>gives a weapon a +1 per four caster levels (maximum +5) enhancement bonus on attack and damage rolls. (An enhancement bonus does not stack with a masterwork weapon&rsquo;s +1 bonus on attack rolls.)</p>\n<p>You can&rsquo;t cast this spell on a natural weapon, such as an unarmed strike (instead, see <em>magic fang</em>). A monk&rsquo;s unarmed strike is considered a weapon, and thus it can be enhanced by this spell.</p>\n<p>Alternatively, you can affect as many as fifty arrows, bolts, or bullets. The projectiles must be of the same kind, and they have to be together (in the same quiver or other container). Projectiles, but not thrown weapons, lose their transmutation when used. (Treat shuriken as projectiles, rather than as thrown weapons, for the purpose of this spell.)</p>"
 		},
 		"duration": {
 			"units": "",
@@ -122,11 +123,7 @@
 		},
 		"epic": "",
 		"hideFromToken": false,
-		"identifiedName": "Magic Weapon",
-		"index": {
-			"subType": null,
-			"uniqueId": ""
-		},
+		"identifiedName": "Magic Weapon, Greater +4",
 		"level": "",
 		"light": {
 			"alpha": 0.5,
@@ -151,14 +148,15 @@
 		},
 		"nameFormula": "",
 		"nameFromFormula": false,
-		"originId": "",
-		"originPack": "",
-		"originVersion": 4,
+		"originId": "j40SVnqoOi89Q1yo",
+		"originPack": "D35E.commonbuffs",
+		"originVersion": 5,
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,
 		"psionic": "",
 		"range": {
+			"long": null,
 			"units": "",
 			"value": null
 		},
@@ -200,9 +198,9 @@
 			"deleteOnExpiry": true,
 			"elapsed": 0,
 			"enabled": true,
-			"formula": "@item.level * 10",
+			"formula": "@item.level * 600",
 			"tickOnEnd": false,
-			"total": 10
+			"total": 600
 		},
 		"uniqueId": "",
 		"userNonRemovable": false,
@@ -218,7 +216,7 @@
 			"maxPerUseFormula": "",
 			"per": null,
 			"rechargeFormula": null,
-			"value": 0
+			"value": -1
 		}
 	},
 	"type": "buff"
