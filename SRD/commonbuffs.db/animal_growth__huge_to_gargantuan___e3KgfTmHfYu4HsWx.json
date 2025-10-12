@@ -1,11 +1,11 @@
 {
-	"_id": "fVvYc9d4anGIcqXo",
-	"_key": "!items!fVvYc9d4anGIcqXo",
+	"_id": "e3KgfTmHfYu4HsWx",
+	"_key": "!items!e3KgfTmHfYu4HsWx",
 	"effects": [
 	],
-	"folder": null,
+	"folder": "nACXPP6QOB8xTroP",
 	"img": "systems/D35E/icons/spells/buffs/buff/animal-growth.png",
-	"name": "Animal Growth",
+	"name": "Animal Growth (Huge to Gargantuan)",
 	"system": {
 		"activateActions": [
 		],
@@ -61,6 +61,12 @@
 				"savingThrows",
 				"allSavingThrows",
 				"resist"
+			],
+			[
+				"2",
+				"ac",
+				"nac",
+				"size"
 			]
 		],
 		"classSource": "",
@@ -136,7 +142,7 @@
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "<p>WARNING: THIS BUFF IS DEPRECATED. UPDATE ANIMAL GROWTH SPELLS ON SHEETS WITH THE NEW VERSION IN THE COMPENDIUM:</p>\n<p>@UUID[Compendium.D35E.spells.Item.ilnVJaj25TPxuWBF]{Animal Growth}</p>"
+			"value": "<p>A number of animals grow to twice their normal size and eight times their normal weight. This alteration changes each animal&rsquo;s size category to the next largest, grants it a +8 size bonus to Strength and a +4 size bonus to Constitution (and thus an extra 2 hit points per HD), and imposes a &ndash;2 size penalty to Dexterity. The creature&rsquo;s existing natural armor bonus increases by 2. The size change also affects the animal&rsquo;s modifier to AC and attack rolls and its base damage. The animal&rsquo;s space and reach change as appropriate to the new size, but its speed does not change.</p>\n<p>The spell also grants each subject damage reduction 10/magic and a +4 resistance bonus on saving throws. If insufficient room is available for the desired growth, the creature attains the maximum possible size and may make a Strength check (using its increased Strength) to burst any enclosures in the process. If it fails, it is constrained without harm by the materials enclosing it&mdash; the spell cannot be used to crush a creature by increasing its size.</p>\n<p>All equipment worn or carried by an animal is similarly enlarged by the spell, though this change has no effect on the magical properties of any such equipment.</p>\n<p>Any enlarged item that leaves the enlarged creature&rsquo;s possession instantly returns to its normal size.</p>\n<p>The spell gives no means of command or influence over the enlarged animals.</p>\n<p>Multiple magical effects that increase size do not stack.</p>"
 		},
 		"duration": {
 			"units": "",
@@ -144,7 +150,7 @@
 		},
 		"epic": "",
 		"hideFromToken": false,
-		"identifiedName": "Animal Growth",
+		"identifiedName": "Animal Growth (Huge to Gargantuan)",
 		"index": {
 			"subType": null,
 			"uniqueId": ""
@@ -175,7 +181,7 @@
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 5,
+		"originVersion": 4,
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,
@@ -207,7 +213,7 @@
 			},
 			"type": "polymorph"
 		},
-		"sizeOverride": "",
+		"sizeOverride": "grg",
 		"source": "",
 		"specialActions": [
 		],
