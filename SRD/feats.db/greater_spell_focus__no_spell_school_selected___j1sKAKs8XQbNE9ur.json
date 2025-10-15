@@ -47,6 +47,7 @@
 			"firstChangeTargetSelectableOnDescription": false,
 			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -71,8 +72,9 @@
 				"spell",
 				"",
 				"'@item.school' === '@self.custom.spellschool'",
-				"featSpellDCBonus",
+				"&featSpellDCBonus",
 				"1",
+				"",
 				""
 			]
 		],
@@ -218,7 +220,7 @@
 		"nameFromFormula": true,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 114,
+		"originVersion": 115,
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,
