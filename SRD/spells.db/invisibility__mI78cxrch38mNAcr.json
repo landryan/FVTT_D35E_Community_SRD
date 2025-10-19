@@ -3,7 +3,7 @@
 	"_key": "!items!mI78cxrch38mNAcr",
 	"effects": [
 	],
-	"folder": null,
+	"folder": "ABAjrk4KqbX5KcxJ",
 	"img": "systems/D35E/icons/spells/named-spells/invisibility.png",
 	"name": "Invisibility",
 	"system": {
@@ -17,10 +17,13 @@
 			"vsTouchAc": false
 		},
 		"actionType": "other",
+		"activateActions": [
+		],
 		"activation": {
 			"cost": 1,
 			"type": "standard"
 		},
+		"addedLevel": 0,
 		"atWill": false,
 		"attack": {
 			"parts": [
@@ -34,8 +37,12 @@
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
 		"castTime": "",
+		"changes": [
+		],
 		"clOffset": 0,
 		"classSource": "",
+		"combatChanges": [
+		],
 		"components": {
 			"divineFocus": 2,
 			"focus": true,
@@ -46,7 +53,13 @@
 		},
 		"conditionals": [
 		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
 		"createdBy": "",
+		"creationChanges": [
+		],
 		"critConfirmBonus": "",
 		"customAttributes": {
 		},
@@ -59,6 +72,10 @@
 			"parts": [
 			]
 		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
@@ -154,7 +171,9 @@
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 108,
+		"originVersion": 109,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"powerPointsCost": 0,
 		"pr": false,
@@ -175,7 +194,11 @@
 			"enabled": false,
 			"formula": ""
 		},
+		"requirements": [
+		],
 		"requiresPsionicFocus": false,
+		"resistances": [
+		],
 		"rollTableDraw": {
 			"formula": "",
 			"id": "",
@@ -187,7 +210,7 @@
 			"dc": "0",
 			"dcAutoAbility": "",
 			"dcAutoType": "",
-			"description": "Will negates (harmless) or Will negates (harmless, object)\n",
+			"description": "Will negates (harmless) or Will negates (harmless, object)",
 			"originVersion": 97,
 			"type": ""
 		},
@@ -198,6 +221,12 @@
 		"snip": "Subject is invisible for 1 min./level or until it attacks.",
 		"source": "",
 		"specialActions": [
+			{
+				"action": "Create unique \"Invisible\" from \"D35E.commonbuffs\" on target;Set buff \"Invisible\" field data.level to max(1,(@cl)) on target;Activate buff \"Invisible\" on target",
+				"condition": "",
+				"img": "systems/D35E/icons/spells/named-spells/invisibility.png",
+				"name": "Invisible"
+			}
 		],
 		"specialId": null,
 		"specialPrepared": false,
@@ -206,7 +235,7 @@
 		"spellDurationData": {
 			"dismissable": false,
 			"units": "minutePerLevel",
-			"value": "1*@cl"
+			"value": "1"
 		},
 		"spellEffect": "",
 		"spellType": {
@@ -221,7 +250,7 @@
 		"tags": [
 		],
 		"target": {
-			"value": "you or a creature or object weighing no more than 100 lb./level\n"
+			"value": "you or a creature or object weighing no more than 100 lb./level"
 		},
 		"types": "",
 		"uniqueId": "",

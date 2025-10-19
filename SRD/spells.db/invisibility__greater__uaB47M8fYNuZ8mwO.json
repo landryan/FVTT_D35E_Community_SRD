@@ -3,7 +3,7 @@
 	"_key": "!items!uaB47M8fYNuZ8mwO",
 	"effects": [
 	],
-	"folder": null,
+	"folder": "ABAjrk4KqbX5KcxJ",
 	"img": "systems/D35E/icons/spells/named-spells/invisibility.png",
 	"name": "Invisibility, Greater",
 	"system": {
@@ -23,6 +23,7 @@
 			"cost": 1,
 			"type": "standard"
 		},
+		"addedLevel": 0,
 		"atWill": false,
 		"attack": {
 			"parts": [
@@ -57,6 +58,8 @@
 		"contextNotes": [
 		],
 		"createdBy": "",
+		"creationChanges": [
+		],
 		"critConfirmBonus": "",
 		"customAttributes": {
 		},
@@ -69,6 +72,8 @@
 			"parts": [
 			]
 		},
+		"damageReduction": [
+		],
 		"deactivateActions": [
 		],
 		"description": {
@@ -163,6 +168,8 @@
 		"originId": "",
 		"originPack": "",
 		"originVersion": 108,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"powerPointsCost": 0,
 		"pr": false,
@@ -183,7 +190,11 @@
 			"enabled": false,
 			"formula": ""
 		},
+		"requirements": [
+		],
 		"requiresPsionicFocus": false,
+		"resistances": [
+		],
 		"rollTableDraw": {
 			"formula": "",
 			"id": "",
@@ -206,6 +217,12 @@
 		"snip": "As invisibility, but subject can attack and stay invisible.",
 		"source": "",
 		"specialActions": [
+			{
+				"action": "Create unique \"Invisible\" from \"D35E.commonbuffs\" on target;Set buff \"Invisible\" field data.level to max(1,(@cl)) on target;Activate buff \"Invisible\" on target",
+				"condition": "",
+				"img": "systems/D35E/icons/spells/named-spells/invisibility.png",
+				"name": "Invisible"
+			}
 		],
 		"specialId": null,
 		"specialPrepared": false,

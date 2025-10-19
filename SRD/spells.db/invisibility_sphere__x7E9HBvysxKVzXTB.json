@@ -3,7 +3,7 @@
 	"_key": "!items!x7E9HBvysxKVzXTB",
 	"effects": [
 	],
-	"folder": null,
+	"folder": "ABAjrk4KqbX5KcxJ",
 	"img": "systems/D35E/icons/spells/named-spells/invisibility-sphere.png",
 	"name": "Invisibility Sphere",
 	"system": {
@@ -17,10 +17,13 @@
 			"vsTouchAc": false
 		},
 		"actionType": "other",
+		"activateActions": [
+		],
 		"activation": {
 			"cost": 1,
 			"type": "standard"
 		},
+		"addedLevel": 0,
 		"atWill": false,
 		"attack": {
 			"parts": [
@@ -34,8 +37,12 @@
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
 		"castTime": "",
+		"changes": [
+		],
 		"clOffset": 0,
 		"classSource": "",
+		"combatChanges": [
+		],
 		"components": {
 			"divineFocus": 0,
 			"focus": false,
@@ -46,7 +53,13 @@
 		},
 		"conditionals": [
 		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
 		"createdBy": "",
+		"creationChanges": [
+		],
 		"critConfirmBonus": "",
 		"customAttributes": {
 		},
@@ -59,6 +72,10 @@
 			"parts": [
 			]
 		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
@@ -130,7 +147,7 @@
 			"customTexture": "",
 			"overrideColor": false,
 			"overrideTexture": false,
-			"size": 0,
+			"size": "0",
 			"type": "circle"
 		},
 		"metamagicFeats": {
@@ -147,6 +164,8 @@
 		"originId": "",
 		"originPack": "",
 		"originVersion": 108,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"powerPointsCost": 0,
 		"pr": false,
@@ -167,7 +186,11 @@
 			"enabled": false,
 			"formula": ""
 		},
+		"requirements": [
+		],
 		"requiresPsionicFocus": false,
+		"resistances": [
+		],
 		"rollTableDraw": {
 			"formula": "",
 			"id": "",
@@ -180,7 +203,7 @@
 			"dcAutoAbility": "",
 			"dcAutoType": "",
 			"description": "Will negates (harmless) or Will negates (harmless, object)\n",
-			"originVersion": 97,
+			"originVersion": 98,
 			"type": ""
 		},
 		"school": "ill",
@@ -190,6 +213,12 @@
 		"snip": "Makes everyone within 10 ft. invisible.",
 		"source": "",
 		"specialActions": [
+			{
+				"action": "Create unique \"Invisible\" from \"D35E.commonbuffs\" on target;Set buff \"Invisible\" field data.level to max(1,(@cl)) on target;Activate buff \"Invisible\" on target",
+				"condition": "",
+				"img": "systems/D35E/icons/conditions/invisible%20(2).png",
+				"name": "Invisible"
+			}
 		],
 		"specialId": null,
 		"specialPrepared": false,
