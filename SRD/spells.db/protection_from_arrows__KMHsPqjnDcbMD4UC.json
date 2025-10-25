@@ -23,6 +23,7 @@
 			"cost": 1,
 			"type": "standard"
 		},
+		"addedLevel": 0,
 		"atWill": false,
 		"attack": {
 			"parts": [
@@ -158,7 +159,7 @@
 		"nameFromFormula": false,
 		"originId": "KMHsPqjnDcbMD4UC",
 		"originPack": "D35E.spells",
-		"originVersion": 109,
+		"originVersion": 110,
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,
@@ -211,9 +212,8 @@
 			{
 				"action": "Create unique \"Protection from Arrows\" from \"D35E.commonbuffs\" on target;Set buff \"Protection from Arrows\" field data.level to max(1,(@cl)) on target;Activate buff \"Protection from Arrows\" on target",
 				"condition": "",
-				"img": "icons/svg/item-bag.svg",
-				"name": "Protection from Arrows",
-				"range": ""
+				"img": "systems/D35E/icons/buffs/interital-armor.png",
+				"name": "Protection from Arrows"
 			}
 		],
 		"specialId": null,
