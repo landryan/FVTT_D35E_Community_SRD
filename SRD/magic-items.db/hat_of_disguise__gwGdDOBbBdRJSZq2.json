@@ -17,13 +17,16 @@
 			"vsTouchAc": false
 		},
 		"actionType": "",
+		"activateActions": [
+		],
 		"activation": {
 			"cost": null,
 			"type": ""
 		},
+		"addedLevel": 0,
 		"armor": {
 			"acp": 0,
-			"dex": null,
+			"dex": "",
 			"enh": 0,
 			"value": 0
 		},
@@ -42,10 +45,13 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
-		"brokenResalePrice": "",
+		"brokenResalePrice": null,
 		"carried": true,
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -96,12 +102,15 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"conditionals": [
+		],
 		"constantWeight": true,
 		"container": "None",
 		"containerId": "none",
 		"containerWeightless": false,
 		"contextNotes": [
 		],
+		"convertedWeight": null,
 		"counterName": "",
 		"createdBy": "",
 		"creationChanges": [
@@ -121,10 +130,12 @@
 		},
 		"damageReduction": [
 		],
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "\n      <div topic='Hat of Disguise' level='8'><p><b>Hat of Disguise:</b> This apparently normal hat allows its wearer to alter her appearance as with a <i>disguise self</i> spell. As part of the disguise, the hat can be changed to appear as a comb, ribbon, headband, cap, coif, hood, helmet, and so on.</p><p>Faint illusion; CL 1st; Craft Wondrous Item, <i>disguise self</i>; Price 1,800 gp.</p>\n</div>\n    "
+			"value": "<div>\n<p><strong>Hat of Disguise:</strong> This apparently normal hat allows its wearer to alter her appearance as with a <em>disguise self</em> spell. As part of the disguise, the hat can be changed to appear as a comb, ribbon, headband, cap, coif, hood, helmet, and so on.</p>\n<p>Faint illusion; CL 1st; Craft Wondrous Item, <em>disguise self</em>; Price 1,800 gp.</p>\n</div>"
 		},
 		"effectNotes": "",
 		"enhancements": {
@@ -168,10 +179,10 @@
 		},
 		"light": {
 			"alpha": 0.5,
-			"animationIntensity": "",
-			"animationSpeed": "",
-			"color": "",
-			"dimRadius": "",
+			"animationIntensity": 6,
+			"animationSpeed": 6,
+			"color": "#000000",
+			"dimRadius": null,
 			"emitLight": false,
 			"lightAngle": 360,
 			"opacity": 0,
@@ -213,6 +224,8 @@
 		"originId": "",
 		"originPack": "",
 		"originVersion": 99,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"pr": false,
 		"price": 1800,
@@ -220,7 +233,7 @@
 		"quantity": 1,
 		"requirements": [
 		],
-		"resalePrice": "",
+		"resalePrice": null,
 		"resistances": [
 		],
 		"rollTableDraw": {
@@ -238,6 +251,15 @@
 			"originVersion": 97,
 			"type": ""
 		},
+		"selectedMaterial": "none",
+		"senses": {
+			"blindsight": null,
+			"darkvision": null,
+			"lowLight": false,
+			"lowLightMultiplier": null,
+			"tremorsense": null,
+			"truesight": null
+		},
 		"sizeOverride": "",
 		"slot": "head",
 		"source": "",
@@ -250,7 +272,7 @@
 		"tags": [
 		],
 		"unidentified": {
-			"name": "",
+			"name": "Hat",
 			"price": 0
 		},
 		"uniqueId": "",
