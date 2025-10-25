@@ -11,19 +11,22 @@
 			"attack": null,
 			"critMult": 2,
 			"critRange": 20,
-			"damage": null,
+			"damage": "",
 			"damageMult": 1,
 			"twoHandedOnly": false,
 			"vsTouchAc": false
 		},
 		"actionType": "",
+		"activateActions": [
+		],
 		"activation": {
-			"cost": null,
-			"type": ""
+			"cost": 1,
+			"type": "special"
 		},
+		"addedLevel": 0,
 		"armor": {
 			"acp": 0,
-			"dex": null,
+			"dex": "",
 			"enh": 0,
 			"value": 0
 		},
@@ -42,10 +45,13 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
-		"brokenResalePrice": "",
+		"brokenResalePrice": null,
 		"carried": true,
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -96,12 +102,15 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"conditionals": [
+		],
 		"constantWeight": true,
 		"container": "None",
 		"containerId": "none",
 		"containerWeightless": false,
 		"contextNotes": [
 		],
+		"convertedWeight": null,
 		"counterName": "",
 		"createdBy": "",
 		"creationChanges": [
@@ -121,10 +130,15 @@
 		},
 		"damageReduction": [
 		],
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
 			"value": "\n      <div topic='Metamagic, Empower' level='8'><p><b>Metamagic, Empower:</b> The wielder can cast up to three spells per day that are empowered as though using the Empower Spell feat.</p><p>Strong (no school); CL 17th; Craft Rod, Empower Spell; Price 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater).</p>\n</div>\n    "
+		},
+		"duration": {
+			"units": ""
 		},
 		"effectNotes": "",
 		"enhancements": {
@@ -168,10 +182,10 @@
 		},
 		"light": {
 			"alpha": 0.5,
-			"animationIntensity": "",
-			"animationSpeed": "",
-			"color": "",
-			"dimRadius": "",
+			"animationIntensity": 6,
+			"animationSpeed": 6,
+			"color": "#000000",
+			"dimRadius": null,
 			"emitLight": false,
 			"lightAngle": 360,
 			"opacity": 0,
@@ -183,6 +197,12 @@
 		"linkSourceId": "",
 		"linkSourceName": "",
 		"linkedItems": [
+			{
+				"img": "systems/D35E/icons/feats/metamagic.png",
+				"itemId": "nXYLl4UUniaCmuU9",
+				"name": "Empower Spell",
+				"packId": "D35E.feats"
+			}
 		],
 		"masterwork": false,
 		"material": {
@@ -213,14 +233,23 @@
 		"originId": "",
 		"originPack": "",
 		"originVersion": 99,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"pr": false,
 		"price": 9000,
 		"psionic": "",
 		"quantity": 1,
+		"range": {
+			"units": ""
+		},
+		"recharge": {
+			"enabled": false
+		},
 		"requirements": [
 		],
-		"resalePrice": "",
+		"requiresPsionicFocus": false,
+		"resalePrice": null,
 		"resistances": [
 		],
 		"rollTableDraw": {
@@ -231,12 +260,21 @@
 		},
 		"save": {
 			"ability": "",
-			"dc": 0,
+			"dc": "0",
 			"dcAutoAbility": "",
 			"dcAutoType": "",
 			"description": "",
 			"originVersion": 97,
 			"type": ""
+		},
+		"selectedMaterial": "none",
+		"senses": {
+			"blindsight": null,
+			"darkvision": null,
+			"lowLight": false,
+			"lowLightMultiplier": null,
+			"tremorsense": null,
+			"truesight": null
 		},
 		"sizeOverride": "",
 		"slot": "slotless",
@@ -249,12 +287,27 @@
 		],
 		"tags": [
 		],
+		"target": {
+			"value": ""
+		},
 		"unidentified": {
 			"name": "",
 			"price": 0
 		},
 		"uniqueId": "",
 		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": false,
+			"canBeLinked": false,
+			"chargesPerUse": null,
+			"isResource": false,
+			"max": 3,
+			"maxFormula": "3",
+			"per": "day",
+			"rechargeFormula": "",
+			"value": 3
+		},
 		"weight": 0
 	},
 	"type": "equipment"
