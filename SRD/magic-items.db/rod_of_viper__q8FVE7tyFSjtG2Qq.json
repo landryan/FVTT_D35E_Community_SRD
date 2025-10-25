@@ -7,45 +7,24 @@
 	"img": "systems/D35E/icons/items/magic/staff/Wand_v2_70.png",
 	"name": "Rod of Viper",
 	"system": {
-		"ability": {
-			"attack": null,
-			"critMult": 2,
-			"critRange": 20,
-			"damage": null,
-			"damageMult": 1,
-			"twoHandedOnly": false,
-			"vsTouchAc": false
-		},
-		"actionType": "",
-		"activation": {
-			"cost": null,
-			"type": ""
-		},
-		"armor": {
-			"acp": 0,
-			"dex": null,
-			"enh": 0,
-			"value": 0
-		},
-		"armorType": {
-			"_deprecated": true,
-			"value": ""
-		},
-		"attack": {
-			"parts": [
-			]
-		},
-		"attackBonus": "",
-		"attackCountFormula": "",
+		"activateActions": [
+		],
+		"addedLevel": 0,
 		"attackNotes": "",
 		"attackParts": [
 		],
-		"autoscaleAttackParts": "",
-		"baseCl": "0",
-		"brokenResalePrice": "",
+		"baseWeaponType": "Heavy Mace",
+		"bonus": {
+			"_deprecated": true,
+			"value": 0
+		},
+		"brokenResalePrice": null,
 		"carried": true,
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -96,17 +75,19 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"conditionals": [
+		],
 		"constantWeight": true,
 		"container": "None",
 		"containerId": "none",
 		"containerWeightless": false,
 		"contextNotes": [
 		],
+		"convertedWeight": null,
 		"counterName": "",
 		"createdBy": "",
 		"creationChanges": [
 		],
-		"critConfirmBonus": "",
 		"curseActive": false,
 		"cursed": false,
 		"customAttributes": {
@@ -119,14 +100,29 @@
 			"parts": [
 			]
 		},
+		"damage2": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"damage2Type": {
+			"_deprecated": true,
+			"value": ""
+		},
 		"damageReduction": [
+		],
+		"damageType": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"deactivateActions": [
 		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "\n      <div topic='Viper' level='8'><p><b>Viper:</b> This rod strikes as a <i>+2 heavy mace</i>. Once per day, upon command, the head of the rod becomes that of an actual serpent for 10 minutes. During this period, any successful strike with the rod deals its usual damage and also poisons the creature hit. The poison deals 1d10 points of Constitution damage immediately (Fortitude DC 14 negates) and another 1d10 points of Constitution damage 1 minute later (Fortitude DC 14 negates). The rod only functions if its possessor is evil.</p><p>Moderate necromancy; CL 10th; Craft Rod, Craft Magic Arms and Armor, <i>poison</i>,  creator must be evil; Price 19,000 gp.</p>\n</div>\n    "
+			"value": "<p><strong>Viper:</strong>&nbsp;This rod strikes as a&nbsp;<em>+2 heavy mace</em>. Once per day, upon command, the head of the rod becomes that of an actual serpent for 10 minutes. During this period, any successful strike with the rod deals its usual damage and also poisons the creature hit. The poison deals 1d10 points of Constitution damage immediately (Fortitude DC 14 negates) and another 1d10 points of Constitution damage 1 minute later (Fortitude DC 14 negates). The rod only functions if its possessor is evil.</p>\n<p>@UUID[Compendium.dnd-35e-generic-content.item-buffs.Item.a6FcgQNncwJnS6HR]{Rod of Viper (Viper's Head)}</p>\n<p>Moderate necromancy; CL 10th; Craft Rod, Craft Magic Arms and Armor,&nbsp;<em>poison</em>, creator must be evil; Price 19,000 gp.</p>"
 		},
 		"effectNotes": "",
+		"enh": 2,
 		"enhancements": {
 			"automation": {
 				"updateName": false,
@@ -134,6 +130,281 @@
 			},
 			"clFormula": "",
 			"items": [
+				{
+					"_id": "P5h3ZZgL6GiVmEFP",
+					"_stats": {
+						"coreVersion": "11.315",
+						"createdTime": 1716721088510,
+						"lastModifiedBy": "Xm0hwAcb7V88sI5H",
+						"modifiedTime": 1716721088684,
+						"systemId": "D35E",
+						"systemVersion": "2.4.3"
+					},
+					"calcPrice": "+1",
+					"effects": [
+					],
+					"flags": {
+						"core": {
+							"sourceId": "Compendium.D35E.enhancements.Ng5AlRupmkMOgqQi"
+						}
+					},
+					"folder": null,
+					"hasAction": false,
+					"hasUses": false,
+					"id": "oOD7arLtyKpPSRxz-P5h3ZZgL6GiVmEFP",
+					"img": "systems/D35E/icons/crafting-station/enhancements/enhancement-weapon.png",
+					"incorrect": false,
+					"isCharged": false,
+					"name": "+1 Weapon Enhancement",
+					"ownership": {
+						"Xm0hwAcb7V88sI5H": 3,
+						"default": 0,
+						"wbFPpmVfPG23MbMC": 3
+					},
+					"sort": 100000,
+					"system": {
+						"ability": {
+							"attack": null,
+							"critMult": 2,
+							"critRange": 20,
+							"damage": null,
+							"damageMult": 1,
+							"twoHandedOnly": false,
+							"vsTouchAc": false
+						},
+						"actionType": "",
+						"activation": {
+							"cost": 1,
+							"type": ""
+						},
+						"addedLevel": 0,
+						"allowedTypes": [
+						],
+						"attack": {
+							"parts": [
+							]
+						},
+						"attackBonus": "",
+						"attackCountFormula": "",
+						"attackNotes": "",
+						"attackParts": [
+						],
+						"autoscaleAttackParts": "",
+						"baseCl": "0",
+						"changeFlags": {
+							"heavyArmorFullSpeed": false,
+							"loseDexToAC": false,
+							"mediumArmorFullSpeed": false,
+							"multiAttack": false,
+							"multiweaponAttack": false,
+							"noCon": false,
+							"noDex": false,
+							"noEncumbrance": false,
+							"noInt": false,
+							"noStr": false,
+							"oneCha": false,
+							"oneInt": false,
+							"oneWis": false
+						},
+						"changes": [
+						],
+						"classSource": "",
+						"combatChangeCustomDisplayName": "",
+						"combatChangeCustomReferenceName": "",
+						"combatChanges": [
+						],
+						"combatChangesAdditionalRanges": {
+							"hasAdditionalRanges": false,
+							"slider1": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							},
+							"slider2": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							},
+							"slider3": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							}
+						},
+						"combatChangesApplySpecialActionsOnce": true,
+						"combatChangesRange": {
+							"max": 0,
+							"maxFormula": ""
+						},
+						"combatChangesUsesCost": "chargesPerUse",
+						"conditionFlags": {
+							"dazzled": false,
+							"polymorphed": false,
+							"wildshaped": false
+						},
+						"contextNotes": [
+						],
+						"counterName": "",
+						"createdBy": "",
+						"creationChanges": [
+						],
+						"critConfirmBonus": "",
+						"customAttributes": {
+						},
+						"customAttributesLocked": false,
+						"customTag": "",
+						"damage": {
+							"alternativeParts": [
+							],
+							"parts": [
+							]
+						},
+						"damageReduction": [
+						],
+						"description": {
+							"chat": "",
+							"unidentified": "",
+							"value": "<p>Magic weapons have enhancement bonuses ranging from +1 to +5. They apply these bonuses to both attack and damage rolls when used in combat. All magic weapons are also masterwork weapons, but their masterwork bonus on attack rolls does not stack with their enhancement bonus on attack rolls.</p>"
+						},
+						"duration": {
+							"units": "",
+							"value": null
+						},
+						"effectNotes": "",
+						"enh": 2,
+						"enhIncrease": 2,
+						"enhIncreaseFormula": "@enhancement",
+						"enhIsLevel": false,
+						"enhancementType": "weapon",
+						"epic": "",
+						"favorite": false,
+						"formula": "",
+						"index": {
+							"subType": null,
+							"uniqueId": ""
+						},
+						"isFromBuff": false,
+						"isFromSpell": false,
+						"linkId": "",
+						"linkImported": false,
+						"linkSourceId": "",
+						"linkSourceName": "",
+						"linkedChargeItem": {
+							"id": null,
+							"img": null,
+							"name": null
+						},
+						"maxDamageDice": 0,
+						"maxDamageDiceFormula": "",
+						"measureTemplate": {
+							"customColor": "",
+							"customTexture": "",
+							"overrideColor": false,
+							"overrideTexture": false,
+							"size": 0,
+							"type": ""
+						},
+						"metamagicFeats": {
+							"empowered": false,
+							"enhanced": false,
+							"enhancedHalf": false,
+							"enlarged": false,
+							"intensified": false,
+							"maximized": false,
+							"widened": false
+						},
+						"nameExtension": {
+							"prefix": "",
+							"suffix": ""
+						},
+						"nameFormula": "",
+						"nameFromFormula": false,
+						"originId": "",
+						"originPack": "",
+						"originVersion": 99,
+						"possibleUpdate": false,
+						"pr": false,
+						"price": 0,
+						"priceFormula": "",
+						"properties": {
+						},
+						"psionic": "",
+						"range": {
+							"long": null,
+							"units": "",
+							"value": null
+						},
+						"recharge": {
+							"current": 0,
+							"enabled": false,
+							"formula": ""
+						},
+						"requirements": "",
+						"requiresPsionicFocus": false,
+						"resistances": [
+						],
+						"rollTableDraw": {
+							"formula": "",
+							"id": "",
+							"name": "",
+							"pack": ""
+						},
+						"save": {
+							"ability": "",
+							"dc": 0,
+							"dcAutoAbility": "",
+							"dcAutoType": "",
+							"description": "",
+							"originVersion": 97,
+							"type": ""
+						},
+						"sizeOverride": "",
+						"source": "",
+						"specialActions": [
+						],
+						"sr": false,
+						"summon": [
+						],
+						"tags": [
+						],
+						"target": {
+							"value": ""
+						},
+						"uniqueId": "",
+						"userNonRemovable": false,
+						"uses": {
+							"allowMultipleUses": false,
+							"autoDeductCharges": true,
+							"canBeLinked": false,
+							"chargesPerUse": 1,
+							"isResource": false,
+							"max": 0,
+							"maxFormula": "",
+							"maxPerUse": null,
+							"maxPerUseFormula": "",
+							"per": null,
+							"rechargeFormula": null,
+							"value": 0
+						},
+						"weaponAttackNotes": [
+						],
+						"weaponData": {
+							"alignment": {
+								"chaotic": false,
+								"evil": false,
+								"good": false,
+								"lawful": false
+							},
+							"attackRoll": "",
+							"damageRoll": "",
+							"damageType": "",
+							"damageTypeId": "",
+							"optionalDamage": false
+						}
+					},
+					"tag": "1WeaponEnhancement",
+					"type": "enhancement"
+				}
 			],
 			"spellcastingAbility": "",
 			"uses": {
@@ -147,12 +418,8 @@
 			}
 		},
 		"epic": "",
-		"equipmentSubtype": "wondrous",
-		"equipmentType": "misc",
 		"equipped": true,
 		"equippedWeightless": false,
-		"favorite": false,
-		"formula": "",
 		"fullResalePrice": false,
 		"hardness": 0,
 		"hp": {
@@ -163,15 +430,15 @@
 		"identifiedCurse": false,
 		"identifiedName": "Rod of Viper",
 		"index": {
-			"subType": null,
+			"subType": "simple",
 			"uniqueId": ""
 		},
 		"light": {
 			"alpha": 0.5,
-			"animationIntensity": "",
-			"animationSpeed": "",
-			"color": "",
-			"dimRadius": "",
+			"animationIntensity": 6,
+			"animationSpeed": 6,
+			"color": "#000000",
+			"dimRadius": null,
 			"emitLight": false,
 			"lightAngle": 360,
 			"opacity": 0,
@@ -184,67 +451,51 @@
 		"linkSourceName": "",
 		"linkedItems": [
 		],
-		"masterwork": false,
+		"masterwork": true,
 		"material": {
 			"data": null
 		},
-		"maxDamageDice": 0,
-		"maxDamageDiceFormula": "",
-		"measureTemplate": {
-			"customColor": "",
-			"customTexture": "",
-			"overrideColor": false,
-			"overrideTexture": false,
-			"size": 0,
-			"type": ""
-		},
 		"melded": false,
-		"metamagicFeats": {
-			"empowered": false,
-			"enhanced": false,
-			"enhancedHalf": false,
-			"enlarged": false,
-			"intensified": false,
-			"maximized": false,
-			"widened": false
-		},
 		"nameFormula": "",
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 99,
+		"originVersion": 0,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
-		"pr": false,
 		"price": 19000,
+		"properties": {
+			"blc": false,
+			"brc": false,
+			"dbl": false,
+			"dis": false,
+			"fin": false,
+			"frg": false,
+			"grp": false,
+			"imp": false,
+			"inc": false,
+			"mnk": false,
+			"nnl": false,
+			"prf": false,
+			"rch": false,
+			"ret": false,
+			"snd": false,
+			"thr": false,
+			"trp": false
+		},
 		"psionic": "",
 		"quantity": 1,
 		"requirements": [
 		],
-		"resalePrice": "",
+		"resalePrice": null,
 		"resistances": [
 		],
-		"rollTableDraw": {
-			"formula": "",
-			"id": "",
-			"name": "",
-			"pack": ""
-		},
-		"save": {
-			"ability": "",
-			"dc": 0,
-			"dcAutoAbility": "",
-			"dcAutoType": "",
-			"description": "",
-			"originVersion": 97,
-			"type": ""
-		},
+		"selectedMaterial": "none",
 		"sizeOverride": "",
-		"slot": "slotless",
 		"source": "",
 		"specialActions": [
 		],
-		"spellFailure": 0,
-		"sr": false,
 		"summon": [
 		],
 		"tags": [
@@ -255,7 +506,27 @@
 		},
 		"uniqueId": "",
 		"userNonRemovable": false,
+		"weaponBaseType": "",
+		"weaponData": {
+			"alignment": {
+				"chaotic": false,
+				"evil": false,
+				"good": false,
+				"lawful": false
+			},
+			"attackFormula": "",
+			"critMult": "2",
+			"critRange": "20",
+			"damageFormula": "",
+			"damageRoll": "1d8",
+			"damageType": "",
+			"damageTypeId": "damage-bludg",
+			"range": null,
+			"size": "med"
+		},
+		"weaponSubtype": "1h",
+		"weaponType": "simple",
 		"weight": 0
 	},
-	"type": "equipment"
+	"type": "weapon"
 }

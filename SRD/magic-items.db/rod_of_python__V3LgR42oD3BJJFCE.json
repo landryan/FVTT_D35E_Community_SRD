@@ -7,45 +7,24 @@
 	"img": "systems/D35E/icons/items/magic/staff/Wand_v2_06.png",
 	"name": "Rod of Python",
 	"system": {
-		"ability": {
-			"attack": null,
-			"critMult": 2,
-			"critRange": 20,
-			"damage": null,
-			"damageMult": 1,
-			"twoHandedOnly": false,
-			"vsTouchAc": false
-		},
-		"actionType": "",
-		"activation": {
-			"cost": null,
-			"type": ""
-		},
-		"armor": {
-			"acp": 0,
-			"dex": null,
-			"enh": 0,
-			"value": 0
-		},
-		"armorType": {
-			"_deprecated": true,
-			"value": ""
-		},
-		"attack": {
-			"parts": [
-			]
-		},
-		"attackBonus": "",
-		"attackCountFormula": "",
+		"activateActions": [
+		],
+		"addedLevel": 0,
 		"attackNotes": "",
 		"attackParts": [
 		],
-		"autoscaleAttackParts": "",
-		"baseCl": "0",
-		"brokenResalePrice": "",
+		"baseWeaponType": "Quarterstaff",
+		"bonus": {
+			"_deprecated": true,
+			"value": 0
+		},
+		"brokenResalePrice": null,
 		"carried": true,
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -96,17 +75,19 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
-		"constantWeight": true,
+		"conditionals": [
+		],
+		"constantWeight": false,
 		"container": "None",
 		"containerId": "none",
 		"containerWeightless": false,
 		"contextNotes": [
 		],
+		"convertedWeight": 10,
 		"counterName": "",
 		"createdBy": "",
 		"creationChanges": [
 		],
-		"critConfirmBonus": "",
 		"curseActive": false,
 		"cursed": false,
 		"customAttributes": {
@@ -119,21 +100,304 @@
 			"parts": [
 			]
 		},
+		"damage2": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"damage2Type": {
+			"_deprecated": true,
+			"value": ""
+		},
 		"damageReduction": [
+		],
+		"damageType": {
+			"_deprecated": true,
+			"value": ""
+		},
+		"deactivateActions": [
 		],
 		"description": {
 			"chat": "",
-			"unidentified": "",
-			"value": "\n      <div topic='Python' level='8'><p><b>Python:</b> This rod is longer than normal rods. It is about 4 feet long and weighs 10 pounds. It strikes as a <i>+1/+1 quarterstaff</i>. If the user throws the rod to the ground (a standard action), it grows to become a giant constrictor snake by the end of the round. The python obeys all commands of the owner. (In animal form, it retains the +1 enhancement bonus on attacks and damage possessed by the rod form.) The serpent returns to rod form (a full-round action) whenever the wielder desires, or whenever it moves farther than 100 feet from the owner. If the snake form is slain, it returns to rod form and cannot be activated again for three days. A <i>python rod</i> only functions if the possessor is good.</p><p>Moderate transmutation; CL 10th; Craft Rod, Craft Magic Arms and Armor, <i>baleful polymorph</i>,  creator must be good; Price 13,000 gp.</p>\n</div>\n    "
+			"unidentified": "<p>The quarterstaff is the favorite weapon of many characters, from travelers, peasants, and merchants to monks, rangers, and wizards. A quarterstaff is a double weapon. You can fight with it as if fighting with two weapons, but if you do, you incur all the normal attack penalties associated with fighting with two weapons, just as if you were using a one-handed weapon and a light weapon (see Two-Weapon Fighting, page 160). You can also strike with either end singly, a fact that allows you to take full advantage of openings in your opponent&rsquo;s defenses. A creature wielding a quarterstaff in one hand can&rsquo;t use it as a double weapon&mdash;only one end of the weapon can be used in any given round. The quarterstaff is a special monk weapon. This designation gives a monk (see Chapter 3: Classes) wielding a quarterstaff special options.</p>",
+			"value": "<p><strong>Python:</strong>&nbsp;This rod is longer than normal rods. It is about 4 feet long and weighs 10 pounds. It strikes as a&nbsp;<em>+1/+1 quarterstaff</em>. If the user throws the rod to the ground (a standard action), it grows to become a giant constrictor snake by the end of the round. The python obeys all commands of the owner. (In animal form, it retains the +1 enhancement bonus on attacks and damage possessed by the rod form.) The serpent returns to rod form (a full-round action) whenever the wielder desires, or whenever it moves farther than 100 feet from the owner. If the snake form is slain, it returns to rod form and cannot be activated again for three days. A&nbsp;<em>python rod</em>&nbsp;only functions if the possessor is good.</p>\n<p>Moderate transmutation; CL 10th; Craft Rod, Craft Magic Arms and Armor,&nbsp;<em>baleful polymorph</em>, creator must be good; Price 13,000 gp.</p>\n<p>The quarterstaff is the favorite weapon of many characters, from travelers, peasants, and merchants to monks, rangers, and wizards. A quarterstaff is a double weapon. You can fight with it as if fighting with two weapons, but if you do, you incur all the normal attack penalties associated with fighting with two weapons, just as if you were using a one-handed weapon and a light weapon (see Two-Weapon Fighting, page 160). You can also strike with either end singly, a fact that allows you to take full advantage of openings in your opponent&rsquo;s defenses. A creature wielding a quarterstaff in one hand can&rsquo;t use it as a double weapon&mdash;only one end of the weapon can be used in any given round. The quarterstaff is a special monk weapon. This designation gives a monk (see Chapter 3: Classes) wielding a quarterstaff special options.</p>"
 		},
 		"effectNotes": "",
+		"enh": 1,
 		"enhancements": {
 			"automation": {
 				"updateName": false,
 				"updatePrice": false
 			},
-			"clFormula": "",
+			"clFormula": "10",
 			"items": [
+				{
+					"_id": "Ng5AlRupmkMOgqQi",
+					"_stats": {
+						"coreVersion": "10.291",
+						"createdTime": null,
+						"lastModifiedBy": "cB3ob9BYxSFYX7sd",
+						"modifiedTime": 1678394281321,
+						"systemId": "D35E",
+						"systemVersion": "2.1.3"
+					},
+					"effects": [
+					],
+					"flags": {
+						"core": {
+							"sourceId": "Compendium.D35E.enhancements.Ng5AlRupmkMOgqQi"
+						}
+					},
+					"folder": null,
+					"id": "IoJVGfbdUcVRyPQ3-Ng5AlRupmkMOgqQi",
+					"img": "systems/D35E/icons/crafting-station/enhancements/enhancement-weapon.png",
+					"name": "+1 Weapon Enhancement",
+					"ownership": {
+						"default": 0,
+						"wbFPpmVfPG23MbMC": 3
+					},
+					"sort": 0,
+					"system": {
+						"ability": {
+							"attack": null,
+							"critMult": 2,
+							"critRange": 20,
+							"damage": null,
+							"damageMult": 1,
+							"twoHandedOnly": false,
+							"vsTouchAc": false
+						},
+						"actionType": "",
+						"activation": {
+							"cost": 1,
+							"type": ""
+						},
+						"addedLevel": 0,
+						"allowedTypes": [
+						],
+						"attack": {
+							"parts": [
+							]
+						},
+						"attackBonus": "",
+						"attackCountFormula": "",
+						"attackNotes": "",
+						"attackParts": [
+						],
+						"autoscaleAttackParts": "",
+						"baseCl": "0",
+						"changeFlags": {
+							"heavyArmorFullSpeed": false,
+							"loseDexToAC": false,
+							"mediumArmorFullSpeed": false,
+							"multiAttack": false,
+							"multiweaponAttack": false,
+							"noCon": false,
+							"noDex": false,
+							"noEncumbrance": false,
+							"noInt": false,
+							"noStr": false,
+							"oneCha": false,
+							"oneInt": false,
+							"oneWis": false
+						},
+						"changes": [
+						],
+						"classSource": "",
+						"combatChangeCustomDisplayName": "",
+						"combatChangeCustomReferenceName": "",
+						"combatChanges": [
+						],
+						"combatChangesAdditionalRanges": {
+							"hasAdditionalRanges": false,
+							"slider1": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							},
+							"slider2": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							},
+							"slider3": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							}
+						},
+						"combatChangesApplySpecialActionsOnce": true,
+						"combatChangesRange": {
+							"max": 0,
+							"maxFormula": ""
+						},
+						"combatChangesUsesCost": "chargesPerUse",
+						"conditionFlags": {
+							"dazzled": false,
+							"polymorphed": false,
+							"wildshaped": false
+						},
+						"contextNotes": [
+						],
+						"counterName": "",
+						"createdBy": "",
+						"creationChanges": [
+						],
+						"critConfirmBonus": "",
+						"customAttributes": {
+						},
+						"customAttributesLocked": false,
+						"customTag": "",
+						"damage": {
+							"alternativeParts": [
+							],
+							"parts": [
+							]
+						},
+						"damageReduction": [
+						],
+						"description": {
+							"chat": "",
+							"unidentified": "",
+							"value": "<p>Magic weapons have enhancement bonuses ranging from +1 to +5. They apply these bonuses to both attack and damage rolls when used in combat. All magic weapons are also masterwork weapons, but their masterwork bonus on attack rolls does not stack with their enhancement bonus on attack rolls.</p>"
+						},
+						"duration": {
+							"units": "",
+							"value": null
+						},
+						"effectNotes": "",
+						"enh": 1,
+						"enhIncrease": 1,
+						"enhIncreaseFormula": "@enhancement",
+						"enhIsLevel": false,
+						"enhancementType": "weapon",
+						"epic": "",
+						"favorite": false,
+						"formula": "",
+						"index": {
+							"subType": null,
+							"uniqueId": ""
+						},
+						"isFromBuff": false,
+						"isFromSpell": false,
+						"linkId": "",
+						"linkImported": false,
+						"linkSourceId": "",
+						"linkSourceName": "",
+						"linkedChargeItem": {
+							"id": null,
+							"img": null,
+							"name": null
+						},
+						"maxDamageDice": 0,
+						"maxDamageDiceFormula": "",
+						"measureTemplate": {
+							"customColor": "",
+							"customTexture": "",
+							"overrideColor": false,
+							"overrideTexture": false,
+							"size": 0,
+							"type": ""
+						},
+						"metamagicFeats": {
+							"empowered": false,
+							"enhanced": false,
+							"enhancedHalf": false,
+							"enlarged": false,
+							"intensified": false,
+							"maximized": false,
+							"widened": false
+						},
+						"nameExtension": {
+							"prefix": "",
+							"suffix": ""
+						},
+						"nameFormula": "",
+						"nameFromFormula": false,
+						"originId": "",
+						"originPack": "",
+						"originVersion": 99,
+						"possibleUpdate": false,
+						"pr": false,
+						"price": 0,
+						"priceFormula": "",
+						"properties": {
+						},
+						"psionic": "",
+						"range": {
+							"long": null,
+							"units": "",
+							"value": null
+						},
+						"recharge": {
+							"current": 0,
+							"enabled": false,
+							"formula": ""
+						},
+						"requirements": "",
+						"requiresPsionicFocus": false,
+						"resistances": [
+						],
+						"rollTableDraw": {
+							"formula": "",
+							"id": "",
+							"name": "",
+							"pack": ""
+						},
+						"save": {
+							"ability": "",
+							"dc": 0,
+							"dcAutoAbility": "",
+							"dcAutoType": "",
+							"description": "",
+							"originVersion": 97,
+							"type": ""
+						},
+						"sizeOverride": "",
+						"source": "",
+						"specialActions": [
+						],
+						"sr": false,
+						"summon": [
+						],
+						"tags": [
+						],
+						"target": {
+							"value": ""
+						},
+						"uniqueId": "",
+						"userNonRemovable": false,
+						"uses": {
+							"allowMultipleUses": false,
+							"autoDeductCharges": true,
+							"canBeLinked": false,
+							"chargesPerUse": 1,
+							"isResource": false,
+							"max": 0,
+							"maxFormula": "",
+							"maxPerUse": null,
+							"maxPerUseFormula": "",
+							"per": null,
+							"rechargeFormula": null,
+							"value": 0
+						},
+						"weaponAttackNotes": [
+						],
+						"weaponData": {
+							"alignment": {
+								"chaotic": false,
+								"evil": false,
+								"good": false,
+								"lawful": false
+							},
+							"attackRoll": "",
+							"damageRoll": "",
+							"damageType": "",
+							"damageTypeId": "",
+							"optionalDamage": false
+						}
+					},
+					"type": "enhancement"
+				}
 			],
 			"spellcastingAbility": "",
 			"uses": {
@@ -147,14 +411,10 @@
 			}
 		},
 		"epic": "",
-		"equipmentSubtype": "wondrous",
-		"equipmentType": "misc",
 		"equipped": true,
 		"equippedWeightless": false,
-		"favorite": false,
-		"formula": "",
 		"fullResalePrice": false,
-		"hardness": 0,
+		"hardness": 5,
 		"hp": {
 			"max": 10,
 			"value": 10
@@ -163,15 +423,15 @@
 		"identifiedCurse": false,
 		"identifiedName": "Rod of Python",
 		"index": {
-			"subType": null,
+			"subType": "simple",
 			"uniqueId": ""
 		},
 		"light": {
 			"alpha": 0.5,
-			"animationIntensity": "",
-			"animationSpeed": "",
-			"color": "",
-			"dimRadius": "",
+			"animationIntensity": 6,
+			"animationSpeed": 6,
+			"color": "#000000",
+			"dimRadius": null,
 			"emitLight": false,
 			"lightAngle": 360,
 			"opacity": 0,
@@ -184,78 +444,82 @@
 		"linkSourceName": "",
 		"linkedItems": [
 		],
-		"masterwork": false,
+		"masterwork": true,
 		"material": {
 			"data": null
 		},
-		"maxDamageDice": 0,
-		"maxDamageDiceFormula": "",
-		"measureTemplate": {
-			"customColor": "",
-			"customTexture": "",
-			"overrideColor": false,
-			"overrideTexture": false,
-			"size": 0,
-			"type": ""
-		},
 		"melded": false,
-		"metamagicFeats": {
-			"empowered": false,
-			"enhanced": false,
-			"enhancedHalf": false,
-			"enlarged": false,
-			"intensified": false,
-			"maximized": false,
-			"widened": false
-		},
 		"nameFormula": "",
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 99,
+		"originVersion": 100,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
-		"pr": false,
 		"price": 13000,
+		"properties": {
+			"blc": false,
+			"brc": false,
+			"dbl": true,
+			"dis": false,
+			"fin": false,
+			"frg": false,
+			"grp": false,
+			"imp": false,
+			"inc": false,
+			"mnk": true,
+			"nnl": false,
+			"prf": false,
+			"rch": false,
+			"ret": false,
+			"snd": false,
+			"thr": false,
+			"trp": false
+		},
 		"psionic": "",
 		"quantity": 1,
 		"requirements": [
 		],
-		"resalePrice": "",
+		"resalePrice": null,
 		"resistances": [
 		],
-		"rollTableDraw": {
-			"formula": "",
-			"id": "",
-			"name": "",
-			"pack": ""
-		},
-		"save": {
-			"ability": "",
-			"dc": 0,
-			"dcAutoAbility": "",
-			"dcAutoType": "",
-			"description": "",
-			"originVersion": 97,
-			"type": ""
-		},
+		"selectedMaterial": "none",
 		"sizeOverride": "",
-		"slot": "slotless",
 		"source": "",
 		"specialActions": [
 		],
-		"spellFailure": 0,
-		"sr": false,
 		"summon": [
 		],
 		"tags": [
 		],
 		"unidentified": {
-			"name": "",
+			"name": "Quarterstaff",
 			"price": 0
 		},
 		"uniqueId": "",
 		"userNonRemovable": false,
-		"weight": 0
+		"weaponBaseType": "",
+		"weaponData": {
+			"alignment": {
+				"chaotic": false,
+				"evil": false,
+				"good": false,
+				"lawful": false
+			},
+			"attackFormula": "",
+			"critMult": "2",
+			"critRange": "20",
+			"damageFormula": "",
+			"damageRoll": "1d6",
+			"damageType": "B",
+			"damageTypeId": "damage-bludg",
+			"range": null,
+			"size": "med"
+		},
+		"weaponSubtype": "2h",
+		"weaponType": "simple",
+		"weight": 10
 	},
-	"type": "equipment"
+	"type": "weapon"
 }
