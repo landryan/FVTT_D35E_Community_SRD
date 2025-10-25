@@ -18,6 +18,8 @@
 		},
 		"abilityType": "",
 		"actionType": "",
+		"activateActions": [
+		],
 		"activation": {
 			"cost": 1,
 			"type": ""
@@ -39,9 +41,13 @@
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
 		"bookSource": "3.5e SRD",
+		"brokenResalePrice": null,
+		"carried": false,
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
 			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -92,6 +98,11 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"conditionals": [
+		],
+		"constantWeight": false,
+		"container": "None",
+		"containerWeightless": false,
 		"contextNotes": [
 		],
 		"counterName": "",
@@ -116,6 +127,8 @@
 			"_deprecated": true,
 			"value": ""
 		},
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
@@ -127,9 +140,12 @@
 		},
 		"effectNotes": "",
 		"epic": "",
+		"equippedWeightless": false,
 		"favorite": false,
 		"featType": "feat",
 		"formula": "",
+		"fullResalePrice": false,
+		"identifiedName": "Heighten Spell",
 		"index": {
 			"subType": "feat",
 			"uniqueId": ""
@@ -160,9 +176,9 @@
 			"type": ""
 		},
 		"metamagic": {
-			"code": "",
-			"enabled": false,
-			"shortDesc": ""
+			"code": "newSpell.name = game.i18n.localize(\"Heightened\") + \" \" + newSpell.name\nnewSpell.data.metamagicFeats.heightened = true;\nnewSpell.data.level += 1",
+			"enabled": true,
+			"shortDesc": "Casts at a higher level than normal"
 		},
 		"metamagicFeats": {
 			"empowered": false,
@@ -178,6 +194,8 @@
 		"originId": "",
 		"originPack": "",
 		"originVersion": 101,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"pr": false,
 		"psionic": "",
@@ -197,6 +215,7 @@
 		"requirements": [
 		],
 		"requiresPsionicFocus": false,
+		"resalePrice": null,
 		"resistances": [
 		],
 		"rollTableDraw": {
