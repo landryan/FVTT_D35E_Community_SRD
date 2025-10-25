@@ -11,19 +11,22 @@
 			"attack": null,
 			"critMult": 2,
 			"critRange": 20,
-			"damage": null,
+			"damage": "",
 			"damageMult": 1,
 			"twoHandedOnly": false,
 			"vsTouchAc": false
 		},
-		"actionType": "",
+		"actionType": "special",
+		"activateActions": [
+		],
 		"activation": {
-			"cost": null,
-			"type": ""
+			"cost": 1,
+			"type": "free"
 		},
+		"addedLevel": 0,
 		"armor": {
 			"acp": 0,
-			"dex": null,
+			"dex": "",
 			"enh": 0,
 			"value": 0
 		},
@@ -42,10 +45,13 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
-		"brokenResalePrice": "",
+		"brokenResalePrice": null,
 		"carried": true,
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -96,12 +102,15 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"conditionals": [
+		],
 		"constantWeight": true,
 		"container": "None",
 		"containerId": "none",
 		"containerWeightless": false,
 		"contextNotes": [
 		],
+		"convertedWeight": 1,
 		"counterName": "",
 		"createdBy": "",
 		"creationChanges": [
@@ -121,10 +130,16 @@
 		},
 		"damageReduction": [
 		],
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
 			"value": "\n      <div topic='Boots of Speed' level='8'><p><b>Boots of Speed:</b> As a free action, the wearer can click her boot heels together, enabling her to act as though affected by a <i>haste</i> spell for up to 10 rounds each day. The duration of the <i>haste</i> effect need not be consecutive rounds.</p><p>Moderate transmutation; CL 10th; Craft Wondrous Item, <i>haste</i>; Price 12,000 gp; Weight 1 lb.</p>\n</div>\n    "
+		},
+		"duration": {
+			"units": "round",
+			"value": "1"
 		},
 		"effectNotes": "",
 		"enhancements": {
@@ -151,7 +166,7 @@
 		"equipmentType": "misc",
 		"equipped": true,
 		"equippedWeightless": false,
-		"favorite": false,
+		"favorite": true,
 		"formula": "",
 		"fullResalePrice": false,
 		"hardness": 0,
@@ -168,10 +183,10 @@
 		},
 		"light": {
 			"alpha": 0.5,
-			"animationIntensity": "",
-			"animationSpeed": "",
-			"color": "",
-			"dimRadius": "",
+			"animationIntensity": 6,
+			"animationSpeed": 6,
+			"color": "#000000",
+			"dimRadius": null,
 			"emitLight": false,
 			"lightAngle": 360,
 			"opacity": 0,
@@ -213,14 +228,23 @@
 		"originId": "",
 		"originPack": "",
 		"originVersion": 99,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"pr": false,
 		"price": 12000,
 		"psionic": "",
 		"quantity": 1,
+		"range": {
+			"units": "personal"
+		},
+		"recharge": {
+			"enabled": false
+		},
 		"requirements": [
 		],
-		"resalePrice": "",
+		"requiresPsionicFocus": false,
+		"resalePrice": null,
 		"resistances": [
 		],
 		"rollTableDraw": {
@@ -231,17 +255,32 @@
 		},
 		"save": {
 			"ability": "",
-			"dc": 0,
+			"dc": "0",
 			"dcAutoAbility": "",
 			"dcAutoType": "",
 			"description": "",
 			"originVersion": 97,
 			"type": ""
 		},
+		"selectedMaterial": "none",
+		"senses": {
+			"blindsight": null,
+			"darkvision": null,
+			"lowLight": false,
+			"lowLightMultiplier": null,
+			"tremorsense": null,
+			"truesight": null
+		},
 		"sizeOverride": "",
 		"slot": "feet",
 		"source": "",
 		"specialActions": [
+			{
+				"action": "Create unique \"Haste\" from \"D35E.commonbuffs\" on target;Set buff \"Haste\" field data.level to 1 on target;Activate buff \"Haste\" on target",
+				"condition": "",
+				"img": "systems/D35E/icons/spells/buffs/buff/haste.png",
+				"name": "Haste"
+			}
 		],
 		"spellFailure": 0,
 		"sr": false,
@@ -249,12 +288,27 @@
 		],
 		"tags": [
 		],
+		"target": {
+			"value": "You"
+		},
 		"unidentified": {
 			"name": "",
 			"price": 0
 		},
 		"uniqueId": "",
 		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": null,
+			"isResource": false,
+			"max": 10,
+			"maxFormula": "10",
+			"per": "day",
+			"rechargeFormula": "",
+			"value": 10
+		},
 		"weight": 1
 	},
 	"type": "equipment"
