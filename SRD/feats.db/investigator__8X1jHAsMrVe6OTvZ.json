@@ -18,6 +18,8 @@
 		},
 		"abilityType": "",
 		"actionType": "",
+		"activateActions": [
+		],
 		"activation": {
 			"cost": 1,
 			"type": ""
@@ -39,8 +41,13 @@
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
 		"bookSource": "3.5e SRD",
+		"brokenResalePrice": null,
+		"carried": false,
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -52,9 +59,22 @@
 			"noStr": false,
 			"oneCha": false,
 			"oneInt": false,
-			"oneWis": false
+			"oneWis": false,
+			"uncannyDodge": false
 		},
 		"changes": [
+			[
+				"2",
+				"skill",
+				"skill.gif",
+				"untyped"
+			],
+			[
+				"2",
+				"skill",
+				"skill.src",
+				"untyped"
+			]
 		],
 		"classSource": "",
 		"combatChangeCustomDisplayName": "",
@@ -90,6 +110,11 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"conditionals": [
+		],
+		"constantWeight": false,
+		"container": "None",
+		"containerWeightless": false,
 		"contextNotes": [
 		],
 		"counterName": "",
@@ -114,6 +139,8 @@
 			"_deprecated": true,
 			"value": ""
 		},
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
@@ -125,9 +152,12 @@
 		},
 		"effectNotes": "",
 		"epic": "",
+		"equippedWeightless": false,
 		"favorite": false,
 		"featType": "feat",
 		"formula": "",
+		"fullResalePrice": false,
+		"identifiedName": "Investigator",
 		"index": {
 			"subType": "feat",
 			"uniqueId": ""
@@ -176,6 +206,8 @@
 		"originId": "",
 		"originPack": "",
 		"originVersion": 101,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"pr": false,
 		"psionic": "",
@@ -195,6 +227,7 @@
 		"requirements": [
 		],
 		"requiresPsionicFocus": false,
+		"resalePrice": null,
 		"resistances": [
 		],
 		"rollTableDraw": {
