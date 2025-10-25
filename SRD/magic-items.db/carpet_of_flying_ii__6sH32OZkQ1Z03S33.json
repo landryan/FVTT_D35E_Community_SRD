@@ -1,11 +1,11 @@
 {
-	"_id": "rBwihKP2M9xHdYqb",
-	"_key": "!items!rBwihKP2M9xHdYqb",
+	"_id": "6sH32OZkQ1Z03S33",
+	"_key": "!items!6sH32OZkQ1Z03S33",
 	"effects": [
 	],
 	"folder": null,
 	"img": "systems/D35E/icons/items/magic/wonders/Tailoring_04_magic_cloth.png",
-	"name": "Carpet of Flying",
+	"name": "Carpet of Flying II",
 	"system": {
 		"ability": {
 			"attack": null,
@@ -17,13 +17,16 @@
 			"vsTouchAc": false
 		},
 		"actionType": "",
+		"activateActions": [
+		],
 		"activation": {
 			"cost": null,
 			"type": ""
 		},
+		"addedLevel": 0,
 		"armor": {
 			"acp": 0,
-			"dex": null,
+			"dex": "",
 			"enh": 0,
 			"value": 0
 		},
@@ -42,10 +45,13 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
-		"brokenResalePrice": "",
+		"brokenResalePrice": null,
 		"carried": true,
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -96,12 +102,15 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"conditionals": [
+		],
 		"constantWeight": true,
 		"container": "None",
 		"containerId": "none",
 		"containerWeightless": false,
 		"contextNotes": [
 		],
+		"convertedWeight": null,
 		"counterName": "",
 		"createdBy": "",
 		"creationChanges": [
@@ -121,10 +130,12 @@
 		},
 		"damageReduction": [
 		],
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "\n      <div topic='Carpet of Flying' level='8'><p><b>Carpet of Flying:</b> This rug is able to fly through the air as if affected by an <i>overland flight</i> spell of unlimited duration. The size, carrying capacity, and speed of the different <i>carpets of flying</i> are shown on the table below. Beautifully and intricately made, each carpet has its own command word to activate it-if the device is within voice range, the command word activates it, whether the speaker is on the rug or not. The carpet is then controlled by spoken directions.</p><table width='100%' border='1' cellpadding='2' cellspacing='2' frame='VOID' rules='ROWS'>\n\n<tr maxcol='6' curcol='6'>\n<td><b>Size</b><br/></td> <td><b>Capacity</b><br/></td>\n<td><b>Speed</b><br/></td>\n<td><b>Weight</b><br/></td>\n<td><b>Market Price</b><br/></td>\n\n</tr>\n\n<tr maxcol='6' curcol='6'>\n<td>5 ft. by 5 ft.<br/></td>\n<td>200 lb.<br/></td>\n<td>40 ft.<br/></td>\n<td>8 lb.<br/></td>\n<td>20,000 gp<br/></td>\n\n</tr>\n<tr maxcol='6' curcol='6'>\n<td>5 ft. by 10 ft.<br/></td>\n<td>400 lb.<br/></td>\n<td>40 ft.<br/></td>\n<td>15 lb.<br/></td>\n<td>35,000 gp<br/></td>\n\n</tr>\n\n<tr maxcol='6' curcol='6'>\n<td>10 ft. by 10 ft.<br/></td>\n<td>800 lb.<br/></td>\n<td>40 ft.<br/></td>\n<td>10 lb.<br/></td>\n<td>60,000 gp<br/></td>\n\n</tr>\n</table><p>A <i>carpet of flying</i> can carry up to double its capacity, but doing so reduces its speed to 30 feet. It has average maneuverability, but a <i>carpet of flying</i> can still hover.</p><p>Moderate transmutation; CL 10th; Craft Wondrous Item, <i>overland flight</i>, <i>permanency</i>.</p>\n</div>\n    "
+			"value": "@LinkedDescription[Compendium.D35E.magicitems.Item.rBwihKP2M9xHdYqb]"
 		},
 		"effectNotes": "",
 		"enhancements": {
@@ -161,17 +172,17 @@
 		},
 		"identified": true,
 		"identifiedCurse": false,
-		"identifiedName": "Carpet of Flying",
+		"identifiedName": "Carpet of Flying II",
 		"index": {
 			"subType": null,
 			"uniqueId": ""
 		},
 		"light": {
 			"alpha": 0.5,
-			"animationIntensity": "",
-			"animationSpeed": "",
-			"color": "",
-			"dimRadius": "",
+			"animationIntensity": 6,
+			"animationSpeed": 6,
+			"color": "#000000",
+			"dimRadius": null,
 			"emitLight": false,
 			"lightAngle": 360,
 			"opacity": 0,
@@ -210,9 +221,11 @@
 		},
 		"nameFormula": "",
 		"nameFromFormula": false,
-		"originId": "",
-		"originPack": "",
+		"originId": "rBwihKP2M9xHdYqb",
+		"originPack": "D35E.magicitems",
 		"originVersion": 99,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"pr": false,
 		"price": 0,
@@ -220,7 +233,7 @@
 		"quantity": 1,
 		"requirements": [
 		],
-		"resalePrice": "",
+		"resalePrice": null,
 		"resistances": [
 		],
 		"rollTableDraw": {
@@ -237,6 +250,15 @@
 			"description": "",
 			"originVersion": 97,
 			"type": ""
+		},
+		"selectedMaterial": "none",
+		"senses": {
+			"blindsight": null,
+			"darkvision": null,
+			"lowLight": false,
+			"lowLightMultiplier": null,
+			"tremorsense": null,
+			"truesight": null
 		},
 		"sizeOverride": "",
 		"slot": "slotless",
