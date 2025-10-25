@@ -17,13 +17,16 @@
 			"vsTouchAc": false
 		},
 		"actionType": "",
+		"activateActions": [
+		],
 		"activation": {
 			"cost": 4,
 			"type": "minute"
 		},
+		"addedLevel": 0,
 		"armor": {
-			"acp": 5,
-			"dex": 2,
+			"acp": 3,
+			"dex": "4",
 			"enh": 0,
 			"value": 5
 		},
@@ -42,10 +45,13 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
-		"brokenResalePrice": "",
+		"brokenResalePrice": null,
 		"carried": true,
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -96,12 +102,15 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"conditionals": [
+		],
 		"constantWeight": true,
 		"container": "None",
 		"containerId": "none",
 		"containerWeightless": false,
 		"contextNotes": [
 		],
+		"convertedWeight": 20,
 		"counterName": "",
 		"createdBy": "",
 		"creationChanges": [
@@ -120,6 +129,8 @@
 			]
 		},
 		"damageReduction": [
+		],
+		"deactivateActions": [
 		],
 		"description": {
 			"chat": "",
@@ -150,7 +161,7 @@
 			}
 		},
 		"epic": "",
-		"equipmentSubtype": "mediumArmor",
+		"equipmentSubtype": "lightArmor",
 		"equipmentType": "armor",
 		"equipped": true,
 		"equippedWeightless": false,
@@ -171,10 +182,10 @@
 		},
 		"light": {
 			"alpha": 0.5,
-			"animationIntensity": "",
-			"animationSpeed": "",
-			"color": "",
-			"dimRadius": "",
+			"animationIntensity": 6,
+			"animationSpeed": 6,
+			"color": "#000000",
+			"dimRadius": null,
 			"emitLight": false,
 			"lightAngle": 360,
 			"opacity": 0,
@@ -187,9 +198,138 @@
 		"linkSourceName": "",
 		"linkedItems": [
 		],
-		"masterwork": false,
+		"masterwork": true,
 		"material": {
-			"data": null
+			"_id": "cYqALK0VJqaqVRVh",
+			"_stats": {
+				"coreVersion": "10.291",
+				"createdTime": null,
+				"lastModifiedBy": "cB3ob9BYxSFYX7sd",
+				"modifiedTime": 1678394279023,
+				"systemId": "D35E",
+				"systemVersion": "2.1.3"
+			},
+			"data": null,
+			"effects": [
+			],
+			"flags": {
+			},
+			"folder": null,
+			"img": "icons/commodities/metal/ingot-green.webp",
+			"name": "Mithral",
+			"ownership": {
+				"default": 0,
+				"zmpT8l49zxQahqX9": 3
+			},
+			"sort": 0,
+			"system": {
+				"activateActions": [
+				],
+				"attackParts": [
+				],
+				"baseWeaponType": "",
+				"changeFlags": {
+					"heavyArmorFullSpeed": false,
+					"loseDexToAC": false,
+					"mediumArmorFullSpeed": false,
+					"multiAttack": false,
+					"multiweaponAttack": false,
+					"noCon": false,
+					"noDex": false,
+					"noEncumbrance": false,
+					"noInt": false,
+					"noStr": false,
+					"oneCha": false,
+					"oneInt": false,
+					"oneWis": false
+				},
+				"changes": [
+				],
+				"combatChangeCustomDisplayName": "",
+				"combatChangeCustomReferenceName": "",
+				"combatChanges": [
+				],
+				"combatChangesAdditionalRanges": {
+					"hasAdditionalRanges": false,
+					"slider1": {
+						"max": 0,
+						"maxFormula": "",
+						"name": ""
+					},
+					"slider2": {
+						"max": 0,
+						"maxFormula": "",
+						"name": ""
+					},
+					"slider3": {
+						"max": 0,
+						"maxFormula": "",
+						"name": ""
+					}
+				},
+				"combatChangesApplySpecialActionsOnce": true,
+				"combatChangesRange": {
+					"max": 0,
+					"maxFormula": ""
+				},
+				"combatChangesUsesCost": "chargesPerUse",
+				"conditionFlags": {
+					"dazzled": false,
+					"polymorphed": false,
+					"wildshaped": false
+				},
+				"conditionals": [
+				],
+				"container": "None",
+				"containerWeightless": false,
+				"contextNotes": [
+				],
+				"counterName": "",
+				"createdBy": "",
+				"creationChanges": [
+				],
+				"customReferenceId": "",
+				"damage": {
+					"alternativeParts": [
+					],
+					"parts": [
+					]
+				},
+				"damageReduction": [
+				],
+				"deactivateActions": [
+				],
+				"description": {
+					"value": "<p>Mithral is a very rare silvery, glistening metal that is lighter than iron but just as hard. When worked like steel, it becomes a wonderful material from which to create armor and is occasionally used for other items as well. Most mithral armors are one category lighter than normal for purposes of movement and other limitations. Heavy armors are treated as medium, and medium armors are treated as light, but light armors are still treated as light. Spell failure chances for armors and shields made from mithral are decreased by 10%, maximum Dexterity bonus is increased by 2, and armor check penalties are lessened by 3 (to a minimum of 0).</p>\n<p>An item made from mithral weighs half as much as the same item made from other metals. In the case of weapons, this lighter weight does not change a weapon&rsquo;s size category or the ease with which it can be wielded (whether it is light, one-handed, or two-handed). Items not primarily of metal are not meaningfully affected by being partially made of mithral. (A longsword can be a mithral weapon, while a&nbsp;scythe&nbsp;cannot be.)</p>\n<p>Weapons or armors fashioned from mithral are always masterwork items as well; the masterwork cost is included in the prices given below.</p>"
+				},
+				"hardness": "15",
+				"hpPerInch": "30",
+				"identifiedName": "Mithral",
+				"identifiers": [
+				],
+				"index": {
+					"subType": null,
+					"uniqueId": "mat-mithral"
+				},
+				"isAdamantineEquivalent": false,
+				"isAlchemicalSilverEquivalent": false,
+				"isColdIronEquivalent": false,
+				"magicEquivalent": 0,
+				"originVersion": 3,
+				"perRoundActions": [
+				],
+				"priceDifference": 0,
+				"requirements": [
+				],
+				"resistances": [
+				],
+				"sizeOverride": "",
+				"slug": "damage",
+				"specialActions": [
+				],
+				"uniqueId": "mat-mithral"
+			},
+			"type": "material"
 		},
 		"maxDamageDice": 0,
 		"maxDamageDiceFormula": "",
@@ -216,9 +356,11 @@
 		"originId": "",
 		"originPack": "",
 		"originVersion": 99,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"pr": false,
-		"price": 150,
+		"price": 4150,
 		"psionic": "",
 		"quantity": 1,
 		"range": {
@@ -228,7 +370,8 @@
 		},
 		"requirements": [
 		],
-		"resalePrice": "",
+		"requiresPsionicFocus": false,
+		"resalePrice": null,
 		"resistances": [
 		],
 		"rollTableDraw": {
@@ -246,12 +389,21 @@
 			"originVersion": 97,
 			"type": ""
 		},
+		"selectedMaterial": "mat-mithral",
+		"senses": {
+			"blindsight": null,
+			"darkvision": null,
+			"lowLight": false,
+			"lowLightMultiplier": null,
+			"tremorsense": null,
+			"truesight": null
+		},
 		"sizeOverride": "",
 		"slot": "slotless",
 		"source": "",
 		"specialActions": [
 		],
-		"spellFailure": 30,
+		"spellFailure": 20,
 		"sr": false,
 		"summon": [
 		],
@@ -269,9 +421,12 @@
 		"uses": {
 			"allowMultipleUses": false,
 			"autoDeductCharges": false,
+			"canBeLinked": false,
+			"chargesPerUse": null,
+			"isResource": false,
 			"per": ""
 		},
-		"weight": 40
+		"weight": 20
 	},
 	"type": "equipment"
 }
