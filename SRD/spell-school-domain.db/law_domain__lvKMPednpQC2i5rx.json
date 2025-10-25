@@ -18,10 +18,13 @@
 		},
 		"abilityType": "",
 		"actionType": "",
+		"activateActions": [
+		],
 		"activation": {
 			"cost": 1,
 			"type": ""
 		},
+		"addedLevel": 0,
 		"associations": {
 			"classes": [
 			]
@@ -37,8 +40,12 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
+		"bookSource": "",
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -59,6 +66,15 @@
 		"combatChangeCustomDisplayName": "",
 		"combatChangeCustomReferenceName": "",
 		"combatChanges": [
+			[
+				"skillOptional",
+				"",
+				"",
+				"&featClBonus",
+				"1",
+				"",
+				""
+			]
 		],
 		"combatChangesAdditionalRanges": {
 			"hasAdditionalRanges": false,
@@ -89,6 +105,10 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
 		"contextNotes": [
 		],
 		"counterName": "",
@@ -109,6 +129,8 @@
 		},
 		"damageReduction": [
 		],
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
@@ -123,6 +145,7 @@
 		"favorite": false,
 		"featType": "spellSpecialization",
 		"formula": "",
+		"identifiedName": "Law Domain",
 		"index": {
 			"subType": "spellSpecialization",
 			"uniqueId": ""
@@ -171,6 +194,8 @@
 		"originId": "",
 		"originPack": "",
 		"originVersion": 99,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"pr": false,
 		"psionic": "",
