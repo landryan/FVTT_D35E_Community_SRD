@@ -4,7 +4,7 @@
 	"effects": [
 	],
 	"folder": null,
-	"img": "icons/svg/item-bag.svg",
+	"img": "icons/buffs/interital-armor.png",
 	"name": "Protection from Arrows",
 	"system": {
 		"activateActions": [
@@ -22,6 +22,7 @@
 			"firstChangeTargetSelectableOnDescription": false,
 			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -122,10 +123,10 @@
 		"level": "",
 		"light": {
 			"alpha": 0.5,
-			"animationIntensity": "",
-			"animationSpeed": "",
-			"color": "",
-			"dimRadius": "",
+			"animationIntensity": 6,
+			"animationSpeed": 6,
+			"color": "#000000",
+			"dimRadius": null,
 			"emitLight": false,
 			"lightAngle": 360,
 			"opacity": 0,
@@ -180,6 +181,8 @@
 		"sizeOverride": "",
 		"source": "",
 		"specialActions": [
+		],
+		"summon": [
 		],
 		"tags": [
 		],
