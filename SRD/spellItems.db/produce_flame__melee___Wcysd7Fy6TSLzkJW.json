@@ -1,88 +1,64 @@
 {
-	"_id": "9eS6qNxWSTYNITkL",
-	"_key": "!items!9eS6qNxWSTYNITkL",
+	"_id": "Wcysd7Fy6TSLzkJW",
+	"_key": "!items!Wcysd7Fy6TSLzkJW",
 	"effects": [
 	],
 	"folder": null,
-	"img": "systems/D35E/icons/spells/buffs/buff/produce-flame.png",
-	"name": "Produce Flame",
+	"img": "systems/D35E/icons/spells/named-spells/produce-flame.png",
+	"name": "Produce Flame (Melee)",
 	"system": {
+		"ability": {
+			"attack": "str",
+			"critMult": 2,
+			"critRange": "20",
+			"damage": "",
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": true
+		},
+		"actionType": "msak",
 		"activateActions": [
 		],
 		"activation": {
 			"cost": 1,
-			"type": ""
+			"type": "attack"
 		},
-		"active": false,
 		"addedLevel": 0,
+		"alignment": {
+			"chaotic": false,
+			"evil": false,
+			"good": false,
+			"lawful": false
+		},
+		"associations": {
+			"classes": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
 		"attackParts": [
 		],
-		"buffType": "temp",
-		"changeFlags": {
-			"firstChangeTargetSelectableOnDescription": false,
-			"hasted": false,
-			"heavyArmorFullSpeed": false,
-			"improvedMultiattack": false,
-			"loseDexToAC": false,
-			"mediumArmorFullSpeed": false,
-			"multiAttack": false,
-			"multiweaponAttack": false,
-			"noCon": false,
-			"noDex": false,
-			"noEncumbrance": false,
-			"noInt": false,
-			"noStr": false,
-			"oneCha": false,
-			"oneInt": false,
-			"oneWis": false,
-			"uncannyDodge": false
-		},
+		"attackType": "weapon",
+		"autoScaleOption": "default",
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"baseWeaponType": "",
 		"changes": [
 		],
 		"classSource": "",
-		"combatChangeCustomDisplayName": "",
-		"combatChangeCustomReferenceName": "",
 		"combatChanges": [
 		],
-		"combatChangesAdditionalRanges": {
-			"hasAdditionalRanges": false,
-			"slider1": {
-				"max": 0,
-				"maxFormula": "",
-				"name": ""
-			},
-			"slider2": {
-				"max": 0,
-				"maxFormula": "",
-				"name": ""
-			},
-			"slider3": {
-				"max": 0,
-				"maxFormula": "",
-				"name": ""
-			}
-		},
-		"combatChangesApplySpecialActionsOnce": true,
-		"combatChangesRange": {
-			"max": 0,
-			"maxFormula": ""
-		},
-		"combatChangesUsesCost": "chargesPerUse",
-		"conditionFlags": {
-			"dazzled": false,
-			"polymorphed": false,
-			"wildshaped": false
-		},
 		"conditionals": [
 		],
 		"container": "None",
 		"containerWeightless": false,
 		"contextNotes": [
 		],
-		"counterName": "",
 		"createdBy": "",
 		"creationChanges": [
 		],
+		"critConfirmBonus": "",
 		"customAttributes": {
 		},
 		"customAttributesLocked": false,
@@ -91,24 +67,16 @@
 			"alternativeParts": [
 			],
 			"parts": [
+				[
+					"1d6+(@cl)",
+					null,
+					"energy-fire"
+				]
 			]
-		},
-		"damagePool": {
-			"current": 0,
-			"deleteOnDamagePoolEmpty": false,
-			"enabled": false,
-			"formula": "",
-			"max": 0
 		},
 		"damageReduction": [
 		],
 		"deactivateActions": [
-			{
-				"action": "Remove attack  \"Produce Flame (Melee)*\" on self;Remove attack  \"Produce Flame (Ranged)*\" on self;",
-				"condition": "",
-				"img": "",
-				"name": ""
-			}
 		],
 		"description": {
 			"chat": "",
@@ -116,29 +84,22 @@
 			"value": "<p><em>This buff only tracks the <span style=\"text-decoration: underline;\">maximum</span> duration of the spell.</em></p>\n<p><em><strong>NOTE:</strong>&nbsp;this aura does not reduce by 1 minute with every flame thrown.&nbsp; GM will need to manage that manually.</em></p>\n<hr style=\"border-top: 1px solid var(--color-border-light-primary); border-bottom: 1px solid var(--color-border-light-highlight);\">\n<p>In addition to providing illumination, the flames can be hurled or used to touch enemies. You can strike an opponent with a melee&nbsp;<a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#touchAttacks\">touch attack</a>, dealing fire damage equal to&nbsp;<a class=\"diceRoller\" title=\"Roll the dice!\">1d6</a>&nbsp;+1 point per caster level (maximum +5). Alternatively, you can hurl the flames up to 120 feet as a&nbsp;<a href=\"https://www.d20srd.org/srd/equipment/weapons.htm#thrownWeapons\">thrown weapon</a>. When doing so, you attack with a ranged touch attack (with no range penalty) and deal the same damage as with the melee attack. No sooner do you hurl the flames than a new set appears in your hand. Each attack you make reduces the remaining duration by 1 minute. If an attack reduces the remaining duration to 0 minutes or less, the spell ends after the attack resolves.&nbsp;</p>"
 		},
 		"duration": {
-			"units": "",
+			"units": "inst",
 			"value": null
 		},
-		"epic": "",
-		"hideFromToken": false,
-		"identifiedName": "Produce Flame",
+		"effectNotes": "",
+		"enh": null,
+		"epic": false,
+		"favorite": true,
+		"finesseable": true,
+		"formula": "",
+		"identifiedName": "Produce Flame (Melee)",
+		"incorporeal": false,
 		"index": {
 			"subType": null,
 			"uniqueId": ""
 		},
-		"level": "1",
-		"light": {
-			"alpha": 0.2,
-			"animationIntensity": 3,
-			"animationSpeed": 3,
-			"color": "#ffa800",
-			"dimRadius": null,
-			"emitLight": true,
-			"lightAngle": 360,
-			"opacity": 0,
-			"radius": 20,
-			"type": "torch"
-		},
+		"isNaturalEquivalent": false,
 		"linkId": "",
 		"linkImported": false,
 		"linkSourceId": "",
@@ -148,17 +109,50 @@
 			"img": null,
 			"name": null
 		},
+		"magic": false,
+		"masterwork": false,
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": "",
+			"type": ""
+		},
+		"melded": false,
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
 		"nameFormula": "",
 		"nameFromFormula": false,
+		"nonLethal": false,
+		"nonLethalNoPenalty": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 4,
+		"originVersion": 1,
+		"originalWeaponCreated": false,
+		"originalWeaponId": null,
+		"originalWeaponImg": "",
+		"originalWeaponName": "",
+		"originalWeaponProperties": {
+		},
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,
+		"pr": false,
+		"primaryAttack": true,
+		"proficient": true,
 		"psionic": "",
 		"range": {
-			"units": "",
+			"units": "touch",
 			"value": null
 		},
 		"recharge": {
@@ -171,38 +165,36 @@
 		"requiresPsionicFocus": false,
 		"resistances": [
 		],
-		"senses": {
-			"blindsight": null,
-			"darkvision": null,
-			"lowLight": false,
-			"lowLightMultiplier": null,
-			"tremorsense": null,
-			"truesight": null
+		"returning": false,
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
 		},
-		"shapechange": {
-			"source": {
-			},
-			"type": "polymorph"
+		"save": {
+			"ability": "",
+			"dc": "0",
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "",
+			"type": ""
 		},
-		"sizeOverride": "",
+		"selectedMaterial": "none",
+		"showInQuickbar": true,
 		"source": "",
 		"specialActions": [
 		],
+		"sr": false,
 		"summon": [
 		],
 		"tags": [
 		],
 		"target": {
-			"value": ""
+			"value": "One Target"
 		},
-		"timeline": {
-			"deleteOnExpiry": false,
-			"elapsed": 0,
-			"enabled": false,
-			"formula": "@item.level*10",
-			"tickOnEnd": false,
-			"total": 10
-		},
+		"threatRangeExtended": false,
+		"thrown": false,
 		"uniqueId": "",
 		"userNonRemovable": false,
 		"uses": {
@@ -215,10 +207,11 @@
 			"maxFormula": "",
 			"maxPerUse": null,
 			"maxPerUseFormula": "",
-			"per": null,
-			"rechargeFormula": null,
+			"per": "charges",
+			"rechargeFormula": "",
 			"value": 0
-		}
+		},
+		"weaponSubtype": "light"
 	},
-	"type": "buff"
+	"type": "attack"
 }

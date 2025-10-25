@@ -23,6 +23,7 @@
 			"cost": 1,
 			"type": "standard"
 		},
+		"addedLevel": 0,
 		"atWill": false,
 		"attack": {
 			"parts": [
@@ -209,9 +210,9 @@
 		"source": "",
 		"specialActions": [
 			{
-				"action": "Create unique \"Produce Flame\" from \"D35E.commonbuffs\" on self;Set buff \"Produce Flame\" field data.level to max(1,(@cl)) on self;Activate buff \"Produce Flame\" on self;",
+				"action": "Create unique \"Produce Flame\" from \"D35E.commonbuffs\" on self; Set buff \"Produce Flame\" field data.level to max(1,(@cl)) on self; Activate buff \"Produce Flame\" on self;Create unique \"Produce Flame (Melee)\" from \"D35E.spell-items\" on self; Set attack \"Produce Flame (Melee)\" field data.uses.maxFormula to (@cl) on self; Set attack \"Produce Flame (Melee)\" field data.uses.value to +(@cl) on self; Set attack \"Produce Flame (Melee)\" field data.baseCl to (@cl) on self; Create unique \"Produce Flame (Ranged)\" from \"D35E.spell-items\" on self; Set attack \"Produce Flame (Ranged)\" field data.uses.maxFormula to (@cl) on self; Set attack \"Produce Flame (Ranged)\" field data.uses.value to +(@cl) on self; Set attack \"Produce Flame (Ranged)\" field data.baseCl to (@cl) on self;",
 				"condition": "",
-				"img": "icons/svg/item-bag.svg",
+				"img": "systems/D35E/icons/spells/buffs/buff/produce-flame.png",
 				"name": "Produce Flame"
 			}
 		],
