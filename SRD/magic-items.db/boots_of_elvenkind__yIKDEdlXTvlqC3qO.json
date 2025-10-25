@@ -23,6 +23,7 @@
 			"cost": null,
 			"type": ""
 		},
+		"addedLevel": 0,
 		"armor": {
 			"acp": 0,
 			"dex": "",
@@ -44,11 +45,13 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
-		"brokenResalePrice": "",
+		"brokenResalePrice": null,
 		"carried": true,
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
 			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -236,7 +239,7 @@
 		"quantity": 1,
 		"requirements": [
 		],
-		"resalePrice": "",
+		"resalePrice": null,
 		"resistances": [
 		],
 		"rollTableDraw": {
@@ -254,10 +257,12 @@
 			"originVersion": 97,
 			"type": ""
 		},
+		"selectedMaterial": "none",
 		"senses": {
 			"blindsight": null,
 			"darkvision": null,
 			"lowLight": false,
+			"lowLightMultiplier": null,
 			"tremorsense": null,
 			"truesight": null
 		},
