@@ -17,13 +17,16 @@
 			"vsTouchAc": false
 		},
 		"actionType": "",
+		"activateActions": [
+		],
 		"activation": {
-			"cost": null,
-			"type": ""
+			"cost": 1,
+			"type": "standard"
 		},
+		"addedLevel": 0,
 		"armor": {
 			"acp": 0,
-			"dex": null,
+			"dex": "",
 			"enh": 0,
 			"value": 0
 		},
@@ -42,10 +45,13 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
-		"brokenResalePrice": "",
+		"brokenResalePrice": null,
 		"carried": true,
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -96,12 +102,15 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"conditionals": [
+		],
 		"constantWeight": true,
 		"container": "None",
 		"containerId": "none",
 		"containerWeightless": false,
 		"contextNotes": [
 		],
+		"convertedWeight": 1,
 		"counterName": "",
 		"createdBy": "",
 		"creationChanges": [
@@ -121,10 +130,16 @@
 		},
 		"damageReduction": [
 		],
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
 			"value": "\n      <div topic='Boots, Winged' level='8'><p><b>Boots, Winged:</b> These boots appear to be ordinary footgear. On command, the boots sprout wings at the heel and let the wearer fly, without having to maintain concentration, as if affected by a <i>fly</i> spell. He can fly three times day for up to 5 minutes per flight.</p><p>Faint transmutation; CL 5th; Craft Wondrous Item, <i>fly</i>; Price 16,000 gp; Weight 1 lb.</p>\n</div>\n    "
+		},
+		"duration": {
+			"units": "minute",
+			"value": "5"
 		},
 		"effectNotes": "",
 		"enhancements": {
@@ -168,10 +183,10 @@
 		},
 		"light": {
 			"alpha": 0.5,
-			"animationIntensity": "",
-			"animationSpeed": "",
-			"color": "",
-			"dimRadius": "",
+			"animationIntensity": 6,
+			"animationSpeed": 6,
+			"color": "#000000",
+			"dimRadius": null,
 			"emitLight": false,
 			"lightAngle": 360,
 			"opacity": 0,
@@ -213,14 +228,23 @@
 		"originId": "",
 		"originPack": "",
 		"originVersion": 99,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"pr": false,
 		"price": 16000,
 		"psionic": "",
 		"quantity": 1,
+		"range": {
+			"units": ""
+		},
+		"recharge": {
+			"enabled": false
+		},
 		"requirements": [
 		],
-		"resalePrice": "",
+		"requiresPsionicFocus": false,
+		"resalePrice": null,
 		"resistances": [
 		],
 		"rollTableDraw": {
@@ -238,6 +262,15 @@
 			"originVersion": 97,
 			"type": ""
 		},
+		"selectedMaterial": "none",
+		"senses": {
+			"blindsight": null,
+			"darkvision": null,
+			"lowLight": false,
+			"lowLightMultiplier": null,
+			"tremorsense": null,
+			"truesight": null
+		},
 		"sizeOverride": "",
 		"slot": "feet",
 		"source": "",
@@ -249,12 +282,27 @@
 		],
 		"tags": [
 		],
+		"target": {
+			"value": ""
+		},
 		"unidentified": {
-			"name": "",
+			"name": "Boots",
 			"price": 0
 		},
 		"uniqueId": "",
 		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": false,
+			"canBeLinked": false,
+			"chargesPerUse": null,
+			"isResource": false,
+			"max": 3,
+			"maxFormula": "3",
+			"per": "day",
+			"rechargeFormula": "",
+			"value": 3
+		},
 		"weight": 1
 	},
 	"type": "equipment"
