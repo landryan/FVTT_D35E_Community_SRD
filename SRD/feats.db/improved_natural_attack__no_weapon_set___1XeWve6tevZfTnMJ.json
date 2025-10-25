@@ -18,6 +18,8 @@
 		},
 		"abilityType": "",
 		"actionType": "",
+		"activateActions": [
+		],
 		"activation": {
 			"cost": 1,
 			"type": ""
@@ -39,8 +41,13 @@
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
 		"bookSource": "",
+		"brokenResalePrice": null,
+		"carried": false,
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -91,6 +98,11 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"conditionals": [
+		],
+		"constantWeight": false,
+		"container": "None",
+		"containerWeightless": false,
 		"contextNotes": [
 		],
 		"counterName": "",
@@ -103,10 +115,12 @@
 			"_kh4mdayuu": {
 				"id": "_kh4mdayuu",
 				"name": "Weapon Name",
+				"selectList": "",
+				"showOnDetails": true,
 				"value": "No Weapon Set"
 			}
 		},
-		"customAttributesLocked": false,
+		"customAttributesLocked": true,
 		"customTag": "",
 		"damage": {
 			"alternativeParts": [
@@ -120,6 +134,8 @@
 			"_deprecated": true,
 			"value": ""
 		},
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
@@ -131,9 +147,11 @@
 		},
 		"effectNotes": "",
 		"epic": "",
+		"equippedWeightless": false,
 		"favorite": false,
 		"featType": "feat",
 		"formula": "",
+		"fullResalePrice": false,
 		"identifiedName": "Improved Natural Attack (No Weapon Set)",
 		"index": {
 			"subType": "feat",
@@ -182,7 +200,9 @@
 		"nameFromFormula": true,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 101,
+		"originVersion": 102,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"pr": false,
 		"psionic": "",
@@ -202,6 +222,7 @@
 		"requirements": [
 		],
 		"requiresPsionicFocus": false,
+		"resalePrice": null,
 		"resistances": [
 		],
 		"rollTableDraw": {
