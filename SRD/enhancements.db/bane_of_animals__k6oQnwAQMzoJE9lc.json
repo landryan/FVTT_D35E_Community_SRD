@@ -3,7 +3,7 @@
 	"_key": "!items!k6oQnwAQMzoJE9lc",
 	"effects": [
 	],
-	"folder": null,
+	"folder": "DwfjATbmbSG88UQN",
 	"img": "systems/D35E/icons/crafting-station/enhancements/weapons/bane.png",
 	"name": "Bane of Animals",
 	"system": {
@@ -17,10 +17,13 @@
 			"vsTouchAc": false
 		},
 		"actionType": "other",
+		"activateActions": [
+		],
 		"activation": {
 			"cost": 1,
 			"type": ""
 		},
+		"addedLevel": 0,
 		"allowedTypes": [
 		],
 		"attack": {
@@ -34,6 +37,8 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
+		"brokenResalePrice": null,
+		"carried": false,
 		"changeFlags": {
 			"heavyArmorFullSpeed": false,
 			"loseDexToAC": false,
@@ -85,6 +90,11 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"conditionals": [
+		],
+		"constantWeight": false,
+		"container": "None",
+		"containerWeightless": false,
 		"contextNotes": [
 		],
 		"counterName": "",
@@ -104,6 +114,8 @@
 		},
 		"damageReduction": [
 		],
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
@@ -120,8 +132,11 @@
 		"enhIsLevel": false,
 		"enhancementType": "weapon",
 		"epic": "",
+		"equippedWeightless": false,
 		"favorite": false,
 		"formula": "",
+		"fullResalePrice": false,
+		"identifiedName": "Bane of Animals",
 		"index": {
 			"subType": null,
 			"uniqueId": ""
@@ -165,6 +180,8 @@
 		"originId": "",
 		"originPack": "",
 		"originVersion": 99,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"pr": false,
 		"price": 0,
@@ -172,6 +189,7 @@
 		"properties": {
 			"def": false,
 			"dis": false,
+			"inc": false,
 			"kee": false,
 			"mnk": false,
 			"spd": false,
@@ -190,6 +208,7 @@
 		},
 		"requirements": "CL 8th; Craft Magic Arms and Armor, summon monster I",
 		"requiresPsionicFocus": false,
+		"resalePrice": null,
 		"resistances": [
 		],
 		"rollTableDraw": {
@@ -245,7 +264,7 @@
 				"lawful": false
 			},
 			"attackRoll": "2",
-			"damageRoll": "2d6",
+			"damageRoll": "2d6+2",
 			"damageType": "",
 			"damageTypeId": "damage-untyped",
 			"optionalDamage": true
