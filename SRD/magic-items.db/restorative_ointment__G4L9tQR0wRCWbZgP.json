@@ -11,19 +11,22 @@
 			"attack": null,
 			"critMult": 2,
 			"critRange": 20,
-			"damage": null,
+			"damage": "",
 			"damageMult": 1,
 			"twoHandedOnly": false,
 			"vsTouchAc": false
 		},
 		"actionType": "",
+		"activateActions": [
+		],
 		"activation": {
 			"cost": null,
 			"type": ""
 		},
+		"addedLevel": 0,
 		"armor": {
 			"acp": 0,
-			"dex": null,
+			"dex": "",
 			"enh": 0,
 			"value": 0
 		},
@@ -42,10 +45,13 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
-		"brokenResalePrice": "",
+		"brokenResalePrice": null,
 		"carried": true,
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -96,12 +102,15 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"conditionals": [
+		],
 		"constantWeight": true,
 		"container": "None",
 		"containerId": "none",
 		"containerWeightless": false,
 		"contextNotes": [
 		],
+		"convertedWeight": 1,
 		"counterName": "",
 		"createdBy": "",
 		"creationChanges": [
@@ -121,6 +130,8 @@
 		},
 		"damageReduction": [
 		],
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
@@ -132,18 +143,1212 @@
 				"updateName": false,
 				"updatePrice": false
 			},
-			"clFormula": "",
+			"clFormula": "5",
 			"items": [
+				{
+					"_id": "AOiRVqXr1bjb8St2-umoXIQlnhRB4Nqke",
+					"calcPrice": "0",
+					"hasAction": true,
+					"hasUses": true,
+					"id": "umoXIQlnhRB4Nqke",
+					"img": "systems/D35E/icons/spells/named-spells/cure-wounds.png",
+					"incorrect": false,
+					"isCharged": true,
+					"name": "Cure Light Wounds",
+					"system": {
+						"ability": {
+							"attack": null,
+							"critMult": 2,
+							"critRange": "20",
+							"damage": null,
+							"damageMult": 1,
+							"twoHandedOnly": false,
+							"vsTouchAc": false
+						},
+						"actionType": "heal",
+						"activation": {
+							"cost": 1,
+							"type": "standard"
+						},
+						"addedLevel": 0,
+						"allowedTypes": [
+			],
+						"attackBonus": "",
+						"attackCountFormula": "",
+						"attackNotes": "",
+						"attackParts": [
+						],
+						"autoscaleAttackParts": "",
+						"baseCl": 5,
+						"changeFlags": {
+							"heavyArmorFullSpeed": false,
+							"loseDexToAC": false,
+							"mediumArmorFullSpeed": false,
+							"multiAttack": false,
+							"multiweaponAttack": false,
+							"noCon": false,
+							"noDex": false,
+							"noEncumbrance": false,
+							"noInt": false,
+							"noStr": false,
+							"oneCha": false,
+							"oneInt": false,
+							"oneWis": false
+						},
+						"changes": [
+						],
+						"classSource": "",
+						"combatChangeCustomDisplayName": "",
+						"combatChangeCustomReferenceName": "",
+						"combatChanges": [
+						],
+						"combatChangesAdditionalRanges": {
+							"hasAdditionalRanges": false,
+							"slider1": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							},
+							"slider2": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							},
+							"slider3": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							}
+						},
+						"combatChangesApplySpecialActionsOnce": true,
+						"combatChangesRange": {
+							"max": 0,
+							"maxFormula": ""
+						},
+						"combatChangesUsesCost": "chargesPerUse",
+						"conditionFlags": {
+							"dazzled": false,
+							"polymorphed": false,
+							"wildshaped": false
+						},
+						"contextNotes": [
+						],
+						"counterName": "",
+						"createdBy": "",
+						"creationChanges": [
+						],
+						"critConfirmBonus": "",
+						"customAttributes": {
+						},
+						"customAttributesLocked": false,
+						"customTag": "",
+						"damage": {
+							"alternativeParts": [
+							],
+							"parts": [
+								[
+									"1d8+min(5,@cl)",
+									"positive energy"
+								]
+							]
+						},
+						"damageReduction": [
+						],
+						"description": {
+							"chat": "",
+							"unidentified": ""
+						},
+						"duration": {
+							"units": "",
+							"value": null
+						},
+						"effectNotes": "",
+						"enh": 0,
+						"enhIncrease": 0,
+						"enhIncreaseFormula": "",
+						"enhIsLevel": false,
+						"enhancementType": "misc",
+						"epic": "",
+						"favorite": false,
+						"formula": "",
+						"isFromBuff": false,
+						"isFromSpell": true,
+						"linkId": "",
+						"linkImported": false,
+						"linkSourceId": "",
+						"linkSourceName": "",
+						"linkedChargeItem": {
+							"id": null,
+							"img": null,
+							"name": null
+						},
+						"maxDamageDice": 0,
+						"maxDamageDiceFormula": "",
+						"measureTemplate": {
+							"customColor": "",
+							"customTexture": "",
+							"overrideColor": false,
+							"overrideTexture": false,
+							"size": 0,
+							"type": ""
+						},
+						"metamagicFeats": {
+							"empowered": false,
+							"enhanced": false,
+							"enhancedHalf": false,
+							"enlarged": false,
+							"intensified": false,
+							"maximized": false,
+							"widened": false
+						},
+						"nameExtension": {
+							"prefix": "",
+							"suffix": ""
+						},
+						"nameFormula": "",
+						"nameFromFormula": false,
+						"originId": "",
+						"originPack": "",
+						"originVersion": 0,
+						"possibleUpdate": false,
+						"pr": false,
+						"price": 0,
+						"priceFormula": "",
+						"properties": {
+						},
+						"psionic": "",
+						"range": {
+							"units": "",
+							"value": null
+						},
+						"recharge": {
+							"current": 0,
+							"enabled": false,
+							"formula": ""
+						},
+						"requirements": [
+						],
+						"requiresPsionicFocus": false,
+						"resistances": [
+						],
+						"rollTableDraw": {
+							"formula": "",
+							"id": "",
+							"name": "",
+							"pack": ""
+						},
+						"save": {
+							"ability": "",
+							"dc": 11,
+							"dcAutoAbility": "",
+							"dcAutoType": "",
+							"description": "Will half (harmless); see text",
+							"type": ""
+						},
+						"sizeOverride": "",
+						"source": "",
+						"specialActions": [
+						],
+						"sr": true,
+						"summon": [
+						],
+						"tags": [
+						],
+						"target": {
+							"value": ""
+						},
+						"uniqueId": "",
+						"userNonRemovable": false,
+			"uses": {
+				"allowMultipleUses": false,
+				"autoDeductCharges": true,
+							"canBeLinked": false,
+							"chargesPerUse": 1,
+							"isResource": false,
+							"max": 1,
+							"maxFormula": "1",
+							"maxPerUse": null,
+							"maxPerUseFormula": "",
+							"per": "day",
+							"rechargeFormula": null,
+							"value": 1
+						},
+						"weaponAttackNotes": [
+						],
+						"weaponData": {
+							"alignment": {
+								"chaotic": false,
+								"evil": false,
+								"good": false,
+								"lawful": false
+							},
+							"attackRoll": "",
+							"damageRoll": "",
+							"damageType": "",
+							"damageTypeId": "",
+							"optionalDamage": false
+						}
+					},
+					"tag": "cureLightWounds",
+					"type": "enhancement"
+				},
+				{
+					"_id": "AOiRVqXr1bjb8St2-z13RExkmelnkldHs",
+					"calcPrice": "0",
+					"data": {
+						"ability": {
+							"attack": null,
+							"critMult": 2,
+							"critRange": "20",
+							"damage": null,
+							"damageMult": 1,
+							"twoHandedOnly": false,
+							"vsTouchAc": false
+						},
+						"actionType": "other",
+						"activation": {
+							"cost": 1,
+							"type": "standard"
+						},
+						"addedLevel": 0,
+						"allowedTypes": [
+						],
+						"attackBonus": "",
+						"attackCountFormula": "",
+						"attackNotes": "",
+						"attackParts": [
+						],
+						"autoscaleAttackParts": "",
+						"baseCl": 5,
+						"changeFlags": {
+							"heavyArmorFullSpeed": false,
+							"loseDexToAC": false,
+							"mediumArmorFullSpeed": false,
+							"multiAttack": false,
+							"multiweaponAttack": false,
+							"noCon": false,
+							"noDex": false,
+							"noEncumbrance": false,
+							"noInt": false,
+							"noStr": false,
+							"oneCha": false,
+							"oneInt": false,
+							"oneWis": false
+						},
+						"changes": [
+						],
+						"classSource": "",
+						"combatChangeCustomDisplayName": "",
+						"combatChangeCustomReferenceName": "",
+						"combatChanges": [
+						],
+						"combatChangesAdditionalRanges": {
+							"hasAdditionalRanges": false,
+							"slider1": {
+				"max": 0,
+								"maxFormula": "",
+								"name": ""
+							},
+							"slider2": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							},
+							"slider3": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							}
+						},
+						"combatChangesApplySpecialActionsOnce": true,
+						"combatChangesRange": {
+							"max": 0,
+							"maxFormula": ""
+						},
+						"combatChangesUsesCost": "chargesPerUse",
+						"conditionFlags": {
+							"dazzled": false,
+							"polymorphed": false,
+							"wildshaped": false
+						},
+						"contextNotes": [
+						],
+						"counterName": "",
+						"createdBy": "",
+						"creationChanges": [
+						],
+						"critConfirmBonus": "",
+						"customAttributes": {
+						},
+						"customAttributesLocked": false,
+						"customTag": "",
+						"damage": {
+							"alternativeParts": [
+							],
+							"parts": [
+							]
+						},
+						"damageReduction": [
+						],
+						"description": {
+							"chat": "",
+							"unidentified": ""
+						},
+						"duration": {
+							"units": "",
+							"value": null
+						},
+						"effectNotes": "",
+						"enh": 0,
+						"enhIncrease": 0,
+						"enhIncreaseFormula": "",
+						"enhIsLevel": false,
+						"enhancementType": "misc",
+						"epic": "",
+						"favorite": false,
+						"formula": "",
+						"isFromBuff": false,
+						"isFromSpell": true,
+						"linkId": "",
+						"linkImported": false,
+						"linkSourceId": "",
+						"linkSourceName": "",
+						"linkedChargeItem": {
+							"id": null,
+							"img": null,
+							"name": null
+						},
+						"maxDamageDice": 0,
+						"maxDamageDiceFormula": "",
+						"measureTemplate": {
+							"customColor": "",
+							"customTexture": "",
+							"overrideColor": false,
+							"overrideTexture": false,
+							"size": 0,
+							"type": ""
+						},
+						"metamagicFeats": {
+							"empowered": false,
+							"enhanced": false,
+							"enhancedHalf": false,
+							"enlarged": false,
+							"intensified": false,
+							"maximized": false,
+							"widened": false
+						},
+						"nameExtension": {
+							"prefix": "",
+							"suffix": ""
+						},
+						"nameFormula": "",
+						"nameFromFormula": false,
+						"originId": "",
+						"originPack": "",
+						"originVersion": 0,
+						"possibleUpdate": false,
+						"pr": false,
+						"price": 0,
+						"priceFormula": "",
+						"properties": {
+						},
+						"psionic": "",
+						"range": {
+							"units": "",
+							"value": null
+						},
+						"recharge": {
+							"current": 0,
+							"enabled": false,
+							"formula": ""
+						},
+						"requirements": [
+						],
+						"requiresPsionicFocus": false,
+						"resistances": [
+						],
+						"rollTableDraw": {
+							"formula": "",
+							"id": "",
+							"name": "",
+							"pack": ""
+						},
+						"save": {
+							"ability": "",
+							"dc": 14,
+							"dcAutoAbility": "",
+							"dcAutoType": "",
+							"description": "Will negates (harmless, object)\n",
+							"type": ""
+						},
+						"sizeOverride": "",
+						"source": "",
+						"specialActions": [
+						],
+						"sr": true,
+						"summon": [
+						],
+						"tags": [
+						],
+						"target": {
+							"value": ""
+						},
+						"uniqueId": "",
+						"userNonRemovable": false,
+						"uses": {
+							"allowMultipleUses": false,
+							"autoDeductCharges": true,
+							"canBeLinked": false,
+							"chargesPerUse": 1,
+							"isResource": false,
+							"max": 1,
+							"maxFormula": "1",
+							"maxPerUse": null,
+							"maxPerUseFormula": "",
+							"per": "day",
+				"rechargeFormula": null,
+							"value": 1
+						},
+						"weaponAttackNotes": [
+						],
+						"weaponData": {
+							"alignment": {
+								"chaotic": false,
+								"evil": false,
+								"good": false,
+								"lawful": false
+							},
+							"attackRoll": "",
+							"damageRoll": "",
+							"damageType": "",
+							"damageTypeId": "",
+							"optionalDamage": false
+						}
+					},
+					"hasAction": true,
+					"hasUses": true,
+					"id": "z13RExkmelnkldHs",
+					"img": "systems/D35E/icons/spells/school/con_.png",
+					"incorrect": false,
+					"isCharged": true,
+					"name": "Neutralize Poison",
+					"system": {
+						"ability": {
+							"attack": null,
+							"critMult": 2,
+							"critRange": "20",
+							"damage": null,
+							"damageMult": 1,
+							"twoHandedOnly": false,
+							"vsTouchAc": false
+						},
+						"actionType": "other",
+						"activation": {
+							"cost": 1,
+							"type": "standard"
+						},
+						"addedLevel": 0,
+						"allowedTypes": [
+						],
+						"attackBonus": "",
+						"attackCountFormula": "",
+						"attackNotes": "",
+						"attackParts": [
+						],
+						"autoscaleAttackParts": "",
+						"baseCl": 5,
+						"changeFlags": {
+							"heavyArmorFullSpeed": false,
+							"loseDexToAC": false,
+							"mediumArmorFullSpeed": false,
+							"multiAttack": false,
+							"multiweaponAttack": false,
+							"noCon": false,
+							"noDex": false,
+							"noEncumbrance": false,
+							"noInt": false,
+							"noStr": false,
+							"oneCha": false,
+							"oneInt": false,
+							"oneWis": false
+						},
+						"changes": [
+						],
+						"classSource": "",
+						"combatChangeCustomDisplayName": "",
+						"combatChangeCustomReferenceName": "",
+						"combatChanges": [
+						],
+						"combatChangesAdditionalRanges": {
+							"hasAdditionalRanges": false,
+							"slider1": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							},
+							"slider2": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							},
+							"slider3": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							}
+						},
+						"combatChangesApplySpecialActionsOnce": true,
+						"combatChangesRange": {
+							"max": 0,
+							"maxFormula": ""
+						},
+						"combatChangesUsesCost": "chargesPerUse",
+						"conditionFlags": {
+							"dazzled": false,
+							"polymorphed": false,
+							"wildshaped": false
+						},
+						"contextNotes": [
+						],
+						"counterName": "",
+						"createdBy": "",
+						"creationChanges": [
+						],
+						"critConfirmBonus": "",
+						"customAttributes": {
+						},
+						"customAttributesLocked": false,
+						"customTag": "",
+						"damage": {
+							"alternativeParts": [
+							],
+							"parts": [
+							]
+						},
+						"damageReduction": [
+						],
+						"description": {
+							"chat": "",
+							"unidentified": ""
+						},
+						"duration": {
+							"units": "",
+							"value": null
+						},
+						"effectNotes": "",
+						"enh": 0,
+						"enhIncrease": 0,
+						"enhIncreaseFormula": "",
+						"enhIsLevel": false,
+						"enhancementType": "misc",
+						"epic": "",
+						"favorite": false,
+						"formula": "",
+						"isFromBuff": false,
+						"isFromSpell": true,
+						"linkId": "",
+						"linkImported": false,
+						"linkSourceId": "",
+						"linkSourceName": "",
+						"linkedChargeItem": {
+							"id": null,
+							"img": null,
+							"name": null
+						},
+						"maxDamageDice": 0,
+						"maxDamageDiceFormula": "",
+						"measureTemplate": {
+							"customColor": "",
+							"customTexture": "",
+							"overrideColor": false,
+							"overrideTexture": false,
+							"size": 0,
+							"type": ""
+						},
+						"metamagicFeats": {
+							"empowered": false,
+							"enhanced": false,
+							"enhancedHalf": false,
+							"enlarged": false,
+							"intensified": false,
+							"maximized": false,
+							"widened": false
+						},
+						"nameExtension": {
+							"prefix": "",
+							"suffix": ""
+						},
+						"nameFormula": "",
+						"nameFromFormula": false,
+						"originId": "",
+						"originPack": "",
+						"originVersion": 0,
+						"possibleUpdate": false,
+						"pr": false,
+						"price": 0,
+						"priceFormula": "",
+						"properties": {
+						},
+						"psionic": "",
+						"range": {
+							"units": "",
+							"value": null
+						},
+						"recharge": {
+							"current": 0,
+							"enabled": false,
+							"formula": ""
+						},
+						"requirements": [
+						],
+						"requiresPsionicFocus": false,
+						"resistances": [
+						],
+						"rollTableDraw": {
+							"formula": "",
+							"id": "",
+							"name": "",
+							"pack": ""
+						},
+						"save": {
+							"ability": "",
+							"dc": 14,
+							"dcAutoAbility": "",
+							"dcAutoType": "",
+							"description": "Will negates (harmless, object)\n",
+							"type": ""
+						},
+						"sizeOverride": "",
+						"source": "",
+						"specialActions": [
+						],
+						"sr": true,
+						"summon": [
+						],
+						"tags": [
+						],
+						"target": {
+							"value": ""
+						},
+						"uniqueId": "",
+						"userNonRemovable": false,
+						"uses": {
+							"allowMultipleUses": false,
+							"autoDeductCharges": true,
+							"canBeLinked": false,
+							"chargesPerUse": 1,
+							"isResource": false,
+							"max": 1,
+							"maxFormula": "1",
+							"maxPerUse": null,
+							"maxPerUseFormula": "",
+							"per": "day",
+							"rechargeFormula": null,
+							"value": 1
+						},
+						"weaponAttackNotes": [
+						],
+						"weaponData": {
+							"alignment": {
+								"chaotic": false,
+								"evil": false,
+								"good": false,
+								"lawful": false
+							},
+							"attackRoll": "",
+							"damageRoll": "",
+							"damageType": "",
+							"damageTypeId": "",
+							"optionalDamage": false
+						}
+					},
+					"tag": "neutralizePoison",
+					"type": "enhancement"
+				},
+				{
+					"_id": "AOiRVqXr1bjb8St2-c4s6A8BslkkQlUX1",
+					"calcPrice": "0",
+					"data": {
+						"ability": {
+							"attack": null,
+							"critMult": 2,
+							"critRange": "20",
+							"damage": null,
+							"damageMult": 1,
+							"twoHandedOnly": false,
+							"vsTouchAc": false
+						},
+						"actionType": "other",
+						"activation": {
+							"cost": 1,
+							"type": "standard"
+						},
+						"addedLevel": 0,
+						"allowedTypes": [
+						],
+						"attackBonus": "",
+						"attackCountFormula": "",
+						"attackNotes": "",
+						"attackParts": [
+						],
+						"autoscaleAttackParts": "",
+						"baseCl": 5,
+						"changeFlags": {
+							"heavyArmorFullSpeed": false,
+							"loseDexToAC": false,
+							"mediumArmorFullSpeed": false,
+							"multiAttack": false,
+							"multiweaponAttack": false,
+							"noCon": false,
+							"noDex": false,
+							"noEncumbrance": false,
+							"noInt": false,
+							"noStr": false,
+							"oneCha": false,
+							"oneInt": false,
+							"oneWis": false
+						},
+						"changes": [
+						],
+						"classSource": "",
+						"combatChangeCustomDisplayName": "",
+						"combatChangeCustomReferenceName": "",
+						"combatChanges": [
+						],
+						"combatChangesAdditionalRanges": {
+							"hasAdditionalRanges": false,
+							"slider1": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							},
+							"slider2": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							},
+							"slider3": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							}
+						},
+						"combatChangesApplySpecialActionsOnce": true,
+						"combatChangesRange": {
+							"max": 0,
+							"maxFormula": ""
+						},
+						"combatChangesUsesCost": "chargesPerUse",
+						"conditionFlags": {
+							"dazzled": false,
+							"polymorphed": false,
+							"wildshaped": false
+						},
+						"contextNotes": [
+						],
+						"counterName": "",
+						"createdBy": "",
+						"creationChanges": [
+						],
+						"critConfirmBonus": "",
+						"customAttributes": {
+						},
+						"customAttributesLocked": false,
+						"customTag": "",
+						"damage": {
+							"alternativeParts": [
+							],
+							"parts": [
+							]
+						},
+						"damageReduction": [
+						],
+						"description": {
+							"chat": "",
+							"unidentified": ""
+						},
+						"duration": {
+							"units": "",
+							"value": null
+						},
+						"effectNotes": "",
+						"enh": 0,
+						"enhIncrease": 0,
+						"enhIncreaseFormula": "",
+						"enhIsLevel": false,
+						"enhancementType": "misc",
+						"epic": "",
+						"favorite": false,
+						"formula": "",
+						"isFromBuff": false,
+						"isFromSpell": true,
+						"linkId": "",
+						"linkImported": false,
+						"linkSourceId": "",
+						"linkSourceName": "",
+						"linkedChargeItem": {
+							"id": null,
+							"img": null,
+							"name": null
+						},
+						"maxDamageDice": 0,
+						"maxDamageDiceFormula": "",
+						"measureTemplate": {
+							"customColor": "",
+							"customTexture": "",
+							"overrideColor": false,
+							"overrideTexture": false,
+							"size": 0,
+							"type": ""
+						},
+						"metamagicFeats": {
+							"empowered": false,
+							"enhanced": false,
+							"enhancedHalf": false,
+							"enlarged": false,
+							"intensified": false,
+							"maximized": false,
+							"widened": false
+						},
+						"nameExtension": {
+							"prefix": "",
+							"suffix": ""
+						},
+						"nameFormula": "",
+						"nameFromFormula": false,
+						"originId": "",
+						"originPack": "",
+						"originVersion": 0,
+						"possibleUpdate": false,
+						"pr": false,
+						"price": 0,
+						"priceFormula": "",
+						"properties": {
+						},
+						"psionic": "",
+						"range": {
+							"units": "",
+							"value": null
+						},
+						"recharge": {
+							"current": 0,
+							"enabled": false,
+							"formula": ""
+						},
+						"requirements": [
+						],
+						"requiresPsionicFocus": false,
+						"resistances": [
+						],
+						"rollTableDraw": {
+							"formula": "",
+							"id": "",
+							"name": "",
+							"pack": ""
+						},
+						"save": {
+							"ability": "",
+							"dc": 14,
+							"dcAutoAbility": "",
+							"dcAutoType": "",
+							"description": "Fortitude negates (harmless)\n",
+							"type": ""
+						},
+						"sizeOverride": "",
+						"source": "",
+						"specialActions": [
+						],
+						"sr": true,
+						"summon": [
+						],
+						"tags": [
+						],
+						"target": {
+							"value": ""
+						},
+						"uniqueId": "",
+						"userNonRemovable": false,
+						"uses": {
+							"allowMultipleUses": false,
+							"autoDeductCharges": true,
+							"canBeLinked": false,
+							"chargesPerUse": 1,
+							"isResource": false,
+							"max": 1,
+							"maxFormula": "1",
+							"maxPerUse": null,
+							"maxPerUseFormula": "",
+							"per": "day",
+							"rechargeFormula": null,
+							"value": 1
+						},
+						"weaponAttackNotes": [
+						],
+						"weaponData": {
+							"alignment": {
+								"chaotic": false,
+								"evil": false,
+								"good": false,
+								"lawful": false
+							},
+							"attackRoll": "",
+							"damageRoll": "",
+							"damageType": "",
+							"damageTypeId": "",
+							"optionalDamage": false
+						}
+					},
+					"hasAction": true,
+					"hasUses": true,
+					"id": "c4s6A8BslkkQlUX1",
+					"img": "systems/D35E/icons/spells/school/con_.png",
+					"incorrect": false,
+					"isCharged": true,
+					"name": "Remove Disease",
+					"system": {
+						"ability": {
+							"attack": null,
+							"critMult": 2,
+							"critRange": "20",
+							"damage": null,
+							"damageMult": 1,
+							"twoHandedOnly": false,
+							"vsTouchAc": false
+						},
+						"actionType": "other",
+						"activation": {
+							"cost": 1,
+							"type": "standard"
+						},
+						"addedLevel": 0,
+						"allowedTypes": [
+						],
+						"attackBonus": "",
+						"attackCountFormula": "",
+						"attackNotes": "",
+						"attackParts": [
+						],
+						"autoscaleAttackParts": "",
+						"baseCl": 5,
+						"changeFlags": {
+							"heavyArmorFullSpeed": false,
+							"loseDexToAC": false,
+							"mediumArmorFullSpeed": false,
+							"multiAttack": false,
+							"multiweaponAttack": false,
+							"noCon": false,
+							"noDex": false,
+							"noEncumbrance": false,
+							"noInt": false,
+							"noStr": false,
+							"oneCha": false,
+							"oneInt": false,
+							"oneWis": false
+						},
+						"changes": [
+						],
+						"classSource": "",
+						"combatChangeCustomDisplayName": "",
+						"combatChangeCustomReferenceName": "",
+						"combatChanges": [
+						],
+						"combatChangesAdditionalRanges": {
+							"hasAdditionalRanges": false,
+							"slider1": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							},
+							"slider2": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							},
+							"slider3": {
+								"max": 0,
+								"maxFormula": "",
+								"name": ""
+							}
+						},
+						"combatChangesApplySpecialActionsOnce": true,
+						"combatChangesRange": {
+							"max": 0,
+							"maxFormula": ""
+						},
+						"combatChangesUsesCost": "chargesPerUse",
+						"conditionFlags": {
+							"dazzled": false,
+							"polymorphed": false,
+							"wildshaped": false
+						},
+						"contextNotes": [
+						],
+						"counterName": "",
+						"createdBy": "",
+						"creationChanges": [
+						],
+						"critConfirmBonus": "",
+						"customAttributes": {
+						},
+						"customAttributesLocked": false,
+						"customTag": "",
+						"damage": {
+							"alternativeParts": [
+							],
+							"parts": [
+							]
+						},
+						"damageReduction": [
+						],
+						"description": {
+							"chat": "",
+							"unidentified": ""
+						},
+						"duration": {
+							"units": "",
+							"value": null
+						},
+						"effectNotes": "",
+						"enh": 0,
+						"enhIncrease": 0,
+						"enhIncreaseFormula": "",
+						"enhIsLevel": false,
+						"enhancementType": "misc",
+						"epic": "",
+						"favorite": false,
+						"formula": "",
+						"isFromBuff": false,
+						"isFromSpell": true,
+						"linkId": "",
+						"linkImported": false,
+						"linkSourceId": "",
+						"linkSourceName": "",
+						"linkedChargeItem": {
+							"id": null,
+							"img": null,
+							"name": null
+						},
+						"maxDamageDice": 0,
+						"maxDamageDiceFormula": "",
+						"measureTemplate": {
+							"customColor": "",
+							"customTexture": "",
+							"overrideColor": false,
+							"overrideTexture": false,
+							"size": 0,
+							"type": ""
+						},
+						"metamagicFeats": {
+							"empowered": false,
+							"enhanced": false,
+							"enhancedHalf": false,
+							"enlarged": false,
+							"intensified": false,
+							"maximized": false,
+							"widened": false
+						},
+						"nameExtension": {
+							"prefix": "",
+							"suffix": ""
+						},
+						"nameFormula": "",
+						"nameFromFormula": false,
+						"originId": "",
+						"originPack": "",
+						"originVersion": 0,
+						"possibleUpdate": false,
+						"pr": false,
+						"price": 0,
+						"priceFormula": "",
+						"properties": {
+						},
+						"psionic": "",
+						"range": {
+							"units": "",
+							"value": null
+						},
+						"recharge": {
+							"current": 0,
+							"enabled": false,
+							"formula": ""
+						},
+						"requirements": [
+						],
+						"requiresPsionicFocus": false,
+						"resistances": [
+						],
+						"rollTableDraw": {
+							"formula": "",
+							"id": "",
+							"name": "",
+							"pack": ""
+						},
+						"save": {
+							"ability": "",
+							"dc": 14,
+							"dcAutoAbility": "",
+							"dcAutoType": "",
+							"description": "Fortitude negates (harmless)\n",
+							"type": ""
+						},
+						"sizeOverride": "",
+						"source": "",
+						"specialActions": [
+						],
+						"sr": true,
+						"summon": [
+						],
+						"tags": [
+						],
+						"target": {
+							"value": ""
+						},
+						"uniqueId": "",
+						"userNonRemovable": false,
+						"uses": {
+							"allowMultipleUses": false,
+							"autoDeductCharges": true,
+							"canBeLinked": false,
+							"chargesPerUse": 1,
+							"isResource": false,
+							"max": 1,
+							"maxFormula": "1",
+							"maxPerUse": null,
+							"maxPerUseFormula": "",
+							"per": "day",
+							"rechargeFormula": null,
+							"value": 1
+						},
+						"weaponAttackNotes": [
+						],
+						"weaponData": {
+							"alignment": {
+								"chaotic": false,
+								"evil": false,
+								"good": false,
+								"lawful": false
+							},
+							"attackRoll": "",
+							"damageRoll": "",
+							"damageType": "",
+							"damageTypeId": "",
+							"optionalDamage": false
+						}
+					},
+					"tag": "removeDisease",
+					"type": "enhancement"
+				}
 			],
 			"spellcastingAbility": "",
 			"uses": {
 				"allowMultipleUses": false,
 				"autoDeductCharges": true,
-				"commonPool": false,
-				"max": 0,
-				"per": null,
-				"rechargeFormula": null,
-				"value": 0
+				"commonPool": true,
+				"max": 5,
+				"maxFormula": "5",
+				"per": "charges",
+				"rechargeFormula": "",
+				"value": 5
 			}
 		},
 		"epic": "",
@@ -168,10 +1373,10 @@
 		},
 		"light": {
 			"alpha": 0.5,
-			"animationIntensity": "",
-			"animationSpeed": "",
-			"color": "",
-			"dimRadius": "",
+			"animationIntensity": 6,
+			"animationSpeed": 6,
+			"color": "#000000",
+			"dimRadius": null,
 			"emitLight": false,
 			"lightAngle": 360,
 			"opacity": 0,
@@ -213,6 +1418,8 @@
 		"originId": "",
 		"originPack": "",
 		"originVersion": 99,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"pr": false,
 		"price": 4000,
@@ -220,7 +1427,7 @@
 		"quantity": 1,
 		"requirements": [
 		],
-		"resalePrice": "",
+		"resalePrice": null,
 		"resistances": [
 		],
 		"rollTableDraw": {
@@ -231,12 +1438,21 @@
 		},
 		"save": {
 			"ability": "",
-			"dc": 0,
+			"dc": "0",
 			"dcAutoAbility": "",
 			"dcAutoType": "",
 			"description": "",
 			"originVersion": 97,
 			"type": ""
+		},
+		"selectedMaterial": "none",
+		"senses": {
+			"blindsight": null,
+			"darkvision": null,
+			"lowLight": false,
+			"lowLightMultiplier": null,
+			"tremorsense": null,
+			"truesight": null
 		},
 		"sizeOverride": "",
 		"slot": "slotless",
