@@ -23,6 +23,7 @@
 			"cost": 1,
 			"type": "standard"
 		},
+		"addedLevel": 0,
 		"atWill": false,
 		"attack": {
 			"parts": [
@@ -57,6 +58,8 @@
 		"contextNotes": [
 		],
 		"createdBy": "",
+		"creationChanges": [
+		],
 		"critConfirmBonus": "",
 		"customAttributes": {
 		},
@@ -69,6 +72,8 @@
 			"parts": [
 			]
 		},
+		"damageReduction": [
+		],
 		"deactivateActions": [
 		],
 		"description": {
@@ -179,6 +184,8 @@
 		"originId": "",
 		"originPack": "",
 		"originVersion": 108,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"powerPointsCost": 0,
 		"pr": false,
@@ -199,6 +206,8 @@
 			"enabled": false,
 			"formula": ""
 		},
+		"requirements": [
+		],
 		"requiresPsionicFocus": false,
 		"resistances": [
 		],
@@ -224,6 +233,34 @@
 		"snip": "Absorb 12 points/level of damage from one kind of energy.",
 		"source": "",
 		"specialActions": [
+			{
+				"action": "Create unique \"Protection From Acid\" from \"D35E.commonbuffs\" on target;Set buff \"Protection From Acid\" field data.level to max(1,(@cl)) on target;Activate buff \"Protection From Acid\" on target",
+				"condition": "",
+				"img": "systems/D35E/icons/spells/named-spells/protection-from-energy.png",
+				"name": "Protection From Acid",
+				"range": ""
+			},
+			{
+				"action": "Create unique \"Protection From Cold\" from \"D35E.commonbuffs\" on target;Set buff \"Protection From Cold\" field data.level to max(1,(@cl)) on target;Activate buff \"Protection From Cold\" on target",
+				"condition": "",
+				"img": "systems/D35E/icons/spells/named-spells/protection-from-energy.png",
+				"name": "Protection From Cold",
+				"range": ""
+			},
+			{
+				"action": "Create unique \"Protection From Electricity\" from \"D35E.commonbuffs\" on target;Set buff \"Protection From Electricity\" field data.level to max(1,(@cl)) on target;Activate buff \"Protection From Electricity\" on target",
+				"condition": "",
+				"img": "systems/D35E/icons/spells/named-spells/protection-from-energy.png",
+				"name": "Protection From Electricity",
+				"range": ""
+			},
+			{
+				"action": "Create unique \"Protection From Fire\" from \"D35E.commonbuffs\" on target;Set buff \"Protection From Fire\" field data.level to max(1,(@cl)) on target;Activate buff \"Protection From Fire\" on target",
+				"condition": "",
+				"img": "systems/D35E/icons/spells/named-spells/protection-from-energy.png",
+				"name": "Protection From Fire",
+				"range": ""
+			}
 		],
 		"specialId": null,
 		"specialPrepared": false,
