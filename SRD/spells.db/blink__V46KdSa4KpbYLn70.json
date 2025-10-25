@@ -17,10 +17,13 @@
 			"vsTouchAc": false
 		},
 		"actionType": "other",
+		"activateActions": [
+		],
 		"activation": {
 			"cost": 1,
 			"type": "standard"
 		},
+		"addedLevel": 0,
 		"atWill": false,
 		"attack": {
 			"parts": [
@@ -34,8 +37,12 @@
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
 		"castTime": "",
+		"changes": [
+		],
 		"clOffset": 0,
 		"classSource": "",
+		"combatChanges": [
+		],
 		"components": {
 			"divineFocus": 0,
 			"focus": false,
@@ -46,7 +53,13 @@
 		},
 		"conditionals": [
 		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
 		"createdBy": "",
+		"creationChanges": [
+		],
 		"critConfirmBonus": "",
 		"customAttributes": {
 		},
@@ -59,6 +72,10 @@
 			"parts": [
 			]
 		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
@@ -146,7 +163,9 @@
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 108,
+		"originVersion": 109,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"powerPointsCost": 0,
 		"pr": false,
@@ -167,7 +186,11 @@
 			"enabled": false,
 			"formula": ""
 		},
+		"requirements": [
+		],
 		"requiresPsionicFocus": false,
+		"resistances": [
+		],
 		"rollTableDraw": {
 			"formula": "",
 			"id": "",
@@ -190,6 +213,12 @@
 		"snip": "You randomly vanish and reappear for 1 round/level.",
 		"source": "",
 		"specialActions": [
+			{
+				"action": "Create unique \"Blinking\" from \"D35E.commonbuffs\" on target;Set buff \"Blinking\" field data.level to max(1,(@cl)) on target;Activate buff \"Blinking\" on self;",
+				"condition": "",
+				"img": "systems/D35E/icons/spells/school/trs.png",
+				"name": "Blinking"
+			}
 		],
 		"specialId": null,
 		"specialPrepared": false,
@@ -213,7 +242,7 @@
 		"tags": [
 		],
 		"target": {
-			"value": "you\n"
+			"value": "you"
 		},
 		"types": "",
 		"uniqueId": "",
