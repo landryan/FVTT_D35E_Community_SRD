@@ -17,13 +17,16 @@
 			"vsTouchAc": false
 		},
 		"actionType": "",
+		"activateActions": [
+		],
 		"activation": {
 			"cost": null,
 			"type": ""
 		},
+		"addedLevel": 0,
 		"armor": {
 			"acp": 0,
-			"dex": null,
+			"dex": "",
 			"enh": 0,
 			"value": 0
 		},
@@ -42,10 +45,13 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
-		"brokenResalePrice": "",
+		"brokenResalePrice": null,
 		"carried": true,
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -61,6 +67,24 @@
 			"uncannyDodge": false
 		},
 		"changes": [
+			[
+				"1",
+				"savingThrows",
+				"allSavingThrows",
+				"luck"
+			],
+			[
+				"1",
+				"abilityChecks",
+				"allChecks",
+				"luck"
+			],
+			[
+				"1",
+				"skills",
+				"skills",
+				"luck"
+			]
 		],
 		"classSource": "",
 		"combatChangeCustomDisplayName": "",
@@ -96,12 +120,15 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"conditionals": [
+		],
 		"constantWeight": true,
 		"container": "None",
 		"containerId": "none",
 		"containerWeightless": false,
 		"contextNotes": [
 		],
+		"convertedWeight": null,
 		"counterName": "",
 		"createdBy": "",
 		"creationChanges": [
@@ -120,6 +147,8 @@
 			]
 		},
 		"damageReduction": [
+		],
+		"deactivateActions": [
 		],
 		"description": {
 			"chat": "",
@@ -168,10 +197,10 @@
 		},
 		"light": {
 			"alpha": 0.5,
-			"animationIntensity": "",
-			"animationSpeed": "",
-			"color": "",
-			"dimRadius": "",
+			"animationIntensity": 6,
+			"animationSpeed": 6,
+			"color": "#000000",
+			"dimRadius": null,
 			"emitLight": false,
 			"lightAngle": 360,
 			"opacity": 0,
@@ -213,6 +242,8 @@
 		"originId": "",
 		"originPack": "",
 		"originVersion": 99,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"pr": false,
 		"price": 20000,
@@ -220,7 +251,7 @@
 		"quantity": 1,
 		"requirements": [
 		],
-		"resalePrice": "",
+		"resalePrice": null,
 		"resistances": [
 		],
 		"rollTableDraw": {
@@ -237,6 +268,15 @@
 			"description": "",
 			"originVersion": 97,
 			"type": ""
+		},
+		"selectedMaterial": "none",
+		"senses": {
+			"blindsight": null,
+			"darkvision": null,
+			"lowLight": false,
+			"lowLightMultiplier": null,
+			"tremorsense": null,
+			"truesight": null
 		},
 		"sizeOverride": "",
 		"slot": "slotless",
