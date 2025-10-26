@@ -1,0 +1,238 @@
+{
+	"_id": "rejozCT1pDK769oF",
+	"_key": "!items!rejozCT1pDK769oF",
+	"effects": [
+	],
+	"folder": null,
+	"img": "systems/D35E/icons/items/magic/staff/Wand_v2_70.png",
+	"name": "Rod of Viper (Viper's Head)",
+	"system": {
+		"ability": {
+			"attack": "str",
+			"critMult": 2,
+			"critRange": "20",
+			"damage": "str",
+			"damageMult": 1,
+			"twoHandedOnly": false,
+			"vsTouchAc": false
+		},
+		"actionType": "mwak",
+		"activateActions": [
+		],
+		"activation": {
+			"cost": 1,
+			"type": "attack"
+		},
+		"addedLevel": 0,
+		"alignment": {
+			"chaotic": false,
+			"evil": false,
+			"good": false,
+			"lawful": false
+		},
+		"associations": {
+			"classes": [
+			]
+		},
+		"attackBonus": "",
+		"attackCountFormula": "",
+		"attackNotes": "",
+		"attackParts": [
+		],
+		"attackType": "weapon",
+		"autoScaleOption": "always",
+		"autoscaleAttackParts": "",
+		"baseCl": "0",
+		"baseWeaponType": "Heavy Mace",
+		"changes": [
+		],
+		"classSource": "",
+		"combatChanges": [
+		],
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"critConfirmBonus": "",
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+				[
+					"1d8",
+					"",
+					"damage-bludg"
+				]
+			]
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": ""
+		},
+		"duration": {
+			"units": "inst",
+			"value": null
+		},
+		"effectNotes": "",
+		"enh": 2,
+		"epic": false,
+		"favorite": true,
+		"finesseable": false,
+		"formula": "",
+		"identifiedName": "Rod of Viper (Viper's Head)",
+		"incorporeal": false,
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"isNaturalEquivalent": false,
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"magic": false,
+		"masterwork": false,
+		"material": {
+			"data": null
+		},
+		"maxDamageDice": 0,
+		"maxDamageDiceFormula": "",
+		"measureTemplate": {
+			"customColor": "",
+			"customTexture": "",
+			"overrideColor": false,
+			"overrideTexture": false,
+			"size": "",
+			"type": ""
+		},
+		"melded": false,
+		"metamagicFeats": {
+			"empowered": false,
+			"enhanced": false,
+			"enhancedHalf": false,
+			"enlarged": false,
+			"intensified": false,
+			"maximized": false,
+			"widened": false
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"nonLethal": false,
+		"nonLethalNoPenalty": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 0,
+		"originalWeaponCreated": false,
+		"originalWeaponId": null,
+		"originalWeaponImg": "",
+		"originalWeaponName": "",
+		"originalWeaponProperties": {
+		},
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"pr": false,
+		"primaryAttack": true,
+		"proficient": true,
+		"psionic": "",
+		"range": {
+			"units": "",
+			"value": null
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requirements": [
+		],
+		"requiresPsionicFocus": false,
+		"resistances": [
+		],
+		"returning": false,
+		"rollTableDraw": {
+			"formula": "",
+			"id": "",
+			"name": "",
+			"pack": ""
+		},
+		"save": {
+			"ability": "",
+			"dc": "14",
+			"dcAutoAbility": "",
+			"dcAutoType": "",
+			"description": "",
+			"type": "fortitudenegates"
+		},
+		"selectedMaterial": "none",
+		"showInQuickbar": true,
+		"source": "",
+		"specialActions": [
+			{
+				"action": "AbilityDamage con 1d10 on target;",
+				"condition": "",
+				"img": "systems/D35E/icons/items/magic/staff/Wand_v2_70.png",
+				"name": "Initial Damage"
+			},
+			{
+				"action": "AbilityDamage con 1d10 on target;",
+				"condition": "",
+				"img": "systems/D35E/icons/items/magic/staff/Wand_v2_70.png",
+				"name": "Secondary Damage"
+			},
+			{
+				"action": "Create unique \"Poisoned\" from \"D35E.commonbuffs\" on target;Set buff \"Poisoned\" field data.level to max(1,14) on target;Set buff \"Poisoned\" field system.description.value exact \"Fortitude DC 14, secondary damage 1d10 Con\" on target;Set buff \"Poisoned\" field name to \"Poisoned (Rod of Viper)\" on target;Activate buff \"Poisoned (Rod of Viper)\" on target;",
+				"condition": "",
+				"img": "systems/D35E/icons/special-abilities/poison.png",
+				"name": "Apply Poison"
+			}
+		],
+		"sr": false,
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": "One Target"
+		},
+		"threatRangeExtended": false,
+		"thrown": false,
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 1,
+			"maxFormula": "1",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": "day",
+			"rechargeFormula": "",
+			"value": 1
+		},
+		"weaponSubtype": "1h"
+	},
+	"type": "attack"
+}
