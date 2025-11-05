@@ -1,0 +1,11 @@
+{
+	"_id": "TEzfhDVYJr74ycTw",
+	"_key": "!macros!TEzfhDVYJr74ycTw",
+	"author": "Wh2LMImbzawNAQ7v",
+	"command": "async function SpellSort() {\n  // Get the selected actor\n  let actor = canvas.tokens.controlled[0].actor;\n\n  let id = actor.id;\n  let character = game.actors.get(id);\n  let spells = character.items.search({\n    query: \"\",\n    filters: [{ field: \"type\", value: \"spell\" }],\n  });\n  spells.sort((a, b) => {\n    return a.name > b.name ? 1 : -1;\n  });\n\n  let count = 1000;\n  for (let spell of spells) {\n    let data = [{ _id: spell._id, sort: count }];\n    await character.updateEmbeddedDocuments(\"Item\", data, {});\n    count += 100;\n  }\n\n  new Dialog({\n    title: \"Alert: Spell Sorting\",\n    content: '<h1 style=\"text-align:center\">Done!</h1>',\n    buttons: { close: { label: \"Close\" } },\n  }).render(true);\n}\n\n// Check if a token is selected\nif (canvas.tokens.controlled.length === 0) {\n  ui.notifications.warn(\"Please select a token.\");\n  return;\n} else {\n  new Dialog({\n    title: \"Alert: Spell Sorting\",\n    content:\n      '<h2 style=\"text-align:center\">Depending on how many spells you have, this will take a while.</h2>',\n    buttons: { close: { label: \"Close\" } },\n  }).render(true);\n\n  SpellSort();\n}",
+	"folder": null,
+	"img": "https://abrpgfoundrybucket.s3.eu-west-2.amazonaws.com/Generic%20Assets/icons/sundries/books/book-red-exclamation.webp",
+	"name": "Sort Spells",
+	"scope": "global",
+	"type": "script"
+}

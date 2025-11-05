@@ -1,0 +1,11 @@
+{
+	"_id": "8mHWBqIlzQG9hJR9",
+	"_key": "!macros!8mHWBqIlzQG9hJR9",
+	"author": "Wh2LMImbzawNAQ7v",
+	"command": "async function FixTokenName() {\n  // Get the selected actor\nlet token = canvas.tokens.controlled[0]\n  let actor = token.actor;\n\n  let id = actor.id;\n  let character = game.actors.get(id);\n  console.log(\"Name:\",character.name);\ntoken.document.update({img: actor.system.tokenImg, name: actor.name});\n\n}\n// Check if a token is selected\nif (canvas.tokens.controlled.length === 0) {\n  ui.notifications.warn(\"Please select a token.\");\n  return;\n} else {\n  FixTokenName();\n}",
+	"folder": null,
+	"img": "https://abrpgfoundrybucket.s3.eu-west-2.amazonaws.com/Generic%20Assets/icons/commodities/materials/feather-red.webp",
+	"name": "Fix Token Name",
+	"scope": "global",
+	"type": "script"
+}

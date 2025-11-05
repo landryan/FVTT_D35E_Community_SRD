@@ -1,0 +1,11 @@
+{
+	"_id": "vsqUX69fEYv7jnAY",
+	"_key": "!macros!vsqUX69fEYv7jnAY",
+	"author": "Wh2LMImbzawNAQ7v",
+	"command": "// Check if a token is selected\nif (canvas.tokens.controlled.length === 0) {\n  ui.notifications.warn(\"Please select a token.\");\n  return;\n}\n\n// Get the selected actor\nlet actor = canvas.tokens.controlled[0].actor;\n\nactor.rollSkill(\"sen\");",
+	"folder": "jgojCEbg7KjBn6vE",
+	"img": "systems/D35E/icons/skills/psi.png",
+	"name": "Sense Motive",
+	"scope": "global",
+	"type": "script"
+}

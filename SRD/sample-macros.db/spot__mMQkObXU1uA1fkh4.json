@@ -1,0 +1,11 @@
+{
+	"_id": "mMQkObXU1uA1fkh4",
+	"_key": "!macros!mMQkObXU1uA1fkh4",
+	"author": "Wh2LMImbzawNAQ7v",
+	"command": "// Check if a token is selected\nif (canvas.tokens.controlled.length === 0) {\n  ui.notifications.warn(\"Please select a token.\");\n  return;\n}\n\n// Get the selected actor\nlet actor = canvas.tokens.controlled[0].actor;\n\nactor.rollSkill(\"spt\");",
+	"folder": "jgojCEbg7KjBn6vE",
+	"img": "/systems/D35E/icons/skills/spt.png",
+	"name": "Spot",
+	"scope": "global",
+	"type": "script"
+}

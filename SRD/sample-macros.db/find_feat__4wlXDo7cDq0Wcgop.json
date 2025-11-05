@@ -1,0 +1,11 @@
+{
+	"_id": "4wlXDo7cDq0Wcgop",
+	"_key": "!macros!4wlXDo7cDq0Wcgop",
+	"author": "Wh2LMImbzawNAQ7v",
+	"command": "let featname = 'Two-Weapon Fighting*'\nlet msg_html = ''\n\nfor ( let a of game.actors) {\n\n    console.log('## ' + a.name + ' ##')\n\n    for (let f of a.items) {\n        if (f.type == 'feat') {\n            console.log('    ' + f.name)\n            if (f.name == featname) {\n           msg_html = msg_html + a.name + '\\n'\n\n   \n\n            }\n}\n    }\n\n\n\n\n}\n\n                ChatMessage.create({\n        user: game.user._id,\n        speaker: ChatMessage.getSpeaker({token: actor}),\n        content: msg_html });",
+	"folder": null,
+	"img": "https://abrpgfoundrybucket.s3.eu-west-2.amazonaws.com/Generic%20Assets/icons/skills/aut.png",
+	"name": "Find Feat",
+	"scope": "global",
+	"type": "script"
+}

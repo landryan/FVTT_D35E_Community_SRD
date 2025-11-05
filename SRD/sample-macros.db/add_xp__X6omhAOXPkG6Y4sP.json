@@ -1,0 +1,11 @@
+{
+	"_id": "X6omhAOXPkG6Y4sP",
+	"_key": "!macros!X6omhAOXPkG6Y4sP",
+	"author": "Wh2LMImbzawNAQ7v",
+	"command": "async function AddXP() {\n  // Prompt for the amount of XP to add\n  new Dialog({\n    title: \"Add XP\",\n    content: `<p>Enter the amount of XP to add:</p><input type=\"number\" id=\"xpAmount\" value=\"0\">\n    `,\n    buttons: {\n      add: {\n        icon: '<i class=\"fas fa-money-bill-wave\"></i>',\n        label: \"Add XP\",\n        callback: (html) => {\n          const xpAmount = parseInt(html.find(\"#xpAmount\")[0].value);\n\n          // Check if the input is a valid number\n          if (isNaN(xpAmount)) {\n            ui.notifications.error(\"Invalid XP amount. Please enter a number.\");\n            return;\n          }\n\n          // Get the selected actor\n          let token = canvas.tokens.controlled[0];\n          let actor = token.actor;\n\n          let id = actor.id;\n          let character = game.actors.get(id);\n          console.log(\"Name:\", character.name);\n\n          // Update the normal currency on the actor's sheet.\n\n          // Normal Platinum\n          let currentXP = actor.system.details.xp.value || 0;\n          let newXP = parseInt(currentXP) + parseInt(xpAmount);\n\n          actor.update({\n            \"system.details.xp.value\": newXP,\n          });\n\n          // Optionally, display a message in the chat log\n          ChatMessage.create({\n            user: game.user._id,\n            speaker: ChatMessage.getSpeaker({ actor: actor }),\n            content: `${actor.name} had ${currentXP} XP.<p>${actor.name} gains ${xpAmount} XP.<p>${actor.name} now has ${newXP} XP.\n            `,\n          });\n        },\n      },\n      cancel: {\n        icon: '<i class=\"fas fa-times\"></i>',\n        label: \"Cancel\",\n      },\n    },\n  }).render(true);\n}\n// Check if a token is selected\nif (canvas.tokens.controlled.length === 0) {\n  ui.notifications.warn(\"Please select a token.\");\n  return;\n} else {\n  AddXP();\n}",
+	"folder": null,
+	"img": "https://abrpgfoundrybucket.s3.eu-west-2.amazonaws.com/Generic%20Assets/icons/magic/symbols/symbol-lightning-bolt.webp",
+	"name": "Add XP",
+	"scope": "global",
+	"type": "script"
+}

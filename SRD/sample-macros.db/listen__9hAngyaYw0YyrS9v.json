@@ -1,0 +1,11 @@
+{
+	"_id": "9hAngyaYw0YyrS9v",
+	"_key": "!macros!9hAngyaYw0YyrS9v",
+	"author": "Wh2LMImbzawNAQ7v",
+	"command": "// Check if a token is selected\nif (canvas.tokens.controlled.length === 0) {\n  ui.notifications.warn(\"Please select a token.\");\n  return;\n}\n\n// Get the selected actor\nlet actor = canvas.tokens.controlled[0].actor;\n\nactor.rollSkill(\"lis\");",
+	"folder": "jgojCEbg7KjBn6vE",
+	"img": "https://abrpgfoundrybucket.s3.eu-west-2.amazonaws.com/Generic%20Assets/icons/magic/sonic/bell-alarm-red-purple.webp",
+	"name": "Listen",
+	"scope": "global",
+	"type": "script"
+}
