@@ -16,11 +16,14 @@
 			"twoHandedOnly": false,
 			"vsTouchAc": false
 		},
-		"actionType": "other",
+		"actionType": "spellsave",
+		"activateActions": [
+		],
 		"activation": {
 			"cost": 1,
 			"type": "standard"
 		},
+		"addedLevel": 0,
 		"atWill": false,
 		"attack": {
 			"parts": [
@@ -34,8 +37,12 @@
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
 		"castTime": "",
+		"changes": [
+		],
 		"clOffset": 0,
 		"classSource": "",
+		"combatChanges": [
+		],
 		"components": {
 			"divineFocus": 0,
 			"focus": false,
@@ -46,7 +53,13 @@
 		},
 		"conditionals": [
 		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
 		"createdBy": "",
+		"creationChanges": [
+		],
 		"critConfirmBonus": "",
 		"customAttributes": {
 		},
@@ -59,6 +72,10 @@
 			"parts": [
 			]
 		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
@@ -147,6 +164,8 @@
 		"originId": "",
 		"originPack": "",
 		"originVersion": 109,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"powerPointsCost": 0,
 		"pr": false,
@@ -167,7 +186,11 @@
 			"enabled": false,
 			"formula": ""
 		},
+		"requirements": [
+		],
 		"requiresPsionicFocus": false,
+		"resistances": [
+		],
 		"rollTableDraw": {
 			"formula": "",
 			"id": "",
@@ -179,17 +202,23 @@
 			"dc": "0",
 			"dcAutoAbility": "",
 			"dcAutoType": "",
-			"description": "Will negates\n",
+			"description": "Will negates",
 			"originVersion": 97,
 			"type": ""
 		},
 		"school": "nec",
-		"shortDescription": "\n\n\n<p>\nYou draw forth the ebbing life force of a creature and use it to fuel your own power. Upon casting this spell, you touch a living creature that has –1 or fewer hit points. If the subject fails its saving throw, it dies, and you gain 1d8 temporary hit points and a +2 bonus to Strength. Additionally, your effective caster level goes up by +1, improving spell effects dependent on caster level. (This increase in effective caster level does not grant you access to more spells.) These effects last for 10 minutes per HD of the subject creature.\n</p>\n<hr/>\n\n\n",
+		"shortDescription": "<p>You draw forth the ebbing life force of a creature and use it to fuel your own power. Upon casting this spell, you touch a living creature that has &ndash;1 or fewer hit points. If the subject fails its saving throw, it dies, and you gain 1d8 temporary hit points and a +2 bonus to Strength. Additionally, your effective caster level goes up by +1, improving spell effects dependent on caster level. (This increase in effective caster level does not grant you access to more spells.) These effects last for 10 minutes per HD of the subject creature.</p>\n<hr>",
 		"showInQuickbar": false,
 		"slOffset": 0,
 		"snip": "Kills dying creature; you gain 1d8 temporary hp, +2 to Str, and +1 level.",
 		"source": "",
 		"specialActions": [
+			{
+				"action": "Create unique \"Death Knell\" from D35E.commonbuffs on target; Set buff \"Death Knell\" field data.level to max(1,(@cl)) on target;Activate buff \"Death Knell\" on target",
+				"condition": "",
+				"img": "systems/D35E/icons/spells/named-spells/death-knell.png",
+				"name": "Death Knell"
+			}
 		],
 		"specialId": null,
 		"specialPrepared": false,
@@ -213,7 +242,7 @@
 		"tags": [
 		],
 		"target": {
-			"value": "living creature touched\n"
+			"value": "living creature touched"
 		},
 		"types": "death, evil",
 		"uniqueId": "",
