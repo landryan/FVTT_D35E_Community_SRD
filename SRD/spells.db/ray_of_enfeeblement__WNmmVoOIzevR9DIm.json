@@ -8,13 +8,13 @@
 	"name": "Ray of Enfeeblement",
 	"system": {
 		"ability": {
-			"attack": "",
+			"attack": "dex",
 			"critMult": 2,
 			"critRange": "20",
 			"damage": "",
 			"damageMult": 1,
 			"twoHandedOnly": false,
-			"vsTouchAc": false
+			"vsTouchAc": true
 		},
 		"actionType": "rsak",
 		"activateActions": [
@@ -23,6 +23,7 @@
 			"cost": 1,
 			"type": "standard"
 		},
+		"addedLevel": 0,
 		"atWill": false,
 		"attack": {
 			"parts": [
@@ -158,7 +159,7 @@
 		"nameFromFormula": false,
 		"originId": "WNmmVoOIzevR9DIm",
 		"originPack": "D35E.spells",
-		"originVersion": 108,
+		"originVersion": 112,
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,
@@ -211,9 +212,8 @@
 			{
 				"action": "Create unique \"Ray of Enfeeblement\" from \"D35E.commonbuffs\" on target;Set buff \"Ray of Enfeeblement\" field data.level to max(1,(@cl)) on target;Activate buff \"Ray of Enfeeblement\" on target",
 				"condition": "",
-				"img": "icons/svg/item-bag.svg",
-				"name": "Ray of Enfeeblement",
-				"range": ""
+				"img": "systems/D35E/icons/spells/named-spells/ray-of-enfeeblement.png",
+				"name": "Ray of Enfeeblement"
 			}
 		],
 		"specialId": null,
