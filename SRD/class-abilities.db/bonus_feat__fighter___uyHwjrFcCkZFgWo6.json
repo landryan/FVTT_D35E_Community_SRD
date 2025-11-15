@@ -18,10 +18,13 @@
 		},
 		"abilityType": "",
 		"actionType": "",
+		"activateActions": [
+		],
 		"activation": {
 			"cost": 1,
 			"type": ""
 		},
+		"addedLevel": 0,
 		"associations": {
 			"classes": [
 				[
@@ -85,8 +88,14 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
+		"bookSource": "",
+		"brokenResalePrice": null,
+		"carried": false,
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -137,6 +146,11 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"conditionals": [
+		],
+		"constantWeight": false,
+		"container": "None",
+		"containerWeightless": false,
 		"contextNotes": [
 		],
 		"counterName": "feat.fighter",
@@ -157,10 +171,12 @@
 		},
 		"damageReduction": [
 		],
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "<p>At 1st level, a fighter gets a bonus combat-oriented feat in addition to the feat that any 1st-level character gets and the bonus feat granted to a human character. The fighter gains an additional bonus feat at 2nd level and every two fighter levels thereafter (4th, 6th, 8th, 10th, 12th, 14th, 16th, 18th, and 20th). These bonus feats must be drawn from the feats noted as fighter bonus feats. A fighter must still meet all prerequisites for a bonus feat, including ability score and base attack bonus minimums.</p>\n<p>These bonus feats are in addition to the feat that a character of any class gets from advancing levels. A fighter is not limited to the list of fighter bonus feats when choosing these feats.</p>\n<h3>Fighter Bonus Feats</h3>\n<table style=\"width: 400px;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 200px;\">\n<p>@Compendium[D35E.feats.xknRcxb5GxfkUpjk]{Blind-Fight}</p>\n<p>@Compendium[D35E.feats.wE23Vo8d0emqqeaw]{Combat Expertise}</p>\n<p>@Compendium[D35E.feats.4Xq3pc59Kv2f4xro]{Improved Disarm}</p>\n<p>@Compendium[D35E.feats.r25qz9ca2jNmMMAt]{Improved Feint}</p>\n<p>@Compendium[D35E.feats.9igITV6htZUcgpWr]{Improved Trip}</p>\n<p>@Compendium[D35E.feats.AnMpA1vzD69f8Uxr]{Whirlwind Attack}</p>\n<p>@Compendium[D35E.feats.rJ7H4RC2xMCzR7gv]{Combat Reflexes}</p>\n<p>@Compendium[D35E.feats.dzNV9lzcgPIDGxaK]{Dodge}</p>\n<p>@Compendium[D35E.feats.PRXwrcIAS0K8J4X7]{Mobility}</p>\n<p>@Compendium[D35E.feats.h34014OSUak957dF]{Spring Attack}</p>\n<p>@Compendium[D35E.feats.GWldobh60fgjP7H3]{Exotic Weapon Proficiency}</p>\n<p>@Compendium[D35E.feats.8cFnABrrFaBiJCdo]{Improved Critical}</p>\n<p>@Compendium[D35E.feats.EGKfnHuKmjGHXLNZ]{Improved Initiative}</p>\n<p>@Compendium[D35E.feats.H3EgoydIfgEdLwRj]{Improved Shield Bash}</p>\n<p>@Compendium[D35E.feats.tihqxXGWByc1ZSEK]{Improved Unarmed Strike}</p>\n<p>@Compendium[D35E.feats.8VmsGB8g05PNUulB]{Deflect Arrows}</p>\n<p>@Compendium[D35E.feats.IXRVJeEwevFKPgeg]{Snatch Arrows}</p>\n<p>@Compendium[D35E.feats.1ZlPOPJxzl8rnwHr]{Stunning Fist}</p>\n<p>@Compendium[D35E.feats.RJbMXi0RjKx34qqK]{Mounted Combat}</p>\n<p>@Compendium[D35E.feats.vwv8WajWuxJI8vKp]{Mounted Archery}</p>\n<p>@Compendium[D35E.feats.ehLYMaQ9WOGMKyGU]{Ride-By Attack}</p>\n<p>@Compendium[D35E.feats.Ko6ysJc37A0wIsHI]{Spirited Charge}</p>\n<p>@Compendium[D35E.feats.V65MaIay7bdmY7kO]{Trample}</p>\n</td>\n<td style=\"width: 200px;\">\n<p>@Compendium[D35E.feats.aRuPQNsBjiSRK7sO]{Point Blank Shot}</p>\n<p>@Compendium[D35E.feats.MnSSSOLCAR7zFRpj]{Far Shot}</p>\n<p>@Compendium[D35E.feats.HdiSHE2uRUrBALer]{Precise Shot}</p>\n<p>@Compendium[D35E.feats.XLD6RLZDjW7kFXWF]{Rapid Shot}</p>\n<p>@Compendium[D35E.feats.FWxra50PPKzy9Aa5]{Manyshot}</p>\n<p>@Compendium[D35E.feats.vKT7PoISfUTbijII]{Shot on the Run}</p>\n<p>@Compendium[D35E.feats.95y5eGXBqQOSAnvw]{Improved Precise Shot}</p>\n<p>@Compendium[D35E.feats.nRAGvHfsmBVfxPHf]{Power Attack}</p>\n<p>@Compendium[D35E.feats.5P0ltUi6tPBuBW4m]{Cleave}</p>\n<p>@Compendium[D35E.feats.eu2syBwHYPYN6gwp]{Great Cleave}</p>\n<p>@Compendium[D35E.feats.UEW55cwmiYKxnQE1]{Improved Bull Rush}</p>\n<p>@Compendium[D35E.feats.mjTPawYJbAZcUX8g]{Improved Overrun}</p>\n<p>@Compendium[D35E.feats.Fam4wfHsoHqb2XvM]{Improved Sunder}</p>\n<p>@Compendium[D35E.feats.8aYmDFZz1lk2ad2n]{Quick Draw}</p>\n<p>@Compendium[D35E.feats.I7GYifoUhHIkNBAo]{Rapid Reload}</p>\n<p>@Compendium[D35E.feats.BF90zMKubXCsRCWP]{Two-Weapon Fighting}</p>\n<p>@Compendium[D35E.feats.8NAusprVjj561vl7]{Two-Weapon Defense}</p>\n<p>@Compendium[D35E.feats.yf6izMx1LwmBpqiW]{Improved Two-Weapon Fighting}</p>\n<p>@Compendium[D35E.feats.Vnv98S81bbzHtQfV]{Greater Two-Weapon Fighting}</p>\n<p>@Compendium[D35E.feats.EhSWfkKzPZjK7q5N]{Weapon Finesse}</p>\n<p>@Compendium[D35E.feats.SNMjjW598bmkrLUk]{Weapon Focus}</p>\n<p>@Compendium[D35E.feats.xgUXRblSmqD8BLoF]{Weapon Specialization}</p>\n<p>@Compendium[D35E.feats.z2dsNjXL6eihJKkF]{Greater Weapon Specialization}</p>\n<p>@Compendium[D35E.feats.NquuCwi6MYiLvrCY]{Greater Weapon Focus}</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
+			"value": "<p>At 1st level, a fighter gets a bonus combat-oriented feat in addition to the feat that any 1st-level character gets and the bonus feat granted to a human character. The fighter gains an additional bonus feat at 2nd level and every two fighter levels thereafter (4th, 6th, 8th, 10th, 12th, 14th, 16th, 18th, and 20th). These bonus feats must be drawn from the feats noted as fighter bonus feats. A fighter must still meet all prerequisites for a bonus feat, including ability score and base attack bonus minimums.</p>\n<p>These bonus feats are in addition to the feat that a character of any class gets from advancing levels. A fighter is not limited to the list of fighter bonus feats when choosing these feats.</p>\n<h3>Fighter Bonus Feats</h3>\n<table style=\"width: 400px;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 200px;\">\n<p>@Compendium[D35E.feats.xknRcxb5GxfkUpjk]{Blind-Fight}</p>\n<p>@Compendium[D35E.feats.wE23Vo8d0emqqeaw]{Combat Expertise}</p>\n<p>@Compendium[D35E.feats.4Xq3pc59Kv2f4xro]{Improved Disarm}</p>\n<p>@Compendium[D35E.feats.r25qz9ca2jNmMMAt]{Improved Feint}</p>\n<p>@Compendium[D35E.feats.9igITV6htZUcgpWr]{Improved Trip}</p>\n<p>@Compendium[D35E.feats.AnMpA1vzD69f8Uxr]{Whirlwind Attack}</p>\n<p>@Compendium[D35E.feats.rJ7H4RC2xMCzR7gv]{Combat Reflexes}</p>\n<p>@Compendium[D35E.feats.dzNV9lzcgPIDGxaK]{Dodge}</p>\n<p>@Compendium[D35E.feats.PRXwrcIAS0K8J4X7]{Mobility}</p>\n<p>@Compendium[D35E.feats.h34014OSUak957dF]{Spring Attack}</p>\n<p>@Compendium[D35E.feats.GWldobh60fgjP7H3]{Exotic Weapon Proficiency}</p>\n<p>@Compendium[D35E.feats.lq2L7TxDOrArWNzU]{Improved Critical}</p>\n<p>@Compendium[D35E.feats.EGKfnHuKmjGHXLNZ]{Improved Initiative}</p>\n<p>@Compendium[D35E.feats.H3EgoydIfgEdLwRj]{Improved Shield Bash}</p>\n<p>@Compendium[D35E.feats.tihqxXGWByc1ZSEK]{Improved Unarmed Strike}</p>\n<p>@Compendium[D35E.feats.8VmsGB8g05PNUulB]{Deflect Arrows}</p>\n<p>@Compendium[D35E.feats.IXRVJeEwevFKPgeg]{Snatch Arrows}</p>\n<p>@Compendium[D35E.feats.1ZlPOPJxzl8rnwHr]{Stunning Fist}</p>\n<p>@Compendium[D35E.feats.RJbMXi0RjKx34qqK]{Mounted Combat}</p>\n<p>@Compendium[D35E.feats.vwv8WajWuxJI8vKp]{Mounted Archery}</p>\n<p>@Compendium[D35E.feats.ehLYMaQ9WOGMKyGU]{Ride-By Attack}</p>\n<p>@Compendium[D35E.feats.Ko6ysJc37A0wIsHI]{Spirited Charge}</p>\n<p>@Compendium[D35E.feats.V65MaIay7bdmY7kO]{Trample}</p>\n</td>\n<td style=\"width: 200px;\">\n<p>@Compendium[D35E.feats.JFAXxUcj39mkdmIF]{Point Blank Shot}</p>\n<p>@Compendium[D35E.feats.MnSSSOLCAR7zFRpj]{Far Shot}</p>\n<p>@Compendium[D35E.feats.DDcPUyAGPkNPJjWv]{Precise Shot}</p>\n<p>@Compendium[D35E.feats.XLD6RLZDjW7kFXWF]{Rapid Shot}</p>\n<p>@Compendium[D35E.feats.FWxra50PPKzy9Aa5]{Manyshot}</p>\n<p>@Compendium[D35E.feats.vKT7PoISfUTbijII]{Shot on the Run}</p>\n<p>@Compendium[D35E.feats.95y5eGXBqQOSAnvw]{Improved Precise Shot}</p>\n<p>@Compendium[D35E.feats.nRAGvHfsmBVfxPHf]{Power Attack}</p>\n<p>@Compendium[D35E.feats.5P0ltUi6tPBuBW4m]{Cleave}</p>\n<p>@Compendium[D35E.feats.eu2syBwHYPYN6gwp]{Great Cleave}</p>\n<p>@Compendium[D35E.feats.UEW55cwmiYKxnQE1]{Improved Bull Rush}</p>\n<p>@Compendium[D35E.feats.mjTPawYJbAZcUX8g]{Improved Overrun}</p>\n<p>@Compendium[D35E.feats.Fam4wfHsoHqb2XvM]{Improved Sunder}</p>\n<p>@Compendium[D35E.feats.8aYmDFZz1lk2ad2n]{Quick Draw}</p>\n<p>@Compendium[D35E.feats.I7GYifoUhHIkNBAo]{Rapid Reload}</p>\n<p>@Compendium[D35E.feats.BF90zMKubXCsRCWP]{Two-Weapon Fighting}</p>\n<p>@Compendium[D35E.feats.8NAusprVjj561vl7]{Two-Weapon Defense}</p>\n<p>@Compendium[D35E.feats.yf6izMx1LwmBpqiW]{Improved Two-Weapon Fighting}</p>\n<p>@Compendium[D35E.feats.Vnv98S81bbzHtQfV]{Greater Two-Weapon Fighting}</p>\n<p>@Compendium[D35E.feats.cwuN3O3paErOMkP7]{Weapon Finesse}</p>\n<p>@Compendium[D35E.feats.FkmFmLkTcdwmOass]{Weapon Focus}</p>\n<p>@Compendium[D35E.feats.xgUXRblSmqD8BLoF]{Weapon Specialization}</p>\n<p>@Compendium[D35E.feats.z2dsNjXL6eihJKkF]{Greater Weapon Specialization}</p>\n<p>@Compendium[D35E.feats.NquuCwi6MYiLvrCY]{Greater Weapon Focus}</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
 		},
 		"duration": {
 			"units": "",
@@ -168,9 +184,12 @@
 		},
 		"effectNotes": "",
 		"epic": "",
+		"equippedWeightless": false,
 		"favorite": false,
 		"featType": "classFeat",
 		"formula": "",
+		"fullResalePrice": false,
+		"identifiedName": "Bonus Feat (Fighter)",
 		"index": {
 			"subType": "classFeat",
 			"uniqueId": "bnf-ft-*"
@@ -218,7 +237,9 @@
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 99,
+		"originVersion": 103,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"pr": false,
 		"psionic": "",
@@ -238,6 +259,7 @@
 		"requirements": [
 		],
 		"requiresPsionicFocus": false,
+		"resalePrice": null,
 		"resistances": [
 		],
 		"rollTableDraw": {
