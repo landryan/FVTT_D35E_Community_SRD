@@ -23,6 +23,7 @@
 			"cost": 1,
 			"type": "standard"
 		},
+		"addedLevel": 0,
 		"atWill": false,
 		"attack": {
 			"parts": [
@@ -57,6 +58,8 @@
 		"contextNotes": [
 		],
 		"createdBy": "",
+		"creationChanges": [
+		],
 		"critConfirmBonus": "",
 		"customAttributes": {
 		},
@@ -69,6 +72,8 @@
 			"parts": [
 			]
 		},
+		"damageReduction": [
+		],
 		"deactivateActions": [
 		],
 		"description": {
@@ -174,7 +179,9 @@
 		"nameFromFormula": false,
 		"originId": "cwOdOxFDzabOOxnW",
 		"originPack": "D35E.spells",
-		"originVersion": 108,
+		"originVersion": 113,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"powerPointsCost": 3,
 		"pr": false,
@@ -195,7 +202,11 @@
 			"enabled": false,
 			"formula": ""
 		},
+		"requirements": [
+		],
 		"requiresPsionicFocus": false,
+		"resistances": [
+		],
 		"rollTableDraw": {
 			"formula": "",
 			"id": "",
@@ -221,37 +232,32 @@
 			{
 				"action": "Create unique \"Resist Energy (Fire)\" from \"D35E.commonbuffs\" on target;Set buff \"Resist Energy (Fire)\" field data.level to max(1,(@cl)) on target;Activate buff \"Resist Energy (Fire)\" on target",
 				"condition": "",
-				"img": "icons/svg/item-bag.svg",
-				"name": "Resist Energy (Fire)",
-				"range": ""
+				"img": "systems/D35E/icons/spells/named-spells/resist-energy.png",
+				"name": "Resist Energy (Fire)"
 			},
 			{
 				"action": "Create unique \"Resist Energy (Cold)\" from \"D35E.commonbuffs\" on target;Set buff \"Resist Energy (Cold)\" field data.level to max(1,(@cl)) on target;Activate buff \"Resist Energy (Cold)\" on target",
 				"condition": "",
-				"img": "icons/svg/item-bag.svg",
-				"name": "Resist Energy (Cold)",
-				"range": ""
+				"img": "systems/D35E/icons/spells/named-spells/resist-energy.png",
+				"name": "Resist Energy (Cold)"
 			},
 			{
 				"action": "Create unique \"Resist Energy (Acid)\" from \"D35E.commonbuffs\" on target;Set buff \"Resist Energy (Acid)\" field data.level to max(1,(@cl)) on target;Activate buff \"Resist Energy (Acid)\" on target",
 				"condition": "",
-				"img": "icons/svg/item-bag.svg",
-				"name": "Resist Energy (Acid)",
-				"range": ""
+				"img": "systems/D35E/icons/spells/named-spells/resist-energy.png",
+				"name": "Resist Energy (Acid)"
 			},
 			{
 				"action": "Create unique \"Resist Energy (Sonic)\" from \"D35E.commonbuffs\" on target;Set buff \"Resist Energy (Sonic)\" field data.level to max(1,(@cl)) on target;Activate buff \"Resist Energy (Sonic)\" on target",
 				"condition": "",
-				"img": "icons/svg/item-bag.svg",
-				"name": "Resist Energy (Sonic)",
-				"range": ""
+				"img": "systems/D35E/icons/spells/named-spells/resist-energy.png",
+				"name": "Resist Energy (Sonic)"
 			},
 			{
 				"action": "Create unique \"Resist Energy (Electricity)\" from \"D35E.commonbuffs\" on target;Set buff \"Resist Energy (Electricity)\" field data.level to max(1,(@cl)) on target;Activate buff \"Resist Energy (Electricity)\" on target",
 				"condition": "",
-				"img": "icons/svg/item-bag.svg",
-				"name": "Resist Energy (Electricity)",
-				"range": ""
+				"img": "systems/D35E/icons/spells/named-spells/resist-energy.png",
+				"name": "Resist Energy (Electricity)"
 			}
 		],
 		"specialId": null,
