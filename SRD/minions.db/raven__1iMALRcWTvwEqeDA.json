@@ -6,8 +6,6 @@
 	"folder": null,
 	"img": "systems/D35E/icons/minions/raven.png",
 	"items": [
-		"mLFy9Bv4M0Mr1IUv",
-		"WJqmmfXscPVpcISH",
 		"abXt01r1HWnGV4Z1",
 		"BGy9NY3tXQBK2tkh",
 		"79E1gwnsWWuA2FK5"
@@ -16,6 +14,7 @@
 	"prototypeToken": {
 		"actorLink": false,
 		"alpha": 1,
+		"appendNumber": false,
 		"bar1": {
 			"attribute": "attributes.hp"
 		},
@@ -58,6 +57,7 @@
 		},
 		"lockRotation": false,
 		"name": "templateNPC",
+		"prependAdjective": false,
 		"randomImg": false,
 		"rotation": 0,
 		"sight": {
@@ -343,6 +343,10 @@
 				"total": 0
 			},
 			"hd": {
+				"base": {
+					"_deprecated": true,
+					"value": 0
+				},
 				"max": {
 					"_deprecated": true,
 					"value": 0
@@ -350,6 +354,7 @@
 				"total": 1
 			},
 			"hp": {
+				"base": 0,
 				"max": 0,
 				"min": -100,
 				"nonlethal": null,

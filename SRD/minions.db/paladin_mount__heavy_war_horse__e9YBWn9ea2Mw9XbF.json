@@ -17,6 +17,7 @@
 	"prototypeToken": {
 		"actorLink": false,
 		"alpha": 1,
+		"appendNumber": false,
 		"bar1": {
 			"attribute": "attributes.hp"
 		},
@@ -59,6 +60,7 @@
 		},
 		"lockRotation": false,
 		"name": "templateNPC",
+		"prependAdjective": false,
 		"randomImg": false,
 		"rotation": 0,
 		"sight": {
@@ -344,6 +346,10 @@
 				"total": 0
 			},
 			"hd": {
+				"base": {
+					"_deprecated": true,
+					"value": 0
+				},
 				"max": {
 					"_deprecated": true,
 					"value": 0
@@ -351,6 +357,7 @@
 				"total": 4
 			},
 			"hp": {
+				"base": 0,
 				"max": 30,
 				"min": -100,
 				"nonlethal": null,
