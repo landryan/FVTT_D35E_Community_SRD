@@ -16,18 +16,17 @@
 			"twoHandedOnly": false,
 			"vsTouchAc": false
 		},
-		"abilityType": "",
+		"abilityType": "ex",
 		"actionType": "",
+		"activateActions": [
+		],
 		"activation": {
 			"cost": 1,
 			"type": ""
 		},
+		"addedLevel": 0,
 		"associations": {
 			"classes": [
-				[
-					"Wizard Familiar",
-					5
-				]
 			]
 		},
 		"attack": {
@@ -41,8 +40,14 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
+		"bookSource": "",
+		"brokenResalePrice": null,
+		"carried": false,
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -93,6 +98,11 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"conditionals": [
+		],
+		"constantWeight": false,
+		"container": "None",
+		"containerWeightless": false,
 		"contextNotes": [
 		],
 		"counterName": "",
@@ -113,6 +123,8 @@
 		},
 		"damageReduction": [
 		],
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
@@ -124,11 +136,14 @@
 		},
 		"effectNotes": "",
 		"epic": "",
+		"equippedWeightless": false,
 		"favorite": false,
-		"featType": "feat",
+		"featType": "classFeat",
 		"formula": "",
+		"fullResalePrice": false,
+		"identifiedName": "Speak with Master",
 		"index": {
-			"subType": "feat",
+			"subType": "classFeat",
 			"uniqueId": "fml-swm"
 		},
 		"linkId": "",
@@ -175,6 +190,8 @@
 		"originId": "",
 		"originPack": "",
 		"originVersion": 99,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"pr": false,
 		"psionic": "",
@@ -194,6 +211,7 @@
 		"requirements": [
 		],
 		"requiresPsionicFocus": false,
+		"resalePrice": null,
 		"resistances": [
 		],
 		"rollTableDraw": {
