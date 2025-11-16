@@ -9,6 +9,7 @@
 	"system": {
 		"addedAbilities": [
 		],
+		"addedLevel": 0,
 		"allSpellsKnown": false,
 		"automaticFeatures": false,
 		"bab": "med",
@@ -52,7 +53,7 @@
 			"hea": false,
 			"hid": true,
 			"int": false,
-			"jmp": false,
+			"jmp": true,
 			"kar": false,
 			"kdu": false,
 			"ken": false,
@@ -65,7 +66,7 @@
 			"kps": false,
 			"kre": false,
 			"lin": false,
-			"lis": false,
+			"lis": true,
 			"lor": false,
 			"mos": true,
 			"opl": false,
@@ -88,7 +89,7 @@
 			"uro": false
 		},
 		"classSource": "",
-		"classType": "base",
+		"classType": "racial",
 		"combatChangeCustomDisplayName": "",
 		"combatChangeCustomReferenceName": "",
 		"combatChanges": [
@@ -123,7 +124,7 @@
 			"wildshaped": false
 		},
 		"counterName": "",
-		"crPerHD": 4,
+		"crPerHD": 3,
 		"createdBy": "",
 		"creationChanges": [
 		],
@@ -131,6 +132,7 @@
 		"customAttributes": {
 		},
 		"customAttributesLocked": false,
+		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
 			"parts": [
@@ -166,7 +168,12 @@
 		"hd": 8,
 		"hdReplace": "",
 		"hdReplaceRacialOnly": false,
-		"hp": 0,
+		"hp": 4,
+		"identifiedName": "Animal",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
 		"knownCardsSizeFormula": "0",
 		"la": 0,
 		"levels": 1,
@@ -183,7 +190,7 @@
 		],
 		"originId": "",
 		"originPack": "",
-		"originVersion": 0,
+		"originVersion": 2,
 		"possibleUpdate": false,
 		"powerPointBonusBaseAbility": "",
 		"powerPointTable": {
@@ -355,7 +362,7 @@
 		"spellcastingSpellname": "Spell",
 		"spellcastingSpellnamePl": "Spells",
 		"spellcastingSpontaneus": false,
-		"spellcastingType": "none",
+		"spellcastingType": null,
 		"spellsKnownPerLevel": [
 		],
 		"spellsPerLevel": [
