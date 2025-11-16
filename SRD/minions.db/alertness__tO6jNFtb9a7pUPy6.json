@@ -1,16 +1,16 @@
 {
-	"_id": "5l5oFNJxgPdzBOwU",
-	"_key": "!actors.items!klhMdyMfHA4XnoFf.5l5oFNJxgPdzBOwU",
+	"_id": "tO6jNFtb9a7pUPy6",
+	"_key": "!actors.items!9XRyHiIS9e9wh3UE.tO6jNFtb9a7pUPy6",
 	"effects": [
 	],
-	"folder": "kW5aSTmsUaTGo6uI",
-	"img": "icons/skills/targeting/crosshair-ringed-gray.webp",
-	"name": "Racial Skill Bonus",
+	"folder": null,
+	"img": "systems/D35E/icons/feats/alertness.png",
+	"name": "Alertness",
 	"system": {
 		"ability": {
 			"attack": null,
 			"critMult": 2,
-			"critRange": "20",
+			"critRange": 20,
 			"damage": null,
 			"damageMult": 1,
 			"twoHandedOnly": false,
@@ -18,13 +18,11 @@
 		},
 		"abilityType": "",
 		"actionType": "",
-		"activateActions": [
-		],
 		"activation": {
 			"cost": 1,
 			"type": ""
 		},
-		"addedLevel": 12,
+		"addedLevel": 0,
 		"associations": {
 			"classes": [
 			]
@@ -40,14 +38,8 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
-		"bookSource": "",
-		"brokenResalePrice": null,
-		"carried": false,
 		"changeFlags": {
-			"firstChangeTargetSelectableOnDescription": false,
-			"hasted": false,
 			"heavyArmorFullSpeed": false,
-			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -64,16 +56,16 @@
 		},
 		"changes": [
 			[
-				"8",
+				"2",
 				"skill",
 				"skill.lis",
-				"racial"
+				"untyped"
 			],
 			[
-				"14",
+				"2",
 				"skill",
-				"skill.mos",
-				"racial"
+				"skill.spt",
+				"untyped"
 			]
 		],
 		"classSource": "",
@@ -110,17 +102,7 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
-		"conditionals": [
-		],
-		"constantWeight": false,
-		"container": "None",
-		"containerWeightless": false,
 		"contextNotes": [
-			[
-				"+8 bonus in shadowy areas",
-				"skill",
-				"skill.spt"
-			]
 		],
 		"counterName": "",
 		"crOffset": "",
@@ -131,6 +113,7 @@
 		"customAttributes": {
 		},
 		"customAttributesLocked": false,
+		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
 			"alternativeParts": [
@@ -140,12 +123,14 @@
 		},
 		"damageReduction": [
 		],
-		"deactivateActions": [
-		],
+		"damageType": {
+			"_deprecated": true,
+			"value": ""
+		},
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "<p>Owls have a +8 racial bonus on Listen checks and a +14 racial bonus on Move Silently checks. *They have a +8 racial bonus on Spot checks in areas of shadowy illumination.</p>"
+			"value": "\n\n\n<h3><span class=\"mw-headline\" id=\"Benefit\">Benefit</span></h3>\n<p>You get a +2 bonus on all Listen checks and Spot checks.\n</p>\n<h3><span class=\"mw-headline\" id=\"Special\">Special</span></h3>\n<p>The master of a familiar gains the benefit of the Alertness feat whenever the familiar is within arm’s reach.\n</p><p><br/>\n</p>\n<hr/>\n\n\n"
 		},
 		"duration": {
 			"units": "",
@@ -153,14 +138,11 @@
 		},
 		"effectNotes": "",
 		"epic": "",
-		"equippedWeightless": false,
 		"favorite": false,
-		"featType": "racial",
+		"featType": "feat",
 		"formula": "",
-		"fullResalePrice": false,
-		"identifiedName": "Racial Skill Bonus",
 		"index": {
-			"subType": "racial",
+			"subType": "feat",
 			"uniqueId": ""
 		},
 		"linkId": "",
@@ -185,7 +167,7 @@
 			"customTexture": "",
 			"overrideColor": false,
 			"overrideTexture": false,
-			"size": "",
+			"size": 0,
 			"type": ""
 		},
 		"metamagic": {
@@ -204,11 +186,9 @@
 		},
 		"nameFormula": "",
 		"nameFromFormula": false,
-		"originId": "Hf9FbUmG2FBTuoXm",
-		"originPack": "dnd-35e-generic-content.racial-abilities",
+		"originId": "",
+		"originPack": "",
 		"originVersion": 0,
-		"perRoundActions": [
-		],
 		"possibleUpdate": false,
 		"pr": false,
 		"psionic": "",
@@ -228,7 +208,6 @@
 		"requirements": [
 		],
 		"requiresPsionicFocus": false,
-		"resalePrice": null,
 		"resistances": [
 		],
 		"rollTableDraw": {
@@ -326,6 +305,10 @@
 		"tags": [
 		],
 		"target": {
+			"value": ""
+		},
+		"time": {
+			"_deprecated": true,
 			"value": ""
 		},
 		"uniqueId": "",

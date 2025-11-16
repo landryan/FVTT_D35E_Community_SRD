@@ -1,16 +1,16 @@
 {
-	"_id": "5l5oFNJxgPdzBOwU",
-	"_key": "!actors.items!klhMdyMfHA4XnoFf.5l5oFNJxgPdzBOwU",
+	"_id": "wenrH48BzpQFhnCd",
+	"_key": "!actors.items!7jdWskYZCKS6f7wr.wenrH48BzpQFhnCd",
 	"effects": [
 	],
-	"folder": "kW5aSTmsUaTGo6uI",
-	"img": "icons/skills/targeting/crosshair-ringed-gray.webp",
-	"name": "Racial Skill Bonus",
+	"folder": "BgB9n9dVf7vGT6kz",
+	"img": "systems/D35E/icons/feats/weapon-finesse.png",
+	"name": "Weapon Finesse",
 	"system": {
 		"ability": {
 			"attack": null,
 			"critMult": 2,
-			"critRange": "20",
+			"critRange": 20,
 			"damage": null,
 			"damageMult": 1,
 			"twoHandedOnly": false,
@@ -24,7 +24,7 @@
 			"cost": 1,
 			"type": ""
 		},
-		"addedLevel": 12,
+		"addedLevel": 1,
 		"associations": {
 			"classes": [
 			]
@@ -63,23 +63,20 @@
 			"uncannyDodge": false
 		},
 		"changes": [
-			[
-				"8",
-				"skill",
-				"skill.lis",
-				"racial"
-			],
-			[
-				"14",
-				"skill",
-				"skill.mos",
-				"racial"
-			]
 		],
 		"classSource": "",
 		"combatChangeCustomDisplayName": "",
 		"combatChangeCustomReferenceName": "",
 		"combatChanges": [
+			[
+				"attack",
+				"",
+				"@item.finesseable",
+				"$item.ability.attack",
+				"dex",
+				"",
+				""
+			]
 		],
 		"combatChangesAdditionalRanges": {
 			"hasAdditionalRanges": false,
@@ -116,11 +113,6 @@
 		"container": "None",
 		"containerWeightless": false,
 		"contextNotes": [
-			[
-				"+8 bonus in shadowy areas",
-				"skill",
-				"skill.spt"
-			]
 		],
 		"counterName": "",
 		"crOffset": "",
@@ -140,12 +132,16 @@
 		},
 		"damageReduction": [
 		],
+		"damageType": {
+			"_deprecated": true,
+			"value": ""
+		},
 		"deactivateActions": [
 		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "<p>Owls have a +8 racial bonus on Listen checks and a +14 racial bonus on Move Silently checks. *They have a +8 racial bonus on Spot checks in areas of shadowy illumination.</p>"
+			"value": "@LinkedDescription[Compendium.dnd-35e-generic-content.racial-abilities.Item.tQYWuO6uISLiDrnD]"
 		},
 		"duration": {
 			"units": "",
@@ -155,12 +151,12 @@
 		"epic": "",
 		"equippedWeightless": false,
 		"favorite": false,
-		"featType": "racial",
+		"featType": "trait",
 		"formula": "",
 		"fullResalePrice": false,
-		"identifiedName": "Racial Skill Bonus",
+		"identifiedName": "Weapon Finesse",
 		"index": {
-			"subType": "racial",
+			"subType": "trait",
 			"uniqueId": ""
 		},
 		"linkId": "",
@@ -185,7 +181,7 @@
 			"customTexture": "",
 			"overrideColor": false,
 			"overrideTexture": false,
-			"size": "",
+			"size": 0,
 			"type": ""
 		},
 		"metamagic": {
@@ -204,9 +200,9 @@
 		},
 		"nameFormula": "",
 		"nameFromFormula": false,
-		"originId": "Hf9FbUmG2FBTuoXm",
+		"originId": "tQYWuO6uISLiDrnD",
 		"originPack": "dnd-35e-generic-content.racial-abilities",
-		"originVersion": 0,
+		"originVersion": 104,
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,
@@ -243,6 +239,7 @@
 			"dcAutoAbility": "",
 			"dcAutoType": "",
 			"description": "",
+			"originVersion": 97,
 			"type": ""
 		},
 		"showInQuickbar": false,
@@ -326,6 +323,10 @@
 		"tags": [
 		],
 		"target": {
+			"value": ""
+		},
+		"time": {
+			"_deprecated": true,
 			"value": ""
 		},
 		"uniqueId": "",

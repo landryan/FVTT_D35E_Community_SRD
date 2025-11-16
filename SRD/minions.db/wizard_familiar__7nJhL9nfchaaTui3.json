@@ -1,19 +1,43 @@
 {
-	"_id": "IitARQdvO36JhlyC",
-	"_key": "!actors.items!N2OZ8Jj6xngBbMRS.IitARQdvO36JhlyC",
+	"_id": "7nJhL9nfchaaTui3",
+	"_key": "!actors.items!6pAOJcb5aqXYYzKs.7nJhL9nfchaaTui3",
 	"effects": [
 	],
 	"folder": null,
 	"img": "systems/D35E/icons/classfeatures/familiar.png",
 	"name": "Wizard Familiar",
 	"system": {
-		"addedAbilities": [
+		"activateActions": [
 		],
+		"addedAbilities": [
+			{
+				"level": 1,
+				"uid": "improved-evasion-v2"
+			},
+			{
+				"level": 1,
+				"uid": "familiar-alertness"
+			},
+			{
+				"level": 5,
+				"uid": "fml-swm"
+			},
+			{
+				"level": 13,
+				"uid": "familiar-scryonfamiliar"
+			}
+		],
+		"addedLevel": 0,
 		"allSpellsKnown": false,
+		"attackParts": [
+		],
 		"automaticFeatures": true,
 		"bab": "",
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -63,7 +87,7 @@
 				"@master.data.attributes.bab.base",
 				"attack",
 				"babattack",
-				"base"
+				"replace"
 			],
 			[
 				"floor(@master.data.attributes.hp.max / 2)",
@@ -112,6 +136,7 @@
 			"rid": false,
 			"sen": false,
 			"slt": false,
+			"spk": false,
 			"spl": false,
 			"spt": false,
 			"src": false,
@@ -123,7 +148,7 @@
 			"uro": false
 		},
 		"classSource": "",
-		"classType": "base",
+		"classType": "minion",
 		"combatChangeCustomDisplayName": "",
 		"combatChangeCustomReferenceName": "",
 		"combatChanges": [
@@ -157,6 +182,12 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
 		"counterName": "",
 		"crPerHD": 4,
 		"createdBy": "",
@@ -168,29 +199,36 @@
 		"customAttributesLocked": false,
 		"customTag": "",
 		"damage": {
+			"alternativeParts": [
+			],
 			"parts": [
 			]
 		},
 		"damageReduction": [
+		],
+		"deactivateActions": [
 		],
 		"deckHandSizeFormula": "0",
 		"deckPrestigeClass": false,
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "<p>A familiar is a normal animal that gains new powers and becomes a magical beast when summoned to service by a sorcerer or wizard. It retains the appearance, Hit Dice, base attack bonus, base save bonuses, skills, and feats of the normal animal it once was, but it is treated as a magical beast instead of an animal for the purpose of any effect that depends on its type. Only a normal, unmodified animal may become a familiar. An animal companion cannot also function as a familiar.</p>\n<p>A familiar also grants special abilities to its master (a sorcerer or wizard), as given on the table below. These special abilities apply only when the master and familiar are within 1 mile of each other.</p>\n<p>Levels of different classes that are entitled to familiars stack for the purpose of determining any familiar abilities that depend on the master&rsquo;s level.</p>\n<h3 id=\"familiarAbilityDescriptions\">Familiar Ability Descriptions</h3>\n<p>All familiars have special abilities (or impart abilities to their masters) depending on the master&rsquo;s combined level in classes that grant familiars, as shown on the table below and in Progression and Features Tab</p>\n<table id=\"tableFamiliarSpecialAbilities\" style=\"width: 98.8462%;\" cellspacing=\"0\">\n<tbody>\n<tr>\n<th style=\"width: 30.7393%;\" align=\"left\">Master Class Level</th>\n<th style=\"width: 17.7043%;\">Natural Armor Adj.</th>\n<th style=\"width: 13.2296%;\">Int</th>\n</tr>\n<tr>\n<td style=\"width: 30.7393%;\">1st-2nd</td>\n<td style=\"width: 17.7043%;\" align=\"center\">+1</td>\n<td style=\"width: 13.2296%;\" align=\"center\">6</td>\n</tr>\n<tr>\n<td style=\"width: 30.7393%;\">3rd-4th</td>\n<td style=\"width: 17.7043%;\" align=\"center\">+2</td>\n<td style=\"width: 13.2296%;\" align=\"center\">7</td>\n</tr>\n<tr>\n<td style=\"width: 30.7393%;\">5th-6th</td>\n<td style=\"width: 17.7043%;\" align=\"center\">+3</td>\n<td style=\"width: 13.2296%;\" align=\"center\">8</td>\n</tr>\n<tr>\n<td style=\"width: 30.7393%;\">7th-8th</td>\n<td style=\"width: 17.7043%;\" align=\"center\">+4</td>\n<td style=\"width: 13.2296%;\" align=\"center\">9</td>\n</tr>\n<tr>\n<td style=\"width: 30.7393%;\">9th-10th</td>\n<td style=\"width: 17.7043%;\" align=\"center\">+5</td>\n<td style=\"width: 13.2296%;\" align=\"center\">10</td>\n</tr>\n<tr>\n<td style=\"width: 30.7393%;\">11th-12th</td>\n<td style=\"width: 17.7043%;\" align=\"center\">+6</td>\n<td style=\"width: 13.2296%;\" align=\"center\">11</td>\n</tr>\n<tr>\n<td style=\"width: 30.7393%;\">13th-14th</td>\n<td style=\"width: 17.7043%;\" align=\"center\">+7</td>\n<td style=\"width: 13.2296%;\" align=\"center\">12</td>\n</tr>\n<tr>\n<td style=\"width: 30.7393%;\">15th-16th</td>\n<td style=\"width: 17.7043%;\" align=\"center\">+8</td>\n<td style=\"width: 13.2296%;\" align=\"center\">13</td>\n</tr>\n<tr>\n<td style=\"width: 30.7393%;\">17th-18th</td>\n<td style=\"width: 17.7043%;\" align=\"center\">+9</td>\n<td style=\"width: 13.2296%;\" align=\"center\">14</td>\n</tr>\n<tr>\n<td style=\"width: 30.7393%;\">19th-20th</td>\n<td style=\"width: 17.7043%;\" align=\"center\">+10</td>\n<td style=\"width: 13.2296%;\" align=\"center\">15</td>\n</tr>\n</tbody>\n</table>"
+			"value": "@LinkedDescription[Compendium.D35E.minion-classes.Item.NFMLhZwBD0WP2CEv]"
 		},
 		"disabledAbilities": [
 		],
 		"epic": "",
 		"fc": {
 			"alt": {
+				"label": "Alt",
 				"value": 0
 			},
 			"hp": {
+				"label": "Hit Points",
 				"value": 0
 			},
 			"skill": {
+				"label": "Skills",
 				"value": 0
 			}
 		},
@@ -202,6 +240,11 @@
 		"hdReplace": "",
 		"hdReplaceRacialOnly": false,
 		"hp": 0,
+		"identifiedName": "Wizard Familiar",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
 		"knownCardsSizeFormula": "0",
 		"la": 0,
 		"levels": 0,
@@ -216,9 +259,11 @@
 		"nameFromFormula": false,
 		"nonActiveClassAbilities": [
 		],
-		"originId": "",
-		"originPack": "",
-		"originVersion": 0,
+		"originId": "NFMLhZwBD0WP2CEv",
+		"originPack": "D35E.minion-classes",
+		"originVersion": 100,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"powerPointBonusBaseAbility": "0",
 		"powerPointTable": {
@@ -309,6 +354,8 @@
 		"sneakAttackFormula": "0",
 		"sneakAttackGroup": "none",
 		"source": "",
+		"specialActions": [
+		],
 		"spellPointBonusFormula": "0",
 		"spellPointGroup": "wizard",
 		"spellPointTable": {
@@ -334,56 +381,6 @@
 			"9": 0
 		},
 		"spellbook": [
-			{
-				"level": 0,
-				"spells": [
-				]
-			},
-			{
-				"level": 1,
-				"spells": [
-				]
-			},
-			{
-				"level": 2,
-				"spells": [
-				]
-			},
-			{
-				"level": 3,
-				"spells": [
-				]
-			},
-			{
-				"level": 4,
-				"spells": [
-				]
-			},
-			{
-				"level": 5,
-				"spells": [
-				]
-			},
-			{
-				"level": 6,
-				"spells": [
-				]
-			},
-			{
-				"level": 7,
-				"spells": [
-				]
-			},
-			{
-				"level": 8,
-				"spells": [
-				]
-			},
-			{
-				"level": 9,
-				"spells": [
-				]
-			}
 		],
 		"spellcastingAbility": "int",
 		"spellcastingDescription": "None",
@@ -396,6 +393,8 @@
 		"spellsPerLevel": [
 		],
 		"spellslotAbility": "",
+		"summon": [
+		],
 		"tags": [
 		],
 		"turnUndeadLevelFormula": "0",

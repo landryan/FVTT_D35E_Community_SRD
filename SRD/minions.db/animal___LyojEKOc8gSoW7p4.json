@@ -1,20 +1,27 @@
 {
 	"_id": "LyojEKOc8gSoW7p4",
-	"_key": "!actors.items!ATzh56KXLCJF8y9I.LyojEKOc8gSoW7p4",
+	"_key": "!actors.items!NaO0eoygqfZBP2XE.LyojEKOc8gSoW7p4",
 	"effects": [
 	],
 	"folder": null,
 	"img": "systems/D35E/icons/racialhd/animal.png",
 	"name": "Animal*",
 	"system": {
+		"activateActions": [
+		],
 		"addedAbilities": [
 		],
 		"addedLevel": 0,
 		"allSpellsKnown": false,
+		"attackParts": [
+		],
 		"automaticFeatures": false,
 		"bab": "med",
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -77,6 +84,7 @@
 			"rid": false,
 			"sen": false,
 			"slt": false,
+			"spk": false,
 			"spl": false,
 			"spt": true,
 			"src": false,
@@ -123,6 +131,12 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
 		"counterName": "",
 		"crPerHD": 3,
 		"createdBy": "",
@@ -135,10 +149,14 @@
 		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
+			"alternativeParts": [
+			],
 			"parts": [
 			]
 		},
 		"damageReduction": [
+		],
+		"deactivateActions": [
 		],
 		"deckHandSizeFormula": "0",
 		"deckPrestigeClass": false,
@@ -168,7 +186,7 @@
 		"hd": 8,
 		"hdReplace": "",
 		"hdReplaceRacialOnly": false,
-		"hp": 4,
+		"hp": 2,
 		"identifiedName": "Animal*",
 		"index": {
 			"subType": null,
@@ -190,7 +208,9 @@
 		],
 		"originId": "",
 		"originPack": "",
-		"originVersion": 2,
+		"originVersion": 3,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"powerPointBonusBaseAbility": "",
 		"powerPointTable": {
@@ -281,6 +301,8 @@
 		"sneakAttackFormula": "",
 		"sneakAttackGroup": "",
 		"source": "",
+		"specialActions": [
+		],
 		"spellPointBonusFormula": "0",
 		"spellPointGroup": "wizard",
 		"spellPointTable": {
@@ -362,12 +384,14 @@
 		"spellcastingSpellname": "Spell",
 		"spellcastingSpellnamePl": "Spells",
 		"spellcastingSpontaneus": false,
-		"spellcastingType": null,
+		"spellcastingType": "none",
 		"spellsKnownPerLevel": [
 		],
 		"spellsPerLevel": [
 		],
 		"spellslotAbility": "",
+		"summon": [
+		],
 		"tags": [
 		],
 		"turnUndeadLevelFormula": "",

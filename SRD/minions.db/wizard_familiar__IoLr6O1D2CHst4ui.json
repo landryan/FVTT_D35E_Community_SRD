@@ -1,22 +1,38 @@
 {
-	"_id": "ArWyNkmsPaECdrFj",
-	"_key": "!actors.items!oIQ1IJ2E3KWoZ7o3.ArWyNkmsPaECdrFj",
+	"_id": "IoLr6O1D2CHst4ui",
+	"_key": "!actors.items!9XRyHiIS9e9wh3UE.IoLr6O1D2CHst4ui",
 	"effects": [
 	],
 	"folder": null,
-	"img": "systems/D35E/icons/racialhd/animal.png",
-	"name": "Animal*",
+	"img": "systems/D35E/icons/classfeatures/familiar.png",
+	"name": "Wizard Familiar",
 	"system": {
 		"activateActions": [
 		],
 		"addedAbilities": [
+			{
+				"level": 1,
+				"uid": "improved-evasion-v2"
+			},
+			{
+				"level": 1,
+				"uid": "familiar-alertness"
+			},
+			{
+				"level": 5,
+				"uid": "fml-swm"
+			},
+			{
+				"level": 13,
+				"uid": "familiar-scryonfamiliar"
+			}
 		],
 		"addedLevel": 0,
 		"allSpellsKnown": false,
 		"attackParts": [
 		],
-		"automaticFeatures": false,
-		"bab": "med",
+		"automaticFeatures": true,
+		"bab": "",
 		"changeFlags": {
 			"firstChangeTargetSelectableOnDescription": false,
 			"hasted": false,
@@ -37,15 +53,55 @@
 			"uncannyDodge": false
 		},
 		"changes": [
+			[
+				"ceil(@classes.wizardFamiliar.level / 2)+3",
+				"ability",
+				"int",
+				"untyped"
+			],
+			[
+				"ceil(@classes.wizardFamiliar.level / 2)",
+				"ac",
+				"nac",
+				"untyped"
+			],
+			[
+				"(@master.data.attributes.savingThrows.fort.base - 2) > 2 ? (@master.data.attributes.savingThrows.fort.base - 2) : 0",
+				"savingThrows",
+				"fort",
+				"base"
+			],
+			[
+				"(@master.data.attributes.savingThrows.will.base) > 2 ? (@master.data.attributes.savingThrows.will.base) : 0",
+				"savingThrows",
+				"will",
+				"base"
+			],
+			[
+				"(@master.data.attributes.savingThrows.ref.base - 2) > 2 ? (@master.data.attributes.savingThrows.ref.base - 2) : 0",
+				"savingThrows",
+				"ref",
+				"base"
+			],
+			[
+				"@master.data.attributes.bab.base",
+				"attack",
+				"babattack",
+				"replace"
+			],
+			[
+				"floor(@master.data.attributes.hp.max / 2)",
+				"misc",
+				"mhp",
+				"base"
+			]
 		],
 		"classSkills": {
-			"acr": true,
 			"apr": false,
-			"art": false,
 			"aut": false,
-			"blc": true,
+			"blc": false,
 			"blf": false,
-			"clm": true,
+			"clm": false,
 			"coc": false,
 			"crf": false,
 			"dev": false,
@@ -53,12 +109,11 @@
 			"dis": false,
 			"dsc": false,
 			"esc": false,
-			"fly": true,
 			"fog": false,
 			"gif": false,
 			"han": false,
 			"hea": false,
-			"hid": true,
+			"hid": false,
 			"int": false,
 			"jmp": false,
 			"kar": false,
@@ -72,12 +127,9 @@
 			"kpl": false,
 			"kps": false,
 			"kre": false,
-			"lin": false,
-			"lis": true,
-			"lor": false,
+			"lis": false,
 			"mos": false,
 			"opl": false,
-			"per": true,
 			"prf": false,
 			"pro": false,
 			"psi": false,
@@ -86,18 +138,17 @@
 			"slt": false,
 			"spk": false,
 			"spl": false,
-			"spt": true,
+			"spt": false,
 			"src": false,
-			"ste": true,
 			"sur": false,
-			"swm": true,
+			"swm": false,
 			"tmb": false,
 			"umd": false,
 			"upd": false,
 			"uro": false
 		},
 		"classSource": "",
-		"classType": "racial",
+		"classType": "minion",
 		"combatChangeCustomDisplayName": "",
 		"combatChangeCustomReferenceName": "",
 		"combatChanges": [
@@ -138,11 +189,11 @@
 		"contextNotes": [
 		],
 		"counterName": "",
-		"crPerHD": 3,
+		"crPerHD": 4,
 		"createdBy": "",
 		"creationChanges": [
 		],
-		"creatureType": "animal",
+		"creatureType": "humanoid",
 		"customAttributes": {
 		},
 		"customAttributesLocked": false,
@@ -162,7 +213,7 @@
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "@LinkedDescription[Compendium.D35E.racialhd.Item.WJqmmfXscPVpcISH]"
+			"value": "@LinkedDescription[Compendium.D35E.minion-classes.Item.NFMLhZwBD0WP2CEv]"
 		},
 		"disabledAbilities": [
 		],
@@ -182,36 +233,36 @@
 		"hasLimitedSpellbook": false,
 		"hasSpecialSlot": false,
 		"hasSpellbook": false,
-		"hd": 8,
+		"hd": 0,
 		"hdReplace": "",
 		"hdReplaceRacialOnly": false,
-		"hp": 1,
-		"identifiedName": "Animal*",
+		"hp": 0,
+		"identifiedName": "Wizard Familiar",
 		"index": {
 			"subType": null,
 			"uniqueId": ""
 		},
 		"knownCardsSizeFormula": "0",
 		"la": 0,
-		"levels": 1,
+		"levels": 0,
 		"linkId": "",
 		"linkImported": false,
 		"linkSourceId": "",
 		"linkSourceName": "",
-		"maxLevel": null,
-		"minionGroup": "",
-		"minionLevelFormula": "",
+		"maxLevel": 20,
+		"minionGroup": "wizard",
+		"minionLevelFormula": "0",
 		"nameFormula": "",
 		"nameFromFormula": false,
 		"nonActiveClassAbilities": [
 		],
-		"originId": "WJqmmfXscPVpcISH",
-		"originPack": "D35E.racialhd",
-		"originVersion": 99,
+		"originId": "NFMLhZwBD0WP2CEv",
+		"originPack": "D35E.minion-classes",
+		"originVersion": 100,
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,
-		"powerPointBonusBaseAbility": "",
+		"powerPointBonusBaseAbility": "0",
 		"powerPointTable": {
 			"1": 0,
 			"10": 0,
@@ -286,19 +337,19 @@
 		],
 		"savingThrows": {
 			"fort": {
-				"value": "high"
+				"value": ""
 			},
 			"ref": {
-				"value": "high"
+				"value": ""
 			},
 			"will": {
-				"value": "low"
+				"value": ""
 			}
 		},
 		"sizeOverride": "",
-		"skillsPerLevel": 2,
-		"sneakAttackFormula": "",
-		"sneakAttackGroup": "",
+		"skillsPerLevel": 0,
+		"sneakAttackFormula": "0",
+		"sneakAttackGroup": "none",
 		"source": "",
 		"specialActions": [
 		],
@@ -343,7 +394,7 @@
 		],
 		"tags": [
 		],
-		"turnUndeadLevelFormula": "",
+		"turnUndeadLevelFormula": "0",
 		"uniqueId": "",
 		"userNonRemovable": false
 	},
