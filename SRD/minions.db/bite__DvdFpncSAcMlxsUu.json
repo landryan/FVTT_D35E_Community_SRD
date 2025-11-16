@@ -1,11 +1,11 @@
 {
-	"_id": "Ty5EA2Rljfnakdle",
-	"_key": "!actors.items!7jdWskYZCKS6f7wr.Ty5EA2Rljfnakdle",
+	"_id": "DvdFpncSAcMlxsUu",
+	"_key": "!actors.items!NaO0eoygqfZBP2XE.DvdFpncSAcMlxsUu",
 	"effects": [
 	],
 	"folder": null,
-	"img": "systems/D35E/icons/attack/monster/claw.png",
-	"name": "Claw",
+	"img": "systems/D35E/icons/attack/monster/bite.png",
+	"name": "Bite",
 	"system": {
 		"ability": {
 			"attack": "str",
@@ -47,7 +47,7 @@
 		"autoScaleOption": "default",
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
-		"baseWeaponType": "Claw",
+		"baseWeaponType": "Bite",
 		"changes": [
 		],
 		"classSource": "",
@@ -73,9 +73,9 @@
 			],
 			"parts": [
 				[
-					"1d2",
+					"1d3",
 					null,
-					"damage-piercing-or-slashing"
+					"damage-piercing-or-bludgeoning"
 				]
 			]
 		},
@@ -86,7 +86,7 @@
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "<p>The creature rips with a sharp appendage, dealing piercing and slashing damage.</p>"
+			"value": "<p>The creature attacks with its mouth, dealing piercing, slashing, and bludgeoning damage.</p>"
 		},
 		"duration": {
 			"units": "",
@@ -98,7 +98,7 @@
 		"favorite": true,
 		"finesseable": true,
 		"formula": "",
-		"identifiedName": "Claw",
+		"identifiedName": "Bite",
 		"incorporeal": false,
 		"index": {
 			"subType": null,
@@ -156,13 +156,13 @@
 		],
 		"possibleUpdate": false,
 		"pr": false,
-		"primaryAttack": true,
+		"primaryAttack": false,
 		"proficient": true,
 		"psionic": "",
 		"range": {
 			"long": null,
 			"units": "ft",
-			"value": "2.5"
+			"value": "0"
 		},
 		"recharge": {
 			"current": 0,

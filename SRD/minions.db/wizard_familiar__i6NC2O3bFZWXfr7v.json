@@ -1,22 +1,38 @@
 {
-	"_id": "o48hOG09Fxl4i0xf",
-	"_key": "!actors.items!1o8q5K0ZujUXpc6S.o48hOG09Fxl4i0xf",
+	"_id": "i6NC2O3bFZWXfr7v",
+	"_key": "!actors.items!7kXNRtFq1qbfUJuy.i6NC2O3bFZWXfr7v",
 	"effects": [
 	],
 	"folder": null,
-	"img": "systems/D35E/icons/racialhd/animal.png",
-	"name": "Animal*",
+	"img": "systems/D35E/icons/classfeatures/familiar.png",
+	"name": "Wizard Familiar",
 	"system": {
 		"activateActions": [
 		],
 		"addedAbilities": [
+			{
+				"level": 1,
+				"uid": "improved-evasion-v2"
+			},
+			{
+				"level": 1,
+				"uid": "familiar-alertness"
+			},
+			{
+				"level": 5,
+				"uid": "fml-swm"
+			},
+			{
+				"level": 13,
+				"uid": "familiar-scryonfamiliar"
+			}
 		],
 		"addedLevel": 0,
 		"allSpellsKnown": false,
 		"attackParts": [
 		],
-		"automaticFeatures": false,
-		"bab": "med",
+		"automaticFeatures": true,
+		"bab": "",
 		"changeFlags": {
 			"firstChangeTargetSelectableOnDescription": false,
 			"hasted": false,
@@ -37,11 +53,51 @@
 			"uncannyDodge": false
 		},
 		"changes": [
+			[
+				"ceil(@classes.wizardFamiliar.level / 2)+3",
+				"ability",
+				"int",
+				"untyped"
+			],
+			[
+				"ceil(@classes.wizardFamiliar.level / 2)",
+				"ac",
+				"nac",
+				"untyped"
+			],
+			[
+				"(@master.data.attributes.savingThrows.fort.base - 2) > 2 ? (@master.data.attributes.savingThrows.fort.base - 2) : 0",
+				"savingThrows",
+				"fort",
+				"base"
+			],
+			[
+				"(@master.data.attributes.savingThrows.will.base) > 2 ? (@master.data.attributes.savingThrows.will.base) : 0",
+				"savingThrows",
+				"will",
+				"base"
+			],
+			[
+				"(@master.data.attributes.savingThrows.ref.base - 2) > 2 ? (@master.data.attributes.savingThrows.ref.base - 2) : 0",
+				"savingThrows",
+				"ref",
+				"base"
+			],
+			[
+				"@master.data.attributes.bab.base",
+				"attack",
+				"babattack",
+				"replace"
+			],
+			[
+				"floor(@master.data.attributes.hp.max / 2)",
+				"misc",
+				"mhp",
+				"base"
+			]
 		],
 		"classSkills": {
-			"acr": true,
 			"apr": false,
-			"art": false,
 			"aut": false,
 			"blc": false,
 			"blf": false,
@@ -53,12 +109,11 @@
 			"dis": false,
 			"dsc": false,
 			"esc": false,
-			"fly": true,
 			"fog": false,
 			"gif": false,
 			"han": false,
 			"hea": false,
-			"hid": true,
+			"hid": false,
 			"int": false,
 			"jmp": false,
 			"kar": false,
@@ -72,12 +127,9 @@
 			"kpl": false,
 			"kps": false,
 			"kre": false,
-			"lin": false,
-			"lis": true,
-			"lor": false,
-			"mos": true,
+			"lis": false,
+			"mos": false,
 			"opl": false,
-			"per": true,
 			"prf": false,
 			"pro": false,
 			"psi": false,
@@ -86,9 +138,8 @@
 			"slt": false,
 			"spk": false,
 			"spl": false,
-			"spt": true,
+			"spt": false,
 			"src": false,
-			"ste": true,
 			"sur": false,
 			"swm": false,
 			"tmb": false,
@@ -97,7 +148,7 @@
 			"uro": false
 		},
 		"classSource": "",
-		"classType": "racial",
+		"classType": "minion",
 		"combatChangeCustomDisplayName": "",
 		"combatChangeCustomReferenceName": "",
 		"combatChanges": [
@@ -138,15 +189,14 @@
 		"contextNotes": [
 		],
 		"counterName": "",
-		"crPerHD": 3,
+		"crPerHD": 4,
 		"createdBy": "",
 		"creationChanges": [
 		],
-		"creatureType": "animal",
+		"creatureType": "humanoid",
 		"customAttributes": {
 		},
 		"customAttributesLocked": false,
-		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
 			"alternativeParts": [
@@ -163,19 +213,22 @@
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "<p>An animal is a living, nonhuman creature, usually a vertebrate with no magical abilities and no innate capacity for language or culture.</p>\n<h2>Features</h2>\n<p>An animal has the following features (unless otherwise noted in a creature’s entry).</p>\n<ul>\n<li>d8 Hit Dice.</li>\n<li>Base attack bonus equal to 3/4 total Hit Dice (as cleric).</li>\n<li>Good Fortitude and Reflex saves (certain animals have different good saves).</li>\n<li>Skill points equal to (2 + Int modifier, minimum 1) per Hit Die, with quadruple skill points for the first Hit Die.</li>\n</ul>\n<h2>Traits</h2>\n<p>An animal possesses the following traits (unless otherwise noted in a creature’s entry).</p>\n<ul>\n<li>Intelligence score of 1 or 2 (no creature with an Intelligence score of 3 or higher can be an animal).</li>\n<li>Low-light vision.</li>\n<li>Alignment: Always neutral.</li>\n<li>Treasure: None.</li>\n<li>Proficient with its natural weapons only. A noncombative herbivore uses its natural weapons as a secondary attack. Such attacks are made with a –5 penalty on the creature’s attack rolls, and the animal receives only 1/2 its Strength modifier as a damage adjustment.</li>\n<li>Proficient with no armor unless trained for war.</li>\n<li>Animals eat, sleep, and breathe.</li>\n</ul>"
+			"value": "@LinkedDescription[Compendium.D35E.minion-classes.Item.NFMLhZwBD0WP2CEv]"
 		},
 		"disabledAbilities": [
 		],
 		"epic": "",
 		"fc": {
 			"alt": {
+				"label": "Alt",
 				"value": 0
 			},
 			"hp": {
+				"label": "Hit Points",
 				"value": 0
 			},
 			"skill": {
+				"label": "Skills",
 				"value": 0
 			}
 		},
@@ -183,36 +236,36 @@
 		"hasLimitedSpellbook": false,
 		"hasSpecialSlot": false,
 		"hasSpellbook": false,
-		"hd": 8,
+		"hd": 0,
 		"hdReplace": "",
 		"hdReplaceRacialOnly": false,
-		"hp": 1,
-		"identifiedName": "Animal*",
+		"hp": 0,
+		"identifiedName": "Wizard Familiar",
 		"index": {
 			"subType": null,
 			"uniqueId": ""
 		},
 		"knownCardsSizeFormula": "0",
 		"la": 0,
-		"levels": 1,
+		"levels": 0,
 		"linkId": "",
 		"linkImported": false,
 		"linkSourceId": "",
 		"linkSourceName": "",
 		"maxLevel": 20,
-		"minionGroup": "none",
+		"minionGroup": "wizard",
 		"minionLevelFormula": "0",
 		"nameFormula": "",
 		"nameFromFormula": false,
 		"nonActiveClassAbilities": [
 		],
-		"originId": "",
-		"originPack": "",
-		"originVersion": 5,
+		"originId": "NFMLhZwBD0WP2CEv",
+		"originPack": "D35E.minion-classes",
+		"originVersion": 100,
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,
-		"powerPointBonusBaseAbility": "",
+		"powerPointBonusBaseAbility": "0",
 		"powerPointTable": {
 			"1": 0,
 			"10": 0,
@@ -287,19 +340,19 @@
 		],
 		"savingThrows": {
 			"fort": {
-				"value": "high"
+				"value": ""
 			},
 			"ref": {
-				"value": "high"
+				"value": ""
 			},
 			"will": {
-				"value": "low"
+				"value": ""
 			}
 		},
 		"sizeOverride": "",
-		"skillsPerLevel": 2,
-		"sneakAttackFormula": "",
-		"sneakAttackGroup": "",
+		"skillsPerLevel": 0,
+		"sneakAttackFormula": "0",
+		"sneakAttackGroup": "none",
 		"source": "",
 		"specialActions": [
 		],
@@ -328,56 +381,6 @@
 			"9": 0
 		},
 		"spellbook": [
-			{
-				"level": 0,
-				"spells": [
-				]
-			},
-			{
-				"level": 1,
-				"spells": [
-				]
-			},
-			{
-				"level": 2,
-				"spells": [
-				]
-			},
-			{
-				"level": 3,
-				"spells": [
-				]
-			},
-			{
-				"level": 4,
-				"spells": [
-				]
-			},
-			{
-				"level": 5,
-				"spells": [
-				]
-			},
-			{
-				"level": 6,
-				"spells": [
-				]
-			},
-			{
-				"level": 7,
-				"spells": [
-				]
-			},
-			{
-				"level": 8,
-				"spells": [
-				]
-			},
-			{
-				"level": 9,
-				"spells": [
-				]
-			}
 		],
 		"spellcastingAbility": "int",
 		"spellcastingDescription": "None",
@@ -394,7 +397,7 @@
 		],
 		"tags": [
 		],
-		"turnUndeadLevelFormula": "",
+		"turnUndeadLevelFormula": "0",
 		"uniqueId": "",
 		"userNonRemovable": false
 	},

@@ -1,6 +1,6 @@
 {
-	"_id": "o48hOG09Fxl4i0xf",
-	"_key": "!actors.items!1o8q5K0ZujUXpc6S.o48hOG09Fxl4i0xf",
+	"_id": "85D3SIChPClRXODa",
+	"_key": "!actors.items!N2OZ8Jj6xngBbMRS.85D3SIChPClRXODa",
 	"effects": [
 	],
 	"folder": null,
@@ -18,10 +18,8 @@
 		"automaticFeatures": false,
 		"bab": "med",
 		"changeFlags": {
-			"firstChangeTargetSelectableOnDescription": false,
 			"hasted": false,
 			"heavyArmorFullSpeed": false,
-			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -45,7 +43,7 @@
 			"aut": false,
 			"blc": false,
 			"blf": false,
-			"clm": false,
+			"clm": true,
 			"coc": false,
 			"crf": false,
 			"dev": false,
@@ -58,7 +56,7 @@
 			"gif": false,
 			"han": false,
 			"hea": false,
-			"hid": true,
+			"hid": false,
 			"int": false,
 			"jmp": false,
 			"kar": false,
@@ -73,9 +71,9 @@
 			"kps": false,
 			"kre": false,
 			"lin": false,
-			"lis": true,
+			"lis": false,
 			"lor": false,
-			"mos": true,
+			"mos": false,
 			"opl": false,
 			"per": true,
 			"prf": false,
@@ -84,13 +82,12 @@
 			"rid": false,
 			"sen": false,
 			"slt": false,
-			"spk": false,
 			"spl": false,
-			"spt": true,
+			"spt": false,
 			"src": false,
 			"ste": true,
 			"sur": false,
-			"swm": false,
+			"swm": true,
 			"tmb": false,
 			"umd": false,
 			"upd": false,
@@ -146,11 +143,8 @@
 		"customAttributes": {
 		},
 		"customAttributesLocked": false,
-		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
-			"alternativeParts": [
-			],
 			"parts": [
 			]
 		},
@@ -163,7 +157,7 @@
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "<p>An animal is a living, nonhuman creature, usually a vertebrate with no magical abilities and no innate capacity for language or culture.</p>\n<h2>Features</h2>\n<p>An animal has the following features (unless otherwise noted in a creature’s entry).</p>\n<ul>\n<li>d8 Hit Dice.</li>\n<li>Base attack bonus equal to 3/4 total Hit Dice (as cleric).</li>\n<li>Good Fortitude and Reflex saves (certain animals have different good saves).</li>\n<li>Skill points equal to (2 + Int modifier, minimum 1) per Hit Die, with quadruple skill points for the first Hit Die.</li>\n</ul>\n<h2>Traits</h2>\n<p>An animal possesses the following traits (unless otherwise noted in a creature’s entry).</p>\n<ul>\n<li>Intelligence score of 1 or 2 (no creature with an Intelligence score of 3 or higher can be an animal).</li>\n<li>Low-light vision.</li>\n<li>Alignment: Always neutral.</li>\n<li>Treasure: None.</li>\n<li>Proficient with its natural weapons only. A noncombative herbivore uses its natural weapons as a secondary attack. Such attacks are made with a –5 penalty on the creature’s attack rolls, and the animal receives only 1/2 its Strength modifier as a damage adjustment.</li>\n<li>Proficient with no armor unless trained for war.</li>\n<li>Animals eat, sleep, and breathe.</li>\n</ul>"
+			"value": "@LinkedDescription[Compendium.D35E.racialhd.Item.WJqmmfXscPVpcISH]"
 		},
 		"disabledAbilities": [
 		],
@@ -186,7 +180,7 @@
 		"hd": 8,
 		"hdReplace": "",
 		"hdReplaceRacialOnly": false,
-		"hp": 1,
+		"hp": 8,
 		"identifiedName": "Animal*",
 		"index": {
 			"subType": null,
@@ -199,16 +193,16 @@
 		"linkImported": false,
 		"linkSourceId": "",
 		"linkSourceName": "",
-		"maxLevel": 20,
-		"minionGroup": "none",
-		"minionLevelFormula": "0",
+		"maxLevel": null,
+		"minionGroup": "",
+		"minionLevelFormula": "",
 		"nameFormula": "",
 		"nameFromFormula": false,
 		"nonActiveClassAbilities": [
 		],
-		"originId": "",
-		"originPack": "",
-		"originVersion": 5,
+		"originId": "WJqmmfXscPVpcISH",
+		"originPack": "D35E.racialhd",
+		"originVersion": 99,
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,
@@ -328,56 +322,6 @@
 			"9": 0
 		},
 		"spellbook": [
-			{
-				"level": 0,
-				"spells": [
-				]
-			},
-			{
-				"level": 1,
-				"spells": [
-				]
-			},
-			{
-				"level": 2,
-				"spells": [
-				]
-			},
-			{
-				"level": 3,
-				"spells": [
-				]
-			},
-			{
-				"level": 4,
-				"spells": [
-				]
-			},
-			{
-				"level": 5,
-				"spells": [
-				]
-			},
-			{
-				"level": 6,
-				"spells": [
-				]
-			},
-			{
-				"level": 7,
-				"spells": [
-				]
-			},
-			{
-				"level": 8,
-				"spells": [
-				]
-			},
-			{
-				"level": 9,
-				"spells": [
-				]
-			}
 		],
 		"spellcastingAbility": "int",
 		"spellcastingDescription": "None",
@@ -390,8 +334,6 @@
 		"spellsPerLevel": [
 		],
 		"spellslotAbility": "",
-		"summon": [
-		],
 		"tags": [
 		],
 		"turnUndeadLevelFormula": "",

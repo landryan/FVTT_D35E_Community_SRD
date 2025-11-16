@@ -1,11 +1,11 @@
 {
-	"_id": "zWqHQGWhbBoKkUAL",
-	"_key": "!actors.items!7jdWskYZCKS6f7wr.zWqHQGWhbBoKkUAL",
+	"_id": "tO6jNFtb9a7pUPy6",
+	"_key": "!actors.items!9XRyHiIS9e9wh3UE.tO6jNFtb9a7pUPy6",
 	"effects": [
 	],
 	"folder": null,
-	"img": "systems/D35E/icons/special-abilities/scent.png",
-	"name": "Scent",
+	"img": "systems/D35E/icons/feats/alertness.png",
+	"name": "Alertness",
 	"system": {
 		"ability": {
 			"attack": null,
@@ -18,8 +18,6 @@
 		},
 		"abilityType": "",
 		"actionType": "",
-		"activateActions": [
-		],
 		"activation": {
 			"cost": 1,
 			"type": ""
@@ -40,14 +38,8 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
-		"bookSource": "",
-		"brokenResalePrice": null,
-		"carried": false,
 		"changeFlags": {
-			"firstChangeTargetSelectableOnDescription": false,
-			"hasted": false,
 			"heavyArmorFullSpeed": false,
-			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -63,6 +55,18 @@
 			"uncannyDodge": false
 		},
 		"changes": [
+			[
+				"2",
+				"skill",
+				"skill.lis",
+				"untyped"
+			],
+			[
+				"2",
+				"skill",
+				"skill.spt",
+				"untyped"
+			]
 		],
 		"classSource": "",
 		"combatChangeCustomDisplayName": "",
@@ -98,11 +102,6 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
-		"conditionals": [
-		],
-		"constantWeight": false,
-		"container": "None",
-		"containerWeightless": false,
 		"contextNotes": [
 		],
 		"counterName": "",
@@ -124,12 +123,14 @@
 		},
 		"damageReduction": [
 		],
-		"deactivateActions": [
-		],
+		"damageType": {
+			"_deprecated": true,
+			"value": ""
+		},
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "<p>This extraordinary special quality allows a creature to detect approaching enemies, sniff out hidden foes, and track by sense of smell. Creatures with the scent ability can identify familiar odors just as humans do familiar sights.</p>\n<p>The creature can detect opponents within 30 feet by sense of smell. If the opponent is upwind, the range increases to 60 feet; if downwind, it drops to 15 feet. Strong scents, such as smoke or rotting garbage, can be detected at twice the ranges noted above. Overpowering scents, such as skunk musk or troglodyte stench, can be detected at triple normal range.</p>\n<p>When a creature detects a scent, the exact location of the source is not revealed&mdash;only its presence somewhere within range. The creature can take a move action to note the direction of the scent.</p>\n<p>Whenever the creature comes within 5 feet of the source, the creature pinpoints the source&rsquo;s location.</p>\n<p>A creature with the Track feat and the scent ability can follow tracks by smell, making a Wisdom (or Survival) check to find or follow a track. The typical DC for a fresh trail is 10 (no matter what kind of surface holds the scent). This DC increases or decreases depending on how strong the quarry&rsquo;s odor is, the number of creatures, and the age of the trail. For each hour that the trail is cold, the DC increases by 2. The ability otherwise follows the rules for the Track feat. Creatures tracking by scent ignore the effects of surface conditions and poor visibility.</p>\n<p>Water, particularly running water, ruins a trail for air-breathing creatures. Water-breathing creatures that have the scent ability, however, can use it in the water easily.</p>\n<p>False, powerful odors can easily mask other scents. The presence of such an odor completely spoils the ability to properly detect or identify creatures, and the base Survival DC to track becomes 20 rather than 10.</p>"
+			"value": "\n\n\n<h3><span class=\"mw-headline\" id=\"Benefit\">Benefit</span></h3>\n<p>You get a +2 bonus on all Listen checks and Spot checks.\n</p>\n<h3><span class=\"mw-headline\" id=\"Special\">Special</span></h3>\n<p>The master of a familiar gains the benefit of the Alertness feat whenever the familiar is within arm’s reach.\n</p><p><br/>\n</p>\n<hr/>\n\n\n"
 		},
 		"duration": {
 			"units": "",
@@ -137,14 +138,11 @@
 		},
 		"effectNotes": "",
 		"epic": "",
-		"equippedWeightless": false,
 		"favorite": false,
-		"featType": "trait",
+		"featType": "feat",
 		"formula": "",
-		"fullResalePrice": false,
-		"identifiedName": "Scent",
 		"index": {
-			"subType": "trait",
+			"subType": "feat",
 			"uniqueId": ""
 		},
 		"linkId": "",
@@ -190,9 +188,7 @@
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 1,
-		"perRoundActions": [
-		],
+		"originVersion": 0,
 		"possibleUpdate": false,
 		"pr": false,
 		"psionic": "",
@@ -212,7 +208,6 @@
 		"requirements": [
 		],
 		"requiresPsionicFocus": false,
-		"resalePrice": null,
 		"resistances": [
 		],
 		"rollTableDraw": {
@@ -310,6 +305,10 @@
 		"tags": [
 		],
 		"target": {
+			"value": ""
+		},
+		"time": {
+			"_deprecated": true,
 			"value": ""
 		},
 		"uniqueId": "",

@@ -1,20 +1,20 @@
 {
-	"_id": "Ty5EA2Rljfnakdle",
-	"_key": "!actors.items!7jdWskYZCKS6f7wr.Ty5EA2Rljfnakdle",
+	"_id": "cOmGWHKexdLwM04F",
+	"_key": "!actors.items!6pAOJcb5aqXYYzKs.cOmGWHKexdLwM04F",
 	"effects": [
 	],
 	"folder": null,
-	"img": "systems/D35E/icons/attack/monster/claw.png",
-	"name": "Claw",
+	"img": "systems/D35E/icons/classfeatures/deliver-touch-spells.png",
+	"name": "Spell Touch Attack",
 	"system": {
 		"ability": {
 			"attack": "str",
 			"critMult": 2,
 			"critRange": "20",
-			"damage": "str",
-			"damageMult": -1,
+			"damage": "",
+			"damageMult": 1,
 			"twoHandedOnly": false,
-			"vsTouchAc": false
+			"vsTouchAc": true
 		},
 		"actionType": "mwak",
 		"activateActions": [
@@ -34,20 +34,16 @@
 			"classes": [
 			]
 		},
-		"attack": {
-			"parts": [
-			]
-		},
 		"attackBonus": "",
 		"attackCountFormula": "",
 		"attackNotes": "",
 		"attackParts": [
 		],
-		"attackType": "natural",
+		"attackType": "ability",
 		"autoScaleOption": "default",
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
-		"baseWeaponType": "Claw",
+		"baseWeaponType": "",
 		"changes": [
 		],
 		"classSource": "",
@@ -66,17 +62,11 @@
 		"customAttributes": {
 		},
 		"customAttributesLocked": false,
-		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
 			"alternativeParts": [
 			],
 			"parts": [
-				[
-					"1d2",
-					null,
-					"damage-piercing-or-slashing"
-				]
 			]
 		},
 		"damageReduction": [
@@ -86,7 +76,7 @@
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "<p>The creature rips with a sharp appendage, dealing piercing and slashing damage.</p>"
+			"value": ""
 		},
 		"duration": {
 			"units": "",
@@ -98,13 +88,13 @@
 		"favorite": true,
 		"finesseable": true,
 		"formula": "",
-		"identifiedName": "Claw",
+		"identifiedName": "Spell Touch Attack",
 		"incorporeal": false,
 		"index": {
 			"subType": null,
 			"uniqueId": ""
 		},
-		"isNaturalEquivalent": false,
+		"isNaturalEquivalent": true,
 		"linkId": "",
 		"linkImported": false,
 		"linkSourceId": "",
@@ -126,7 +116,7 @@
 			"customTexture": "",
 			"overrideColor": false,
 			"overrideTexture": false,
-			"size": 0,
+			"size": "",
 			"type": ""
 		},
 		"melded": false,
@@ -160,9 +150,8 @@
 		"proficient": true,
 		"psionic": "",
 		"range": {
-			"long": null,
-			"units": "ft",
-			"value": "2.5"
+			"units": "touch",
+			"value": null
 		},
 		"recharge": {
 			"current": 0,
