@@ -1,18 +1,19 @@
 {
-	"_id": "7kXNRtFq1qbfUJuy",
-	"_key": "!actors!7kXNRtFq1qbfUJuy",
+	"_id": "esRHnLJ3tDhVGxdS",
+	"_key": "!actors!esRHnLJ3tDhVGxdS",
 	"effects": [
 	],
 	"folder": null,
 	"img": "systems/D35E/icons/minions/hawk.png",
 	"items": [
-		"4dVz3UKx9arwiR5K",
-		"mJOjKcImKy8Dc9ft",
-		"4JTd0pcnpjWnIjrq",
-		"i6NC2O3bFZWXfr7v",
-		"Rw9kYdqPPhYWHGYp"
+		"5uJzqylwIOktybG0",
+		"jTzwSisL1f38hY8W",
+		"0bhiLMIbM83X6viB",
+		"g5CKjTo6txJjr6Gd",
+		"OPFHwLa6PAoe9Z1e",
+		"10KgVTrLzHwk6NuS"
 	],
-	"name": "Hawk",
+	"name": "Hawk Familiar",
 	"prototypeToken": {
 		"actorLink": false,
 		"alpha": 1,
@@ -25,8 +26,8 @@
 		},
 		"detectionModes": [
 		],
-		"displayBars": 0,
-		"displayName": 0,
+		"displayBars": 40,
+		"displayName": 20,
 		"disposition": -1,
 		"flags": {
 			"D35E": {
@@ -45,7 +46,7 @@
 			},
 			"attenuation": 0.5,
 			"bright": 0,
-			"color": null,
+			"color": "#000000",
 			"coloration": 1,
 			"contrast": 0,
 			"darkness": {
@@ -58,7 +59,7 @@
 			"shadows": 0
 		},
 		"lockRotation": false,
-		"name": "templateNPC",
+		"name": "Hawk",
 		"prependAdjective": false,
 		"randomImg": false,
 		"rotation": 0,
@@ -66,9 +67,8 @@
 			"angle": 360,
 			"attenuation": 0.1,
 			"brightness": 1,
-			"color": null,
 			"contrast": 0,
-			"enabled": false,
+			"enabled": true,
 			"range": 0,
 			"saturation": 0,
 			"visionMode": "basic"
@@ -79,7 +79,7 @@
 			"rotation": 0,
 			"scaleX": 0.6,
 			"scaleY": 0.6,
-			"src": "systems/D35E/icons/minions/tokens/hawk.png",
+			"src": "systems/D35E/icons/bestiary/token/animal.png",
 			"tint": null
 		},
 		"width": 1
@@ -88,7 +88,7 @@
 		"abilities": {
 			"cha": {
 				"checkMod": 0,
-				"damage": null,
+				"damage": 0,
 				"drain": 0,
 				"isZero": false,
 				"mod": -2,
@@ -96,12 +96,12 @@
 				"origTotal": 6,
 				"penalty": 0,
 				"total": 6,
-				"userPenalty": null,
+				"userPenalty": 0,
 				"value": 6
 			},
 			"con": {
 				"checkMod": 0,
-				"damage": null,
+				"damage": 0,
 				"drain": 0,
 				"isZero": false,
 				"mod": 0,
@@ -109,12 +109,12 @@
 				"origTotal": 10,
 				"penalty": 0,
 				"total": 10,
-				"userPenalty": null,
+				"userPenalty": 0,
 				"value": 10
 			},
 			"dex": {
 				"checkMod": 0,
-				"damage": null,
+				"damage": 0,
 				"drain": 0,
 				"isZero": false,
 				"mod": 3,
@@ -122,12 +122,12 @@
 				"origTotal": 17,
 				"penalty": 0,
 				"total": 17,
-				"userPenalty": null,
+				"userPenalty": 0,
 				"value": 17
 			},
 			"int": {
 				"checkMod": 0,
-				"damage": null,
+				"damage": 0,
 				"drain": 0,
 				"isZero": false,
 				"mod": -4,
@@ -135,14 +135,14 @@
 				"origTotal": 2,
 				"penalty": 0,
 				"total": 2,
-				"userPenalty": null,
+				"userPenalty": 0,
 				"value": 2
 			},
 			"str": {
 				"carryBonus": 0,
 				"carryMultiplier": 1,
 				"checkMod": 0,
-				"damage": null,
+				"damage": 0,
 				"drain": 0,
 				"isZero": false,
 				"mod": -2,
@@ -150,12 +150,12 @@
 				"origTotal": 6,
 				"penalty": 0,
 				"total": 6,
-				"userPenalty": null,
+				"userPenalty": 0,
 				"value": 6
 			},
 			"wis": {
 				"checkMod": 0,
-				"damage": null,
+				"damage": 0,
 				"drain": 0,
 				"isZero": false,
 				"mod": 2,
@@ -163,7 +163,7 @@
 				"origTotal": 14,
 				"penalty": 0,
 				"total": 14,
-				"userPenalty": null,
+				"userPenalty": 0,
 				"value": 14
 			}
 		},
@@ -188,7 +188,7 @@
 					"value": 0
 				}
 			},
-			"acNotes": "+2 size, +3 Dex, +2 natural",
+			"acNotes": "",
 			"acp": {
 				"encumbrance": 0,
 				"gear": 0,
@@ -297,7 +297,7 @@
 			"cmdNotes": "",
 			"concealment": {
 				"total": 0,
-				"value": 0
+				"value": null
 			},
 			"conditions": {
 				"banished": false,
@@ -313,6 +313,7 @@
 				"fear": false,
 				"grappled": false,
 				"helpless": false,
+				"invisibility": false,
 				"invisible": false,
 				"paralyzed": false,
 				"pinned": false,
@@ -353,7 +354,7 @@
 			],
 			"fortification": {
 				"total": 0,
-				"value": 0
+				"value": null
 			},
 			"hardness": {
 				"formula": "",
@@ -368,12 +369,12 @@
 					"_deprecated": true,
 					"value": 0
 				},
-				"racialClass": 0,
-				"total": 0
+				"racialClass": 1,
+				"total": 1
 			},
 			"hp": {
 				"base": 0,
-				"max": 0,
+				"max": 4,
 				"min": -100,
 				"nonlethal": null,
 				"temp": null,
@@ -391,8 +392,7 @@
 			},
 			"maxDexBonus": 999,
 			"minionClassLevels": {
-				"none": 0,
-				"wizard": 0
+				"none": 0
 			},
 			"minionDistance": {
 			},
@@ -400,7 +400,7 @@
 				"skills": {
 				}
 			},
-			"naturalAC": "2",
+			"naturalAC": "",
 			"naturalACTotal": 2,
 			"powerPointsTotal": 0,
 			"pr": {
@@ -435,12 +435,12 @@
 			"saveNotes": "",
 			"savingThrows": {
 				"fort": {
-					"base": 0,
-					"total": 0
+					"base": 2,
+					"total": 2
 				},
 				"ref": {
-					"base": 0,
-					"total": 3
+					"base": 2,
+					"total": 5
 				},
 				"will": {
 					"base": 0,
@@ -450,7 +450,7 @@
 			"senses": {
 				"blindsight": 0,
 				"darkvision": 0,
-				"lowLight": false,
+				"lowLight": true,
 				"lowLightMultiplier": 2,
 				"special": "",
 				"tremorsense": 0,
@@ -556,6 +556,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -564,6 +565,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -572,6 +574,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -580,6 +583,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -588,6 +592,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -596,6 +601,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -604,6 +610,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -612,6 +619,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -620,6 +628,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -628,6 +637,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -692,6 +702,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -700,6 +711,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -708,6 +720,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -716,6 +729,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -724,6 +738,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -732,6 +747,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -740,6 +756,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -748,6 +765,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -756,6 +774,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -764,6 +783,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -828,6 +848,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -836,6 +857,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -844,6 +866,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -852,6 +875,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -860,6 +884,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -868,6 +893,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -876,6 +902,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -884,6 +911,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -892,6 +920,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -900,6 +929,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -964,6 +994,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -972,6 +1003,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -980,6 +1012,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -988,6 +1021,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -996,6 +1030,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -1004,6 +1039,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -1012,6 +1048,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -1020,6 +1057,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -1028,6 +1066,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -1036,6 +1075,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -1057,7 +1097,7 @@
 			"turnUndeadUsesBonusFormula": "",
 			"turnUndeadUsesTotal": 0,
 			"vigor": {
-				"max": 0,
+				"max": 4,
 				"min": 0,
 				"temp": 0,
 				"value": 4
@@ -1072,24 +1112,29 @@
 		"classLevels": 0,
 		"classes": {
 			"animal": {
-				"_id": "WJqmmfXscPVpcISH",
+				"_id": "5uJzqylwIOktybG0",
 				"allSpellsKnown": false,
 				"bab": "med",
+				"deckHandSizeFormula": "0",
+				"deckPrestigeClass": false,
 				"fc": {
 					"alt": 0,
 					"hp": 0,
 					"skill": 0
 				},
+				"halfCasterLevel": false,
 				"hasSpecialSlot": false,
+				"hasSpellbook": false,
 				"hd": 8,
 				"hp": false,
 				"isArcane": false,
 				"isPsionSpellcaster": false,
 				"isSpellcaster": false,
 				"isSpellcastingSpontaneus": false,
+				"knownCardsSizeFormula": "0",
 				"level": 1,
 				"maxLevel": 20,
-				"name": "Animal",
+				"name": "Animal*",
 				"powersKnown": [
 				],
 				"powersMaxLevel": [
@@ -1102,42 +1147,11 @@
 				"skillsPerLevel": 2,
 				"spellcastingAbility": "int",
 				"spellcastingType": "none",
-				"spellsKnownPerLevel": [
-				]
-			},
-			"wizardFamiliar": {
-				"_id": "OPoKALSA9Es8cyMd",
-				"allSpellsKnown": false,
-				"bab": "",
-				"fc": {
-					"alt": 0,
-					"hp": 0,
-					"skill": 0
+				"spelllist": {
 				},
-				"hasSpecialSlot": false,
-				"hd": 0,
-				"hp": false,
-				"isArcane": false,
-				"isPsionSpellcaster": false,
-				"isSpellcaster": false,
-				"isSpellcastingSpontaneus": false,
-				"level": 0,
-				"maxLevel": 20,
-				"name": "Wizard Familiar",
-				"powersKnown": [
-				],
-				"powersMaxLevel": [
-				],
-				"savingThrows": {
-					"fort": 0,
-					"ref": 0,
-					"will": 0
-				},
-				"skillsPerLevel": 0,
-				"spellcastingAbility": "int",
-				"spellcastingType": "none",
 				"spellsKnownPerLevel": [
-				]
+				],
+				"spellslotAbility": ""
 			}
 		},
 		"combinedDR": [
@@ -1152,7 +1166,7 @@
 		"counters": {
 			"feat": {
 				"base": {
-					"counted": 2,
+					"counted": 1,
 					"value": 1
 				},
 				"human": {
@@ -1173,7 +1187,7 @@
 		},
 		"damage": {
 			"nonlethal": {
-				"max": 0,
+				"max": 4,
 				"value": 0
 			}
 		},
@@ -1182,10 +1196,10 @@
 				"byClass": false,
 				"hd": [
 				],
-				"none": false,
+				"none": true,
 				"originalHD": 0
 			},
-			"alignment": "",
+			"alignment": "None",
 			"biography": {
 				"public": "",
 				"value": ""
@@ -1195,13 +1209,13 @@
 				"base": 0,
 				"total": 0
 			},
-			"cr": "0.33",
+			"cr": 0.33,
 			"environment": "",
 			"level": {
 				"available": 1,
 				"max": 40,
 				"min": 0,
-				"value": 0
+				"value": 1
 			},
 			"levelUpData": [
 				{
@@ -1220,7 +1234,7 @@
 			"levelUpProgression": false,
 			"notes": {
 				"public": "",
-				"value": "<div style=\"width: 50em; margin: 0 auto;\">\n<p>Tiny Animal <br /><strong>Alignment</strong>: Always Neutral <br /><strong>Initiative:</strong> +3 (Dex); <strong>Senses</strong>: low-light vision, Listen +2, and Spot +14</p>\n<hr />\n<p><strong>AC:</strong> 17 (+2 size, +3 Dex, +2 natural), touch 15, flat-footed 14 <br /><strong>Hit Dice:</strong> 1d8 (4 hp) <br /><strong>Fort</strong> +2, <strong>Ref</strong> +5, <strong>Will</strong> +2</p>\n<hr />\n<p><strong>Speed</strong>: 10 ft., fly 60 ft. (average) <br /><strong>Space</strong>: 2 1/2 ft./0 ft. <br /><strong>Base Attack</strong> +0; <strong>Grapple</strong> -10<br /><strong>Attack</strong>: Talons +5 melee<br /><strong>Full Attack</strong>: Talons +5 melee <br /><strong>Damage</strong>: Talon 1d4-2 <br /><strong>Special Attacks/Actions</strong>: -</p>\n<hr />\n<p><strong>Abilities:</strong> Str 6, Dex 17, Con 10, Int 2, Wis 14, Cha 6 <br /><strong>Special Qualities</strong>: <br /><strong>Feats:</strong> Alertness; Weapon Finesse <br /><strong>Skills:</strong> Listen +2 and Spot +14 <br /><strong>Advancement</strong>: -</p>\n<hr />\n<p><strong>Climate/Terrain</strong>: Temperate forest <br /><strong>Organization</strong>: Solitary or pair <br /><strong>Treasure/Possessions</strong>: None</p>\n<hr />\n<p>These creatures are similar to eagles but slightly smaller: 1 to 2 feet long, with wingspans of 6 feet or less.</p>\n<h3>Combat</h3>\n<p>Hawks combine both claws into a single attack.</p>\n<p><strong>Skills</strong>: Hawks gain a +8 racial bonus to Spot checks in daylight. +2 on Listen and Spot checks</p>\n</div>"
+				"value": "<p><strong>Environment</strong>: &nbsp; &nbsp;Temperate forests<br><strong>Organization</strong>: &nbsp; &nbsp;Solitary or pair</p>\n<p>These creatures are similar to eagles but slightly smaller: 1 to 2 feet long, with wingspans of 6 feet or less.</p>\n<div>\n<h2>Combat</h2>\n<p>Hawks combine both talons into a single attack.</p>\n<div>\n<p><strong>Skills:</strong> Hawks have a +8 racial bonus on Spot checks.</p>\n<p>&nbsp;</p>\n</div>\n</div>"
 			},
 			"totalCr": "0.33",
 			"type": "Animal",
@@ -1228,6 +1242,8 @@
 				"value": 10
 			}
 		},
+		"displayNonRTSkills": false,
+		"isPartyMember": false,
 		"jumpSkillAdjust": false,
 		"lockEditingByPlayers": false,
 		"master": {
@@ -1238,23 +1254,22 @@
 			"img": null,
 			"name": null
 		},
-		"naturalAttackCount": 0,
+		"naturalAttackCount": 1,
 		"noBuffDisplay": false,
 		"noLightOverride": false,
 		"noSkillSynergy": false,
 		"noTokenOverride": false,
 		"noVisionOverride": true,
 		"resources": {
-			"talons": {
-				"_id": "4dVz3UKx9arwiR5K",
-				"max": 0,
-				"value": 0
+			"talon": {
+				"_id": "jTzwSisL1f38hY8W",
+				"max": 0
 			}
 		},
 		"senses": {
 			"blindsight": 0,
 			"darkvision": 0,
-			"lowLight": false,
+			"lowLight": true,
 			"lowLightMultiplier": 2,
 			"modified": {
 			},
@@ -1277,7 +1292,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1293,7 +1308,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1309,7 +1324,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1325,7 +1340,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1341,7 +1356,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1357,7 +1372,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 0,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1393,7 +1408,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1409,7 +1424,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1425,7 +1440,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1441,7 +1456,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1457,7 +1472,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1473,7 +1488,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1489,7 +1504,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1505,7 +1520,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1521,7 +1536,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1538,7 +1553,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 11,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1554,7 +1569,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1570,7 +1585,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1586,7 +1601,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1602,7 +1617,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1618,7 +1633,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1634,7 +1649,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1650,7 +1665,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1666,7 +1681,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1682,7 +1697,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1698,10 +1713,11 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
-				"value": 0
+				"value": 0,
+				"visibility": "default"
 			},
 			"kpl": {
 				"ability": "int",
@@ -1713,7 +1729,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1729,7 +1745,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1745,7 +1761,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1758,11 +1774,11 @@
 				"acpPenalty": 0,
 				"background": false,
 				"changeBonus": 2,
-				"cs": false,
+				"cs": true,
 				"energyDrainPenalty": 0,
 				"mod": 4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1778,7 +1794,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1794,7 +1810,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1850,7 +1866,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1866,7 +1882,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1882,7 +1898,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1898,7 +1914,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1914,7 +1930,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 0,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1930,7 +1946,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1942,13 +1958,13 @@
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
-				"changeBonus": 2,
-				"cs": false,
+				"changeBonus": 10,
+				"cs": true,
 				"energyDrainPenalty": 0,
-				"mod": 10,
+				"mod": 16,
 				"notes": "",
-				"points": 12,
-				"rank": 6,
+				"points": 4,
+				"rank": 4,
 				"rt": false,
 				"value": 0,
 				"visibility": "default"
@@ -1963,7 +1979,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1979,7 +1995,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1995,7 +2011,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -2011,7 +2027,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -2027,7 +2043,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -2043,7 +2059,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -2059,7 +2075,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -2071,7 +2087,7 @@
 			"hp": 0
 		},
 		"tokenImg": "systems/D35E/icons/minions/tokens/hawk.png",
-		"totalNonEclLevels": 0,
+		"totalNonEclLevels": 1,
 		"traits": {
 			"actualSize": "tiny",
 			"ci": {
@@ -2092,8 +2108,8 @@
 				]
 			},
 			"eres": "",
-			"fastHealing": "",
-			"fastHealingTotal": "",
+			"fastHealing": null,
+			"fastHealingTotal": null,
 			"incorporeal": false,
 			"languages": {
 				"custom": "",
@@ -2103,10 +2119,11 @@
 			"perception": {
 				"_deprecated": true
 			},
-			"regen": "",
-			"regenTotal": "",
-			"senses": "low-light vision, Listen +2, and Spot +14",
+			"regen": null,
+			"regenTotal": null,
+			"senses": "Low Light Vision",
 			"size": "tiny",
+			"tokenSize": "actor",
 			"tokensize": "actor"
 		}
 	},

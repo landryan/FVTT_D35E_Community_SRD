@@ -1,26 +1,29 @@
 {
-	"_id": "4dVz3UKx9arwiR5K",
-	"_key": "!actors.items!7kXNRtFq1qbfUJuy.4dVz3UKx9arwiR5K",
+	"_id": "jTzwSisL1f38hY8W",
+	"_key": "!actors.items!esRHnLJ3tDhVGxdS.jTzwSisL1f38hY8W",
 	"effects": [
 	],
 	"folder": null,
 	"img": "systems/D35E/icons/attack/monster/talon.png",
-	"name": "Talons",
+	"name": "Talon",
 	"system": {
 		"ability": {
-			"attack": "dex",
+			"attack": "str",
 			"critMult": 2,
-			"critRange": 20,
+			"critRange": "20",
 			"damage": "str",
-			"damageMult": 1,
+			"damageMult": -1,
 			"twoHandedOnly": false,
 			"vsTouchAc": false
 		},
 		"actionType": "mwak",
+		"activateActions": [
+		],
 		"activation": {
 			"cost": 1,
 			"type": "standard"
 		},
+		"addedLevel": 0,
 		"alignment": {
 			"chaotic": false,
 			"evil": false,
@@ -35,53 +38,73 @@
 			"parts": [
 			]
 		},
-		"attackBonus": "0",
+		"attackBonus": "",
 		"attackCountFormula": "",
 		"attackNotes": "",
 		"attackParts": [
 		],
-		"attackType": "weapon",
+		"attackType": "natural",
 		"autoScaleOption": "default",
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
-		"baseWeaponType": "",
+		"baseWeaponType": "Talon",
+		"changes": [
+		],
 		"classSource": "",
+		"combatChanges": [
+		],
 		"conditionals": [
 		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
 		"createdBy": "",
+		"creationChanges": [
+		],
 		"critConfirmBonus": "",
 		"customAttributes": {
 		},
 		"customAttributesLocked": false,
+		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
 			"alternativeParts": [
 			],
-			"critParts": [
-			],
 			"parts": [
 				[
 					"1d4",
-					""
+					null,
+					"damage-piercing-or-slashing"
 				]
 			]
 		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": ""
+			"value": "<p>The creature rips with a sharp appendage, dealing piercing and slashing damage.</p>"
 		},
 		"duration": {
-			"units": "inst",
+			"units": "",
 			"value": null
 		},
 		"effectNotes": "",
 		"enh": null,
 		"epic": false,
 		"favorite": true,
-		"finesseable": false,
+		"finesseable": true,
 		"formula": "",
+		"identifiedName": "Talon",
 		"incorporeal": false,
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"isNaturalEquivalent": false,
 		"linkId": "",
 		"linkImported": false,
 		"linkSourceId": "",
@@ -119,15 +142,18 @@
 		"nameFormula": "",
 		"nameFromFormula": false,
 		"nonLethal": false,
+		"nonLethalNoPenalty": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 0,
+		"originVersion": 3,
 		"originalWeaponCreated": false,
 		"originalWeaponId": null,
 		"originalWeaponImg": "",
 		"originalWeaponName": "",
 		"originalWeaponProperties": {
 		},
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"pr": false,
 		"primaryAttack": true,
@@ -135,15 +161,19 @@
 		"psionic": "",
 		"range": {
 			"long": null,
-			"units": "",
-			"value": null
+			"units": "ft",
+			"value": "0"
 		},
 		"recharge": {
 			"current": 0,
 			"enabled": false,
 			"formula": ""
 		},
+		"requirements": [
+		],
 		"requiresPsionicFocus": false,
+		"resistances": [
+		],
 		"returning": false,
 		"rollTableDraw": {
 			"formula": "",
@@ -153,12 +183,13 @@
 		},
 		"save": {
 			"ability": "",
-			"dc": "",
+			"dc": "0",
 			"dcAutoAbility": "",
 			"dcAutoType": "",
 			"description": "",
 			"type": ""
 		},
+		"selectedMaterial": "none",
 		"showInQuickbar": true,
 		"source": "",
 		"specialActions": [
@@ -177,7 +208,7 @@
 		"userNonRemovable": false,
 		"uses": {
 			"allowMultipleUses": false,
-			"autoDeductCharges": false,
+			"autoDeductCharges": true,
 			"canBeLinked": false,
 			"chargesPerUse": 1,
 			"isResource": false,

@@ -1,11 +1,11 @@
 {
-	"_id": "kq8clNimmkjzorHq",
-	"_key": "!actors.items!2fGe6iOChy5GlDuM.kq8clNimmkjzorHq",
+	"_id": "0bhiLMIbM83X6viB",
+	"_key": "!actors.items!tpaajZ4UY15pYeTz.0bhiLMIbM83X6viB",
 	"effects": [
 	],
-	"folder": null,
-	"img": "systems/D35E/icons/feats/stealthy.png",
-	"name": "Stealthy",
+	"folder": "BgB9n9dVf7vGT6kz",
+	"img": "systems/D35E/icons/feats/weapon-finesse.png",
+	"name": "Weapon Finesse",
 	"system": {
 		"ability": {
 			"attack": null,
@@ -18,10 +18,13 @@
 		},
 		"abilityType": "",
 		"actionType": "",
+		"activateActions": [
+		],
 		"activation": {
 			"cost": 1,
 			"type": ""
 		},
+		"addedLevel": 1,
 		"associations": {
 			"classes": [
 			]
@@ -37,8 +40,14 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
+		"bookSource": "",
+		"brokenResalePrice": null,
+		"carried": false,
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -54,23 +63,20 @@
 			"uncannyDodge": false
 		},
 		"changes": [
-			[
-				"2",
-				"skill",
-				"skill.hid",
-				"untyped"
-			],
-			[
-				"2",
-				"skill",
-				"skill.mos",
-				"untyped"
-			]
 		],
 		"classSource": "",
 		"combatChangeCustomDisplayName": "",
 		"combatChangeCustomReferenceName": "",
 		"combatChanges": [
+			[
+				"attack",
+				"",
+				"@item.finesseable",
+				"$item.ability.attack",
+				"dex",
+				"",
+				""
+			]
 		],
 		"combatChangesAdditionalRanges": {
 			"hasAdditionalRanges": false,
@@ -101,6 +107,11 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"conditionals": [
+		],
+		"constantWeight": false,
+		"container": "None",
+		"containerWeightless": false,
 		"contextNotes": [
 		],
 		"counterName": "",
@@ -125,10 +136,12 @@
 			"_deprecated": true,
 			"value": ""
 		},
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "\n\n\n<h3><span class=\"mw-headline\" id=\"Benefit\">Benefit</span></h3>\n<p>You get a +2 bonus on all Hide checks and Move Silently checks.\n</p><p><br/>\n</p>\n<hr/>\n\n\n"
+			"value": "@LinkedDescription[Compendium.dnd-35e-generic-content.racial-abilities.Item.tQYWuO6uISLiDrnD]"
 		},
 		"duration": {
 			"units": "",
@@ -136,9 +149,16 @@
 		},
 		"effectNotes": "",
 		"epic": "",
+		"equippedWeightless": false,
 		"favorite": false,
-		"featType": "feat",
+		"featType": "trait",
 		"formula": "",
+		"fullResalePrice": false,
+		"identifiedName": "Weapon Finesse",
+		"index": {
+			"subType": "trait",
+			"uniqueId": ""
+		},
 		"linkId": "",
 		"linkImported": false,
 		"linkSourceId": "",
@@ -180,9 +200,11 @@
 		},
 		"nameFormula": "",
 		"nameFromFormula": false,
-		"originId": "",
-		"originPack": "",
-		"originVersion": 0,
+		"originId": "tQYWuO6uISLiDrnD",
+		"originPack": "dnd-35e-generic-content.racial-abilities",
+		"originVersion": 104,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"pr": false,
 		"psionic": "",
@@ -202,6 +224,7 @@
 		"requirements": [
 		],
 		"requiresPsionicFocus": false,
+		"resalePrice": null,
 		"resistances": [
 		],
 		"rollTableDraw": {
@@ -216,6 +239,7 @@
 			"dcAutoAbility": "",
 			"dcAutoType": "",
 			"description": "",
+			"originVersion": 97,
 			"type": ""
 		},
 		"showInQuickbar": false,
