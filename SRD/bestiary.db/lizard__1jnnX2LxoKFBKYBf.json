@@ -3,13 +3,14 @@
 	"_key": "!actors!1jnnX2LxoKFBKYBf",
 	"effects": [
 	],
-	"folder": null,
-	"img": "systems/D35E/icons/bestiary/token/animal.png",
+	"folder": "EZ19pSVLg6RBMT9z",
+	"img": "systems/D35E/icons/minions/tokens/lizard.png",
 	"items": [
 		"CZeovFXxJRBh0icg",
 		"Co1qRnRx9i9ZViKZ",
 		"rBcoLGwFv9MWUZuu",
-		"kL11Zi8TS6b1jFr5"
+		"V74y5apu5WXWZ21R",
+		"5dY3VKIGjreVZUfN"
 	],
 	"name": "Lizard",
 	"prototypeToken": {
@@ -295,7 +296,7 @@
 			"cmdNotes": "",
 			"concealment": {
 				"total": 0,
-				"value": 0
+				"value": null
 			},
 			"conditions": {
 				"banished": false,
@@ -347,12 +348,12 @@
 					"medium": 10
 				}
 			},
-			"energyDrain": 0,
+			"energyDrain": null,
 			"energyResistance": [
 			],
 			"fortification": {
 				"total": 0,
-				"value": 0
+				"value": null
 			},
 			"hardness": {
 				"formula": "",
@@ -372,11 +373,11 @@
 			},
 			"hp": {
 				"base": 0,
-				"max": 4,
+				"max": 2,
 				"min": -100,
-				"nonlethal": 0,
-				"temp": 0,
-				"value": 4
+				"nonlethal": null,
+				"temp": null,
+				"value": 2
 			},
 			"init": {
 				"bonus": 0,
@@ -398,7 +399,7 @@
 				"skills": {
 				}
 			},
-			"naturalAC": 0,
+			"naturalAC": "",
 			"naturalACTotal": 0,
 			"powerPointsTotal": 0,
 			"pr": {
@@ -457,7 +458,7 @@
 			"sneakAttackDiceTotal": 0,
 			"speed": {
 				"burrow": {
-					"base": 0,
+					"base": null,
 					"run": 0,
 					"total": 0
 				},
@@ -467,7 +468,7 @@
 					"total": 20
 				},
 				"fly": {
-					"base": 0,
+					"base": null,
 					"maneuverability": "average",
 					"run": 0,
 					"total": 0
@@ -478,7 +479,7 @@
 					"total": 20
 				},
 				"swim": {
-					"base": 0,
+					"base": null,
 					"run": 0,
 					"total": 0
 				}
@@ -1095,10 +1096,10 @@
 			"turnUndeadUsesBonusFormula": "",
 			"turnUndeadUsesTotal": 0,
 			"vigor": {
-				"max": 4,
+				"max": 2,
 				"min": 0,
 				"temp": 0,
-				"value": 4
+				"value": 2
 			},
 			"wounds": {
 				"max": 20,
@@ -1144,7 +1145,7 @@
 				},
 				"skillsPerLevel": 2,
 				"spellcastingAbility": "int",
-				"spellcastingType": null,
+				"spellcastingType": "none",
 				"spelllist": {
 				},
 				"spellsKnownPerLevel": [
@@ -1164,7 +1165,7 @@
 		"counters": {
 			"feat": {
 				"base": {
-					"counted": 0,
+					"counted": 1,
 					"value": 1
 				},
 				"human": {
@@ -1185,7 +1186,7 @@
 		},
 		"damage": {
 			"nonlethal": {
-				"max": 4,
+				"max": 2,
 				"value": 0
 			}
 		},
@@ -1207,7 +1208,7 @@
 				"base": 0,
 				"total": 0
 			},
-			"cr": "0.17",
+			"cr": "0.00",
 			"environment": "",
 			"level": {
 				"available": 1,
@@ -1232,14 +1233,16 @@
 			"levelUpProgression": false,
 			"notes": {
 				"public": "",
-				"value": "<div topic='Lizard' level='2'><p/><p>The statistics presented here describe small, nonvenomous lizards of perhaps a foot or two in length, such as an iguana.</p><div topic='Combat' level='5'><p><h2>Combat</h2></p><p>Lizards prefer flight to combat, but they can bite painfully if there is no other option.</p><div topic='Skills' level='8'><p><b>Skills:</b> Lizards have a +8 racial bonus on Balance checks. They also have a +8 racial bonus on Climb checks and can always choose to take 10 on Climb checks, even if rushed or threatened. Lizards use their Dexterity modifier instead of their Strength modifier for Climb checks.</p><p/></div></div></div>    "
+				"value": "<div>\n<p><strong>Environment</strong>: &nbsp; &nbsp;Warm forests<br><strong>Organization</strong>: &nbsp; &nbsp;Solitary</p>\n<p>The statistics presented here describe small, nonvenomous lizards of perhaps a foot or two in length, such as an iguana.</p>\n<div>\n<h2>Combat</h2>\n<p>Lizards prefer flight to combat, but they can bite painfully if there is no other option.</p>\n<div>\n<p><strong>Skills:</strong> Lizards have a +8 racial bonus on Balance checks. They also have a +8 racial bonus on Climb checks and can always choose to take 10 on Climb checks, even if rushed or threatened. Lizards use their Dexterity modifier instead of their Strength modifier for Climb checks.</p>\n<p>&nbsp;</p>\n</div>\n</div>\n</div>"
 			},
-			"totalCr": "0.17",
-			"type": "None",
+			"totalCr": "0.00",
+			"type": "Animal",
 			"xp": {
 				"value": 10
 			}
 		},
+		"displayNonRTSkills": false,
+		"isPartyMember": false,
 		"jumpSkillAdjust": false,
 		"lockEditingByPlayers": false,
 		"master": {
@@ -1265,7 +1268,7 @@
 		"senses": {
 			"blindsight": 0,
 			"darkvision": 0,
-			"lowLight": false,
+			"lowLight": true,
 			"lowLightMultiplier": 2,
 			"modified": {
 			},
@@ -1276,7 +1279,7 @@
 		"shapechangeImg": "icons/svg/mystery-man.svg",
 		"shieldType": "none",
 		"showCardSheet": false,
-		"showSpellcastingSheet": true,
+		"showSpellcastingSheet": false,
 		"skills": {
 			"apr": {
 				"ability": "int",
@@ -1288,7 +1291,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -5,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1304,7 +1307,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 1,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1316,12 +1319,13 @@
 				"acp": true,
 				"acpPenalty": 0,
 				"background": false,
+				"changeBonus": 8,
 				"cs": true,
 				"energyDrainPenalty": 0,
 				"mod": 10,
 				"notes": "",
-				"points": 8,
-				"rank": 8,
+				"points": null,
+				"rank": 0,
 				"rt": false,
 				"value": 0,
 				"visibility": "default"
@@ -1336,25 +1340,25 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
 				"visibility": "default"
 			},
 			"clm": {
-				"ability": "str",
-				"abilityModifier": -4,
+				"ability": "dex",
+				"abilityModifier": 2,
 				"acp": true,
 				"acpPenalty": 0,
 				"background": false,
 				"changeBonus": 8,
 				"cs": true,
 				"energyDrainPenalty": 0,
-				"mod": 20,
+				"mod": 12,
 				"notes": "",
-				"points": 16,
-				"rank": 16,
+				"points": 2,
+				"rank": 2,
 				"rt": false,
 				"value": 0,
 				"visibility": "default"
@@ -1369,7 +1373,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 0,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1405,7 +1409,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1421,7 +1425,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1437,7 +1441,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1453,7 +1457,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -5,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1469,7 +1473,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1485,7 +1489,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -5,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1501,7 +1505,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1517,7 +1521,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1533,7 +1537,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 1,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1545,12 +1549,12 @@
 				"acp": true,
 				"acpPenalty": 0,
 				"background": false,
-				"changeBonus": 8,
+				"changeBonus": 10,
 				"cs": true,
 				"energyDrainPenalty": 0,
-				"mod": 10,
+				"mod": 12,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1566,7 +1570,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1582,7 +1586,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1598,7 +1602,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -5,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1614,7 +1618,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -5,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1630,7 +1634,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -5,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1646,7 +1650,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -5,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1662,7 +1666,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -5,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1678,7 +1682,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -5,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1694,7 +1698,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -5,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1710,10 +1714,11 @@
 				"energyDrainPenalty": 0,
 				"mod": -5,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
-				"value": 0
+				"value": 0,
+				"visibility": "default"
 			},
 			"kpl": {
 				"ability": "int",
@@ -1725,7 +1730,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -5,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1741,7 +1746,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -5,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1757,7 +1762,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -5,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1785,11 +1790,12 @@
 				"acp": true,
 				"acpPenalty": 0,
 				"background": false,
-				"cs": false,
+				"changeBonus": 2,
+				"cs": true,
 				"energyDrainPenalty": 0,
-				"mod": 2,
+				"mod": 4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1805,7 +1811,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1861,7 +1867,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -5,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1877,7 +1883,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1893,7 +1899,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 1,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1909,7 +1915,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1925,7 +1931,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 0,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1941,7 +1947,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -5,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1973,7 +1979,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -5,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1989,7 +1995,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 1,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -2001,11 +2007,11 @@
 				"acp": true,
 				"acpPenalty": 0,
 				"background": false,
-				"cs": true,
+				"cs": false,
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -2021,7 +2027,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -2037,7 +2043,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -2053,7 +2059,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -2069,7 +2075,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -2080,7 +2086,7 @@
 			"ac": 0,
 			"hp": 0
 		},
-		"tokenImg": "systems/D35E/icons/bestiary/token/animal.png",
+		"tokenImg": "systems/D35E/icons/minions/tokens/lizard.png",
 		"totalNonEclLevels": 1,
 		"traits": {
 			"actualSize": "tiny",
@@ -2102,6 +2108,8 @@
 				]
 			},
 			"eres": "",
+			"fastHealing": null,
+			"fastHealingTotal": null,
 			"incorporeal": false,
 			"languages": {
 				"custom": "",
@@ -2111,8 +2119,11 @@
 			"perception": {
 				"_deprecated": true
 			},
+			"regen": null,
+			"regenTotal": null,
 			"senses": "Low Light Vision",
 			"size": "tiny",
+			"tokenSize": "actor",
 			"tokensize": "actor"
 		}
 	},

@@ -1,6 +1,6 @@
 {
-	"_id": "EhSWfkKzPZjK7q5N",
-	"_key": "!actors.items!N2OZ8Jj6xngBbMRS.EhSWfkKzPZjK7q5N",
+	"_id": "Co1qRnRx9i9ZViKZ",
+	"_key": "!actors.items!J5q5ibokknpfE1rt.Co1qRnRx9i9ZViKZ",
 	"effects": [
 	],
 	"folder": null,
@@ -18,10 +18,13 @@
 		},
 		"abilityType": "",
 		"actionType": "",
+		"activateActions": [
+		],
 		"activation": {
 			"cost": 1,
 			"type": ""
 		},
+		"addedLevel": 0,
 		"associations": {
 			"classes": [
 			]
@@ -37,8 +40,14 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
+		"bookSource": "",
+		"brokenResalePrice": null,
+		"carried": false,
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -59,6 +68,15 @@
 		"combatChangeCustomDisplayName": "",
 		"combatChangeCustomReferenceName": "",
 		"combatChanges": [
+			[
+				"attack",
+				"",
+				"@item.finesseable",
+				"$item.ability.attack",
+				"dex",
+				"",
+				""
+			]
 		],
 		"combatChangesAdditionalRanges": {
 			"hasAdditionalRanges": false,
@@ -89,6 +107,11 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"conditionals": [
+		],
+		"constantWeight": false,
+		"container": "None",
+		"containerWeightless": false,
 		"contextNotes": [
 		],
 		"counterName": "",
@@ -100,6 +123,7 @@
 		"customAttributes": {
 		},
 		"customAttributesLocked": false,
+		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
 			"alternativeParts": [
@@ -113,6 +137,8 @@
 			"_deprecated": true,
 			"value": ""
 		},
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
@@ -124,9 +150,16 @@
 		},
 		"effectNotes": "",
 		"epic": "",
+		"equippedWeightless": false,
 		"favorite": false,
-		"featType": "feat",
+		"featType": "trait",
 		"formula": "",
+		"fullResalePrice": false,
+		"identifiedName": "Weapon Finesse",
+		"index": {
+			"subType": "trait",
+			"uniqueId": ""
+		},
 		"linkId": "",
 		"linkImported": false,
 		"linkSourceId": "",
@@ -170,7 +203,9 @@
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 0,
+		"originVersion": 2,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"pr": false,
 		"psionic": "",
@@ -190,6 +225,7 @@
 		"requirements": [
 		],
 		"requiresPsionicFocus": false,
+		"resalePrice": null,
 		"resistances": [
 		],
 		"rollTableDraw": {

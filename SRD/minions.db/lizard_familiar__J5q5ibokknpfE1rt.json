@@ -1,18 +1,19 @@
 {
-	"_id": "N2OZ8Jj6xngBbMRS",
-	"_key": "!actors!N2OZ8Jj6xngBbMRS",
+	"_id": "J5q5ibokknpfE1rt",
+	"_key": "!actors!J5q5ibokknpfE1rt",
 	"effects": [
 	],
-	"folder": null,
+	"folder": "gtQ3wnG1CirgbbU2",
 	"img": "systems/D35E/icons/minions/lizard.png",
 	"items": [
-		"kG8q43CMNJJOTt3Z",
-		"EhSWfkKzPZjK7q5N",
-		"JVvs5FTa8gWAUqyF",
-		"rqEdbFhHR41w3BSL",
-		"85D3SIChPClRXODa"
+		"CZeovFXxJRBh0icg",
+		"Co1qRnRx9i9ZViKZ",
+		"rBcoLGwFv9MWUZuu",
+		"V74y5apu5WXWZ21R",
+		"5dY3VKIGjreVZUfN",
+		"nkMdW6lpWm8QH0rJ"
 	],
-	"name": "Lizard",
+	"name": "Lizard Familiar",
 	"prototypeToken": {
 		"actorLink": false,
 		"alpha": 1,
@@ -25,8 +26,8 @@
 		},
 		"detectionModes": [
 		],
-		"displayBars": 0,
-		"displayName": 0,
+		"displayBars": 40,
+		"displayName": 20,
 		"disposition": -1,
 		"flags": {
 			"D35E": {
@@ -45,7 +46,7 @@
 			},
 			"attenuation": 0.5,
 			"bright": 0,
-			"color": null,
+			"color": "#000000",
 			"coloration": 1,
 			"contrast": 0,
 			"darkness": {
@@ -58,7 +59,7 @@
 			"shadows": 0
 		},
 		"lockRotation": false,
-		"name": "templateNPC",
+		"name": "Lizard",
 		"prependAdjective": false,
 		"randomImg": false,
 		"rotation": 0,
@@ -66,9 +67,8 @@
 			"angle": 360,
 			"attenuation": 0.1,
 			"brightness": 1,
-			"color": null,
 			"contrast": 0,
-			"enabled": false,
+			"enabled": true,
 			"range": 0,
 			"saturation": 0,
 			"visionMode": "basic"
@@ -79,7 +79,7 @@
 			"rotation": 0,
 			"scaleX": 0.6,
 			"scaleY": 0.6,
-			"src": "systems/D35E/icons/minions/tokens/lizard.png",
+			"src": "systems/D35E/icons/bestiary/token/animal.png",
 			"tint": null
 		},
 		"width": 1
@@ -88,7 +88,7 @@
 		"abilities": {
 			"cha": {
 				"checkMod": 0,
-				"damage": null,
+				"damage": 0,
 				"drain": 0,
 				"isZero": false,
 				"mod": -4,
@@ -96,12 +96,12 @@
 				"origTotal": 2,
 				"penalty": 0,
 				"total": 2,
-				"userPenalty": null,
+				"userPenalty": 0,
 				"value": 2
 			},
 			"con": {
 				"checkMod": 0,
-				"damage": null,
+				"damage": 0,
 				"drain": 0,
 				"isZero": false,
 				"mod": 0,
@@ -109,12 +109,12 @@
 				"origTotal": 10,
 				"penalty": 0,
 				"total": 10,
-				"userPenalty": null,
+				"userPenalty": 0,
 				"value": 10
 			},
 			"dex": {
 				"checkMod": 0,
-				"damage": null,
+				"damage": 0,
 				"drain": 0,
 				"isZero": false,
 				"mod": 2,
@@ -122,27 +122,27 @@
 				"origTotal": 15,
 				"penalty": 0,
 				"total": 15,
-				"userPenalty": null,
+				"userPenalty": 0,
 				"value": 15
 			},
 			"int": {
 				"checkMod": 0,
-				"damage": null,
+				"damage": 0,
 				"drain": 0,
 				"isZero": false,
-				"mod": -4,
-				"origMod": -4,
-				"origTotal": 2,
+				"mod": -5,
+				"origMod": -5,
+				"origTotal": 1,
 				"penalty": 0,
-				"total": 2,
-				"userPenalty": null,
-				"value": 2
+				"total": 1,
+				"userPenalty": 0,
+				"value": 1
 			},
 			"str": {
 				"carryBonus": 0,
 				"carryMultiplier": 1,
 				"checkMod": 0,
-				"damage": null,
+				"damage": 0,
 				"drain": 0,
 				"isZero": false,
 				"mod": -4,
@@ -150,12 +150,12 @@
 				"origTotal": 3,
 				"penalty": 0,
 				"total": 3,
-				"userPenalty": null,
+				"userPenalty": 0,
 				"value": 3
 			},
 			"wis": {
 				"checkMod": 0,
-				"damage": null,
+				"damage": 0,
 				"drain": 0,
 				"isZero": false,
 				"mod": 1,
@@ -163,7 +163,7 @@
 				"origTotal": 12,
 				"penalty": 0,
 				"total": 12,
-				"userPenalty": null,
+				"userPenalty": 0,
 				"value": 12
 			}
 		},
@@ -188,7 +188,7 @@
 					"value": 0
 				}
 			},
-			"acNotes": "+2 size, +2 Dex",
+			"acNotes": "",
 			"acp": {
 				"encumbrance": 0,
 				"gear": 0,
@@ -297,7 +297,7 @@
 			"cmdNotes": "",
 			"concealment": {
 				"total": 0,
-				"value": 0
+				"value": null
 			},
 			"conditions": {
 				"banished": false,
@@ -313,6 +313,7 @@
 				"fear": false,
 				"grappled": false,
 				"helpless": false,
+				"invisibility": false,
 				"invisible": false,
 				"paralyzed": false,
 				"pinned": false,
@@ -368,16 +369,16 @@
 					"_deprecated": true,
 					"value": 0
 				},
-				"racialClass": 0,
-				"total": 0
+				"racialClass": 1,
+				"total": 1
 			},
 			"hp": {
 				"base": 0,
-				"max": 0,
+				"max": 2,
 				"min": -100,
 				"nonlethal": null,
 				"temp": null,
-				"value": 4
+				"value": 2
 			},
 			"init": {
 				"bonus": 0,
@@ -391,8 +392,7 @@
 			},
 			"maxDexBonus": 999,
 			"minionClassLevels": {
-				"none": 0,
-				"wizard": 0
+				"none": 0
 			},
 			"minionDistance": {
 			},
@@ -435,12 +435,12 @@
 			"saveNotes": "",
 			"savingThrows": {
 				"fort": {
-					"base": 0,
-					"total": 0
+					"base": 2,
+					"total": 2
 				},
 				"ref": {
-					"base": 0,
-					"total": 2
+					"base": 2,
+					"total": 4
 				},
 				"will": {
 					"base": 0,
@@ -450,7 +450,7 @@
 			"senses": {
 				"blindsight": 0,
 				"darkvision": 0,
-				"lowLight": false,
+				"lowLight": true,
 				"lowLightMultiplier": 2,
 				"special": "",
 				"tremorsense": 0,
@@ -464,9 +464,9 @@
 					"total": 0
 				},
 				"climb": {
-					"base": null,
-					"run": 0,
-					"total": 0
+					"base": 20,
+					"run": 80,
+					"total": 20
 				},
 				"fly": {
 					"base": null,
@@ -556,6 +556,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -564,6 +565,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -572,6 +574,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -580,6 +583,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -588,6 +592,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -596,6 +601,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -604,6 +610,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -612,6 +619,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -620,6 +628,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -628,6 +637,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -692,6 +702,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -700,6 +711,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -708,6 +720,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -716,6 +729,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -724,6 +738,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -732,6 +747,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -740,6 +756,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -748,6 +765,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -756,6 +774,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -764,6 +783,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -828,6 +848,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -836,6 +857,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -844,6 +866,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -852,6 +875,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -860,6 +884,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -868,6 +893,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -876,6 +902,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -884,6 +911,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -892,6 +920,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -900,6 +929,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -964,6 +994,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -972,6 +1003,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -980,6 +1012,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -988,6 +1021,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -996,6 +1030,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -1004,6 +1039,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -1012,6 +1048,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -1020,6 +1057,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -1028,6 +1066,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -1036,6 +1075,7 @@
 								"base": 0,
 								"bonus": 0,
 								"classBase": 0,
+								"known": 0,
 								"max": 0,
 								"maxKnown": 0,
 								"value": 0
@@ -1057,10 +1097,10 @@
 			"turnUndeadUsesBonusFormula": "",
 			"turnUndeadUsesTotal": 0,
 			"vigor": {
-				"max": 0,
+				"max": 2,
 				"min": 0,
 				"temp": 0,
-				"value": 4
+				"value": 2
 			},
 			"wounds": {
 				"max": 20,
@@ -1072,24 +1112,29 @@
 		"classLevels": 0,
 		"classes": {
 			"animal": {
-				"_id": "WJqmmfXscPVpcISH",
+				"_id": "CZeovFXxJRBh0icg",
 				"allSpellsKnown": false,
 				"bab": "med",
+				"deckHandSizeFormula": "0",
+				"deckPrestigeClass": false,
 				"fc": {
 					"alt": 0,
 					"hp": 0,
 					"skill": 0
 				},
+				"halfCasterLevel": false,
 				"hasSpecialSlot": false,
+				"hasSpellbook": false,
 				"hd": 8,
 				"hp": false,
 				"isArcane": false,
 				"isPsionSpellcaster": false,
 				"isSpellcaster": false,
 				"isSpellcastingSpontaneus": false,
+				"knownCardsSizeFormula": "0",
 				"level": 1,
 				"maxLevel": 20,
-				"name": "Animal",
+				"name": "Animal*",
 				"powersKnown": [
 				],
 				"powersMaxLevel": [
@@ -1102,42 +1147,11 @@
 				"skillsPerLevel": 2,
 				"spellcastingAbility": "int",
 				"spellcastingType": "none",
-				"spellsKnownPerLevel": [
-				]
-			},
-			"wizardFamiliar": {
-				"_id": "IitARQdvO36JhlyC",
-				"allSpellsKnown": false,
-				"bab": "",
-				"fc": {
-					"alt": 0,
-					"hp": 0,
-					"skill": 0
+				"spelllist": {
 				},
-				"hasSpecialSlot": false,
-				"hd": 0,
-				"hp": false,
-				"isArcane": false,
-				"isPsionSpellcaster": false,
-				"isSpellcaster": false,
-				"isSpellcastingSpontaneus": false,
-				"level": 0,
-				"maxLevel": 20,
-				"name": "Wizard Familiar",
-				"powersKnown": [
-				],
-				"powersMaxLevel": [
-				],
-				"savingThrows": {
-					"fort": 0,
-					"ref": 0,
-					"will": 0
-				},
-				"skillsPerLevel": 0,
-				"spellcastingAbility": "int",
-				"spellcastingType": "none",
 				"spellsKnownPerLevel": [
-				]
+				],
+				"spellslotAbility": ""
 			}
 		},
 		"combinedDR": [
@@ -1152,8 +1166,12 @@
 		"counters": {
 			"feat": {
 				"base": {
-					"counted": 2,
+					"counted": 1,
 					"value": 1
+				},
+				"human": {
+					"counted": 1,
+					"value": 0
 				}
 			}
 		},
@@ -1169,7 +1187,7 @@
 		},
 		"damage": {
 			"nonlethal": {
-				"max": 0,
+				"max": 2,
 				"value": 0
 			}
 		},
@@ -1178,10 +1196,10 @@
 				"byClass": false,
 				"hd": [
 				],
-				"none": false,
+				"none": true,
 				"originalHD": 0
 			},
-			"alignment": "",
+			"alignment": "None",
 			"biography": {
 				"public": "",
 				"value": ""
@@ -1191,13 +1209,13 @@
 				"base": 0,
 				"total": 0
 			},
-			"cr": "0.17",
+			"cr": "0.00",
 			"environment": "",
 			"level": {
 				"available": 1,
 				"max": 40,
 				"min": 0,
-				"value": 0
+				"value": 1
 			},
 			"levelUpData": [
 				{
@@ -1216,14 +1234,16 @@
 			"levelUpProgression": false,
 			"notes": {
 				"public": "",
-				"value": "<div style=\"width: 50em; margin: 0 auto;\">\n<p>Tiny Animal <br /><strong>Alignment</strong>: Always neutral <br /><strong>Initiative:</strong> +2 (Dex); <strong>Senses</strong>: low-light vision, Listen +3, and Spot +3</p>\n<hr />\n<p><strong>AC:</strong> 14 (+2 size, +2 Dex), touch 14, flat-footed 12 <br /><strong>Hit Dice:</strong> 1/2d8 (2 hp) <br /><strong>Fort</strong> +2, <strong>Ref</strong> +4, <strong>Will</strong> +1</p>\n<hr />\n<p><strong>Speed</strong>: 20 ft., climb 20 ft. <br /><strong>Space</strong>: 2 1/2 ft./0 ft. <br /><strong>Base Attack</strong> +0; <strong>Grapple</strong> -12<br /><strong>Attack</strong>: Bite +4 melee<br /><strong>Full Attack</strong>: Bite +4 melee <br /><strong>Damage</strong>: Bite 1d4-4 <br /><strong>Special Attacks/Actions</strong>: -</p>\n<hr />\n<p><strong>Abilities:</strong> Str 3, Dex 15, Con 10, Int 1, Wis 12, Cha 2 <br /><strong>Special Qualities</strong>: <br /><strong>Feats:</strong> Stealthy; Weapon Finesse <br /><strong>Skills:</strong> Balance +10, Climb +12, Hide +12, Listen +3, and Spot +3 <br /><strong>Advancement</strong>: -</p>\n<hr />\n<p><strong>Climate/Terrain</strong>: Warm forest <br /><strong>Organization</strong>: Solitary <br /><strong>Treasure/Possessions</strong>: None</p>\n<hr />\n<p>The statistics presented here describe small, non-venomous lizards of perhaps a foot or two in length, such as an iguana.</p>\n<p><strong>Skills</strong>: Lizards use their Dexterity modifier for Climb checks and receive a +8 bonus to Balance checks. +2 on Hide and Move Silently checks</p>\n</div>"
+				"value": "<div>\n<p><strong>Environment</strong>: &nbsp; &nbsp;Warm forests<br><strong>Organization</strong>: &nbsp; &nbsp;Solitary</p>\n<p>The statistics presented here describe small, nonvenomous lizards of perhaps a foot or two in length, such as an iguana.</p>\n<div>\n<h2>Combat</h2>\n<p>Lizards prefer flight to combat, but they can bite painfully if there is no other option.</p>\n<div>\n<p><strong>Skills:</strong> Lizards have a +8 racial bonus on Balance checks. They also have a +8 racial bonus on Climb checks and can always choose to take 10 on Climb checks, even if rushed or threatened. Lizards use their Dexterity modifier instead of their Strength modifier for Climb checks.</p>\n<p>&nbsp;</p>\n</div>\n</div>\n</div>"
 			},
-			"totalCr": "0.17",
+			"totalCr": "0.00",
 			"type": "Animal",
 			"xp": {
 				"value": 10
 			}
 		},
+		"displayNonRTSkills": false,
+		"isPartyMember": false,
 		"jumpSkillAdjust": false,
 		"lockEditingByPlayers": false,
 		"master": {
@@ -1242,14 +1262,14 @@
 		"noVisionOverride": true,
 		"resources": {
 			"bite": {
-				"_id": "JVvs5FTa8gWAUqyF",
+				"_id": "rBcoLGwFv9MWUZuu",
 				"max": 0
 			}
 		},
 		"senses": {
 			"blindsight": 0,
 			"darkvision": 0,
-			"lowLight": false,
+			"lowLight": true,
 			"lowLightMultiplier": 2,
 			"modified": {
 			},
@@ -1260,17 +1280,17 @@
 		"shapechangeImg": "icons/svg/mystery-man.svg",
 		"shieldType": "none",
 		"showCardSheet": false,
-		"showSpellcastingSheet": true,
+		"showSpellcastingSheet": false,
 		"skills": {
 			"apr": {
 				"ability": "int",
-				"abilityModifier": -4,
+				"abilityModifier": -5,
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
 				"cs": false,
 				"energyDrainPenalty": 0,
-				"mod": -4,
+				"mod": -5,
 				"notes": "",
 				"points": null,
 				"rank": 0,
@@ -1300,12 +1320,13 @@
 				"acp": true,
 				"acpPenalty": 0,
 				"background": false,
-				"cs": false,
+				"changeBonus": 8,
+				"cs": true,
 				"energyDrainPenalty": 0,
-				"mod": 6,
+				"mod": 10,
 				"notes": "",
-				"points": 8,
-				"rank": 4,
+				"points": null,
+				"rank": 0,
 				"rt": false,
 				"value": 0,
 				"visibility": "default"
@@ -1332,12 +1353,13 @@
 				"acp": true,
 				"acpPenalty": 0,
 				"background": false,
-				"cs": false,
+				"changeBonus": 8,
+				"cs": true,
 				"energyDrainPenalty": 0,
-				"mod": 7,
+				"mod": 12,
 				"notes": "",
-				"points": 10,
-				"rank": 5,
+				"points": 2,
+				"rank": 2,
 				"rt": false,
 				"value": 0,
 				"visibility": "default"
@@ -1360,13 +1382,13 @@
 			},
 			"crf": {
 				"ability": "int",
-				"abilityModifier": -4,
+				"abilityModifier": -5,
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
 				"cs": false,
 				"energyDrainPenalty": 0,
-				"mod": -4,
+				"mod": -5,
 				"namedSubSkills": {
 				},
 				"notes": "",
@@ -1428,13 +1450,13 @@
 			},
 			"dsc": {
 				"ability": "int",
-				"abilityModifier": -4,
+				"abilityModifier": -5,
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
 				"cs": false,
 				"energyDrainPenalty": 0,
-				"mod": -4,
+				"mod": -5,
 				"notes": "",
 				"points": null,
 				"rank": 0,
@@ -1460,13 +1482,13 @@
 			},
 			"fog": {
 				"ability": "int",
-				"abilityModifier": -4,
+				"abilityModifier": -5,
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
 				"cs": false,
 				"energyDrainPenalty": 0,
-				"mod": -4,
+				"mod": -5,
 				"notes": "",
 				"points": null,
 				"rank": 0,
@@ -1529,7 +1551,7 @@
 				"acpPenalty": 0,
 				"background": false,
 				"changeBonus": 10,
-				"cs": false,
+				"cs": true,
 				"energyDrainPenalty": 0,
 				"mod": 12,
 				"notes": "",
@@ -1573,13 +1595,13 @@
 			},
 			"kar": {
 				"ability": "int",
-				"abilityModifier": -4,
+				"abilityModifier": -5,
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
 				"cs": false,
 				"energyDrainPenalty": 0,
-				"mod": -4,
+				"mod": -5,
 				"notes": "",
 				"points": null,
 				"rank": 0,
@@ -1589,13 +1611,13 @@
 			},
 			"kdu": {
 				"ability": "int",
-				"abilityModifier": -4,
+				"abilityModifier": -5,
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
 				"cs": false,
 				"energyDrainPenalty": 0,
-				"mod": -4,
+				"mod": -5,
 				"notes": "",
 				"points": null,
 				"rank": 0,
@@ -1605,13 +1627,13 @@
 			},
 			"ken": {
 				"ability": "int",
-				"abilityModifier": -4,
+				"abilityModifier": -5,
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
 				"cs": false,
 				"energyDrainPenalty": 0,
-				"mod": -4,
+				"mod": -5,
 				"notes": "",
 				"points": null,
 				"rank": 0,
@@ -1621,13 +1643,13 @@
 			},
 			"kge": {
 				"ability": "int",
-				"abilityModifier": -4,
+				"abilityModifier": -5,
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
 				"cs": false,
 				"energyDrainPenalty": 0,
-				"mod": -4,
+				"mod": -5,
 				"notes": "",
 				"points": null,
 				"rank": 0,
@@ -1637,13 +1659,13 @@
 			},
 			"khi": {
 				"ability": "int",
-				"abilityModifier": -4,
+				"abilityModifier": -5,
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
 				"cs": false,
 				"energyDrainPenalty": 0,
-				"mod": -4,
+				"mod": -5,
 				"notes": "",
 				"points": null,
 				"rank": 0,
@@ -1653,13 +1675,13 @@
 			},
 			"klo": {
 				"ability": "int",
-				"abilityModifier": -4,
+				"abilityModifier": -5,
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
 				"cs": false,
 				"energyDrainPenalty": 0,
-				"mod": -4,
+				"mod": -5,
 				"notes": "",
 				"points": null,
 				"rank": 0,
@@ -1669,13 +1691,13 @@
 			},
 			"kna": {
 				"ability": "int",
-				"abilityModifier": -4,
+				"abilityModifier": -5,
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
 				"cs": false,
 				"energyDrainPenalty": 0,
-				"mod": -4,
+				"mod": -5,
 				"notes": "",
 				"points": null,
 				"rank": 0,
@@ -1685,13 +1707,13 @@
 			},
 			"kno": {
 				"ability": "int",
-				"abilityModifier": -4,
+				"abilityModifier": -5,
 				"acp": false,
 				"acpPenalty": 0,
 				"background": true,
 				"cs": false,
 				"energyDrainPenalty": 0,
-				"mod": -4,
+				"mod": -5,
 				"notes": "",
 				"points": null,
 				"rank": 0,
@@ -1701,13 +1723,13 @@
 			},
 			"kpl": {
 				"ability": "int",
-				"abilityModifier": -4,
+				"abilityModifier": -5,
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
 				"cs": false,
 				"energyDrainPenalty": 0,
-				"mod": -4,
+				"mod": -5,
 				"notes": "",
 				"points": null,
 				"rank": 0,
@@ -1717,13 +1739,13 @@
 			},
 			"kps": {
 				"ability": "int",
-				"abilityModifier": -4,
+				"abilityModifier": -5,
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
 				"cs": false,
 				"energyDrainPenalty": 0,
-				"mod": -4,
+				"mod": -5,
 				"notes": "",
 				"points": null,
 				"rank": 0,
@@ -1733,13 +1755,13 @@
 			},
 			"kre": {
 				"ability": "int",
-				"abilityModifier": -4,
+				"abilityModifier": -5,
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
 				"cs": false,
 				"energyDrainPenalty": 0,
-				"mod": -4,
+				"mod": -5,
 				"notes": "",
 				"points": null,
 				"rank": 0,
@@ -1753,12 +1775,12 @@
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
-				"cs": false,
+				"cs": true,
 				"energyDrainPenalty": 0,
-				"mod": 2,
+				"mod": 3,
 				"notes": "",
 				"points": 2,
-				"rank": 1,
+				"rank": 2,
 				"rt": false,
 				"value": 0,
 				"visibility": "default"
@@ -1770,7 +1792,7 @@
 				"acpPenalty": 0,
 				"background": false,
 				"changeBonus": 2,
-				"cs": false,
+				"cs": true,
 				"energyDrainPenalty": 0,
 				"mod": 4,
 				"notes": "",
@@ -1838,13 +1860,13 @@
 			},
 			"psi": {
 				"ability": "int",
-				"abilityModifier": -4,
+				"abilityModifier": -5,
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
 				"cs": false,
 				"energyDrainPenalty": 0,
-				"mod": -4,
+				"mod": -5,
 				"notes": "",
 				"points": null,
 				"rank": 0,
@@ -1910,7 +1932,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 0,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1918,13 +1940,13 @@
 			},
 			"spl": {
 				"ability": "int",
-				"abilityModifier": -4,
+				"abilityModifier": -5,
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
 				"cs": false,
 				"energyDrainPenalty": 0,
-				"mod": -4,
+				"mod": -5,
 				"notes": "",
 				"points": null,
 				"rank": 0,
@@ -1938,25 +1960,25 @@
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
-				"cs": false,
+				"cs": true,
 				"energyDrainPenalty": 0,
-				"mod": 2,
+				"mod": 3,
 				"notes": "",
 				"points": 2,
-				"rank": 1,
+				"rank": 2,
 				"rt": false,
 				"value": 0,
 				"visibility": "default"
 			},
 			"src": {
 				"ability": "int",
-				"abilityModifier": -4,
+				"abilityModifier": -5,
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
 				"cs": false,
 				"energyDrainPenalty": 0,
-				"mod": -4,
+				"mod": -5,
 				"notes": "",
 				"points": null,
 				"rank": 0,
@@ -2066,7 +2088,7 @@
 			"hp": 0
 		},
 		"tokenImg": "systems/D35E/icons/minions/tokens/lizard.png",
-		"totalNonEclLevels": 0,
+		"totalNonEclLevels": 1,
 		"traits": {
 			"actualSize": "tiny",
 			"ci": {
@@ -2100,7 +2122,7 @@
 			},
 			"regen": null,
 			"regenTotal": null,
-			"senses": "low-light vision, Listen +3, and Spot +3",
+			"senses": "Low Light Vision",
 			"size": "tiny",
 			"tokenSize": "actor",
 			"tokensize": "actor"
