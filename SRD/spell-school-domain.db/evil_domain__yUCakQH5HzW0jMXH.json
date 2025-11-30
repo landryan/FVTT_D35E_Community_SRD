@@ -18,10 +18,13 @@
 		},
 		"abilityType": "",
 		"actionType": "",
+		"activateActions": [
+		],
 		"activation": {
 			"cost": 1,
 			"type": ""
 		},
+		"addedLevel": 0,
 		"associations": {
 			"classes": [
 			]
@@ -37,8 +40,12 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
+		"bookSource": "",
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -59,6 +66,15 @@
 		"combatChangeCustomDisplayName": "",
 		"combatChangeCustomReferenceName": "",
 		"combatChanges": [
+			[
+				"spellOptional",
+				"",
+				"",
+				"&featClBonus",
+				"1",
+				"",
+				""
+			]
 		],
 		"combatChangesAdditionalRanges": {
 			"hasAdditionalRanges": false,
@@ -89,6 +105,10 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
 		"contextNotes": [
 		],
 		"counterName": "",
@@ -108,6 +128,8 @@
 			]
 		},
 		"damageReduction": [
+		],
+		"deactivateActions": [
 		],
 		"description": {
 			"chat": "",
@@ -170,7 +192,9 @@
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 99,
+		"originVersion": 104,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"pr": false,
 		"psionic": "",
