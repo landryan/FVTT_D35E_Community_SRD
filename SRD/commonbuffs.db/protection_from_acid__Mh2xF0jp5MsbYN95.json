@@ -1,11 +1,11 @@
 {
-	"_id": "9eS6qNxWSTYNITkL",
-	"_key": "!items!9eS6qNxWSTYNITkL",
+	"_id": "Mh2xF0jp5MsbYN95",
+	"_key": "!items!Mh2xF0jp5MsbYN95",
 	"effects": [
 	],
-	"folder": "EVZZuQRmRABuBCMC",
-	"img": "systems/D35E/icons/spells/buffs/buff/produce-flame.png",
-	"name": "Produce Flame",
+	"folder": "DVJgCBB7nccWIObz",
+	"img": "systems/D35E/icons/spells/named-spells/protection-from-energy.png",
+	"name": "Protection From Acid",
 	"system": {
 		"activateActions": [
 		],
@@ -96,24 +96,19 @@
 		"damagePool": {
 			"current": 0,
 			"deleteOnDamagePoolEmpty": false,
-			"enabled": false,
-			"formula": "",
-			"max": 0
+			"enabled": true,
+			"formula": "12*@item.level",
+			"max": 0,
+			"total": 12
 		},
 		"damageReduction": [
 		],
 		"deactivateActions": [
-			{
-				"action": "Remove attack  \"Produce Flame (Melee)\" on self;Remove attack  \"Produce Flame (Ranged)\" on self;",
-				"condition": "",
-				"img": "",
-				"name": ""
-			}
 		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "<p><em>This buff only tracks the <span style=\"text-decoration: underline;\">maximum</span> duration of the spell.</em></p>\n<p><em><strong>NOTE:</strong>&nbsp;this aura does not reduce by 1 minute with every flame thrown.&nbsp; GM will need to manage that manually.</em></p>\n<hr style=\"border-top: 1px solid var(--color-border-light-primary); border-bottom: 1px solid var(--color-border-light-highlight);\">\n<p>In addition to providing illumination, the flames can be hurled or used to touch enemies. You can strike an opponent with a melee&nbsp;<a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#touchAttacks\">touch attack</a>, dealing fire damage equal to&nbsp;<a class=\"diceRoller\" title=\"Roll the dice!\">1d6</a>&nbsp;+1 point per caster level (maximum +5). Alternatively, you can hurl the flames up to 120 feet as a&nbsp;<a href=\"https://www.d20srd.org/srd/equipment/weapons.htm#thrownWeapons\">thrown weapon</a>. When doing so, you attack with a ranged touch attack (with no range penalty) and deal the same damage as with the melee attack. No sooner do you hurl the flames than a new set appears in your hand. Each attack you make reduces the remaining duration by 1 minute. If an attack reduces the remaining duration to 0 minutes or less, the spell ends after the attack resolves.&nbsp;</p>"
+			"value": "<p><em>Protection from energy&nbsp;</em>grants temporary immunity to the type of energy you specify when you cast it (acid, cold, electricity, fire, or sonic). When the spell absorbs 12 points per caster level of energy damage (to a maximum of 120 points at 10th level), it is discharged.</p>\n<p><em>Note: Protection from energy&nbsp;</em>overlaps (and does not stack with)&nbsp;<em>resist energy.</em>&nbsp;If a character is warded by&nbsp;<em>protection from energy&nbsp;</em>and&nbsp;<em>resist energy,&nbsp;</em>the&nbsp;<em>protection&nbsp;</em>spell absorbs damage until its power is exhausted.</p>"
 		},
 		"duration": {
 			"units": "",
@@ -121,23 +116,23 @@
 		},
 		"epic": "",
 		"hideFromToken": false,
-		"identifiedName": "Produce Flame",
+		"identifiedName": "Protection From Acid",
 		"index": {
 			"subType": null,
 			"uniqueId": ""
 		},
-		"level": "1",
+		"level": "",
 		"light": {
-			"alpha": 0.2,
-			"animationIntensity": 3,
-			"animationSpeed": 3,
-			"color": "#ffa800",
+			"alpha": 0.5,
+			"animationIntensity": 6,
+			"animationSpeed": 6,
+			"color": "#000000",
 			"dimRadius": null,
-			"emitLight": true,
+			"emitLight": false,
 			"lightAngle": 360,
 			"opacity": 0,
-			"radius": 20,
-			"type": "torch"
+			"radius": 0,
+			"type": ""
 		},
 		"linkId": "",
 		"linkImported": false,
@@ -152,7 +147,7 @@
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 5,
+		"originVersion": 1,
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,
@@ -170,6 +165,13 @@
 		],
 		"requiresPsionicFocus": false,
 		"resistances": [
+			[
+				"",
+				"energy-acid",
+				true,
+				false,
+				false
+			]
 		],
 		"senses": {
 			"blindsight": null,
@@ -199,9 +201,9 @@
 			"deleteOnExpiry": false,
 			"elapsed": 0,
 			"enabled": false,
-			"formula": "@item.level*10",
+			"formula": "",
 			"tickOnEnd": false,
-			"total": 10
+			"total": 0
 		},
 		"uniqueId": "",
 		"userNonRemovable": false,

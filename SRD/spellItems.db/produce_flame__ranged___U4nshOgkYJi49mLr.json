@@ -68,7 +68,7 @@
 			],
 			"parts": [
 				[
-					"1d6+(@cl)",
+					"1d6+(min(5,@cl))",
 					null,
 					"energy-fire"
 				]
@@ -111,6 +111,9 @@
 		},
 		"magic": false,
 		"masterwork": false,
+		"material": {
+			"data": null
+		},
 		"maxDamageDice": 0,
 		"maxDamageDiceFormula": "",
 		"measureTemplate": {
@@ -137,7 +140,7 @@
 		"nonLethalNoPenalty": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 1,
+		"originVersion": 2,
 		"originalWeaponCreated": false,
 		"originalWeaponId": null,
 		"originalWeaponImg": "",

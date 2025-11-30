@@ -24,6 +24,7 @@
 			"cost": 1,
 			"type": ""
 		},
+		"addedLevel": 0,
 		"associations": {
 			"classes": [
 			]
@@ -39,8 +40,12 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
+		"bookSource": "",
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -62,11 +67,13 @@
 		"combatChangeCustomReferenceName": "",
 		"combatChanges": [
 			[
-				"spell",
+				"spellOptional",
 				"",
-				"'@item.types' == 'chaotic'",
-				"featCl",
-				"1"
+				"",
+				"&featClBonus",
+				"1",
+				"",
+				""
 			]
 		],
 		"combatChangesAdditionalRanges": {
@@ -186,7 +193,9 @@
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 99,
+		"originVersion": 103,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"pr": false,
 		"psionic": "",
