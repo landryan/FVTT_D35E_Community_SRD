@@ -1,36 +1,32 @@
 {
-	"_id": "9wBa0bcYkg2WP78x",
-	"_key": "!items!9wBa0bcYkg2WP78x",
+	"_id": "V3MY0RLpZGtLeHgX",
+	"_key": "!items!V3MY0RLpZGtLeHgX",
 	"effects": [
 	],
-	"folder": null,
-	"img": "systems/D35E/icons/feats/alertness.png",
-	"name": "Alertness",
+	"folder": "pvfhalPN33ibirUB",
+	"img": "systems/D35E/icons/classfeatures/familiar.png",
+	"name": "Special Abilitiy (Familiar)",
 	"system": {
 		"ability": {
 			"attack": null,
 			"critMult": 2,
-			"critRange": 20,
-			"damage": null,
+			"critRange": "20",
+			"damage": "",
 			"damageMult": 1,
 			"twoHandedOnly": false,
 			"vsTouchAc": false
 		},
-		"abilityType": "ex",
-		"actionType": "",
+		"abilityType": "",
+		"actionType": "special",
 		"activateActions": [
 		],
 		"activation": {
 			"cost": 1,
-			"type": ""
+			"type": "passive"
 		},
 		"addedLevel": 0,
 		"associations": {
 			"classes": [
-			]
-		},
-		"attack": {
-			"parts": [
 			]
 		},
 		"attackBonus": "",
@@ -40,7 +36,7 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
-		"bookSource": "",
+		"bookSource": "SRD",
 		"brokenResalePrice": null,
 		"carried": false,
 		"changeFlags": {
@@ -63,18 +59,6 @@
 			"uncannyDodge": false
 		},
 		"changes": [
-			[
-				"2",
-				"skill",
-				"skill.lis",
-				"untyped"
-			],
-			[
-				"2",
-				"skill",
-				"skill.spt",
-				"untyped"
-			]
 		],
 		"classSource": "",
 		"combatChangeCustomDisplayName": "",
@@ -135,32 +119,28 @@
 		},
 		"damageReduction": [
 		],
-		"damageType": {
-			"_deprecated": true,
-			"value": ""
-		},
 		"deactivateActions": [
 		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "<h3><span id=\"Benefit\" class=\"mw-headline\">Benefit</span></h3>\n<p>You get a +2 bonus on all Listen checks and Spot checks.</p>\n<h3><span id=\"Special\" class=\"mw-headline\">Special</span></h3>\n<p>The master of a familiar gains the benefit of the Alertness feat whenever the familiar is within arm&rsquo;s reach.</p>\n<p>&nbsp;</p>"
+			"value": "<p>A familiar also grants special abilities to its master (a sorcerer or wizard), as given on the table below. These special abilities apply only when the master and familiar are within 1 mile of each other.</p>\n<table id=\"tableFamiliars\" class=\"right\" cellspacing=\"0\">\n<thead>\n<tr>\n<th align=\"left\">Familiar</th>\n<th align=\"left\">Special</th>\n</tr>\n</thead>\n<tfoot>\n<tr>\n<td colspan=\"2\">\n<ol>\n<li>A raven familiar can speak one language of its master&rsquo;s choice as a&nbsp;<a href=\"https://www.d20srd.org/srd/specialAbilities.htm#supernaturalAbilities\">supernatural ability</a>.</li>\n<li>Tiny viper.</li>\n</ol>\n</td>\n</tr>\n</tfoot>\n<tbody>\n<tr>\n<td><a href=\"https://www.d20srd.org/srd/monsters/bat.htm\">Bat</a></td>\n<td>Master gains a +3 bonus on&nbsp;<a href=\"https://www.d20srd.org/srd/skills/listen.htm\">Listen</a>&nbsp;checks</td>\n</tr>\n<tr>\n<td><a href=\"https://www.d20srd.org/srd/monsters/cat.htm\">Cat</a></td>\n<td>Master gains a +3 bonus on&nbsp;<a href=\"https://www.d20srd.org/srd/skills/moveSilently.htm\">Move Silently</a>&nbsp;checks</td>\n</tr>\n<tr>\n<td><a href=\"https://www.d20srd.org/srd/monsters/hawk.htm\">Hawk</a></td>\n<td>Master gains a +3 bonus on&nbsp;<a href=\"https://www.d20srd.org/srd/skills/spot.htm\">Spot</a>&nbsp;checks in bright light</td>\n</tr>\n<tr>\n<td><a href=\"https://www.d20srd.org/srd/monsters/lizard.htm\">Lizard</a></td>\n<td>Master gains a +3 bonus on&nbsp;<a href=\"https://www.d20srd.org/srd/skills/climb.htm\">Climb</a>&nbsp;checks</td>\n</tr>\n<tr>\n<td><a href=\"https://www.d20srd.org/srd/monsters/owl.htm\">Owl</a></td>\n<td>Master gains a +3 bonus on&nbsp;<a href=\"https://www.d20srd.org/srd/skills/spot.htm\">Spot</a>&nbsp;checks in shadows</td>\n</tr>\n<tr>\n<td><a href=\"https://www.d20srd.org/srd/monsters/rat.htm\">Rat</a></td>\n<td>Master gains a +2 bonus on&nbsp;<a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#fortitude\">Fortitude saves</a></td>\n</tr>\n<tr>\n<td><a href=\"https://www.d20srd.org/srd/monsters/raven.htm\">Raven</a><sup>1</sup></td>\n<td>Master gains a +3 bonus on&nbsp;<a href=\"https://www.d20srd.org/srd/skills/appraise.htm\">Appraise</a>&nbsp;checks</td>\n</tr>\n<tr>\n<td><a href=\"https://www.d20srd.org/srd/monsters/snake.htm#viperSnake\">Snake</a><sup>2</sup></td>\n<td>Master gains a +3 bonus on&nbsp;<a href=\"https://www.d20srd.org/srd/skills/bluff.htm\">Bluff</a>&nbsp;checks</td>\n</tr>\n<tr>\n<td><a href=\"https://www.d20srd.org/srd/monsters/toad.htm\">Toad</a></td>\n<td>Master gains +3 hit points</td>\n</tr>\n<tr>\n<td><a href=\"https://www.d20srd.org/srd/monsters/weasel.htm\">Weasel</a></td>\n<td>Master gains a +2 bonus on&nbsp;<a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#reflex\">Reflex saves</a></td>\n</tr>\n</tbody>\n</table>\n<p>@UUID[Compendium.D35E.commonbuffs.Item.cNDb43HdjNAApwnl]{Cat Familiar}</p>\n<p>@UUID[Compendium.D35E.commonbuffs.Item.5K9q4JozY72aVBrV]{Owl Familiar}</p>\n<p>@UUID[Compendium.D35E.commonbuffs.Item.jNsczXNE10DV6Gxp]{Rat Familiar}</p>\n<p>@UUID[Compendium.D35E.commonbuffs.Item.H8wKX69NKyiTFyLd]{Snake Familiar}</p>"
 		},
 		"duration": {
-			"units": "",
+			"units": "seeText",
 			"value": null
 		},
 		"effectNotes": "",
 		"epic": "",
 		"equippedWeightless": false,
-		"favorite": false,
+		"favorite": true,
 		"featType": "classFeat",
 		"formula": "",
 		"fullResalePrice": false,
-		"identifiedName": "Alertness",
+		"identifiedName": "Special Abilitiy (Familiar)",
 		"index": {
 			"subType": "classFeat",
-			"uniqueId": "familiar-alertness"
+			"uniqueId": "familiar-special-abilitiy"
 		},
 		"linkId": "",
 		"linkImported": false,
@@ -184,7 +164,7 @@
 			"customTexture": "",
 			"overrideColor": false,
 			"overrideTexture": false,
-			"size": 0,
+			"size": "",
 			"type": ""
 		},
 		"metamagic": {
@@ -205,16 +185,15 @@
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 99,
+		"originVersion": 1,
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,
 		"pr": false,
 		"psionic": "",
 		"range": {
-			"long": null,
-			"units": "",
-			"value": null
+			"units": "mi",
+			"value": "1"
 		},
 		"recharge": {
 			"_deprecated": true,
@@ -238,17 +217,40 @@
 		},
 		"save": {
 			"ability": "",
-			"dc": 0,
+			"dc": "0",
 			"dcAutoAbility": "",
 			"dcAutoType": "",
 			"description": "",
-			"originVersion": 97,
 			"type": ""
 		},
 		"showInQuickbar": false,
 		"sizeOverride": "",
 		"source": "",
 		"specialActions": [
+			{
+				"action": "Create unique \"Cat Familiar\" from \"D35E.commonbuffs\" on target;Set buff \"Cat Familiar\" field data.level to max(1,(@cl)) on target;Activate buff \"Cat Familiar\" on target",
+				"condition": "",
+				"img": "systems/D35E/icons/minions/cat.png",
+				"name": "Cat Familiar"
+			},
+			{
+				"action": "Create unique \"Owl Familiar\" from \"D35E.commonbuffs\" on target;Set buff \"Owl Familiar\" field data.level to max(1,(@cl)) on target;Activate buff \"Owl Familiar\" on target",
+				"condition": "",
+				"img": "systems/D35E/icons/minions/owl.png",
+				"name": "Owl Familiar"
+			},
+			{
+				"action": "Create unique \"Rat Familiar\" from \"D35E.commonbuffs\" on target;Set buff \"Rat Familiar\" field data.level to max(1,(@cl)) on target;Activate buff \"Rat Familiar\" on target",
+				"condition": "",
+				"img": "systems/D35E/icons/minions/rat.png",
+				"name": "Rat Familiar"
+			},
+			{
+				"action": "Create unique \"Snake Familiar\" from \"D35E.commonbuffs\" on target;Set buff \"Snake Familiar\" field data.level to max(1,(@cl)) on target;Activate buff \"Snake Familiar\" on target",
+				"condition": "",
+				"img": "systems/D35E/icons/minions/snake.png",
+				"name": "Snake Familiar"
+			}
 		],
 		"spellSpecialization": {
 			"isDomain": false,
@@ -326,13 +328,9 @@
 		"tags": [
 		],
 		"target": {
-			"value": ""
+			"value": "Master"
 		},
-		"time": {
-			"_deprecated": true,
-			"value": ""
-		},
-		"uniqueId": "familiar-alertness",
+		"uniqueId": "familiar-special-abilitiy",
 		"userNonRemovable": false,
 		"uses": {
 			"allowMultipleUses": false,
@@ -344,7 +342,7 @@
 			"maxFormula": "",
 			"maxPerUse": null,
 			"maxPerUseFormula": "",
-			"per": null,
+			"per": "",
 			"rechargeFormula": null,
 			"value": 0
 		}
