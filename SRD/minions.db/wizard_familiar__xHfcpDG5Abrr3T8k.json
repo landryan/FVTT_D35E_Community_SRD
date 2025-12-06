@@ -1,6 +1,6 @@
 {
-	"_id": "BHR8aMXSPf12Pyrz",
-	"_key": "!actors.items!6pAOJcb5aqXYYzKs.BHR8aMXSPf12Pyrz",
+	"_id": "xHfcpDG5Abrr3T8k",
+	"_key": "!actors.items!klhMdyMfHA4XnoFf.xHfcpDG5Abrr3T8k",
 	"effects": [
 	],
 	"folder": null,
@@ -70,19 +70,19 @@
 				"untyped"
 			],
 			[
-				"(@master.data.attributes.savingThrows.fort.base - 2) > 2 ? (@master.data.attributes.savingThrows.fort.base - 2) : 0",
+				"(@master.data.attributes.savingThrows.fort.base) > 2 ? (@master.data.attributes.savingThrows.fort.base - 2) : 0",
 				"savingThrows",
 				"fort",
 				"base"
 			],
 			[
-				"(@master.data.attributes.savingThrows.will.base) > 2 ? (@master.data.attributes.savingThrows.will.base) : 0",
+				"(@master.data.attributes.savingThrows.will.base) > 0 ? (@master.data.attributes.savingThrows.will.base) : 0",
 				"savingThrows",
 				"will",
 				"base"
 			],
 			[
-				"(@master.data.attributes.savingThrows.ref.base - 2) > 2 ? (@master.data.attributes.savingThrows.ref.base - 2) : 0",
+				"(@master.data.attributes.savingThrows.ref.base) > 2 ? (@master.data.attributes.savingThrows.ref.base - 2) : 0",
 				"savingThrows",
 				"ref",
 				"base"
@@ -224,12 +224,15 @@
 		"epic": "",
 		"fc": {
 			"alt": {
+				"label": "Alt",
 				"value": 0
 			},
 			"hp": {
+				"label": "Hit Points",
 				"value": 0
 			},
 			"skill": {
+				"label": "Skills",
 				"value": 0
 			}
 		},
@@ -262,7 +265,7 @@
 		],
 		"originId": "NFMLhZwBD0WP2CEv",
 		"originPack": "D35E.minion-classes",
-		"originVersion": 103,
+		"originVersion": 106,
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,

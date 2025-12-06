@@ -70,19 +70,19 @@
 				"untyped"
 			],
 			[
-				"(@master.data.attributes.savingThrows.fort.base - 2) > 2 ? (@master.data.attributes.savingThrows.fort.base - 2) : 0",
+				"(@master.data.attributes.savingThrows.fort.base) > 2 ? (@master.data.attributes.savingThrows.fort.base - 2) : 0",
 				"savingThrows",
 				"fort",
 				"base"
 			],
 			[
-				"(@master.data.attributes.savingThrows.will.base) > 2 ? (@master.data.attributes.savingThrows.will.base) : 0",
+				"(@master.data.attributes.savingThrows.will.base) > 0 ? (@master.data.attributes.savingThrows.will.base) : 0",
 				"savingThrows",
 				"will",
 				"base"
 			],
 			[
-				"(@master.data.attributes.savingThrows.ref.base - 2) > 2 ? (@master.data.attributes.savingThrows.ref.base - 2) : 0",
+				"(@master.data.attributes.savingThrows.ref.base) > 2 ? (@master.data.attributes.savingThrows.ref.base - 2) : 0",
 				"savingThrows",
 				"ref",
 				"base"
@@ -262,7 +262,7 @@
 		],
 		"originId": "",
 		"originPack": "",
-		"originVersion": 103,
+		"originVersion": 106,
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,
