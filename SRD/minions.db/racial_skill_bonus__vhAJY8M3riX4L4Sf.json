@@ -1,16 +1,16 @@
 {
-	"_id": "iwNB20RauLdQCvf1",
-	"_key": "!actors.items!qMcAnYVm0HPvTJB4.iwNB20RauLdQCvf1",
+	"_id": "vhAJY8M3riX4L4Sf",
+	"_key": "!actors.items!agfVB5YeEtIERXu3.vhAJY8M3riX4L4Sf",
 	"effects": [
 	],
-	"folder": null,
-	"img": "systems/D35E/icons/feats/weapon-finesse.png",
-	"name": "Weapon Finesse",
+	"folder": "kW5aSTmsUaTGo6uI",
+	"img": "icons/skills/targeting/crosshair-ringed-gray.webp",
+	"name": "Racial Skill Bonus",
 	"system": {
 		"ability": {
 			"attack": null,
 			"critMult": 2,
-			"critRange": 20,
+			"critRange": "20",
 			"damage": null,
 			"damageMult": 1,
 			"twoHandedOnly": false,
@@ -24,7 +24,7 @@
 			"cost": 1,
 			"type": ""
 		},
-		"addedLevel": 0,
+		"addedLevel": 12,
 		"associations": {
 			"classes": [
 			]
@@ -63,20 +63,23 @@
 			"uncannyDodge": false
 		},
 		"changes": [
+			[
+				"8",
+				"skill",
+				"skill.lis",
+				"racial"
+			],
+			[
+				"14",
+				"skill",
+				"skill.mos",
+				"racial"
+			]
 		],
 		"classSource": "",
 		"combatChangeCustomDisplayName": "",
 		"combatChangeCustomReferenceName": "",
 		"combatChanges": [
-			[
-				"attack",
-				"",
-				"@item.finesseable",
-				"$item.ability.attack",
-				"dex",
-				"",
-				""
-			]
 		],
 		"combatChangesAdditionalRanges": {
 			"hasAdditionalRanges": false,
@@ -113,6 +116,11 @@
 		"container": "None",
 		"containerWeightless": false,
 		"contextNotes": [
+			[
+				"+8 racial bonus on Spot checks in areas of shadowy illumination.",
+				"skill",
+				"skill.spt"
+			]
 		],
 		"counterName": "",
 		"crOffset": "",
@@ -123,7 +131,6 @@
 		"customAttributes": {
 		},
 		"customAttributesLocked": false,
-		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
 			"alternativeParts": [
@@ -133,16 +140,12 @@
 		},
 		"damageReduction": [
 		],
-		"damageType": {
-			"_deprecated": true,
-			"value": ""
-		},
 		"deactivateActions": [
 		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "\n\n\n<h3><span class=\"mw-headline\" id=\"Prerequisite\">Prerequisite</span></h3>\n<p>Base attack bonus +1.\n</p>\n<h3><span class=\"mw-headline\" id=\"Benefit\">Benefit</span></h3>\n<p>With a light weapon, rapier, whip, or spiked chain made for a creature of your size category, you may use your Dexterity modifier instead of your Strength modifier on attack rolls. If you carry a shield, its armor check penalty applies to your attack rolls.\n</p>\n<h3><span class=\"mw-headline\" id=\"Special\">Special</span></h3>\n<p>A fighter may select Weapon Finesse as one of his fighter bonus feats.\n</p><p>Natural weapons are always considered light weapons.\n</p><p><br/>\n</p>\n<hr/>\n\n\n"
+			"value": "<p>Owls have a +8 racial bonus on&nbsp;<a href=\"https://www.d20srd.org/srd/skills/listen.htm\">Listen</a>&nbsp;checks and a +14 racial bonus on&nbsp;<a href=\"https://www.d20srd.org/srd/skills/moveSilently.htm\">Move Silently</a>&nbsp;checks. *They have a +8 racial bonus on&nbsp;<a href=\"https://www.d20srd.org/srd/skills/spot.htm\">Spot</a> checks in areas of shadowy illumination.</p>"
 		},
 		"duration": {
 			"units": "",
@@ -155,7 +158,7 @@
 		"featType": "trait",
 		"formula": "",
 		"fullResalePrice": false,
-		"identifiedName": "Weapon Finesse",
+		"identifiedName": "Racial Skill Bonus",
 		"index": {
 			"subType": "trait",
 			"uniqueId": ""
@@ -182,7 +185,7 @@
 			"customTexture": "",
 			"overrideColor": false,
 			"overrideTexture": false,
-			"size": 0,
+			"size": "",
 			"type": ""
 		},
 		"metamagic": {
@@ -201,9 +204,9 @@
 		},
 		"nameFormula": "",
 		"nameFromFormula": false,
-		"originId": "",
-		"originPack": "",
-		"originVersion": 3,
+		"originId": "Hf9FbUmG2FBTuoXm",
+		"originPack": "dnd-35e-generic-content.racial-abilities",
+		"originVersion": 16,
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,
@@ -323,10 +326,6 @@
 		"tags": [
 		],
 		"target": {
-			"value": ""
-		},
-		"time": {
-			"_deprecated": true,
 			"value": ""
 		},
 		"uniqueId": "",

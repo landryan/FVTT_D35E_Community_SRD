@@ -4,12 +4,13 @@
 	"effects": [
 	],
 	"folder": null,
-	"img": "systems/D35E/icons/bestiary/token/animal.png",
+	"img": "systems/D35E/icons/minions/tokens/owl.png",
 	"items": [
 		"54pX5JN6NOYAjHxZ",
 		"iwNB20RauLdQCvf1",
 		"9DNPU6B0dIR9utqH",
-		"KDwA5AJv6zipIjus"
+		"DcOFB42nFZpVAsrs",
+		"vhAJY8M3riX4L4Sf"
 	],
 	"name": "Owl",
 	"prototypeToken": {
@@ -295,7 +296,7 @@
 			"cmdNotes": "",
 			"concealment": {
 				"total": 0,
-				"value": 0
+				"value": null
 			},
 			"conditions": {
 				"banished": false,
@@ -347,12 +348,12 @@
 					"medium": 13
 				}
 			},
-			"energyDrain": 0,
+			"energyDrain": null,
 			"energyResistance": [
 			],
 			"fortification": {
 				"total": 0,
-				"value": 0
+				"value": null
 			},
 			"hardness": {
 				"formula": "",
@@ -374,8 +375,8 @@
 				"base": 0,
 				"max": 4,
 				"min": -100,
-				"nonlethal": 0,
-				"temp": 0,
+				"nonlethal": null,
+				"temp": null,
 				"value": 4
 			},
 			"init": {
@@ -398,7 +399,7 @@
 				"skills": {
 				}
 			},
-			"naturalAC": 0,
+			"naturalAC": "",
 			"naturalACTotal": 2,
 			"powerPointsTotal": 0,
 			"pr": {
@@ -457,12 +458,12 @@
 			"sneakAttackDiceTotal": 0,
 			"speed": {
 				"burrow": {
-					"base": 0,
+					"base": null,
 					"run": 0,
 					"total": 0
 				},
 				"climb": {
-					"base": 0,
+					"base": null,
 					"run": 0,
 					"total": 0
 				},
@@ -478,7 +479,7 @@
 					"total": 10
 				},
 				"swim": {
-					"base": 0,
+					"base": null,
 					"run": 0,
 					"total": 0
 				}
@@ -1144,7 +1145,7 @@
 				},
 				"skillsPerLevel": 2,
 				"spellcastingAbility": "int",
-				"spellcastingType": null,
+				"spellcastingType": "none",
 				"spelllist": {
 				},
 				"spellsKnownPerLevel": [
@@ -1164,7 +1165,7 @@
 		"counters": {
 			"feat": {
 				"base": {
-					"counted": 0,
+					"counted": 1,
 					"value": 1
 				},
 				"human": {
@@ -1237,14 +1238,16 @@
 			"levelUpProgression": false,
 			"notes": {
 				"public": "",
-				"value": "<div topic='Owl' level='2'><p>The statistics presented here describe nocturnal birds of prey from 1 to 2 feet long, with wingspans up to 6 feet. They combine both talons into a single attack.</p><div topic='Combat' level='5'><p><h2>Combat</h2></p><p>Owls swoop quietly down onto prey, attacking with their powerful talons.</p><div topic='Skills' level='8'><p><b>Skills:</b> Owls have a +8 racial bonus on Listen checks and a +14 racial bonus on Move Silently checks. *They have a +8 racial bonus on Spot checks in areas of shadowy illumination.</p><p/></div></div></div>    "
+				"value": "<div>\n<p><strong>Environment</strong>: &nbsp; &nbsp;Temperate forests<br><strong>Organization</strong>: &nbsp; &nbsp;Solitary</p>\n<p>The statistics presented here describe nocturnal birds of prey from 1 to 2 feet long, with wingspans up to 6 feet. They combine both talons into a single attack.</p>\n<div>\n<h2>Combat</h2>\n<p>Owls swoop quietly down onto prey, attacking with their powerful talons.</p>\n<div>\n<p><strong>Skills:</strong> Owls have a +8 racial bonus on Listen checks and a +14 racial bonus on Move Silently checks. *They have a +8 racial bonus on Spot checks in areas of shadowy illumination.</p>\n<p>&nbsp;</p>\n</div>\n</div>\n</div>"
 			},
 			"totalCr": "0.25",
-			"type": "None",
+			"type": "Animal",
 			"xp": {
 				"value": 10
 			}
 		},
+		"displayNonRTSkills": false,
+		"isPartyMember": false,
 		"jumpSkillAdjust": false,
 		"lockEditingByPlayers": false,
 		"master": {
@@ -1270,7 +1273,7 @@
 		"senses": {
 			"blindsight": 0,
 			"darkvision": 0,
-			"lowLight": false,
+			"lowLight": true,
 			"lowLightMultiplier": 2,
 			"modified": {
 			},
@@ -1281,7 +1284,7 @@
 		"shapechangeImg": "icons/svg/mystery-man.svg",
 		"shieldType": "none",
 		"showCardSheet": false,
-		"showSpellcastingSheet": true,
+		"showSpellcastingSheet": false,
 		"skills": {
 			"apr": {
 				"ability": "int",
@@ -1293,7 +1296,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1309,7 +1312,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1325,7 +1328,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1341,7 +1344,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1353,11 +1356,11 @@
 				"acp": true,
 				"acpPenalty": 0,
 				"background": false,
-				"cs": true,
+				"cs": false,
 				"energyDrainPenalty": 0,
 				"mod": -3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1373,7 +1376,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 0,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1409,7 +1412,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1425,7 +1428,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1441,7 +1444,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1457,7 +1460,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1473,7 +1476,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1489,7 +1492,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1505,7 +1508,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1521,7 +1524,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1537,7 +1540,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1554,7 +1557,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 11,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1570,7 +1573,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1586,7 +1589,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1602,7 +1605,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1618,7 +1621,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1634,7 +1637,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1650,7 +1653,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1666,7 +1669,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1682,7 +1685,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1698,7 +1701,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1714,10 +1717,11 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
-				"value": 0
+				"value": 0,
+				"visibility": "default"
 			},
 			"kpl": {
 				"ability": "int",
@@ -1729,7 +1733,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1745,7 +1749,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1761,7 +1765,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1773,12 +1777,13 @@
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
+				"changeBonus": 10,
 				"cs": true,
 				"energyDrainPenalty": 0,
 				"mod": 14,
 				"notes": "",
-				"points": 12,
-				"rank": 12,
+				"points": 2,
+				"rank": 2,
 				"rt": false,
 				"value": 0,
 				"visibility": "default"
@@ -1789,12 +1794,13 @@
 				"acp": true,
 				"acpPenalty": 0,
 				"background": false,
+				"changeBonus": 14,
 				"cs": true,
 				"energyDrainPenalty": 0,
 				"mod": 17,
 				"notes": "",
-				"points": 14,
-				"rank": 14,
+				"points": null,
+				"rank": 0,
 				"rt": false,
 				"value": 0,
 				"visibility": "default"
@@ -1809,7 +1815,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1865,7 +1871,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1881,7 +1887,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1897,7 +1903,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1913,7 +1919,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1929,7 +1935,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 0,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1945,7 +1951,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1957,12 +1963,13 @@
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
+				"changeBonus": 2,
 				"cs": true,
 				"energyDrainPenalty": 0,
 				"mod": 6,
 				"notes": "",
-				"points": 4,
-				"rank": 4,
+				"points": 2,
+				"rank": 2,
 				"rt": false,
 				"value": 0,
 				"visibility": "default"
@@ -1977,7 +1984,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1993,7 +2000,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -2005,11 +2012,11 @@
 				"acp": true,
 				"acpPenalty": 0,
 				"background": false,
-				"cs": true,
+				"cs": false,
 				"energyDrainPenalty": 0,
 				"mod": -3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -2025,7 +2032,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -2041,7 +2048,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -2057,7 +2064,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -2073,7 +2080,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -2084,7 +2091,7 @@
 			"ac": 0,
 			"hp": 0
 		},
-		"tokenImg": "systems/D35E/icons/bestiary/token/animal.png",
+		"tokenImg": "systems/D35E/icons/minions/owl.png",
 		"totalNonEclLevels": 1,
 		"traits": {
 			"actualSize": "tiny",
@@ -2106,6 +2113,8 @@
 				]
 			},
 			"eres": "",
+			"fastHealing": null,
+			"fastHealingTotal": null,
 			"incorporeal": false,
 			"languages": {
 				"custom": "",
@@ -2115,8 +2124,11 @@
 			"perception": {
 				"_deprecated": true
 			},
+			"regen": null,
+			"regenTotal": null,
 			"senses": "Low Light Vision",
 			"size": "tiny",
+			"tokenSize": "actor",
 			"tokensize": "actor"
 		}
 	},

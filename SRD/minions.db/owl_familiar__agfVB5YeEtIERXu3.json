@@ -1,6 +1,6 @@
 {
-	"_id": "klhMdyMfHA4XnoFf",
-	"_key": "!actors!klhMdyMfHA4XnoFf",
+	"_id": "agfVB5YeEtIERXu3",
+	"_key": "!actors!agfVB5YeEtIERXu3",
 	"effects": [
 	],
 	"folder": "gtQ3wnG1CirgbbU2",
@@ -9,17 +9,15 @@
 		"54pX5JN6NOYAjHxZ",
 		"iwNB20RauLdQCvf1",
 		"9DNPU6B0dIR9utqH",
-		"KDwA5AJv6zipIjus",
-		"rVq2hfSjM23Vc5ui",
-		"5l5oFNJxgPdzBOwU",
-		"Z5bmoVTYdK5P5vVN",
-		"xHfcpDG5Abrr3T8k"
+		"DcOFB42nFZpVAsrs",
+		"vhAJY8M3riX4L4Sf",
+		"RFdaceHZ7JnLw0Zi"
 	],
-	"name": "Owl Familar",
+	"name": "Owl Familiar",
 	"prototypeToken": {
 		"actorLink": false,
 		"alpha": 1,
-		"appendNumber": true,
+		"appendNumber": false,
 		"bar1": {
 			"attribute": "attributes.hp"
 		},
@@ -34,9 +32,6 @@
 		"flags": {
 			"D35E": {
 				"lowLightVision": false
-			},
-			"monks-tokenbar": {
-				"include": "default"
 			}
 		},
 		"height": 1,
@@ -72,7 +67,6 @@
 			"angle": 360,
 			"attenuation": 0.1,
 			"brightness": 1,
-			"color": null,
 			"contrast": 0,
 			"enabled": true,
 			"range": 0,
@@ -85,7 +79,7 @@
 			"rotation": 0,
 			"scaleX": 0.6,
 			"scaleY": 0.6,
-			"src": "systems/D35E/icons/minions/tokens/owl.png",
+			"src": "systems/D35E/icons/bestiary/token/animal.png",
 			"tint": null
 		},
 		"width": 1
@@ -380,7 +374,7 @@
 			},
 			"hp": {
 				"base": 0,
-				"max": 0,
+				"max": 4,
 				"min": -100,
 				"nonlethal": null,
 				"temp": null,
@@ -1103,7 +1097,7 @@
 			"turnUndeadUsesBonusFormula": "",
 			"turnUndeadUsesTotal": 0,
 			"vigor": {
-				"max": 0,
+				"max": 4,
 				"min": 0,
 				"temp": 0,
 				"value": 4
@@ -1193,7 +1187,7 @@
 		},
 		"damage": {
 			"nonlethal": {
-				"max": 0,
+				"max": 4,
 				"value": 0
 			}
 		},
@@ -1245,7 +1239,7 @@
 			"levelUpProgression": false,
 			"notes": {
 				"public": "",
-				"value": "<div>\n<p>The statistics presented here describe nocturnal birds of prey from 1 to 2 feet long, with wingspans up to 6 feet. They combine both talons into a single attack.</p>\n<div>\n<p>&nbsp;</p>\n<h2>Combat</h2>\n<p>&nbsp;</p>\n<p>Owls swoop quietly down onto prey, attacking with their powerful talons.</p>\n<div>\n<p><strong>Skills:</strong> Owls have a +8 racial bonus on Listen checks and a +14 racial bonus on Move Silently checks. *They have a +8 racial bonus on Spot checks in areas of shadowy illumination.</p>\n<p>&nbsp;</p>\n<p><strong>Familiar</strong>: Grants the following temporary bonuses to Master if within arms length:</p>\n<p>@UUID[Compendium.dnd-35e-generic-content.common-buffs.Item.Y9XMzBQ8Qeo694gZ]{Alertness (Familiar)}</p>\n<p>@UUID[Compendium.dnd-35e-generic-content.common-buffs.Item.5K9q4JozY72aVBrV]{Owl Familiar}</p>\n<p>&nbsp;</p>\n</div>\n</div>\n</div>"
+				"value": "<div>\n<p><strong>Environment</strong>: &nbsp; &nbsp;Temperate forests<br><strong>Organization</strong>: &nbsp; &nbsp;Solitary</p>\n<p>The statistics presented here describe nocturnal birds of prey from 1 to 2 feet long, with wingspans up to 6 feet. They combine both talons into a single attack.</p>\n<div>\n<h2>Combat</h2>\n<p>Owls swoop quietly down onto prey, attacking with their powerful talons.</p>\n<div>\n<p><strong>Skills:</strong> Owls have a +8 racial bonus on Listen checks and a +14 racial bonus on Move Silently checks. *They have a +8 racial bonus on Spot checks in areas of shadowy illumination.</p>\n<p>&nbsp;</p>\n</div>\n</div>\n</div>"
 			},
 			"totalCr": "0.25",
 			"type": "Animal",
@@ -1363,7 +1357,7 @@
 				"acp": true,
 				"acpPenalty": 0,
 				"background": false,
-				"cs": true,
+				"cs": false,
 				"energyDrainPenalty": 0,
 				"mod": -3,
 				"notes": "",
@@ -1974,7 +1968,7 @@
 				"cs": true,
 				"energyDrainPenalty": 0,
 				"mod": 6,
-				"notes": "+8 racial bonus on Spot checks in areas of shadowy illumination.",
+				"notes": "",
 				"points": 2,
 				"rank": 2,
 				"rt": false,
@@ -2019,7 +2013,7 @@
 				"acp": true,
 				"acpPenalty": 0,
 				"background": false,
-				"cs": true,
+				"cs": false,
 				"energyDrainPenalty": 0,
 				"mod": -3,
 				"notes": "",
