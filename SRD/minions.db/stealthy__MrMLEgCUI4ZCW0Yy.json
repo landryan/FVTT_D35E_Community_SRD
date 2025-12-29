@@ -1,16 +1,16 @@
 {
-	"_id": "jfIWcQVRXAtLDYUD",
-	"_key": "!actors.items!6pAOJcb5aqXYYzKs.jfIWcQVRXAtLDYUD",
+	"_id": "MrMLEgCUI4ZCW0Yy",
+	"_key": "!actors.items!HgRmZnlDuLATNILt.MrMLEgCUI4ZCW0Yy",
 	"effects": [
 	],
-	"folder": "z12Lz5gwaaIK2AMa",
-	"img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
-	"name": "Low-Light Vision",
+	"folder": null,
+	"img": "systems/D35E/icons/feats/stealthy.png",
+	"name": "Stealthy",
 	"system": {
 		"ability": {
 			"attack": null,
 			"critMult": 2,
-			"critRange": "20",
+			"critRange": 20,
 			"damage": null,
 			"damageMult": 1,
 			"twoHandedOnly": false,
@@ -18,8 +18,6 @@
 		},
 		"abilityType": "",
 		"actionType": "",
-		"activateActions": [
-		],
 		"activation": {
 			"cost": 1,
 			"type": ""
@@ -40,11 +38,8 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
-		"brokenResalePrice": null,
-		"carried": false,
+		"bookSource": "3.5e SRD",
 		"changeFlags": {
-			"firstChangeTargetSelectableOnDescription": false,
-			"hasted": false,
 			"heavyArmorFullSpeed": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
@@ -61,6 +56,18 @@
 			"uncannyDodge": false
 		},
 		"changes": [
+			[
+				"2",
+				"skill",
+				"skill.hid",
+				"untyped"
+			],
+			[
+				"2",
+				"skill",
+				"skill.mos",
+				"untyped"
+			]
 		],
 		"classSource": "",
 		"combatChangeCustomDisplayName": "",
@@ -96,10 +103,8 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
-		"conditionals": [
-		],
-		"constantWeight": false,
 		"container": "None",
+		"containerId": "none",
 		"containerWeightless": false,
 		"contextNotes": [
 		],
@@ -121,12 +126,14 @@
 		},
 		"damageReduction": [
 		],
-		"deactivateActions": [
-		],
+		"damageType": {
+			"_deprecated": true,
+			"value": ""
+		},
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "@LinkedDescription[Compendium.dnd-35e-generic-content.racial-abilities.Item.fIedeQe9B97Zztok]"
+			"value": "@LinkedDescription[Compendium.D35E.feats.Item.kG8q43CMNJJOTt3Z]"
 		},
 		"duration": {
 			"units": "",
@@ -134,15 +141,12 @@
 		},
 		"effectNotes": "",
 		"epic": "",
-		"equippedWeightless": false,
 		"favorite": false,
-		"featType": "racial",
+		"featType": "feat",
 		"formula": "",
-		"fullResalePrice": false,
-		"identifiedName": "Low-Light Vision",
 		"index": {
-			"subType": "racial",
-			"uniqueId": "user-racial-darkvision"
+			"subType": "feat",
+			"uniqueId": ""
 		},
 		"linkId": "",
 		"linkImported": false,
@@ -166,7 +170,7 @@
 			"customTexture": "",
 			"overrideColor": false,
 			"overrideTexture": false,
-			"size": "",
+			"size": 0,
 			"type": ""
 		},
 		"metamagic": {
@@ -185,14 +189,13 @@
 		},
 		"nameFormula": "",
 		"nameFromFormula": false,
-		"originId": "fIedeQe9B97Zztok",
-		"originPack": "dnd-35e-generic-content.racial-abilities",
-		"originVersion": 0,
-		"perRoundActions": [
-		],
+		"originId": "kG8q43CMNJJOTt3Z",
+		"originPack": "D35E.feats",
+		"originVersion": 101,
 		"possibleUpdate": false,
 		"pr": false,
 		"psionic": "",
+		"quantity": 1,
 		"range": {
 			"long": null,
 			"units": "",
@@ -209,7 +212,6 @@
 		"requirements": [
 		],
 		"requiresPsionicFocus": false,
-		"resalePrice": null,
 		"resistances": [
 		],
 		"rollTableDraw": {
@@ -224,6 +226,7 @@
 			"dcAutoAbility": "",
 			"dcAutoType": "",
 			"description": "",
+			"originVersion": 97,
 			"type": ""
 		},
 		"showInQuickbar": false,
@@ -305,8 +308,15 @@
 		"summon": [
 		],
 		"tags": [
+			[
+				"General"
+			]
 		],
 		"target": {
+			"value": ""
+		},
+		"time": {
+			"_deprecated": true,
 			"value": ""
 		},
 		"uniqueId": "",

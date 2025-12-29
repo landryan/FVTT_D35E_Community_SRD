@@ -1,6 +1,6 @@
 {
-	"_id": "6pAOJcb5aqXYYzKs",
-	"_key": "!actors!6pAOJcb5aqXYYzKs",
+	"_id": "HgRmZnlDuLATNILt",
+	"_key": "!actors!HgRmZnlDuLATNILt",
 	"effects": [
 	],
 	"folder": "gtQ3wnG1CirgbbU2",
@@ -10,10 +10,9 @@
 		"5Ram9FrtNIfgi2YX",
 		"o8SKMyMcR3qQIfBQ",
 		"O9WiXmvjsZ6K0RbQ",
-		"7zkG3d87M6fEJv2O",
-		"jfIWcQVRXAtLDYUD",
-		"cOmGWHKexdLwM04F",
-		"Gu8rny0gxj4ebivD"
+		"MrMLEgCUI4ZCW0Yy",
+		"NaImEm7XnNlDI2rP",
+		"zx37srR0nAkHYiGD"
 	],
 	"name": "Rat Familiar",
 	"prototypeToken": {
@@ -30,13 +29,10 @@
 		],
 		"displayBars": 40,
 		"displayName": 20,
-		"disposition": 1,
+		"disposition": -1,
 		"flags": {
 			"D35E": {
 				"lowLightVision": false
-			},
-			"monks-tokenbar": {
-				"include": "default"
 			}
 		},
 		"height": 1,
@@ -64,7 +60,7 @@
 			"shadows": 0
 		},
 		"lockRotation": false,
-		"name": "Rat Familiar",
+		"name": "Rat",
 		"prependAdjective": false,
 		"randomImg": false,
 		"rotation": 0,
@@ -72,7 +68,6 @@
 			"angle": 360,
 			"attenuation": 0.1,
 			"brightness": 1,
-			"color": null,
 			"contrast": 0,
 			"enabled": true,
 			"range": 0,
@@ -85,7 +80,7 @@
 			"rotation": 0,
 			"scaleX": 0.6,
 			"scaleY": 0.6,
-			"src": "systems/D35E/icons/minions/tokens/rat.png",
+			"src": "systems/D35E/icons/bestiary/token/animal.png",
 			"tint": null
 		},
 		"width": 1
@@ -211,7 +206,6 @@
 			"bab": {
 				"base": 0,
 				"nonepic": 0,
-				"replace": 140,
 				"total": 0,
 				"value": 0
 			},
@@ -399,8 +393,7 @@
 			},
 			"maxDexBonus": 999,
 			"minionClassLevels": {
-				"none": 0,
-				"wizard": 0
+				"none": 0
 			},
 			"minionDistance": {
 			},
@@ -1160,48 +1153,6 @@
 				"spellsKnownPerLevel": [
 				],
 				"spellslotAbility": ""
-			},
-			"wizardFamiliar": {
-				"_id": "RcCgodM8daoYBPCf",
-				"allSpellsKnown": false,
-				"bab": "",
-				"deckHandSizeFormula": "0",
-				"deckPrestigeClass": false,
-				"fc": {
-					"alt": 0,
-					"hp": 0,
-					"skill": 0
-				},
-				"halfCasterLevel": false,
-				"hasSpecialSlot": false,
-				"hasSpellbook": false,
-				"hd": 0,
-				"hp": false,
-				"isArcane": false,
-				"isPsionSpellcaster": false,
-				"isSpellcaster": false,
-				"isSpellcastingSpontaneus": false,
-				"knownCardsSizeFormula": "0",
-				"level": 0,
-				"maxLevel": 20,
-				"name": "Wizard Familiar",
-				"powersKnown": [
-				],
-				"powersMaxLevel": [
-				],
-				"savingThrows": {
-					"fort": 0,
-					"ref": 0,
-					"will": 0
-				},
-				"skillsPerLevel": 0,
-				"spellcastingAbility": "int",
-				"spellcastingType": "none",
-				"spelllist": {
-				},
-				"spellsKnownPerLevel": [
-				],
-				"spellslotAbility": ""
 			}
 		},
 		"combinedDR": [
@@ -1254,12 +1205,12 @@
 				"public": "",
 				"value": ""
 			},
-			"bonusSkillRankFormula": "",
+			"bonusSkillRankFormula": "0",
 			"breakDC": {
 				"base": 0,
 				"total": 0
 			},
-			"cr": "0.00",
+			"cr": 0,
 			"environment": "",
 			"level": {
 				"available": 1,
@@ -1284,7 +1235,7 @@
 			"levelUpProgression": false,
 			"notes": {
 				"public": "",
-				"value": "<div>\n<p><strong>Environment</strong>: Any<br><strong>Organization</strong>: Plague (10&ndash;100)</p>\n<p>These omnivorous rodents thrive almost anywhere.</p>\n<div>\n<h2>Combat</h2>\n<p>Rats usually run away. They bite only as a last resort.</p>\n<div>\n<p><strong>Skills:</strong> Rats have a +4 racial bonus on Hide and Move Silently checks, and a +8 racial bonus on Balance, Climb, and Swim checks. A rat can always choose to take 10 on Climb checks, even if rushed or threatened. A rat uses its Dexterity modifier instead of its Strength modifier for Climb and Swim checks. A rat has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.</p>\n<p>&nbsp;</p>\n</div>\n</div>\n</div>"
+				"value": "<div>\n<p><strong>Environment</strong>: &nbsp; &nbsp;Any<br><strong>Organization</strong>: &nbsp; &nbsp;Plague (10-100)</p>\n<p>These omnivorous rodents thrive almost anywhere.</p>\n<div>\n<h2>Combat</h2>\n<p>Rats usually run away. They bite only as a last resort.</p>\n<div>\n<p><strong>Skills:</strong> Rats have a +4 racial bonus on Hide and Move Silently checks, and a +8 racial bonus on Balance, Climb, and Swim checks. A rat can always choose to take 10 on Climb checks, even if rushed or threatened. A rat uses its Dexterity modifier instead of its Strength modifier for Climb and Swim checks. A rat has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.</p>\n<p>&nbsp;</p>\n</div>\n</div>\n</div>"
 			},
 			"totalCr": "0.00",
 			"type": "Animal",
@@ -1330,7 +1281,7 @@
 		"shapechangeImg": "icons/svg/mystery-man.svg",
 		"shieldType": "none",
 		"showCardSheet": false,
-		"showSpellcastingSheet": false,
+		"showSpellcastingSheet": true,
 		"skills": {
 			"apr": {
 				"ability": "int",
@@ -1407,10 +1358,10 @@
 				"changeBonus": 8,
 				"cs": true,
 				"energyDrainPenalty": 0,
-				"mod": 10,
+				"mod": 12,
 				"notes": "",
-				"points": null,
-				"rank": 0,
+				"points": 2,
+				"rank": 2,
 				"rt": false,
 				"value": 0,
 				"visibility": "default"
@@ -1601,10 +1552,10 @@
 				"acp": true,
 				"acpPenalty": 0,
 				"background": false,
-				"changeBonus": 12,
+				"changeBonus": 14,
 				"cs": true,
 				"energyDrainPenalty": 0,
-				"mod": 14,
+				"mod": 16,
 				"notes": "",
 				"points": null,
 				"rank": 0,
@@ -1826,7 +1777,6 @@
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
-				"changeBonus": 0,
 				"cs": false,
 				"energyDrainPenalty": 0,
 				"mod": 1,
@@ -1843,13 +1793,13 @@
 				"acp": true,
 				"acpPenalty": 0,
 				"background": false,
-				"changeBonus": 4,
+				"changeBonus": 6,
 				"cs": true,
 				"energyDrainPenalty": 0,
 				"mod": 10,
 				"notes": "",
-				"points": 4,
-				"rank": 4,
+				"points": 2,
+				"rank": 2,
 				"rt": false,
 				"value": 0,
 				"visibility": "default"
@@ -2012,7 +1962,6 @@
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
-				"changeBonus": 0,
 				"cs": false,
 				"energyDrainPenalty": 0,
 				"mod": 1,
