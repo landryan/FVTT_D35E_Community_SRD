@@ -1,16 +1,16 @@
 {
-	"_id": "mLFy9Bv4M0Mr1IUv",
-	"_key": "!actors.items!uhYXNKkyN1OybBp0.mLFy9Bv4M0Mr1IUv",
+	"_id": "yS06SJzWIsGGEeYq",
+	"_key": "!actors.items!kxeYwRkic9IRgaOm.yS06SJzWIsGGEeYq",
 	"effects": [
 	],
-	"folder": null,
-	"img": "systems/D35E/icons/feats/alertness.png",
-	"name": "Alertness",
+	"folder": "kW5aSTmsUaTGo6uI",
+	"img": "icons/skills/targeting/crosshair-ringed-gray.webp",
+	"name": "Racial Skill Bonus",
 	"system": {
 		"ability": {
 			"attack": null,
 			"critMult": 2,
-			"critRange": 20,
+			"critRange": "20",
 			"damage": null,
 			"damageMult": 1,
 			"twoHandedOnly": false,
@@ -18,10 +18,13 @@
 		},
 		"abilityType": "",
 		"actionType": "",
+		"activateActions": [
+		],
 		"activation": {
 			"cost": 1,
 			"type": ""
 		},
+		"addedLevel": 12,
 		"associations": {
 			"classes": [
 			]
@@ -37,8 +40,14 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
+		"bookSource": "",
+		"brokenResalePrice": null,
+		"carried": false,
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -55,16 +64,10 @@
 		},
 		"changes": [
 			[
-				"2",
+				"4",
 				"skill",
-				"skill.lis",
-				"untyped"
-			],
-			[
-				"2",
-				"skill",
-				"skill.spt",
-				"untyped"
+				"skill.hid",
+				"racial"
 			]
 		],
 		"classSource": "",
@@ -101,6 +104,11 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"conditionals": [
+		],
+		"constantWeight": false,
+		"container": "None",
+		"containerWeightless": false,
 		"contextNotes": [
 		],
 		"counterName": "",
@@ -121,14 +129,12 @@
 		},
 		"damageReduction": [
 		],
-		"damageType": {
-			"_deprecated": true,
-			"value": ""
-		},
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "\n\n\n<h3><span class=\"mw-headline\" id=\"Benefit\">Benefit</span></h3>\n<p>You get a +2 bonus on all Listen checks and Spot checks.\n</p>\n<h3><span class=\"mw-headline\" id=\"Special\">Special</span></h3>\n<p>The master of a familiar gains the benefit of the Alertness feat whenever the familiar is within arm’s reach.\n</p><p><br/>\n</p>\n<hr/>\n\n\n"
+			"value": "<p>A toad&rsquo;s coloration gives it a +4 racial bonus on&nbsp;<a href=\"https://www.d20srd.org/srd/skills/hide.htm\">Hide</a> checks.</p>"
 		},
 		"duration": {
 			"units": "",
@@ -136,9 +142,16 @@
 		},
 		"effectNotes": "",
 		"epic": "",
+		"equippedWeightless": false,
 		"favorite": false,
-		"featType": "feat",
+		"featType": "trait",
 		"formula": "",
+		"fullResalePrice": false,
+		"identifiedName": "Racial Skill Bonus",
+		"index": {
+			"subType": "trait",
+			"uniqueId": ""
+		},
 		"linkId": "",
 		"linkImported": false,
 		"linkSourceId": "",
@@ -161,7 +174,7 @@
 			"customTexture": "",
 			"overrideColor": false,
 			"overrideTexture": false,
-			"size": 0,
+			"size": "",
 			"type": ""
 		},
 		"metamagic": {
@@ -180,9 +193,11 @@
 		},
 		"nameFormula": "",
 		"nameFromFormula": false,
-		"originId": "",
-		"originPack": "",
-		"originVersion": 0,
+		"originId": "Hf9FbUmG2FBTuoXm",
+		"originPack": "dnd-35e-generic-content.racial-abilities",
+		"originVersion": 7,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"pr": false,
 		"psionic": "",
@@ -202,6 +217,7 @@
 		"requirements": [
 		],
 		"requiresPsionicFocus": false,
+		"resalePrice": null,
 		"resistances": [
 		],
 		"rollTableDraw": {
@@ -299,10 +315,6 @@
 		"tags": [
 		],
 		"target": {
-			"value": ""
-		},
-		"time": {
-			"_deprecated": true,
 			"value": ""
 		},
 		"uniqueId": "",

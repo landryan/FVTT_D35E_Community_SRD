@@ -1,11 +1,11 @@
 {
-	"_id": "mAgrXRZfsWBuvNUB",
-	"_key": "!actors.items!uhYXNKkyN1OybBp0.mAgrXRZfsWBuvNUB",
+	"_id": "bY0a1Jop8TpYDibi",
+	"_key": "!actors.items!kxeYwRkic9IRgaOm.bY0a1Jop8TpYDibi",
 	"effects": [
 	],
 	"folder": null,
-	"img": "systems/D35E/icons/minions/toad.png",
-	"name": "Toad Features",
+	"img": "systems/D35E/icons/special-abilities/amphibious.png",
+	"name": "Amphibious",
 	"system": {
 		"ability": {
 			"attack": null,
@@ -22,6 +22,7 @@
 			"cost": 1,
 			"type": ""
 		},
+		"addedLevel": 0,
 		"associations": {
 			"classes": [
 			]
@@ -54,12 +55,6 @@
 			"uncannyDodge": false
 		},
 		"changes": [
-			[
-				"4",
-				"skill",
-				"skill.hid",
-				"untyped"
-			]
 		],
 		"classSource": "",
 		"combatChangeCustomDisplayName": "",
@@ -106,6 +101,7 @@
 		"customAttributes": {
 		},
 		"customAttributesLocked": false,
+		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
 			"alternativeParts": [
@@ -118,7 +114,7 @@
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": ""
+			"value": "<p>Creture can breathe both air and water.</p>"
 		},
 		"duration": {
 			"units": "",
@@ -127,8 +123,12 @@
 		"effectNotes": "",
 		"epic": "",
 		"favorite": false,
-		"featType": "racial",
+		"featType": "trait",
 		"formula": "",
+		"index": {
+			"subType": "trait",
+			"uniqueId": ""
+		},
 		"linkId": "",
 		"linkImported": false,
 		"linkSourceId": "",

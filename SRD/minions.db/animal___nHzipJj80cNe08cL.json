@@ -1,19 +1,27 @@
 {
-	"_id": "f00BHU8TgZp70Lu7",
-	"_key": "!actors.items!oIQ1IJ2E3KWoZ7o3.f00BHU8TgZp70Lu7",
+	"_id": "nHzipJj80cNe08cL",
+	"_key": "!actors.items!kxeYwRkic9IRgaOm.nHzipJj80cNe08cL",
 	"effects": [
 	],
 	"folder": null,
-	"img": "systems/D35E/icons/classfeatures/familiar.png",
-	"name": "Wizard Familiar",
+	"img": "systems/D35E/icons/racialhd/animal.png",
+	"name": "Animal*",
 	"system": {
+		"activateActions": [
+		],
 		"addedAbilities": [
 		],
+		"addedLevel": 0,
 		"allSpellsKnown": false,
-		"automaticFeatures": true,
-		"bab": "",
+		"attackParts": [
+		],
+		"automaticFeatures": false,
+		"bab": "med",
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -29,55 +37,15 @@
 			"uncannyDodge": false
 		},
 		"changes": [
-			[
-				"ceil(@classes.wizardFamiliar.level / 2)+3",
-				"ability",
-				"int",
-				"untyped"
-			],
-			[
-				"ceil(@classes.wizardFamiliar.level / 2)",
-				"ac",
-				"nac",
-				"untyped"
-			],
-			[
-				"(@master.data.attributes.savingThrows.fort.base - 2) > 2 ? (@master.data.attributes.savingThrows.fort.base - 2) : 0",
-				"savingThrows",
-				"fort",
-				"base"
-			],
-			[
-				"(@master.data.attributes.savingThrows.will.base) > 2 ? (@master.data.attributes.savingThrows.will.base) : 0",
-				"savingThrows",
-				"will",
-				"base"
-			],
-			[
-				"(@master.data.attributes.savingThrows.ref.base - 2) > 2 ? (@master.data.attributes.savingThrows.ref.base - 2) : 0",
-				"savingThrows",
-				"ref",
-				"base"
-			],
-			[
-				"@master.data.attributes.bab.base",
-				"attack",
-				"babattack",
-				"base"
-			],
-			[
-				"floor(@master.data.attributes.hp.max / 2)",
-				"misc",
-				"mhp",
-				"base"
-			]
 		],
 		"classSkills": {
+			"acr": true,
 			"apr": false,
+			"art": false,
 			"aut": false,
 			"blc": false,
 			"blf": false,
-			"clm": false,
+			"clm": true,
 			"coc": false,
 			"crf": false,
 			"dev": false,
@@ -85,11 +53,12 @@
 			"dis": false,
 			"dsc": false,
 			"esc": false,
+			"fly": true,
 			"fog": false,
 			"gif": false,
 			"han": false,
 			"hea": false,
-			"hid": false,
+			"hid": true,
 			"int": false,
 			"jmp": false,
 			"kar": false,
@@ -103,27 +72,32 @@
 			"kpl": false,
 			"kps": false,
 			"kre": false,
-			"lis": false,
+			"lin": false,
+			"lis": true,
+			"lor": false,
 			"mos": false,
 			"opl": false,
+			"per": true,
 			"prf": false,
 			"pro": false,
 			"psi": false,
 			"rid": false,
 			"sen": false,
 			"slt": false,
+			"spk": false,
 			"spl": false,
-			"spt": false,
+			"spt": true,
 			"src": false,
+			"ste": true,
 			"sur": false,
-			"swm": false,
+			"swm": true,
 			"tmb": false,
 			"umd": false,
 			"upd": false,
 			"uro": false
 		},
 		"classSource": "",
-		"classType": "base",
+		"classType": "racial",
 		"combatChangeCustomDisplayName": "",
 		"combatChangeCustomReferenceName": "",
 		"combatChanges": [
@@ -157,28 +131,39 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
 		"counterName": "",
-		"crPerHD": 4,
+		"crPerHD": 3,
 		"createdBy": "",
 		"creationChanges": [
 		],
-		"creatureType": "humanoid",
+		"creatureType": "animal",
 		"customAttributes": {
 		},
 		"customAttributesLocked": false,
+		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
+			"alternativeParts": [
+			],
 			"parts": [
 			]
 		},
 		"damageReduction": [
+		],
+		"deactivateActions": [
 		],
 		"deckHandSizeFormula": "0",
 		"deckPrestigeClass": false,
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "<p>A familiar is a normal animal that gains new powers and becomes a magical beast when summoned to service by a sorcerer or wizard. It retains the appearance, Hit Dice, base attack bonus, base save bonuses, skills, and feats of the normal animal it once was, but it is treated as a magical beast instead of an animal for the purpose of any effect that depends on its type. Only a normal, unmodified animal may become a familiar. An animal companion cannot also function as a familiar.</p>\n<p>A familiar also grants special abilities to its master (a sorcerer or wizard), as given on the table below. These special abilities apply only when the master and familiar are within 1 mile of each other.</p>\n<p>Levels of different classes that are entitled to familiars stack for the purpose of determining any familiar abilities that depend on the master&rsquo;s level.</p>\n<h3 id=\"familiarAbilityDescriptions\">Familiar Ability Descriptions</h3>\n<p>All familiars have special abilities (or impart abilities to their masters) depending on the master&rsquo;s combined level in classes that grant familiars, as shown on the table below and in Progression and Features Tab</p>\n<table id=\"tableFamiliarSpecialAbilities\" style=\"width: 98.8462%;\" cellspacing=\"0\">\n<tbody>\n<tr>\n<th style=\"width: 30.7393%;\" align=\"left\">Master Class Level</th>\n<th style=\"width: 17.7043%;\">Natural Armor Adj.</th>\n<th style=\"width: 13.2296%;\">Int</th>\n</tr>\n<tr>\n<td style=\"width: 30.7393%;\">1st-2nd</td>\n<td style=\"width: 17.7043%;\" align=\"center\">+1</td>\n<td style=\"width: 13.2296%;\" align=\"center\">6</td>\n</tr>\n<tr>\n<td style=\"width: 30.7393%;\">3rd-4th</td>\n<td style=\"width: 17.7043%;\" align=\"center\">+2</td>\n<td style=\"width: 13.2296%;\" align=\"center\">7</td>\n</tr>\n<tr>\n<td style=\"width: 30.7393%;\">5th-6th</td>\n<td style=\"width: 17.7043%;\" align=\"center\">+3</td>\n<td style=\"width: 13.2296%;\" align=\"center\">8</td>\n</tr>\n<tr>\n<td style=\"width: 30.7393%;\">7th-8th</td>\n<td style=\"width: 17.7043%;\" align=\"center\">+4</td>\n<td style=\"width: 13.2296%;\" align=\"center\">9</td>\n</tr>\n<tr>\n<td style=\"width: 30.7393%;\">9th-10th</td>\n<td style=\"width: 17.7043%;\" align=\"center\">+5</td>\n<td style=\"width: 13.2296%;\" align=\"center\">10</td>\n</tr>\n<tr>\n<td style=\"width: 30.7393%;\">11th-12th</td>\n<td style=\"width: 17.7043%;\" align=\"center\">+6</td>\n<td style=\"width: 13.2296%;\" align=\"center\">11</td>\n</tr>\n<tr>\n<td style=\"width: 30.7393%;\">13th-14th</td>\n<td style=\"width: 17.7043%;\" align=\"center\">+7</td>\n<td style=\"width: 13.2296%;\" align=\"center\">12</td>\n</tr>\n<tr>\n<td style=\"width: 30.7393%;\">15th-16th</td>\n<td style=\"width: 17.7043%;\" align=\"center\">+8</td>\n<td style=\"width: 13.2296%;\" align=\"center\">13</td>\n</tr>\n<tr>\n<td style=\"width: 30.7393%;\">17th-18th</td>\n<td style=\"width: 17.7043%;\" align=\"center\">+9</td>\n<td style=\"width: 13.2296%;\" align=\"center\">14</td>\n</tr>\n<tr>\n<td style=\"width: 30.7393%;\">19th-20th</td>\n<td style=\"width: 17.7043%;\" align=\"center\">+10</td>\n<td style=\"width: 13.2296%;\" align=\"center\">15</td>\n</tr>\n</tbody>\n</table>"
+			"value": "<p>An animal is a living, nonhuman creature, usually a vertebrate with no magical abilities and no innate capacity for language or culture.</p>\n<h2>Features</h2>\n<p>An animal has the following features (unless otherwise noted in a creature’s entry).</p>\n<ul>\n<li>d8 Hit Dice.</li>\n<li>Base attack bonus equal to 3/4 total Hit Dice (as cleric).</li>\n<li>Good Fortitude and Reflex saves (certain animals have different good saves).</li>\n<li>Skill points equal to (2 + Int modifier, minimum 1) per Hit Die, with quadruple skill points for the first Hit Die.</li>\n</ul>\n<h2>Traits</h2>\n<p>An animal possesses the following traits (unless otherwise noted in a creature’s entry).</p>\n<ul>\n<li>Intelligence score of 1 or 2 (no creature with an Intelligence score of 3 or higher can be an animal).</li>\n<li>Low-light vision.</li>\n<li>Alignment: Always neutral.</li>\n<li>Treasure: None.</li>\n<li>Proficient with its natural weapons only. A noncombative herbivore uses its natural weapons as a secondary attack. Such attacks are made with a –5 penalty on the creature’s attack rolls, and the animal receives only 1/2 its Strength modifier as a damage adjustment.</li>\n<li>Proficient with no armor unless trained for war.</li>\n<li>Animals eat, sleep, and breathe.</li>\n</ul>"
 		},
 		"disabledAbilities": [
 		],
@@ -198,19 +183,24 @@
 		"hasLimitedSpellbook": false,
 		"hasSpecialSlot": false,
 		"hasSpellbook": false,
-		"hd": 0,
+		"hd": 8,
 		"hdReplace": "",
 		"hdReplaceRacialOnly": false,
-		"hp": 0,
+		"hp": 1,
+		"identifiedName": "Animal*",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
 		"knownCardsSizeFormula": "0",
 		"la": 0,
-		"levels": 0,
+		"levels": 1,
 		"linkId": "",
 		"linkImported": false,
 		"linkSourceId": "",
 		"linkSourceName": "",
 		"maxLevel": 20,
-		"minionGroup": "wizard",
+		"minionGroup": "none",
 		"minionLevelFormula": "0",
 		"nameFormula": "",
 		"nameFromFormula": false,
@@ -218,9 +208,11 @@
 		],
 		"originId": "",
 		"originPack": "",
-		"originVersion": 0,
+		"originVersion": 3,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
-		"powerPointBonusBaseAbility": "0",
+		"powerPointBonusBaseAbility": "",
 		"powerPointTable": {
 			"1": 0,
 			"10": 0,
@@ -295,20 +287,22 @@
 		],
 		"savingThrows": {
 			"fort": {
-				"value": ""
+				"value": "high"
 			},
 			"ref": {
-				"value": ""
+				"value": "high"
 			},
 			"will": {
-				"value": ""
+				"value": "low"
 			}
 		},
 		"sizeOverride": "",
-		"skillsPerLevel": 0,
-		"sneakAttackFormula": "0",
-		"sneakAttackGroup": "none",
+		"skillsPerLevel": 2,
+		"sneakAttackFormula": "",
+		"sneakAttackGroup": "",
 		"source": "",
+		"specialActions": [
+		],
 		"spellPointBonusFormula": "0",
 		"spellPointGroup": "wizard",
 		"spellPointTable": {
@@ -396,9 +390,11 @@
 		"spellsPerLevel": [
 		],
 		"spellslotAbility": "",
+		"summon": [
+		],
 		"tags": [
 		],
-		"turnUndeadLevelFormula": "0",
+		"turnUndeadLevelFormula": "",
 		"uniqueId": "",
 		"userNonRemovable": false
 	},
