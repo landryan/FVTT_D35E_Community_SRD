@@ -1,26 +1,29 @@
 {
-	"_id": "S6hoNGm4XF5Pc2ox",
-	"_key": "!actors.items!6pAOJcb5aqXYYzKs.S6hoNGm4XF5Pc2ox",
+	"_id": "Uo9OztvPEvtJCJly",
+	"_key": "!actors.items!ykx9wOn1pLwsaPKT.Uo9OztvPEvtJCJly",
 	"effects": [
 	],
 	"folder": null,
-	"img": "systems/D35E/icons/attack/monster/bite.png",
-	"name": "Bite",
+	"img": "systems/D35E/icons/attack/monster/claw.png",
+	"name": "Claws",
 	"system": {
 		"ability": {
 			"attack": "str",
 			"critMult": 2,
-			"critRange": 20,
+			"critRange": "20",
 			"damage": "str",
-			"damageMult": 1,
+			"damageMult": -1,
 			"twoHandedOnly": false,
 			"vsTouchAc": false
 		},
 		"actionType": "mwak",
+		"activateActions": [
+		],
 		"activation": {
 			"cost": 1,
-			"type": "attack"
+			"type": "standard"
 		},
+		"addedLevel": 0,
 		"alignment": {
 			"chaotic": false,
 			"evil": false,
@@ -37,42 +40,56 @@
 		},
 		"attackBonus": "",
 		"attackCountFormula": "",
-		"attackNotes": "Primary",
+		"attackNotes": "",
 		"attackParts": [
 		],
 		"attackType": "natural",
 		"autoScaleOption": "default",
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
-		"baseWeaponType": "",
+		"baseWeaponType": "Claw",
+		"changes": [
+		],
 		"classSource": "",
+		"combatChanges": [
+		],
 		"conditionals": [
 		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
 		"createdBy": "",
+		"creationChanges": [
+		],
 		"critConfirmBonus": "",
 		"customAttributes": {
 		},
 		"customAttributesLocked": false,
+		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
 			"alternativeParts": [
 			],
-			"critParts": [
-			],
 			"parts": [
 				[
-					"1d3",
-					""
+					"1d2",
+					null,
+					"damage-piercing-or-slashing"
 				]
 			]
 		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "The creature attacks with its mouth, dealing piercing, slashing, and bludgeoning damage."
+			"value": "<p>The creature rips with a sharp appendage, dealing piercing and slashing damage.</p>"
 		},
 		"duration": {
-			"units": "inst",
+			"units": "",
 			"value": null
 		},
 		"effectNotes": "",
@@ -81,7 +98,13 @@
 		"favorite": true,
 		"finesseable": true,
 		"formula": "",
+		"identifiedName": "Claws",
 		"incorporeal": false,
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"isNaturalEquivalent": true,
 		"linkId": "",
 		"linkImported": false,
 		"linkSourceId": "",
@@ -93,9 +116,6 @@
 		},
 		"magic": false,
 		"masterwork": false,
-		"material": {
-			"data": null
-		},
 		"maxDamageDice": 0,
 		"maxDamageDiceFormula": "",
 		"measureTemplate": {
@@ -119,15 +139,18 @@
 		"nameFormula": "",
 		"nameFromFormula": false,
 		"nonLethal": false,
+		"nonLethalNoPenalty": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 0,
+		"originVersion": 5,
 		"originalWeaponCreated": false,
 		"originalWeaponId": null,
 		"originalWeaponImg": "",
 		"originalWeaponName": "",
 		"originalWeaponProperties": {
 		},
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"pr": false,
 		"primaryAttack": true,
@@ -135,15 +158,19 @@
 		"psionic": "",
 		"range": {
 			"long": null,
-			"units": "",
-			"value": null
+			"units": "ft",
+			"value": "0"
 		},
 		"recharge": {
 			"current": 0,
 			"enabled": false,
 			"formula": ""
 		},
+		"requirements": [
+		],
 		"requiresPsionicFocus": false,
+		"resistances": [
+		],
 		"returning": false,
 		"rollTableDraw": {
 			"formula": "",
@@ -159,6 +186,7 @@
 			"description": "",
 			"type": ""
 		},
+		"selectedMaterial": "none",
 		"showInQuickbar": true,
 		"source": "",
 		"specialActions": [
@@ -177,7 +205,7 @@
 		"userNonRemovable": false,
 		"uses": {
 			"allowMultipleUses": false,
-			"autoDeductCharges": false,
+			"autoDeductCharges": true,
 			"canBeLinked": false,
 			"chargesPerUse": 1,
 			"isResource": false,

@@ -1,11 +1,11 @@
 {
-	"_id": "BGy9NY3tXQBK2tkh",
-	"_key": "!actors.items!1iMALRcWTvwEqeDA.BGy9NY3tXQBK2tkh",
+	"_id": "0nrk7eQ4b8tvqu5b",
+	"_key": "!actors.items!ykx9wOn1pLwsaPKT.0nrk7eQ4b8tvqu5b",
 	"effects": [
 	],
 	"folder": null,
-	"img": "systems/D35E/icons/feats/weapon-finesse.png",
-	"name": "Weapon Finesse",
+	"img": "systems/D35E/icons/feats/alertness.png",
+	"name": "Alertness",
 	"system": {
 		"ability": {
 			"attack": null,
@@ -22,6 +22,7 @@
 			"cost": 1,
 			"type": ""
 		},
+		"addedLevel": 1,
 		"associations": {
 			"classes": [
 			]
@@ -37,7 +38,9 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
+		"bookSource": "3.5e SRD",
 		"changeFlags": {
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
@@ -54,18 +57,23 @@
 			"uncannyDodge": false
 		},
 		"changes": [
+			[
+				"2",
+				"skill",
+				"skill.lis",
+				"untyped"
+			],
+			[
+				"2",
+				"skill",
+				"skill.spt",
+				"untyped"
+			]
 		],
 		"classSource": "",
 		"combatChangeCustomDisplayName": "",
 		"combatChangeCustomReferenceName": "",
 		"combatChanges": [
-			[
-				"attack",
-				"",
-				"@item.finesseable",
-				"$item.ability.attack",
-				"dex"
-			]
 		],
 		"combatChangesAdditionalRanges": {
 			"hasAdditionalRanges": false,
@@ -96,6 +104,9 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"container": "None",
+		"containerId": "none",
+		"containerWeightless": false,
 		"contextNotes": [
 		],
 		"counterName": "",
@@ -123,7 +134,7 @@
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "\n\n\n<h3><span class=\"mw-headline\" id=\"Prerequisite\">Prerequisite</span></h3>\n<p>Base attack bonus +1.\n</p>\n<h3><span class=\"mw-headline\" id=\"Benefit\">Benefit</span></h3>\n<p>With a light weapon, rapier, whip, or spiked chain made for a creature of your size category, you may use your Dexterity modifier instead of your Strength modifier on attack rolls. If you carry a shield, its armor check penalty applies to your attack rolls.\n</p>\n<h3><span class=\"mw-headline\" id=\"Special\">Special</span></h3>\n<p>A fighter may select Weapon Finesse as one of his fighter bonus feats.\n</p><p>Natural weapons are always considered light weapons.\n</p><p><br/>\n</p>\n<hr/>\n\n\n"
+			"value": "@LinkedDescription[Compendium.D35E.feats.Item.mLFy9Bv4M0Mr1IUv]"
 		},
 		"duration": {
 			"units": "",
@@ -134,6 +145,10 @@
 		"favorite": false,
 		"featType": "feat",
 		"formula": "",
+		"index": {
+			"subType": "feat",
+			"uniqueId": ""
+		},
 		"linkId": "",
 		"linkImported": false,
 		"linkSourceId": "",
@@ -175,12 +190,13 @@
 		},
 		"nameFormula": "",
 		"nameFromFormula": false,
-		"originId": "",
-		"originPack": "",
-		"originVersion": 0,
+		"originId": "mLFy9Bv4M0Mr1IUv",
+		"originPack": "D35E.feats",
+		"originVersion": 101,
 		"possibleUpdate": false,
 		"pr": false,
 		"psionic": "",
+		"quantity": 1,
 		"range": {
 			"long": null,
 			"units": "",
@@ -211,6 +227,7 @@
 			"dcAutoAbility": "",
 			"dcAutoType": "",
 			"description": "",
+			"originVersion": 97,
 			"type": ""
 		},
 		"showInQuickbar": false,
@@ -292,6 +309,9 @@
 		"summon": [
 		],
 		"tags": [
+			[
+				"General"
+			]
 		],
 		"target": {
 			"value": ""
