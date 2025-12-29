@@ -1,16 +1,16 @@
 {
-	"_id": "y6PcPTxLJ6buAaN0",
-	"_key": "!actors.items!oIQ1IJ2E3KWoZ7o3.y6PcPTxLJ6buAaN0",
+	"_id": "ZG5GarhO9MdFwuGT",
+	"_key": "!actors.items!6jeJN0Pys1iAsgKC.ZG5GarhO9MdFwuGT",
 	"effects": [
 	],
-	"folder": "kW5aSTmsUaTGo6uI",
-	"img": "icons/skills/targeting/crosshair-ringed-gray.webp",
-	"name": "Racial Skill Bonus",
+	"folder": null,
+	"img": "systems/D35E/icons/special-abilities/scent.png",
+	"name": "Scent",
 	"system": {
 		"ability": {
 			"attack": null,
 			"critMult": 2,
-			"critRange": "20",
+			"critRange": 20,
 			"damage": null,
 			"damageMult": 1,
 			"twoHandedOnly": false,
@@ -18,13 +18,11 @@
 		},
 		"abilityType": "",
 		"actionType": "",
-		"activateActions": [
-		],
 		"activation": {
 			"cost": 1,
 			"type": ""
 		},
-		"addedLevel": 12,
+		"addedLevel": 0,
 		"associations": {
 			"classes": [
 			]
@@ -40,14 +38,8 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
-		"bookSource": "",
-		"brokenResalePrice": null,
-		"carried": false,
 		"changeFlags": {
-			"firstChangeTargetSelectableOnDescription": false,
-			"hasted": false,
 			"heavyArmorFullSpeed": false,
-			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -63,30 +55,6 @@
 			"uncannyDodge": false
 		},
 		"changes": [
-			[
-				"4",
-				"skill",
-				"skill.hid",
-				"racial"
-			],
-			[
-				"4",
-				"skill",
-				"skill.lis",
-				"racial"
-			],
-			[
-				"4",
-				"skill",
-				"skill.spt",
-				"racial"
-			],
-			[
-				"8",
-				"skill",
-				"skill.blc",
-				"untyped"
-			]
 		],
 		"classSource": "",
 		"combatChangeCustomDisplayName": "",
@@ -122,11 +90,6 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
-		"conditionals": [
-		],
-		"constantWeight": false,
-		"container": "None",
-		"containerWeightless": false,
 		"contextNotes": [
 		],
 		"counterName": "",
@@ -138,6 +101,7 @@
 		"customAttributes": {
 		},
 		"customAttributesLocked": false,
+		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
 			"alternativeParts": [
@@ -147,12 +111,10 @@
 		},
 		"damageReduction": [
 		],
-		"deactivateActions": [
-		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "<p>Snakes have a +4 racial bonus on&nbsp;<a href=\"https://www.d20srd.org/srd/skills/hide.htm\">Hide</a>,&nbsp;<a href=\"https://www.d20srd.org/srd/skills/listen.htm\">Listen</a>, and&nbsp;<a href=\"https://www.d20srd.org/srd/skills/spot.htm\">Spot</a>&nbsp;checks and a +8 racial bonus on&nbsp;<a href=\"https://www.d20srd.org/srd/skills/balance.htm\">Balance</a>&nbsp;and&nbsp;<a href=\"https://www.d20srd.org/srd/skills/climb.htm\">Climb</a>&nbsp;checks. A snake can always choose to&nbsp;<a href=\"https://www.d20srd.org/srd/skills/usingSkills.htm#taking10\">take 10</a>&nbsp;on a&nbsp;<a href=\"https://www.d20srd.org/srd/skills/climb.htm\">Climb</a>&nbsp;check, even if rushed or threatened. Snakes use either their Strength modifier or Dexterity modifier for&nbsp;<a href=\"https://www.d20srd.org/srd/skills/climb.htm\">Climb</a>&nbsp;checks, whichever is higher. A snake has a +8 racial bonus on any&nbsp;<a href=\"https://www.d20srd.org/srd/skills/swim.htm\">Swim</a>&nbsp;check to perform some special action or avoid a hazard. It can always choose to&nbsp;<a href=\"https://www.d20srd.org/srd/skills/usingSkills.htm#taking10\">take 10</a>&nbsp;on a&nbsp;<a href=\"https://www.d20srd.org/srd/skills/swim.htm\">Swim</a>&nbsp;check, even if distracted or endangered. It can use the&nbsp;<a href=\"https://www.d20srd.org/srd/combat/actionsInCombat.htm#run\">run</a> action while swimming, provided it swims in a straight line.</p>"
+			"value": "<p>This extraordinary special quality allows a creature to detect approaching enemies, sniff out hidden foes, and track by sense of smell. Creatures with the scent ability can identify familiar odors just as humans do familiar sights.</p>\n<p>The creature can detect opponents within 30 feet by sense of smell. If the opponent is upwind, the range increases to 60 feet; if downwind, it drops to 15 feet. Strong scents, such as smoke or rotting garbage, can be detected at twice the ranges noted above. Overpowering scents, such as skunk musk or troglodyte stench, can be detected at triple normal range.</p>\n<p>When a creature detects a scent, the exact location of the source is not revealed&mdash;only its presence somewhere within range. The creature can take a move action to note the direction of the scent.</p>\n<p>Whenever the creature comes within 5 feet of the source, the creature pinpoints the source&rsquo;s location.</p>\n<p>A creature with the Track feat and the scent ability can follow tracks by smell, making a Wisdom (or Survival) check to find or follow a track. The typical DC for a fresh trail is 10 (no matter what kind of surface holds the scent). This DC increases or decreases depending on how strong the quarry&rsquo;s odor is, the number of creatures, and the age of the trail. For each hour that the trail is cold, the DC increases by 2. The ability otherwise follows the rules for the Track feat. Creatures tracking by scent ignore the effects of surface conditions and poor visibility.</p>\n<p>Water, particularly running water, ruins a trail for air-breathing creatures. Water-breathing creatures that have the scent ability, however, can use it in the water easily.</p>\n<p>False, powerful odors can easily mask other scents. The presence of such an odor completely spoils the ability to properly detect or identify creatures, and the base Survival DC to track becomes 20 rather than 10.</p>"
 		},
 		"duration": {
 			"units": "",
@@ -160,14 +122,11 @@
 		},
 		"effectNotes": "",
 		"epic": "",
-		"equippedWeightless": false,
 		"favorite": false,
-		"featType": "racial",
+		"featType": "trait",
 		"formula": "",
-		"fullResalePrice": false,
-		"identifiedName": "Racial Skill Bonus",
 		"index": {
-			"subType": "racial",
+			"subType": "trait",
 			"uniqueId": ""
 		},
 		"linkId": "",
@@ -192,7 +151,7 @@
 			"customTexture": "",
 			"overrideColor": false,
 			"overrideTexture": false,
-			"size": "",
+			"size": 0,
 			"type": ""
 		},
 		"metamagic": {
@@ -211,11 +170,9 @@
 		},
 		"nameFormula": "",
 		"nameFromFormula": false,
-		"originId": "Hf9FbUmG2FBTuoXm",
-		"originPack": "dnd-35e-generic-content.racial-abilities",
+		"originId": "",
+		"originPack": "",
 		"originVersion": 0,
-		"perRoundActions": [
-		],
 		"possibleUpdate": false,
 		"pr": false,
 		"psionic": "",
@@ -235,7 +192,6 @@
 		"requirements": [
 		],
 		"requiresPsionicFocus": false,
-		"resalePrice": null,
 		"resistances": [
 		],
 		"rollTableDraw": {

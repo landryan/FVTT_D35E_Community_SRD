@@ -1,14 +1,14 @@
 {
-	"_id": "NQG3iqELV37u0eIy",
-	"_key": "!actors.items!oIQ1IJ2E3KWoZ7o3.NQG3iqELV37u0eIy",
+	"_id": "F5fZqTKiKaQCiX5G",
+	"_key": "!actors.items!6jeJN0Pys1iAsgKC.F5fZqTKiKaQCiX5G",
 	"effects": [
 	],
 	"folder": null,
-	"img": "systems/D35E/icons/attack/monster/bite.png",
-	"name": "Bite",
+	"img": "systems/D35E/icons/special-abilities/poison.png",
+	"name": "Poison",
 	"system": {
 		"ability": {
-			"attack": "str",
+			"attack": null,
 			"critMult": 2,
 			"critRange": 20,
 			"damage": "",
@@ -16,11 +16,14 @@
 			"twoHandedOnly": false,
 			"vsTouchAc": false
 		},
-		"actionType": "mwak",
+		"actionType": "save",
+		"activateActions": [
+		],
 		"activation": {
 			"cost": 1,
-			"type": "attack"
+			"type": "special"
 		},
+		"addedLevel": 0,
 		"alignment": {
 			"chaotic": false,
 			"evil": false,
@@ -35,53 +38,68 @@
 			"parts": [
 			]
 		},
-		"attackBonus": "0",
+		"attackBonus": "",
 		"attackCountFormula": "",
-		"attackNotes": "Poison: initial and secondary damage [[/r 1d6#Snake Poison Constituion Damage]] temporary Constitution, Fortitude save (DC 11)",
+		"attackNotes": "",
 		"attackParts": [
 		],
-		"attackType": "natural",
+		"attackType": "racialAbility",
 		"autoScaleOption": "default",
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
 		"baseWeaponType": "",
+		"changes": [
+		],
 		"classSource": "",
+		"combatChanges": [
+		],
 		"conditionals": [
 		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
 		"createdBy": "",
+		"creationChanges": [
+		],
 		"critConfirmBonus": "",
 		"customAttributes": {
 		},
 		"customAttributesLocked": false,
+		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
 			"alternativeParts": [
 			],
-			"critParts": [
-			],
 			"parts": [
-				[
-					"1",
-					""
-				]
 			]
 		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "The creature attacks with its mouth, dealing piercing, slashing, and bludgeoning damage."
+			"value": "<p>Poison attacks deal initial damage, such as ability damage or some other effect, to the opponent on a failed Fortitude save. Unless otherwise noted, another saving throw is required 1 minute later (regardless of the first save&rsquo;s result) to avoid secondary damage. A creature&rsquo;s descriptive text provides the details.</p>\n<p>A creature with a poison attack is immune to its own poison and the poison of others of its kind.</p>\n<p>The Fortitude save DC against a poison attack is equal to 10 + 1/2 poisoning creature&rsquo;s racial HD + poisoning creature&rsquo;s Con modifier (the exact DC is given in the creature&rsquo;s descriptive text).</p>\n<p>A successful save avoids (negates) the damage.</p>"
 		},
 		"duration": {
-			"units": "inst",
+			"units": "seeText",
 			"value": null
 		},
 		"effectNotes": "",
 		"enh": null,
 		"epic": false,
 		"favorite": true,
-		"finesseable": true,
+		"finesseable": false,
 		"formula": "",
+		"identifiedName": "Poison",
 		"incorporeal": false,
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"isNaturalEquivalent": false,
 		"linkId": "",
 		"linkImported": false,
 		"linkSourceId": "",
@@ -119,15 +137,18 @@
 		"nameFormula": "",
 		"nameFromFormula": false,
 		"nonLethal": false,
+		"nonLethalNoPenalty": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 0,
+		"originVersion": 24,
 		"originalWeaponCreated": false,
 		"originalWeaponId": null,
 		"originalWeaponImg": "",
 		"originalWeaponName": "",
 		"originalWeaponProperties": {
 		},
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"pr": false,
 		"primaryAttack": true,
@@ -143,7 +164,11 @@
 			"enabled": false,
 			"formula": ""
 		},
+		"requirements": [
+		],
 		"requiresPsionicFocus": false,
+		"resistances": [
+		],
 		"returning": false,
 		"rollTableDraw": {
 			"formula": "",
@@ -153,15 +178,34 @@
 		},
 		"save": {
 			"ability": "",
-			"dc": "11",
+			"dc": "10+@abilities.con.mod+floor(@attributes.hd.total/2)",
 			"dcAutoAbility": "",
 			"dcAutoType": "",
-			"description": "Fortitude negates",
-			"type": ""
+			"description": "",
+			"type": "fortitudenegates"
 		},
+		"selectedMaterial": "none",
 		"showInQuickbar": true,
 		"source": "",
 		"specialActions": [
+			{
+				"action": "AbilityDamage con 1d6 on target;",
+				"condition": "",
+				"img": "systems/D35E/icons/special-abilities/poison-initial.png",
+				"name": "Initial Ability Damage (1d6 CON)"
+			},
+			{
+				"action": "AbilityDamage con 1d6 on target;",
+				"condition": "",
+				"img": "systems/D35E/icons/special-abilities/poison-secondary.png",
+				"name": "Secondary Ability Damage (1d6 CON)"
+			},
+			{
+				"action": "Create unique \"Poisoned\" from \"D35E.commonbuffs\" on target; Set buff \"Poisoned\" field data.level to 1 on target; Set buff \"Poisoned\" field system.description.value exact \"Fort DC 10<br>For details see @UUID[Compendium.D35E.bestiary.Actor.DSAN0JrvOUG4L2IF.Item.F5fZqTKiKaQCiX5G]\" on target; Set buff \"Poisoned\" field name to \"Poisoned (Tiny Viper)\" on target; Activate buff \"Poisoned (Tiny Viper)\" on target;",
+				"condition": "",
+				"img": "systems/D35E/icons/special-abilities/poison.png",
+				"name": "Poisoned"
+			}
 		],
 		"sr": false,
 		"summon": [
@@ -177,7 +221,7 @@
 		"userNonRemovable": false,
 		"uses": {
 			"allowMultipleUses": false,
-			"autoDeductCharges": false,
+			"autoDeductCharges": true,
 			"canBeLinked": false,
 			"chargesPerUse": 1,
 			"isResource": false,

@@ -1,16 +1,16 @@
 {
-	"_id": "7LJ3xrKvNMoGL6Sf",
-	"_key": "!actors.items!DSAN0JrvOUG4L2IF.7LJ3xrKvNMoGL6Sf",
+	"_id": "LCJK7eFbSrALtMK2",
+	"_key": "!actors.items!6jeJN0Pys1iAsgKC.LCJK7eFbSrALtMK2",
 	"effects": [
 	],
-	"folder": null,
-	"img": "systems/D35E/icons/feats/weapon-finesse.png",
-	"name": "Weapon Finesse",
+	"folder": "kW5aSTmsUaTGo6uI",
+	"img": "icons/skills/targeting/crosshair-ringed-gray.webp",
+	"name": "Racial Skill Bonus",
 	"system": {
 		"ability": {
 			"attack": null,
 			"critMult": 2,
-			"critRange": 20,
+			"critRange": "20",
 			"damage": null,
 			"damageMult": 1,
 			"twoHandedOnly": false,
@@ -24,7 +24,7 @@
 			"cost": 1,
 			"type": ""
 		},
-		"addedLevel": 0,
+		"addedLevel": 12,
 		"associations": {
 			"classes": [
 			]
@@ -63,20 +63,41 @@
 			"uncannyDodge": false
 		},
 		"changes": [
+			[
+				"4",
+				"skill",
+				"skill.hid",
+				"racial"
+			],
+			[
+				"4",
+				"skill",
+				"skill.lis",
+				"racial"
+			],
+			[
+				"4",
+				"skill",
+				"skill.spt",
+				"racial"
+			],
+			[
+				"8",
+				"skill",
+				"skill.blc",
+				"racial"
+			],
+			[
+				"8",
+				"skill",
+				"skill.clm",
+				"racial"
+			]
 		],
-		"classSource": "human",
+		"classSource": "",
 		"combatChangeCustomDisplayName": "",
 		"combatChangeCustomReferenceName": "",
 		"combatChanges": [
-			[
-				"attack",
-				"",
-				"@item.finesseable",
-				"$item.ability.attack",
-				"dex",
-				"",
-				""
-			]
 		],
 		"combatChangesAdditionalRanges": {
 			"hasAdditionalRanges": false,
@@ -123,7 +144,6 @@
 		"customAttributes": {
 		},
 		"customAttributesLocked": false,
-		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
 			"alternativeParts": [
@@ -133,16 +153,12 @@
 		},
 		"damageReduction": [
 		],
-		"damageType": {
-			"_deprecated": true,
-			"value": ""
-		},
 		"deactivateActions": [
 		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "\n\n\n<h3><span class=\"mw-headline\" id=\"Prerequisite\">Prerequisite</span></h3>\n<p>Base attack bonus +1.\n</p>\n<h3><span class=\"mw-headline\" id=\"Benefit\">Benefit</span></h3>\n<p>With a light weapon, rapier, whip, or spiked chain made for a creature of your size category, you may use your Dexterity modifier instead of your Strength modifier on attack rolls. If you carry a shield, its armor check penalty applies to your attack rolls.\n</p>\n<h3><span class=\"mw-headline\" id=\"Special\">Special</span></h3>\n<p>A fighter may select Weapon Finesse as one of his fighter bonus feats.\n</p><p>Natural weapons are always considered light weapons.\n</p><p><br/>\n</p>\n<hr/>\n\n\n"
+			"value": "<p>Snakes have a +4 racial bonus on&nbsp;<a href=\"https://www.d20srd.org/srd/skills/hide.htm\">Hide</a>,&nbsp;<a href=\"https://www.d20srd.org/srd/skills/listen.htm\">Listen</a>, and&nbsp;<a href=\"https://www.d20srd.org/srd/skills/spot.htm\">Spot</a>&nbsp;checks and a +8 racial bonus on&nbsp;<a href=\"https://www.d20srd.org/srd/skills/balance.htm\">Balance</a>&nbsp;and&nbsp;<a href=\"https://www.d20srd.org/srd/skills/climb.htm\">Climb</a>&nbsp;checks. A snake can always choose to&nbsp;<a href=\"https://www.d20srd.org/srd/skills/usingSkills.htm#taking10\">take 10</a>&nbsp;on a&nbsp;<a href=\"https://www.d20srd.org/srd/skills/climb.htm\">Climb</a>&nbsp;check, even if rushed or threatened. Snakes use either their Strength modifier or Dexterity modifier for&nbsp;<a href=\"https://www.d20srd.org/srd/skills/climb.htm\">Climb</a>&nbsp;checks, whichever is higher. A snake has a +8 racial bonus on any&nbsp;<a href=\"https://www.d20srd.org/srd/skills/swim.htm\">Swim</a>&nbsp;check to perform some special action or avoid a hazard. It can always choose to&nbsp;<a href=\"https://www.d20srd.org/srd/skills/usingSkills.htm#taking10\">take 10</a>&nbsp;on a&nbsp;<a href=\"https://www.d20srd.org/srd/skills/swim.htm\">Swim</a>&nbsp;check, even if distracted or endangered. It can use the&nbsp;<a href=\"https://www.d20srd.org/srd/combat/actionsInCombat.htm#run\">run</a> action while swimming, provided it swims in a straight line.</p>"
 		},
 		"duration": {
 			"units": "",
@@ -155,7 +171,7 @@
 		"featType": "trait",
 		"formula": "",
 		"fullResalePrice": false,
-		"identifiedName": "Weapon Finesse",
+		"identifiedName": "Racial Skill Bonus",
 		"index": {
 			"subType": "trait",
 			"uniqueId": ""
@@ -182,7 +198,7 @@
 			"customTexture": "",
 			"overrideColor": false,
 			"overrideTexture": false,
-			"size": 0,
+			"size": "",
 			"type": ""
 		},
 		"metamagic": {
@@ -201,9 +217,9 @@
 		},
 		"nameFormula": "",
 		"nameFromFormula": false,
-		"originId": "",
-		"originPack": "",
-		"originVersion": 1,
+		"originId": "Hf9FbUmG2FBTuoXm",
+		"originPack": "dnd-35e-generic-content.racial-abilities",
+		"originVersion": 28,
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,
@@ -323,10 +339,6 @@
 		"tags": [
 		],
 		"target": {
-			"value": ""
-		},
-		"time": {
-			"_deprecated": true,
 			"value": ""
 		},
 		"uniqueId": "",
