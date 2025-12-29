@@ -26,8 +26,10 @@
 		"automaticFeatures": true,
 		"bab": "",
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
 			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -56,19 +58,19 @@
 				"untyped"
 			],
 			[
-				"(@master.data.attributes.savingThrows.fort.base - 2) > 2 ? (@master.data.attributes.savingThrows.fort.base - 2) : 0",
+				"(@master.data.attributes.savingThrows.fort.base) > 0 ? (@master.data.attributes.savingThrows.fort.base) : 0",
 				"savingThrows",
 				"fort",
 				"base"
 			],
 			[
-				"(@master.data.attributes.savingThrows.will.base) > 2 ? (@master.data.attributes.savingThrows.will.base) : 0",
+				"(@master.data.attributes.savingThrows.will.base) > 0 ? (@master.data.attributes.savingThrows.will.base) : 0",
 				"savingThrows",
 				"will",
 				"base"
 			],
 			[
-				"(@master.data.attributes.savingThrows.ref.base - 2) > 2 ? (@master.data.attributes.savingThrows.ref.base - 2) : 0",
+				"(@master.data.attributes.savingThrows.ref.base) > 0 ? (@master.data.attributes.savingThrows.ref.base) : 0",
 				"savingThrows",
 				"ref",
 				"base"
@@ -126,6 +128,7 @@
 			"rid": false,
 			"sen": false,
 			"slt": false,
+			"spk": false,
 			"spl": false,
 			"spt": false,
 			"src": false,
@@ -190,6 +193,8 @@
 		"customAttributesLocked": false,
 		"customTag": "",
 		"damage": {
+			"alternativeParts": [
+			],
 			"parts": [
 			]
 		},
@@ -247,7 +252,9 @@
 		],
 		"originId": "",
 		"originPack": "",
-		"originVersion": 99,
+		"originVersion": 103,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"powerPointBonusBaseAbility": "0",
 		"powerPointTable": {
@@ -377,6 +384,8 @@
 		"spellsPerLevel": [
 		],
 		"spellslotAbility": "",
+		"summon": [
+		],
 		"tags": [
 		],
 		"turnUndeadLevelFormula": "0",

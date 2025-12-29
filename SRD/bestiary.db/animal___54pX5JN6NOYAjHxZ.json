@@ -7,14 +7,21 @@
 	"img": "systems/D35E/icons/racialhd/animal.png",
 	"name": "Animal*",
 	"system": {
+		"activateActions": [
+		],
 		"addedAbilities": [
 		],
 		"addedLevel": 0,
 		"allSpellsKnown": false,
+		"attackParts": [
+		],
 		"automaticFeatures": false,
 		"bab": "med",
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -44,7 +51,7 @@
 			"aut": false,
 			"blc": false,
 			"blf": false,
-			"clm": true,
+			"clm": false,
 			"coc": false,
 			"crf": false,
 			"dev": false,
@@ -83,12 +90,13 @@
 			"rid": false,
 			"sen": false,
 			"slt": false,
+			"spk": false,
 			"spl": false,
 			"spt": true,
 			"src": false,
 			"ste": true,
 			"sur": false,
-			"swm": true,
+			"swm": false,
 			"tmb": false,
 			"umd": false,
 			"upd": false,
@@ -129,6 +137,12 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
 		"counterName": "",
 		"crPerHD": 3,
 		"createdBy": "",
@@ -141,10 +155,14 @@
 		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
+			"alternativeParts": [
+			],
 			"parts": [
 			]
 		},
 		"damageReduction": [
+		],
+		"deactivateActions": [
 		],
 		"deckHandSizeFormula": "0",
 		"deckPrestigeClass": false,
@@ -196,7 +214,9 @@
 		],
 		"originId": "",
 		"originPack": "",
-		"originVersion": 2,
+		"originVersion": 4,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"powerPointBonusBaseAbility": "",
 		"powerPointTable": {
@@ -287,6 +307,8 @@
 		"sneakAttackFormula": "",
 		"sneakAttackGroup": "",
 		"source": "",
+		"specialActions": [
+		],
 		"spellPointBonusFormula": "0",
 		"spellPointGroup": "wizard",
 		"spellPointTable": {
@@ -368,12 +390,14 @@
 		"spellcastingSpellname": "Spell",
 		"spellcastingSpellnamePl": "Spells",
 		"spellcastingSpontaneus": false,
-		"spellcastingType": null,
+		"spellcastingType": "none",
 		"spellsKnownPerLevel": [
 		],
 		"spellsPerLevel": [
 		],
 		"spellslotAbility": "",
+		"summon": [
+		],
 		"tags": [
 		],
 		"turnUndeadLevelFormula": "",

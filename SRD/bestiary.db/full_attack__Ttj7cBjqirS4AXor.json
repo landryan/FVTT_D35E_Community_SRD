@@ -7,7 +7,11 @@
 	"img": "systems/D35E/icons/attack/full-attack.png",
 	"name": "Full Attack",
 	"system": {
+		"activateActions": [
+		],
 		"addedLevel": 0,
+		"attackParts": [
+		],
 		"attackType": "full",
 		"attacks": {
 			"attack1": {
@@ -18,7 +22,7 @@
 				"img": "systems/D35E/icons/attack/monster/claw.png",
 				"isWeapon": false,
 				"name": "Claw",
-				"primary": false
+				"primary": true
 			},
 			"attack2": {
 				"_id": 2,
@@ -28,7 +32,7 @@
 				"img": "systems/D35E/icons/attack/monster/bite.png",
 				"isWeapon": false,
 				"name": "Bite",
-				"primary": true
+				"primary": false
 			},
 			"attack3": {
 				"_id": 3,
@@ -61,23 +65,42 @@
 				"primary": false
 			}
 		},
+		"changes": [
+		],
 		"classSource": "",
+		"combatChanges": [
+		],
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
 		"createdBy": "",
+		"creationChanges": [
+		],
 		"customAttributes": {
 		},
 		"customAttributesLocked": false,
 		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
+			"alternativeParts": [
+			],
 			"parts": [
 			]
 		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
 			"value": "<p>This is one of the creatures full attacks.</p>"
 		},
 		"epic": "",
+		"identifiedName": "Full Attack",
 		"index": {
 			"subType": null,
 			"uniqueId": ""
@@ -91,9 +114,20 @@
 		"originId": "",
 		"originPack": "",
 		"originVersion": 0,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"psionic": "",
+		"requirements": [
+		],
+		"resistances": [
+		],
+		"showInQuickbar": true,
 		"source": "",
+		"specialActions": [
+		],
+		"summon": [
+		],
 		"tags": [
 		],
 		"uniqueId": "",

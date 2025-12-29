@@ -3,13 +3,13 @@
 	"_key": "!actors!ykx9wOn1pLwsaPKT",
 	"effects": [
 	],
-	"folder": null,
+	"folder": "EZ19pSVLg6RBMT9z",
 	"img": "systems/D35E/icons/bestiary/token/crow.png",
 	"items": [
 		"k3fcj8P3mvkxobis",
 		"IDQn8L2J2fNRI3DF",
 		"Uo9OztvPEvtJCJly",
-		"LfCNRFr548GRC0Iz"
+		"0nrk7eQ4b8tvqu5b"
 	],
 	"name": "Raven",
 	"prototypeToken": {
@@ -372,11 +372,11 @@
 			},
 			"hp": {
 				"base": 0,
-				"max": 4,
+				"max": 1,
 				"min": -100,
 				"nonlethal": null,
 				"temp": null,
-				"value": 4
+				"value": 1
 			},
 			"init": {
 				"bonus": 0,
@@ -1095,10 +1095,10 @@
 			"turnUndeadUsesBonusFormula": "",
 			"turnUndeadUsesTotal": 0,
 			"vigor": {
-				"max": 4,
+				"max": 1,
 				"min": 0,
 				"temp": 0,
-				"value": 4
+				"value": 1
 			},
 			"wounds": {
 				"max": 20,
@@ -1144,7 +1144,7 @@
 				},
 				"skillsPerLevel": 2,
 				"spellcastingAbility": "int",
-				"spellcastingType": null,
+				"spellcastingType": "none",
 				"spelllist": {
 				},
 				"spellsKnownPerLevel": [
@@ -1164,7 +1164,7 @@
 		"counters": {
 			"feat": {
 				"base": {
-					"counted": 0,
+					"counted": 1,
 					"value": 1
 				},
 				"human": {
@@ -1185,7 +1185,7 @@
 		},
 		"damage": {
 			"nonlethal": {
-				"max": 4,
+				"max": 1,
 				"value": 0
 			}
 		},
@@ -1202,7 +1202,7 @@
 				"public": "",
 				"value": ""
 			},
-			"bonusSkillRankFormula": "",
+			"bonusSkillRankFormula": "0",
 			"breakDC": {
 				"base": 0,
 				"total": 0
@@ -1232,10 +1232,10 @@
 			"levelUpProgression": false,
 			"notes": {
 				"public": "",
-				"value": "<div topic='Raven' level='2'><p>These glossy black birds are about 2 feet long and have wingspans of about 4 feet. They combine both claws into a single attack. The statistics presented here can describe most nonpredatory birds of similar size.</p><p/></div>    "
+				"value": "<div>\n<p><strong>Environment</strong>: Temperate forests<br><strong>Organization</strong>: Solitary</p>\n<p>These glossy black birds are about 2 feet long and have wingspans of about 4 feet. They combine both claws into a single attack. The statistics presented here can describe most nonpredatory birds of similar size.</p>\n</div>"
 			},
 			"totalCr": "0.00",
-			"type": "None",
+			"type": "Animal",
 			"xp": {
 				"value": 10
 			}
@@ -1259,15 +1259,11 @@
 		"noTokenOverride": false,
 		"noVisionOverride": true,
 		"resources": {
-			"claw": {
-				"_id": "Uo9OztvPEvtJCJly",
-				"max": 0
-			}
 		},
 		"senses": {
 			"blindsight": 0,
 			"darkvision": 0,
-			"lowLight": false,
+			"lowLight": true,
 			"lowLightMultiplier": 2,
 			"modified": {
 			},
@@ -1278,7 +1274,7 @@
 		"shapechangeImg": "icons/svg/mystery-man.svg",
 		"shieldType": "none",
 		"showCardSheet": false,
-		"showSpellcastingSheet": true,
+		"showSpellcastingSheet": false,
 		"skills": {
 			"apr": {
 				"ability": "int",
@@ -1771,9 +1767,10 @@
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
+				"changeBonus": 2,
 				"cs": true,
 				"energyDrainPenalty": 0,
-				"mod": 3,
+				"mod": 5,
 				"notes": "",
 				"points": 1,
 				"rank": 1,
@@ -1955,9 +1952,10 @@
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
+				"changeBonus": 2,
 				"cs": true,
 				"energyDrainPenalty": 0,
-				"mod": 5,
+				"mod": 7,
 				"notes": "",
 				"points": 3,
 				"rank": 3,
