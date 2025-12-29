@@ -1,11 +1,11 @@
 {
-	"_id": "pILxfC2FNkBPWDvB",
-	"_key": "!actors.items!x6m5e0yDJTUKNsB9.pILxfC2FNkBPWDvB",
+	"_id": "3WUW99IVrm3y1AN1",
+	"_key": "!actors.items!bgQNffoTG8SUTVZI.3WUW99IVrm3y1AN1",
 	"effects": [
 	],
 	"folder": null,
-	"img": "systems/D35E/icons/feats/agile.png",
-	"name": "Agile",
+	"img": "systems/D35E/icons/feats/weapon-finesse.png",
+	"name": "Weapon Finesse",
 	"system": {
 		"ability": {
 			"attack": null,
@@ -18,10 +18,13 @@
 		},
 		"abilityType": "",
 		"actionType": "",
+		"activateActions": [
+		],
 		"activation": {
 			"cost": 1,
 			"type": ""
 		},
+		"addedLevel": 0,
 		"associations": {
 			"classes": [
 			]
@@ -37,8 +40,14 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
+		"bookSource": "",
+		"brokenResalePrice": null,
+		"carried": false,
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -54,23 +63,20 @@
 			"uncannyDodge": false
 		},
 		"changes": [
-			[
-				"2",
-				"skill",
-				"skill.blc",
-				"untyped"
-			],
-			[
-				"2",
-				"skill",
-				"skill.esc",
-				"untyped"
-			]
 		],
-		"classSource": "",
+		"classSource": "human",
 		"combatChangeCustomDisplayName": "",
 		"combatChangeCustomReferenceName": "",
 		"combatChanges": [
+			[
+				"attack",
+				"",
+				"@item.finesseable",
+				"$item.ability.attack",
+				"dex",
+				"",
+				""
+			]
 		],
 		"combatChangesAdditionalRanges": {
 			"hasAdditionalRanges": false,
@@ -101,6 +107,11 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
+		"conditionals": [
+		],
+		"constantWeight": false,
+		"container": "None",
+		"containerWeightless": false,
 		"contextNotes": [
 		],
 		"counterName": "",
@@ -112,6 +123,7 @@
 		"customAttributes": {
 		},
 		"customAttributesLocked": false,
+		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
 			"alternativeParts": [
@@ -125,10 +137,12 @@
 			"_deprecated": true,
 			"value": ""
 		},
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "\n\n\n<h3><span class=\"mw-headline\" id=\"Benefit\">Benefit</span></h3>\n<p>You get a +2 bonus on all Balance checks and Escape Artist checks.\n</p><p><br/>\n</p>\n<hr/>\n\n\n"
+			"value": "\n\n\n<h3><span class=\"mw-headline\" id=\"Prerequisite\">Prerequisite</span></h3>\n<p>Base attack bonus +1.\n</p>\n<h3><span class=\"mw-headline\" id=\"Benefit\">Benefit</span></h3>\n<p>With a light weapon, rapier, whip, or spiked chain made for a creature of your size category, you may use your Dexterity modifier instead of your Strength modifier on attack rolls. If you carry a shield, its armor check penalty applies to your attack rolls.\n</p>\n<h3><span class=\"mw-headline\" id=\"Special\">Special</span></h3>\n<p>A fighter may select Weapon Finesse as one of his fighter bonus feats.\n</p><p>Natural weapons are always considered light weapons.\n</p><p><br/>\n</p>\n<hr/>\n\n\n"
 		},
 		"duration": {
 			"units": "",
@@ -136,9 +150,16 @@
 		},
 		"effectNotes": "",
 		"epic": "",
+		"equippedWeightless": false,
 		"favorite": false,
-		"featType": "feat",
+		"featType": "trait",
 		"formula": "",
+		"fullResalePrice": false,
+		"identifiedName": "Weapon Finesse",
+		"index": {
+			"subType": "trait",
+			"uniqueId": ""
+		},
 		"linkId": "",
 		"linkImported": false,
 		"linkSourceId": "",
@@ -182,7 +203,9 @@
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 0,
+		"originVersion": 1,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"pr": false,
 		"psionic": "",
@@ -202,6 +225,7 @@
 		"requirements": [
 		],
 		"requiresPsionicFocus": false,
+		"resalePrice": null,
 		"resistances": [
 		],
 		"rollTableDraw": {

@@ -1,11 +1,11 @@
 {
-	"_id": "3WUW99IVrm3y1AN1",
-	"_key": "!actors.items!458hYSzVNRJMpHLW.3WUW99IVrm3y1AN1",
+	"_id": "JgXbLgR7Q7LigdKp",
+	"_key": "!actors.items!bgQNffoTG8SUTVZI.JgXbLgR7Q7LigdKp",
 	"effects": [
 	],
 	"folder": null,
-	"img": "systems/D35E/icons/feats/weapon-finesse.png",
-	"name": "Weapon Finesse",
+	"img": "systems/D35E/icons/feats/agile.png",
+	"name": "Agile",
 	"system": {
 		"ability": {
 			"attack": null,
@@ -18,13 +18,11 @@
 		},
 		"abilityType": "",
 		"actionType": "",
-		"activateActions": [
-		],
 		"activation": {
 			"cost": 1,
 			"type": ""
 		},
-		"addedLevel": 0,
+		"addedLevel": 1,
 		"associations": {
 			"classes": [
 			]
@@ -40,14 +38,10 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
-		"bookSource": "",
-		"brokenResalePrice": null,
-		"carried": false,
+		"bookSource": "3.5e SRD",
 		"changeFlags": {
-			"firstChangeTargetSelectableOnDescription": false,
 			"hasted": false,
 			"heavyArmorFullSpeed": false,
-			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -63,20 +57,23 @@
 			"uncannyDodge": false
 		},
 		"changes": [
+			[
+				"2",
+				"skill",
+				"skill.blc",
+				"untyped"
+			],
+			[
+				"2",
+				"skill",
+				"skill.esc",
+				"untyped"
+			]
 		],
-		"classSource": "human",
+		"classSource": "",
 		"combatChangeCustomDisplayName": "",
 		"combatChangeCustomReferenceName": "",
 		"combatChanges": [
-			[
-				"attack",
-				"",
-				"@item.finesseable",
-				"$item.ability.attack",
-				"dex",
-				"",
-				""
-			]
 		],
 		"combatChangesAdditionalRanges": {
 			"hasAdditionalRanges": false,
@@ -107,10 +104,8 @@
 			"polymorphed": false,
 			"wildshaped": false
 		},
-		"conditionals": [
-		],
-		"constantWeight": false,
 		"container": "None",
+		"containerId": "none",
 		"containerWeightless": false,
 		"contextNotes": [
 		],
@@ -123,7 +118,6 @@
 		"customAttributes": {
 		},
 		"customAttributesLocked": false,
-		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
 			"alternativeParts": [
@@ -137,12 +131,10 @@
 			"_deprecated": true,
 			"value": ""
 		},
-		"deactivateActions": [
-		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "\n\n\n<h3><span class=\"mw-headline\" id=\"Prerequisite\">Prerequisite</span></h3>\n<p>Base attack bonus +1.\n</p>\n<h3><span class=\"mw-headline\" id=\"Benefit\">Benefit</span></h3>\n<p>With a light weapon, rapier, whip, or spiked chain made for a creature of your size category, you may use your Dexterity modifier instead of your Strength modifier on attack rolls. If you carry a shield, its armor check penalty applies to your attack rolls.\n</p>\n<h3><span class=\"mw-headline\" id=\"Special\">Special</span></h3>\n<p>A fighter may select Weapon Finesse as one of his fighter bonus feats.\n</p><p>Natural weapons are always considered light weapons.\n</p><p><br/>\n</p>\n<hr/>\n\n\n"
+			"value": "@LinkedDescription[Compendium.D35E.feats.Item.pILxfC2FNkBPWDvB]"
 		},
 		"duration": {
 			"units": "",
@@ -150,14 +142,11 @@
 		},
 		"effectNotes": "",
 		"epic": "",
-		"equippedWeightless": false,
 		"favorite": false,
-		"featType": "trait",
+		"featType": "feat",
 		"formula": "",
-		"fullResalePrice": false,
-		"identifiedName": "Weapon Finesse",
 		"index": {
-			"subType": "trait",
+			"subType": "feat",
 			"uniqueId": ""
 		},
 		"linkId": "",
@@ -201,14 +190,13 @@
 		},
 		"nameFormula": "",
 		"nameFromFormula": false,
-		"originId": "",
-		"originPack": "",
-		"originVersion": 1,
-		"perRoundActions": [
-		],
+		"originId": "pILxfC2FNkBPWDvB",
+		"originPack": "D35E.feats",
+		"originVersion": 101,
 		"possibleUpdate": false,
 		"pr": false,
 		"psionic": "",
+		"quantity": 1,
 		"range": {
 			"long": null,
 			"units": "",
@@ -225,7 +213,6 @@
 		"requirements": [
 		],
 		"requiresPsionicFocus": false,
-		"resalePrice": null,
 		"resistances": [
 		],
 		"rollTableDraw": {
@@ -240,6 +227,7 @@
 			"dcAutoAbility": "",
 			"dcAutoType": "",
 			"description": "",
+			"originVersion": 97,
 			"type": ""
 		},
 		"showInQuickbar": false,
@@ -321,6 +309,9 @@
 		"summon": [
 		],
 		"tags": [
+			[
+				"General"
+			]
 		],
 		"target": {
 			"value": ""

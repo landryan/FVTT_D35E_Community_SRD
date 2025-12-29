@@ -1,11 +1,11 @@
 {
-	"_id": "eAPeWYgc3AVKcPtT",
-	"_key": "!actors.items!x6m5e0yDJTUKNsB9.eAPeWYgc3AVKcPtT",
+	"_id": "pXgrWmRKqKG6248z",
+	"_key": "!actors.items!bgQNffoTG8SUTVZI.pXgrWmRKqKG6248z",
 	"effects": [
 	],
 	"folder": null,
-	"img": "systems/D35E/icons/feats/weapon-finesse.png",
-	"name": "Weapon Finesse",
+	"img": "systems/D35E/icons/special-abilities/imported.png",
+	"name": "Attach",
 	"system": {
 		"ability": {
 			"attack": null,
@@ -22,6 +22,7 @@
 			"cost": 1,
 			"type": ""
 		},
+		"addedLevel": 0,
 		"associations": {
 			"classes": [
 			]
@@ -59,13 +60,6 @@
 		"combatChangeCustomDisplayName": "",
 		"combatChangeCustomReferenceName": "",
 		"combatChanges": [
-			[
-				"attack",
-				"",
-				"@item.finesseable",
-				"$item.ability.attack",
-				"dex"
-			]
 		],
 		"combatChangesAdditionalRanges": {
 			"hasAdditionalRanges": false,
@@ -107,6 +101,7 @@
 		"customAttributes": {
 		},
 		"customAttributesLocked": false,
+		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
 			"alternativeParts": [
@@ -116,14 +111,10 @@
 		},
 		"damageReduction": [
 		],
-		"damageType": {
-			"_deprecated": true,
-			"value": ""
-		},
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "\n\n\n<h3><span class=\"mw-headline\" id=\"Prerequisite\">Prerequisite</span></h3>\n<p>Base attack bonus +1.\n</p>\n<h3><span class=\"mw-headline\" id=\"Benefit\">Benefit</span></h3>\n<p>With a light weapon, rapier, whip, or spiked chain made for a creature of your size category, you may use your Dexterity modifier instead of your Strength modifier on attack rolls. If you carry a shield, its armor check penalty applies to your attack rolls.\n</p>\n<h3><span class=\"mw-headline\" id=\"Special\">Special</span></h3>\n<p>A fighter may select Weapon Finesse as one of his fighter bonus feats.\n</p><p>Natural weapons are always considered light weapons.\n</p><p><br/>\n</p>\n<hr/>\n\n\n"
+			"value": "<p><em>This ability was imported automatically does not have actions or changes.</em></p><div level=\"8\" topic=\"Attach\"><p> If a weasel hits with a bite attack, it uses its powerful jaws to latch onto the opponent's body and automatically deals bite damage each round it remains attached. An attached weasel loses its Dexterity bonus to Armor Class and has an AC of 12. An attached weasel can be struck with a weapon or grappled itself. To remove an attached weasel through grappling, the opponent must achieve a pin against the creature.</p></div>"
 		},
 		"duration": {
 			"units": "",
@@ -132,8 +123,12 @@
 		"effectNotes": "",
 		"epic": "",
 		"favorite": false,
-		"featType": "feat",
+		"featType": "trait",
 		"formula": "",
+		"index": {
+			"subType": "trait",
+			"uniqueId": ""
+		},
 		"linkId": "",
 		"linkImported": false,
 		"linkSourceId": "",
@@ -294,10 +289,6 @@
 		"tags": [
 		],
 		"target": {
-			"value": ""
-		},
-		"time": {
-			"_deprecated": true,
 			"value": ""
 		},
 		"uniqueId": "",
