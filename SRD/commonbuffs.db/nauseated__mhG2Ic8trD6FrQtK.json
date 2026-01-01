@@ -1,0 +1,223 @@
+{
+	"_id": "mhG2Ic8trD6FrQtK",
+	"_key": "!items!mhG2Ic8trD6FrQtK",
+	"effects": [
+	],
+	"folder": "Ern2Q7y7ONsYPRa4",
+	"img": "systems/D35E/icons/conditions/sickened.png",
+	"name": "Nauseated",
+	"system": {
+		"activateActions": [
+		],
+		"activation": {
+			"cost": 1,
+			"type": ""
+		},
+		"active": false,
+		"addedLevel": 0,
+		"attackParts": [
+		],
+		"buffType": "temp",
+		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
+			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+			[
+				"Cannot Act but has no penalty to AC.",
+				"",
+				""
+			]
+		],
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damagePool": {
+			"current": 0,
+			"deleteOnDamagePoolEmpty": false,
+			"enabled": false,
+			"formula": "",
+			"max": 0
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p>Experiencing stomach distress. Nauseated creatures are unable to attack, cast spells, concentrate on spells, or do anything else requiring attention. The only action such a character can take is a single&nbsp;<a href=\"https://www.d20srd.org/srd/combat/actionsInCombat.htm#moveActions\">move action</a> per turn.</p>"
+		},
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"epic": "",
+		"hideFromToken": false,
+		"identifiedName": "Nauseated",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"level": "",
+		"light": {
+			"alpha": 0.5,
+			"animationIntensity": 6,
+			"animationSpeed": 6,
+			"color": "#000000",
+			"dimRadius": null,
+			"emitLight": false,
+			"lightAngle": 360,
+			"opacity": 0,
+			"radius": 0,
+			"type": ""
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 1,
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"psionic": "",
+		"range": {
+			"units": "",
+			"value": null
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requirements": [
+		],
+		"requiresPsionicFocus": false,
+		"resistances": [
+		],
+		"senses": {
+			"blindsight": null,
+			"darkvision": null,
+			"lowLight": false,
+			"lowLightMultiplier": null,
+			"tremorsense": null,
+			"truesight": null
+		},
+		"shapechange": {
+			"source": {
+			},
+			"type": "polymorph"
+		},
+		"sizeOverride": "",
+		"source": "",
+		"specialActions": [
+		],
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"timeline": {
+			"deleteOnExpiry": false,
+			"elapsed": 0,
+			"enabled": false,
+			"formula": "1",
+			"tickOnEnd": false,
+			"total": 1
+		},
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": null,
+			"rechargeFormula": null,
+			"value": 0
+		}
+	},
+	"type": "buff"
+}
