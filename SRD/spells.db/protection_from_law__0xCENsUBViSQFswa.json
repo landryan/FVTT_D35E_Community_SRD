@@ -23,6 +23,7 @@
 			"cost": 1,
 			"type": "standard"
 		},
+		"addedLevel": 0,
 		"atWill": false,
 		"attack": {
 			"parts": [
@@ -164,7 +165,7 @@
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 109,
+		"originVersion": 110,
 		"possibleUpdate": false,
 		"powerPointsCost": 0,
 		"pr": false,
@@ -210,6 +211,13 @@
 		"snip": "+2 to AC and saves, counter mind control, hedge out elementals and outsiders.",
 		"source": "",
 		"specialActions": [
+			{
+				"action": "Create unique \"Protection from Law\" from \"D35E.commonbuffs\" on target;Set buff \"Protection from Law\" field data.level to max(1,(@cl)) on target;Activate buff \"Protection from Law\" on target",
+				"condition": "",
+				"img": "systems/D35E/icons/spells/named-spells/protection-against-law.png",
+				"name": "Protection from Law",
+				"range": ""
+			}
 		],
 		"specialId": null,
 		"specialPrepared": false,

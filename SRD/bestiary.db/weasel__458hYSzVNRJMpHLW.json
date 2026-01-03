@@ -3,15 +3,16 @@
 	"_key": "!actors!458hYSzVNRJMpHLW",
 	"effects": [
 	],
-	"folder": null,
-	"img": "systems/D35E/icons/bestiary/token/animal.png",
+	"folder": "EZ19pSVLg6RBMT9z",
+	"img": "systems/D35E/icons/minions/tokens/weasel.png",
 	"items": [
 		"ieF1dm51Free566o",
 		"L3I8CLKCgxPubA3l",
 		"pXgrWmRKqKG6248z",
 		"3WUW99IVrm3y1AN1",
 		"rMmbxyLvCHjoLbw2",
-		"MB1gbM4hfEsRrzpl"
+		"pJI74vLjYdjB9A4p",
+		"JgXbLgR7Q7LigdKp"
 	],
 	"name": "Weasel",
 	"prototypeToken": {
@@ -297,7 +298,7 @@
 			"cmdNotes": "",
 			"concealment": {
 				"total": 0,
-				"value": 0
+				"value": null
 			},
 			"conditions": {
 				"banished": false,
@@ -349,12 +350,12 @@
 					"medium": 10
 				}
 			},
-			"energyDrain": 0,
+			"energyDrain": null,
 			"energyResistance": [
 			],
 			"fortification": {
 				"total": 0,
-				"value": 0
+				"value": null
 			},
 			"hardness": {
 				"formula": "",
@@ -374,11 +375,11 @@
 			},
 			"hp": {
 				"base": 0,
-				"max": 4,
+				"max": 2,
 				"min": -100,
-				"nonlethal": 0,
-				"temp": 0,
-				"value": 4
+				"nonlethal": null,
+				"temp": null,
+				"value": 2
 			},
 			"init": {
 				"bonus": 0,
@@ -400,7 +401,7 @@
 				"skills": {
 				}
 			},
-			"naturalAC": 0,
+			"naturalAC": "",
 			"naturalACTotal": 0,
 			"powerPointsTotal": 0,
 			"pr": {
@@ -459,7 +460,7 @@
 			"sneakAttackDiceTotal": 0,
 			"speed": {
 				"burrow": {
-					"base": 0,
+					"base": null,
 					"run": 0,
 					"total": 0
 				},
@@ -469,7 +470,7 @@
 					"total": 20
 				},
 				"fly": {
-					"base": 0,
+					"base": null,
 					"maneuverability": "average",
 					"run": 0,
 					"total": 0
@@ -480,7 +481,7 @@
 					"total": 20
 				},
 				"swim": {
-					"base": 0,
+					"base": null,
 					"run": 0,
 					"total": 0
 				}
@@ -1097,10 +1098,10 @@
 			"turnUndeadUsesBonusFormula": "",
 			"turnUndeadUsesTotal": 0,
 			"vigor": {
-				"max": 4,
+				"max": 2,
 				"min": 0,
 				"temp": 0,
-				"value": 4
+				"value": 2
 			},
 			"wounds": {
 				"max": 20,
@@ -1146,7 +1147,7 @@
 				},
 				"skillsPerLevel": 2,
 				"spellcastingAbility": "int",
-				"spellcastingType": null,
+				"spellcastingType": "none",
 				"spelllist": {
 				},
 				"spellsKnownPerLevel": [
@@ -1166,7 +1167,7 @@
 		"counters": {
 			"feat": {
 				"base": {
-					"counted": 0,
+					"counted": 1,
 					"value": 1
 				},
 				"human": {
@@ -1187,7 +1188,7 @@
 		},
 		"damage": {
 			"nonlethal": {
-				"max": 4,
+				"max": 2,
 				"value": 0
 			}
 		},
@@ -1204,7 +1205,7 @@
 				"public": "",
 				"value": ""
 			},
-			"bonusSkillRankFormula": "",
+			"bonusSkillRankFormula": "1",
 			"breakDC": {
 				"base": 0,
 				"total": 0
@@ -1234,14 +1235,16 @@
 			"levelUpProgression": false,
 			"notes": {
 				"public": "",
-				"value": "<div topic='Weasel' level='2'><p>These little mammals are aggressive predators but usually confine themselves to smaller prey. The statistics presented here can also apply to ferrets.</p><div topic='Combat' level='5'><p><h2>Combat</h2></p><div topic='Attach' level='8'><p><b>Attach (Ex):</b> If a weasel hits with a bite attack, it uses its powerful jaws to latch onto the opponent's body and automatically deals bite damage each round it remains attached. An attached weasel loses its Dexterity bonus to Armor Class and has an AC of 12. An attached weasel can be struck with a weapon or grappled itself. To remove an attached weasel through grappling, the opponent must achieve a pin against the creature.</p></div><div topic='Skills' level='8'><p><b>Skills:</b> Weasels have a +4 racial bonus on Move Silently checks and a +8 racial bonus on Balance and Climb checks. They use their Dexterity modifier for Climb checks. A weasel can always choose to take 10 on a Climb check, even if rushed or threatened.</p><p/></div></div></div>    "
+				"value": "<div>\n<p><strong>Environment</strong>: &nbsp; &nbsp;Temperate hills<br><strong>Organization</strong>: &nbsp; &nbsp;Solitary</p>\n<p>These little mammals are aggressive predators but usually confine themselves to smaller prey. The statistics presented here can also apply to ferrets.</p>\n<div>\n<p>&nbsp;</p>\n<h2>Combat</h2>\n<p>&nbsp;</p>\n<div>\n<p><strong>Attach (Ex):</strong> If a weasel hits with a bite attack, it uses its powerful jaws to latch onto the opponent's body and automatically deals bite damage each round it remains attached. An attached weasel loses its Dexterity bonus to Armor Class and has an AC of 12. An attached weasel can be struck with a weapon or grappled itself. To remove an attached weasel through grappling, the opponent must achieve a pin against the creature.</p>\n</div>\n<div>\n<p><strong>Skills:</strong> Weasels have a +4 racial bonus on Move Silently checks and a +8 racial bonus on Balance and Climb checks. They use their Dexterity modifier for Climb checks. A weasel can always choose to take 10 on a Climb check, even if rushed or threatened.</p>\n<p>&nbsp;</p>\n</div>\n</div>\n</div>"
 			},
 			"totalCr": "0.25",
-			"type": "None",
+			"type": "Animal",
 			"xp": {
 				"value": 10
 			}
 		},
+		"displayNonRTSkills": false,
+		"isPartyMember": false,
 		"jumpSkillAdjust": false,
 		"lockEditingByPlayers": false,
 		"master": {
@@ -1267,7 +1270,7 @@
 		"senses": {
 			"blindsight": 0,
 			"darkvision": 0,
-			"lowLight": false,
+			"lowLight": true,
 			"lowLightMultiplier": 2,
 			"modified": {
 			},
@@ -1278,7 +1281,7 @@
 		"shapechangeImg": "icons/svg/mystery-man.svg",
 		"shieldType": "none",
 		"showCardSheet": false,
-		"showSpellcastingSheet": true,
+		"showSpellcastingSheet": false,
 		"skills": {
 			"apr": {
 				"ability": "int",
@@ -1286,11 +1289,12 @@
 				"acp": false,
 				"acpPenalty": 0,
 				"background": false,
+				"changeBonus": 0,
 				"cs": false,
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1306,7 +1310,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 1,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1318,12 +1322,13 @@
 				"acp": true,
 				"acpPenalty": 0,
 				"background": false,
+				"changeBonus": 10,
 				"cs": true,
 				"energyDrainPenalty": 0,
-				"mod": 10,
+				"mod": 12,
 				"notes": "",
-				"points": 8,
-				"rank": 8,
+				"points": null,
+				"rank": 0,
 				"rt": false,
 				"value": 0,
 				"visibility": "default"
@@ -1338,25 +1343,25 @@
 				"energyDrainPenalty": 0,
 				"mod": -3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
 				"visibility": "default"
 			},
 			"clm": {
-				"ability": "str",
-				"abilityModifier": -4,
+				"ability": "dex",
+				"abilityModifier": 2,
 				"acp": true,
 				"acpPenalty": 0,
 				"background": false,
 				"changeBonus": 8,
 				"cs": true,
 				"energyDrainPenalty": 0,
-				"mod": 18,
+				"mod": 10,
 				"notes": "",
-				"points": 14,
-				"rank": 14,
+				"points": null,
+				"rank": 0,
 				"rt": false,
 				"value": 0,
 				"visibility": "default"
@@ -1371,7 +1376,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 0,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1407,7 +1412,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1423,7 +1428,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1439,7 +1444,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1455,7 +1460,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1467,11 +1472,12 @@
 				"acp": true,
 				"acpPenalty": 0,
 				"background": false,
-				"cs": false,
+				"changeBonus": 2,
+				"cs": true,
 				"energyDrainPenalty": 0,
-				"mod": 2,
+				"mod": 4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1487,7 +1493,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1503,7 +1509,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1519,7 +1525,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1535,7 +1541,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 1,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1568,7 +1574,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1584,7 +1590,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1600,7 +1606,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1616,7 +1622,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1632,7 +1638,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1648,7 +1654,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1664,7 +1670,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1680,7 +1686,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1696,7 +1702,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1712,10 +1718,11 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
-				"value": 0
+				"value": 0,
+				"visibility": "default"
 			},
 			"kpl": {
 				"ability": "int",
@@ -1727,7 +1734,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1743,7 +1750,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1759,7 +1766,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1775,7 +1782,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 1,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1787,12 +1794,13 @@
 				"acp": true,
 				"acpPenalty": 0,
 				"background": false,
+				"changeBonus": 4,
 				"cs": true,
 				"energyDrainPenalty": 0,
 				"mod": 8,
 				"notes": "",
-				"points": 6,
-				"rank": 6,
+				"points": 2,
+				"rank": 2,
 				"rt": false,
 				"value": 0,
 				"visibility": "default"
@@ -1807,7 +1815,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1863,7 +1871,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1879,7 +1887,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1895,7 +1903,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 1,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1911,7 +1919,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1927,7 +1935,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 0,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1943,7 +1951,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -1975,7 +1983,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -1991,7 +1999,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 1,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -2007,7 +2015,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -4,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -2023,7 +2031,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -2039,7 +2047,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -2055,7 +2063,7 @@
 				"energyDrainPenalty": 0,
 				"mod": -3,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": true,
 				"value": 0,
@@ -2071,7 +2079,7 @@
 				"energyDrainPenalty": 0,
 				"mod": 2,
 				"notes": "",
-				"points": 0,
+				"points": null,
 				"rank": 0,
 				"rt": false,
 				"value": 0,
@@ -2082,7 +2090,7 @@
 			"ac": 0,
 			"hp": 0
 		},
-		"tokenImg": "systems/D35E/icons/bestiary/token/animal.png",
+		"tokenImg": "systems/D35E/icons/minions/tokens/weasel.png",
 		"totalNonEclLevels": 1,
 		"traits": {
 			"actualSize": "tiny",
@@ -2104,6 +2112,8 @@
 				]
 			},
 			"eres": "",
+			"fastHealing": null,
+			"fastHealingTotal": null,
 			"incorporeal": false,
 			"languages": {
 				"custom": "",
@@ -2113,8 +2123,11 @@
 			"perception": {
 				"_deprecated": true
 			},
+			"regen": null,
+			"regenTotal": null,
 			"senses": "Low Light Vision",
 			"size": "tiny",
+			"tokenSize": "actor",
 			"tokensize": "actor"
 		}
 	},
