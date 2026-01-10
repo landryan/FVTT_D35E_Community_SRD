@@ -1,0 +1,226 @@
+{
+	"_id": "34RXBWAGi3Gvczut",
+	"_key": "!items!34RXBWAGi3Gvczut",
+	"effects": [
+	],
+	"folder": "DVJgCBB7nccWIObz",
+	"img": "systems/D35E/icons/spells/named-spells/protection-from-energy.png",
+	"name": "Protection From Sonic",
+	"system": {
+		"activateActions": [
+		],
+		"activation": {
+			"cost": 1,
+			"type": ""
+		},
+		"active": false,
+		"addedLevel": 0,
+		"attackParts": [
+		],
+		"buffType": "temp",
+		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
+			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
+			"loseDexToAC": false,
+			"mediumArmorFullSpeed": false,
+			"multiAttack": false,
+			"multiweaponAttack": false,
+			"noCon": false,
+			"noDex": false,
+			"noEncumbrance": false,
+			"noInt": false,
+			"noStr": false,
+			"oneCha": false,
+			"oneInt": false,
+			"oneWis": false,
+			"uncannyDodge": false
+		},
+		"changes": [
+		],
+		"classSource": "",
+		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomReferenceName": "",
+		"combatChanges": [
+		],
+		"combatChangesAdditionalRanges": {
+			"hasAdditionalRanges": false,
+			"slider1": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider2": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			},
+			"slider3": {
+				"max": 0,
+				"maxFormula": "",
+				"name": ""
+			}
+		},
+		"combatChangesApplySpecialActionsOnce": true,
+		"combatChangesRange": {
+			"max": 0,
+			"maxFormula": ""
+		},
+		"combatChangesUsesCost": "chargesPerUse",
+		"conditionFlags": {
+			"dazzled": false,
+			"polymorphed": false,
+			"wildshaped": false
+		},
+		"conditionals": [
+		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
+		"counterName": "",
+		"createdBy": "",
+		"creationChanges": [
+		],
+		"customAttributes": {
+		},
+		"customAttributesLocked": false,
+		"customTag": "",
+		"damage": {
+			"alternativeParts": [
+			],
+			"parts": [
+			]
+		},
+		"damagePool": {
+			"current": 0,
+			"deleteOnDamagePoolEmpty": true,
+			"enabled": true,
+			"formula": "min(120,12*@item.level)",
+			"max": 0,
+			"total": 12
+		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
+		"description": {
+			"chat": "",
+			"unidentified": "",
+			"value": "<p><em>Protection from energy&nbsp;</em>grants temporary immunity to the type of energy you specify when you cast it (acid, cold, electricity, fire, or sonic). When the spell absorbs 12 points per caster level of energy damage (to a maximum of 120 points at 10th level), it is discharged.</p>\n<p><em>Note: Protection from energy&nbsp;</em>overlaps (and does not stack with)&nbsp;<em>resist energy.</em>&nbsp;If a character is warded by&nbsp;<em>protection from energy&nbsp;</em>and&nbsp;<em>resist energy,&nbsp;</em>the&nbsp;<em>protection&nbsp;</em>spell absorbs damage until its power is exhausted.</p>"
+		},
+		"duration": {
+			"units": "",
+			"value": null
+		},
+		"epic": "",
+		"hideFromToken": false,
+		"identifiedName": "Protection From Sonic",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
+		"level": "",
+		"light": {
+			"alpha": 0.5,
+			"animationIntensity": 6,
+			"animationSpeed": 6,
+			"color": "#000000",
+			"dimRadius": null,
+			"emitLight": false,
+			"lightAngle": 360,
+			"opacity": 0,
+			"radius": 0,
+			"type": ""
+		},
+		"linkId": "",
+		"linkImported": false,
+		"linkSourceId": "",
+		"linkSourceName": "",
+		"linkedChargeItem": {
+			"id": null,
+			"img": null,
+			"name": null
+		},
+		"nameFormula": "",
+		"nameFromFormula": false,
+		"originId": "",
+		"originPack": "",
+		"originVersion": 3,
+		"perRoundActions": [
+		],
+		"possibleUpdate": false,
+		"psionic": "",
+		"range": {
+			"units": "",
+			"value": null
+		},
+		"recharge": {
+			"current": 0,
+			"enabled": false,
+			"formula": ""
+		},
+		"requirements": [
+		],
+		"requiresPsionicFocus": false,
+		"resistances": [
+			[
+				"",
+				"energy-sonic",
+				true,
+				false,
+				false
+			]
+		],
+		"senses": {
+			"blindsight": null,
+			"darkvision": null,
+			"lowLight": false,
+			"lowLightMultiplier": null,
+			"tremorsense": null,
+			"truesight": null
+		},
+		"shapechange": {
+			"source": {
+			},
+			"type": "polymorph"
+		},
+		"sizeOverride": "",
+		"source": "",
+		"specialActions": [
+		],
+		"summon": [
+		],
+		"tags": [
+		],
+		"target": {
+			"value": ""
+		},
+		"timeline": {
+			"deleteOnExpiry": false,
+			"elapsed": 0,
+			"enabled": false,
+			"formula": "",
+			"tickOnEnd": false,
+			"total": 0
+		},
+		"uniqueId": "",
+		"userNonRemovable": false,
+		"uses": {
+			"allowMultipleUses": false,
+			"autoDeductCharges": true,
+			"canBeLinked": false,
+			"chargesPerUse": 1,
+			"isResource": false,
+			"max": 0,
+			"maxFormula": "",
+			"maxPerUse": null,
+			"maxPerUseFormula": "",
+			"per": null,
+			"rechargeFormula": null,
+			"value": 0
+		}
+	},
+	"type": "buff"
+}
