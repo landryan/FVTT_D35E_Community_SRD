@@ -5,7 +5,7 @@
 	],
 	"folder": "pvfhalPN33ibirUB",
 	"img": "systems/D35E/icons/classfeatures/familiar.png",
-	"name": "Special Abilitiy (Familiar)",
+	"name": "Special Ability (Familiar)",
 	"system": {
 		"ability": {
 			"attack": null,
@@ -137,7 +137,7 @@
 		"featType": "classFeat",
 		"formula": "",
 		"fullResalePrice": false,
-		"identifiedName": "Special Abilitiy (Familiar)",
+		"identifiedName": "Special Ability (Familiar)",
 		"index": {
 			"subType": "classFeat",
 			"uniqueId": "familiar-special-abilitiy"
@@ -185,7 +185,7 @@
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 23,
+		"originVersion": 25,
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,
@@ -231,71 +231,61 @@
 				"action": "Create unique \"Bat Familiar\" from \"D35E.commonbuffs\" on target;Set buff \"Bat Familiar\" field data.level to max(1,(@cl)) on target;Activate buff \"Bat Familiar\" on target",
 				"condition": "",
 				"img": "systems/D35E/icons/minions/bat.png",
-				"name": "Bat Familiar",
-				"range": ""
+				"name": "Bat Familiar"
 			},
 			{
 				"action": "Create unique \"Cat Familiar\" from \"D35E.commonbuffs\" on target;Set buff \"Cat Familiar\" field data.level to max(1,(@cl)) on target;Activate buff \"Cat Familiar\" on target",
 				"condition": "",
 				"img": "systems/D35E/icons/minions/cat.png",
-				"name": "Cat Familiar",
-				"range": ""
+				"name": "Cat Familiar"
 			},
 			{
 				"action": "Create unique \"Hawk Familiar\" from \"D35E.commonbuffs\" on target;Set buff \"Hawk Familiar\" field data.level to max(1,(@cl)) on target;Activate buff \"Hawk Familiar\" on target",
 				"condition": "",
 				"img": "systems/D35E/icons/minions/hawk.png",
-				"name": "Hawk Familiar",
-				"range": ""
+				"name": "Hawk Familiar"
 			},
 			{
 				"action": "Create unique \"Lizard Familiar\" from \"D35E.commonbuffs\" on target;Set buff \"Lizard Familiar\" field data.level to max(1,(@cl)) on target;Activate buff \"Lizard Familiar\" on target",
 				"condition": "",
 				"img": "systems/D35E/icons/minions/lizard.png",
-				"name": "Lizard Familiar",
-				"range": ""
+				"name": "Lizard Familiar"
 			},
 			{
 				"action": "Create unique \"Owl Familiar\" from \"D35E.commonbuffs\" on target;Set buff \"Owl Familiar\" field data.level to max(1,(@cl)) on target;Activate buff \"Owl Familiar\" on target",
 				"condition": "",
 				"img": "systems/D35E/icons/minions/owl.png",
-				"name": "Owl Familiar",
-				"range": ""
+				"name": "Owl Familiar"
 			},
 			{
 				"action": "Create unique \"Rat Familiar\" from \"D35E.commonbuffs\" on target;Set buff \"Rat Familiar\" field data.level to max(1,(@cl)) on target;Activate buff \"Rat Familiar\" on target",
 				"condition": "",
 				"img": "systems/D35E/icons/minions/rat.png",
-				"name": "Rat Familiar",
-				"range": ""
+				"name": "Rat Familiar"
 			},
 			{
 				"action": "Create unique \"Raven Familiar\" from \"D35E.commonbuffs\" on target;Set buff \"Raven Familiar\" field data.level to max(1,(@cl)) on target;Activate buff \"Raven Familiar\" on target",
 				"condition": "",
 				"img": "systems/D35E/icons/minions/raven.png",
-				"name": "Raven Familiar",
-				"range": ""
+				"name": "Raven Familiar"
 			},
 			{
 				"action": "Create unique \"Snake Familiar\" from \"D35E.commonbuffs\" on target;Set buff \"Snake Familiar\" field data.level to max(1,(@cl)) on target;Activate buff \"Snake Familiar\" on target",
 				"condition": "",
 				"img": "systems/D35E/icons/minions/snake.png",
-				"name": "Snake Familiar",
-				"range": ""
+				"name": "Snake Familiar"
 			},
 			{
 				"action": "Create unique \"Toad Familiar\" from \"D35E.commonbuffs\" on target;Set buff \"Toad Familiar\" field data.level to max(1,(@cl)) on target;Activate buff \"Toad Familiar\" on target",
 				"condition": "",
 				"img": "systems/D35E/icons/minions/toad.png",
-				"name": "Toad Familiar",
-				"range": ""
+				"name": "Toad Familiar"
 			},
 			{
 				"action": "Create unique \"Weasel Familiar\" from \"D35E.commonbuffs\" on target;Set buff \"Weasel Familiar\" field data.level to max(1,(@cl)) on target;Activate buff \"Weasel Familiar\" on target",
 				"condition": "",
 				"img": "systems/D35E/icons/minions/weasel.png",
-				"name": "Weasel Familiar",
-				"range": ""
+				"name": "Weasel Familiar"
 			}
 		],
 		"spellSpecialization": {
@@ -376,7 +366,7 @@
 		"target": {
 			"value": "Master"
 		},
-		"uniqueId": "familiar-special-abilitiy",
+		"uniqueId": "familiar-special-ability",
 		"userNonRemovable": false,
 		"uses": {
 			"allowMultipleUses": false,
