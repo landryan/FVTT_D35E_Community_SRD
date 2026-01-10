@@ -40,9 +40,18 @@
 		"changes": [
 		],
 		"classSource": "",
-		"combatChangeCustomDisplayName": "",
+		"combatChangeCustomDisplayName": "Owl Familiar (Shadows Only)",
 		"combatChangeCustomReferenceName": "",
 		"combatChanges": [
+			[
+				"skillOptional",
+				"",
+				"'@skillId' === 'spt'",
+				"featSkillBonus",
+				"3",
+				"",
+				""
+			]
 		],
 		"combatChangesAdditionalRanges": {
 			"hasAdditionalRanges": false,
@@ -78,11 +87,6 @@
 		"container": "None",
 		"containerWeightless": false,
 		"contextNotes": [
-			[
-				"gain a +3 bonus on Spot checks in shadows",
-				"skill",
-				"skill.spt"
-			]
 		],
 		"counterName": "",
 		"createdBy": "",
@@ -151,7 +155,7 @@
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 1,
+		"originVersion": 10,
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,
