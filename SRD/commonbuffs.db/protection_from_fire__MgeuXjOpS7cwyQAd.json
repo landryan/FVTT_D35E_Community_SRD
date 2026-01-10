@@ -95,9 +95,9 @@
 		},
 		"damagePool": {
 			"current": 0,
-			"deleteOnDamagePoolEmpty": false,
+			"deleteOnDamagePoolEmpty": true,
 			"enabled": true,
-			"formula": "12*@item.level",
+			"formula": "min(120,12*@item.level)",
 			"max": 0,
 			"total": 12
 		},
@@ -147,7 +147,7 @@
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 1,
+		"originVersion": 3,
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,
