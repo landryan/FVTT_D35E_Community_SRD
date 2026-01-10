@@ -1,6 +1,6 @@
 {
-	"_id": "30E3w8l12gXTDLaV",
-	"_key": "!actors.items!KxU7QgzlKLCak4Pp.30E3w8l12gXTDLaV",
+	"_id": "eSGngARsG2BaGzlE",
+	"_key": "!actors.items!KxU7QgzlKLCak4Pp.eSGngARsG2BaGzlE",
 	"effects": [
 	],
 	"folder": null,
@@ -17,16 +17,23 @@
 			{
 				"level": 9,
 				"uid": "psi-fly"
+			},
+			{
+				"level": 1,
+				"uid": "psycrystal-alertness"
 			}
 		],
+		"addedLevel": 0,
 		"allSpellsKnown": false,
 		"attackParts": [
 		],
 		"automaticFeatures": true,
 		"bab": "",
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
 			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -55,19 +62,19 @@
 				"untyped"
 			],
 			[
-				"(@master.data.attributes.savingThrows.fort.base - 2) > 2 ? (@master.data.attributes.savingThrows.fort.base - 2) : 0",
+				"(@master.data.attributes.savingThrows.fort.base) > 0 ? (@master.data.attributes.savingThrows.fort.base) : 0",
 				"savingThrows",
 				"fort",
 				"base"
 			],
 			[
-				"(@master.data.attributes.savingThrows.will.base) > 2 ? (@master.data.attributes.savingThrows.will.base) : 0",
+				"(@master.data.attributes.savingThrows.will.base) > 0 ? (@master.data.attributes.savingThrows.will.base) : 0",
 				"savingThrows",
 				"will",
 				"base"
 			],
 			[
-				"(@master.data.attributes.savingThrows.ref.base - 2) > 2 ? (@master.data.attributes.savingThrows.ref.base - 2) : 0",
+				"(@master.data.attributes.savingThrows.ref.base) > 0 ? (@master.data.attributes.savingThrows.ref.base) : 0",
 				"savingThrows",
 				"ref",
 				"base"
@@ -125,6 +132,7 @@
 			"rid": false,
 			"sen": false,
 			"slt": false,
+			"spk": false,
 			"spl": false,
 			"spt": false,
 			"src": false,
@@ -136,7 +144,7 @@
 			"uro": false
 		},
 		"classSource": "",
-		"classType": "base",
+		"classType": "minion",
 		"combatChangeCustomDisplayName": "",
 		"combatChangeCustomReferenceName": "",
 		"combatChanges": [
@@ -189,6 +197,8 @@
 		"customAttributesLocked": false,
 		"customTag": "",
 		"damage": {
+			"alternativeParts": [
+			],
 			"parts": [
 			]
 		},
@@ -201,19 +211,22 @@
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "<p>A psicrystal is a fragment of a psionic character&rsquo;s personality, brought into physical form and a semblance of life (via the Psicrystal Affinity feat). A psicrystal appears as a crystalline construct about the size of a human hand.</p>\n<p>Because it is an extension of its creator&rsquo;s personality, a character&rsquo;s psicrystal is in some ways a part of him. That&rsquo;s why, for example, a psionic character can manifest a personal range power on his psicrystal even though normally he can manifest such a power only on himself.</p>\n<p>A psicrystal is treated as a construct for the purposes of all effects that depend on its type.</p>\n<p>A psicrystal grants special abilities to its owner, as shown on the Psicrystal Special Abilities table below. In addition, a psicrystal has a personality (being a fragment of the owner&rsquo;s personality), which gives its owner a bonus on certain types of checks or saving throws, as given on the Psicrystal Personalities table below. These special abilities and bonuses apply only when the owner and the psicrystal are within 1 mile of each other.</p>\n<p>Psicrystal abilities are based on the owner&rsquo;s levels in psionic classes. Levels from other classes do not count toward the owner&rsquo;s level for purposes of psicrystal abilities.</p>\n<p>A psicrystal can speak one language of its owner&rsquo;s choice (so long as it is a language the owner knows). A psicrystal can understand all other languages known by its owner, but cannot speak them. This is a supernatural ability.</p>\n<h3 id=\"psicrystalAbilityDescriptions\">Psicrystal Ability Descriptions</h3>\n<p>All familiars have special abilities (or impart abilities to their masters) depending on the master&rsquo;s combined level in classes that grant familiars, as shown on the table below and in Progression and Features Tab</p>\n<table id=\"tableFamiliarSpecialAbilities\" style=\"width: 98.8462%; height: 176px;\" cellspacing=\"0\">\n<tbody>\n<tr style=\"height: 16px;\">\n<th style=\"width: 30.7393%; height: 16px;\" align=\"left\">Master Class Level</th>\n<th style=\"width: 17.7043%; height: 16px;\">Natural Armor Adj.</th>\n<th style=\"width: 13.2296%; height: 16px;\">Int</th>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 30.7393%; height: 16px;\">1st-2nd</td>\n<td style=\"width: 17.7043%; height: 16px;\" align=\"center\">+0</td>\n<td style=\"width: 13.2296%; height: 16px;\" align=\"center\">+0</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 30.7393%; height: 16px;\">3rd-4th</td>\n<td style=\"width: 17.7043%; height: 16px;\" align=\"center\">+1</td>\n<td style=\"width: 13.2296%; height: 16px;\" align=\"center\"><span style=\"background-color: rgba(255, 255, 255, 0.2);\">+1</span></td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 30.7393%; height: 16px;\">5th-6th</td>\n<td style=\"width: 17.7043%; height: 16px;\" align=\"center\">+2</td>\n<td style=\"width: 13.2296%; height: 16px;\" align=\"center\">+2</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 30.7393%; height: 16px;\">7th-8th</td>\n<td style=\"width: 17.7043%; height: 16px;\" align=\"center\">+3</td>\n<td style=\"width: 13.2296%; height: 16px;\" align=\"center\">+3</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 30.7393%; height: 16px;\">9th-10th</td>\n<td style=\"width: 17.7043%; height: 16px;\" align=\"center\">+4</td>\n<td style=\"width: 13.2296%; height: 16px;\" align=\"center\">+4</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 30.7393%; height: 16px;\">11th-12th</td>\n<td style=\"width: 17.7043%; height: 16px;\" align=\"center\">+5</td>\n<td style=\"width: 13.2296%; height: 16px;\" align=\"center\">+5</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 30.7393%; height: 16px;\">13th-14th</td>\n<td style=\"width: 17.7043%; height: 16px;\" align=\"center\">+6</td>\n<td style=\"width: 13.2296%; height: 16px;\" align=\"center\">+6</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 30.7393%; height: 16px;\">15th-16th</td>\n<td style=\"width: 17.7043%; height: 16px;\" align=\"center\">+7</td>\n<td style=\"width: 13.2296%; height: 16px;\" align=\"center\">+7</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 30.7393%; height: 16px;\">17th-18th</td>\n<td style=\"width: 17.7043%; height: 16px;\" align=\"center\">+8</td>\n<td style=\"width: 13.2296%; height: 16px;\" align=\"center\">+8</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 30.7393%; height: 16px;\">19th-20th</td>\n<td style=\"width: 17.7043%; height: 16px;\" align=\"center\">+9</td>\n<td style=\"width: 13.2296%; height: 16px;\" align=\"center\">+9</td>\n</tr>\n</tbody>\n</table>"
+			"value": "@LinkedDescription[Compendium.D35E.minion-classes.Item.XTcTWTYVe8Ypljlh]"
 		},
 		"disabledAbilities": [
 		],
 		"epic": "",
 		"fc": {
 			"alt": {
+				"label": "Alt",
 				"value": 0
 			},
 			"hp": {
+				"label": "Hit Points",
 				"value": 0
 			},
 			"skill": {
+				"label": "Skills",
 				"value": 0
 			}
 		},
@@ -226,6 +239,10 @@
 		"hdReplaceRacialOnly": false,
 		"hp": 0,
 		"identifiedName": "Psicrystal",
+		"index": {
+			"subType": null,
+			"uniqueId": ""
+		},
 		"knownCardsSizeFormula": "0",
 		"la": 0,
 		"levels": 0,
@@ -240,9 +257,11 @@
 		"nameFromFormula": false,
 		"nonActiveClassAbilities": [
 		],
-		"originId": "",
-		"originPack": "",
-		"originVersion": 0,
+		"originId": "XTcTWTYVe8Ypljlh",
+		"originPack": "D35E.minion-classes",
+		"originVersion": 104,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"powerPointBonusBaseAbility": "0",
 		"powerPointTable": {
@@ -360,56 +379,6 @@
 			"9": 0
 		},
 		"spellbook": [
-			{
-				"level": 0,
-				"spells": [
-				]
-			},
-			{
-				"level": 1,
-				"spells": [
-				]
-			},
-			{
-				"level": 2,
-				"spells": [
-				]
-			},
-			{
-				"level": 3,
-				"spells": [
-				]
-			},
-			{
-				"level": 4,
-				"spells": [
-				]
-			},
-			{
-				"level": 5,
-				"spells": [
-				]
-			},
-			{
-				"level": 6,
-				"spells": [
-				]
-			},
-			{
-				"level": 7,
-				"spells": [
-				]
-			},
-			{
-				"level": 8,
-				"spells": [
-				]
-			},
-			{
-				"level": 9,
-				"spells": [
-				]
-			}
 		],
 		"spellcastingAbility": "int",
 		"spellcastingDescription": "None",
@@ -422,6 +391,8 @@
 		"spellsPerLevel": [
 		],
 		"spellslotAbility": "",
+		"summon": [
+		],
 		"tags": [
 		],
 		"turnUndeadLevelFormula": "0",
