@@ -9,7 +9,7 @@
 	"system": {
 		"activateActions": [
 			{
-				"action": "Condition set dazed to true on self;",
+				"action": "Create unique \"Dazed\" from \"D35E.commonbuffs\" on self; Set buff \"Dazed\" field data.level to max(1,(@cl)) on self;Activate buff \"Dazed\" on self",
 				"condition": "",
 				"img": "",
 				"name": "Daze"
@@ -28,6 +28,7 @@
 			"firstChangeTargetSelectableOnDescription": false,
 			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -109,7 +110,7 @@
 		],
 		"deactivateActions": [
 			{
-				"action": "Condition set dazed to false on self;",
+				"action": "Remove buff \"Dazed\" on self",
 				"condition": "",
 				"img": "",
 				"name": "Undaze"
@@ -134,10 +135,10 @@
 		"level": "",
 		"light": {
 			"alpha": 0.5,
-			"animationIntensity": "",
-			"animationSpeed": "",
-			"color": "",
-			"dimRadius": "",
+			"animationIntensity": 6,
+			"animationSpeed": 6,
+			"color": "#000000",
+			"dimRadius": null,
 			"emitLight": false,
 			"lightAngle": 360,
 			"opacity": 0,
@@ -157,7 +158,7 @@
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 4,
+		"originVersion": 8,
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,
