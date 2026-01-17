@@ -3,7 +3,7 @@
 	"_key": "!items!utmodHDPA4lS4S5E",
 	"effects": [
 	],
-	"folder": null,
+	"folder": "PlEq1wedWwHmwqNh",
 	"img": "systems/D35E/icons/spells/named-spells/magic-circle-against-chaos.png",
 	"name": "Magic Circle against Chaos",
 	"system": {
@@ -23,6 +23,7 @@
 			"cost": 1,
 			"type": "standard"
 		},
+		"addedLevel": 0,
 		"atWill": false,
 		"attack": {
 			"parts": [
@@ -221,9 +222,9 @@
 		"source": "",
 		"specialActions": [
 			{
-				"action": "Create unique \"Magic Circle Against Chaos - Allies\" from \"D35E.common-aurass\" on target;Set buff \"Magic Circle Against Chaos - Allies\" field data.level to max(1,(@cl)) on target; Activate aura \"Magic Circle Against Chaos - Allies\" on target; Create unique \"Magic Circle Against Chaos - Enemies\" from \"D35E.common-aurass\" on target;Set buff \"Magic Circle Against Chaos - Enemies\" field data.level to max(1,(@cl)) on target; Activate aura \"Magic Circle Against Chaos - Enemies\" on target",
+				"action": "Create unique \"Magic Circle Against Chaos\" from \"D35E.commonbuffs\" on target; Set buff \"Magic Circle Against Chaos\" field data.level to max(1,(@cl)) on target; Activate buff \"Magic Circle Against Chaos\" on target;",
 				"condition": "",
-				"img": "icons/svg/item-bag.svg",
+				"img": "systems/D35E/icons/spells/named-spells/magic-circle-against-chaos.png",
 				"name": "Magic Circle Against Chaos"
 			}
 		],

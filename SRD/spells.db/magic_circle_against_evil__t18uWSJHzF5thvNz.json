@@ -3,7 +3,7 @@
 	"_key": "!items!t18uWSJHzF5thvNz",
 	"effects": [
 	],
-	"folder": null,
+	"folder": "PlEq1wedWwHmwqNh",
 	"img": "systems/D35E/icons/spells/named-spells/magic-circle-against-evil.png",
 	"name": "Magic Circle against Evil",
 	"system": {
@@ -23,6 +23,7 @@
 			"cost": 1,
 			"type": "standard"
 		},
+		"addedLevel": 0,
 		"atWill": false,
 		"attack": {
 			"parts": [
@@ -170,7 +171,7 @@
 		"nameFromFormula": false,
 		"originId": "t18uWSJHzF5thvNz",
 		"originPack": "D35E.spells",
-		"originVersion": 108,
+		"originVersion": 133,
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,
@@ -221,9 +222,9 @@
 		"source": "",
 		"specialActions": [
 			{
-				"action": "Create unique \"Magic Circle Against Evil - Allies\" from \"D35E.common-aurass\" on target;Set buff \"Magic Circle Against Evil - Allies\" field data.level to max(1,(@cl)) on target; Activate aura \"Magic Circle Against Evil - Allies\" on target; Create unique \"Magic Circle Against Evil - Enemies\" from \"D35E.common-aurass\" on target;Set buff \"Magic Circle Against Evil - Enemies\" field data.level to max(1,(@cl)) on target; Activate aura \"Magic Circle Against Evil - Enemies\" on target;",
+				"action": "Create unique \"Magic Circle Against Evil\" from \"D35E.commonbuffs\" on target; Set buff \"Magic Circle Against Evil\" field data.level to max(1,(@cl)) on target; Activate buff \"Magic Circle Against Evil\" on target;",
 				"condition": "",
-				"img": "icons/svg/item-bag.svg",
+				"img": "systems/D35E/icons/spells/named-spells/magic-circle-against-evil.png",
 				"name": "Magic Circle Against Evil"
 			}
 		],
