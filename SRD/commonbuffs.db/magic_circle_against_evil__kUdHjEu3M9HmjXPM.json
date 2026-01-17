@@ -3,11 +3,17 @@
 	"_key": "!items!kUdHjEu3M9HmjXPM",
 	"effects": [
 	],
-	"folder": null,
+	"folder": "cQCqYG2AB4usZmTB",
 	"img": "systems/D35E/icons/spells/named-spells/magic-circle-against-evil.png",
 	"name": "Magic Circle Against Evil",
 	"system": {
 		"activateActions": [
+			{
+				"action": "Create unique \"Magic Circle Against Evil\" from \"D35E.common-auras\" on self; Set aura \"Magic Circle Against Evil\" field data.level to max(1,(@cl)) on self; Activate aura \"Magic Circle Against Evil\" on self;",
+				"condition": "",
+				"img": "",
+				"name": ""
+			}
 		],
 		"activation": {
 			"cost": 1,
@@ -43,24 +49,6 @@
 		"combatChangeCustomDisplayName": "",
 		"combatChangeCustomReferenceName": "",
 		"combatChanges": [
-			[
-				"defenseOptional",
-				"",
-				"",
-				"featAC",
-				"2",
-				"",
-				""
-			],
-			[
-				"savingThrowOptional",
-				"",
-				"",
-				"featSavingThrow",
-				"2",
-				"",
-				""
-			]
 		],
 		"combatChangesAdditionalRanges": {
 			"hasAdditionalRanges": false,
@@ -121,6 +109,12 @@
 		"damageReduction": [
 		],
 		"deactivateActions": [
+			{
+				"action": "Remove aura \"Magic Circle Against Evil\" on self;",
+				"condition": "",
+				"img": "",
+				"name": ""
+			}
 		],
 		"description": {
 			"chat": "",
@@ -132,7 +126,7 @@
 			"value": null
 		},
 		"epic": "",
-		"hideFromToken": false,
+		"hideFromToken": true,
 		"identifiedName": "Magic Circle Against Evil",
 		"index": {
 			"subType": null,
@@ -164,7 +158,7 @@
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 3,
+		"originVersion": 18,
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,
