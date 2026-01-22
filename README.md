@@ -1,7 +1,7 @@
 # FVTT_D35E_Community_SRD
 A community-managed SRD for the DnD 3.5 System for Foundry VTT.
 
-## Supported Version: 2.4.3
+## Supported D35E Version: 2.4.3
 
 ## Pre-Requisites:
 
