@@ -23,6 +23,7 @@
 			"cost": 1,
 			"type": "standard"
 		},
+		"addedLevel": 0,
 		"atWill": false,
 		"attack": {
 			"parts": [
@@ -142,8 +143,8 @@
 			"customTexture": "",
 			"overrideColor": false,
 			"overrideTexture": false,
-			"size": "0",
-			"type": "circle"
+			"size": "20",
+			"type": "cube"
 		},
 		"metamagicFeats": {
 			"empowered": false,
@@ -158,7 +159,7 @@
 		"nameFromFormula": false,
 		"originId": "WwnLZijDfH5LHQLx",
 		"originPack": "world.srd-update-spells",
-		"originVersion": 109,
+		"originVersion": 113,
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,
@@ -208,12 +209,6 @@
 		"snip": "Cube or cage of force imprisons all inside.",
 		"source": "",
 		"specialActions": [
-			{
-				"action": "Create unique \"Forcecage\" from \"D35E.commonbuffs\" on target;Set buff \"Forcecage\" field data.level to max(1,(@cl)) on target;Activate buff \"Forcecage\" on target",
-				"condition": "",
-				"img": "systems/D35E/icons/spells/school/evo.png",
-				"name": "Forcecage"
-			}
 		],
 		"specialId": null,
 		"specialPrepared": false,
