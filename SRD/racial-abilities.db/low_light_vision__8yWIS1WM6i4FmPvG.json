@@ -1,16 +1,16 @@
 {
-	"_id": "2nApkQfs3kqgSo8P",
-	"_key": "!items!2nApkQfs3kqgSo8P",
+	"_id": "8yWIS1WM6i4FmPvG",
+	"_key": "!items!8yWIS1WM6i4FmPvG",
 	"effects": [
 	],
 	"folder": null,
-	"img": "systems/D35E/icons/racialfeatures/keen-eye.png",
-	"name": "Keen Eye",
+	"img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
+	"name": "Low-Light Vision",
 	"system": {
 		"ability": {
 			"attack": null,
 			"critMult": 2,
-			"critRange": 20,
+			"critRange": "20",
 			"damage": null,
 			"damageMult": 1,
 			"twoHandedOnly": false,
@@ -29,10 +29,6 @@
 			"classes": [
 			]
 		},
-		"attack": {
-			"parts": [
-			]
-		},
 		"attackBonus": "",
 		"attackCountFormula": "",
 		"attackNotes": "",
@@ -40,8 +36,14 @@
 		],
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
+		"bookSource": "",
+		"brokenResalePrice": null,
+		"carried": false,
 		"changeFlags": {
+			"firstChangeTargetSelectableOnDescription": false,
+			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -62,13 +64,6 @@
 		"combatChangeCustomDisplayName": "",
 		"combatChangeCustomReferenceName": "",
 		"combatChanges": [
-			[
-				"attackOptional",
-				"",
-				"",
-				"featAttackBonus",
-				"1"
-			]
 		],
 		"combatChangesAdditionalRanges": {
 			"hasAdditionalRanges": false,
@@ -101,6 +96,7 @@
 		},
 		"conditionals": [
 		],
+		"constantWeight": false,
 		"container": "None",
 		"containerWeightless": false,
 		"contextNotes": [
@@ -114,7 +110,6 @@
 		"customAttributes": {
 		},
 		"customAttributesLocked": false,
-		"customReferenceId": "",
 		"customTag": "",
 		"damage": {
 			"alternativeParts": [
@@ -129,7 +124,7 @@
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": "<p><span style=\"color: #191813; font-size: 13px;\">+1 racial bonus on attack rolls with thrown weapons and slings.</span></p>"
+			"value": "<p>Low-Light Vision</p>\n<p><strong>Usage</strong>: Manually edit the Senses property on the Summary page.</p>"
 		},
 		"duration": {
 			"units": "",
@@ -137,13 +132,15 @@
 		},
 		"effectNotes": "",
 		"epic": "",
+		"equippedWeightless": false,
 		"favorite": false,
 		"featType": "racial",
 		"formula": "",
-		"identifiedName": "Keen Eye",
+		"fullResalePrice": false,
+		"identifiedName": "Low-Light Vision",
 		"index": {
 			"subType": "racial",
-			"uniqueId": "halfling-keen-eye"
+			"uniqueId": "user-racial-lowlightvision"
 		},
 		"linkId": "",
 		"linkImported": false,
@@ -167,7 +164,7 @@
 			"customTexture": "",
 			"overrideColor": false,
 			"overrideTexture": false,
-			"size": 0,
+			"size": "",
 			"type": ""
 		},
 		"metamagic": {
@@ -188,12 +185,13 @@
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 99,
+		"originVersion": 1,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"pr": false,
 		"psionic": "",
 		"range": {
-			"long": null,
 			"units": "",
 			"value": null
 		},
@@ -208,6 +206,7 @@
 		"requirements": [
 		],
 		"requiresPsionicFocus": false,
+		"resalePrice": null,
 		"resistances": [
 		],
 		"rollTableDraw": {
@@ -222,7 +221,6 @@
 			"dcAutoAbility": "",
 			"dcAutoType": "",
 			"description": "",
-			"originVersion": 97,
 			"type": ""
 		},
 		"showInQuickbar": false,
@@ -304,14 +302,11 @@
 		"summon": [
 		],
 		"tags": [
-			[
-				"Halfling, Lightfoot"
-			]
 		],
 		"target": {
 			"value": ""
 		},
-		"uniqueId": "halfling-keen-eye",
+		"uniqueId": "racial-lowlightvision",
 		"userNonRemovable": false,
 		"uses": {
 			"allowMultipleUses": false,
