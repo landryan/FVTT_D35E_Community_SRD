@@ -17,10 +17,13 @@
 			"vsTouchAc": false
 		},
 		"actionType": "other",
+		"activateActions": [
+		],
 		"activation": {
 			"cost": 1,
 			"type": "standard"
 		},
+		"addedLevel": 0,
 		"atWill": false,
 		"attack": {
 			"parts": [
@@ -34,8 +37,12 @@
 		"autoscaleAttackParts": "",
 		"baseCl": "0",
 		"castTime": "",
+		"changes": [
+		],
 		"clOffset": 0,
 		"classSource": "",
+		"combatChanges": [
+		],
 		"components": {
 			"divineFocus": 2,
 			"focus": true,
@@ -46,7 +53,13 @@
 		},
 		"conditionals": [
 		],
+		"container": "None",
+		"containerWeightless": false,
+		"contextNotes": [
+		],
 		"createdBy": "",
+		"creationChanges": [
+		],
 		"critConfirmBonus": "",
 		"customAttributes": {
 		},
@@ -59,6 +72,10 @@
 			"parts": [
 			]
 		},
+		"damageReduction": [
+		],
+		"deactivateActions": [
+		],
 		"description": {
 			"chat": "",
 			"unidentified": "",
@@ -150,7 +167,9 @@
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 109,
+		"originVersion": 111,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"powerPointsCost": 0,
 		"pr": false,
@@ -171,7 +190,11 @@
 			"enabled": false,
 			"formula": ""
 		},
+		"requirements": [
+		],
 		"requiresPsionicFocus": false,
+		"resistances": [
+		],
 		"rollTableDraw": {
 			"formula": "",
 			"id": "",
@@ -194,6 +217,12 @@
 		"snip": "You understand all spoken and written languages.",
 		"source": "",
 		"specialActions": [
+			{
+				"action": "Create unique \"Comprehend Languages\" from \"D35E.commonbuffs\" on self;Set buff \"Comprehend Languages\" field data.level to max(1,(@cl)) on self;Activate buff \"Comprehend Languages\" on self",
+				"condition": "",
+				"img": "systems/D35E/icons/spells/school/div.png",
+				"name": "Comprehend Languages"
+			}
 		],
 		"specialId": null,
 		"specialPrepared": false,
@@ -217,7 +246,7 @@
 		"tags": [
 		],
 		"target": {
-			"value": "you\n"
+			"value": "you"
 		},
 		"types": "",
 		"uniqueId": "",
