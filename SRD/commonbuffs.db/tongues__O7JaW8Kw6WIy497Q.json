@@ -4,7 +4,7 @@
 	"effects": [
 	],
 	"folder": null,
-	"img": "icons/svg/item-bag.svg",
+	"img": "systems/D35E/icons/spells/school/div.png",
 	"name": "Tongues",
 	"system": {
 		"activateActions": [
@@ -22,6 +22,7 @@
 			"firstChangeTargetSelectableOnDescription": false,
 			"hasted": false,
 			"heavyArmorFullSpeed": false,
+			"improvedMultiattack": false,
 			"loseDexToAC": false,
 			"mediumArmorFullSpeed": false,
 			"multiAttack": false,
@@ -106,7 +107,7 @@
 		"description": {
 			"chat": "",
 			"unidentified": "",
-			"value": ""
+			"value": "<div>\n<div>@LinkedDescription[Compendium.D35E.spells.Item.X6DmImn7OOZzPtUa]</div>\n</div>"
 		},
 		"duration": {
 			"units": "",
@@ -122,10 +123,10 @@
 		"level": "",
 		"light": {
 			"alpha": 0.5,
-			"animationIntensity": "",
-			"animationSpeed": "",
-			"color": "",
-			"dimRadius": "",
+			"animationIntensity": 6,
+			"animationSpeed": 6,
+			"color": "#000000",
+			"dimRadius": null,
 			"emitLight": false,
 			"lightAngle": 360,
 			"opacity": 0,
@@ -145,7 +146,7 @@
 		"nameFromFormula": false,
 		"originId": "",
 		"originPack": "",
-		"originVersion": 3,
+		"originVersion": 6,
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,
@@ -180,6 +181,8 @@
 		"sizeOverride": "",
 		"source": "",
 		"specialActions": [
+		],
+		"summon": [
 		],
 		"tags": [
 		],
