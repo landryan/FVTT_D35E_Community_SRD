@@ -23,6 +23,7 @@
 			"cost": 1,
 			"type": "standard"
 		},
+		"addedLevel": 0,
 		"atWill": false,
 		"attack": {
 			"parts": [
@@ -57,6 +58,8 @@
 		"contextNotes": [
 		],
 		"createdBy": "",
+		"creationChanges": [
+		],
 		"critConfirmBonus": "",
 		"customAttributes": {
 		},
@@ -69,6 +72,8 @@
 			"parts": [
 			]
 		},
+		"damageReduction": [
+		],
 		"deactivateActions": [
 		],
 		"description": {
@@ -178,7 +183,9 @@
 		"nameFromFormula": false,
 		"originId": "BLkVz3UKmBGsElj3",
 		"originPack": "world.srd-update-spells",
-		"originVersion": 108,
+		"originVersion": 110,
+		"perRoundActions": [
+		],
 		"possibleUpdate": false,
 		"powerPointsCost": 7,
 		"pr": false,
@@ -199,6 +206,8 @@
 			"enabled": false,
 			"formula": ""
 		},
+		"requirements": [
+		],
 		"requiresPsionicFocus": false,
 		"resistances": [
 		],
@@ -224,6 +233,13 @@
 		"snip": "Subject moves normally despite impediments.",
 		"source": "",
 		"specialActions": [
+			{
+				"action": "Create unique \"Freedom of Movement\" from \"D35E.commonbuffs\" on target;Set buff \"Freedom of Movement\" field data.level to max(1,(@cl)) on target;Activate buff \"Freedom of Movement\" on target",
+				"condition": "",
+				"img": "systems/D35E/icons/spells/named-spells/freedom-of-movement.png",
+				"name": "Freedom of Movement",
+				"range": ""
+			}
 		],
 		"specialId": null,
 		"specialPrepared": false,
@@ -232,7 +248,7 @@
 		"spellDurationData": {
 			"dismissable": false,
 			"units": "minutePerLevel",
-			"value": "10*@cl"
+			"value": "10"
 		},
 		"spellEffect": "",
 		"spellType": {
