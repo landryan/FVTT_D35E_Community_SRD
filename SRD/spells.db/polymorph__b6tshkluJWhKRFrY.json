@@ -23,6 +23,7 @@
 			"cost": 1,
 			"type": "standard"
 		},
+		"addedLevel": 0,
 		"atWill": false,
 		"attack": {
 			"parts": [
@@ -158,7 +159,7 @@
 		"nameFromFormula": false,
 		"originId": "b6tshkluJWhKRFrY",
 		"originPack": "D35E.spells",
-		"originVersion": 108,
+		"originVersion": 120,
 		"perRoundActions": [
 		],
 		"possibleUpdate": false,
@@ -209,10 +210,11 @@
 		"source": "",
 		"specialActions": [
 			{
-				"action": "Create unique \"Polymorphed\" from \"D35E.commonbuffs\" on target;Set buff \"Polymorphed\" field data.level to max(1,(@cl)*10) on target;Activate buff \"Polymorphed\" on target",
+				"action": "Create unique \"Polymorph\" from \"D35E.commonbuffs\" on target;Set buff \"Polymorph\" field data.level to max(1,(@cl)) on target;Activate buff \"Polymorph\" on target",
 				"condition": "",
-				"img": "systems/D35E/icons/spells/named-spells/baleful-polymorph.png",
-				"name": "Polymorphed"
+				"img": "systems/D35E/icons/spells/school/trs.png",
+				"name": "Polymorph",
+				"range": ""
 			}
 		],
 		"specialId": null,
