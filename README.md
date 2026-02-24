@@ -5,9 +5,9 @@ A community-managed SRD for the DnD 3.5 System for Foundry VTT.
 
 ## Pre-Requisites:
 
-- Sorry only works for **Windows** at present
+- Sorry only works for **Windows** at present although there is nothing fundamentally incompatible except the wrapper batch cmd files.
 - Smelter - https://github.com/Muttley/smelter
-- GIT for Windows (to submit changes back to GIT Hub)
+- GIT for Windows (to submit changes back to GIT Hub). Again GIT for other flavours of OS will probably suffice.
 
 ## Configuration
 
@@ -15,7 +15,7 @@ A community-managed SRD for the DnD 3.5 System for Foundry VTT.
 
 ### Import the SRD as is
 
-- Run Import_to_LevelDB.bat - this will overwrite the default system compendiums with the contents of the SRD directory of this repo.
+- Run Import_to_LevelDB.bat - this will overwrite the default system compendiums with the contents of the SRD directory of this repo. (Windows only).
 
 ### Changing things
 
