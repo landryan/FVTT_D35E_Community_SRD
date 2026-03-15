@@ -16,7 +16,7 @@ GOTO choice
 
 :yes
 ECHO You chose Yes. Proceeding
-%NODE% "./utils/unpack.js"
+%NODE% "./utils/repack.js"
 echo #### IMPORT COMPLETE ####
 PAUSE
 EXIT
