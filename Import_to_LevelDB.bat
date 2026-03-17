@@ -1,7 +1,6 @@
 @ECHO OFF
 call paths.bat
 echo node is: %NODE%
-echo smelter is: %SMELTER%
 echo packs is: %PACKS%
 
 echo #### WARNING! Default Foundry System Data will be overwritten with the contents of the SRD directory! ####
@@ -17,7 +16,7 @@ GOTO choice
 
 :yes
 ECHO You chose Yes. Proceeding
-%NODE% %SMELTER% pack -s "./SRD" -d %PACKS% -o leveldb -i json 
+%NODE% "./utils/repack.js"
 echo #### IMPORT COMPLETE ####
 PAUSE
 EXIT
