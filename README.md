@@ -14,11 +14,11 @@ A community-managed SRD for the DnD 3.5 System for Foundry VTT.
 
 ## Configuration
 
-- Make sure the paths.cfg file is amended to reflect the paths to NodeJs, Smelter and your D35E packs directory.
+- Make sure the paths.cfg file is amended to reflect the paths to NodeJs, your local D35E packs directory and a D35E source code source folder (if you're planning on submitting changes back to the D35E system itself).
 
 ### Import the SRD as is
 
-- Run Import_to_LevelDB.bat - this will overwrite the default system compendiums with the contents of the SRD directory of this repo. (Windows only).
+- Run Import_to_LevelDB.bat - this will overwrite the default system compendiums with the contents of the SRD directory of this repo. (Windows only, otherwise see what the .bat is doing and write your own script in whatever shell you like).
 
 ### Changing things
 
@@ -51,5 +51,5 @@ A community-managed SRD for the DnD 3.5 System for Foundry VTT.
 ## FAQ
 
 Q: Can I use the built-in Export to JSON feature use those files instead?
-A: No it doesn't look like it. This JSON format crashes Smelter. You need to stick with the Smelter-exported format.
+A: No I don't believe so - this is untested but the export format is currently compatible with the Foundryvtt CLI Version 0.0.9 and Foundry V11.
 
