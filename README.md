@@ -1,7 +1,7 @@
 # FVTT_D35E_Community_SRD
 A community-managed SRD for the DnD 3.5 System for Foundry VTT.
 
-## Supported D35E Version: 2.4.3
+## Supported D35E Version: 3.0.0
 
 ## Pre-Requisites:
 
@@ -51,5 +51,5 @@ A community-managed SRD for the DnD 3.5 System for Foundry VTT.
 ## FAQ
 
 Q: Can I use the built-in Export to JSON feature use those files instead?
-A: No I don't believe so - this is untested but the export format is currently compatible with the Foundryvtt CLI Version 0.0.9 and Foundry V11.
+A: No I don't believe so - this is untested but the export format is currently compatible with the Foundryvtt CLI Version 0.0.9 and Foundry V13.
 
