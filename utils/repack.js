@@ -3,9 +3,9 @@ const { execSync } = require("child_process");
 const fs = require("fs");
 const sortJson = require("sort-json");
 
-let rawdata = fs.readFileSync("../V11/Data/systems/D35E/system.json");
+let rawdata = fs.readFileSync("../V13/Data/systems/D35E/system.json");
 let system = JSON.parse(rawdata);
-let packdir = "../V11/Data/systems/D35E/packs";
+let packdir = "../V13/Data/systems/D35E/packs";
 fs.rmSync(packdir, { recursive: true, force: true });
 for (let i = 0; i < system["packs"].length; i++) {
   let packPath = system["packs"][i]["path"];

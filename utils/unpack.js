@@ -3,7 +3,7 @@ const { execSync } = require("child_process");
 const fs = require("fs");
 const sortJson = require("sort-json");
 
-let rawdata = fs.readFileSync("../V11/Data/systems/D35E/system.json");
+let rawdata = fs.readFileSync("../V13/Data/systems/D35E/system.json");
 let system = JSON.parse(rawdata);
 let packdir = "export";
 fs.rmSync(packdir, { recursive: true, force: true });
@@ -12,9 +12,9 @@ for (let i = 0; i < system["packs"].length; i++) {
   let packNameFromPath = packPath.replace("packs/", "");
   console.log("Unpacking " + packPath);
   console.log("Unpacking " + packNameFromPath);
-  if (fs.existsSync("../V11/Data/systems/D35E/packs/" + packNameFromPath)) {
+  if (fs.existsSync("../V13/Data/systems/D35E/packs/" + packNameFromPath)) {
     let fvttProcess = execSync(
-      `fvtt package unpack ${packNameFromPath} --outputDirectory export/${packNameFromPath} --inputDirectory "../V11/Data/systems/D35E/packs/"`
+      `fvtt package unpack ${packNameFromPath} --outputDirectory export/${packNameFromPath} --inputDirectory "../V13/Data/systems/D35E/packs/"`
     );
     const unpackedFiles = fs.readdirSync("export/" + packNameFromPath);
     let foundFiles = unpackedFiles.length;
