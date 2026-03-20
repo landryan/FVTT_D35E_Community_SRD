@@ -13,12 +13,14 @@ for (let i = 0; i < system["packs"].length; i++) {
   if (fs.existsSync("SRD/" + packNameFromPath)) {
     let foundFiles = fs.readdirSync("SRD/" + packNameFromPath).length;
 
+    /* DISABLED SORT ON IMPORT AS IT TOUCHES FILES AND CREATES UNNECESSARY GIT CHANGES
     console.log(`Sorting JSON files in ${packNameFromPath}... (${foundFiles} files found)`);
     execSync(`node "utils/sortJsonDir.js" "SRD/${packNameFromPath}"`);
+    */
 
     console.log(`Repacking ${packNameFromPath}... (${foundFiles} files found)`);
     let fvttProcess = execSync(
-      `fvtt package pack ${packNameFromPath} --inputDirectory SRD/${packNameFromPath} --outputDirectory ${packdir}/`
+      `fvtt package pack ${packNameFromPath} --inputDirectory SRD/${packNameFromPath} --outputDirectory ${packdir}/`,
     );
     console.log("Repacking " + packNameFromPath + " done");
   } else {
