@@ -1,7 +1,27 @@
 {
   "_id": "nTHD4H6jJaakDG9K",
   "_key": "!actors.items!FB4GOQn0kn7HGLla.nTHD4H6jJaakDG9K",
-  "data": {
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": null,
+    "modifiedTime": null,
+    "systemId": null,
+    "systemVersion": null
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "systems/D35E/icons/traps/trapdoor.png",
+  "name": "Fall",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
     "ability": {
       "attack": "",
       "critMult": 2,
@@ -16,6 +36,7 @@
       "cost": 1,
       "type": ""
     },
+    "addedLevel": 0,
     "alignment": {
       "chaotic": false,
       "evil": false,
@@ -31,13 +52,18 @@
     "attackParts": [],
     "attackType": "misc",
     "autoscaleAttackParts": "",
+    "autoScaleOption": "default",
+    "baseCl": "0",
     "baseWeaponType": "",
     "classSource": "",
     "conditionals": [],
+    "createdBy": "",
     "critConfirmBonus": "",
     "customAttributes": {},
     "customAttributesLocked": false,
+    "customTag": "",
     "damage": {
+      "alternativeParts": [],
       "parts": [
         [
           "1d6",
@@ -57,12 +83,27 @@
     },
     "effectNotes": "",
     "enh": null,
+    "epic": false,
+    "favorite": true,
     "finesseable": false,
     "formula": "",
+    "incorporeal": false,
+    "linkedChargeItem": {
+      "id": null,
+      "img": null,
+      "name": null
+    },
+    "linkId": "",
+    "linkImported": false,
+    "linkSourceId": "",
+    "linkSourceName": "",
+    "magic": false,
     "masterwork": false,
     "material": {
       "data": null
     },
+    "maxDamageDice": 0,
+    "maxDamageDiceFormula": "",
     "measureTemplate": {
       "customColor": "",
       "customTexture": "",
@@ -72,6 +113,15 @@
       "type": ""
     },
     "melded": false,
+    "metamagicFeats": {
+      "empowered": false,
+      "enhanced": false,
+      "enhancedHalf": false,
+      "enlarged": false,
+      "intensified": false,
+      "maximized": false,
+      "widened": false
+    },
     "nameFormula": "",
     "nameFromFormula": false,
     "nonLethal": false,
@@ -80,40 +130,67 @@
     "originalWeaponImg": "",
     "originalWeaponName": "",
     "originalWeaponProperties": {},
+    "originId": "",
+    "originPack": "",
+    "originVersion": 0,
+    "possibleUpdate": false,
+    "pr": false,
     "primaryAttack": true,
     "proficient": true,
+    "psionic": "",
     "range": {
       "units": "",
       "value": null
     },
+    "recharge": {
+      "current": 0,
+      "enabled": false,
+      "formula": ""
+    },
+    "requiresPsionicFocus": false,
+    "returning": false,
+    "rollTableDraw": {
+      "formula": "",
+      "id": "",
+      "name": "",
+      "pack": ""
+    },
     "save": {
       "ability": "",
       "dc": "20",
+      "dcAutoAbility": "",
+      "dcAutoType": "",
       "description": "",
       "type": "reflexnegates"
     },
     "showInQuickbar": true,
     "source": "",
     "specialActions": [],
+    "sr": false,
+    "summon": [],
     "tags": [],
     "target": {
       "value": ""
     },
     "threatRangeExtended": false,
+    "thrown": false,
     "uniqueId": "",
     "userNonRemovable": false,
     "uses": {
       "allowMultipleUses": false,
       "autoDeductCharges": true,
+      "canBeLinked": false,
       "chargesPerUse": 1,
+      "isResource": false,
       "max": 0,
       "maxFormula": "",
+      "maxPerUse": null,
+      "maxPerUseFormula": "",
       "per": null,
+      "rechargeFormula": null,
       "value": 0
-    }
+    },
+    "weaponSubtype": "light"
   },
-  "effects": [],
-  "img": "systems/D35E/icons/traps/trapdoor.png",
-  "name": "Fall",
   "type": "attack"
 }

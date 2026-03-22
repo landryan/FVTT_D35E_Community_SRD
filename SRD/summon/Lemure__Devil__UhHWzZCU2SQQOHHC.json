@@ -1,7 +1,19 @@
 {
   "_id": "UhHWzZCU2SQQOHHC",
   "_key": "!actors!UhHWzZCU2SQQOHHC",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": null,
+    "modifiedTime": null,
+    "systemId": null,
+    "systemVersion": null
+  },
   "effects": [],
+  "flags": {},
   "folder": null,
   "img": "icons/svg/mystery-man.svg",
   "items": [
@@ -10,9 +22,13 @@
     "1ZEhsxbNXNW9hTwm"
   ],
   "name": "Lemure (Devil)",
+  "ownership": {
+    "default": 0
+  },
   "prototypeToken": {
     "actorLink": false,
     "alpha": 1,
+    "appendNumber": false,
     "bar1": {
       "attribute": "attributes.hp"
     },
@@ -45,12 +61,31 @@
       },
       "dim": 0,
       "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
       "saturation": 0,
       "shadows": 0
     },
     "lockRotation": false,
+    "movementAction": null,
     "name": "Lemure (Devil)",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
     "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
     "rotation": 0,
     "sight": {
       "angle": 360,
@@ -64,16 +99,27 @@
       "visionMode": "basic"
     },
     "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "icons/svg/mystery-man.svg",
-      "tint": null
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
     },
     "width": 1
   },
+  "sort": 0,
   "system": {
     "abilities": {
       "cha": {
@@ -348,6 +394,10 @@
         "total": 0
       },
       "hd": {
+        "base": {
+          "_deprecated": true,
+          "value": 0
+        },
         "max": {
           "_deprecated": true,
           "value": 0
@@ -356,6 +406,7 @@
         "total": 2
       },
       "hp": {
+        "base": 0,
         "max": 9,
         "min": -100,
         "nonlethal": null,
@@ -2137,8 +2188,8 @@
       "regenTotal": null,
       "senses": "",
       "size": "med",
-      "tokenSize": "actor",
-      "tokensize": "actor"
+      "tokensize": "actor",
+      "tokenSize": "actor"
     }
   },
   "type": "npc"

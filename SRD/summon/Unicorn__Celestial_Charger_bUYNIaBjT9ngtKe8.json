@@ -1,21 +1,23 @@
 {
   "_id": "bUYNIaBjT9ngtKe8",
   "_key": "!actors!bUYNIaBjT9ngtKe8",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": null,
+    "modifiedTime": null,
+    "systemId": null,
+    "systemVersion": null
+  },
   "effects": [],
+  "flags": {},
   "folder": null,
   "img": "systems/D35E/icons/bestiary/token/magical-beast.png",
   "items": [
     "pdIo6Shzk4vrOINF",
-    "Md96gXrqDhGlTsfh",
-    "Ftsgton7FrIYYWRA",
-    "P9DqWYkrwQfIJC1l",
-    "M5eXEn2tMPMLNNt8",
-    "x5smP7bOuRI6mvIo",
-    "RPPmkFV2mau6zmLZ",
-    "seiOTCHaUKYEi364",
-    "YA25tOFivmvEX0ZI",
-    "41PVsQB1uaPdG34H",
-    "N0r0wEjUQgLmiMig",
     "qhApAs2Znuw10OnS",
     "jIXVu9rfXmeOSTla",
     "shzxquUFkEdcckjK",
@@ -53,9 +55,13 @@
     "6whoGR8M0XGwiIXG"
   ],
   "name": "Unicorn, Celestial Charger",
+  "ownership": {
+    "default": 0
+  },
   "prototypeToken": {
     "actorLink": false,
     "alpha": 1,
+    "appendNumber": false,
     "bar1": {
       "attribute": "attributes.hp"
     },
@@ -92,12 +98,31 @@
       },
       "dim": 0,
       "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
       "saturation": 0,
       "shadows": 0
     },
     "lockRotation": false,
+    "movementAction": null,
     "name": "Unicorn",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
     "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
     "rotation": 0,
     "sight": {
       "angle": 360,
@@ -111,16 +136,27 @@
       "visionMode": "basic"
     },
     "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "systems/D35E/icons/bestiary/token/magical-beast.png",
-      "tint": null
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
     },
     "width": 2
   },
+  "sort": 0,
   "system": {
     "abilities": {
       "cha": {
@@ -398,6 +434,10 @@
         "total": 0
       },
       "hd": {
+        "base": {
+          "_deprecated": true,
+          "value": 0
+        },
         "max": {
           "_deprecated": true,
           "value": 0
@@ -406,6 +446,7 @@
         "total": 8
       },
       "hp": {
+        "base": 0,
         "max": 155,
         "min": -100,
         "nonlethal": null,
@@ -2635,8 +2676,8 @@
       "regenTotal": null,
       "senses": "Darkvision 60 ft., Low Light Vision",
       "size": "lg",
-      "tokenSize": "actor",
-      "tokensize": "actor"
+      "tokensize": "actor",
+      "tokenSize": "actor"
     }
   },
   "type": "npc"
