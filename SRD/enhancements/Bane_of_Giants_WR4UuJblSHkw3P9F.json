@@ -1,10 +1,23 @@
 {
   "_id": "WR4UuJblSHkw3P9F",
   "_key": "!items!WR4UuJblSHkw3P9F",
+  "_stats": {
+    "coreVersion": "11.315",
+    "createdTime": null,
+    "lastModifiedBy": "2gajtRqPwBrh0BVJ",
+    "modifiedTime": 1774186164234,
+    "systemId": "D35E",
+    "systemVersion": "2.4.3"
+  },
   "effects": [],
+  "flags": {},
   "folder": "DwfjATbmbSG88UQN",
   "img": "systems/D35E/icons/crafting-station/enhancements/weapons/bane.png",
   "name": "Bane of Giants",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
   "system": {
     "ability": {
       "attack": null,
@@ -164,7 +177,7 @@
     "nameFromFormula": false,
     "originId": "",
     "originPack": "",
-    "originVersion": 99,
+    "originVersion": 100,
     "perRoundActions": [],
     "possibleUpdate": false,
     "pr": false,
@@ -190,7 +203,9 @@
       "enabled": false,
       "formula": ""
     },
-    "requirements": "CL 8th; Craft Magic Arms and Armor, summon monster I",
+    "requirements": [
+      "CL 8th; Craft Magic Arms and Armor, summon monster I"
+    ],
     "requiresPsionicFocus": false,
     "resalePrice": null,
     "resistances": [],
@@ -243,7 +258,7 @@
         "lawful": false
       },
       "attackRoll": "2",
-      "damageRoll": "2d6+2",
+      "damageRoll": "2d6+2*(@critMult)",
       "damageType": "",
       "damageTypeId": "damage-untyped",
       "optionalDamage": true
