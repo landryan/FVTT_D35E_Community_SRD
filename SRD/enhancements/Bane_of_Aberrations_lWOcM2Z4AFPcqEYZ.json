@@ -1,10 +1,23 @@
 {
   "_id": "lWOcM2Z4AFPcqEYZ",
   "_key": "!items!lWOcM2Z4AFPcqEYZ",
+  "_stats": {
+    "coreVersion": "11.315",
+    "createdTime": null,
+    "lastModifiedBy": "2gajtRqPwBrh0BVJ",
+    "modifiedTime": 1774173449789,
+    "systemId": "D35E",
+    "systemVersion": "2.4.3"
+  },
   "effects": [],
+  "flags": {},
   "folder": "DwfjATbmbSG88UQN",
   "img": "systems/D35E/icons/crafting-station/enhancements/weapons/bane.png",
   "name": "Bane of Aberrations",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
   "system": {
     "ability": {
       "attack": null,
@@ -121,7 +134,7 @@
     "favorite": false,
     "formula": "",
     "fullResalePrice": false,
-    "identifiedName": "Bane of Aberrations*",
+    "identifiedName": "Bane of Aberrations",
     "index": {
       "subType": null,
       "uniqueId": ""
@@ -164,7 +177,7 @@
     "nameFromFormula": false,
     "originId": "",
     "originPack": "",
-    "originVersion": 99,
+    "originVersion": 100,
     "perRoundActions": [],
     "possibleUpdate": false,
     "pr": false,
@@ -190,7 +203,9 @@
       "enabled": false,
       "formula": ""
     },
-    "requirements": "CL 8th; Craft Magic Arms and Armor, summon monster I",
+    "requirements": [
+      "CL 8th; Craft Magic Arms and Armor, summon monster I"
+    ],
     "requiresPsionicFocus": false,
     "resalePrice": null,
     "resistances": [],
@@ -243,7 +258,7 @@
         "lawful": false
       },
       "attackRoll": "2",
-      "damageRoll": "2d6+2",
+      "damageRoll": "2d6+2*(@critMult)",
       "damageType": "",
       "damageTypeId": "damage-untyped",
       "optionalDamage": true
