@@ -1,29 +1,33 @@
 {
   "_id": "CMXa1NxK1FQSVlof",
   "_key": "!actors!CMXa1NxK1FQSVlof",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": null,
+    "modifiedTime": null,
+    "systemId": null,
+    "systemVersion": null
+  },
   "effects": [],
+  "flags": {},
   "folder": null,
   "img": "systems/D35E/icons/bestiary/token/elephant.png",
   "items": [
-    "A6XMSkNEfkaeLbOQ",
-    "nvey2xFaeOwjZdsy",
-    "jjdRQB1mVxnYFyR5",
-    "iWxhIRI4TanmUJ2B",
-    "39Fx7DVx7eyD443u",
-    "FEGBUwCzFiacao89",
-    "G1VcVa81FgC51s7E",
-    "Ko2w04uZHfD8kMOa",
-    "ybyJUQJX9go6PrGT",
-    "NDTS97io701OQT3r",
-    "GanoI6i1nx7qo1Kz",
-    "5kg3T7TJ7v9whIaV",
     "0sHmsgpD4W7zIEt2",
     "Of7WBr5LJw6pwrrD"
   ],
   "name": "Celestial Elephant",
+  "ownership": {
+    "default": 0
+  },
   "prototypeToken": {
     "actorLink": false,
     "alpha": 1,
+    "appendNumber": false,
     "bar1": {
       "attribute": "attributes.hp"
     },
@@ -60,12 +64,31 @@
       },
       "dim": 0,
       "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
       "saturation": 0,
       "shadows": 0
     },
     "lockRotation": false,
+    "movementAction": null,
     "name": "Elephant",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
     "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
     "rotation": 0,
     "sight": {
       "angle": 360,
@@ -79,16 +102,27 @@
       "visionMode": "basic"
     },
     "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "systems/D35E/icons/bestiary/token/elephant.png",
-      "tint": null
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
     },
     "width": 3
   },
+  "sort": 0,
   "system": {
     "abilities": {
       "cha": {
@@ -363,6 +397,10 @@
         "total": 0
       },
       "hd": {
+        "base": {
+          "_deprecated": true,
+          "value": 0
+        },
         "max": {
           "_deprecated": true,
           "value": 0
@@ -371,6 +409,7 @@
         "total": 11
       },
       "hp": {
+        "base": 0,
         "max": 104,
         "min": -100,
         "nonlethal": null,
@@ -2036,8 +2075,8 @@
       "regenTotal": null,
       "senses": "Low Light Vision",
       "size": "huge",
-      "tokenSize": "actor",
-      "tokensize": "actor"
+      "tokensize": "actor",
+      "tokenSize": "actor"
     }
   },
   "type": "npc"

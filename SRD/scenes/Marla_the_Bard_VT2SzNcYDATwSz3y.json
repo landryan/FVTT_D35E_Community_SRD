@@ -1,40 +1,103 @@
 {
   "_id": "VT2SzNcYDATwSz3y",
   "_key": "!scenes.tokens!Gbmq364O5xo7klFt.VT2SzNcYDATwSz3y",
-  "actorData": {},
+  "_movementHistory": [],
+  "_regions": [],
   "actorId": "ABhVvlcLo7hmA7sm",
   "actorLink": false,
+  "alpha": 1,
   "bar1": {
-    "attribute": ""
+    "attribute": "attributes.hp"
   },
   "bar2": {
-    "attribute": ""
+    "attribute": null
   },
-  "brightLight": 0,
-  "brightSight": 0,
   "delta": null,
-  "dimLight": 0,
-  "dimSight": 0,
+  "detectionModes": [],
   "displayBars": 0,
   "displayName": 30,
   "disposition": 1,
-  "effects": [],
   "elevation": 0,
+  "flags": {},
   "height": 1,
   "hidden": false,
-  "img": "systems/D35E/icons/portraits/tutorial/token/tutorial-bard.png",
-  "lightAlpha": 1,
-  "lightAngle": 360,
-  "lightColor": "black",
+  "light": {
+    "alpha": 1,
+    "angle": 360,
+    "animation": {
+      "intensity": 5,
+      "reverse": false,
+      "speed": 5,
+      "type": null
+    },
+    "attenuation": 0.5,
+    "bright": 0,
+    "color": "#00000b",
+    "coloration": 1,
+    "contrast": 0,
+    "darkness": {
+      "max": 1,
+      "min": 0
+    },
+    "dim": 0,
+    "luminosity": 0.5,
+    "negative": false,
+    "priority": 0,
+    "saturation": 0,
+    "shadows": 0
+  },
+  "locked": false,
   "lockRotation": false,
-  "mirrorX": false,
-  "mirrorY": false,
+  "movementAction": null,
   "name": "Marla the Bard",
+  "occludable": {
+    "radius": 0
+  },
+  "ring": {
+    "colors": {
+      "background": null,
+      "ring": null
+    },
+    "effects": 1,
+    "enabled": false,
+    "subject": {
+      "scale": 1,
+      "texture": null
+    }
+  },
   "rotation": 0,
-  "scale": 1,
-  "sightAngle": 360,
-  "tint": null,
-  "vision": false,
+  "shape": 4,
+  "sight": {
+    "angle": 360,
+    "attenuation": 0.1,
+    "brightness": 1,
+    "color": null,
+    "contrast": 0,
+    "enabled": false,
+    "range": 0,
+    "saturation": 0,
+    "visionMode": "basic"
+  },
+  "sort": 0,
+  "texture": {
+    "alphaThreshold": 0.75,
+    "anchorX": 0.5,
+    "anchorY": 0.5,
+    "fit": "contain",
+    "offsetX": 0,
+    "offsetY": 0,
+    "rotation": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "src": "systems/D35E/icons/portraits/tutorial/token/tutorial-bard.png",
+    "tint": "#ffffff"
+  },
+  "turnMarker": {
+    "animation": null,
+    "disposition": false,
+    "mode": 1,
+    "src": null
+  },
   "width": 1,
   "x": 980,
   "y": 1260

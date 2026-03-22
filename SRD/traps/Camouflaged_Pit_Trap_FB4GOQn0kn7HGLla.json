@@ -1,7 +1,125 @@
 {
   "_id": "FB4GOQn0kn7HGLla",
   "_key": "!actors!FB4GOQn0kn7HGLla",
-  "data": {
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": null,
+    "modifiedTime": null,
+    "systemId": null,
+    "systemVersion": null
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "systems/D35E/icons/traps/trapdoor.png",
+  "items": [
+    "nTHD4H6jJaakDG9K"
+  ],
+  "name": "Camouflaged Pit Trap",
+  "ownership": {
+    "default": 0,
+    "VIfT2pClvTXfstmc": 3
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "detectionModes": [],
+    "displayBars": 0,
+    "displayName": 0,
+    "disposition": -1,
+    "flags": {},
+    "height": 1,
+    "light": {
+      "alpha": 0,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": "#00000b",
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Spiky Trap",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 1,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "systems/D35E/icons/traps/trapdoor.png",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
     "abilities": {
       "cha": {
         "checkMod": 0,
@@ -105,15 +223,86 @@
         "gear": 0,
         "total": 0
       },
+      "arcaneSpellFailure": 0,
       "attack": {
+        "bullrush": 0,
         "general": 0,
         "melee": 0,
-        "ranged": 0
+        "ranged": 0,
+        "sunder": 0
       },
       "bab": {
         "base": 0,
         "total": 0,
         "value": 0
+      },
+      "cards": {
+        "concentration": {
+          "bonus": 0,
+          "context": ""
+        },
+        "decks": {
+          "primary": {
+            "ability": "int",
+            "addHalfOtherLevels": false,
+            "autoHandSize": false,
+            "autoSetup": true,
+            "baseDCFormula": "10 + @sl + @ablMod",
+            "cl": {
+              "base": 0,
+              "formula": "",
+              "total": 0,
+              "value": 0
+            },
+            "class": "",
+            "clNotes": "",
+            "deckSize": {
+              "base": 0,
+              "formula": "",
+              "total": 0,
+              "value": 0
+            },
+            "drawRandom": false,
+            "handSize": {
+              "base": 0,
+              "formula": "",
+              "total": 0,
+              "value": 0
+            },
+            "name": "Primary",
+            "spellslotAbility": ""
+          },
+          "secondary": {
+            "ability": "int",
+            "addHalfOtherLevels": false,
+            "autoHandSize": false,
+            "autoSetup": true,
+            "baseDCFormula": "10 + @sl + @ablMod",
+            "cl": {
+              "base": 0,
+              "formula": "",
+              "total": 0,
+              "value": 0
+            },
+            "class": "",
+            "clNotes": "",
+            "deckSize": {
+              "base": 0,
+              "formula": "",
+              "total": 0,
+              "value": 0
+            },
+            "drawRandom": false,
+            "handSize": {
+              "base": 0,
+              "formula": "",
+              "total": 0,
+              "value": 0
+            },
+            "name": "Secondary",
+            "spellslotAbility": ""
+          }
+        }
       },
       "cmb": {
         "total": 0,
@@ -126,20 +315,36 @@
         "value": 0
       },
       "cmdNotes": "",
+      "concealment": {
+        "total": 0,
+        "value": 0
+      },
       "conditions": {
+        "banished": false,
         "blind": false,
         "dazzled": false,
+        "dead": false,
         "deaf": false,
+        "disabled": false,
+        "dying": false,
         "entangled": false,
         "exhausted": false,
         "fatigued": false,
         "fear": false,
         "grappled": false,
         "helpless": false,
+        "invisible": false,
         "paralyzed": false,
         "pinned": false,
+        "polymorphed": false,
+        "prone": false,
+        "shaken": false,
         "sickened": false,
-        "stunned": false
+        "stable": false,
+        "staggered": false,
+        "stunned": false,
+        "unconscious": false,
+        "wildshaped": false
       },
       "damage": {
         "general": 0,
@@ -167,6 +372,10 @@
         "total": 0,
         "value": 0
       },
+      "hardness": {
+        "formula": "",
+        "total": 0
+      },
       "hd": {
         "base": {
           "_deprecated": true,
@@ -192,11 +401,20 @@
         "total": 0,
         "value": 0
       },
+      "maxDex": {
+        "encumbrance": 0,
+        "gear": 0
+      },
       "maxDexBonus": null,
       "minionClassLevels": {},
       "minionDistance": {},
       "naturalAC": 0,
+      "naturalACTotal": 0,
       "powerPointsTotal": 0,
+      "pr": {
+        "formula": "",
+        "total": 0
+      },
       "prestigeCl": {
         "arcane": {
           "max": 0,
@@ -215,6 +433,7 @@
         }
       },
       "prof": 2,
+      "psionicFocus": false,
       "quadruped": false,
       "saveNotes": "",
       "savingThrows": {
@@ -231,27 +450,41 @@
           "total": 0
         }
       },
+      "senses": {
+        "blindsight": 0,
+        "darkvision": 0,
+        "lowLight": false,
+        "lowLightMultiplier": 2,
+        "special": "",
+        "tremorsense": 0,
+        "truesight": 0
+      },
       "sneakAttackDiceTotal": 0,
       "speed": {
         "burrow": {
           "base": 0,
+          "run": 0,
           "total": 0
         },
         "climb": {
           "base": 0,
+          "run": 0,
           "total": 0
         },
         "fly": {
           "base": 0,
           "maneuverability": "average",
+          "run": 0,
           "total": 0
         },
         "land": {
           "base": 30,
+          "run": 120,
           "total": 30
         },
         "swim": {
           "base": 0,
+          "run": 0,
           "total": 0
         }
       },
@@ -289,9 +522,12 @@
             "concentrationNotes": "",
             "dailyPowerPointsFormula": "",
             "hasSpecialSlot": false,
+            "maximumPowerPointLimit": "@cl",
             "name": "Primary",
             "powerPoints": 0,
             "powerPointsFormula": "",
+            "powerPointsTotal": 0,
+            "showOnlyPrepared": false,
             "specialSlots": {
               "level1": null,
               "level2": null,
@@ -304,6 +540,7 @@
               "level9": null
             },
             "spellcastingType": null,
+            "spellslotAbility": "",
             "spontaneous": false,
             "usePowerPoints": false
           },
@@ -325,10 +562,14 @@
             "concentration": 0,
             "concentrationFormula": "",
             "concentrationNotes": "",
+            "dailyPowerPointsFormula": "",
             "hasSpecialSlot": false,
+            "maximumPowerPointLimit": "@cl",
             "name": "Secondary",
             "powerPoints": 0,
             "powerPointsFormula": "",
+            "powerPointsTotal": 0,
+            "showOnlyPrepared": false,
             "specialSlots": {
               "level1": null,
               "level2": null,
@@ -341,6 +582,7 @@
               "level9": null
             },
             "spellcastingType": null,
+            "spellslotAbility": "",
             "spontaneous": false,
             "usePowerPoints": false
           },
@@ -362,10 +604,14 @@
             "concentration": 0,
             "concentrationFormula": "",
             "concentrationNotes": "",
+            "dailyPowerPointsFormula": "",
             "hasSpecialSlot": false,
+            "maximumPowerPointLimit": "@cl",
             "name": "Spell-likes",
             "powerPoints": 0,
             "powerPointsFormula": "",
+            "powerPointsTotal": 0,
+            "showOnlyPrepared": false,
             "specialSlots": {
               "level1": null,
               "level2": null,
@@ -378,6 +624,7 @@
               "level9": null
             },
             "spellcastingType": "None",
+            "spellslotAbility": "",
             "spontaneous": false,
             "usePowerPoints": false
           },
@@ -399,10 +646,14 @@
             "concentration": 0,
             "concentrationFormula": "",
             "concentrationNotes": "",
+            "dailyPowerPointsFormula": "",
             "hasSpecialSlot": false,
+            "maximumPowerPointLimit": "@cl",
             "name": "Tertiary",
             "powerPoints": 0,
             "powerPointsFormula": "",
+            "powerPointsTotal": 0,
+            "showOnlyPrepared": false,
             "specialSlots": {
               "level1": null,
               "level2": null,
@@ -415,6 +666,7 @@
               "level9": null
             },
             "spellcastingType": null,
+            "spellslotAbility": "",
             "spontaneous": false,
             "usePowerPoints": false
           }
@@ -445,12 +697,18 @@
         "value": 20
       }
     },
+    "companionAutosync": false,
+    "companionLockGM": false,
+    "companionPublicId": "",
+    "companionUsePersonalKey": false,
+    "companionUuid": "",
     "currency": {
       "cp": 0,
       "gp": 0,
       "pp": 0,
       "sp": 0
     },
+    "customCurrency": {},
     "customSkills": {},
     "details": {
       "alignment": "",
@@ -459,6 +717,10 @@
         "value": ""
       },
       "bonusSkillRankFormula": "",
+      "breakDC": {
+        "base": 0,
+        "total": 0
+      },
       "cr": 1,
       "disarmDC": 20,
       "environment": "",
@@ -493,6 +755,7 @@
         "value": 10
       }
     },
+    "lockEditingByPlayers": false,
     "master": {
       "data": {},
       "distance": 0,
@@ -500,8 +763,14 @@
       "img": null,
       "name": null
     },
+    "noBuffDisplay": false,
+    "noLightOverride": false,
+    "noSkillSynergy": false,
+    "noTokenOverride": false,
     "resources": {},
     "shapechangeImg": "icons/svg/mystery-man.svg",
+    "showCardSheet": false,
+    "showSpellcastingSheet": true,
     "skills": {
       "apr": {
         "ability": "int",
@@ -512,7 +781,8 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "aut": {
         "ability": "wis",
@@ -523,7 +793,8 @@
         "notes": "",
         "rank": 0,
         "rt": true,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "blc": {
         "ability": "dex",
@@ -534,7 +805,8 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "blf": {
         "ability": "cha",
@@ -545,7 +817,8 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "clm": {
         "ability": "str",
@@ -556,7 +829,8 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "coc": {
         "ability": "con",
@@ -567,7 +841,8 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "crf": {
         "ability": "int",
@@ -578,7 +853,8 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "dev": {
         "ability": "dex",
@@ -589,7 +865,8 @@
         "notes": "",
         "rank": 0,
         "rt": true,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "dip": {
         "ability": "cha",
@@ -600,7 +877,8 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "dis": {
         "ability": "cha",
@@ -611,7 +889,8 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "dsc": {
         "ability": "int",
@@ -622,7 +901,8 @@
         "notes": "",
         "rank": 0,
         "rt": true,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "esc": {
         "ability": "dex",
@@ -633,7 +913,8 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "fog": {
         "ability": "int",
@@ -644,7 +925,8 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "gif": {
         "ability": "cha",
@@ -655,7 +937,8 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "han": {
         "ability": "cha",
@@ -666,7 +949,8 @@
         "notes": "",
         "rank": 0,
         "rt": true,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "hea": {
         "ability": "wis",
@@ -677,7 +961,8 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "hid": {
         "ability": "dex",
@@ -688,7 +973,8 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "int": {
         "ability": "cha",
@@ -699,7 +985,8 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "jmp": {
         "ability": "str",
@@ -710,7 +997,8 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "kar": {
         "ability": "int",
@@ -721,7 +1009,8 @@
         "notes": "",
         "rank": 0,
         "rt": true,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "kdu": {
         "ability": "int",
@@ -732,7 +1021,8 @@
         "notes": "",
         "rank": 0,
         "rt": true,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "ken": {
         "ability": "int",
@@ -743,7 +1033,8 @@
         "notes": "",
         "rank": 0,
         "rt": true,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "kge": {
         "ability": "int",
@@ -754,7 +1045,8 @@
         "notes": "",
         "rank": 0,
         "rt": true,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "khi": {
         "ability": "int",
@@ -765,7 +1057,8 @@
         "notes": "",
         "rank": 0,
         "rt": true,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "klo": {
         "ability": "int",
@@ -776,7 +1069,8 @@
         "notes": "",
         "rank": 0,
         "rt": true,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "kna": {
         "ability": "int",
@@ -787,7 +1081,8 @@
         "notes": "",
         "rank": 0,
         "rt": true,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "kno": {
         "ability": "int",
@@ -809,7 +1104,8 @@
         "notes": "",
         "rank": 0,
         "rt": true,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "kps": {
         "ability": "int",
@@ -820,7 +1116,8 @@
         "notes": "",
         "rank": 0,
         "rt": true,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "kre": {
         "ability": "int",
@@ -831,7 +1128,8 @@
         "notes": "",
         "rank": 0,
         "rt": true,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "lis": {
         "ability": "wis",
@@ -842,7 +1140,8 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "mos": {
         "ability": "dex",
@@ -853,7 +1152,8 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "opl": {
         "ability": "dex",
@@ -864,7 +1164,8 @@
         "notes": "",
         "rank": 0,
         "rt": true,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "prf": {
         "ability": "cha",
@@ -875,7 +1176,8 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "pro": {
         "ability": "wis",
@@ -886,7 +1188,8 @@
         "notes": "",
         "rank": 0,
         "rt": true,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "psi": {
         "ability": "int",
@@ -897,7 +1200,8 @@
         "notes": "",
         "rank": 0,
         "rt": true,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "rid": {
         "ability": "dex",
@@ -908,7 +1212,8 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "sen": {
         "ability": "wis",
@@ -919,7 +1224,8 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "slt": {
         "ability": "dex",
@@ -930,7 +1236,19 @@
         "notes": "",
         "rank": 0,
         "rt": true,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
+      },
+      "spk": {
+        "ability": "",
+        "acp": false,
+        "background": false,
+        "mod": 0,
+        "notes": "",
+        "rank": 0,
+        "rt": true,
+        "value": 0,
+        "visibility": "default"
       },
       "spl": {
         "ability": "int",
@@ -941,7 +1259,8 @@
         "notes": "",
         "rank": 0,
         "rt": true,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "spt": {
         "ability": "wis",
@@ -952,7 +1271,8 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "src": {
         "ability": "int",
@@ -963,7 +1283,8 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "sur": {
         "ability": "wis",
@@ -974,7 +1295,8 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "swm": {
         "ability": "str",
@@ -985,7 +1307,8 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "tmb": {
         "ability": "dex",
@@ -996,7 +1319,8 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "umd": {
         "ability": "cha",
@@ -1007,7 +1331,8 @@
         "notes": "",
         "rank": 0,
         "rt": true,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "upd": {
         "ability": "cha",
@@ -1018,7 +1343,8 @@
         "notes": "",
         "rank": 0,
         "rt": true,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "uro": {
         "ability": "dex",
@@ -1029,8 +1355,13 @@
         "notes": "",
         "rank": 0,
         "rt": false,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       }
+    },
+    "staticBonus": {
+      "ac": 0,
+      "hp": 0
     },
     "tokenImg": "systems/D35E/icons/traps/trapdoor.png",
     "traits": {
@@ -1049,6 +1380,7 @@
         "value": []
       },
       "eres": "",
+      "incorporeal": false,
       "languages": {
         "custom": "",
         "value": []
@@ -1060,49 +1392,6 @@
       "size": "med",
       "tokensize": "actor"
     }
-  },
-  "effects": [],
-  "img": "systems/D35E/icons/traps/trapdoor.png",
-  "items": [
-    "nTHD4H6jJaakDG9K"
-  ],
-  "name": "Camouflaged Pit Trap",
-  "permission": {
-    "default": 0,
-    "VIfT2pClvTXfstmc": 3
-  },
-  "token": {
-    "actorId": "FB4GOQn0kn7HGLla",
-    "actorLink": false,
-    "bar1": {},
-    "bar2": {},
-    "brightLight": 0,
-    "brightSight": 0,
-    "dimLight": 0,
-    "dimSight": 0,
-    "displayBars": 0,
-    "displayName": 0,
-    "disposition": -1,
-    "flags": {},
-    "height": 1,
-    "img": "systems/D35E/icons/traps/trapdoor.png",
-    "lightAlpha": 0,
-    "lightAngle": 360,
-    "lightAnimation": {
-      "intensity": 5,
-      "speed": 5,
-      "type": ""
-    },
-    "lightColor": "black",
-    "lockRotation": false,
-    "name": "Spiky Trap",
-    "randomImg": false,
-    "rotation": 0,
-    "scale": 1,
-    "sightAngle": 360,
-    "tint": null,
-    "vision": false,
-    "width": 1
   },
   "type": "trap"
 }

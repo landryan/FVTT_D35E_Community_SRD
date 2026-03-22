@@ -1,24 +1,30 @@
 {
   "_id": "Uv6Q9WhZN1srJRBv",
   "_key": "!actors!Uv6Q9WhZN1srJRBv",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": null,
+    "modifiedTime": null,
+    "systemId": null,
+    "systemVersion": null
+  },
   "effects": [],
+  "flags": {},
   "folder": null,
   "img": "systems/D35E/icons/bestiary/token/bear.png",
-  "items": [
-    "fc3C4KNv9HRQGIxT",
-    "H84wM7oKuQDCnD4B",
-    "Fpus7bVfInAsOIxI",
-    "Zs2ocgcruo5iMV4v",
-    "s6eZQGn6pBG0eHPO",
-    "JRJstwZKUMw36DVx",
-    "kxeBEvrUHFrpOY9K",
-    "Xt1kY1FigelVRNg6",
-    "gBsRwMR01tOjROZ8"
-  ],
+  "items": [],
   "name": "Bear, Brown",
+  "ownership": {
+    "default": 0
+  },
   "prototypeToken": {
     "actorLink": false,
     "alpha": 1,
+    "appendNumber": false,
     "bar1": {
       "attribute": "attributes.hp"
     },
@@ -55,12 +61,31 @@
       },
       "dim": 0,
       "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
       "saturation": 0,
       "shadows": 0
     },
     "lockRotation": false,
+    "movementAction": null,
     "name": "Bear, Brown",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
     "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
     "rotation": 0,
     "sight": {
       "angle": 360,
@@ -74,16 +99,27 @@
       "visionMode": "basic"
     },
     "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "systems/D35E/icons/bestiary/token/bear.png",
-      "tint": null
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
     },
     "width": 2
   },
+  "sort": 0,
   "system": {
     "abilities": {
       "cha": {
@@ -358,6 +394,10 @@
         "total": 0
       },
       "hd": {
+        "base": {
+          "_deprecated": true,
+          "value": 0
+        },
         "max": {
           "_deprecated": true,
           "value": 0
@@ -366,6 +406,7 @@
         "total": 6
       },
       "hp": {
+        "base": 0,
         "max": 51,
         "min": -100,
         "nonlethal": 0,

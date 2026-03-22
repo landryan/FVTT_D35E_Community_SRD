@@ -1,7 +1,19 @@
 {
   "_id": "HCLw7sZ1E3c8Z2ec",
   "_key": "!actors!HCLw7sZ1E3c8Z2ec",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": null,
+    "modifiedTime": null,
+    "systemId": null,
+    "systemVersion": null
+  },
   "effects": [],
+  "flags": {},
   "folder": "h7FMjrU2dQXVxN9C",
   "img": "systems/D35E/icons/bestiary/token/djinni.png",
   "items": [
@@ -24,6 +36,9 @@
     "kLbC6zfgX8fF1DrD"
   ],
   "name": "Djinni",
+  "ownership": {
+    "default": 0
+  },
   "prototypeToken": {
     "actorLink": false,
     "alpha": 1,
@@ -64,18 +79,37 @@
       },
       "dim": 0,
       "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
       "saturation": 0,
       "shadows": 0
     },
     "lockRotation": false,
+    "movementAction": null,
     "name": "Djinni",
+    "occludable": {
+      "radius": 0
+    },
     "prependAdjective": false,
     "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
     "rotation": 0,
     "sight": {
       "angle": 360,
       "attenuation": 0.1,
       "brightness": 1,
+      "color": null,
       "contrast": 0,
       "enabled": true,
       "range": 60,
@@ -83,16 +117,27 @@
       "visionMode": "basic"
     },
     "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "systems/D35E/icons/bestiary/token/djinni.png",
-      "tint": null
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
     },
     "width": 2
   },
+  "sort": 0,
   "system": {
     "abilities": {
       "cha": {
@@ -2121,8 +2166,8 @@
       "regenTotal": null,
       "senses": "Darkvision 60 ft.",
       "size": "lg",
-      "tokenSize": "actor",
-      "tokensize": "actor"
+      "tokensize": "actor",
+      "tokenSize": "actor"
     }
   },
   "type": "npc"

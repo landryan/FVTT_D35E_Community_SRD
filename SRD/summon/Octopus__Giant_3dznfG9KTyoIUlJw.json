@@ -1,26 +1,30 @@
 {
   "_id": "3dznfG9KTyoIUlJw",
   "_key": "!actors!3dznfG9KTyoIUlJw",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": null,
+    "modifiedTime": null,
+    "systemId": null,
+    "systemVersion": null
+  },
   "effects": [],
+  "flags": {},
   "folder": null,
   "img": "systems/D35E/icons/bestiary/token/giant.png",
-  "items": [
-    "Mom1Uy5nh2hxFTo8",
-    "YRPB9oecAjdLBTbq",
-    "J2iv3KxEXU552P4o",
-    "1tBIIFTx5RkgyiuD",
-    "9WyZQ9oZOFKJliXk",
-    "PkauNtoIdR81ruaq",
-    "mYNXZsjkcAdoA0gc",
-    "e7LLQMPU5uvDhVie",
-    "eC2rVeR7qf3C6X6R",
-    "3rF0SfeYoPqZJfEU",
-    "kyLRK9RsIl8gRmpK"
-  ],
+  "items": [],
   "name": "Octopus, Giant",
+  "ownership": {
+    "default": 0
+  },
   "prototypeToken": {
     "actorLink": false,
     "alpha": 1,
+    "appendNumber": false,
     "bar1": {
       "attribute": "attributes.hp"
     },
@@ -57,12 +61,31 @@
       },
       "dim": 0,
       "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
       "saturation": 0,
       "shadows": 0
     },
     "lockRotation": false,
+    "movementAction": null,
     "name": "Octopus, Giant",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
     "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
     "rotation": 0,
     "sight": {
       "angle": 360,
@@ -76,16 +99,27 @@
       "visionMode": "basic"
     },
     "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "systems/D35E/icons/bestiary/token/giant.png",
-      "tint": null
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
     },
     "width": 2
   },
+  "sort": 0,
   "system": {
     "abilities": {
       "cha": {
@@ -360,6 +394,10 @@
         "total": 0
       },
       "hd": {
+        "base": {
+          "_deprecated": true,
+          "value": 0
+        },
         "max": {
           "_deprecated": true,
           "value": 0
@@ -368,6 +406,7 @@
         "total": 8
       },
       "hp": {
+        "base": 0,
         "max": 47,
         "min": -100,
         "nonlethal": 0,

@@ -1,26 +1,30 @@
 {
   "_id": "9zCVKt1sKVyC7yeZ",
   "_key": "!actors!9zCVKt1sKVyC7yeZ",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": null,
+    "modifiedTime": null,
+    "systemId": null,
+    "systemVersion": null
+  },
   "effects": [],
+  "flags": {},
   "folder": null,
   "img": "systems/D35E/icons/bestiary/token/animal.png",
-  "items": [
-    "PttxTT38SoZeqool",
-    "YEDLcAdWGL18j1w1",
-    "TDmZOZPAmp5FwsNh",
-    "y9FfIstT3hqxu9HJ",
-    "SVKTQXyVbdxQoVJS",
-    "Fvo7wfQ2LLsivuX1",
-    "2L5SLduAhZEo6Pa9",
-    "mma8tTpToaopiTmn",
-    "cPqtSasCA7PTiefL",
-    "xUkknRi8SSwjsNAw",
-    "9vO0TUqTJmSOaJRk"
-  ],
+  "items": [],
   "name": "Roc",
+  "ownership": {
+    "default": 0
+  },
   "prototypeToken": {
     "actorLink": false,
     "alpha": 1,
+    "appendNumber": false,
     "bar1": {
       "attribute": "attributes.hp"
     },
@@ -57,12 +61,31 @@
       },
       "dim": 0,
       "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
       "saturation": 0,
       "shadows": 0
     },
     "lockRotation": false,
+    "movementAction": null,
     "name": "Roc",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
     "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
     "rotation": 0,
     "sight": {
       "angle": 360,
@@ -76,16 +99,27 @@
       "visionMode": "basic"
     },
     "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "systems/D35E/icons/bestiary/token/animal.png",
-      "tint": null
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
     },
     "width": 4
   },
+  "sort": 0,
   "system": {
     "abilities": {
       "cha": {
@@ -360,6 +394,10 @@
         "total": 0
       },
       "hd": {
+        "base": {
+          "_deprecated": true,
+          "value": 0
+        },
         "max": {
           "_deprecated": true,
           "value": 0
@@ -368,6 +406,7 @@
         "total": 18
       },
       "hp": {
+        "base": 0,
         "max": 207,
         "min": -100,
         "nonlethal": 0,

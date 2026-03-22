@@ -1,26 +1,30 @@
 {
   "_id": "M9ZRCcBmS9xUGnsj",
   "_key": "!actors!M9ZRCcBmS9xUGnsj",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": null,
+    "modifiedTime": null,
+    "systemId": null,
+    "systemVersion": null
+  },
   "effects": [],
+  "flags": {},
   "folder": null,
   "img": "systems/D35E/icons/bestiary/token/dire-bear.png",
-  "items": [
-    "ry1nN8ioUZfkPjwD",
-    "AzADd2plD6uEtj6H",
-    "lH3EqZU6xqG43rqf",
-    "RQZmdOQbGazIF9kI",
-    "bscEwGayb3SvLRiY",
-    "m9NeKDTPj5DiSeMh",
-    "iSOTJybWsenGz07o",
-    "HAW3fAk51EGVE73D",
-    "LbMhJVx2blYBpRFw",
-    "oTwZ4oNIxvceHmqm",
-    "B74wnhnn7W6lv0GA"
-  ],
+  "items": [],
   "name": "Dire Bear",
+  "ownership": {
+    "default": 0
+  },
   "prototypeToken": {
     "actorLink": false,
     "alpha": 1,
+    "appendNumber": false,
     "bar1": {
       "attribute": "attributes.hp"
     },
@@ -57,12 +61,31 @@
       },
       "dim": 0,
       "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
       "saturation": 0,
       "shadows": 0
     },
     "lockRotation": false,
+    "movementAction": null,
     "name": "Dire Bear",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
     "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
     "rotation": 0,
     "sight": {
       "angle": 360,
@@ -76,16 +99,27 @@
       "visionMode": "basic"
     },
     "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "systems/D35E/icons/bestiary/token/dire-bear.png",
-      "tint": null
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
     },
     "width": 2
   },
+  "sort": 0,
   "system": {
     "abilities": {
       "cha": {
@@ -360,6 +394,10 @@
         "total": 0
       },
       "hd": {
+        "base": {
+          "_deprecated": true,
+          "value": 0
+        },
         "max": {
           "_deprecated": true,
           "value": 0
@@ -368,6 +406,7 @@
         "total": 12
       },
       "hp": {
+        "base": 0,
         "max": 105,
         "min": -100,
         "nonlethal": 0,
