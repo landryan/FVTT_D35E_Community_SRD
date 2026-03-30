@@ -1,10 +1,23 @@
 {
   "_id": "4gz8BU8W1bkw2drV",
   "_key": "!items!4gz8BU8W1bkw2drV",
+  "_stats": {
+    "coreVersion": "11.315",
+    "createdTime": null,
+    "lastModifiedBy": "2gajtRqPwBrh0BVJ",
+    "modifiedTime": 1774820044274,
+    "systemId": "D35E",
+    "systemVersion": "2.4.3"
+  },
   "effects": [],
+  "flags": {},
   "folder": null,
   "img": "systems/D35E/icons/spells/school/trs.png",
   "name": "Blinking",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
   "system": {
     "activateActions": [],
     "activation": {
@@ -36,9 +49,19 @@
     },
     "changes": [],
     "classSource": "",
-    "combatChangeCustomDisplayName": "",
-    "combatChangeCustomReferenceName": "",
-    "combatChanges": [],
+    "combatChangeCustomDisplayName": "Blinking Bonus (sighted targets only)",
+    "combatChangeCustomReferenceName": "+2 to attack due to Blinking (applied)",
+    "combatChanges": [
+      [
+        "attackOptional",
+        "",
+        "",
+        "featAttackBonus",
+        "2",
+        "",
+        ""
+      ]
+    ],
     "combatChangesAdditionalRanges": {
       "hasAdditionalRanges": false,
       "slider1": {
@@ -81,11 +104,6 @@
         "50% miss chance for attacker, except for those that can see invisible or can hit ethereal creatures - then 20% or 0% for both.",
         "misc",
         "ac"
-      ],
-      [
-        "+2 to attack opponents as if invisible",
-        "attacks",
-        "attack"
       ]
     ],
     "counterName": "",
@@ -149,7 +167,7 @@
     "nameFromFormula": false,
     "originId": "",
     "originPack": "",
-    "originVersion": 2,
+    "originVersion": 22,
     "perRoundActions": [],
     "possibleUpdate": false,
     "psionic": "",
