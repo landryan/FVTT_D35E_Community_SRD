@@ -1,18 +1,36 @@
 {
   "_id": "L8uBJIf4xJ1uCQYh",
-  "_key": "!actors.items!o8qMNwfIaf47bR0U.L8uBJIf4xJ1uCQYh",
+  "_key": "!actors.items!qNexyvtUR110tNgF.L8uBJIf4xJ1uCQYh",
+  "_stats": {
+    "coreVersion": "11.315",
+    "createdTime": null,
+    "lastModifiedBy": "2gajtRqPwBrh0BVJ",
+    "modifiedTime": 1774976064559,
+    "systemId": "D35E",
+    "systemVersion": "2.4.3"
+  },
   "effects": [],
+  "flags": {},
   "folder": null,
   "img": "systems/D35E/icons/racialhd/outsider.png",
   "name": "Outsider*",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
   "system": {
+    "activateActions": [],
     "addedAbilities": [],
     "addedLevel": 0,
     "allSpellsKnown": false,
+    "attackParts": [],
     "automaticFeatures": false,
     "bab": "high",
     "changeFlags": {
+      "firstChangeTargetSelectableOnDescription": false,
+      "hasted": false,
       "heavyArmorFullSpeed": false,
+      "improvedMultiattack": false,
       "loseDexToAC": false,
       "mediumArmorFullSpeed": false,
       "multiAttack": false,
@@ -27,20 +45,7 @@
       "oneWis": false,
       "uncannyDodge": false
     },
-    "changes": [
-      [
-        "34",
-        "ac",
-        "nac",
-        "racial"
-      ],
-      [
-        "46",
-        "misc",
-        "spellResistance",
-        "untyped"
-      ]
-    ],
+    "changes": [],
     "classSkills": {
       "": true,
       "acr": false,
@@ -88,6 +93,7 @@
       "rid": false,
       "sen": true,
       "slt": false,
+      "spk": false,
       "spl": false,
       "spt": true,
       "src": true,
@@ -128,11 +134,15 @@
       "maxFormula": ""
     },
     "combatChangesUsesCost": "chargesPerUse",
+    "conditionals": [],
     "conditionFlags": {
       "dazzled": false,
       "polymorphed": false,
       "wildshaped": false
     },
+    "container": "None",
+    "containerWeightless": false,
+    "contextNotes": [],
     "counterName": "",
     "createdBy": "",
     "creationChanges": [],
@@ -143,18 +153,11 @@
     "customReferenceId": "",
     "customTag": "",
     "damage": {
+      "alternativeParts": [],
       "parts": []
     },
-    "damageReduction": [
-      [
-        "15",
-        "epiclawful"
-      ],
-      [
-        "15",
-        "epic"
-      ]
-    ],
+    "damageReduction": [],
+    "deactivateActions": [],
     "deckHandSizeFormula": "0",
     "deckPrestigeClass": false,
     "description": {
@@ -182,7 +185,8 @@
     "hd": 8,
     "hdReplace": "",
     "hdReplaceRacialOnly": false,
-    "hp": 279,
+    "hp": 496,
+    "identifiedName": "Outsider*",
     "index": {
       "subType": null,
       "uniqueId": ""
@@ -203,6 +207,7 @@
     "originId": "",
     "originPack": "",
     "originVersion": 1,
+    "perRoundActions": [],
     "possibleUpdate": false,
     "powerPointBonusBaseAbility": "",
     "powerPointTable": {
@@ -274,20 +279,7 @@
     "prestigeLevels": 0,
     "psionic": "",
     "requirements": [],
-    "resistances": [
-      [
-        "",
-        "energy-fire",
-        true,
-        false
-      ],
-      [
-        "",
-        "energy-cold",
-        false,
-        true
-      ]
-    ],
+    "resistances": [],
     "savingThrows": {
       "fort": {
         "value": "high"
@@ -304,6 +296,7 @@
     "sneakAttackFormula": "",
     "sneakAttackGroup": "",
     "source": "",
+    "specialActions": [],
     "spellbook": [
       {
         "level": 0,
@@ -379,6 +372,7 @@
     "spellsKnownPerLevel": [],
     "spellslotAbility": "",
     "spellsPerLevel": [],
+    "summon": [],
     "tags": [],
     "turnUndeadLevelFormula": "",
     "uniqueId": "",

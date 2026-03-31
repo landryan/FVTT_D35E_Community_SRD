@@ -1,7 +1,44 @@
 {
-  "_id": "LH3TZgqGyakp5kkI",
-  "_key": "!actors!LH3TZgqGyakp5kkI",
+  "_id": "xqEYATWPCOVlcBvh",
+  "_key": "!actors!xqEYATWPCOVlcBvh",
+  "_stats": {
+    "coreVersion": "11.315",
+    "createdTime": 1764421236421,
+    "lastModifiedBy": "2gajtRqPwBrh0BVJ",
+    "modifiedTime": 1774976242289,
+    "systemId": "D35E",
+    "systemVersion": "2.4.3"
+  },
   "effects": [],
+  "flags": {
+    "core": {},
+    "D35E": {
+      "firstChangeTargetSelectableOnDescription": false,
+      "hasted": false,
+      "heavyArmorFullSpeed": false,
+      "improvedMultiattack": false,
+      "loseDexToAC": false,
+      "mediumArmorFullSpeed": false,
+      "multiAttack": false,
+      "multiweaponAttack": false,
+      "naturalAttackCount": 4,
+      "noCon": false,
+      "noDex": false,
+      "noEncumbrance": false,
+      "noInt": false,
+      "noStr": false,
+      "oneCha": false,
+      "oneInt": false,
+      "oneWis": false,
+      "uncannyDodge": false
+    },
+    "exportSource": {
+      "coreVersion": "11.315",
+      "system": "D35E",
+      "systemVersion": "2.4.3",
+      "world": "35-community-srd"
+    }
+  },
   "folder": "h7FMjrU2dQXVxN9C",
   "img": "systems/D35E/icons/bestiary/token/outsider.png",
   "items": [
@@ -51,7 +88,6 @@
     "B4Ai9601OfF6Q1ML",
     "rhcBsMVAdqDCvMZQ",
     "1LibSTsJwg8ENSvS",
-    "AurMAZVigvHw9pCd",
     "NvNWrCiDYHQIOC0h",
     "DJIaYziDwsANzn4r",
     "6GwyzVkWy9We5mL9",
@@ -64,7 +100,11 @@
     "Ei9gT4tGafRUBvpQ",
     "7jh8ygwQ8ukNswJj"
   ],
-  "name": "Infernal",
+  "name": "Infernal (Chaotic)",
+  "ownership": {
+    "2gajtRqPwBrh0BVJ": 3,
+    "default": 0
+  },
   "prototypeToken": {
     "actorLink": false,
     "alpha": 1,
@@ -134,6 +174,7 @@
     },
     "width": 2
   },
+  "sort": 200000,
   "system": {
     "abilities": {
       "cha": {
@@ -347,7 +388,7 @@
       "cmdNotes": "",
       "concealment": {
         "total": 0,
-        "value": 0
+        "value": null
       },
       "conditions": {
         "banished": false,
@@ -398,11 +439,11 @@
           "medium": 12800
         }
       },
-      "energyDrain": 0,
+      "energyDrain": null,
       "energyResistance": [],
       "fortification": {
         "total": 0,
-        "value": 0
+        "value": null
       },
       "hardness": {
         "formula": "",
@@ -422,11 +463,11 @@
       },
       "hp": {
         "base": 0,
-        "max": 570,
+        "max": 710,
         "min": -100,
-        "nonlethal": 0,
-        "temp": 0,
-        "value": 570
+        "nonlethal": null,
+        "temp": null,
+        "value": 710
       },
       "init": {
         "bonus": 0,
@@ -444,7 +485,7 @@
       "mods": {
         "skills": {}
       },
-      "naturalAC": 0,
+      "naturalAC": "34",
       "naturalACTotal": 34,
       "powerPointsTotal": 0,
       "pr": {
@@ -492,29 +533,29 @@
         }
       },
       "senses": {
-        "blindsight": 0,
+        "blindsight": 500,
         "darkvision": 0,
         "lowLight": false,
         "lowLightMultiplier": 2,
-        "special": "",
+        "special": "True Seeing, Telepathy 1000 ft.",
         "tremorsense": 0,
         "truesight": 0
       },
       "sneakAttackDiceTotal": 0,
       "speed": {
         "burrow": {
-          "base": 0,
+          "base": null,
           "run": 0,
           "total": 0
         },
         "climb": {
-          "base": 0,
+          "base": null,
           "run": 0,
           "total": 0
         },
         "fly": {
           "base": 240,
-          "maneuverability": "average",
+          "maneuverability": "perfect",
           "run": 960,
           "total": 240
         },
@@ -524,7 +565,7 @@
           "total": 80
         },
         "swim": {
-          "base": 0,
+          "base": null,
           "run": 0,
           "total": 0
         }
@@ -1131,7 +1172,7 @@
         }
       },
       "sr": {
-        "formula": "",
+        "formula": "38",
         "total": 38
       },
       "srNotes": "",
@@ -1140,10 +1181,10 @@
       "turnUndeadUsesBonusFormula": "",
       "turnUndeadUsesTotal": 0,
       "vigor": {
-        "max": 180,
+        "max": 320,
         "min": 0,
         "temp": 0,
-        "value": 180
+        "value": 320
       },
       "wounds": {
         "max": 56,
@@ -1193,8 +1234,225 @@
       }
     },
     "classLevels": 0,
-    "combinedDR": [],
-    "combinedResistances": [],
+    "combinedDR": {
+      "any": 0,
+      "types": [
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Adamantine (or equivalent)",
+          "or": false,
+          "uid": "adamantine",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Alchemical Silver (or quivalent)",
+          "or": false,
+          "uid": "silver",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Bludgeoning",
+          "or": false,
+          "uid": "bludgeoning",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Chaotic",
+          "or": false,
+          "uid": "chaotic",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Cold Iron (or equivalent)",
+          "or": false,
+          "uid": "coldiron",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Epic",
+          "or": false,
+          "uid": "epic",
+          "value": 15
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Evil",
+          "or": false,
+          "uid": "evil",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Good",
+          "or": true,
+          "uid": "good",
+          "value": 15
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Incorporeal",
+          "or": false,
+          "uid": "incorporeal",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Lawful",
+          "or": true,
+          "uid": "lawful",
+          "value": 15
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Magic",
+          "or": false,
+          "uid": "magic",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Piercing",
+          "or": false,
+          "uid": "piercing",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Slashing",
+          "or": false,
+          "uid": "slashing",
+          "value": 0
+        }
+      ]
+    },
+    "combinedResistances": [
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Acid",
+        "uid": "energy-acid",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Cold",
+        "uid": "energy-cold",
+        "value": 20,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Divine",
+        "uid": "energy-divine",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Electricity",
+        "uid": "energy-electric",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Fire",
+        "uid": "energy-fire",
+        "value": 20,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Force",
+        "uid": "energy-force",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Healing",
+        "uid": "damage-healing",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Negative Energy",
+        "uid": "energy-negative",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Positive Energy",
+        "uid": "energy-positive",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Repair",
+        "uid": "damage-repair",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Sonic",
+        "uid": "energy-sonic",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Untyped Energy",
+        "uid": "damage-untyped-energy",
+        "value": 0,
+        "vulnerable": false
+      }
+    ],
     "companionAutosync": false,
     "companionLockGM": false,
     "companionPublicId": "",
@@ -1203,7 +1461,7 @@
     "counters": {
       "feat": {
         "base": {
-          "counted": 13,
+          "counted": 12,
           "value": 14
         }
       }
@@ -1218,9 +1476,118 @@
     "customSkills": {},
     "damage": {
       "nonlethal": {
-        "max": 570,
+        "max": 710,
         "value": 0
       }
+    },
+    "damageReduction": {
+      "any": 0,
+      "types": [
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Adamantine (or equivalent)",
+          "or": false,
+          "uid": "adamantine",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Alchemical Silver (or quivalent)",
+          "or": false,
+          "uid": "silver",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Bludgeoning",
+          "or": false,
+          "uid": "bludgeoning",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Chaotic",
+          "or": false,
+          "uid": "chaotic",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Cold Iron (or equivalent)",
+          "or": false,
+          "uid": "coldiron",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Epic",
+          "or": false,
+          "uid": "epic",
+          "value": 15
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Evil",
+          "or": false,
+          "uid": "evil",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": true,
+          "name": "Good",
+          "or": true,
+          "uid": "good",
+          "value": 15
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Incorporeal",
+          "or": false,
+          "uid": "incorporeal",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": true,
+          "name": "Lawful",
+          "or": false,
+          "uid": "lawful",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Magic",
+          "or": false,
+          "uid": "magic",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Piercing",
+          "or": false,
+          "uid": "piercing",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Slashing",
+          "or": false,
+          "uid": "slashing",
+          "value": 0
+        }
+      ]
     },
     "details": {
       "advancement": {
@@ -1245,7 +1612,7 @@
         "none": false,
         "originalHD": 0
       },
-      "alignment": "Lawful evil or chaotic evil",
+      "alignment": "chaotic evil",
       "biography": {
         "public": "",
         "value": ""
@@ -1279,14 +1646,126 @@
       "levelUpProgression": false,
       "notes": {
         "public": "",
-        "value": "<div topic='Infernal' level='3'><p><h4>Infernal</h4></p><p>An infernal's natural weapons are treated as epic, evil, and chaotic-aligned or lawful-aligned for the purpose of overcoming damage reduction.</p><div topic='Combat' level='5'><p><h2>Combat</h2></p><div topic='Improved Grab' level='8'><p><b>Improved Grab (Ex):</b> If an infernal hits with a claw, it deals normal damage and attempts to start a grapple as a free action without provoking an attack of opportunity. Infernals can use this ability on Large and smaller creatures. The infernal has the option to conduct the grapple normally, or simply use its claw to hold the opponent. Each successful grapple check it makes during successive rounds automatically deals standard claw damage, in addition to automatic spell suck damage.</p></div><div topic='Spell Suck' level='8'><p><b>Spell Suck (Su):</b> If an infernal bites a foe, the foe loses one of its highest-level prepared spells or one of the spell slots for this day that it has not used. The victim chooses the prepared spell to lose. If the victim has no prepared spells or unused spell slots (either because it has exhausted its spellcasting for the day or because the victim is not a spellcaster), the bite instead deals 2 points of temporary Intelligence damage.</p></div><div topic='Learned Spell Immunity' level='8'><p><b>Learned Spell Immunity (Su):</b> If an infernal is affected by a spell cast by a particular spellcaster, the infernal thereafter becomes immune to that spell when cast by that spellcaster.</p></div><div topic='Spell-Like Abilities' level='8'><p><b>Spell-Like Abilities:</b> At will-<i>animate dead</i>,  <i>blasphemy</i>,  <i>blur</i>,  <i>charm person</i>,  <i>create undead</i>,  <i>darkness</i>,  <i>deeper darkness</i>,  <i>desecrate</i>,  <i>detect chaos</i>,  <i>detect good</i>,  <i>detect law</i>,  <i>detect magic</i>,  <i>fear</i>,  <i>fireball</i>,  <i>greater dispel magic</i>,  <i>hold person</i>,  <i>greater invisibility</i>,  <i>magic circle against good</i>,  <i>major image</i>,  <i>produce flame</i>,  <i>polymorph</i>,  <i>pyrotechnics</i>,  <i>read magic</i>,  <i>scrying</i>,  <i>suggestion</i>,  <i>symbol of death</i>,  <i>telekinesis</i>,  <i>greater teleport</i> (self plus 1,000 pounds), <i>unholy aura</i>,  <i>unholy blight</i>,  <i>unhallow</i>,  <i>wall of fire</i>; 1/day-<i>fire storm</i>,  <i>hellball</i> (epic spell), <i>implosion</i>,  <i>meteor swarm</i>. Caster level 26th; save DC 19 + spell level. The DCs are Charisma-based.</p></div><div topic='Summon Fiend' level='8'><p><b><i>Summon Fiend</i> (Sp):</b> An infernal can summon four balors or four pit fiends per day (lawful infernals summon pit fiends, and chaotic infernals summon balors).</p></div><div topic='Abomination Traits' level='8'><p><b>Abomination Traits:</b> Immune to polymorphing, petrification, and other form-altering attacks; not subject to energy drain, ability drain, ability damage, or death from massive damage; immune to mind-affecting effects; fire resistance 20; cold resistance 20; nondetection ; true seeing at will; blindsight 500 ft.; telepathy out to 1,000 ft.</p></div><div topic='Regeneration' level='8'><p><b>Regeneration (Ex):</b> Infernals take normal damage from good weapons. Lawful infernals also take normal damage from chaotic weapons, and vice versa.</p><p/></div></div></div>    "
+        "value": "<div>\n<p><strong>Environment</strong>: Any</p>\n<p><strong>Organisation</strong>: Solitary or hell brigade (1 infernal and&nbsp;<a class=\"diceRoller\" title=\"Roll the dice!\">1d4</a>&nbsp;<a href=\"https://www.d20srd.org/srd/monsters/demon.htm#balor\">balors</a>, or 1 infernal and&nbsp;<a class=\"diceRoller\" title=\"Roll the dice!\">1d4</a>&nbsp;<a href=\"https://www.d20srd.org/srd/monsters/devil.htm#pitFiend\">pit fiends</a>)</p>\n<p><strong>Treasure</strong>: Standard</p>\n<p>An infernal's natural weapons are treated as epic, evil, and chaotic-aligned or lawful-aligned for the purpose of overcoming damage reduction.</p>\n<div>\n<h2>Combat</h2>\n<div>\n<p><strong>Improved Grab (Ex):</strong> If an infernal hits with a claw, it deals normal damage and attempts to start a grapple as a free action without provoking an attack of opportunity. Infernals can use this ability on Large and smaller creatures. The infernal has the option to conduct the grapple normally, or simply use its claw to hold the opponent. Each successful grapple check it makes during successive rounds automatically deals standard claw damage, in addition to automatic spell suck damage.</p>\n</div>\n<div>\n<p><strong>Spell Suck (Su):</strong> If an infernal bites a foe, the foe loses one of its highest-level prepared spells or one of the spell slots for this day that it has not used. The victim chooses the prepared spell to lose. If the victim has no prepared spells or unused spell slots (either because it has exhausted its spellcasting for the day or because the victim is not a spellcaster), the bite instead deals 2 points of temporary Intelligence damage.</p>\n</div>\n<div>\n<p><strong>Learned Spell Immunity (Su):</strong> If an infernal is affected by a spell cast by a particular spellcaster, the infernal thereafter becomes immune to that spell when cast by that spellcaster.</p>\n</div>\n<div>\n<p><strong>Spell-Like Abilities:</strong> At will-<em>animate dead</em>, <em>blasphemy</em>, <em>blur</em>, <em>charm person</em>, <em>create undead</em>, <em>darkness</em>, <em>deeper darkness</em>, <em>desecrate</em>, <em>detect chaos</em>, <em>detect good</em>, <em>detect law</em>, <em>detect magic</em>, <em>fear</em>, <em>fireball</em>, <em>greater dispel magic</em>, <em>hold person</em>, <em>greater invisibility</em>, <em>magic circle against good</em>, <em>major image</em>, <em>produce flame</em>, <em>polymorph</em>, <em>pyrotechnics</em>, <em>read magic</em>, <em>scrying</em>, <em>suggestion</em>, <em>symbol of death</em>, <em>telekinesis</em>, <em>greater teleport</em> (self plus 1,000 pounds), <em>unholy aura</em>, <em>unholy blight</em>, <em>unhallow</em>, <em>wall of fire</em>; 1/day-<em>fire storm</em>, <em>hellball</em> (epic spell), <em>implosion</em>, <em>meteor swarm</em>. Caster level 26th; save DC 19 + spell level. The DCs are Charisma-based.</p>\n</div>\n<div>\n<p><strong><em>Summon Fiend</em> (Sp):</strong> An infernal can summon four balors or four pit fiends per day (lawful infernals summon pit fiends, and chaotic infernals summon balors).</p>\n</div>\n<div>\n<p><strong>Abomination Traits:</strong> Immune to polymorphing, petrification, and other form-altering attacks; not subject to energy drain, ability drain, ability damage, or death from massive damage; immune to mind-affecting effects; fire resistance 20; cold resistance 20; nondetection ; true seeing at will; blindsight 500 ft.; telepathy out to 1,000 ft.</p>\n</div>\n<div>\n<p><strong>Regeneration (Ex):</strong> Infernals take normal damage from good weapons. Lawful infernals also take normal damage from chaotic weapons, and vice versa.</p>\n<p>&nbsp;</p>\n</div>\n</div>\n</div>"
       },
       "totalCr": 26,
-      "type": "Evil Chaotic or Lawful",
+      "type": "Outsider (Evil, Chaotic)",
       "xp": {
         "value": 10
       }
     },
+    "displayNonRTSkills": false,
+    "energyResistance": [
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Acid",
+        "uid": "energy-acid",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Cold",
+        "uid": "energy-cold",
+        "value": 20,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Divine",
+        "uid": "energy-divine",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Electricity",
+        "uid": "energy-electric",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Fire",
+        "uid": "energy-fire",
+        "value": 20,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Force",
+        "uid": "energy-force",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Healing",
+        "uid": "damage-healing",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Negative Energy",
+        "uid": "energy-negative",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Positive Energy",
+        "uid": "energy-positive",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Repair",
+        "uid": "damage-repair",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Sonic",
+        "uid": "energy-sonic",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Untyped Energy",
+        "uid": "damage-untyped-energy",
+        "value": 0,
+        "vulnerable": false
+      }
+    ],
+    "isPartyMember": false,
     "jumpSkillAdjust": false,
     "lockEditingByPlayers": false,
     "master": {
@@ -1324,12 +1803,12 @@
       }
     },
     "senses": {
-      "blindsight": 0,
+      "blindsight": 500,
       "darkvision": 0,
       "lowLight": false,
       "lowLightMultiplier": 2,
       "modified": {},
-      "special": "",
+      "special": "True Seeing, Telepathy 1000 ft.",
       "tremorsense": 0,
       "truesight": 0
     },
@@ -1348,7 +1827,7 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -1365,7 +1844,7 @@
         "energyDrainPenalty": 0,
         "mod": 10,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -1398,7 +1877,7 @@
         "energyDrainPenalty": 0,
         "mod": 9,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -1414,7 +1893,7 @@
         "energyDrainPenalty": 0,
         "mod": 16,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -1464,7 +1943,7 @@
         "energyDrainPenalty": 0,
         "mod": 7,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -1497,7 +1976,7 @@
         "energyDrainPenalty": 0,
         "mod": 9,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -1513,7 +1992,7 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -1545,7 +2024,7 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -1561,7 +2040,7 @@
         "energyDrainPenalty": 0,
         "mod": 9,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -1577,7 +2056,7 @@
         "energyDrainPenalty": 0,
         "mod": 9,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -1593,7 +2072,7 @@
         "energyDrainPenalty": 0,
         "mod": 8,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -1626,7 +2105,7 @@
         "energyDrainPenalty": 0,
         "mod": 9,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -1675,7 +2154,7 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -1691,7 +2170,7 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -1707,7 +2186,7 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -1723,7 +2202,7 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -1739,7 +2218,7 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -1755,7 +2234,7 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -1771,10 +2250,11 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "kpl": {
         "ability": "int",
@@ -1802,7 +2282,7 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -1818,7 +2298,7 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -1867,7 +2347,7 @@
         "energyDrainPenalty": 0,
         "mod": 7,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -1919,7 +2399,7 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -1935,7 +2415,7 @@
         "energyDrainPenalty": 0,
         "mod": 7,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -1967,7 +2447,7 @@
         "energyDrainPenalty": 0,
         "mod": 7,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -1983,7 +2463,7 @@
         "energyDrainPenalty": 0,
         "mod": 0,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -2049,7 +2529,7 @@
         "energyDrainPenalty": 0,
         "mod": 8,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -2065,7 +2545,7 @@
         "energyDrainPenalty": 0,
         "mod": 16,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -2098,7 +2578,7 @@
         "energyDrainPenalty": 0,
         "mod": 9,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -2114,7 +2594,7 @@
         "energyDrainPenalty": 0,
         "mod": 9,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -2130,7 +2610,7 @@
         "energyDrainPenalty": 0,
         "mod": 7,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -2146,8 +2626,12 @@
     "traits": {
       "actualSize": "lg",
       "ci": {
-        "custom": "",
-        "value": []
+        "custom": "Polymorph, Ability Drain, Ability Damage, Massive Damage",
+        "value": [
+          "energyDrain",
+          "mindAffecting",
+          "petrify"
+        ]
       },
       "cres": "",
       "di": {
@@ -2175,7 +2659,8 @@
       "regenTotal": 15,
       "senses": "",
       "size": "lg",
-      "tokensize": "actor"
+      "tokensize": "actor",
+      "tokenSize": "actor"
     }
   },
   "type": "npc"

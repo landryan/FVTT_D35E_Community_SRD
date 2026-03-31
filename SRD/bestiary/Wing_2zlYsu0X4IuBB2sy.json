@@ -1,21 +1,35 @@
 {
   "_id": "2zlYsu0X4IuBB2sy",
-  "_key": "!actors.items!LH3TZgqGyakp5kkI.2zlYsu0X4IuBB2sy",
+  "_key": "!actors.items!xqEYATWPCOVlcBvh.2zlYsu0X4IuBB2sy",
+  "_stats": {
+    "coreVersion": "11.315",
+    "createdTime": null,
+    "lastModifiedBy": "2gajtRqPwBrh0BVJ",
+    "modifiedTime": 1774975415513,
+    "systemId": "D35E",
+    "systemVersion": "2.4.3"
+  },
   "effects": [],
+  "flags": {},
   "folder": null,
   "img": "systems/D35E/icons/attack/monster/wing.png",
   "name": "Wing",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
   "system": {
     "ability": {
       "attack": "str",
       "critMult": 2,
-      "critRange": 20,
+      "critRange": "20",
       "damage": "str",
       "damageMult": -1,
       "twoHandedOnly": false,
       "vsTouchAc": false
     },
     "actionType": "mwak",
+    "activateActions": [],
     "activation": {
       "cost": 1,
       "type": "standard"
@@ -42,9 +56,15 @@
     "autoScaleOption": "default",
     "baseCl": "0",
     "baseWeaponType": "Wing",
+    "changes": [],
     "classSource": "",
+    "combatChanges": [],
     "conditionals": [],
+    "container": "None",
+    "containerWeightless": false,
+    "contextNotes": [],
     "createdBy": "",
+    "creationChanges": [],
     "critConfirmBonus": "",
     "customAttributes": {},
     "customAttributesLocked": false,
@@ -60,6 +80,8 @@
         ]
       ]
     },
+    "damageReduction": [],
+    "deactivateActions": [],
     "description": {
       "chat": "",
       "unidentified": "",
@@ -75,11 +97,13 @@
     "favorite": true,
     "finesseable": false,
     "formula": "",
+    "identifiedName": "Wing",
     "incorporeal": false,
     "index": {
       "subType": null,
       "uniqueId": ""
     },
+    "isNaturalEquivalent": false,
     "linkedChargeItem": {
       "id": null,
       "img": null,
@@ -117,6 +141,7 @@
     "nameFormula": "",
     "nameFromFormula": false,
     "nonLethal": false,
+    "nonLethalNoPenalty": false,
     "originalWeaponCreated": false,
     "originalWeaponId": null,
     "originalWeaponImg": "",
@@ -125,6 +150,7 @@
     "originId": "",
     "originPack": "",
     "originVersion": 0,
+    "perRoundActions": [],
     "possibleUpdate": false,
     "pr": false,
     "primaryAttack": false,
@@ -132,15 +158,17 @@
     "psionic": "",
     "range": {
       "long": null,
-      "units": "",
-      "value": null
+      "units": "ft",
+      "value": "10"
     },
     "recharge": {
       "current": 0,
       "enabled": false,
       "formula": ""
     },
+    "requirements": [],
     "requiresPsionicFocus": false,
+    "resistances": [],
     "returning": false,
     "rollTableDraw": {
       "formula": "",
@@ -156,6 +184,7 @@
       "description": "",
       "type": ""
     },
+    "selectedMaterial": "none",
     "showInQuickbar": true,
     "source": "",
     "specialActions": [],
