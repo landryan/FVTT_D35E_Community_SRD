@@ -1,10 +1,23 @@
 {
   "_id": "LGpkoBko85bfMGGR",
   "_key": "!items!LGpkoBko85bfMGGR",
+  "_stats": {
+    "coreVersion": "11.315",
+    "createdTime": null,
+    "lastModifiedBy": "2gajtRqPwBrh0BVJ",
+    "modifiedTime": 1774992744490,
+    "systemId": "D35E",
+    "systemVersion": "2.4.3"
+  },
   "effects": [],
+  "flags": {},
   "folder": null,
   "img": "systems/D35E/icons/spells/named-spells/foresight.png",
   "name": "Foresight",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
   "system": {
     "ability": {
       "attack": "",
@@ -21,6 +34,7 @@
       "cost": 1,
       "type": "standard"
     },
+    "addedLevel": 0,
     "attack": {
       "parts": []
     },
@@ -149,7 +163,7 @@
     "nameFromFormula": false,
     "originId": "G3YVkOwI8L1tS35u",
     "originPack": "world.srd-update-spells",
-    "originVersion": 109,
+    "originVersion": 117,
     "perRoundActions": [],
     "possibleUpdate": false,
     "powerPointsCost": 17,
@@ -199,13 +213,13 @@
       {
         "action": "Create unique \"Foresight - Self\" from \"D35E.commonbuffs\" on target;Set buff \"Foresight - Self\" field data.level to max(1,(@cl)) on target;Activate buff \"Foresight - Self\" on target",
         "condition": "",
-        "img": "icons/svg/item-bag.svg",
+        "img": "systems/D35E/icons/spells/named-spells/foresight.png",
         "name": "Foresight - Self"
       },
       {
         "action": "Create unique \"Foresight - Another\" from \"D35E.commonbuffs\" on target;Set buff \"Foresight - Another\" field data.level to max(1,(@cl)) on target;Activate buff \"Foresight - Another\" on target",
         "condition": "",
-        "img": "icons/svg/item-bag.svg",
+        "img": "systems/D35E/icons/spells/named-spells/foresight.png",
         "name": "Foresight - Another"
       }
     ],
