@@ -1,10 +1,23 @@
 {
   "_id": "ot0EZQpeBw5zS92R",
   "_key": "!items!ot0EZQpeBw5zS92R",
+  "_stats": {
+    "coreVersion": "11.315",
+    "createdTime": null,
+    "lastModifiedBy": "2gajtRqPwBrh0BVJ",
+    "modifiedTime": 1775067108519,
+    "systemId": "D35E",
+    "systemVersion": "2.4.3"
+  },
   "effects": [],
+  "flags": {},
   "folder": null,
   "img": "systems/D35E/icons/spells/school/evo.png",
   "name": "Prismatic Spray",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
   "system": {
     "ability": {
       "attack": "",
@@ -21,6 +34,7 @@
       "cost": 1,
       "type": "standard"
     },
+    "addedLevel": 0,
     "attack": {
       "parts": []
     },
@@ -140,7 +154,7 @@
     "nameFromFormula": false,
     "originId": "ot0EZQpeBw5zS92R",
     "originPack": "D35E.spells",
-    "originVersion": 108,
+    "originVersion": 112,
     "perRoundActions": [],
     "possibleUpdate": false,
     "powerPointsCost": 13,
@@ -187,18 +201,6 @@
     "snip": "Rays hit subjects with variety of effects.",
     "source": "",
     "specialActions": [
-      {
-        "action": "Create unique \"PS1 - Red Beam\" from \"world.srd-update-attacks\" on self; Set attack \"PS1 - Red Beam\" field data.save.dc to (@dc) on self; Create unique \"PS2 - Orange Beam\" from \"world.srd-update-attacks\" on self; Set attack \"PS2 - Orange Beam\" field data.save.dc to (@dc) on self; Create unique \"PS3 - Yellow Beam\" from \"world.srd-update-attacks\" on self; Set attack \"PS3 - Yellow Beam\" field data.save.dc to (@dc) on self; Create unique \"PS4 - Green Beam\" from \"world.srd-update-attacks\" on self; Set attack \"PS4 - Green Beam\" field data.save.dc to (@dc) on self; Create unique \"PS5 - Blue Beam\" from \"world.srd-update-attacks\" on self; Set attack \"PS5 - Blue Beam\" field data.save.dc to (@dc) on self; Create unique \"PS6 - Indigo Beam\" from \"world.srd-update-attacks\" on self; Set attack \"PS6 - Indigo Beam\" field data.save.dc to (@dc) on self; Create unique \"PS7 - Violet Beam\" from \"world.srd-update-attacks\" on self; Set attack \"PS7 - Violet Beam\" field data.save.dc to (@dc) on self;",
-        "condition": "",
-        "img": "icons/svg/item-bag.svg",
-        "name": "Prismatic Spray Attacks"
-      },
-      {
-        "action": "Create unique \"Prismatic Spray\" from \"D35E.commonbuffs\" on self;Set buff \"Prismatic Spray\" field data.level to max(1,(@cl)) on self; Activate buff \"Prismatic Spray\" on self",
-        "condition": "",
-        "img": "icons/svg/item-bag.svg",
-        "name": "Prismatic Spray"
-      },
       {
         "action": "Create unique \"Blind\" from \"D35E.commonbuffs\" on target;Set buff \"Blind\" field data.level to 2d4 on target;Activate buff \"Blind\" on target",
         "condition": "",
