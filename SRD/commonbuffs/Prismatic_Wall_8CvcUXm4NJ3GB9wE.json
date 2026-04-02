@@ -5,14 +5,14 @@
     "coreVersion": "11.315",
     "createdTime": null,
     "lastModifiedBy": "2gajtRqPwBrh0BVJ",
-    "modifiedTime": 1774992511215,
+    "modifiedTime": 1775164260044,
     "systemId": "D35E",
     "systemVersion": "2.4.3"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/D35E/icons/spells/school/abj.png",
   "name": "Prismatic Wall",
   "ownership": {
     "default": 0
@@ -32,6 +32,7 @@
       "firstChangeTargetSelectableOnDescription": false,
       "hasted": false,
       "heavyArmorFullSpeed": false,
+      "improvedMultiattack": false,
       "loseDexToAC": false,
       "mediumArmorFullSpeed": false,
       "multiAttack": false,
@@ -104,9 +105,9 @@
     "damageReduction": [],
     "deactivateActions": [
       {
-        "action": "Remove attack ps1RedBeam on self; Remove attack ps2OrangeBeam on self; Remove attack ps3YellowBeam on self; Remove attack ps4GreenBeam on self; Remove attack ps5BlueBeam on self; Remove attack ps6IndigoBeam on self; Remove attack ps7VioletBeam on self;",
+        "action": "Remove attack \"Prismatic Effect (Red)\" on self; Remove attack \"Prismatic Effect (Orange)\" on self; Remove attack \"Prismatic Effect (Yellow)\" on self; Remove attack \"Prismatic Effect (Green)\" on self; Remove attack \"Prismatic Effect (Blue)\" on self; Remove attack \"Prismatic Effect (Indigo)\" on self; Remove attack \"Prismatic Effect (Violet)\" on self;",
         "condition": "",
-        "img": "",
+        "img": "systems/D35E/icons/spells/school/abj.png",
         "name": "Remove Attacks"
       }
     ],
@@ -129,10 +130,10 @@
     "level": "",
     "light": {
       "alpha": 0.5,
-      "animationIntensity": "",
-      "animationSpeed": "",
-      "color": "",
-      "dimRadius": "",
+      "animationIntensity": 6,
+      "animationSpeed": 6,
+      "color": "#000000",
+      "dimRadius": null,
       "emitLight": false,
       "lightAngle": 360,
       "opacity": 0,
@@ -152,7 +153,7 @@
     "nameFromFormula": false,
     "originId": "LEd5XZqMzjYp2w4F",
     "originPack": "D35E.commonbuffs",
-    "originVersion": 3,
+    "originVersion": 9,
     "perRoundActions": [],
     "possibleUpdate": false,
     "psionic": "",
@@ -184,6 +185,7 @@
     "sizeOverride": "",
     "source": "",
     "specialActions": [],
+    "summon": [],
     "tags": [],
     "target": {
       "value": ""
@@ -192,9 +194,9 @@
       "deleteOnExpiry": true,
       "elapsed": 0,
       "enabled": true,
-      "formula": "@item.level*600",
+      "formula": "@item.level*100",
       "tickOnEnd": false,
-      "total": 600
+      "total": 100
     },
     "uniqueId": "",
     "userNonRemovable": false,

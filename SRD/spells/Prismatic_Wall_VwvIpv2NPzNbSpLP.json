@@ -5,7 +5,7 @@
     "coreVersion": "11.315",
     "createdTime": null,
     "lastModifiedBy": "2gajtRqPwBrh0BVJ",
-    "modifiedTime": 1775077704221,
+    "modifiedTime": 1775164385552,
     "systemId": "D35E",
     "systemVersion": "2.4.3"
   },
@@ -154,7 +154,7 @@
     "nameFromFormula": false,
     "originId": "VwvIpv2NPzNbSpLP",
     "originPack": "D35E.spells",
-    "originVersion": 109,
+    "originVersion": 116,
     "perRoundActions": [],
     "possibleUpdate": false,
     "powerPointsCost": 15,
@@ -202,15 +202,9 @@
     "source": "",
     "specialActions": [
       {
-        "action": "Create unique \"PS1 - Red Beam\" from \"world.srd-update-attacks\" on self; Set attack \"PS1 - Red Beam\" field data.save.dc to (@dc) on self; Create unique \"PS2 - Orange Beam\" from \"world.srd-update-attacks\" on self; Set attack \"PS2 - Orange Beam\" field data.save.dc to (@dc) on self; Create unique \"PS3 - Yellow Beam\" from \"world.srd-update-attacks\" on self; Set attack \"PS3 - Yellow Beam\" field data.save.dc to (@dc) on self; Create unique \"PS4 - Green Beam\" from \"world.srd-update-attacks\" on self; Set attack \"PS4 - Green Beam\" field data.save.dc to (@dc) on self; Create unique \"PS5 - Blue Beam\" from \"world.srd-update-attacks\" on self; Set attack \"PS5 - Blue Beam\" field data.save.dc to (@dc) on self; Create unique \"PS6 - Indigo Beam\" from \"world.srd-update-attacks\" on self; Set attack \"PS6 - Indigo Beam\" field data.save.dc to (@dc) on self; Create unique \"PS7 - Violet Beam\" from \"world.srd-update-attacks\" on self; Set attack \"PS7 - Violet Beam\" field data.save.dc to (@dc) on self;",
+        "action": "Create unique \"Prismatic Wall\" from \"D35E.commonbuffs\" on self;Set buff \"Prismatic Wall\" field data.level to max(1,(@cl)) on self;Activate buff \"Prismatic Wall\" on self;Create unique \"Prismatic Effect (Red)\" from \"D35E.spell-items\" on self; Create unique \"Prismatic Effect (Orange)\" from \"D35E.spell-items\" on self; Create unique \"Prismatic Effect (Yellow)\" from \"D35E.spell-items\" on self; Create unique \"Prismatic Effect (Green)\" from \"D35E.spell-items\" on self; Create unique \"Prismatic Effect (Blue)\" from \"D35E.spell-items\" on self; Create unique \"Prismatic Effect (Indigo)\" from \"D35E.spell-items\" on self; Create unique \"Prismatic Effect (Violet)\" from \"D35E.spell-items\" on self;Set attack \"Prismatic Effect (Red)\" field data.save.dc to (@dc) on self;Set attack \"Prismatic Effect (Orange)\" field data.save.dc to (@dc) on self;Set attack \"Prismatic Effect (Yellow)\" field data.save.dc to (@dc) on self;Set attack \"Prismatic Effect (Green)\" field data.save.dc to (@dc) on self;Set attack \"Prismatic Effect (Blue)\" field data.save.dc to (@dc) on self;Set attack \"Prismatic Effect (Indigo)\" field data.save.dc to (@dc) on self;Set attack \"Prismatic Effect (Violet)\" field data.save.dc to (@dc) on self;",
         "condition": "",
-        "img": "icons/svg/item-bag.svg",
-        "name": "Prismatic Effects"
-      },
-      {
-        "action": "Create unique \"Prismatic Wall\" from \"D35E.commonbuffs\" on target;Set buff \"Prismatic Wall\" field data.level to max(1,(@cl)) on target;Activate buff \"Prismatic Wall\" on target",
-        "condition": "",
-        "img": "icons/svg/item-bag.svg",
+        "img": "systems/D35E/icons/spells/school/abj.png",
         "name": "Prismatic Wall"
       },
       {
@@ -226,9 +220,9 @@
     "spellbook": "primary",
     "spellDuration": "10 min./level (D)",
     "spellDurationData": {
-      "dismissable": false,
+      "dismissable": true,
       "units": "minutePerLevel",
-      "value": "10*@cl"
+      "value": "10"
     },
     "spellEffect": "Wall 4 ft./level wide, 2 ft./level high",
     "spellType": {
