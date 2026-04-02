@@ -1,0 +1,222 @@
+{
+  "_id": "MYL9eUSeZNIbHbP4",
+  "_key": "!items!MYL9eUSeZNIbHbP4",
+  "_stats": {
+    "coreVersion": "11.315",
+    "createdTime": 1775077738481,
+    "lastModifiedBy": "2gajtRqPwBrh0BVJ",
+    "modifiedTime": 1775139301974,
+    "systemId": "D35E",
+    "systemVersion": "2.4.3"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": null,
+  "img": "systems/D35E/icons/spells/named-spells/prismatic-sphere.png",
+  "name": "Prismatic Sphere",
+  "ownership": {
+    "2gajtRqPwBrh0BVJ": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
+    "activateActions": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "active": false,
+    "addedLevel": 0,
+    "attackParts": [],
+    "buffType": "temp",
+    "changeFlags": {
+      "firstChangeTargetSelectableOnDescription": false,
+      "hasted": false,
+      "heavyArmorFullSpeed": false,
+      "improvedMultiattack": false,
+      "loseDexToAC": false,
+      "mediumArmorFullSpeed": false,
+      "multiAttack": false,
+      "multiweaponAttack": false,
+      "noCon": false,
+      "noDex": false,
+      "noEncumbrance": false,
+      "noInt": false,
+      "noStr": false,
+      "oneCha": false,
+      "oneInt": false,
+      "oneWis": false,
+      "uncannyDodge": false
+    },
+    "changes": [],
+    "classSource": "",
+    "combatChangeCustomDisplayName": "",
+    "combatChangeCustomReferenceName": "",
+    "combatChanges": [],
+    "combatChangesAdditionalRanges": {
+      "hasAdditionalRanges": false,
+      "slider1": {
+        "max": 0,
+        "maxFormula": "",
+        "name": ""
+      },
+      "slider2": {
+        "max": 0,
+        "maxFormula": "",
+        "name": ""
+      },
+      "slider3": {
+        "max": 0,
+        "maxFormula": "",
+        "name": ""
+      }
+    },
+    "combatChangesApplySpecialActionsOnce": true,
+    "combatChangesRange": {
+      "max": 0,
+      "maxFormula": ""
+    },
+    "combatChangesUsesCost": "chargesPerUse",
+    "conditionals": [],
+    "conditionFlags": {
+      "dazzled": false,
+      "polymorphed": false,
+      "wildshaped": false
+    },
+    "container": "None",
+    "containerWeightless": false,
+    "contextNotes": [],
+    "counterName": "",
+    "createdBy": "",
+    "creationChanges": [],
+    "customAttributes": {},
+    "customAttributesLocked": false,
+    "customTag": "",
+    "damage": {
+      "alternativeParts": [],
+      "parts": []
+    },
+    "damagePool": {
+      "current": 0,
+      "deleteOnDamagePoolEmpty": false,
+      "enabled": false,
+      "formula": "",
+      "max": 0
+    },
+    "damageReduction": [],
+    "deactivateActions": [
+      {
+        "action": "Remove attack \"Prismatic Effect (Red)\" on self; Remove attack \"Prismatic Effect (Orange)\" on self; Remove attack \"Prismatic Effect (Yellow)\" on self; Remove attack \"Prismatic Effect (Green)\" on self; Remove attack \"Prismatic Effect (Blue)\" on self; Remove attack \"Prismatic Effect (Indigo)\" on self; Remove attack \"Prismatic Effect (Violet)\" on self;",
+        "condition": "",
+        "img": "systems/D35E/icons/spells/named-spells/prismatic-sphere.png",
+        "name": "Remove Attacks"
+      }
+    ],
+    "description": {
+      "chat": "",
+      "unidentified": "",
+      "value": "<p><em>This buff only tracks the duration of the spell.</em></p>\n<hr>\n<p>This spell functions like&nbsp;<a href=\"https://www.d20srd.org/srd/spells/prismaticWall.htm\">prismatic wall</a>, except you conjure up an immobile, opaque globe of shimmering, multicolored light that surrounds you and protects you from all forms of attack. The sphere flashes in all colors of the visible spectrum.</p>\n<p>The sphere&rsquo;s&nbsp;<a href=\"https://www.d20srd.org/srd/conditionSummary.htm#blinded\">blindness</a>&nbsp;effect on creatures with less than 8 HD lasts&nbsp;<a class=\"diceRoller\" title=\"Roll the dice!\">2d4</a>&times;10 minutes.</p>\n<p>You can pass into and out of the prismatic sphere and remain near it without harm. However, when you&rsquo;re inside it, the sphere blocks any attempt to project something through the sphere (including spells). Other creatures that attempt to attack you or pass through suffer the effects of each color, one at a time.</p>\n<p>Typically, only the upper hemisphere of the globe will exist, since you are at the center of the sphere, so the lower half is usually excluded by the floor surface you are standing on.</p>\n<p>The colors of the sphere have the same effects as the colors of a&nbsp;<a href=\"https://www.d20srd.org/srd/spells/prismaticWall.htm\">prismatic wall</a>.</p>\n<p>Prismatic sphere can be made permanent with a&nbsp;<a href=\"https://www.d20srd.org/srd/spells/permanency.htm\">permanency</a>&nbsp;spell.&nbsp;</p>\n<table cellspacing=\"0\">\n<thead>\n<tr>\n<th align=\"left\">Color</th>\n<th>Order</th>\n<th align=\"left\">Effect of Color</th>\n<th align=\"left\">Negated By</th>\n</tr>\n</thead>\n<tfoot>\n<tr>\n<td colspan=\"4\">\n<ol>\n<li>The violet effect makes the special effects of the other six colors redundant, but these six effects are included here because certain magic items can create prismatic effects one color at a time, and&nbsp;<a href=\"https://www.d20srd.org/srd/specialAbilities.htm#spellResistance\">spell resistance</a>&nbsp;might render some colors ineffective (see above).</li>\n</ol>\n</td>\n</tr>\n</tfoot>\n<tbody>\n<tr>\n<td>Red</td>\n<td align=\"center\">1st</td>\n<td>Stops nonmagical ranged weapons.<br>Deals 20 points of fire damage (Reflex half).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/coneOfCold.htm\">Cone of cold</a></td>\n</tr>\n<tr>\n<td>Orange</td>\n<td align=\"center\">2nd</td>\n<td>Stops magical ranged weapons.<br>Deals 40 points of acid damage (Reflex half).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/gustOfWind.htm\">Gust of wind</a></td>\n</tr>\n<tr>\n<td>Yellow</td>\n<td align=\"center\">3rd</td>\n<td>Stops&nbsp;<a href=\"https://www.d20srd.org/srd/specialAbilities.htm#poison\">poisons</a>, gases, and petrification.<br>Deals 80 points of electricity damage (Reflex half).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/disintegrate.htm\">Disintegrate</a></td>\n</tr>\n<tr>\n<td>Green</td>\n<td align=\"center\">4th</td>\n<td>Stops&nbsp;<a href=\"https://www.d20srd.org/srd/specialAbilities.htm#breathWeapon\">breath weapons</a>.<br><a href=\"https://www.d20srd.org/srd/specialAbilities.htm#poison\">Poison</a>&nbsp;(Kills; Fortitude partial for&nbsp;<a class=\"diceRoller\" title=\"Roll the dice!\">1d6</a>&nbsp;points of Con damage instead).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/passwall.htm\">Passwall</a></td>\n</tr>\n<tr>\n<td>Blue</td>\n<td align=\"center\">5th</td>\n<td>Stops divination and mental attacks.<br>Turned to stone (Fortitude negates).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/magicMissile.htm\">Magic missile</a></td>\n</tr>\n<tr>\n<td>Indigo</td>\n<td align=\"center\">6th</td>\n<td>Stops all spells.<br>Will save or become insane (as&nbsp;<a class=\"spell\" href=\"https://www.d20srd.org/srd/spells/insanity.htm\">insanity</a>&nbsp;spell).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/daylight.htm\">Daylight</a></td>\n</tr>\n<tr>\n<td>Violet</td>\n<td align=\"center\">7th</td>\n<td>Energy field destroys all objects and effects.<sup>1</sup><br>Creatures sent to another plane (Will negates).</td>\n<td><a href=\"https://www.d20srd.org/srd/spells/dispelMagic.htm\">Dispel magic</a></td>\n</tr>\n</tbody>\n</table>"
+    },
+    "duration": {
+      "units": "",
+      "value": null
+    },
+    "epic": "",
+    "hideFromToken": false,
+    "identifiedName": "Prismatic Sphere",
+    "index": {
+      "subType": null,
+      "uniqueId": ""
+    },
+    "level": "",
+    "light": {
+      "alpha": 0.5,
+      "animationIntensity": 6,
+      "animationSpeed": 6,
+      "color": "#000000",
+      "dimRadius": null,
+      "emitLight": false,
+      "lightAngle": 360,
+      "opacity": 0,
+      "radius": 0,
+      "type": ""
+    },
+    "linkedChargeItem": {
+      "id": null,
+      "img": null,
+      "name": null
+    },
+    "linkId": "",
+    "linkImported": false,
+    "linkSourceId": "",
+    "linkSourceName": "",
+    "nameFormula": "",
+    "nameFromFormula": false,
+    "originId": "LEd5XZqMzjYp2w4F",
+    "originPack": "D35E.commonbuffs",
+    "originVersion": 11,
+    "perRoundActions": [],
+    "possibleUpdate": false,
+    "psionic": "",
+    "range": {
+      "long": null,
+      "units": "",
+      "value": null
+    },
+    "recharge": {
+      "current": 0,
+      "enabled": false,
+      "formula": ""
+    },
+    "requirements": [],
+    "requiresPsionicFocus": false,
+    "resistances": [],
+    "senses": {
+      "blindsight": null,
+      "darkvision": null,
+      "lowLight": false,
+      "lowLightMultiplier": null,
+      "tremorsense": null,
+      "truesight": null
+    },
+    "shapechange": {
+      "source": {},
+      "type": "polymorph"
+    },
+    "sizeOverride": "",
+    "source": "",
+    "specialActions": [],
+    "summon": [],
+    "tags": [],
+    "target": {
+      "value": ""
+    },
+    "timeline": {
+      "deleteOnExpiry": true,
+      "elapsed": 0,
+      "enabled": true,
+      "formula": "@item.level*100",
+      "tickOnEnd": false,
+      "total": 100
+    },
+    "uniqueId": "",
+    "userNonRemovable": false,
+    "uses": {
+      "allowMultipleUses": false,
+      "autoDeductCharges": true,
+      "canBeLinked": false,
+      "chargesPerUse": 1,
+      "isResource": false,
+      "max": 0,
+      "maxFormula": "",
+      "maxPerUse": null,
+      "maxPerUseFormula": "",
+      "per": null,
+      "rechargeFormula": null,
+      "value": 0
+    }
+  },
+  "type": "buff"
+}
