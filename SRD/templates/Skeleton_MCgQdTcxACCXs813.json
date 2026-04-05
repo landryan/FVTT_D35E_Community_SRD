@@ -1,19 +1,43 @@
 {
   "_id": "MCgQdTcxACCXs813",
   "_key": "!items!MCgQdTcxACCXs813",
+  "_stats": {
+    "coreVersion": "11.315",
+    "createdTime": null,
+    "lastModifiedBy": "Xm0hwAcb7V88sI5H",
+    "modifiedTime": 1775379605239,
+    "systemId": "D35E",
+    "systemVersion": "2.4.3"
+  },
   "effects": [],
+  "flags": {
+    "core": {}
+  },
   "folder": null,
   "img": "systems/D35E/icons/racialhd/skeleton.png",
   "name": "Skeleton",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 400000,
   "system": {
     "activateActions": [],
-    "addedAbilities": [],
+    "addedAbilities": [
+      {
+        "level": 1,
+        "uid": "user-race-improvedinitiative"
+      }
+    ],
+    "addedLevel": 0,
     "allSpellsKnown": false,
     "attackParts": [],
     "automaticFeatures": false,
     "bab": "",
     "changeFlags": {
+      "firstChangeTargetSelectableOnDescription": false,
+      "hasted": false,
       "heavyArmorFullSpeed": false,
+      "improvedMultiattack": false,
       "loseDexToAC": false,
       "mediumArmorFullSpeed": false,
       "multiAttack": false,
@@ -106,6 +130,7 @@
       "rid": false,
       "sen": false,
       "slt": false,
+      "spk": false,
       "spl": false,
       "spt": false,
       "src": false,
@@ -163,12 +188,14 @@
     "customAttributesLocked": false,
     "customTag": "",
     "damage": {
+      "alternativeParts": [],
       "parts": []
     },
     "damageReduction": [
       [
         "5",
-        "bludgeoning"
+        "bludgeoning",
+        false
       ]
     ],
     "deactivateActions": [],
@@ -221,6 +248,7 @@
     "originId": "",
     "originPack": "",
     "originVersion": 99,
+    "perRoundActions": [],
     "possibleUpdate": false,
     "powerPointBonusBaseAbility": "0",
     "powerPointTable": {
@@ -297,6 +325,7 @@
         "",
         "energy-cold",
         true,
+        false,
         false
       ]
     ],
@@ -351,6 +380,7 @@
     "spellsKnownPerLevel": [],
     "spellslotAbility": "",
     "spellsPerLevel": [],
+    "summon": [],
     "tags": [],
     "turnUndeadLevelFormula": "0",
     "uniqueId": "",
