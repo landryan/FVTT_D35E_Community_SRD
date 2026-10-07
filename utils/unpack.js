@@ -2,19 +2,24 @@
 const { execSync } = require("child_process");
 const fs = require("fs");
 const sortJson = require("sort-json");
+const version = require(
+"@foundryvtt/foundryvtt-cli/package.json"
+).version;
 
-let rawdata = fs.readFileSync("../V13/Data/systems/D35E/system.json");
+console.log(`##### Using Foundry CLI ${version} #####`);
+
+let rawdata = fs.readFileSync("../V14/Data/systems/D35E/system.json");
 let system = JSON.parse(rawdata);
-let packdir = "export";
-fs.rmSync(packdir, { recursive: true, force: true });
+let packdir = "../V14/Data/systems/D35E/packs";
+fs.rmSync("export", { recursive: true, force: true });
 for (let i = 0; i < system["packs"].length; i++) {
   let packPath = system["packs"][i]["path"];
   let packNameFromPath = packPath.replace("packs/", "");
   console.log("Unpacking " + packPath);
   console.log("Unpacking " + packNameFromPath);
-  if (fs.existsSync("../V13/Data/systems/D35E/packs/" + packNameFromPath)) {
+  if (fs.existsSync(packdir + "/" + packNameFromPath)) {
     let fvttProcess = execSync(
-      `fvtt package unpack ${packNameFromPath} --outputDirectory export/${packNameFromPath} --inputDirectory "../V13/Data/systems/D35E/packs/"`
+      `.\\node_modules\\.bin\\fvtt.cmd package unpack ${packNameFromPath} --outputDirectory export/${packNameFromPath} --inputDirectory ${packdir}/`,
     );
     const unpackedFiles = fs.readdirSync("export/" + packNameFromPath);
     let foundFiles = unpackedFiles.length;

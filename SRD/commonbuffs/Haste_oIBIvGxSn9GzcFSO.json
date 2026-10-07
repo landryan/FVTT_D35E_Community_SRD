@@ -69,31 +69,31 @@
         "dodge"
       ],
       [
-        "@attributes.speed.land.total > 0 ? min(@attributes.speed.land.total,30) : 0",
+        "@attributes.speed.land.total > 0 ? 30 : 0",
         "speed",
         "landSpeed",
         "enh"
       ],
       [
-        "@attributes.speed.climb.total > 0 ? min(@attributes.speed.climb.total,30) : 0",
+        "@attributes.speed.climb.total > 0 ? 30 : 0",
         "speed",
         "climbSpeed",
         "enh"
       ],
       [
-        "@attributes.speed.swim.total > 0 ? min(@attributes.speed.swim.total,30) : 0",
+        "@attributes.speed.swim.total > 0 ? 30 : 0",
         "speed",
         "swimSpeed",
         "enh"
       ],
       [
-        "@attributes.speed.burrow.total > 0 ? min(@attributes.speed.burrow.total,30) : 0",
+        "@attributes.speed.burrow.total > 0 ? 30 : 0",
         "speed",
         "burrowSpeed",
         "enh"
       ],
       [
-        "@attributes.speed.fly.total > 0 ? min(@attributes.speed.fly.total,30) : 0",
+        "@attributes.speed.fly.total > 0 ? 30 : 0",
         "speed",
         "flySpeed",
         "enh"

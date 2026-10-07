@@ -23,7 +23,7 @@
   "sort": 0,
   "system": {
     "ability": {
-      "attack": "",
+      "attack": "wis",
       "critMult": 2,
       "critRange": 20,
       "damage": "",
@@ -31,7 +31,7 @@
       "twoHandedOnly": false,
       "vsTouchAc": false
     },
-    "actionType": "other",
+    "actionType": "summonWeapon",
     "activateActions": [],
     "activation": {
       "cost": 1,
@@ -73,7 +73,13 @@
     "customTag": "",
     "damage": {
       "alternativeParts": [],
-      "parts": []
+      "parts": [
+        [
+          "1d8 + min(5, floor(@cl / 3))",
+          "Force",
+          "energy-force"
+        ]
+      ]
     },
     "deactivateActions": [],
     "description": {
@@ -218,6 +224,10 @@
     "sr": true,
     "subschool": "",
     "summon": [],
+    "summonWeapon": {
+      "attackActionType": "msak",
+      "behavior": "spiritual"
+    },
     "tags": [],
     "target": {
       "value": ""
