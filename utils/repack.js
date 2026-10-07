@@ -2,10 +2,15 @@
 const { execSync } = require("child_process");
 const fs = require("fs");
 const sortJson = require("sort-json");
+const version = require(
+"@foundryvtt/foundryvtt-cli/package.json"
+).version;
 
-let rawdata = fs.readFileSync("../V13/Data/systems/D35E/system.json");
+console.log(`##### Using Foundry CLI ${version} #####`);
+
+let rawdata = fs.readFileSync("../V14/Data/systems/D35E/system.json");
 let system = JSON.parse(rawdata);
-let packdir = "../V13/Data/systems/D35E/packs";
+let packdir = "../V14/Data/systems/D35E/packs";
 fs.rmSync(packdir, { recursive: true, force: true });
 for (let i = 0; i < system["packs"].length; i++) {
   let packPath = system["packs"][i]["path"];
@@ -20,7 +25,7 @@ for (let i = 0; i < system["packs"].length; i++) {
 
     console.log(`Repacking ${packNameFromPath}... (${foundFiles} files found)`);
     let fvttProcess = execSync(
-      `fvtt package pack ${packNameFromPath} --inputDirectory SRD/${packNameFromPath} --outputDirectory ${packdir}/`,
+      `.\\node_modules\\.bin\\fvtt.cmd package pack ${packNameFromPath} --inputDirectory Source/${packNameFromPath} --outputDirectory ${packdir}/`,
     );
     console.log("Repacking " + packNameFromPath + " done");
   } else {
