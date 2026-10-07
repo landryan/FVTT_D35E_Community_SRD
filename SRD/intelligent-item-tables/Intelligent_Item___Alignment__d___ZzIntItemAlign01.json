@@ -1,0 +1,213 @@
+{
+  "_id": "ZzIntItemAlign01",
+  "_key": "!tables!ZzIntItemAlign01",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": null,
+    "modifiedTime": null,
+    "systemId": null,
+    "systemVersion": null
+  },
+  "description": "",
+  "displayRoll": true,
+  "flags": {},
+  "folder": null,
+  "formula": "1d100",
+  "img": "icons/svg/d20-grey.svg",
+  "name": "Intelligent Item — Alignment (d%)",
+  "ownership": {
+    "default": 0
+  },
+  "replacement": true,
+  "results": [
+    {
+      "_id": "JiLWjUFYBUv6FU38",
+      "_key": "!tables.results!ZzIntItemAlign01.JiLWjUFYBUv6FU38",
+      "description": "Chaotic good",
+      "drawn": false,
+      "flags": {
+        "D35E": {
+          "alignment": "cg",
+          "tableKind": "alignment"
+        }
+      },
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        1,
+        5
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "H8PurcZEdcl0zM9A",
+      "_key": "!tables.results!ZzIntItemAlign01.H8PurcZEdcl0zM9A",
+      "description": "Chaotic neutral (also usable by CN, CG, CE)",
+      "drawn": false,
+      "flags": {
+        "D35E": {
+          "alignment": "cn",
+          "flexible": true,
+          "tableKind": "alignment"
+        }
+      },
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        6,
+        15
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "pCDOPAHw9S1ax8FK",
+      "_key": "!tables.results!ZzIntItemAlign01.pCDOPAHw9S1ax8FK",
+      "description": "Chaotic evil",
+      "drawn": false,
+      "flags": {
+        "D35E": {
+          "alignment": "ce",
+          "tableKind": "alignment"
+        }
+      },
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        16,
+        20
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "dcjex6xOBitEjypw",
+      "_key": "!tables.results!ZzIntItemAlign01.dcjex6xOBitEjypw",
+      "description": "Neutral evil (also usable by NE, LE, CE)",
+      "drawn": false,
+      "flags": {
+        "D35E": {
+          "alignment": "ne",
+          "flexible": true,
+          "tableKind": "alignment"
+        }
+      },
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        21,
+        25
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "rQxqfaNingb0RgF6",
+      "_key": "!tables.results!ZzIntItemAlign01.rQxqfaNingb0RgF6",
+      "description": "Lawful evil",
+      "drawn": false,
+      "flags": {
+        "D35E": {
+          "alignment": "le",
+          "tableKind": "alignment"
+        }
+      },
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        26,
+        30
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "P8z6VE52ZwV0FEdo",
+      "_key": "!tables.results!ZzIntItemAlign01.P8z6VE52ZwV0FEdo",
+      "description": "Lawful good",
+      "drawn": false,
+      "flags": {
+        "D35E": {
+          "alignment": "lg",
+          "tableKind": "alignment"
+        }
+      },
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        31,
+        55
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "1SbMlu1klE5uJ4jk",
+      "_key": "!tables.results!ZzIntItemAlign01.1SbMlu1klE5uJ4jk",
+      "description": "Lawful neutral (also usable by LN, LG, LE)",
+      "drawn": false,
+      "flags": {
+        "D35E": {
+          "alignment": "ln",
+          "flexible": true,
+          "tableKind": "alignment"
+        }
+      },
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        56,
+        60
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "DoZu5ap6FuNW9mVe",
+      "_key": "!tables.results!ZzIntItemAlign01.DoZu5ap6FuNW9mVe",
+      "description": "Neutral good (also usable by NG, LG, CG)",
+      "drawn": false,
+      "flags": {
+        "D35E": {
+          "alignment": "ng",
+          "flexible": true,
+          "tableKind": "alignment"
+        }
+      },
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        61,
+        80
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "QTah27UF2tSRsjsR",
+      "_key": "!tables.results!ZzIntItemAlign01.QTah27UF2tSRsjsR",
+      "description": "Neutral",
+      "drawn": false,
+      "flags": {
+        "D35E": {
+          "alignment": "nn",
+          "tableKind": "alignment"
+        }
+      },
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        81,
+        100
+      ],
+      "type": "text",
+      "weight": 1
+    }
+  ],
+  "sort": 0
+}

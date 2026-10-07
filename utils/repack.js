@@ -25,7 +25,7 @@ for (let i = 0; i < system["packs"].length; i++) {
 
     console.log(`Repacking ${packNameFromPath}... (${foundFiles} files found)`);
     let fvttProcess = execSync(
-      `.\\node_modules\\.bin\\fvtt.cmd package pack ${packNameFromPath} --inputDirectory Source/${packNameFromPath} --outputDirectory ${packdir}/`,
+      `.\\node_modules\\.bin\\fvtt.cmd package pack ${packNameFromPath} --inputDirectory SRD/${packNameFromPath} --outputDirectory ${packdir}/`,
     );
     console.log("Repacking " + packNameFromPath + " done");
   } else {

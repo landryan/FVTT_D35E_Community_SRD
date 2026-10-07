@@ -17,23 +17,4660 @@
   "folder": "0PAp0NFsR593sSWX",
   "img": "systems/D35E/icons/bestiary/token/green-hag.png",
   "items": [
-    "uZ8EiqPD8IAZvkSJ",
-    "MklhmEyXQKeKkbgw",
-    "VLLMANan4Tcm8j2r",
-    "3HAGrHjXCN52dr60",
-    "k0cO7KNLfVOjaiGO",
-    "JfCc6t3tvF438aN6",
-    "NU5Hnzs1mr1kJTWT",
-    "c5Dd6SX8X8Jhvom7",
-    "QNUJCI9nSBPGfux5",
-    "BiRXzGRqO7o6znxi",
-    "aGwevCihFxeectQJ",
-    "nV9HYJJMEfq9O0l7",
-    "T0vGVJOjuv7MVLu5",
-    "hEmt2MYEvVSTziBo",
-    "Q0HcpfdNNCaldpID",
-    "jkIm0z2XJ5o7vpPv",
-    "MrvJ9goImf3dCV8G"
+    {
+      "_id": "uZ8EiqPD8IAZvkSJ",
+      "_key": "!actors.items!o9m0GW8yX07Qk00h.uZ8EiqPD8IAZvkSJ",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/racialhd/monstrous-humanoid.png",
+      "name": "Monstrous Humanoid*",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "addedAbilities": [],
+        "addedLevel": 0,
+        "allSpellsKnown": false,
+        "automaticFeatures": false,
+        "bab": "high",
+        "changeFlags": {
+          "heavyArmorFullSpeed": false,
+          "loseDexToAC": false,
+          "mediumArmorFullSpeed": false,
+          "multiAttack": false,
+          "multiweaponAttack": false,
+          "noCon": false,
+          "noDex": false,
+          "noEncumbrance": false,
+          "noInt": false,
+          "noStr": false,
+          "oneCha": false,
+          "oneInt": false,
+          "oneWis": false,
+          "uncannyDodge": false
+        },
+        "changes": [
+          [
+            "11",
+            "ac",
+            "nac",
+            "racial"
+          ],
+          [
+            "18",
+            "misc",
+            "spellResistance",
+            "untyped"
+          ]
+        ],
+        "classSkills": {
+          "": true,
+          "acr": false,
+          "apr": false,
+          "art": false,
+          "aut": false,
+          "blc": false,
+          "blf": false,
+          "clm": true,
+          "coc": true,
+          "crf": true,
+          "dev": false,
+          "dip": false,
+          "dis": false,
+          "dsc": false,
+          "esc": false,
+          "fly": true,
+          "fog": false,
+          "gif": false,
+          "han": false,
+          "hea": false,
+          "hid": true,
+          "int": true,
+          "jmp": false,
+          "kar": false,
+          "kdu": false,
+          "ken": false,
+          "kge": false,
+          "khi": false,
+          "klo": false,
+          "kna": false,
+          "kno": false,
+          "kpl": false,
+          "kps": false,
+          "kre": false,
+          "lin": false,
+          "lis": true,
+          "lor": false,
+          "mos": false,
+          "opl": false,
+          "per": true,
+          "prf": false,
+          "pro": false,
+          "psi": false,
+          "rid": true,
+          "sen": false,
+          "slt": false,
+          "spl": false,
+          "spt": true,
+          "src": false,
+          "ste": true,
+          "sur": true,
+          "swm": true,
+          "tmb": false,
+          "umd": false,
+          "upd": false,
+          "uro": false
+        },
+        "classSource": "",
+        "classType": "racial",
+        "combatChangeCustomDisplayName": "",
+        "combatChangeCustomReferenceName": "",
+        "combatChanges": [],
+        "combatChangesAdditionalRanges": {
+          "hasAdditionalRanges": false,
+          "slider1": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider2": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider3": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          }
+        },
+        "combatChangesApplySpecialActionsOnce": true,
+        "combatChangesRange": {
+          "max": 0,
+          "maxFormula": ""
+        },
+        "combatChangesUsesCost": "chargesPerUse",
+        "conditionFlags": {
+          "dazzled": false,
+          "polymorphed": false,
+          "wildshaped": false
+        },
+        "counterName": "",
+        "createdBy": "",
+        "creationChanges": [],
+        "creatureType": "monstrousHumanoid",
+        "crPerHD": 3,
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "parts": []
+        },
+        "damageReduction": [],
+        "deckHandSizeFormula": "0",
+        "deckPrestigeClass": false,
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "<p>Monstrous humanoids are similar to humanoids, but with monstrous or animalistic features. They often have magical abilities as well.</p>\n<h2>Features</h2>\n<p>A monstrous humanoid has the following features.</p>\n<ul>\n<li>8-sided Hit Dice.</li>\n<li>Base attack bonus equal to total Hit Dice (as fighter).</li>\n<li>Good Reflex and Will saves.</li>\n<li>Skill points equal to (2 + Int modifier, minimum 1) per Hit Die, with quadruple skill points for the first Hit Die.</li>\n</ul>\n<h2>Traits</h2>\n<p>A monstrous humanoid possesses the following traits (unless otherwise noted in a creature’s entry).</p>\n<ul>\n<li>Darkvision out to 60 feet.</li>\n<li>Proficient with all simple weapons and any weapons mentioned in its entry.</li>\n<li>Proficient with whatever type of armor (light, medium, or heavy) it is described as wearing, as well as all lighter types. Monstrous humanoids not indicated as wearing armor are not proficient with armor. Monstrous humanoids are proficient with shields if they are proficient with any form of armor.</li>\n<li>Monstrous humanoids eat, sleep, and bre</li>\n</ul>"
+        },
+        "disabledAbilities": [],
+        "epic": "",
+        "fc": {
+          "alt": {
+            "value": 0
+          },
+          "hp": {
+            "value": 0
+          },
+          "skill": {
+            "value": 0
+          }
+        },
+        "halfCasterLevel": false,
+        "hasLimitedSpellbook": false,
+        "hasSpecialSlot": false,
+        "hasSpellbook": false,
+        "hd": 8,
+        "hdReplace": "",
+        "hdReplaceRacialOnly": false,
+        "hp": 40,
+        "index": {
+          "subType": null,
+          "uniqueId": ""
+        },
+        "knownCardsSizeFormula": "0",
+        "la": 0,
+        "levels": 9,
+        "linkId": "",
+        "linkImported": false,
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "maxLevel": 20,
+        "minionGroup": "none",
+        "minionLevelFormula": "0",
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "nonActiveClassAbilities": [],
+        "originId": "",
+        "originPack": "",
+        "originVersion": 1,
+        "possibleUpdate": false,
+        "powerPointBonusBaseAbility": "",
+        "powerPointTable": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0
+        },
+        "powersKnown": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0
+        },
+        "powersMaxLevel": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0
+        },
+        "prestigeLevels": 0,
+        "psionic": "",
+        "requirements": [],
+        "resistances": [],
+        "savingThrows": {
+          "fort": {
+            "value": "low"
+          },
+          "ref": {
+            "value": "high"
+          },
+          "will": {
+            "value": "high"
+          }
+        },
+        "sizeOverride": "",
+        "skillsPerLevel": 2,
+        "sneakAttackFormula": "",
+        "sneakAttackGroup": "",
+        "source": "",
+        "spellbook": [
+          {
+            "level": 0,
+            "spells": []
+          },
+          {
+            "level": 1,
+            "spells": []
+          },
+          {
+            "level": 2,
+            "spells": []
+          },
+          {
+            "level": 3,
+            "spells": []
+          },
+          {
+            "level": 4,
+            "spells": []
+          },
+          {
+            "level": 5,
+            "spells": []
+          },
+          {
+            "level": 6,
+            "spells": []
+          },
+          {
+            "level": 7,
+            "spells": []
+          },
+          {
+            "level": 8,
+            "spells": []
+          },
+          {
+            "level": 9,
+            "spells": []
+          }
+        ],
+        "spellcastingAbility": "int",
+        "spellcastingDescription": "None",
+        "spellcastingSpellname": "Spell",
+        "spellcastingSpellnamePl": "Spells",
+        "spellcastingSpontaneus": false,
+        "spellcastingType": null,
+        "spellPointBonusFormula": "0",
+        "spellPointGroup": "wizard",
+        "spellPointTable": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0
+        },
+        "spellsKnownPerLevel": [],
+        "spellslotAbility": "",
+        "spellsPerLevel": [],
+        "tags": [],
+        "turnUndeadLevelFormula": "",
+        "uniqueId": "",
+        "userNonRemovable": false
+      },
+      "type": "class"
+    },
+    {
+      "_id": "MklhmEyXQKeKkbgw",
+      "_key": "!actors.items!o9m0GW8yX07Qk00h.MklhmEyXQKeKkbgw",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/special-abilities/imported.png",
+      "name": "Spell-like abilities",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "ability": {
+          "attack": null,
+          "critMult": 2,
+          "critRange": 20,
+          "damage": null,
+          "damageMult": 1,
+          "twoHandedOnly": false,
+          "vsTouchAc": false
+        },
+        "abilityType": "",
+        "actionType": "",
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "addedLevel": 0,
+        "associations": {
+          "classes": []
+        },
+        "attack": {
+          "parts": []
+        },
+        "attackBonus": "",
+        "attackCountFormula": "",
+        "attackNotes": "",
+        "attackParts": [],
+        "autoscaleAttackParts": "",
+        "baseCl": "0",
+        "changeFlags": {
+          "heavyArmorFullSpeed": false,
+          "loseDexToAC": false,
+          "mediumArmorFullSpeed": false,
+          "multiAttack": false,
+          "multiweaponAttack": false,
+          "noCon": false,
+          "noDex": false,
+          "noEncumbrance": false,
+          "noInt": false,
+          "noStr": false,
+          "oneCha": false,
+          "oneInt": false,
+          "oneWis": false,
+          "uncannyDodge": false
+        },
+        "changes": [],
+        "classSource": "",
+        "combatChangeCustomDisplayName": "",
+        "combatChangeCustomReferenceName": "",
+        "combatChanges": [],
+        "combatChangesAdditionalRanges": {
+          "hasAdditionalRanges": false,
+          "slider1": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider2": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider3": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          }
+        },
+        "combatChangesApplySpecialActionsOnce": true,
+        "combatChangesRange": {
+          "max": 0,
+          "maxFormula": ""
+        },
+        "combatChangesUsesCost": "chargesPerUse",
+        "conditionFlags": {
+          "dazzled": false,
+          "polymorphed": false,
+          "wildshaped": false
+        },
+        "contextNotes": [],
+        "counterName": "",
+        "createdBy": "",
+        "creationChanges": [],
+        "critConfirmBonus": "",
+        "crOffset": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "alternativeParts": [],
+          "parts": []
+        },
+        "damageReduction": [],
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "<p><em>This ability was imported automatically does not have actions or changes.</em></p><div level=\"8\" topic=\"Spell-Like Abilities\"><p> At will-<i>dancing lights</i>,  <i>disguise self</i>,  <i>ghost sound</i> (DC 12), <i>invisibility</i>,  <i>pass without trace</i>,  <i>tongues</i>,  <i>water breathing</i>. Caster level 9th. The save DC is Charisma-based.</p></div>"
+        },
+        "duration": {
+          "units": "",
+          "value": null
+        },
+        "effectNotes": "",
+        "epic": "",
+        "favorite": false,
+        "featType": "trait",
+        "formula": "",
+        "index": {
+          "subType": "trait",
+          "uniqueId": ""
+        },
+        "linkedChargeItem": {
+          "id": null,
+          "img": null,
+          "name": null
+        },
+        "linkedItems": [],
+        "linkId": "",
+        "linkImported": false,
+        "links": {
+          "charges": []
+        },
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "maxDamageDice": 0,
+        "maxDamageDiceFormula": "",
+        "measureTemplate": {
+          "customColor": "",
+          "customTexture": "",
+          "overrideColor": false,
+          "overrideTexture": false,
+          "size": 0,
+          "type": ""
+        },
+        "metamagic": {
+          "code": "",
+          "enabled": false,
+          "shortDesc": ""
+        },
+        "metamagicFeats": {
+          "empowered": false,
+          "enhanced": false,
+          "enhancedHalf": false,
+          "enlarged": false,
+          "intensified": false,
+          "maximized": false,
+          "widened": false
+        },
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "pr": false,
+        "psionic": "",
+        "range": {
+          "long": null,
+          "units": "",
+          "value": null
+        },
+        "recharge": {
+          "_deprecated": true,
+          "charged": false,
+          "current": 0,
+          "enabled": false,
+          "formula": "",
+          "value": null
+        },
+        "requirements": [],
+        "requiresPsionicFocus": false,
+        "resistances": [],
+        "rollTableDraw": {
+          "formula": "",
+          "id": "",
+          "name": "",
+          "pack": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": 0,
+          "dcAutoAbility": "",
+          "dcAutoType": "",
+          "description": "",
+          "type": ""
+        },
+        "senses": {
+          "blindsight": 0,
+          "darkvision": 0,
+          "lowLight": false,
+          "lowLightMultiplier": 2,
+          "tremorsense": 0,
+          "truesight": 0
+        },
+        "showInQuickbar": false,
+        "sizeOverride": "",
+        "source": "",
+        "specialActions": [],
+        "spellSpecialization": {
+          "isDomain": false,
+          "spells": {
+            "level1": {
+              "id": null,
+              "img": "",
+              "level": 1,
+              "name": "",
+              "pack": null
+            },
+            "level2": {
+              "id": null,
+              "img": "",
+              "level": 2,
+              "name": "",
+              "pack": null
+            },
+            "level3": {
+              "id": null,
+              "img": "",
+              "level": 3,
+              "name": "",
+              "pack": null
+            },
+            "level4": {
+              "id": null,
+              "img": "",
+              "level": 4,
+              "name": "",
+              "pack": null
+            },
+            "level5": {
+              "id": null,
+              "img": "",
+              "level": 5,
+              "name": "",
+              "pack": null
+            },
+            "level6": {
+              "id": null,
+              "img": "",
+              "level": 6,
+              "name": "",
+              "pack": null
+            },
+            "level7": {
+              "id": null,
+              "img": "",
+              "level": 7,
+              "name": "",
+              "pack": null
+            },
+            "level8": {
+              "id": null,
+              "img": "",
+              "level": 8,
+              "name": "",
+              "pack": null
+            },
+            "level9": {
+              "id": null,
+              "img": "",
+              "level": 9,
+              "name": "",
+              "pack": null
+            }
+          }
+        },
+        "spellSpecializationForbiddenNames": "",
+        "spellSpecializationName": "",
+        "sr": false,
+        "summon": [],
+        "tags": [],
+        "target": {
+          "value": ""
+        },
+        "uniqueId": "",
+        "userNonRemovable": false,
+        "uses": {
+          "allowMultipleUses": false,
+          "autoDeductCharges": true,
+          "canBeLinked": false,
+          "chargesPerUse": 1,
+          "isResource": false,
+          "max": 0,
+          "maxFormula": "",
+          "maxPerUse": null,
+          "maxPerUseFormula": "",
+          "per": null,
+          "rechargeFormula": null,
+          "value": 0
+        }
+      },
+      "type": "feat"
+    },
+    {
+      "_id": "VLLMANan4Tcm8j2r",
+      "_key": "!actors.items!o9m0GW8yX07Qk00h.VLLMANan4Tcm8j2r",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/spells/named-spells/dancing-lights.png",
+      "name": "Dancing Lights",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "ability": {
+          "attack": "",
+          "critMult": 2,
+          "critRange": 20,
+          "damage": "",
+          "damageMult": 1,
+          "twoHandedOnly": false,
+          "vsTouchAc": false
+        },
+        "actionType": "other",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "addedLevel": 0,
+        "attack": {
+          "parts": []
+        },
+        "attackBonus": "",
+        "attackCountFormula": "",
+        "attackNotes": "",
+        "attackParts": [],
+        "atWill": true,
+        "autoscaleAttackParts": "",
+        "baseCl": "0",
+        "castTime": "",
+        "classSource": "",
+        "clOffset": 0,
+        "components": {
+          "divineFocus": 0,
+          "focus": false,
+          "material": false,
+          "somatic": true,
+          "value": "",
+          "verbal": true
+        },
+        "conditionals": [],
+        "createdBy": "",
+        "critConfirmBonus": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "alternativeParts": [],
+          "parts": []
+        },
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "<div class=\"spell-description\">\n  <p>\n      <strong>School:</strong>&nbsp;evocation&nbsp;[light];\n    <br>\n    <strong>Level:</strong>&nbsp;Bard 0, Sorcerer 0, Wizard 0;\n    \n    \n    \n    \n    <br>\n    <strong>Components:</strong>&nbsp;V, S<br>\n    \n      <strong>Casting Time:</strong>&nbsp;1 standard action<br>\n    <strong>Range:</strong>&nbsp;medium (100 ft. + 10 ft./level)<br>\n    \n    \n    <strong>Effect:</strong>&nbsp;Up to four lights, all within a 10- ft.-radius area<br>\n    <strong>Duration:</strong>&nbsp;1 minute (D)<br>\n    \n        <strong>Saving Throw:</strong>&nbsp;None\n        <br>\n        <strong>Spell Resistance:</strong>&nbsp;no<br>\n  </p>\n  <h2>Description</h2>\n  \n\n\n<p>\nDepending on the version selected, you create up to four lights that resemble lanterns or torches (and cast that amount of light), or up to four glowing spheres of light (which look like will-o’-wisps), or one faintly glowing, vaguely humanoid shape. The <i>dancing lights </i>must stay within a 10-foot-radius area in relation to each other but otherwise move as you desire (no concentration required): forward or back, up or down, straight or turning corners, or the like. The lights can move up to 100 feet per round. A light winks out if the distance between you and it exceeds the spell’s range.\n</p><p><i>Dancing lights </i>can be made permanent with a <i>permanency </i>spell.\n</p>\n<hr/>\n\n\n\n</div>\n"
+        },
+        "display": "",
+        "duration": {
+          "units": "",
+          "value": null
+        },
+        "effectNotes": "",
+        "epic": "",
+        "favorite": false,
+        "formula": "",
+        "index": {
+          "subType": null,
+          "uniqueId": ""
+        },
+        "isDomainSpell": false,
+        "isPower": false,
+        "isSpellSpontaneousReplacement": false,
+        "learnedAt": {
+          "bloodline": [],
+          "class": [
+            [
+              "Bard",
+              0
+            ],
+            [
+              "Wizard",
+              0
+            ],
+            [
+              "Sorcerer",
+              0
+            ]
+          ],
+          "domain": [],
+          "elementalSchool": [],
+          "subDomain": []
+        },
+        "level": 0,
+        "linkedChargeItem": {
+          "id": null,
+          "img": null,
+          "name": null
+        },
+        "linkId": "",
+        "linkImported": false,
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "materials": {
+          "consumed": {
+            "_deprecated": true,
+            "value": false
+          },
+          "focus": "",
+          "value": ""
+        },
+        "maxDamageDice": 0,
+        "maxDamageDiceFormula": "",
+        "measureTemplate": {
+          "customColor": "",
+          "customTexture": "",
+          "overrideColor": false,
+          "overrideTexture": false,
+          "size": 5,
+          "type": "circle"
+        },
+        "metamagicFeats": {
+          "empowered": false,
+          "enhanced": false,
+          "enhancedHalf": false,
+          "enlarged": false,
+          "intensified": false,
+          "maximized": false,
+          "widened": false
+        },
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "powerPointsCost": 0,
+        "pr": false,
+        "preparation": {
+          "autoDeductCharges": true,
+          "maxAmount": 0,
+          "mode": "prepared",
+          "preparedAmount": 0
+        },
+        "psionic": "",
+        "range": {
+          "long": null,
+          "units": "medium",
+          "value": null
+        },
+        "recharge": {
+          "current": 0,
+          "enabled": false,
+          "formula": ""
+        },
+        "requiresPsionicFocus": false,
+        "rollTableDraw": {
+          "formula": "",
+          "id": "",
+          "name": "",
+          "pack": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": "0",
+          "dcAutoAbility": "",
+          "dcAutoType": "",
+          "description": "None",
+          "type": ""
+        },
+        "school": "evo",
+        "shortDescription": "\n\n\n<p>\nDepending on the version selected, you create up to four lights that resemble lanterns or torches (and cast that amount of light), or up to four glowing spheres of light (which look like will-o’-wisps), or one faintly glowing, vaguely humanoid shape. The <i>dancing lights </i>must stay within a 10-foot-radius area in relation to each other but otherwise move as you desire (no concentration required): forward or back, up or down, straight or turning corners, or the like. The lights can move up to 100 feet per round. A light winks out if the distance between you and it exceeds the spell’s range.\n</p><p><i>Dancing lights </i>can be made permanent with a <i>permanency </i>spell.\n</p>\n<hr/>\n\n\n",
+        "showInQuickbar": false,
+        "slOffset": 0,
+        "snip": "Creates torches or other lights.",
+        "source": "",
+        "specialActions": [],
+        "specialId": null,
+        "specialPrepared": false,
+        "spellArea": "",
+        "spellbook": "spelllike",
+        "spellDuration": "1 minute (D)",
+        "spellEffect": "Up to four lights, all within a 10- ft.-radius area",
+        "spellType": {
+          "_deprecated": true,
+          "value": ""
+        },
+        "sr": false,
+        "subschool": "",
+        "summon": [],
+        "tags": [],
+        "target": {
+          "value": ""
+        },
+        "types": "light",
+        "uniqueId": "",
+        "userNonRemovable": false,
+        "uses": {
+          "allowMultipleUses": false,
+          "autoDeductCharges": true,
+          "canBeLinked": false,
+          "chargesPerUse": 1,
+          "isResource": false,
+          "max": 0,
+          "maxFormula": "",
+          "maxPerUse": null,
+          "maxPerUseFormula": "",
+          "per": "",
+          "rechargeFormula": null,
+          "value": 0
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "3HAGrHjXCN52dr60",
+      "_key": "!actors.items!o9m0GW8yX07Qk00h.3HAGrHjXCN52dr60",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/spells/named-spells/disguise-self.png",
+      "name": "Disguise Self",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "ability": {
+          "attack": "",
+          "critMult": 2,
+          "critRange": 20,
+          "damage": "",
+          "damageMult": 1,
+          "twoHandedOnly": false,
+          "vsTouchAc": false
+        },
+        "actionType": "other",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "addedLevel": 0,
+        "attack": {
+          "parts": []
+        },
+        "attackBonus": "",
+        "attackCountFormula": "",
+        "attackNotes": "",
+        "attackParts": [],
+        "atWill": true,
+        "autoscaleAttackParts": "",
+        "baseCl": "0",
+        "castTime": "",
+        "classSource": "",
+        "clOffset": 0,
+        "components": {
+          "divineFocus": 0,
+          "focus": false,
+          "material": false,
+          "somatic": true,
+          "value": "",
+          "verbal": true
+        },
+        "conditionals": [],
+        "createdBy": "",
+        "critConfirmBonus": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "alternativeParts": [],
+          "parts": []
+        },
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "<div class=\"spell-description\">\n  <p>\n      <strong>School:</strong>&nbsp;illusion&nbsp;(glamer);\n    <br>\n    <strong>Level:</strong>&nbsp;Assassin 1, Bard 1, Sorcerer 1, Wizard 1;\n    <strong>Domain:</strong>&nbsp;Trickery 1;\n    \n    \n    \n    <br>\n    <strong>Components:</strong>&nbsp;V, S<br>\n    \n      <strong>Casting Time:</strong>&nbsp;1 standard action<br>\n    <strong>Range:</strong>&nbsp;personal<br>\n    \n    <strong>Target:</strong>&nbsp;you<br>\n    \n    <strong>Duration:</strong>&nbsp;10 min./level (D)<br>\n    \n  </p>\n  <h2>Description</h2>\n  \n\n\n<p>\nYou make yourself—including clothing, armor, weapons, and equipment—look different. You can seem 1 foot shorter or taller, thin, fat, or in between. You cannot change your body type. Otherwise, the extent of the apparent change is up to you. You could add or obscure a minor feature or look like an entirely different person.\n</p><p>The spell does not provide the abilities or mannerisms of the chosen form, nor does it alter the perceived tactile (touch) or audible (sound) properties of you or your equipment.\n</p><p>If you use this spell to create a disguise, you get a +10 bonus on the Disguise check.\n</p><p>A creature that interacts with the glamer gets a Will save to recognize it as an illusion.\n</p>\n<hr/>\n\n\n\n</div>\n"
+        },
+        "display": "",
+        "duration": {
+          "units": "",
+          "value": null
+        },
+        "effectNotes": "",
+        "epic": "",
+        "favorite": false,
+        "formula": "",
+        "index": {
+          "subType": null,
+          "uniqueId": ""
+        },
+        "isDomainSpell": false,
+        "isPower": false,
+        "isSpellSpontaneousReplacement": false,
+        "learnedAt": {
+          "bloodline": [],
+          "class": [
+            [
+              "Assassin",
+              1
+            ],
+            [
+              "Bard",
+              1
+            ],
+            [
+              "Wizard",
+              1
+            ],
+            [
+              "Sorcerer",
+              1
+            ]
+          ],
+          "domain": [
+            [
+              "Trickery",
+              1
+            ]
+          ],
+          "elementalSchool": [],
+          "subDomain": []
+        },
+        "level": 0,
+        "linkedChargeItem": {
+          "id": null,
+          "img": null,
+          "name": null
+        },
+        "linkId": "",
+        "linkImported": false,
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "materials": {
+          "consumed": {
+            "_deprecated": true,
+            "value": false
+          },
+          "focus": "",
+          "value": ""
+        },
+        "maxDamageDice": 0,
+        "maxDamageDiceFormula": "",
+        "measureTemplate": {
+          "customColor": "",
+          "customTexture": "",
+          "overrideColor": false,
+          "overrideTexture": false,
+          "size": 0,
+          "type": ""
+        },
+        "metamagicFeats": {
+          "empowered": false,
+          "enhanced": false,
+          "enhancedHalf": false,
+          "enlarged": false,
+          "intensified": false,
+          "maximized": false,
+          "widened": false
+        },
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "powerPointsCost": 0,
+        "pr": false,
+        "preparation": {
+          "autoDeductCharges": true,
+          "maxAmount": 0,
+          "mode": "prepared",
+          "preparedAmount": 0
+        },
+        "psionic": "",
+        "range": {
+          "long": null,
+          "units": "personal",
+          "value": null
+        },
+        "recharge": {
+          "current": 0,
+          "enabled": false,
+          "formula": ""
+        },
+        "requiresPsionicFocus": false,
+        "rollTableDraw": {
+          "formula": "",
+          "id": "",
+          "name": "",
+          "pack": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": "0",
+          "dcAutoAbility": "",
+          "dcAutoType": "",
+          "description": "",
+          "type": ""
+        },
+        "school": "ill",
+        "shortDescription": "\n\n\n<p>\nYou make yourself—including clothing, armor, weapons, and equipment—look different. You can seem 1 foot shorter or taller, thin, fat, or in between. You cannot change your body type. Otherwise, the extent of the apparent change is up to you. You could add or obscure a minor feature or look like an entirely different person.\n</p><p>The spell does not provide the abilities or mannerisms of the chosen form, nor does it alter the perceived tactile (touch) or audible (sound) properties of you or your equipment.\n</p><p>If you use this spell to create a disguise, you get a +10 bonus on the Disguise check.\n</p><p>A creature that interacts with the glamer gets a Will save to recognize it as an illusion.\n</p>\n<hr/>\n\n\n",
+        "showInQuickbar": false,
+        "slOffset": 0,
+        "snip": "Changes your appearance.",
+        "source": "",
+        "specialActions": [],
+        "specialId": null,
+        "specialPrepared": false,
+        "spellArea": "",
+        "spellbook": "spelllike",
+        "spellDuration": "10 min./level (D)",
+        "spellEffect": "",
+        "spellType": {
+          "_deprecated": true,
+          "value": ""
+        },
+        "sr": false,
+        "subschool": "glamer",
+        "summon": [],
+        "tags": [],
+        "target": {
+          "value": "you"
+        },
+        "types": "",
+        "uniqueId": "",
+        "userNonRemovable": false,
+        "uses": {
+          "allowMultipleUses": false,
+          "autoDeductCharges": true,
+          "canBeLinked": false,
+          "chargesPerUse": 1,
+          "isResource": false,
+          "max": 0,
+          "maxFormula": "",
+          "maxPerUse": null,
+          "maxPerUseFormula": "",
+          "per": "",
+          "rechargeFormula": null,
+          "value": 0
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "k0cO7KNLfVOjaiGO",
+      "_key": "!actors.items!o9m0GW8yX07Qk00h.k0cO7KNLfVOjaiGO",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/spells/school/ill.png",
+      "name": "Ghost Sound",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "ability": {
+          "attack": "",
+          "critMult": 2,
+          "critRange": 20,
+          "damage": "",
+          "damageMult": 1,
+          "twoHandedOnly": false,
+          "vsTouchAc": false
+        },
+        "actionType": "other",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "addedLevel": 0,
+        "attack": {
+          "parts": []
+        },
+        "attackBonus": "",
+        "attackCountFormula": "",
+        "attackNotes": "",
+        "attackParts": [],
+        "atWill": true,
+        "autoscaleAttackParts": "",
+        "baseCl": "0",
+        "castTime": "",
+        "classSource": "",
+        "clOffset": 0,
+        "components": {
+          "divineFocus": 0,
+          "focus": false,
+          "material": true,
+          "somatic": true,
+          "value": "",
+          "verbal": true
+        },
+        "conditionals": [],
+        "createdBy": "",
+        "critConfirmBonus": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "alternativeParts": [],
+          "parts": []
+        },
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "<div class=\"spell-description\">\n  <p>\n      <strong>School:</strong>&nbsp;illusion&nbsp;(figment);\n    <br>\n    <strong>Level:</strong>&nbsp;Assassin 1, Bard 0, Sorcerer 0, Wizard 0;\n    \n    \n    \n    \n    <br>\n    <strong>Components:</strong>&nbsp;V, S, M (a bit of wool or a small lump of wax)<br>\n    \n      <strong>Casting Time:</strong>&nbsp;1 standard action<br>\n    <strong>Range:</strong>&nbsp;close (25 ft. + 5 ft./2 levels)<br>\n    \n    \n    <strong>Effect:</strong>&nbsp;Illusory sounds\n<br>\n    <strong>Duration:</strong>&nbsp;1 round/level (D)\n<br>\n    \n        <strong>Saving Throw:</strong>&nbsp;Will disbelief (if interacted with)\n\n        <br>\n        <strong>Spell Resistance:</strong>&nbsp;no<br>\n  </p>\n  <h2>Description</h2>\n  \n\n\n<p>\n<i>Ghost sound </i>allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place. You choose what type of sound <i>ghost sound </i>creates when casting it and cannot thereafter change the sound’s basic character.\n</p><p>The volume of sound created depends on your level. You can produce as much noise as four normal humans per caster level (maximum twenty humans). Thus, talking, singing, shouting, walking, marching, or running sounds can be created. The noise a <i>ghost sound </i>spell produces can be virtually any type of sound within the volume limit. A horde of rats running and squeaking is about the same volume as eight humans running and shouting. A roaring lion is equal to the noise from sixteen humans, while a roaring dire tiger is equal to the noise from twenty humans.\n</p><p><i>Ghost sound </i>can enhance the effectiveness of a <i>silent image </i>spell.\n</p><p><i>Ghost sound </i>can be made permanent with a <i>permanency </i>spell.\n</p><p><i>Material Component: </i>A bit of wool or a small lump of wax.\n</p>\n<hr/>\n\n\n\n</div>\n"
+        },
+        "display": "",
+        "duration": {
+          "units": "",
+          "value": null
+        },
+        "effectNotes": "",
+        "epic": "",
+        "favorite": false,
+        "formula": "",
+        "index": {
+          "subType": null,
+          "uniqueId": ""
+        },
+        "isDomainSpell": false,
+        "isPower": false,
+        "isSpellSpontaneousReplacement": false,
+        "learnedAt": {
+          "bloodline": [],
+          "class": [
+            [
+              "Assassin",
+              1
+            ],
+            [
+              "Bard",
+              0
+            ],
+            [
+              "Wizard",
+              0
+            ],
+            [
+              "Sorcerer",
+              0
+            ]
+          ],
+          "domain": [],
+          "elementalSchool": [],
+          "subDomain": []
+        },
+        "level": 0,
+        "linkedChargeItem": {
+          "id": null,
+          "img": null,
+          "name": null
+        },
+        "linkId": "",
+        "linkImported": false,
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "materials": {
+          "consumed": {
+            "_deprecated": true,
+            "value": false
+          },
+          "focus": "",
+          "value": "a bit of wool or a small lump of wax"
+        },
+        "maxDamageDice": 0,
+        "maxDamageDiceFormula": "",
+        "measureTemplate": {
+          "customColor": "",
+          "customTexture": "",
+          "overrideColor": false,
+          "overrideTexture": false,
+          "size": 0,
+          "type": ""
+        },
+        "metamagicFeats": {
+          "empowered": false,
+          "enhanced": false,
+          "enhancedHalf": false,
+          "enlarged": false,
+          "intensified": false,
+          "maximized": false,
+          "widened": false
+        },
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "powerPointsCost": 0,
+        "pr": false,
+        "preparation": {
+          "autoDeductCharges": true,
+          "maxAmount": 0,
+          "mode": "prepared",
+          "preparedAmount": 0
+        },
+        "psionic": "",
+        "range": {
+          "long": null,
+          "units": "close",
+          "value": null
+        },
+        "recharge": {
+          "current": 0,
+          "enabled": false,
+          "formula": ""
+        },
+        "requiresPsionicFocus": false,
+        "rollTableDraw": {
+          "formula": "",
+          "id": "",
+          "name": "",
+          "pack": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": "0",
+          "dcAutoAbility": "",
+          "dcAutoType": "",
+          "description": "Will disbelief (if interacted with)\n",
+          "type": ""
+        },
+        "school": "ill",
+        "shortDescription": "\n\n\n<p>\n<i>Ghost sound </i>allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place. You choose what type of sound <i>ghost sound </i>creates when casting it and cannot thereafter change the sound’s basic character.\n</p><p>The volume of sound created depends on your level. You can produce as much noise as four normal humans per caster level (maximum twenty humans). Thus, talking, singing, shouting, walking, marching, or running sounds can be created. The noise a <i>ghost sound </i>spell produces can be virtually any type of sound within the volume limit. A horde of rats running and squeaking is about the same volume as eight humans running and shouting. A roaring lion is equal to the noise from sixteen humans, while a roaring dire tiger is equal to the noise from twenty humans.\n</p><p><i>Ghost sound </i>can enhance the effectiveness of a <i>silent image </i>spell.\n</p><p><i>Ghost sound </i>can be made permanent with a <i>permanency </i>spell.\n</p><p><i>Material Component: </i>A bit of wool or a small lump of wax.\n</p>\n<hr/>\n\n\n",
+        "showInQuickbar": false,
+        "slOffset": 0,
+        "snip": "Figment sounds.",
+        "source": "",
+        "specialActions": [],
+        "specialId": null,
+        "specialPrepared": false,
+        "spellArea": "",
+        "spellbook": "spelllike",
+        "spellDuration": "1 round/level (D)\n",
+        "spellEffect": "Illusory sounds\n",
+        "spellType": {
+          "_deprecated": true,
+          "value": ""
+        },
+        "sr": false,
+        "subschool": "figment",
+        "summon": [],
+        "tags": [],
+        "target": {
+          "value": ""
+        },
+        "types": "",
+        "uniqueId": "",
+        "userNonRemovable": false,
+        "uses": {
+          "allowMultipleUses": false,
+          "autoDeductCharges": true,
+          "canBeLinked": false,
+          "chargesPerUse": 1,
+          "isResource": false,
+          "max": 0,
+          "maxFormula": "",
+          "maxPerUse": null,
+          "maxPerUseFormula": "",
+          "per": "",
+          "rechargeFormula": null,
+          "value": 0
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "JfCc6t3tvF438aN6",
+      "_key": "!actors.items!o9m0GW8yX07Qk00h.JfCc6t3tvF438aN6",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/spells/named-spells/invisibility.png",
+      "name": "Invisibility",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "ability": {
+          "attack": "",
+          "critMult": 2,
+          "critRange": 20,
+          "damage": "",
+          "damageMult": 1,
+          "twoHandedOnly": false,
+          "vsTouchAc": false
+        },
+        "actionType": "other",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "addedLevel": 0,
+        "attack": {
+          "parts": []
+        },
+        "attackBonus": "",
+        "attackCountFormula": "",
+        "attackNotes": "",
+        "attackParts": [],
+        "atWill": true,
+        "autoscaleAttackParts": "",
+        "baseCl": "0",
+        "castTime": "",
+        "classSource": "",
+        "clOffset": 0,
+        "components": {
+          "divineFocus": 2,
+          "focus": true,
+          "material": true,
+          "somatic": true,
+          "value": "",
+          "verbal": true
+        },
+        "conditionals": [],
+        "createdBy": "",
+        "critConfirmBonus": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "alternativeParts": [],
+          "parts": []
+        },
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "<div class=\"spell-description\">\n  <p>\n      <strong>School:</strong>&nbsp;illusion&nbsp;(glamer);\n    <br>\n    <strong>Level:</strong>&nbsp;Assassin 2, Bard 2, Sorcerer 2, Wizard 2;\n    <strong>Domain:</strong>&nbsp;Trickery 2;\n    \n    \n    \n    <br>\n    <strong>Components:</strong>&nbsp;V, S, M/DF (an eyelash encased in a bit of gum arabic), F<br>\n    \n      <strong>Casting Time:</strong>&nbsp;1 standard action<br>\n    <strong>Range:</strong>&nbsp;touch<br>\n    \n    <strong>Target:</strong>&nbsp;you or a creature or object weighing no more than 100 lb./level\n<br>\n    \n    <strong>Duration:</strong>&nbsp;1 min./level (D)\n<br>\n    \n        <strong>Saving Throw:</strong>&nbsp;Will negates (harmless) or Will negates (harmless, object)\n\n        <br>\n        <strong>Spell Resistance:</strong>&nbsp;yes<br>\n  </p>\n  <h2>Description</h2>\n  \n\n\n<p>\nThe creature or object touched becomes invisible, vanishing from sight, even from darkvision. If the recipient is a creature carrying gear, that vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the subject, unless you can normally see invisible things or you employ magic to do so.\n</p><p>Items dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisible, although a source of light can become so (thus, the effect is that of a light with no visible source). Any part of an item that the subject carries but that extends more than 10 feet from it becomes visible.\n</p><p>Of course, the subject is not magically <i>silenced, </i>and certain other conditions can render the recipient detectable (such as stepping in a puddle). The spell ends if the subject attacks any creature. For purposes of this spell, an attack includes any spell targeting a foe or whose area or effect includes a foe. (Exactly who is a foe depends on the invisible character’s perceptions.) Actions directed at unattended objects do not break the spell. Causing harm indirectly is not an attack. Thus, an invisible being can open doors, talk, eat, climb stairs, summon monsters and have them attack, cut the ropes holding a rope bridge while enemies are on the bridge, remotely trigger traps, open a portcullis to release attack dogs, and so forth. If the subject attacks directly, however, it immediately becomes visible along with all its gear. Spells such as <i>bless </i>that specifically affect allies but not foes are not attacks for this purpose, even when they include foes in their area.\n</p><p><i>Invisibility </i>can be made permanent (on objects only) with a <i>permanency </i>spell.\n</p><p><i>Arcane Material Component: </i>An eyelash encased in a bit of gum arabic.\n</p>\n<hr/>\n\n\n\n</div>\n"
+        },
+        "display": "",
+        "duration": {
+          "units": "",
+          "value": null
+        },
+        "effectNotes": "",
+        "epic": "",
+        "favorite": false,
+        "formula": "",
+        "index": {
+          "subType": null,
+          "uniqueId": ""
+        },
+        "isDomainSpell": false,
+        "isPower": false,
+        "isSpellSpontaneousReplacement": false,
+        "learnedAt": {
+          "bloodline": [],
+          "class": [
+            [
+              "Assassin",
+              2
+            ],
+            [
+              "Bard",
+              2
+            ],
+            [
+              "Wizard",
+              2
+            ],
+            [
+              "Sorcerer",
+              2
+            ]
+          ],
+          "domain": [
+            [
+              "Trickery",
+              2
+            ]
+          ],
+          "elementalSchool": [],
+          "subDomain": []
+        },
+        "level": 0,
+        "linkedChargeItem": {
+          "id": null,
+          "img": null,
+          "name": null
+        },
+        "linkId": "",
+        "linkImported": false,
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "materials": {
+          "consumed": {
+            "_deprecated": true,
+            "value": false
+          },
+          "focus": "",
+          "value": "an eyelash encased in a bit of gum arabic"
+        },
+        "maxDamageDice": 0,
+        "maxDamageDiceFormula": "",
+        "measureTemplate": {
+          "customColor": "",
+          "customTexture": "",
+          "overrideColor": false,
+          "overrideTexture": false,
+          "size": 0,
+          "type": ""
+        },
+        "metamagicFeats": {
+          "empowered": false,
+          "enhanced": false,
+          "enhancedHalf": false,
+          "enlarged": false,
+          "intensified": false,
+          "maximized": false,
+          "widened": false
+        },
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "powerPointsCost": 0,
+        "pr": false,
+        "preparation": {
+          "autoDeductCharges": true,
+          "maxAmount": 0,
+          "mode": "prepared",
+          "preparedAmount": 0
+        },
+        "psionic": "",
+        "range": {
+          "long": null,
+          "units": "touch",
+          "value": null
+        },
+        "recharge": {
+          "current": 0,
+          "enabled": false,
+          "formula": ""
+        },
+        "requiresPsionicFocus": false,
+        "rollTableDraw": {
+          "formula": "",
+          "id": "",
+          "name": "",
+          "pack": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": "0",
+          "dcAutoAbility": "",
+          "dcAutoType": "",
+          "description": "Will negates (harmless) or Will negates (harmless, object)\n",
+          "type": ""
+        },
+        "school": "ill",
+        "shortDescription": "\n\n\n<p>\nThe creature or object touched becomes invisible, vanishing from sight, even from darkvision. If the recipient is a creature carrying gear, that vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the subject, unless you can normally see invisible things or you employ magic to do so.\n</p><p>Items dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisible, although a source of light can become so (thus, the effect is that of a light with no visible source). Any part of an item that the subject carries but that extends more than 10 feet from it becomes visible.\n</p><p>Of course, the subject is not magically <i>silenced, </i>and certain other conditions can render the recipient detectable (such as stepping in a puddle). The spell ends if the subject attacks any creature. For purposes of this spell, an attack includes any spell targeting a foe or whose area or effect includes a foe. (Exactly who is a foe depends on the invisible character’s perceptions.) Actions directed at unattended objects do not break the spell. Causing harm indirectly is not an attack. Thus, an invisible being can open doors, talk, eat, climb stairs, summon monsters and have them attack, cut the ropes holding a rope bridge while enemies are on the bridge, remotely trigger traps, open a portcullis to release attack dogs, and so forth. If the subject attacks directly, however, it immediately becomes visible along with all its gear. Spells such as <i>bless </i>that specifically affect allies but not foes are not attacks for this purpose, even when they include foes in their area.\n</p><p><i>Invisibility </i>can be made permanent (on objects only) with a <i>permanency </i>spell.\n</p><p><i>Arcane Material Component: </i>An eyelash encased in a bit of gum arabic.\n</p>\n<hr/>\n\n\n",
+        "showInQuickbar": false,
+        "slOffset": 0,
+        "snip": "Subject is invisible for 1 min./level or until it attacks.",
+        "source": "",
+        "specialActions": [],
+        "specialId": null,
+        "specialPrepared": false,
+        "spellArea": "",
+        "spellbook": "spelllike",
+        "spellDuration": "1 min./level (D)\n",
+        "spellEffect": "",
+        "spellType": {
+          "_deprecated": true,
+          "value": ""
+        },
+        "sr": true,
+        "subschool": "glamer",
+        "summon": [],
+        "tags": [],
+        "target": {
+          "value": "you or a creature or object weighing no more than 100 lb./level\n"
+        },
+        "types": "",
+        "uniqueId": "",
+        "userNonRemovable": false,
+        "uses": {
+          "allowMultipleUses": false,
+          "autoDeductCharges": true,
+          "canBeLinked": false,
+          "chargesPerUse": 1,
+          "isResource": false,
+          "max": 0,
+          "maxFormula": "",
+          "maxPerUse": null,
+          "maxPerUseFormula": "",
+          "per": "",
+          "rechargeFormula": null,
+          "value": 0
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "NU5Hnzs1mr1kJTWT",
+      "_key": "!actors.items!o9m0GW8yX07Qk00h.NU5Hnzs1mr1kJTWT",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/spells/school/trs.png",
+      "name": "Pass without Trace",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "ability": {
+          "attack": "",
+          "critMult": 2,
+          "critRange": 20,
+          "damage": "",
+          "damageMult": 1,
+          "twoHandedOnly": false,
+          "vsTouchAc": false
+        },
+        "actionType": "other",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "addedLevel": 0,
+        "attack": {
+          "parts": []
+        },
+        "attackBonus": "",
+        "attackCountFormula": "",
+        "attackNotes": "",
+        "attackParts": [],
+        "atWill": true,
+        "autoscaleAttackParts": "",
+        "baseCl": "0",
+        "castTime": "",
+        "classSource": "",
+        "clOffset": 0,
+        "components": {
+          "divineFocus": 1,
+          "focus": true,
+          "material": false,
+          "somatic": true,
+          "value": "",
+          "verbal": true
+        },
+        "conditionals": [],
+        "createdBy": "",
+        "critConfirmBonus": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "alternativeParts": [],
+          "parts": []
+        },
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "<div class=\"spell-description\">\n  <p>\n      <strong>School:</strong>&nbsp;transmutation;\n    <br>\n    <strong>Level:</strong>&nbsp;Assassin 2, Druid 1, Ranger 1;\n    \n    \n    \n    \n    <br>\n    <strong>Components:</strong>&nbsp;V, S, F, DF<br>\n    \n      <strong>Casting Time:</strong>&nbsp;1 standard action<br>\n    <strong>Range:</strong>&nbsp;touch<br>\n    \n    <strong>Target:</strong>&nbsp;one creature/level touched\n<br>\n    \n    <strong>Duration:</strong>&nbsp;1 hour/level (D)\n<br>\n    \n        <strong>Saving Throw:</strong>&nbsp;Will negates (harmless)\n\n        <br>\n        <strong>Spell Resistance:</strong>&nbsp;yes<br>\n  </p>\n  <h2>Description</h2>\n  \n\n\n<p>\nThe subject or subjects can move through any type of terrain and leave neither footprints nor scent. Tracking the subjects is impossible by nonmagical means.\n</p>\n<hr/>\n\n\n\n</div>\n"
+        },
+        "display": "",
+        "duration": {
+          "units": "",
+          "value": null
+        },
+        "effectNotes": "",
+        "epic": "",
+        "favorite": false,
+        "formula": "",
+        "index": {
+          "subType": null,
+          "uniqueId": ""
+        },
+        "isDomainSpell": false,
+        "isPower": false,
+        "isSpellSpontaneousReplacement": false,
+        "learnedAt": {
+          "bloodline": [],
+          "class": [
+            [
+              "Assassin",
+              2
+            ],
+            [
+              "Druid",
+              1
+            ],
+            [
+              "Ranger",
+              1
+            ]
+          ],
+          "domain": [],
+          "elementalSchool": [],
+          "subDomain": []
+        },
+        "level": 0,
+        "linkedChargeItem": {
+          "id": null,
+          "img": null,
+          "name": null
+        },
+        "linkId": "",
+        "linkImported": false,
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "materials": {
+          "consumed": {
+            "_deprecated": true,
+            "value": false
+          },
+          "focus": "",
+          "value": ""
+        },
+        "maxDamageDice": 0,
+        "maxDamageDiceFormula": "",
+        "measureTemplate": {
+          "customColor": "",
+          "customTexture": "",
+          "overrideColor": false,
+          "overrideTexture": false,
+          "size": 0,
+          "type": ""
+        },
+        "metamagicFeats": {
+          "empowered": false,
+          "enhanced": false,
+          "enhancedHalf": false,
+          "enlarged": false,
+          "intensified": false,
+          "maximized": false,
+          "widened": false
+        },
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "powerPointsCost": 0,
+        "pr": false,
+        "preparation": {
+          "autoDeductCharges": true,
+          "maxAmount": 0,
+          "mode": "prepared",
+          "preparedAmount": 0
+        },
+        "psionic": "",
+        "range": {
+          "long": null,
+          "units": "touch",
+          "value": null
+        },
+        "recharge": {
+          "current": 0,
+          "enabled": false,
+          "formula": ""
+        },
+        "requiresPsionicFocus": false,
+        "rollTableDraw": {
+          "formula": "",
+          "id": "",
+          "name": "",
+          "pack": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": "0",
+          "dcAutoAbility": "",
+          "dcAutoType": "",
+          "description": "Will negates (harmless)\n",
+          "type": ""
+        },
+        "school": "trs",
+        "shortDescription": "\n\n\n<p>\nThe subject or subjects can move through any type of terrain and leave neither footprints nor scent. Tracking the subjects is impossible by nonmagical means.\n</p>\n<hr/>\n\n\n",
+        "showInQuickbar": false,
+        "slOffset": 0,
+        "snip": "One subject/level leaves no tracks.",
+        "source": "",
+        "specialActions": [],
+        "specialId": null,
+        "specialPrepared": false,
+        "spellArea": "",
+        "spellbook": "spelllike",
+        "spellDuration": "1 hour/level (D)\n",
+        "spellEffect": "",
+        "spellType": {
+          "_deprecated": true,
+          "value": ""
+        },
+        "sr": true,
+        "subschool": "",
+        "summon": [],
+        "tags": [],
+        "target": {
+          "value": "one creature/level touched\n"
+        },
+        "types": "",
+        "uniqueId": "",
+        "userNonRemovable": false,
+        "uses": {
+          "allowMultipleUses": false,
+          "autoDeductCharges": true,
+          "canBeLinked": false,
+          "chargesPerUse": 1,
+          "isResource": false,
+          "max": 0,
+          "maxFormula": "",
+          "maxPerUse": null,
+          "maxPerUseFormula": "",
+          "per": "",
+          "rechargeFormula": null,
+          "value": 0
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "c5Dd6SX8X8Jhvom7",
+      "_key": "!actors.items!o9m0GW8yX07Qk00h.c5Dd6SX8X8Jhvom7",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/spells/school/div.png",
+      "name": "Tongues",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "ability": {
+          "attack": "",
+          "critMult": 2,
+          "critRange": 20,
+          "damage": "",
+          "damageMult": 1,
+          "twoHandedOnly": false,
+          "vsTouchAc": false
+        },
+        "actionType": "other",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "addedLevel": 0,
+        "attack": {
+          "parts": []
+        },
+        "attackBonus": "",
+        "attackCountFormula": "",
+        "attackNotes": "",
+        "attackParts": [],
+        "atWill": true,
+        "autoscaleAttackParts": "",
+        "baseCl": "0",
+        "castTime": "",
+        "classSource": "",
+        "clOffset": 0,
+        "components": {
+          "divineFocus": 2,
+          "focus": true,
+          "material": true,
+          "somatic": false,
+          "value": "",
+          "verbal": true
+        },
+        "conditionals": [],
+        "createdBy": "",
+        "critConfirmBonus": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "alternativeParts": [],
+          "parts": []
+        },
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "<div class=\"spell-description\">\n  <p>\n      <strong>School:</strong>&nbsp;divination;\n    <br>\n    <strong>Level:</strong>&nbsp;Bard 2, Cleric 4, Sorcerer 3, Wizard 3;\n    \n    \n    \n    \n    <br>\n    <strong>Components:</strong>&nbsp;V, M/DF (a small clay model of a ziggurat, which shatters when the verbal component is pronounced), F<br>\n    \n      <strong>Casting Time:</strong>&nbsp;1 standard action<br>\n    <strong>Range:</strong>&nbsp;touch<br>\n    \n    <strong>Target:</strong>&nbsp;creature touched\n<br>\n    \n    <strong>Duration:</strong>&nbsp;10 min./level\n<br>\n    \n        <strong>Saving Throw:</strong>&nbsp;Will negates (harmless)\n\n        <br>\n        <strong>Spell Resistance:</strong>&nbsp;no<br>\n  </p>\n  <h2>Description</h2>\n  \n\n\n<p>\nThis spell grants the creature touched the ability to speak and understand the language of any intelligent creature, whether it is a racial tongue or a regional dialect. The subject can speak only one language at a time, although it may be able to understand several languages. <i>Tongues </i>does not enable the subject to speak with creatures who don’t speak. The subject can make itself understood as far as its voice carries. This spell does not predispose any creature addressed toward the subject in any way.\n</p><p><i>Tongues </i>can be made permanent with a <i>permanency </i>spell.\n</p><p><i>Arcane Material Component: </i>A small clay model of a ziggurat, which shatters when the verbal component is pronounced.\n</p>\n<hr/>\n\n\n\n</div>\n"
+        },
+        "display": "",
+        "duration": {
+          "units": "",
+          "value": null
+        },
+        "effectNotes": "",
+        "epic": "",
+        "favorite": false,
+        "formula": "",
+        "index": {
+          "subType": null,
+          "uniqueId": ""
+        },
+        "isDomainSpell": false,
+        "isPower": false,
+        "isSpellSpontaneousReplacement": false,
+        "learnedAt": {
+          "bloodline": [],
+          "class": [
+            [
+              "Bard",
+              2
+            ],
+            [
+              "Cleric",
+              4
+            ],
+            [
+              "Wizard",
+              3
+            ],
+            [
+              "Sorcerer",
+              3
+            ]
+          ],
+          "domain": [],
+          "elementalSchool": [],
+          "subDomain": []
+        },
+        "level": 0,
+        "linkedChargeItem": {
+          "id": null,
+          "img": null,
+          "name": null
+        },
+        "linkId": "",
+        "linkImported": false,
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "materials": {
+          "consumed": {
+            "_deprecated": true,
+            "value": false
+          },
+          "focus": "",
+          "value": "a small clay model of a ziggurat, which shatters when the verbal component is pronounced"
+        },
+        "maxDamageDice": 0,
+        "maxDamageDiceFormula": "",
+        "measureTemplate": {
+          "customColor": "",
+          "customTexture": "",
+          "overrideColor": false,
+          "overrideTexture": false,
+          "size": 0,
+          "type": ""
+        },
+        "metamagicFeats": {
+          "empowered": false,
+          "enhanced": false,
+          "enhancedHalf": false,
+          "enlarged": false,
+          "intensified": false,
+          "maximized": false,
+          "widened": false
+        },
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "powerPointsCost": 0,
+        "pr": false,
+        "preparation": {
+          "autoDeductCharges": true,
+          "maxAmount": 0,
+          "mode": "prepared",
+          "preparedAmount": 0
+        },
+        "psionic": "",
+        "range": {
+          "long": null,
+          "units": "touch",
+          "value": null
+        },
+        "recharge": {
+          "current": 0,
+          "enabled": false,
+          "formula": ""
+        },
+        "requiresPsionicFocus": false,
+        "rollTableDraw": {
+          "formula": "",
+          "id": "",
+          "name": "",
+          "pack": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": "0",
+          "dcAutoAbility": "",
+          "dcAutoType": "",
+          "description": "Will negates (harmless)\n",
+          "type": ""
+        },
+        "school": "div",
+        "shortDescription": "\n\n\n<p>\nThis spell grants the creature touched the ability to speak and understand the language of any intelligent creature, whether it is a racial tongue or a regional dialect. The subject can speak only one language at a time, although it may be able to understand several languages. <i>Tongues </i>does not enable the subject to speak with creatures who don’t speak. The subject can make itself understood as far as its voice carries. This spell does not predispose any creature addressed toward the subject in any way.\n</p><p><i>Tongues </i>can be made permanent with a <i>permanency </i>spell.\n</p><p><i>Arcane Material Component: </i>A small clay model of a ziggurat, which shatters when the verbal component is pronounced.\n</p>\n<hr/>\n\n\n",
+        "showInQuickbar": false,
+        "slOffset": 0,
+        "snip": "Speak any language.",
+        "source": "",
+        "specialActions": [],
+        "specialId": null,
+        "specialPrepared": false,
+        "spellArea": "",
+        "spellbook": "spelllike",
+        "spellDuration": "10 min./level\n",
+        "spellEffect": "",
+        "spellType": {
+          "_deprecated": true,
+          "value": ""
+        },
+        "sr": false,
+        "subschool": "",
+        "summon": [],
+        "tags": [],
+        "target": {
+          "value": "creature touched\n"
+        },
+        "types": "",
+        "uniqueId": "",
+        "userNonRemovable": false,
+        "uses": {
+          "allowMultipleUses": false,
+          "autoDeductCharges": true,
+          "canBeLinked": false,
+          "chargesPerUse": 1,
+          "isResource": false,
+          "max": 0,
+          "maxFormula": "",
+          "maxPerUse": null,
+          "maxPerUseFormula": "",
+          "per": "",
+          "rechargeFormula": null,
+          "value": 0
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "QNUJCI9nSBPGfux5",
+      "_key": "!actors.items!o9m0GW8yX07Qk00h.QNUJCI9nSBPGfux5",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/spells/named-spells/water-breathing.png",
+      "name": "Water Breathing",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "ability": {
+          "attack": "",
+          "critMult": 2,
+          "critRange": 20,
+          "damage": "",
+          "damageMult": 1,
+          "twoHandedOnly": false,
+          "vsTouchAc": false
+        },
+        "actionType": "other",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "addedLevel": 0,
+        "attack": {
+          "parts": []
+        },
+        "attackBonus": "",
+        "attackCountFormula": "",
+        "attackNotes": "",
+        "attackParts": [],
+        "atWill": true,
+        "autoscaleAttackParts": "",
+        "baseCl": "0",
+        "castTime": "",
+        "classSource": "",
+        "clOffset": 0,
+        "components": {
+          "divineFocus": 2,
+          "focus": true,
+          "material": true,
+          "somatic": true,
+          "value": "",
+          "verbal": true
+        },
+        "conditionals": [],
+        "createdBy": "",
+        "critConfirmBonus": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "alternativeParts": [],
+          "parts": []
+        },
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "<div class=\"spell-description\">\n  <p>\n      <strong>School:</strong>&nbsp;transmutation;\n    <br>\n    <strong>Level:</strong>&nbsp;Cleric 3, Druid 3, Sorcerer 3, Wizard 3;\n    <strong>Domain:</strong>&nbsp;Water 3;\n    \n    \n    \n    <br>\n    <strong>Components:</strong>&nbsp;V, S, M/DF (a short reed or piece of straw), F<br>\n    \n      <strong>Casting Time:</strong>&nbsp;1 standard action<br>\n    <strong>Range:</strong>&nbsp;touch<br>\n    \n    <strong>Target:</strong>&nbsp;living creatures touched<br>\n    \n    <strong>Duration:</strong>&nbsp;2 hours/level; see text<br>\n    \n        <strong>Saving Throw:</strong>&nbsp;Will negates (harmless)\n        <br>\n        <strong>Spell Resistance:</strong>&nbsp;yes<br>\n  </p>\n  <h2>Description</h2>\n  \n\n\n<p>\nThe transmuted creatures can breathe water freely. Divide the duration evenly among all the creatures you touch.\n</p><p>The spell does not make creatures unable to breathe air.\n</p><p><i>Arcane Material Component: </i>A short reed or piece of straw.\n</p>\n<hr/>\n\n\n\n</div>\n"
+        },
+        "display": "",
+        "duration": {
+          "units": "",
+          "value": null
+        },
+        "effectNotes": "",
+        "epic": "",
+        "favorite": false,
+        "formula": "",
+        "index": {
+          "subType": null,
+          "uniqueId": ""
+        },
+        "isDomainSpell": false,
+        "isPower": false,
+        "isSpellSpontaneousReplacement": false,
+        "learnedAt": {
+          "bloodline": [],
+          "class": [
+            [
+              "Cleric",
+              3
+            ],
+            [
+              "Druid",
+              3
+            ],
+            [
+              "Wizard",
+              3
+            ],
+            [
+              "Sorcerer",
+              3
+            ]
+          ],
+          "domain": [
+            [
+              "Water",
+              3
+            ]
+          ],
+          "elementalSchool": [],
+          "subDomain": []
+        },
+        "level": 0,
+        "linkedChargeItem": {
+          "id": null,
+          "img": null,
+          "name": null
+        },
+        "linkId": "",
+        "linkImported": false,
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "materials": {
+          "consumed": {
+            "_deprecated": true,
+            "value": false
+          },
+          "focus": "",
+          "value": "a short reed or piece of straw"
+        },
+        "maxDamageDice": 0,
+        "maxDamageDiceFormula": "",
+        "measureTemplate": {
+          "customColor": "",
+          "customTexture": "",
+          "overrideColor": false,
+          "overrideTexture": false,
+          "size": 0,
+          "type": ""
+        },
+        "metamagicFeats": {
+          "empowered": false,
+          "enhanced": false,
+          "enhancedHalf": false,
+          "enlarged": false,
+          "intensified": false,
+          "maximized": false,
+          "widened": false
+        },
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "powerPointsCost": 0,
+        "pr": false,
+        "preparation": {
+          "autoDeductCharges": true,
+          "maxAmount": 0,
+          "mode": "prepared",
+          "preparedAmount": 0
+        },
+        "psionic": "",
+        "range": {
+          "long": null,
+          "units": "touch",
+          "value": null
+        },
+        "recharge": {
+          "current": 0,
+          "enabled": false,
+          "formula": ""
+        },
+        "requiresPsionicFocus": false,
+        "rollTableDraw": {
+          "formula": "",
+          "id": "",
+          "name": "",
+          "pack": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": "0",
+          "dcAutoAbility": "",
+          "dcAutoType": "",
+          "description": "Will negates (harmless)",
+          "type": ""
+        },
+        "school": "trs",
+        "shortDescription": "\n\n\n<p>\nThe transmuted creatures can breathe water freely. Divide the duration evenly among all the creatures you touch.\n</p><p>The spell does not make creatures unable to breathe air.\n</p><p><i>Arcane Material Component: </i>A short reed or piece of straw.\n</p>\n<hr/>\n\n\n",
+        "showInQuickbar": false,
+        "slOffset": 0,
+        "snip": "Subjects can breathe underwater.",
+        "source": "",
+        "specialActions": [],
+        "specialId": null,
+        "specialPrepared": false,
+        "spellArea": "",
+        "spellbook": "spelllike",
+        "spellDuration": "2 hours/level; see text",
+        "spellEffect": "",
+        "spellType": {
+          "_deprecated": true,
+          "value": ""
+        },
+        "sr": true,
+        "subschool": "",
+        "summon": [],
+        "tags": [],
+        "target": {
+          "value": "living creatures touched"
+        },
+        "types": "",
+        "uniqueId": "",
+        "userNonRemovable": false,
+        "uses": {
+          "allowMultipleUses": false,
+          "autoDeductCharges": true,
+          "canBeLinked": false,
+          "chargesPerUse": 1,
+          "isResource": false,
+          "max": 0,
+          "maxFormula": "",
+          "maxPerUse": null,
+          "maxPerUseFormula": "",
+          "per": "",
+          "rechargeFormula": null,
+          "value": 0
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "BiRXzGRqO7o6znxi",
+      "_key": "!actors.items!o9m0GW8yX07Qk00h.BiRXzGRqO7o6znxi",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/special-abilities/imported.png",
+      "name": "Weakness",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "ability": {
+          "attack": null,
+          "critMult": 2,
+          "critRange": 20,
+          "damage": null,
+          "damageMult": 1,
+          "twoHandedOnly": false,
+          "vsTouchAc": false
+        },
+        "abilityType": "",
+        "actionType": "",
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "addedLevel": 0,
+        "associations": {
+          "classes": []
+        },
+        "attack": {
+          "parts": []
+        },
+        "attackBonus": "",
+        "attackCountFormula": "",
+        "attackNotes": "",
+        "attackParts": [],
+        "autoscaleAttackParts": "",
+        "baseCl": "0",
+        "changeFlags": {
+          "heavyArmorFullSpeed": false,
+          "loseDexToAC": false,
+          "mediumArmorFullSpeed": false,
+          "multiAttack": false,
+          "multiweaponAttack": false,
+          "noCon": false,
+          "noDex": false,
+          "noEncumbrance": false,
+          "noInt": false,
+          "noStr": false,
+          "oneCha": false,
+          "oneInt": false,
+          "oneWis": false,
+          "uncannyDodge": false
+        },
+        "changes": [],
+        "classSource": "",
+        "combatChangeCustomDisplayName": "",
+        "combatChangeCustomReferenceName": "",
+        "combatChanges": [],
+        "combatChangesAdditionalRanges": {
+          "hasAdditionalRanges": false,
+          "slider1": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider2": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider3": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          }
+        },
+        "combatChangesApplySpecialActionsOnce": true,
+        "combatChangesRange": {
+          "max": 0,
+          "maxFormula": ""
+        },
+        "combatChangesUsesCost": "chargesPerUse",
+        "conditionFlags": {
+          "dazzled": false,
+          "polymorphed": false,
+          "wildshaped": false
+        },
+        "contextNotes": [],
+        "counterName": "",
+        "createdBy": "",
+        "creationChanges": [],
+        "critConfirmBonus": "",
+        "crOffset": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "alternativeParts": [],
+          "parts": []
+        },
+        "damageReduction": [],
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "<p><em>This ability was imported automatically does not have actions or changes.</em></p><div level=\"8\" topic=\"Weakness\"><p> A green hag can weaken a foe by making a special touch attack. The opponent must succeed on a DC 16 Fortitude save or take 2d4 points of Strength damage. The save DC is Charisma-based.</p></div>"
+        },
+        "duration": {
+          "units": "",
+          "value": null
+        },
+        "effectNotes": "",
+        "epic": "",
+        "favorite": false,
+        "featType": "trait",
+        "formula": "",
+        "index": {
+          "subType": "trait",
+          "uniqueId": ""
+        },
+        "linkedChargeItem": {
+          "id": null,
+          "img": null,
+          "name": null
+        },
+        "linkedItems": [],
+        "linkId": "",
+        "linkImported": false,
+        "links": {
+          "charges": []
+        },
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "maxDamageDice": 0,
+        "maxDamageDiceFormula": "",
+        "measureTemplate": {
+          "customColor": "",
+          "customTexture": "",
+          "overrideColor": false,
+          "overrideTexture": false,
+          "size": 0,
+          "type": ""
+        },
+        "metamagic": {
+          "code": "",
+          "enabled": false,
+          "shortDesc": ""
+        },
+        "metamagicFeats": {
+          "empowered": false,
+          "enhanced": false,
+          "enhancedHalf": false,
+          "enlarged": false,
+          "intensified": false,
+          "maximized": false,
+          "widened": false
+        },
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "pr": false,
+        "psionic": "",
+        "range": {
+          "long": null,
+          "units": "",
+          "value": null
+        },
+        "recharge": {
+          "_deprecated": true,
+          "charged": false,
+          "current": 0,
+          "enabled": false,
+          "formula": "",
+          "value": null
+        },
+        "requirements": [],
+        "requiresPsionicFocus": false,
+        "resistances": [],
+        "rollTableDraw": {
+          "formula": "",
+          "id": "",
+          "name": "",
+          "pack": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": 0,
+          "dcAutoAbility": "",
+          "dcAutoType": "",
+          "description": "",
+          "type": ""
+        },
+        "senses": {
+          "blindsight": 0,
+          "darkvision": 0,
+          "lowLight": false,
+          "lowLightMultiplier": 2,
+          "tremorsense": 0,
+          "truesight": 0
+        },
+        "showInQuickbar": false,
+        "sizeOverride": "",
+        "source": "",
+        "specialActions": [],
+        "spellSpecialization": {
+          "isDomain": false,
+          "spells": {
+            "level1": {
+              "id": null,
+              "img": "",
+              "level": 1,
+              "name": "",
+              "pack": null
+            },
+            "level2": {
+              "id": null,
+              "img": "",
+              "level": 2,
+              "name": "",
+              "pack": null
+            },
+            "level3": {
+              "id": null,
+              "img": "",
+              "level": 3,
+              "name": "",
+              "pack": null
+            },
+            "level4": {
+              "id": null,
+              "img": "",
+              "level": 4,
+              "name": "",
+              "pack": null
+            },
+            "level5": {
+              "id": null,
+              "img": "",
+              "level": 5,
+              "name": "",
+              "pack": null
+            },
+            "level6": {
+              "id": null,
+              "img": "",
+              "level": 6,
+              "name": "",
+              "pack": null
+            },
+            "level7": {
+              "id": null,
+              "img": "",
+              "level": 7,
+              "name": "",
+              "pack": null
+            },
+            "level8": {
+              "id": null,
+              "img": "",
+              "level": 8,
+              "name": "",
+              "pack": null
+            },
+            "level9": {
+              "id": null,
+              "img": "",
+              "level": 9,
+              "name": "",
+              "pack": null
+            }
+          }
+        },
+        "spellSpecializationForbiddenNames": "",
+        "spellSpecializationName": "",
+        "sr": false,
+        "summon": [],
+        "tags": [],
+        "target": {
+          "value": ""
+        },
+        "uniqueId": "",
+        "userNonRemovable": false,
+        "uses": {
+          "allowMultipleUses": false,
+          "autoDeductCharges": true,
+          "canBeLinked": false,
+          "chargesPerUse": 1,
+          "isResource": false,
+          "max": 0,
+          "maxFormula": "",
+          "maxPerUse": null,
+          "maxPerUseFormula": "",
+          "per": null,
+          "rechargeFormula": null,
+          "value": 0
+        }
+      },
+      "type": "feat"
+    },
+    {
+      "_id": "aGwevCihFxeectQJ",
+      "_key": "!actors.items!o9m0GW8yX07Qk00h.aGwevCihFxeectQJ",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/special-abilities/imported.png",
+      "name": "Mimicry",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "ability": {
+          "attack": null,
+          "critMult": 2,
+          "critRange": 20,
+          "damage": null,
+          "damageMult": 1,
+          "twoHandedOnly": false,
+          "vsTouchAc": false
+        },
+        "abilityType": "",
+        "actionType": "",
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "addedLevel": 0,
+        "associations": {
+          "classes": []
+        },
+        "attack": {
+          "parts": []
+        },
+        "attackBonus": "",
+        "attackCountFormula": "",
+        "attackNotes": "",
+        "attackParts": [],
+        "autoscaleAttackParts": "",
+        "baseCl": "0",
+        "changeFlags": {
+          "heavyArmorFullSpeed": false,
+          "loseDexToAC": false,
+          "mediumArmorFullSpeed": false,
+          "multiAttack": false,
+          "multiweaponAttack": false,
+          "noCon": false,
+          "noDex": false,
+          "noEncumbrance": false,
+          "noInt": false,
+          "noStr": false,
+          "oneCha": false,
+          "oneInt": false,
+          "oneWis": false,
+          "uncannyDodge": false
+        },
+        "changes": [],
+        "classSource": "",
+        "combatChangeCustomDisplayName": "",
+        "combatChangeCustomReferenceName": "",
+        "combatChanges": [],
+        "combatChangesAdditionalRanges": {
+          "hasAdditionalRanges": false,
+          "slider1": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider2": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider3": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          }
+        },
+        "combatChangesApplySpecialActionsOnce": true,
+        "combatChangesRange": {
+          "max": 0,
+          "maxFormula": ""
+        },
+        "combatChangesUsesCost": "chargesPerUse",
+        "conditionFlags": {
+          "dazzled": false,
+          "polymorphed": false,
+          "wildshaped": false
+        },
+        "contextNotes": [],
+        "counterName": "",
+        "createdBy": "",
+        "creationChanges": [],
+        "critConfirmBonus": "",
+        "crOffset": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "alternativeParts": [],
+          "parts": []
+        },
+        "damageReduction": [],
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "<p><em>This ability was imported automatically does not have actions or changes.</em></p><div level=\"8\" topic=\"Mimicry\"><p> A green hag can imitate the sounds of almost any animal found near its lair.</p></div>"
+        },
+        "duration": {
+          "units": "",
+          "value": null
+        },
+        "effectNotes": "",
+        "epic": "",
+        "favorite": false,
+        "featType": "trait",
+        "formula": "",
+        "index": {
+          "subType": "trait",
+          "uniqueId": ""
+        },
+        "linkedChargeItem": {
+          "id": null,
+          "img": null,
+          "name": null
+        },
+        "linkedItems": [],
+        "linkId": "",
+        "linkImported": false,
+        "links": {
+          "charges": []
+        },
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "maxDamageDice": 0,
+        "maxDamageDiceFormula": "",
+        "measureTemplate": {
+          "customColor": "",
+          "customTexture": "",
+          "overrideColor": false,
+          "overrideTexture": false,
+          "size": 0,
+          "type": ""
+        },
+        "metamagic": {
+          "code": "",
+          "enabled": false,
+          "shortDesc": ""
+        },
+        "metamagicFeats": {
+          "empowered": false,
+          "enhanced": false,
+          "enhancedHalf": false,
+          "enlarged": false,
+          "intensified": false,
+          "maximized": false,
+          "widened": false
+        },
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "pr": false,
+        "psionic": "",
+        "range": {
+          "long": null,
+          "units": "",
+          "value": null
+        },
+        "recharge": {
+          "_deprecated": true,
+          "charged": false,
+          "current": 0,
+          "enabled": false,
+          "formula": "",
+          "value": null
+        },
+        "requirements": [],
+        "requiresPsionicFocus": false,
+        "resistances": [],
+        "rollTableDraw": {
+          "formula": "",
+          "id": "",
+          "name": "",
+          "pack": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": 0,
+          "dcAutoAbility": "",
+          "dcAutoType": "",
+          "description": "",
+          "type": ""
+        },
+        "senses": {
+          "blindsight": 0,
+          "darkvision": 0,
+          "lowLight": false,
+          "lowLightMultiplier": 2,
+          "tremorsense": 0,
+          "truesight": 0
+        },
+        "showInQuickbar": false,
+        "sizeOverride": "",
+        "source": "",
+        "specialActions": [],
+        "spellSpecialization": {
+          "isDomain": false,
+          "spells": {
+            "level1": {
+              "id": null,
+              "img": "",
+              "level": 1,
+              "name": "",
+              "pack": null
+            },
+            "level2": {
+              "id": null,
+              "img": "",
+              "level": 2,
+              "name": "",
+              "pack": null
+            },
+            "level3": {
+              "id": null,
+              "img": "",
+              "level": 3,
+              "name": "",
+              "pack": null
+            },
+            "level4": {
+              "id": null,
+              "img": "",
+              "level": 4,
+              "name": "",
+              "pack": null
+            },
+            "level5": {
+              "id": null,
+              "img": "",
+              "level": 5,
+              "name": "",
+              "pack": null
+            },
+            "level6": {
+              "id": null,
+              "img": "",
+              "level": 6,
+              "name": "",
+              "pack": null
+            },
+            "level7": {
+              "id": null,
+              "img": "",
+              "level": 7,
+              "name": "",
+              "pack": null
+            },
+            "level8": {
+              "id": null,
+              "img": "",
+              "level": 8,
+              "name": "",
+              "pack": null
+            },
+            "level9": {
+              "id": null,
+              "img": "",
+              "level": 9,
+              "name": "",
+              "pack": null
+            }
+          }
+        },
+        "spellSpecializationForbiddenNames": "",
+        "spellSpecializationName": "",
+        "sr": false,
+        "summon": [],
+        "tags": [],
+        "target": {
+          "value": ""
+        },
+        "uniqueId": "",
+        "userNonRemovable": false,
+        "uses": {
+          "allowMultipleUses": false,
+          "autoDeductCharges": true,
+          "canBeLinked": false,
+          "chargesPerUse": 1,
+          "isResource": false,
+          "max": 0,
+          "maxFormula": "",
+          "maxPerUse": null,
+          "maxPerUseFormula": "",
+          "per": null,
+          "rechargeFormula": null,
+          "value": 0
+        }
+      },
+      "type": "feat"
+    },
+    {
+      "_id": "nV9HYJJMEfq9O0l7",
+      "_key": "!actors.items!o9m0GW8yX07Qk00h.nV9HYJJMEfq9O0l7",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/feats/alertness.png",
+      "name": "Alertness",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "ability": {
+          "attack": null,
+          "critMult": 2,
+          "critRange": 20,
+          "damage": null,
+          "damageMult": 1,
+          "twoHandedOnly": false,
+          "vsTouchAc": false
+        },
+        "abilityType": "",
+        "actionType": "",
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "addedLevel": 0,
+        "associations": {
+          "classes": []
+        },
+        "attack": {
+          "parts": []
+        },
+        "attackBonus": "",
+        "attackCountFormula": "",
+        "attackNotes": "",
+        "attackParts": [],
+        "autoscaleAttackParts": "",
+        "baseCl": "0",
+        "changeFlags": {
+          "heavyArmorFullSpeed": false,
+          "loseDexToAC": false,
+          "mediumArmorFullSpeed": false,
+          "multiAttack": false,
+          "multiweaponAttack": false,
+          "noCon": false,
+          "noDex": false,
+          "noEncumbrance": false,
+          "noInt": false,
+          "noStr": false,
+          "oneCha": false,
+          "oneInt": false,
+          "oneWis": false,
+          "uncannyDodge": false
+        },
+        "changes": [
+          [
+            "2",
+            "skill",
+            "skill.lis",
+            "untyped"
+          ],
+          [
+            "2",
+            "skill",
+            "skill.spt",
+            "untyped"
+          ]
+        ],
+        "classSource": "",
+        "combatChangeCustomDisplayName": "",
+        "combatChangeCustomReferenceName": "",
+        "combatChanges": [],
+        "combatChangesAdditionalRanges": {
+          "hasAdditionalRanges": false,
+          "slider1": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider2": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider3": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          }
+        },
+        "combatChangesApplySpecialActionsOnce": true,
+        "combatChangesRange": {
+          "max": 0,
+          "maxFormula": ""
+        },
+        "combatChangesUsesCost": "chargesPerUse",
+        "conditionFlags": {
+          "dazzled": false,
+          "polymorphed": false,
+          "wildshaped": false
+        },
+        "contextNotes": [],
+        "counterName": "",
+        "createdBy": "",
+        "creationChanges": [],
+        "critConfirmBonus": "",
+        "crOffset": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "alternativeParts": [],
+          "parts": []
+        },
+        "damageReduction": [],
+        "damageType": {
+          "_deprecated": true,
+          "value": ""
+        },
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "\n\n\n<h3><span class=\"mw-headline\" id=\"Benefit\">Benefit</span></h3>\n<p>You get a +2 bonus on all Listen checks and Spot checks.\n</p>\n<h3><span class=\"mw-headline\" id=\"Special\">Special</span></h3>\n<p>The master of a familiar gains the benefit of the Alertness feat whenever the familiar is within arm’s reach.\n</p><p><br/>\n</p>\n<hr/>\n\n\n"
+        },
+        "duration": {
+          "units": "",
+          "value": null
+        },
+        "effectNotes": "",
+        "epic": "",
+        "favorite": false,
+        "featType": "feat",
+        "formula": "",
+        "index": {
+          "subType": "feat",
+          "uniqueId": ""
+        },
+        "linkedChargeItem": {
+          "id": null,
+          "img": null,
+          "name": null
+        },
+        "linkedItems": [],
+        "linkId": "",
+        "linkImported": false,
+        "links": {
+          "charges": []
+        },
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "maxDamageDice": 0,
+        "maxDamageDiceFormula": "",
+        "measureTemplate": {
+          "customColor": "",
+          "customTexture": "",
+          "overrideColor": false,
+          "overrideTexture": false,
+          "size": 0,
+          "type": ""
+        },
+        "metamagic": {
+          "code": "",
+          "enabled": false,
+          "shortDesc": ""
+        },
+        "metamagicFeats": {
+          "empowered": false,
+          "enhanced": false,
+          "enhancedHalf": false,
+          "enlarged": false,
+          "intensified": false,
+          "maximized": false,
+          "widened": false
+        },
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "pr": false,
+        "psionic": "",
+        "range": {
+          "long": null,
+          "units": "",
+          "value": null
+        },
+        "recharge": {
+          "_deprecated": true,
+          "charged": false,
+          "current": 0,
+          "enabled": false,
+          "formula": "",
+          "value": null
+        },
+        "requirements": [],
+        "requiresPsionicFocus": false,
+        "resistances": [],
+        "rollTableDraw": {
+          "formula": "",
+          "id": "",
+          "name": "",
+          "pack": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": 0,
+          "dcAutoAbility": "",
+          "dcAutoType": "",
+          "description": "",
+          "type": ""
+        },
+        "senses": {
+          "blindsight": 0,
+          "darkvision": 0,
+          "lowLight": false,
+          "lowLightMultiplier": 2,
+          "tremorsense": 0,
+          "truesight": 0
+        },
+        "showInQuickbar": false,
+        "sizeOverride": "",
+        "source": "",
+        "specialActions": [],
+        "spellSpecialization": {
+          "isDomain": false,
+          "spells": {
+            "level1": {
+              "id": null,
+              "img": "",
+              "level": 1,
+              "name": "",
+              "pack": null
+            },
+            "level2": {
+              "id": null,
+              "img": "",
+              "level": 2,
+              "name": "",
+              "pack": null
+            },
+            "level3": {
+              "id": null,
+              "img": "",
+              "level": 3,
+              "name": "",
+              "pack": null
+            },
+            "level4": {
+              "id": null,
+              "img": "",
+              "level": 4,
+              "name": "",
+              "pack": null
+            },
+            "level5": {
+              "id": null,
+              "img": "",
+              "level": 5,
+              "name": "",
+              "pack": null
+            },
+            "level6": {
+              "id": null,
+              "img": "",
+              "level": 6,
+              "name": "",
+              "pack": null
+            },
+            "level7": {
+              "id": null,
+              "img": "",
+              "level": 7,
+              "name": "",
+              "pack": null
+            },
+            "level8": {
+              "id": null,
+              "img": "",
+              "level": 8,
+              "name": "",
+              "pack": null
+            },
+            "level9": {
+              "id": null,
+              "img": "",
+              "level": 9,
+              "name": "",
+              "pack": null
+            }
+          }
+        },
+        "spellSpecializationForbiddenNames": "",
+        "spellSpecializationName": "",
+        "sr": false,
+        "summon": [],
+        "tags": [],
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "_deprecated": true,
+          "value": ""
+        },
+        "uniqueId": "",
+        "userNonRemovable": false,
+        "uses": {
+          "allowMultipleUses": false,
+          "autoDeductCharges": true,
+          "canBeLinked": false,
+          "chargesPerUse": 1,
+          "isResource": false,
+          "max": 0,
+          "maxFormula": "",
+          "maxPerUse": null,
+          "maxPerUseFormula": "",
+          "per": null,
+          "rechargeFormula": null,
+          "value": 0
+        }
+      },
+      "type": "feat"
+    },
+    {
+      "_id": "T0vGVJOjuv7MVLu5",
+      "_key": "!actors.items!o9m0GW8yX07Qk00h.T0vGVJOjuv7MVLu5",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/feats/blind-fight.png",
+      "name": "Blind-Fight",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "ability": {
+          "attack": null,
+          "critMult": 2,
+          "critRange": 20,
+          "damage": null,
+          "damageMult": 1,
+          "twoHandedOnly": false,
+          "vsTouchAc": false
+        },
+        "abilityType": "",
+        "actionType": "",
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "addedLevel": 0,
+        "associations": {
+          "classes": [
+            [
+              "Warrior",
+              -1
+            ]
+          ]
+        },
+        "attack": {
+          "parts": []
+        },
+        "attackBonus": "",
+        "attackCountFormula": "",
+        "attackNotes": "",
+        "attackParts": [],
+        "autoscaleAttackParts": "",
+        "baseCl": "0",
+        "changeFlags": {
+          "heavyArmorFullSpeed": false,
+          "loseDexToAC": false,
+          "mediumArmorFullSpeed": false,
+          "multiAttack": false,
+          "multiweaponAttack": false,
+          "noCon": false,
+          "noDex": false,
+          "noEncumbrance": false,
+          "noInt": false,
+          "noStr": false,
+          "oneCha": false,
+          "oneInt": false,
+          "oneWis": false,
+          "uncannyDodge": false
+        },
+        "changes": [],
+        "classSource": "",
+        "combatChangeCustomDisplayName": "",
+        "combatChangeCustomReferenceName": "",
+        "combatChanges": [],
+        "combatChangesAdditionalRanges": {
+          "hasAdditionalRanges": false,
+          "slider1": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider2": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider3": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          }
+        },
+        "combatChangesApplySpecialActionsOnce": true,
+        "combatChangesRange": {
+          "max": 0,
+          "maxFormula": ""
+        },
+        "combatChangesUsesCost": "chargesPerUse",
+        "conditionFlags": {
+          "dazzled": false,
+          "polymorphed": false,
+          "wildshaped": false
+        },
+        "contextNotes": [],
+        "counterName": "",
+        "createdBy": "",
+        "creationChanges": [],
+        "critConfirmBonus": "",
+        "crOffset": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "alternativeParts": [],
+          "parts": []
+        },
+        "damageReduction": [],
+        "damageType": {
+          "_deprecated": true,
+          "value": ""
+        },
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "\n\n\n<h3><span class=\"mw-headline\" id=\"Benefit\">Benefit</span></h3>\n<p>In melee, every time you miss because of concealment, you can reroll your miss chance percentile roll one time to see if you actually hit.\n</p><p>An invisible attacker gets no advantages related to hitting you in melee. That is, you don’t lose your Dexterity bonus to Armor Class, and the attacker doesn’t get the usual +2 bonus for being invisible. The invisible attacker’s bonuses do still apply for ranged attacks, however.\n</p><p>You take only half the usual penalty to speed for being unable to see. Darkness and poor visibility in general reduces your speed to three-quarters normal, instead of one-half.\n</p>\n<h3><span class=\"mw-headline\" id=\"Normal\">Normal</span></h3>\n<p>Regular attack roll modifiers for invisible attackers trying to hit you apply, and you lose your Dexterity bonus to AC. The speed reduction for darkness and poor visibility also applies.\n</p>\n<h3><span class=\"mw-headline\" id=\"Special\">Special</span></h3>\n<p>The Blind-Fight feat is of no use against a character who is the subject of a <i>blink </i>spell.\n</p><p>A fighter may select Blind-Fight as one of his fighter bonus feats.\n</p><p><br/>\n</p>\n<hr/>\n\n\n"
+        },
+        "duration": {
+          "units": "",
+          "value": null
+        },
+        "effectNotes": "",
+        "epic": "",
+        "favorite": false,
+        "featType": "feat",
+        "formula": "",
+        "index": {
+          "subType": "feat",
+          "uniqueId": ""
+        },
+        "linkedChargeItem": {
+          "id": null,
+          "img": null,
+          "name": null
+        },
+        "linkedItems": [],
+        "linkId": "",
+        "linkImported": false,
+        "links": {
+          "charges": []
+        },
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "maxDamageDice": 0,
+        "maxDamageDiceFormula": "",
+        "measureTemplate": {
+          "customColor": "",
+          "customTexture": "",
+          "overrideColor": false,
+          "overrideTexture": false,
+          "size": 0,
+          "type": ""
+        },
+        "metamagic": {
+          "code": "",
+          "enabled": false,
+          "shortDesc": ""
+        },
+        "metamagicFeats": {
+          "empowered": false,
+          "enhanced": false,
+          "enhancedHalf": false,
+          "enlarged": false,
+          "intensified": false,
+          "maximized": false,
+          "widened": false
+        },
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "pr": false,
+        "psionic": "",
+        "range": {
+          "long": null,
+          "units": "",
+          "value": null
+        },
+        "recharge": {
+          "_deprecated": true,
+          "charged": false,
+          "current": 0,
+          "enabled": false,
+          "formula": "",
+          "value": null
+        },
+        "requirements": [],
+        "requiresPsionicFocus": false,
+        "resistances": [],
+        "rollTableDraw": {
+          "formula": "",
+          "id": "",
+          "name": "",
+          "pack": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": 0,
+          "dcAutoAbility": "",
+          "dcAutoType": "",
+          "description": "",
+          "type": ""
+        },
+        "senses": {
+          "blindsight": 0,
+          "darkvision": 0,
+          "lowLight": false,
+          "lowLightMultiplier": 2,
+          "tremorsense": 0,
+          "truesight": 0
+        },
+        "showInQuickbar": false,
+        "sizeOverride": "",
+        "source": "",
+        "specialActions": [],
+        "spellSpecialization": {
+          "isDomain": false,
+          "spells": {
+            "level1": {
+              "id": null,
+              "img": "",
+              "level": 1,
+              "name": "",
+              "pack": null
+            },
+            "level2": {
+              "id": null,
+              "img": "",
+              "level": 2,
+              "name": "",
+              "pack": null
+            },
+            "level3": {
+              "id": null,
+              "img": "",
+              "level": 3,
+              "name": "",
+              "pack": null
+            },
+            "level4": {
+              "id": null,
+              "img": "",
+              "level": 4,
+              "name": "",
+              "pack": null
+            },
+            "level5": {
+              "id": null,
+              "img": "",
+              "level": 5,
+              "name": "",
+              "pack": null
+            },
+            "level6": {
+              "id": null,
+              "img": "",
+              "level": 6,
+              "name": "",
+              "pack": null
+            },
+            "level7": {
+              "id": null,
+              "img": "",
+              "level": 7,
+              "name": "",
+              "pack": null
+            },
+            "level8": {
+              "id": null,
+              "img": "",
+              "level": 8,
+              "name": "",
+              "pack": null
+            },
+            "level9": {
+              "id": null,
+              "img": "",
+              "level": 9,
+              "name": "",
+              "pack": null
+            }
+          }
+        },
+        "spellSpecializationForbiddenNames": "",
+        "spellSpecializationName": "",
+        "sr": false,
+        "summon": [],
+        "tags": [
+          [
+            "Dromite"
+          ]
+        ],
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "_deprecated": true,
+          "value": ""
+        },
+        "uniqueId": "",
+        "userNonRemovable": false,
+        "uses": {
+          "allowMultipleUses": false,
+          "autoDeductCharges": true,
+          "canBeLinked": false,
+          "chargesPerUse": 1,
+          "isResource": false,
+          "max": 0,
+          "maxFormula": "",
+          "maxPerUse": null,
+          "maxPerUseFormula": "",
+          "per": null,
+          "rechargeFormula": null,
+          "value": 0
+        }
+      },
+      "type": "feat"
+    },
+    {
+      "_id": "hEmt2MYEvVSTziBo",
+      "_key": "!actors.items!o9m0GW8yX07Qk00h.hEmt2MYEvVSTziBo",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/feats/combat-casting.png",
+      "name": "Combat Casting",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "ability": {
+          "attack": null,
+          "critMult": 2,
+          "critRange": 20,
+          "damage": null,
+          "damageMult": 1,
+          "twoHandedOnly": false,
+          "vsTouchAc": false
+        },
+        "abilityType": "",
+        "actionType": "",
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "addedLevel": 0,
+        "associations": {
+          "classes": []
+        },
+        "attack": {
+          "parts": []
+        },
+        "attackBonus": "",
+        "attackCountFormula": "",
+        "attackNotes": "",
+        "attackParts": [],
+        "autoscaleAttackParts": "",
+        "baseCl": "0",
+        "changeFlags": {
+          "heavyArmorFullSpeed": false,
+          "loseDexToAC": false,
+          "mediumArmorFullSpeed": false,
+          "multiAttack": false,
+          "multiweaponAttack": false,
+          "noCon": false,
+          "noDex": false,
+          "noEncumbrance": false,
+          "noInt": false,
+          "noStr": false,
+          "oneCha": false,
+          "oneInt": false,
+          "oneWis": false,
+          "uncannyDodge": false
+        },
+        "changes": [],
+        "classSource": "",
+        "combatChangeCustomDisplayName": "",
+        "combatChangeCustomReferenceName": "",
+        "combatChanges": [],
+        "combatChangesAdditionalRanges": {
+          "hasAdditionalRanges": false,
+          "slider1": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider2": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider3": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          }
+        },
+        "combatChangesApplySpecialActionsOnce": true,
+        "combatChangesRange": {
+          "max": 0,
+          "maxFormula": ""
+        },
+        "combatChangesUsesCost": "chargesPerUse",
+        "conditionFlags": {
+          "dazzled": false,
+          "polymorphed": false,
+          "wildshaped": false
+        },
+        "contextNotes": [
+          [
+            "[[+4]] while on the defensive or while when grappling or pinned",
+            "skill",
+            "skill.coc"
+          ]
+        ],
+        "counterName": "",
+        "createdBy": "",
+        "creationChanges": [],
+        "critConfirmBonus": "",
+        "crOffset": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "alternativeParts": [],
+          "parts": []
+        },
+        "damageReduction": [],
+        "damageType": {
+          "_deprecated": true,
+          "value": ""
+        },
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "\n\n\n<h3><span class=\"mw-headline\" id=\"Benefit\">Benefit</span></h3>\n<p>You get a +4 bonus on Concentration checks made to cast a spell or use a spell-like ability while on the defensive or while you are grappling or pinned.\n</p><p><br/>\n</p>\n<hr/>\n\n\n"
+        },
+        "duration": {
+          "units": "",
+          "value": null
+        },
+        "effectNotes": "",
+        "epic": "",
+        "favorite": false,
+        "featType": "feat",
+        "formula": "",
+        "index": {
+          "subType": "feat",
+          "uniqueId": ""
+        },
+        "linkedChargeItem": {
+          "id": null,
+          "img": null,
+          "name": null
+        },
+        "linkedItems": [],
+        "linkId": "",
+        "linkImported": false,
+        "links": {
+          "charges": []
+        },
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "maxDamageDice": 0,
+        "maxDamageDiceFormula": "",
+        "measureTemplate": {
+          "customColor": "",
+          "customTexture": "",
+          "overrideColor": false,
+          "overrideTexture": false,
+          "size": 0,
+          "type": ""
+        },
+        "metamagic": {
+          "code": "",
+          "enabled": false,
+          "shortDesc": ""
+        },
+        "metamagicFeats": {
+          "empowered": false,
+          "enhanced": false,
+          "enhancedHalf": false,
+          "enlarged": false,
+          "intensified": false,
+          "maximized": false,
+          "widened": false
+        },
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "pr": false,
+        "psionic": "",
+        "range": {
+          "long": null,
+          "units": "",
+          "value": null
+        },
+        "recharge": {
+          "_deprecated": true,
+          "charged": false,
+          "current": 0,
+          "enabled": false,
+          "formula": "",
+          "value": null
+        },
+        "requirements": [],
+        "requiresPsionicFocus": false,
+        "resistances": [],
+        "rollTableDraw": {
+          "formula": "",
+          "id": "",
+          "name": "",
+          "pack": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": 0,
+          "dcAutoAbility": "",
+          "dcAutoType": "",
+          "description": "",
+          "type": ""
+        },
+        "senses": {
+          "blindsight": 0,
+          "darkvision": 0,
+          "lowLight": false,
+          "lowLightMultiplier": 2,
+          "tremorsense": 0,
+          "truesight": 0
+        },
+        "showInQuickbar": false,
+        "sizeOverride": "",
+        "source": "",
+        "specialActions": [],
+        "spellSpecialization": {
+          "isDomain": false,
+          "spells": {
+            "level1": {
+              "id": null,
+              "img": "",
+              "level": 1,
+              "name": "",
+              "pack": null
+            },
+            "level2": {
+              "id": null,
+              "img": "",
+              "level": 2,
+              "name": "",
+              "pack": null
+            },
+            "level3": {
+              "id": null,
+              "img": "",
+              "level": 3,
+              "name": "",
+              "pack": null
+            },
+            "level4": {
+              "id": null,
+              "img": "",
+              "level": 4,
+              "name": "",
+              "pack": null
+            },
+            "level5": {
+              "id": null,
+              "img": "",
+              "level": 5,
+              "name": "",
+              "pack": null
+            },
+            "level6": {
+              "id": null,
+              "img": "",
+              "level": 6,
+              "name": "",
+              "pack": null
+            },
+            "level7": {
+              "id": null,
+              "img": "",
+              "level": 7,
+              "name": "",
+              "pack": null
+            },
+            "level8": {
+              "id": null,
+              "img": "",
+              "level": 8,
+              "name": "",
+              "pack": null
+            },
+            "level9": {
+              "id": null,
+              "img": "",
+              "level": 9,
+              "name": "",
+              "pack": null
+            }
+          }
+        },
+        "spellSpecializationForbiddenNames": "",
+        "spellSpecializationName": "",
+        "sr": false,
+        "summon": [],
+        "tags": [],
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "_deprecated": true,
+          "value": ""
+        },
+        "uniqueId": "",
+        "userNonRemovable": false,
+        "uses": {
+          "allowMultipleUses": false,
+          "autoDeductCharges": true,
+          "canBeLinked": false,
+          "chargesPerUse": 1,
+          "isResource": false,
+          "max": 0,
+          "maxFormula": "",
+          "maxPerUse": null,
+          "maxPerUseFormula": "",
+          "per": null,
+          "rechargeFormula": null,
+          "value": 0
+        }
+      },
+      "type": "feat"
+    },
+    {
+      "_id": "Q0HcpfdNNCaldpID",
+      "_key": "!actors.items!o9m0GW8yX07Qk00h.Q0HcpfdNNCaldpID",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/feats/great-fortitude.png",
+      "name": "Great Fortitude",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "ability": {
+          "attack": null,
+          "critMult": 2,
+          "critRange": 20,
+          "damage": null,
+          "damageMult": 1,
+          "twoHandedOnly": false,
+          "vsTouchAc": false
+        },
+        "abilityType": "",
+        "actionType": "",
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "addedLevel": 0,
+        "associations": {
+          "classes": []
+        },
+        "attack": {
+          "parts": []
+        },
+        "attackBonus": "",
+        "attackCountFormula": "",
+        "attackNotes": "",
+        "attackParts": [],
+        "autoscaleAttackParts": "",
+        "baseCl": "0",
+        "changeFlags": {
+          "heavyArmorFullSpeed": false,
+          "loseDexToAC": false,
+          "mediumArmorFullSpeed": false,
+          "multiAttack": false,
+          "multiweaponAttack": false,
+          "noCon": false,
+          "noDex": false,
+          "noEncumbrance": false,
+          "noInt": false,
+          "noStr": false,
+          "oneCha": false,
+          "oneInt": false,
+          "oneWis": false,
+          "uncannyDodge": false
+        },
+        "changes": [
+          [
+            "2",
+            "savingThrows",
+            "fort",
+            "untyped"
+          ]
+        ],
+        "classSource": "",
+        "combatChangeCustomDisplayName": "",
+        "combatChangeCustomReferenceName": "",
+        "combatChanges": [],
+        "combatChangesAdditionalRanges": {
+          "hasAdditionalRanges": false,
+          "slider1": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider2": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider3": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          }
+        },
+        "combatChangesApplySpecialActionsOnce": true,
+        "combatChangesRange": {
+          "max": 0,
+          "maxFormula": ""
+        },
+        "combatChangesUsesCost": "chargesPerUse",
+        "conditionFlags": {
+          "dazzled": false,
+          "polymorphed": false,
+          "wildshaped": false
+        },
+        "contextNotes": [],
+        "counterName": "",
+        "createdBy": "",
+        "creationChanges": [],
+        "critConfirmBonus": "",
+        "crOffset": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "alternativeParts": [],
+          "parts": []
+        },
+        "damageReduction": [],
+        "damageType": {
+          "_deprecated": true,
+          "value": ""
+        },
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "\n\n\n<h3><span class=\"mw-headline\" id=\"Benefit\">Benefit</span></h3>\n<p>You get a +2 bonus on all Fortitude saving throws.\n</p><p><br/>\n</p>\n<hr/>\n\n\n"
+        },
+        "duration": {
+          "units": "",
+          "value": null
+        },
+        "effectNotes": "",
+        "epic": "",
+        "favorite": false,
+        "featType": "feat",
+        "formula": "",
+        "index": {
+          "subType": "feat",
+          "uniqueId": ""
+        },
+        "linkedChargeItem": {
+          "id": null,
+          "img": null,
+          "name": null
+        },
+        "linkedItems": [],
+        "linkId": "",
+        "linkImported": false,
+        "links": {
+          "charges": []
+        },
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "maxDamageDice": 0,
+        "maxDamageDiceFormula": "",
+        "measureTemplate": {
+          "customColor": "",
+          "customTexture": "",
+          "overrideColor": false,
+          "overrideTexture": false,
+          "size": 0,
+          "type": ""
+        },
+        "metamagic": {
+          "code": "",
+          "enabled": false,
+          "shortDesc": ""
+        },
+        "metamagicFeats": {
+          "empowered": false,
+          "enhanced": false,
+          "enhancedHalf": false,
+          "enlarged": false,
+          "intensified": false,
+          "maximized": false,
+          "widened": false
+        },
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "pr": false,
+        "psionic": "",
+        "range": {
+          "long": null,
+          "units": "",
+          "value": null
+        },
+        "recharge": {
+          "_deprecated": true,
+          "charged": false,
+          "current": 0,
+          "enabled": false,
+          "formula": "",
+          "value": null
+        },
+        "requirements": [],
+        "requiresPsionicFocus": false,
+        "resistances": [],
+        "rollTableDraw": {
+          "formula": "",
+          "id": "",
+          "name": "",
+          "pack": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": 0,
+          "dcAutoAbility": "",
+          "dcAutoType": "",
+          "description": "",
+          "type": ""
+        },
+        "senses": {
+          "blindsight": 0,
+          "darkvision": 0,
+          "lowLight": false,
+          "lowLightMultiplier": 2,
+          "tremorsense": 0,
+          "truesight": 0
+        },
+        "showInQuickbar": false,
+        "sizeOverride": "",
+        "source": "",
+        "specialActions": [],
+        "spellSpecialization": {
+          "isDomain": false,
+          "spells": {
+            "level1": {
+              "id": null,
+              "img": "",
+              "level": 1,
+              "name": "",
+              "pack": null
+            },
+            "level2": {
+              "id": null,
+              "img": "",
+              "level": 2,
+              "name": "",
+              "pack": null
+            },
+            "level3": {
+              "id": null,
+              "img": "",
+              "level": 3,
+              "name": "",
+              "pack": null
+            },
+            "level4": {
+              "id": null,
+              "img": "",
+              "level": 4,
+              "name": "",
+              "pack": null
+            },
+            "level5": {
+              "id": null,
+              "img": "",
+              "level": 5,
+              "name": "",
+              "pack": null
+            },
+            "level6": {
+              "id": null,
+              "img": "",
+              "level": 6,
+              "name": "",
+              "pack": null
+            },
+            "level7": {
+              "id": null,
+              "img": "",
+              "level": 7,
+              "name": "",
+              "pack": null
+            },
+            "level8": {
+              "id": null,
+              "img": "",
+              "level": 8,
+              "name": "",
+              "pack": null
+            },
+            "level9": {
+              "id": null,
+              "img": "",
+              "level": 9,
+              "name": "",
+              "pack": null
+            }
+          }
+        },
+        "spellSpecializationForbiddenNames": "",
+        "spellSpecializationName": "",
+        "sr": false,
+        "summon": [],
+        "tags": [],
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "_deprecated": true,
+          "value": ""
+        },
+        "uniqueId": "",
+        "userNonRemovable": false,
+        "uses": {
+          "allowMultipleUses": false,
+          "autoDeductCharges": true,
+          "canBeLinked": false,
+          "chargesPerUse": 1,
+          "isResource": false,
+          "max": 0,
+          "maxFormula": "",
+          "maxPerUse": null,
+          "maxPerUseFormula": "",
+          "per": null,
+          "rechargeFormula": null,
+          "value": 0
+        }
+      },
+      "type": "feat"
+    },
+    {
+      "_id": "jkIm0z2XJ5o7vpPv",
+      "_key": "!actors.items!o9m0GW8yX07Qk00h.jkIm0z2XJ5o7vpPv",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/attack/monster/claw.png",
+      "name": "Claw",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "ability": {
+          "attack": "str",
+          "critMult": 2,
+          "critRange": 20,
+          "damage": "str",
+          "damageMult": -1,
+          "twoHandedOnly": false,
+          "vsTouchAc": false
+        },
+        "actionType": "mwak",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "addedLevel": 0,
+        "alignment": {
+          "chaotic": false,
+          "evil": false,
+          "good": false,
+          "lawful": false
+        },
+        "associations": {
+          "classes": []
+        },
+        "attack": {
+          "parts": []
+        },
+        "attackBonus": "",
+        "attackCountFormula": "",
+        "attackNotes": "",
+        "attackParts": [],
+        "attackType": "natural",
+        "autoscaleAttackParts": "",
+        "autoScaleOption": "default",
+        "baseCl": "0",
+        "baseWeaponType": "Claw",
+        "classSource": "",
+        "conditionals": [],
+        "createdBy": "",
+        "critConfirmBonus": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "alternativeParts": [],
+          "parts": [
+            [
+              "1d4",
+              null,
+              "damage-piercing-or-slashing"
+            ]
+          ]
+        },
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "<p>The creature rips with a sharp appendage, dealing piercing and slashing damage.</p>"
+        },
+        "duration": {
+          "units": "",
+          "value": null
+        },
+        "effectNotes": "",
+        "enh": null,
+        "epic": false,
+        "favorite": true,
+        "finesseable": false,
+        "formula": "",
+        "incorporeal": false,
+        "index": {
+          "subType": null,
+          "uniqueId": ""
+        },
+        "linkedChargeItem": {
+          "id": null,
+          "img": null,
+          "name": null
+        },
+        "linkId": "",
+        "linkImported": false,
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "magic": false,
+        "masterwork": false,
+        "material": {
+          "data": null
+        },
+        "maxDamageDice": 0,
+        "maxDamageDiceFormula": "",
+        "measureTemplate": {
+          "customColor": "",
+          "customTexture": "",
+          "overrideColor": false,
+          "overrideTexture": false,
+          "size": 0,
+          "type": ""
+        },
+        "melded": false,
+        "metamagicFeats": {
+          "empowered": false,
+          "enhanced": false,
+          "enhancedHalf": false,
+          "enlarged": false,
+          "intensified": false,
+          "maximized": false,
+          "widened": false
+        },
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "nonLethal": false,
+        "originalWeaponCreated": false,
+        "originalWeaponId": null,
+        "originalWeaponImg": "",
+        "originalWeaponName": "",
+        "originalWeaponProperties": {},
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "pr": false,
+        "primaryAttack": true,
+        "proficient": true,
+        "psionic": "",
+        "range": {
+          "long": null,
+          "units": "",
+          "value": null
+        },
+        "recharge": {
+          "current": 0,
+          "enabled": false,
+          "formula": ""
+        },
+        "requiresPsionicFocus": false,
+        "returning": false,
+        "rollTableDraw": {
+          "formula": "",
+          "id": "",
+          "name": "",
+          "pack": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": "0",
+          "dcAutoAbility": "",
+          "dcAutoType": "",
+          "description": "",
+          "type": ""
+        },
+        "showInQuickbar": true,
+        "source": "",
+        "specialActions": [],
+        "sr": false,
+        "summon": [],
+        "tags": [],
+        "target": {
+          "value": ""
+        },
+        "threatRangeExtended": false,
+        "thrown": false,
+        "uniqueId": "",
+        "userNonRemovable": false,
+        "uses": {
+          "allowMultipleUses": false,
+          "autoDeductCharges": true,
+          "canBeLinked": false,
+          "chargesPerUse": 1,
+          "isResource": false,
+          "max": 0,
+          "maxFormula": "",
+          "maxPerUse": null,
+          "maxPerUseFormula": "",
+          "per": "",
+          "rechargeFormula": null,
+          "value": 0
+        },
+        "weaponSubtype": "light"
+      },
+      "type": "attack"
+    },
+    {
+      "_id": "MrvJ9goImf3dCV8G",
+      "_key": "!actors.items!o9m0GW8yX07Qk00h.MrvJ9goImf3dCV8G",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/attack/full-attack.png",
+      "name": "Full Attack",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "addedLevel": 0,
+        "attacks": {
+          "attack1": {
+            "_id": 1,
+            "attackMode": "primary",
+            "count": 2,
+            "id": "jkIm0z2XJ5o7vpPv",
+            "img": "systems/D35E/icons/attack/monster/claw.png",
+            "isWeapon": false,
+            "name": "Claw",
+            "primary": true
+          },
+          "attack2": {
+            "_id": 2,
+            "attackMode": "primary",
+            "count": 0,
+            "id": "",
+            "img": "",
+            "isWeapon": false,
+            "name": "",
+            "primary": false
+          },
+          "attack3": {
+            "_id": 3,
+            "attackMode": "primary",
+            "count": 0,
+            "id": "",
+            "img": "",
+            "isWeapon": false,
+            "name": "",
+            "primary": false
+          },
+          "attack4": {
+            "_id": 4,
+            "attackMode": "primary",
+            "count": 0,
+            "id": "",
+            "img": "",
+            "isWeapon": false,
+            "name": "",
+            "primary": false
+          },
+          "attack5": {
+            "_id": 5,
+            "attackMode": "primary",
+            "count": 0,
+            "id": "",
+            "img": "",
+            "isWeapon": false,
+            "name": "",
+            "primary": false
+          }
+        },
+        "attackType": "full",
+        "classSource": "",
+        "createdBy": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "parts": []
+        },
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "<p>This is one of the creatures full attacks.</p>"
+        },
+        "epic": "",
+        "index": {
+          "subType": null,
+          "uniqueId": ""
+        },
+        "linkId": "",
+        "linkImported": false,
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "psionic": "",
+        "source": "",
+        "tags": [],
+        "uniqueId": "",
+        "userNonRemovable": false
+      },
+      "type": "full-attack"
+    }
   ],
   "name": "Green Hag",
   "ownership": {

@@ -31,7 +31,7 @@
       "twoHandedOnly": false,
       "vsTouchAc": false
     },
-    "actionType": "",
+    "actionType": "summonWeapon",
     "activation": {
       "cost": 1,
       "type": ""
@@ -182,6 +182,7 @@
     "properties": {
       "def": false,
       "dis": false,
+      "dnc": true,
       "kee": false,
       "mnk": false,
       "spd": false,
@@ -220,6 +221,12 @@
     "specialActions": [],
     "sr": false,
     "summon": [],
+    "summonWeapon": {
+      "attackActionType": "mwak",
+      "behavior": "dancing",
+      "cooldownRounds": 0,
+      "dancingRounds": 0
+    },
     "tags": [],
     "target": {
       "value": ""

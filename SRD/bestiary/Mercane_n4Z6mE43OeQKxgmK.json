@@ -17,17 +17,3054 @@
   "folder": "h7FMjrU2dQXVxN9C",
   "img": "systems/D35E/icons/bestiary/token/outsider.png",
   "items": [
-    "W4AnC2QL0fFVHYsJ",
-    "1BQSzVKSSyPZ9rXj",
-    "Bn1C95NMwO1LY2Aw",
-    "UfMBwX4jWdrU4OB7",
-    "8gKNGHGK3krkh9IT",
-    "XR3j80pov75CXKYK",
-    "7UPQ6IUIxbeGuPay",
-    "XIIVuDqAbN47gkBm",
-    "olEElkZrSUTUVvHz",
-    "disVlCYXdZsglWaz",
-    "eBlsMDaiD0YXqTJ1"
+    {
+      "_id": "W4AnC2QL0fFVHYsJ",
+      "_key": "!actors.items!n4Z6mE43OeQKxgmK.W4AnC2QL0fFVHYsJ",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/racialhd/outsider.png",
+      "name": "Outsider*",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "addedAbilities": [],
+        "addedLevel": 0,
+        "allSpellsKnown": false,
+        "automaticFeatures": false,
+        "bab": "high",
+        "changeFlags": {
+          "heavyArmorFullSpeed": false,
+          "loseDexToAC": false,
+          "mediumArmorFullSpeed": false,
+          "multiAttack": false,
+          "multiweaponAttack": false,
+          "noCon": false,
+          "noDex": false,
+          "noEncumbrance": false,
+          "noInt": false,
+          "noStr": false,
+          "oneCha": false,
+          "oneInt": false,
+          "oneWis": false,
+          "uncannyDodge": false
+        },
+        "changes": [
+          [
+            "4",
+            "ac",
+            "nac",
+            "racial"
+          ],
+          [
+            "25",
+            "misc",
+            "spellResistance",
+            "untyped"
+          ]
+        ],
+        "classSkills": {
+          "": true,
+          "acr": false,
+          "apr": true,
+          "art": false,
+          "aut": false,
+          "blc": false,
+          "blf": true,
+          "clm": false,
+          "coc": false,
+          "crf": true,
+          "dev": false,
+          "dip": true,
+          "dis": false,
+          "dsc": false,
+          "esc": false,
+          "fly": false,
+          "fog": false,
+          "gif": true,
+          "han": false,
+          "hea": false,
+          "hid": false,
+          "int": true,
+          "jmp": false,
+          "kar": true,
+          "kdu": false,
+          "ken": false,
+          "kge": false,
+          "khi": false,
+          "klo": false,
+          "kna": false,
+          "kno": false,
+          "kpl": true,
+          "kps": false,
+          "kre": false,
+          "lin": false,
+          "lis": true,
+          "lor": false,
+          "mos": false,
+          "opl": false,
+          "per": true,
+          "prf": false,
+          "pro": false,
+          "psi": false,
+          "rid": false,
+          "sen": true,
+          "slt": true,
+          "spl": true,
+          "spt": true,
+          "src": false,
+          "ste": true,
+          "sur": false,
+          "swm": false,
+          "tmb": false,
+          "umd": false,
+          "upd": false,
+          "uro": false
+        },
+        "classSource": "",
+        "classType": "racial",
+        "combatChangeCustomDisplayName": "",
+        "combatChangeCustomReferenceName": "",
+        "combatChanges": [],
+        "combatChangesAdditionalRanges": {
+          "hasAdditionalRanges": false,
+          "slider1": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider2": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider3": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          }
+        },
+        "combatChangesApplySpecialActionsOnce": true,
+        "combatChangesRange": {
+          "max": 0,
+          "maxFormula": ""
+        },
+        "combatChangesUsesCost": "chargesPerUse",
+        "conditionFlags": {
+          "dazzled": false,
+          "polymorphed": false,
+          "wildshaped": false
+        },
+        "counterName": "",
+        "createdBy": "",
+        "creationChanges": [],
+        "creatureType": "outsider",
+        "crPerHD": 2,
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "parts": []
+        },
+        "damageReduction": [],
+        "deckHandSizeFormula": "0",
+        "deckPrestigeClass": false,
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "<p>An outsider is at least partially composed of the essence (but not necessarily the material) of some plane other than the Material Plane. Some creatures start out as some other type and become outsiders when they attain a higher (or lower) state of spiritual existence.</p>\n<h2>Features</h2>\n<p>An outsider has the following features.</p>\n<ul>\n<li>8-sided Hit Dice.</li>\n<li>Base attack bonus equal to total Hit Dice (as fighter).</li>\n<li>Good Fortitude, Reflex, and Will saves.</li>\n<li>Skill points equal to (8 + Int modifier, minimum 1) per Hit Die, with quadruple skill points for the first Hit Die.</li>\n</ul>\n<h2>Traits</h2>\n<p>An outsider possesses the following traits (unless otherwise noted in a creature’s entry).</p>\n<ul>\n<li>Darkvision out to 60 feet.</li>\n<li>Unlike most other living creatures, an outsider does not have a dual nature; its soul and body form one unit. When an outsider is slain, no soul is set loose. Spells that restore souls to their bodies, such as raise dead, reincarnate, and resurrection, don’t work on an outsider. It takes a different magical effect, such as limited wish, wish, miracle, or true resurrection to restore it to life. An outsider with the native subtype can be raised, reincarnated, or resurrected just as other living creatures can be.</li>\n<li>Proficient with all simple and martial weapons and any weapons mentioned in its entry.</li>\n<li>Proficient with whatever type of armor (light, medium, or heavy) it is described as wearing, as well as all lighter types. Outsiders not indicated as wearing armor are not proficient with armor. Outsiders are proficient with shields if they are proficient with any form of armor.</li>\n<li>Outsiders breathe, but do not need to eat or sleep (although they can do so if they wish). Native outsiders breathe, eat, and sleep.</li>\n</ul>"
+        },
+        "disabledAbilities": [],
+        "epic": "",
+        "fc": {
+          "alt": {
+            "value": 0
+          },
+          "hp": {
+            "value": 0
+          },
+          "skill": {
+            "value": 0
+          }
+        },
+        "halfCasterLevel": false,
+        "hasLimitedSpellbook": false,
+        "hasSpecialSlot": false,
+        "hasSpellbook": false,
+        "hd": 8,
+        "hdReplace": "",
+        "hdReplaceRacialOnly": false,
+        "hp": 31,
+        "index": {
+          "subType": null,
+          "uniqueId": ""
+        },
+        "knownCardsSizeFormula": "0",
+        "la": 0,
+        "levels": 7,
+        "linkId": "",
+        "linkImported": false,
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "maxLevel": null,
+        "minionGroup": "",
+        "minionLevelFormula": "",
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "nonActiveClassAbilities": [],
+        "originId": "",
+        "originPack": "",
+        "originVersion": 1,
+        "possibleUpdate": false,
+        "powerPointBonusBaseAbility": "",
+        "powerPointTable": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0
+        },
+        "powersKnown": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0
+        },
+        "powersMaxLevel": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0
+        },
+        "prestigeLevels": 0,
+        "psionic": "",
+        "requirements": [],
+        "resistances": [],
+        "savingThrows": {
+          "fort": {
+            "value": "high"
+          },
+          "ref": {
+            "value": "high"
+          },
+          "will": {
+            "value": "high"
+          }
+        },
+        "sizeOverride": "",
+        "skillsPerLevel": 8,
+        "sneakAttackFormula": "",
+        "sneakAttackGroup": "",
+        "source": "",
+        "spellbook": [
+          {
+            "level": 0,
+            "spells": []
+          },
+          {
+            "level": 1,
+            "spells": []
+          },
+          {
+            "level": 2,
+            "spells": []
+          },
+          {
+            "level": 3,
+            "spells": []
+          },
+          {
+            "level": 4,
+            "spells": []
+          },
+          {
+            "level": 5,
+            "spells": []
+          },
+          {
+            "level": 6,
+            "spells": []
+          },
+          {
+            "level": 7,
+            "spells": []
+          },
+          {
+            "level": 8,
+            "spells": []
+          },
+          {
+            "level": 9,
+            "spells": []
+          }
+        ],
+        "spellcastingAbility": "int",
+        "spellcastingDescription": "None",
+        "spellcastingSpellname": "Spell",
+        "spellcastingSpellnamePl": "Spells",
+        "spellcastingSpontaneus": false,
+        "spellcastingType": "none",
+        "spellPointBonusFormula": "0",
+        "spellPointGroup": "wizard",
+        "spellPointTable": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0
+        },
+        "spellsKnownPerLevel": [],
+        "spellslotAbility": "",
+        "spellsPerLevel": [],
+        "tags": [],
+        "turnUndeadLevelFormula": "",
+        "uniqueId": "",
+        "userNonRemovable": false
+      },
+      "type": "class"
+    },
+    {
+      "_id": "1BQSzVKSSyPZ9rXj",
+      "_key": "!actors.items!n4Z6mE43OeQKxgmK.1BQSzVKSSyPZ9rXj",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/special-abilities/imported.png",
+      "name": "Spell-like abilities",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "ability": {
+          "attack": null,
+          "critMult": 2,
+          "critRange": 20,
+          "damage": null,
+          "damageMult": 1,
+          "twoHandedOnly": false,
+          "vsTouchAc": false
+        },
+        "abilityType": "",
+        "actionType": "",
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "addedLevel": 0,
+        "associations": {
+          "classes": []
+        },
+        "attack": {
+          "parts": []
+        },
+        "attackBonus": "",
+        "attackCountFormula": "",
+        "attackNotes": "",
+        "attackParts": [],
+        "autoscaleAttackParts": "",
+        "baseCl": "0",
+        "changeFlags": {
+          "heavyArmorFullSpeed": false,
+          "loseDexToAC": false,
+          "mediumArmorFullSpeed": false,
+          "multiAttack": false,
+          "multiweaponAttack": false,
+          "noCon": false,
+          "noDex": false,
+          "noEncumbrance": false,
+          "noInt": false,
+          "noStr": false,
+          "oneCha": false,
+          "oneInt": false,
+          "oneWis": false,
+          "uncannyDodge": false
+        },
+        "changes": [],
+        "classSource": "",
+        "combatChangeCustomDisplayName": "",
+        "combatChangeCustomReferenceName": "",
+        "combatChanges": [],
+        "combatChangesAdditionalRanges": {
+          "hasAdditionalRanges": false,
+          "slider1": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider2": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider3": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          }
+        },
+        "combatChangesApplySpecialActionsOnce": true,
+        "combatChangesRange": {
+          "max": 0,
+          "maxFormula": ""
+        },
+        "combatChangesUsesCost": "chargesPerUse",
+        "conditionFlags": {
+          "dazzled": false,
+          "polymorphed": false,
+          "wildshaped": false
+        },
+        "contextNotes": [],
+        "counterName": "",
+        "createdBy": "",
+        "creationChanges": [],
+        "critConfirmBonus": "",
+        "crOffset": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "alternativeParts": [],
+          "parts": []
+        },
+        "damageReduction": [],
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "<p><em>This ability was imported automatically does not have actions or changes.</em></p><div level=\"8\" topic=\"Spell-Like Abilities\"><p> 3/day-<i>dimension door</i>,  <i>invisibility</i>; 1/day-<i>secret chest</i>,  <i>plane shift</i>. Caster level 14th; save DC 12 + spell level.</p></div>"
+        },
+        "duration": {
+          "units": "",
+          "value": null
+        },
+        "effectNotes": "",
+        "epic": "",
+        "favorite": false,
+        "featType": "trait",
+        "formula": "",
+        "index": {
+          "subType": "trait",
+          "uniqueId": ""
+        },
+        "linkedChargeItem": {
+          "id": null,
+          "img": null,
+          "name": null
+        },
+        "linkedItems": [],
+        "linkId": "",
+        "linkImported": false,
+        "links": {
+          "charges": []
+        },
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "maxDamageDice": 0,
+        "maxDamageDiceFormula": "",
+        "measureTemplate": {
+          "customColor": "",
+          "customTexture": "",
+          "overrideColor": false,
+          "overrideTexture": false,
+          "size": 0,
+          "type": ""
+        },
+        "metamagic": {
+          "code": "",
+          "enabled": false,
+          "shortDesc": ""
+        },
+        "metamagicFeats": {
+          "empowered": false,
+          "enhanced": false,
+          "enhancedHalf": false,
+          "enlarged": false,
+          "intensified": false,
+          "maximized": false,
+          "widened": false
+        },
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "pr": false,
+        "psionic": "",
+        "range": {
+          "long": null,
+          "units": "",
+          "value": null
+        },
+        "recharge": {
+          "_deprecated": true,
+          "charged": false,
+          "current": 0,
+          "enabled": false,
+          "formula": "",
+          "value": null
+        },
+        "requirements": [],
+        "requiresPsionicFocus": false,
+        "resistances": [],
+        "rollTableDraw": {
+          "formula": "",
+          "id": "",
+          "name": "",
+          "pack": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": 0,
+          "dcAutoAbility": "",
+          "dcAutoType": "",
+          "description": "",
+          "type": ""
+        },
+        "senses": {
+          "blindsight": 0,
+          "darkvision": 0,
+          "lowLight": false,
+          "lowLightMultiplier": 2,
+          "tremorsense": 0,
+          "truesight": 0
+        },
+        "showInQuickbar": false,
+        "sizeOverride": "",
+        "source": "",
+        "specialActions": [],
+        "spellSpecialization": {
+          "isDomain": false,
+          "spells": {
+            "level1": {
+              "id": null,
+              "img": "",
+              "level": 1,
+              "name": "",
+              "pack": null
+            },
+            "level2": {
+              "id": null,
+              "img": "",
+              "level": 2,
+              "name": "",
+              "pack": null
+            },
+            "level3": {
+              "id": null,
+              "img": "",
+              "level": 3,
+              "name": "",
+              "pack": null
+            },
+            "level4": {
+              "id": null,
+              "img": "",
+              "level": 4,
+              "name": "",
+              "pack": null
+            },
+            "level5": {
+              "id": null,
+              "img": "",
+              "level": 5,
+              "name": "",
+              "pack": null
+            },
+            "level6": {
+              "id": null,
+              "img": "",
+              "level": 6,
+              "name": "",
+              "pack": null
+            },
+            "level7": {
+              "id": null,
+              "img": "",
+              "level": 7,
+              "name": "",
+              "pack": null
+            },
+            "level8": {
+              "id": null,
+              "img": "",
+              "level": 8,
+              "name": "",
+              "pack": null
+            },
+            "level9": {
+              "id": null,
+              "img": "",
+              "level": 9,
+              "name": "",
+              "pack": null
+            }
+          }
+        },
+        "spellSpecializationForbiddenNames": "",
+        "spellSpecializationName": "",
+        "sr": false,
+        "summon": [],
+        "tags": [],
+        "target": {
+          "value": ""
+        },
+        "uniqueId": "",
+        "userNonRemovable": false,
+        "uses": {
+          "allowMultipleUses": false,
+          "autoDeductCharges": true,
+          "canBeLinked": false,
+          "chargesPerUse": 1,
+          "isResource": false,
+          "max": 0,
+          "maxFormula": "",
+          "maxPerUse": null,
+          "maxPerUseFormula": "",
+          "per": null,
+          "rechargeFormula": null,
+          "value": 0
+        }
+      },
+      "type": "feat"
+    },
+    {
+      "_id": "Bn1C95NMwO1LY2Aw",
+      "_key": "!actors.items!n4Z6mE43OeQKxgmK.Bn1C95NMwO1LY2Aw",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/spells/named-spells/dimension-door.png",
+      "name": "Dimension Door",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "ability": {
+          "attack": "",
+          "critMult": 2,
+          "critRange": 20,
+          "damage": "",
+          "damageMult": 1,
+          "twoHandedOnly": false,
+          "vsTouchAc": false
+        },
+        "actionType": "other",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "addedLevel": 0,
+        "attack": {
+          "parts": []
+        },
+        "attackBonus": "",
+        "attackCountFormula": "",
+        "attackNotes": "",
+        "attackParts": [],
+        "atWill": false,
+        "autoscaleAttackParts": "",
+        "baseCl": "0",
+        "castTime": "",
+        "classSource": "",
+        "clOffset": 0,
+        "components": {
+          "divineFocus": 0,
+          "focus": false,
+          "material": false,
+          "somatic": false,
+          "value": "",
+          "verbal": true
+        },
+        "conditionals": [],
+        "createdBy": "",
+        "critConfirmBonus": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "alternativeParts": [],
+          "parts": []
+        },
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "<div class=\"spell-description\">\n  <p>\n      <strong>School:</strong>&nbsp;conjuration&nbsp;(teleportation);\n    <br>\n    <strong>Level:</strong>&nbsp;Assassin 4, Bard 4, Sorcerer 4, Wizard 4;\n    <strong>Domain:</strong>&nbsp;Travel 4;\n    \n    \n    \n    <br>\n    <strong>Components:</strong>&nbsp;V<br>\n    \n      <strong>Casting Time:</strong>&nbsp;1 standard action<br>\n    <strong>Range:</strong>&nbsp;long (400 ft. + 40 ft./level)<br>\n    \n    <strong>Target:</strong>&nbsp;you and touched objects or other touched willing creatures<br>\n    \n    <strong>Duration:</strong>&nbsp;Instantaneous<br>\n    \n        <strong>Saving Throw:</strong>&nbsp;None and Will negates (object)\n        <br>\n        <strong>Spell Resistance:</strong>&nbsp;no<br>\n  </p>\n  <h2>Description</h2>\n  \n\n\n<p>\nYou instantly transfer yourself from your current location to any other spot within range. You always arrive at exactly the spot desired—whether by simply visualizing the area or by stating direction. After using this spell, you can’t take any other actions until your next turn. You can bring along objects as long as their weight doesn’t exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equivalent per three caster levels. A Large creature counts as two Medium creatures, a Huge creature counts as two Large creatures, and so forth. All creatures to be transported must be in contact with one another, and at least one of those creatures must be in contact with you.\n</p><p>If you arrive in a place that is already occupied by a solid body, you and each creature traveling with you take 1d6 points of damage and are shunted to a random open space on a suitable surface within 100 feet of the intended location.\n</p><p>If there is no free space within 100 feet, you and each creature traveling with you take an additional 2d6 points of damage and are shunted to a free space within 1,000 feet. If there is no free space within 1,000 feet, you and each creature travelling with you take an additional 4d6 points of damage and the spell simply fails.\n</p>\n<hr/>\n\n\n\n</div>\n"
+        },
+        "display": "",
+        "duration": {
+          "units": "",
+          "value": null
+        },
+        "effectNotes": "",
+        "epic": "",
+        "favorite": false,
+        "formula": "",
+        "index": {
+          "subType": null,
+          "uniqueId": ""
+        },
+        "isDomainSpell": false,
+        "isPower": false,
+        "isSpellSpontaneousReplacement": false,
+        "learnedAt": {
+          "bloodline": [],
+          "class": [
+            [
+              "Assassin",
+              4
+            ],
+            [
+              "Bard",
+              4
+            ],
+            [
+              "Wizard",
+              4
+            ],
+            [
+              "Sorcerer",
+              4
+            ]
+          ],
+          "domain": [
+            [
+              "Travel",
+              4
+            ]
+          ],
+          "elementalSchool": [],
+          "subDomain": []
+        },
+        "level": 4,
+        "linkedChargeItem": {
+          "id": null,
+          "img": null,
+          "name": null
+        },
+        "linkId": "",
+        "linkImported": false,
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "materials": {
+          "consumed": {
+            "_deprecated": true,
+            "value": false
+          },
+          "focus": "",
+          "value": ""
+        },
+        "maxDamageDice": 0,
+        "maxDamageDiceFormula": "",
+        "measureTemplate": {
+          "customColor": "",
+          "customTexture": "",
+          "overrideColor": false,
+          "overrideTexture": false,
+          "size": 0,
+          "type": ""
+        },
+        "metamagicFeats": {
+          "empowered": false,
+          "enhanced": false,
+          "enhancedHalf": false,
+          "enlarged": false,
+          "intensified": false,
+          "maximized": false,
+          "widened": false
+        },
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "powerPointsCost": 0,
+        "pr": false,
+        "preparation": {
+          "autoDeductCharges": true,
+          "maxAmount": 3,
+          "mode": "prepared",
+          "preparedAmount": 3
+        },
+        "psionic": "",
+        "range": {
+          "long": null,
+          "units": "long",
+          "value": null
+        },
+        "recharge": {
+          "current": 0,
+          "enabled": false,
+          "formula": ""
+        },
+        "requiresPsionicFocus": false,
+        "rollTableDraw": {
+          "formula": "",
+          "id": "",
+          "name": "",
+          "pack": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": "0",
+          "dcAutoAbility": "",
+          "dcAutoType": "",
+          "description": "None and Will negates (object)",
+          "type": ""
+        },
+        "school": "con",
+        "shortDescription": "\n\n\n<p>\nYou instantly transfer yourself from your current location to any other spot within range. You always arrive at exactly the spot desired—whether by simply visualizing the area or by stating direction. After using this spell, you can’t take any other actions until your next turn. You can bring along objects as long as their weight doesn’t exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equivalent per three caster levels. A Large creature counts as two Medium creatures, a Huge creature counts as two Large creatures, and so forth. All creatures to be transported must be in contact with one another, and at least one of those creatures must be in contact with you.\n</p><p>If you arrive in a place that is already occupied by a solid body, you and each creature traveling with you take 1d6 points of damage and are shunted to a random open space on a suitable surface within 100 feet of the intended location.\n</p><p>If there is no free space within 100 feet, you and each creature traveling with you take an additional 2d6 points of damage and are shunted to a free space within 1,000 feet. If there is no free space within 1,000 feet, you and each creature travelling with you take an additional 4d6 points of damage and the spell simply fails.\n</p>\n<hr/>\n\n\n",
+        "showInQuickbar": false,
+        "slOffset": 0,
+        "snip": "Teleports you short distance.",
+        "source": "",
+        "specialActions": [],
+        "specialId": null,
+        "specialPrepared": false,
+        "spellArea": "",
+        "spellbook": "spelllike",
+        "spellDuration": "Instantaneous",
+        "spellEffect": "",
+        "spellType": {
+          "_deprecated": true,
+          "value": ""
+        },
+        "sr": false,
+        "subschool": "teleportation",
+        "summon": [],
+        "tags": [],
+        "target": {
+          "value": "you and touched objects or other touched willing creatures"
+        },
+        "types": "",
+        "uniqueId": "",
+        "userNonRemovable": false,
+        "uses": {
+          "allowMultipleUses": false,
+          "autoDeductCharges": true,
+          "canBeLinked": false,
+          "chargesPerUse": 1,
+          "isResource": false,
+          "max": 0,
+          "maxFormula": "",
+          "maxPerUse": null,
+          "maxPerUseFormula": "",
+          "per": "",
+          "rechargeFormula": null,
+          "value": 0
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "UfMBwX4jWdrU4OB7",
+      "_key": "!actors.items!n4Z6mE43OeQKxgmK.UfMBwX4jWdrU4OB7",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/spells/named-spells/invisibility.png",
+      "name": "Invisibility",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "ability": {
+          "attack": "",
+          "critMult": 2,
+          "critRange": 20,
+          "damage": "",
+          "damageMult": 1,
+          "twoHandedOnly": false,
+          "vsTouchAc": false
+        },
+        "actionType": "other",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "addedLevel": 0,
+        "attack": {
+          "parts": []
+        },
+        "attackBonus": "",
+        "attackCountFormula": "",
+        "attackNotes": "",
+        "attackParts": [],
+        "atWill": false,
+        "autoscaleAttackParts": "",
+        "baseCl": "0",
+        "castTime": "",
+        "classSource": "",
+        "clOffset": 0,
+        "components": {
+          "divineFocus": 2,
+          "focus": true,
+          "material": true,
+          "somatic": true,
+          "value": "",
+          "verbal": true
+        },
+        "conditionals": [],
+        "createdBy": "",
+        "critConfirmBonus": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "alternativeParts": [],
+          "parts": []
+        },
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "<div class=\"spell-description\">\n  <p>\n      <strong>School:</strong>&nbsp;illusion&nbsp;(glamer);\n    <br>\n    <strong>Level:</strong>&nbsp;Assassin 2, Bard 2, Sorcerer 2, Wizard 2;\n    <strong>Domain:</strong>&nbsp;Trickery 2;\n    \n    \n    \n    <br>\n    <strong>Components:</strong>&nbsp;V, S, M/DF (an eyelash encased in a bit of gum arabic), F<br>\n    \n      <strong>Casting Time:</strong>&nbsp;1 standard action<br>\n    <strong>Range:</strong>&nbsp;touch<br>\n    \n    <strong>Target:</strong>&nbsp;you or a creature or object weighing no more than 100 lb./level\n<br>\n    \n    <strong>Duration:</strong>&nbsp;1 min./level (D)\n<br>\n    \n        <strong>Saving Throw:</strong>&nbsp;Will negates (harmless) or Will negates (harmless, object)\n\n        <br>\n        <strong>Spell Resistance:</strong>&nbsp;yes<br>\n  </p>\n  <h2>Description</h2>\n  \n\n\n<p>\nThe creature or object touched becomes invisible, vanishing from sight, even from darkvision. If the recipient is a creature carrying gear, that vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the subject, unless you can normally see invisible things or you employ magic to do so.\n</p><p>Items dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisible, although a source of light can become so (thus, the effect is that of a light with no visible source). Any part of an item that the subject carries but that extends more than 10 feet from it becomes visible.\n</p><p>Of course, the subject is not magically <i>silenced, </i>and certain other conditions can render the recipient detectable (such as stepping in a puddle). The spell ends if the subject attacks any creature. For purposes of this spell, an attack includes any spell targeting a foe or whose area or effect includes a foe. (Exactly who is a foe depends on the invisible character’s perceptions.) Actions directed at unattended objects do not break the spell. Causing harm indirectly is not an attack. Thus, an invisible being can open doors, talk, eat, climb stairs, summon monsters and have them attack, cut the ropes holding a rope bridge while enemies are on the bridge, remotely trigger traps, open a portcullis to release attack dogs, and so forth. If the subject attacks directly, however, it immediately becomes visible along with all its gear. Spells such as <i>bless </i>that specifically affect allies but not foes are not attacks for this purpose, even when they include foes in their area.\n</p><p><i>Invisibility </i>can be made permanent (on objects only) with a <i>permanency </i>spell.\n</p><p><i>Arcane Material Component: </i>An eyelash encased in a bit of gum arabic.\n</p>\n<hr/>\n\n\n\n</div>\n"
+        },
+        "display": "",
+        "duration": {
+          "units": "",
+          "value": null
+        },
+        "effectNotes": "",
+        "epic": "",
+        "favorite": false,
+        "formula": "",
+        "index": {
+          "subType": null,
+          "uniqueId": ""
+        },
+        "isDomainSpell": false,
+        "isPower": false,
+        "isSpellSpontaneousReplacement": false,
+        "learnedAt": {
+          "bloodline": [],
+          "class": [
+            [
+              "Assassin",
+              2
+            ],
+            [
+              "Bard",
+              2
+            ],
+            [
+              "Wizard",
+              2
+            ],
+            [
+              "Sorcerer",
+              2
+            ]
+          ],
+          "domain": [
+            [
+              "Trickery",
+              2
+            ]
+          ],
+          "elementalSchool": [],
+          "subDomain": []
+        },
+        "level": 2,
+        "linkedChargeItem": {
+          "id": null,
+          "img": null,
+          "name": null
+        },
+        "linkId": "",
+        "linkImported": false,
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "materials": {
+          "consumed": {
+            "_deprecated": true,
+            "value": false
+          },
+          "focus": "",
+          "value": "an eyelash encased in a bit of gum arabic"
+        },
+        "maxDamageDice": 0,
+        "maxDamageDiceFormula": "",
+        "measureTemplate": {
+          "customColor": "",
+          "customTexture": "",
+          "overrideColor": false,
+          "overrideTexture": false,
+          "size": 0,
+          "type": ""
+        },
+        "metamagicFeats": {
+          "empowered": false,
+          "enhanced": false,
+          "enhancedHalf": false,
+          "enlarged": false,
+          "intensified": false,
+          "maximized": false,
+          "widened": false
+        },
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "powerPointsCost": 0,
+        "pr": false,
+        "preparation": {
+          "autoDeductCharges": true,
+          "maxAmount": 3,
+          "mode": "prepared",
+          "preparedAmount": 3
+        },
+        "psionic": "",
+        "range": {
+          "long": null,
+          "units": "touch",
+          "value": null
+        },
+        "recharge": {
+          "current": 0,
+          "enabled": false,
+          "formula": ""
+        },
+        "requiresPsionicFocus": false,
+        "rollTableDraw": {
+          "formula": "",
+          "id": "",
+          "name": "",
+          "pack": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": "0",
+          "dcAutoAbility": "",
+          "dcAutoType": "",
+          "description": "Will negates (harmless) or Will negates (harmless, object)\n",
+          "type": ""
+        },
+        "school": "ill",
+        "shortDescription": "\n\n\n<p>\nThe creature or object touched becomes invisible, vanishing from sight, even from darkvision. If the recipient is a creature carrying gear, that vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the subject, unless you can normally see invisible things or you employ magic to do so.\n</p><p>Items dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisible, although a source of light can become so (thus, the effect is that of a light with no visible source). Any part of an item that the subject carries but that extends more than 10 feet from it becomes visible.\n</p><p>Of course, the subject is not magically <i>silenced, </i>and certain other conditions can render the recipient detectable (such as stepping in a puddle). The spell ends if the subject attacks any creature. For purposes of this spell, an attack includes any spell targeting a foe or whose area or effect includes a foe. (Exactly who is a foe depends on the invisible character’s perceptions.) Actions directed at unattended objects do not break the spell. Causing harm indirectly is not an attack. Thus, an invisible being can open doors, talk, eat, climb stairs, summon monsters and have them attack, cut the ropes holding a rope bridge while enemies are on the bridge, remotely trigger traps, open a portcullis to release attack dogs, and so forth. If the subject attacks directly, however, it immediately becomes visible along with all its gear. Spells such as <i>bless </i>that specifically affect allies but not foes are not attacks for this purpose, even when they include foes in their area.\n</p><p><i>Invisibility </i>can be made permanent (on objects only) with a <i>permanency </i>spell.\n</p><p><i>Arcane Material Component: </i>An eyelash encased in a bit of gum arabic.\n</p>\n<hr/>\n\n\n",
+        "showInQuickbar": false,
+        "slOffset": 0,
+        "snip": "Subject is invisible for 1 min./level or until it attacks.",
+        "source": "",
+        "specialActions": [],
+        "specialId": null,
+        "specialPrepared": false,
+        "spellArea": "",
+        "spellbook": "spelllike",
+        "spellDuration": "1 min./level (D)\n",
+        "spellEffect": "",
+        "spellType": {
+          "_deprecated": true,
+          "value": ""
+        },
+        "sr": true,
+        "subschool": "glamer",
+        "summon": [],
+        "tags": [],
+        "target": {
+          "value": "you or a creature or object weighing no more than 100 lb./level\n"
+        },
+        "types": "",
+        "uniqueId": "",
+        "userNonRemovable": false,
+        "uses": {
+          "allowMultipleUses": false,
+          "autoDeductCharges": true,
+          "canBeLinked": false,
+          "chargesPerUse": 1,
+          "isResource": false,
+          "max": 0,
+          "maxFormula": "",
+          "maxPerUse": null,
+          "maxPerUseFormula": "",
+          "per": "",
+          "rechargeFormula": null,
+          "value": 0
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "8gKNGHGK3krkh9IT",
+      "_key": "!actors.items!n4Z6mE43OeQKxgmK.8gKNGHGK3krkh9IT",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/spells/school/con_.png",
+      "name": "Secret Chest",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "ability": {
+          "attack": "",
+          "critMult": 2,
+          "critRange": 20,
+          "damage": "",
+          "damageMult": 1,
+          "twoHandedOnly": false,
+          "vsTouchAc": false
+        },
+        "actionType": "other",
+        "activation": {
+          "cost": 10,
+          "type": "minute"
+        },
+        "addedLevel": 0,
+        "attack": {
+          "parts": []
+        },
+        "attackBonus": "",
+        "attackCountFormula": "",
+        "attackNotes": "",
+        "attackParts": [],
+        "atWill": false,
+        "autoscaleAttackParts": "",
+        "baseCl": "0",
+        "castTime": "",
+        "classSource": "",
+        "clOffset": 0,
+        "components": {
+          "divineFocus": 0,
+          "focus": true,
+          "material": false,
+          "somatic": true,
+          "value": "",
+          "verbal": true
+        },
+        "conditionals": [],
+        "createdBy": "",
+        "critConfirmBonus": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "alternativeParts": [],
+          "parts": []
+        },
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "<div class=\"spell-description\">\n  <p>\n      <strong>School:</strong>&nbsp;conjuration&nbsp;(summoning);\n    <br>\n    <strong>Level:</strong>&nbsp;Wizard 5;\n    \n    \n    \n    \n    <br>\n    <strong>Components:</strong>&nbsp;V, S, F (the chest and its replica)<br>\n    \n      <strong>Casting Time:</strong>&nbsp;10 minutes<br>\n    <strong>Range:</strong>&nbsp;touch<br>\n    \n    <strong>Target:</strong>&nbsp;one chest and up to 1 cu. ft. of goods/caster level\n<br>\n    \n    <strong>Duration:</strong>&nbsp;Sixty days or until discharged\n<br>\n    \n        <strong>Saving Throw:</strong>&nbsp;None\n\n        <br>\n        <strong>Spell Resistance:</strong>&nbsp;no<br>\n  </p>\n  <h2>Description</h2>\n  \n\n\n<p>\nYou hide a chest on the Ethereal Plane for as long as sixty days and can retrieve it at will. The chest can contain up to 1 cubic foot of material per caster level (regardless of the chest’s actual size, which is about 3 feet by 2 feet by 2 feet). If any living creatures are in the chest, there is a 75% chance that the spell simply fails. Once the chest is hidden, you can retrieve it by concentrating (a standard action), and it appears next to you.\n</p><p>The chest must be exceptionally well crafted and expensive, constructed for you by master crafters. The cost of such a chest is never less than 5,000 gp. Once it is constructed, you must make a tiny replica (of the same materials and perfect in every detail), so that the miniature of the chest appears to be a perfect copy. (The replica costs 50 gp.) You can have but one pair of these chests at any given time—even a <i>wish </i>spell does not allow more. The chests are nonmagical and can be fitted with locks, wards, and so on, just as any normal chest can be.\n</p><p>To hide the chest, you cast the spell while touching both the chest and the replica. The chest vanishes into the Ethereal Plane. You need the replica to recall the chest. After sixty days, there is a cumulative chance of 5% per day that the chest is irretrievably lost. If the miniature of the chest is lost or destroyed, there is no way, not even with a <i>wish </i>spell, that the large chest can be summoned back, although an extraplanar expedition might be mounted to find it.\n</p><p>Living things in the chest eat, sleep, and age normally, and they die if they run out of food, air, water, or whatever they need to survive.\n</p><p><i>Focus: </i>The chest and its replica.\n</p>\n<hr/>\n\n\n\n</div>\n"
+        },
+        "display": "",
+        "duration": {
+          "units": "",
+          "value": null
+        },
+        "effectNotes": "",
+        "epic": "",
+        "favorite": false,
+        "formula": "",
+        "index": {
+          "subType": null,
+          "uniqueId": ""
+        },
+        "isDomainSpell": false,
+        "isPower": false,
+        "isSpellSpontaneousReplacement": false,
+        "learnedAt": {
+          "bloodline": [],
+          "class": [
+            [
+              "Wizard",
+              5
+            ]
+          ],
+          "domain": [],
+          "elementalSchool": [],
+          "subDomain": []
+        },
+        "level": 5,
+        "linkedChargeItem": {
+          "id": null,
+          "img": null,
+          "name": null
+        },
+        "linkId": "",
+        "linkImported": false,
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "materials": {
+          "consumed": {
+            "_deprecated": true,
+            "value": false
+          },
+          "focus": "the chest and its replica",
+          "value": ""
+        },
+        "maxDamageDice": 0,
+        "maxDamageDiceFormula": "",
+        "measureTemplate": {
+          "customColor": "",
+          "customTexture": "",
+          "overrideColor": false,
+          "overrideTexture": false,
+          "size": 0,
+          "type": ""
+        },
+        "metamagicFeats": {
+          "empowered": false,
+          "enhanced": false,
+          "enhancedHalf": false,
+          "enlarged": false,
+          "intensified": false,
+          "maximized": false,
+          "widened": false
+        },
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "powerPointsCost": 0,
+        "pr": false,
+        "preparation": {
+          "autoDeductCharges": true,
+          "maxAmount": 1,
+          "mode": "prepared",
+          "preparedAmount": 1
+        },
+        "psionic": "",
+        "range": {
+          "long": null,
+          "units": "touch",
+          "value": null
+        },
+        "recharge": {
+          "current": 0,
+          "enabled": false,
+          "formula": ""
+        },
+        "requiresPsionicFocus": false,
+        "rollTableDraw": {
+          "formula": "",
+          "id": "",
+          "name": "",
+          "pack": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": "0",
+          "dcAutoAbility": "",
+          "dcAutoType": "",
+          "description": "None\n",
+          "type": ""
+        },
+        "school": "con",
+        "shortDescription": "\n\n\n<p>\nYou hide a chest on the Ethereal Plane for as long as sixty days and can retrieve it at will. The chest can contain up to 1 cubic foot of material per caster level (regardless of the chest’s actual size, which is about 3 feet by 2 feet by 2 feet). If any living creatures are in the chest, there is a 75% chance that the spell simply fails. Once the chest is hidden, you can retrieve it by concentrating (a standard action), and it appears next to you.\n</p><p>The chest must be exceptionally well crafted and expensive, constructed for you by master crafters. The cost of such a chest is never less than 5,000 gp. Once it is constructed, you must make a tiny replica (of the same materials and perfect in every detail), so that the miniature of the chest appears to be a perfect copy. (The replica costs 50 gp.) You can have but one pair of these chests at any given time—even a <i>wish </i>spell does not allow more. The chests are nonmagical and can be fitted with locks, wards, and so on, just as any normal chest can be.\n</p><p>To hide the chest, you cast the spell while touching both the chest and the replica. The chest vanishes into the Ethereal Plane. You need the replica to recall the chest. After sixty days, there is a cumulative chance of 5% per day that the chest is irretrievably lost. If the miniature of the chest is lost or destroyed, there is no way, not even with a <i>wish </i>spell, that the large chest can be summoned back, although an extraplanar expedition might be mounted to find it.\n</p><p>Living things in the chest eat, sleep, and age normally, and they die if they run out of food, air, water, or whatever they need to survive.\n</p><p><i>Focus: </i>The chest and its replica.\n</p>\n<hr/>\n\n\n",
+        "showInQuickbar": false,
+        "slOffset": 0,
+        "snip": "Hides expensive chest on Ethereal Plane; you retrieve it at will.",
+        "source": "",
+        "specialActions": [],
+        "specialId": null,
+        "specialPrepared": false,
+        "spellArea": "",
+        "spellbook": "spelllike",
+        "spellDuration": "Sixty days or until discharged\n",
+        "spellEffect": "",
+        "spellType": {
+          "_deprecated": true,
+          "value": ""
+        },
+        "sr": false,
+        "subschool": "summoning",
+        "summon": [],
+        "tags": [],
+        "target": {
+          "value": "one chest and up to 1 cu. ft. of goods/caster level\n"
+        },
+        "types": "",
+        "uniqueId": "",
+        "userNonRemovable": false,
+        "uses": {
+          "allowMultipleUses": false,
+          "autoDeductCharges": true,
+          "canBeLinked": false,
+          "chargesPerUse": 1,
+          "isResource": false,
+          "max": 0,
+          "maxFormula": "",
+          "maxPerUse": null,
+          "maxPerUseFormula": "",
+          "per": "",
+          "rechargeFormula": null,
+          "value": 0
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "XR3j80pov75CXKYK",
+      "_key": "!actors.items!n4Z6mE43OeQKxgmK.XR3j80pov75CXKYK",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/spells/school/con_.png",
+      "name": "Plane Shift",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "ability": {
+          "attack": "",
+          "critMult": 2,
+          "critRange": 20,
+          "damage": "",
+          "damageMult": 1,
+          "twoHandedOnly": false,
+          "vsTouchAc": false
+        },
+        "actionType": "other",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "addedLevel": 0,
+        "attack": {
+          "parts": []
+        },
+        "attackBonus": "",
+        "attackCountFormula": "",
+        "attackNotes": "",
+        "attackParts": [],
+        "atWill": false,
+        "autoscaleAttackParts": "",
+        "baseCl": "0",
+        "castTime": "",
+        "classSource": "",
+        "clOffset": 0,
+        "components": {
+          "divineFocus": 0,
+          "focus": true,
+          "material": false,
+          "somatic": true,
+          "value": "",
+          "verbal": true
+        },
+        "conditionals": [],
+        "createdBy": "",
+        "critConfirmBonus": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "alternativeParts": [],
+          "parts": []
+        },
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "<div class=\"spell-description\">\n  <p>\n      <strong>School:</strong>&nbsp;conjuration&nbsp;(teleportation);\n    <br>\n    <strong>Level:</strong>&nbsp;Cleric 5, Sorcerer 7, Wizard 7;\n    \n    \n    \n    \n    <br>\n    <strong>Components:</strong>&nbsp;V, S, F (a small, forked metal rod  the size and metal type dictates to which plane of existence or alternate dimension the spell sends the affected creatures)<br>\n    \n      <strong>Casting Time:</strong>&nbsp;1 standard action<br>\n    <strong>Range:</strong>&nbsp;touch<br>\n    \n    <strong>Target:</strong>&nbsp;creature touched, or up to eight willing creatures joining hands\n<br>\n    \n    <strong>Duration:</strong>&nbsp;Instantaneous\n<br>\n    \n        <strong>Saving Throw:</strong>&nbsp;Will negates\n\n        <br>\n        <strong>Spell Resistance:</strong>&nbsp;yes<br>\n  </p>\n  <h2>Description</h2>\n  \n\n\n<p>\nYou move yourself or some other creature to another plane of existence or alternate dimension. If several willing persons link hands in a circle, as many as eight can be affected by the <i>plane shift </i>at the same time. Precise accuracy as to a particular arrival location on the intended plane is nigh impossible. From the Material Plane, you can reach any other plane, though you appear 5 to 500 miles (5d%) from your intended destination.\n</p><p><i>Note: Plane shift </i>transports creatures instantaneously and then ends. The creatures need to find other means if they are to travel back.\n</p><p><i>Focus: </i>A small, forked metal rod. The size and metal type dictates to which plane of existence or alternate dimension the spell sends the affected creatures.\n</p>\n<hr/>\n\n\n\n</div>\n"
+        },
+        "display": "",
+        "duration": {
+          "units": "",
+          "value": null
+        },
+        "effectNotes": "",
+        "epic": "",
+        "favorite": false,
+        "formula": "",
+        "index": {
+          "subType": null,
+          "uniqueId": ""
+        },
+        "isDomainSpell": false,
+        "isPower": false,
+        "isSpellSpontaneousReplacement": false,
+        "learnedAt": {
+          "bloodline": [],
+          "class": [
+            [
+              "Cleric",
+              5
+            ],
+            [
+              "Wizard",
+              7
+            ],
+            [
+              "Sorcerer",
+              7
+            ]
+          ],
+          "domain": [],
+          "elementalSchool": [],
+          "subDomain": []
+        },
+        "level": 7,
+        "linkedChargeItem": {
+          "id": null,
+          "img": null,
+          "name": null
+        },
+        "linkId": "",
+        "linkImported": false,
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "materials": {
+          "consumed": {
+            "_deprecated": true,
+            "value": false
+          },
+          "focus": "a small, forked metal rod  the size and metal type dictates to which plane of existence or alternate dimension the spell sends the affected creatures",
+          "value": ""
+        },
+        "maxDamageDice": 0,
+        "maxDamageDiceFormula": "",
+        "measureTemplate": {
+          "customColor": "",
+          "customTexture": "",
+          "overrideColor": false,
+          "overrideTexture": false,
+          "size": 0,
+          "type": ""
+        },
+        "metamagicFeats": {
+          "empowered": false,
+          "enhanced": false,
+          "enhancedHalf": false,
+          "enlarged": false,
+          "intensified": false,
+          "maximized": false,
+          "widened": false
+        },
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "powerPointsCost": 0,
+        "pr": false,
+        "preparation": {
+          "autoDeductCharges": true,
+          "maxAmount": 1,
+          "mode": "prepared",
+          "preparedAmount": 1
+        },
+        "psionic": "",
+        "range": {
+          "long": null,
+          "units": "touch",
+          "value": null
+        },
+        "recharge": {
+          "current": 0,
+          "enabled": false,
+          "formula": ""
+        },
+        "requiresPsionicFocus": false,
+        "rollTableDraw": {
+          "formula": "",
+          "id": "",
+          "name": "",
+          "pack": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": "0",
+          "dcAutoAbility": "",
+          "dcAutoType": "",
+          "description": "Will negates\n",
+          "type": ""
+        },
+        "school": "con",
+        "shortDescription": "\n\n\n<p>\nYou move yourself or some other creature to another plane of existence or alternate dimension. If several willing persons link hands in a circle, as many as eight can be affected by the <i>plane shift </i>at the same time. Precise accuracy as to a particular arrival location on the intended plane is nigh impossible. From the Material Plane, you can reach any other plane, though you appear 5 to 500 miles (5d%) from your intended destination.\n</p><p><i>Note: Plane shift </i>transports creatures instantaneously and then ends. The creatures need to find other means if they are to travel back.\n</p><p><i>Focus: </i>A small, forked metal rod. The size and metal type dictates to which plane of existence or alternate dimension the spell sends the affected creatures.\n</p>\n<hr/>\n\n\n",
+        "showInQuickbar": false,
+        "slOffset": 0,
+        "snip": "As many as eight subjects travel to another plane.",
+        "source": "",
+        "specialActions": [],
+        "specialId": null,
+        "specialPrepared": false,
+        "spellArea": "",
+        "spellbook": "spelllike",
+        "spellDuration": "Instantaneous\n",
+        "spellEffect": "",
+        "spellType": {
+          "_deprecated": true,
+          "value": ""
+        },
+        "sr": true,
+        "subschool": "teleportation",
+        "summon": [],
+        "tags": [],
+        "target": {
+          "value": "creature touched, or up to eight willing creatures joining hands\n"
+        },
+        "types": "",
+        "uniqueId": "",
+        "userNonRemovable": false,
+        "uses": {
+          "allowMultipleUses": false,
+          "autoDeductCharges": true,
+          "canBeLinked": false,
+          "chargesPerUse": 1,
+          "isResource": false,
+          "max": 0,
+          "maxFormula": "",
+          "maxPerUse": null,
+          "maxPerUseFormula": "",
+          "per": "",
+          "rechargeFormula": null,
+          "value": 0
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "7UPQ6IUIxbeGuPay",
+      "_key": "!actors.items!n4Z6mE43OeQKxgmK.7UPQ6IUIxbeGuPay",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/special-abilities/imported.png",
+      "name": "Telepathy",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "ability": {
+          "attack": null,
+          "critMult": 2,
+          "critRange": 20,
+          "damage": null,
+          "damageMult": 1,
+          "twoHandedOnly": false,
+          "vsTouchAc": false
+        },
+        "abilityType": "",
+        "actionType": "",
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "addedLevel": 0,
+        "associations": {
+          "classes": []
+        },
+        "attack": {
+          "parts": []
+        },
+        "attackBonus": "",
+        "attackCountFormula": "",
+        "attackNotes": "",
+        "attackParts": [],
+        "autoscaleAttackParts": "",
+        "baseCl": "0",
+        "changeFlags": {
+          "heavyArmorFullSpeed": false,
+          "loseDexToAC": false,
+          "mediumArmorFullSpeed": false,
+          "multiAttack": false,
+          "multiweaponAttack": false,
+          "noCon": false,
+          "noDex": false,
+          "noEncumbrance": false,
+          "noInt": false,
+          "noStr": false,
+          "oneCha": false,
+          "oneInt": false,
+          "oneWis": false,
+          "uncannyDodge": false
+        },
+        "changes": [],
+        "classSource": "",
+        "combatChangeCustomDisplayName": "",
+        "combatChangeCustomReferenceName": "",
+        "combatChanges": [],
+        "combatChangesAdditionalRanges": {
+          "hasAdditionalRanges": false,
+          "slider1": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider2": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider3": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          }
+        },
+        "combatChangesApplySpecialActionsOnce": true,
+        "combatChangesRange": {
+          "max": 0,
+          "maxFormula": ""
+        },
+        "combatChangesUsesCost": "chargesPerUse",
+        "conditionFlags": {
+          "dazzled": false,
+          "polymorphed": false,
+          "wildshaped": false
+        },
+        "contextNotes": [],
+        "counterName": "",
+        "createdBy": "",
+        "creationChanges": [],
+        "critConfirmBonus": "",
+        "crOffset": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "alternativeParts": [],
+          "parts": []
+        },
+        "damageReduction": [],
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "<p><em>This ability was imported automatically does not have actions or changes.</em></p><div level=\"8\" topic=\"Telepathy\"><p> Mercanes can communicate telepathically with any creature within 100 feet that has a language.</p></div>"
+        },
+        "duration": {
+          "units": "",
+          "value": null
+        },
+        "effectNotes": "",
+        "epic": "",
+        "favorite": false,
+        "featType": "trait",
+        "formula": "",
+        "index": {
+          "subType": "trait",
+          "uniqueId": ""
+        },
+        "linkedChargeItem": {
+          "id": null,
+          "img": null,
+          "name": null
+        },
+        "linkedItems": [],
+        "linkId": "",
+        "linkImported": false,
+        "links": {
+          "charges": []
+        },
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "maxDamageDice": 0,
+        "maxDamageDiceFormula": "",
+        "measureTemplate": {
+          "customColor": "",
+          "customTexture": "",
+          "overrideColor": false,
+          "overrideTexture": false,
+          "size": 0,
+          "type": ""
+        },
+        "metamagic": {
+          "code": "",
+          "enabled": false,
+          "shortDesc": ""
+        },
+        "metamagicFeats": {
+          "empowered": false,
+          "enhanced": false,
+          "enhancedHalf": false,
+          "enlarged": false,
+          "intensified": false,
+          "maximized": false,
+          "widened": false
+        },
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "pr": false,
+        "psionic": "",
+        "range": {
+          "long": null,
+          "units": "",
+          "value": null
+        },
+        "recharge": {
+          "_deprecated": true,
+          "charged": false,
+          "current": 0,
+          "enabled": false,
+          "formula": "",
+          "value": null
+        },
+        "requirements": [],
+        "requiresPsionicFocus": false,
+        "resistances": [],
+        "rollTableDraw": {
+          "formula": "",
+          "id": "",
+          "name": "",
+          "pack": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": 0,
+          "dcAutoAbility": "",
+          "dcAutoType": "",
+          "description": "",
+          "type": ""
+        },
+        "senses": {
+          "blindsight": 0,
+          "darkvision": 0,
+          "lowLight": false,
+          "lowLightMultiplier": 2,
+          "tremorsense": 0,
+          "truesight": 0
+        },
+        "showInQuickbar": false,
+        "sizeOverride": "",
+        "source": "",
+        "specialActions": [],
+        "spellSpecialization": {
+          "isDomain": false,
+          "spells": {
+            "level1": {
+              "id": null,
+              "img": "",
+              "level": 1,
+              "name": "",
+              "pack": null
+            },
+            "level2": {
+              "id": null,
+              "img": "",
+              "level": 2,
+              "name": "",
+              "pack": null
+            },
+            "level3": {
+              "id": null,
+              "img": "",
+              "level": 3,
+              "name": "",
+              "pack": null
+            },
+            "level4": {
+              "id": null,
+              "img": "",
+              "level": 4,
+              "name": "",
+              "pack": null
+            },
+            "level5": {
+              "id": null,
+              "img": "",
+              "level": 5,
+              "name": "",
+              "pack": null
+            },
+            "level6": {
+              "id": null,
+              "img": "",
+              "level": 6,
+              "name": "",
+              "pack": null
+            },
+            "level7": {
+              "id": null,
+              "img": "",
+              "level": 7,
+              "name": "",
+              "pack": null
+            },
+            "level8": {
+              "id": null,
+              "img": "",
+              "level": 8,
+              "name": "",
+              "pack": null
+            },
+            "level9": {
+              "id": null,
+              "img": "",
+              "level": 9,
+              "name": "",
+              "pack": null
+            }
+          }
+        },
+        "spellSpecializationForbiddenNames": "",
+        "spellSpecializationName": "",
+        "sr": false,
+        "summon": [],
+        "tags": [],
+        "target": {
+          "value": ""
+        },
+        "uniqueId": "",
+        "userNonRemovable": false,
+        "uses": {
+          "allowMultipleUses": false,
+          "autoDeductCharges": true,
+          "canBeLinked": false,
+          "chargesPerUse": 1,
+          "isResource": false,
+          "max": 0,
+          "maxFormula": "",
+          "maxPerUse": null,
+          "maxPerUseFormula": "",
+          "per": null,
+          "rechargeFormula": null,
+          "value": 0
+        }
+      },
+      "type": "feat"
+    },
+    {
+      "_id": "XIIVuDqAbN47gkBm",
+      "_key": "!actors.items!n4Z6mE43OeQKxgmK.XIIVuDqAbN47gkBm",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/feats/compat-expertise.png",
+      "name": "Combat Expertise",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "ability": {
+          "attack": null,
+          "critMult": 2,
+          "critRange": 20,
+          "damage": null,
+          "damageMult": 1,
+          "twoHandedOnly": false,
+          "vsTouchAc": false
+        },
+        "abilityType": "",
+        "actionType": "",
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "addedLevel": 0,
+        "associations": {
+          "classes": []
+        },
+        "attack": {
+          "parts": []
+        },
+        "attackBonus": "",
+        "attackCountFormula": "",
+        "attackNotes": "",
+        "attackParts": [],
+        "autoscaleAttackParts": "",
+        "baseCl": "0",
+        "changeFlags": {
+          "heavyArmorFullSpeed": false,
+          "loseDexToAC": false,
+          "mediumArmorFullSpeed": false,
+          "multiAttack": false,
+          "multiweaponAttack": false,
+          "noCon": false,
+          "noDex": false,
+          "noEncumbrance": false,
+          "noInt": false,
+          "noStr": false,
+          "oneCha": false,
+          "oneInt": false,
+          "oneWis": false,
+          "uncannyDodge": false
+        },
+        "changes": [],
+        "classSource": "",
+        "combatChangeCustomDisplayName": "",
+        "combatChangeCustomReferenceName": "",
+        "combatChanges": [],
+        "combatChangesAdditionalRanges": {
+          "hasAdditionalRanges": false,
+          "slider1": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider2": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider3": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          }
+        },
+        "combatChangesApplySpecialActionsOnce": true,
+        "combatChangesRange": {
+          "max": 0,
+          "maxFormula": ""
+        },
+        "combatChangesUsesCost": "chargesPerUse",
+        "conditionFlags": {
+          "dazzled": false,
+          "polymorphed": false,
+          "wildshaped": false
+        },
+        "contextNotes": [],
+        "counterName": "",
+        "createdBy": "",
+        "creationChanges": [],
+        "critConfirmBonus": "",
+        "crOffset": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "alternativeParts": [],
+          "parts": []
+        },
+        "damageReduction": [],
+        "damageType": {
+          "_deprecated": true,
+          "value": ""
+        },
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "\n\n\n<h3><span class=\"mw-headline\" id=\"Prerequisite\">Prerequisite</span></h3>\n<p>Int 13.\n</p>\n<h3><span class=\"mw-headline\" id=\"Benefit\">Benefit</span></h3>\n<p>When you use the attack action or the full attack action in melee, you can take a penalty of as much as –5 on your attack roll and add the same number (+5 or less) as a dodge bonus to your Armor Class. This number may not exceed your base attack bonus. The changes to attack rolls and Armor Class last until your next action.\n</p>\n<h3><span class=\"mw-headline\" id=\"Normal\">Normal</span></h3>\n<p>A character without the Combat Expertise feat can fight defensively while using the attack or full attack action to take a –4 penalty on attack rolls and gain a +2 dodge bonus to Armor Class.\n</p>\n<h3><span class=\"mw-headline\" id=\"Special\">Special</span></h3>\n<p>A fighter may select Combat Expertise as one of his fighter bonus feats.\n</p><p><br/>\n</p>\n<hr/>\n\n\n"
+        },
+        "duration": {
+          "units": "",
+          "value": null
+        },
+        "effectNotes": "",
+        "epic": "",
+        "favorite": false,
+        "featType": "feat",
+        "formula": "",
+        "index": {
+          "subType": "feat",
+          "uniqueId": ""
+        },
+        "linkedChargeItem": {
+          "id": null,
+          "img": null,
+          "name": null
+        },
+        "linkedItems": [],
+        "linkId": "",
+        "linkImported": false,
+        "links": {
+          "charges": []
+        },
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "maxDamageDice": 0,
+        "maxDamageDiceFormula": "",
+        "measureTemplate": {
+          "customColor": "",
+          "customTexture": "",
+          "overrideColor": false,
+          "overrideTexture": false,
+          "size": 0,
+          "type": ""
+        },
+        "metamagic": {
+          "code": "",
+          "enabled": false,
+          "shortDesc": ""
+        },
+        "metamagicFeats": {
+          "empowered": false,
+          "enhanced": false,
+          "enhancedHalf": false,
+          "enlarged": false,
+          "intensified": false,
+          "maximized": false,
+          "widened": false
+        },
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "pr": false,
+        "psionic": "",
+        "range": {
+          "long": null,
+          "units": "",
+          "value": null
+        },
+        "recharge": {
+          "_deprecated": true,
+          "charged": false,
+          "current": 0,
+          "enabled": false,
+          "formula": "",
+          "value": null
+        },
+        "requirements": [],
+        "requiresPsionicFocus": false,
+        "resistances": [],
+        "rollTableDraw": {
+          "formula": "",
+          "id": "",
+          "name": "",
+          "pack": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": 0,
+          "dcAutoAbility": "",
+          "dcAutoType": "",
+          "description": "",
+          "type": ""
+        },
+        "senses": {
+          "blindsight": 0,
+          "darkvision": 0,
+          "lowLight": false,
+          "lowLightMultiplier": 2,
+          "tremorsense": 0,
+          "truesight": 0
+        },
+        "showInQuickbar": false,
+        "sizeOverride": "",
+        "source": "",
+        "specialActions": [],
+        "spellSpecialization": {
+          "isDomain": false,
+          "spells": {
+            "level1": {
+              "id": null,
+              "img": "",
+              "level": 1,
+              "name": "",
+              "pack": null
+            },
+            "level2": {
+              "id": null,
+              "img": "",
+              "level": 2,
+              "name": "",
+              "pack": null
+            },
+            "level3": {
+              "id": null,
+              "img": "",
+              "level": 3,
+              "name": "",
+              "pack": null
+            },
+            "level4": {
+              "id": null,
+              "img": "",
+              "level": 4,
+              "name": "",
+              "pack": null
+            },
+            "level5": {
+              "id": null,
+              "img": "",
+              "level": 5,
+              "name": "",
+              "pack": null
+            },
+            "level6": {
+              "id": null,
+              "img": "",
+              "level": 6,
+              "name": "",
+              "pack": null
+            },
+            "level7": {
+              "id": null,
+              "img": "",
+              "level": 7,
+              "name": "",
+              "pack": null
+            },
+            "level8": {
+              "id": null,
+              "img": "",
+              "level": 8,
+              "name": "",
+              "pack": null
+            },
+            "level9": {
+              "id": null,
+              "img": "",
+              "level": 9,
+              "name": "",
+              "pack": null
+            }
+          }
+        },
+        "spellSpecializationForbiddenNames": "",
+        "spellSpecializationName": "",
+        "sr": false,
+        "summon": [],
+        "tags": [],
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "_deprecated": true,
+          "value": ""
+        },
+        "uniqueId": "",
+        "userNonRemovable": false,
+        "uses": {
+          "allowMultipleUses": false,
+          "autoDeductCharges": true,
+          "canBeLinked": false,
+          "chargesPerUse": 1,
+          "isResource": false,
+          "max": 0,
+          "maxFormula": "",
+          "maxPerUse": null,
+          "maxPerUseFormula": "",
+          "per": null,
+          "rechargeFormula": null,
+          "value": 0
+        }
+      },
+      "type": "feat"
+    },
+    {
+      "_id": "olEElkZrSUTUVvHz",
+      "_key": "!actors.items!n4Z6mE43OeQKxgmK.olEElkZrSUTUVvHz",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/feats/improved-disarm.png",
+      "name": "Improved Disarm",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "ability": {
+          "attack": null,
+          "critMult": 2,
+          "critRange": 20,
+          "damage": null,
+          "damageMult": 1,
+          "twoHandedOnly": false,
+          "vsTouchAc": false
+        },
+        "abilityType": "",
+        "actionType": "",
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "addedLevel": 0,
+        "associations": {
+          "classes": []
+        },
+        "attack": {
+          "parts": []
+        },
+        "attackBonus": "",
+        "attackCountFormula": "",
+        "attackNotes": "",
+        "attackParts": [],
+        "autoscaleAttackParts": "",
+        "baseCl": "0",
+        "changeFlags": {
+          "heavyArmorFullSpeed": false,
+          "loseDexToAC": false,
+          "mediumArmorFullSpeed": false,
+          "multiAttack": false,
+          "multiweaponAttack": false,
+          "noCon": false,
+          "noDex": false,
+          "noEncumbrance": false,
+          "noInt": false,
+          "noStr": false,
+          "oneCha": false,
+          "oneInt": false,
+          "oneWis": false,
+          "uncannyDodge": false
+        },
+        "changes": [],
+        "classSource": "",
+        "combatChangeCustomDisplayName": "",
+        "combatChangeCustomReferenceName": "",
+        "combatChanges": [],
+        "combatChangesAdditionalRanges": {
+          "hasAdditionalRanges": false,
+          "slider1": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider2": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider3": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          }
+        },
+        "combatChangesApplySpecialActionsOnce": true,
+        "combatChangesRange": {
+          "max": 0,
+          "maxFormula": ""
+        },
+        "combatChangesUsesCost": "chargesPerUse",
+        "conditionFlags": {
+          "dazzled": false,
+          "polymorphed": false,
+          "wildshaped": false
+        },
+        "contextNotes": [],
+        "counterName": "",
+        "createdBy": "",
+        "creationChanges": [],
+        "critConfirmBonus": "",
+        "crOffset": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "alternativeParts": [],
+          "parts": []
+        },
+        "damageReduction": [],
+        "damageType": {
+          "_deprecated": true,
+          "value": ""
+        },
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "\n\n\n<h3><span class=\"mw-headline\" id=\"Prerequisites\">Prerequisites</span></h3>\n<p>Int 13, Combat Expertise.\n</p>\n<h3><span class=\"mw-headline\" id=\"Benefit\">Benefit</span></h3>\n<p>You do not provoke an attack of opportunity when you attempt to disarm an opponent, nor does the opponent have a chance to disarm you. You also gain a +4 bonus on the opposed attack roll you make to disarm your opponent.\n</p>\n<h3><span class=\"mw-headline\" id=\"Normal\">Normal</span></h3>\n<p>See the normal disarm rules.\n</p>\n<h3><span class=\"mw-headline\" id=\"Special\">Special</span></h3>\n<p>A fighter may select Improved Disarm as one of his fighter bonus feats.\n</p><p>A monk may select Improved Disarm as a bonus feat at 6th level, even if she does not meet the prerequisites.\n</p><p><br/>\n</p>\n<hr/>\n\n\n"
+        },
+        "duration": {
+          "units": "",
+          "value": null
+        },
+        "effectNotes": "",
+        "epic": "",
+        "favorite": false,
+        "featType": "feat",
+        "formula": "",
+        "index": {
+          "subType": "feat",
+          "uniqueId": ""
+        },
+        "linkedChargeItem": {
+          "id": null,
+          "img": null,
+          "name": null
+        },
+        "linkedItems": [],
+        "linkId": "",
+        "linkImported": false,
+        "links": {
+          "charges": []
+        },
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "maxDamageDice": 0,
+        "maxDamageDiceFormula": "",
+        "measureTemplate": {
+          "customColor": "",
+          "customTexture": "",
+          "overrideColor": false,
+          "overrideTexture": false,
+          "size": 0,
+          "type": ""
+        },
+        "metamagic": {
+          "code": "",
+          "enabled": false,
+          "shortDesc": ""
+        },
+        "metamagicFeats": {
+          "empowered": false,
+          "enhanced": false,
+          "enhancedHalf": false,
+          "enlarged": false,
+          "intensified": false,
+          "maximized": false,
+          "widened": false
+        },
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "pr": false,
+        "psionic": "",
+        "range": {
+          "long": null,
+          "units": "",
+          "value": null
+        },
+        "recharge": {
+          "_deprecated": true,
+          "charged": false,
+          "current": 0,
+          "enabled": false,
+          "formula": "",
+          "value": null
+        },
+        "requirements": [],
+        "requiresPsionicFocus": false,
+        "resistances": [],
+        "rollTableDraw": {
+          "formula": "",
+          "id": "",
+          "name": "",
+          "pack": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": 0,
+          "dcAutoAbility": "",
+          "dcAutoType": "",
+          "description": "",
+          "type": ""
+        },
+        "senses": {
+          "blindsight": 0,
+          "darkvision": 0,
+          "lowLight": false,
+          "lowLightMultiplier": 2,
+          "tremorsense": 0,
+          "truesight": 0
+        },
+        "showInQuickbar": false,
+        "sizeOverride": "",
+        "source": "",
+        "specialActions": [],
+        "spellSpecialization": {
+          "isDomain": false,
+          "spells": {
+            "level1": {
+              "id": null,
+              "img": "",
+              "level": 1,
+              "name": "",
+              "pack": null
+            },
+            "level2": {
+              "id": null,
+              "img": "",
+              "level": 2,
+              "name": "",
+              "pack": null
+            },
+            "level3": {
+              "id": null,
+              "img": "",
+              "level": 3,
+              "name": "",
+              "pack": null
+            },
+            "level4": {
+              "id": null,
+              "img": "",
+              "level": 4,
+              "name": "",
+              "pack": null
+            },
+            "level5": {
+              "id": null,
+              "img": "",
+              "level": 5,
+              "name": "",
+              "pack": null
+            },
+            "level6": {
+              "id": null,
+              "img": "",
+              "level": 6,
+              "name": "",
+              "pack": null
+            },
+            "level7": {
+              "id": null,
+              "img": "",
+              "level": 7,
+              "name": "",
+              "pack": null
+            },
+            "level8": {
+              "id": null,
+              "img": "",
+              "level": 8,
+              "name": "",
+              "pack": null
+            },
+            "level9": {
+              "id": null,
+              "img": "",
+              "level": 9,
+              "name": "",
+              "pack": null
+            }
+          }
+        },
+        "spellSpecializationForbiddenNames": "",
+        "spellSpecializationName": "",
+        "sr": false,
+        "summon": [],
+        "tags": [],
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "_deprecated": true,
+          "value": ""
+        },
+        "uniqueId": "",
+        "userNonRemovable": false,
+        "uses": {
+          "allowMultipleUses": false,
+          "autoDeductCharges": true,
+          "canBeLinked": false,
+          "chargesPerUse": 1,
+          "isResource": false,
+          "max": 0,
+          "maxFormula": "",
+          "maxPerUse": null,
+          "maxPerUseFormula": "",
+          "per": null,
+          "rechargeFormula": null,
+          "value": 0
+        }
+      },
+      "type": "feat"
+    },
+    {
+      "_id": "disVlCYXdZsglWaz",
+      "_key": "!actors.items!n4Z6mE43OeQKxgmK.disVlCYXdZsglWaz",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/feats/improved-feint.png",
+      "name": "Improved Feint",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "ability": {
+          "attack": null,
+          "critMult": 2,
+          "critRange": 20,
+          "damage": null,
+          "damageMult": 1,
+          "twoHandedOnly": false,
+          "vsTouchAc": false
+        },
+        "abilityType": "",
+        "actionType": "",
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "addedLevel": 0,
+        "associations": {
+          "classes": []
+        },
+        "attack": {
+          "parts": []
+        },
+        "attackBonus": "",
+        "attackCountFormula": "",
+        "attackNotes": "",
+        "attackParts": [],
+        "autoscaleAttackParts": "",
+        "baseCl": "0",
+        "changeFlags": {
+          "heavyArmorFullSpeed": false,
+          "loseDexToAC": false,
+          "mediumArmorFullSpeed": false,
+          "multiAttack": false,
+          "multiweaponAttack": false,
+          "noCon": false,
+          "noDex": false,
+          "noEncumbrance": false,
+          "noInt": false,
+          "noStr": false,
+          "oneCha": false,
+          "oneInt": false,
+          "oneWis": false,
+          "uncannyDodge": false
+        },
+        "changes": [],
+        "classSource": "",
+        "combatChangeCustomDisplayName": "",
+        "combatChangeCustomReferenceName": "",
+        "combatChanges": [],
+        "combatChangesAdditionalRanges": {
+          "hasAdditionalRanges": false,
+          "slider1": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider2": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          },
+          "slider3": {
+            "max": 0,
+            "maxFormula": "",
+            "name": ""
+          }
+        },
+        "combatChangesApplySpecialActionsOnce": true,
+        "combatChangesRange": {
+          "max": 0,
+          "maxFormula": ""
+        },
+        "combatChangesUsesCost": "chargesPerUse",
+        "conditionFlags": {
+          "dazzled": false,
+          "polymorphed": false,
+          "wildshaped": false
+        },
+        "contextNotes": [],
+        "counterName": "",
+        "createdBy": "",
+        "creationChanges": [],
+        "critConfirmBonus": "",
+        "crOffset": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "alternativeParts": [],
+          "parts": []
+        },
+        "damageReduction": [],
+        "damageType": {
+          "_deprecated": true,
+          "value": ""
+        },
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "\n\n\n<h3><span class=\"mw-headline\" id=\"Prerequisites\">Prerequisites</span></h3>\n<p>Int 13, Combat Expertise.\n</p>\n<h3><span class=\"mw-headline\" id=\"Benefit\">Benefit</span></h3>\n<p>You can make a Bluff check to feint in combat as a move action.\n</p>\n<h3><span class=\"mw-headline\" id=\"Normal\">Normal</span></h3>\n<p>Feinting in combat is a standard action.\n</p><p>A fighter may select Improved Feint as one of his fighter bonus feats.\n</p><p><br/>\n</p>\n<hr/>\n\n\n"
+        },
+        "duration": {
+          "units": "",
+          "value": null
+        },
+        "effectNotes": "",
+        "epic": "",
+        "favorite": false,
+        "featType": "feat",
+        "formula": "",
+        "index": {
+          "subType": "feat",
+          "uniqueId": ""
+        },
+        "linkedChargeItem": {
+          "id": null,
+          "img": null,
+          "name": null
+        },
+        "linkedItems": [],
+        "linkId": "",
+        "linkImported": false,
+        "links": {
+          "charges": []
+        },
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "maxDamageDice": 0,
+        "maxDamageDiceFormula": "",
+        "measureTemplate": {
+          "customColor": "",
+          "customTexture": "",
+          "overrideColor": false,
+          "overrideTexture": false,
+          "size": 0,
+          "type": ""
+        },
+        "metamagic": {
+          "code": "",
+          "enabled": false,
+          "shortDesc": ""
+        },
+        "metamagicFeats": {
+          "empowered": false,
+          "enhanced": false,
+          "enhancedHalf": false,
+          "enlarged": false,
+          "intensified": false,
+          "maximized": false,
+          "widened": false
+        },
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "pr": false,
+        "psionic": "",
+        "range": {
+          "long": null,
+          "units": "",
+          "value": null
+        },
+        "recharge": {
+          "_deprecated": true,
+          "charged": false,
+          "current": 0,
+          "enabled": false,
+          "formula": "",
+          "value": null
+        },
+        "requirements": [],
+        "requiresPsionicFocus": false,
+        "resistances": [],
+        "rollTableDraw": {
+          "formula": "",
+          "id": "",
+          "name": "",
+          "pack": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": 0,
+          "dcAutoAbility": "",
+          "dcAutoType": "",
+          "description": "",
+          "type": ""
+        },
+        "senses": {
+          "blindsight": 0,
+          "darkvision": 0,
+          "lowLight": false,
+          "lowLightMultiplier": 2,
+          "tremorsense": 0,
+          "truesight": 0
+        },
+        "showInQuickbar": false,
+        "sizeOverride": "",
+        "source": "",
+        "specialActions": [],
+        "spellSpecialization": {
+          "isDomain": false,
+          "spells": {
+            "level1": {
+              "id": null,
+              "img": "",
+              "level": 1,
+              "name": "",
+              "pack": null
+            },
+            "level2": {
+              "id": null,
+              "img": "",
+              "level": 2,
+              "name": "",
+              "pack": null
+            },
+            "level3": {
+              "id": null,
+              "img": "",
+              "level": 3,
+              "name": "",
+              "pack": null
+            },
+            "level4": {
+              "id": null,
+              "img": "",
+              "level": 4,
+              "name": "",
+              "pack": null
+            },
+            "level5": {
+              "id": null,
+              "img": "",
+              "level": 5,
+              "name": "",
+              "pack": null
+            },
+            "level6": {
+              "id": null,
+              "img": "",
+              "level": 6,
+              "name": "",
+              "pack": null
+            },
+            "level7": {
+              "id": null,
+              "img": "",
+              "level": 7,
+              "name": "",
+              "pack": null
+            },
+            "level8": {
+              "id": null,
+              "img": "",
+              "level": 8,
+              "name": "",
+              "pack": null
+            },
+            "level9": {
+              "id": null,
+              "img": "",
+              "level": 9,
+              "name": "",
+              "pack": null
+            }
+          }
+        },
+        "spellSpecializationForbiddenNames": "",
+        "spellSpecializationName": "",
+        "sr": false,
+        "summon": [],
+        "tags": [],
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "_deprecated": true,
+          "value": ""
+        },
+        "uniqueId": "",
+        "userNonRemovable": false,
+        "uses": {
+          "allowMultipleUses": false,
+          "autoDeductCharges": true,
+          "canBeLinked": false,
+          "chargesPerUse": 1,
+          "isResource": false,
+          "max": 0,
+          "maxFormula": "",
+          "maxPerUse": null,
+          "maxPerUseFormula": "",
+          "per": null,
+          "rechargeFormula": null,
+          "value": 0
+        }
+      },
+      "type": "feat"
+    },
+    {
+      "_id": "eBlsMDaiD0YXqTJ1",
+      "_key": "!actors.items!n4Z6mE43OeQKxgmK.eBlsMDaiD0YXqTJ1",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/D35E/icons/attack/full-attack.png",
+      "name": "Full Attack",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "addedLevel": 0,
+        "attacks": {
+          "attack1": {
+            "_id": 1,
+            "attackMode": "primary",
+            "count": 0,
+            "id": "",
+            "img": "",
+            "isWeapon": false,
+            "name": "",
+            "primary": false
+          },
+          "attack2": {
+            "_id": 2,
+            "attackMode": "primary",
+            "count": 0,
+            "id": "",
+            "img": "",
+            "isWeapon": false,
+            "name": "",
+            "primary": false
+          },
+          "attack3": {
+            "_id": 3,
+            "attackMode": "primary",
+            "count": 0,
+            "id": "",
+            "img": "",
+            "isWeapon": false,
+            "name": "",
+            "primary": false
+          },
+          "attack4": {
+            "_id": 4,
+            "attackMode": "primary",
+            "count": 0,
+            "id": "",
+            "img": "",
+            "isWeapon": false,
+            "name": "",
+            "primary": false
+          },
+          "attack5": {
+            "_id": 5,
+            "attackMode": "primary",
+            "count": 0,
+            "id": "",
+            "img": "",
+            "isWeapon": false,
+            "name": "",
+            "primary": false
+          }
+        },
+        "attackType": "full",
+        "classSource": "",
+        "createdBy": "",
+        "customAttributes": {},
+        "customAttributesLocked": false,
+        "customReferenceId": "",
+        "customTag": "",
+        "damage": {
+          "parts": []
+        },
+        "description": {
+          "chat": "",
+          "unidentified": "",
+          "value": "<p>This is one of the creatures full attacks.</p>"
+        },
+        "epic": "",
+        "index": {
+          "subType": null,
+          "uniqueId": ""
+        },
+        "linkId": "",
+        "linkImported": false,
+        "linkSourceId": "",
+        "linkSourceName": "",
+        "nameFormula": "",
+        "nameFromFormula": false,
+        "originId": "",
+        "originPack": "",
+        "originVersion": 0,
+        "possibleUpdate": false,
+        "psionic": "",
+        "source": "",
+        "tags": [],
+        "uniqueId": "",
+        "userNonRemovable": false
+      },
+      "type": "full-attack"
+    }
   ],
   "name": "Mercane",
   "ownership": {

@@ -23,15 +23,15 @@
   "sort": 0,
   "system": {
     "ability": {
-      "attack": null,
-      "critMult": 2,
-      "critRange": 20,
-      "damage": null,
+      "attack": "str",
+      "critMult": "@parent.weaponData.critMult",
+      "critRange": "@parent.weaponData.critRange",
+      "damage": "str",
       "damageMult": 1,
       "twoHandedOnly": false,
       "vsTouchAc": false
     },
-    "actionType": "",
+    "actionType": "summonWeapon",
     "activation": {
       "cost": 1,
       "type": ""
@@ -106,7 +106,13 @@
     "customTag": "",
     "damage": {
       "alternativeParts": [],
-      "parts": []
+      "parts": [
+        [
+          "@parent.weaponData.damageRoll",
+          "@parent.weaponData.damageType",
+          "@parent.weaponData.damageTypeId"
+        ]
+      ]
     },
     "damageReduction": [],
     "description": {
@@ -175,7 +181,9 @@
     "pr": false,
     "price": 0,
     "priceFormula": "",
-    "properties": {},
+    "properties": {
+      "dnc": true
+    },
     "psionic": "",
     "range": {
       "long": null,
@@ -209,6 +217,12 @@
     "specialActions": [],
     "sr": false,
     "summon": [],
+    "summonWeapon": {
+      "attackActionType": "mwak",
+      "behavior": "dancing",
+      "cooldownRounds": 4,
+      "dancingRounds": 4
+    },
     "tags": [],
     "target": {
       "value": ""

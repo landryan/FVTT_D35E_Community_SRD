@@ -1,0 +1,249 @@
+{
+  "_id": "ZzIntItemPurp05",
+  "_key": "!tables!ZzIntItemPurp05",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": null,
+    "modifiedTime": null,
+    "systemId": null,
+    "systemVersion": null
+  },
+  "description": "",
+  "displayRoll": true,
+  "flags": {},
+  "folder": null,
+  "formula": "1d100",
+  "img": "icons/svg/d20-grey.svg",
+  "name": "Intelligent Item — Special Purpose (d%)",
+  "ownership": {
+    "default": 0
+  },
+  "replacement": true,
+  "results": [
+    {
+      "_id": "s187cdQNo7wJIRIX",
+      "_key": "!tables.results!ZzIntItemPurp05.s187cdQNo7wJIRIX",
+      "description": "Defeat/slay diametrically opposed alignment",
+      "drawn": false,
+      "flags": {
+        "D35E": {
+          "code": "oppAlign",
+          "tableKind": "purpose"
+        }
+      },
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        1,
+        20
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "xuJmFwle5mFEFoRG",
+      "_key": "!tables.results!ZzIntItemPurp05.xuJmFwle5mFEFoRG",
+      "description": "Defeat/slay arcane spellcasters",
+      "drawn": false,
+      "flags": {
+        "D35E": {
+          "code": "arcane",
+          "tableKind": "purpose"
+        }
+      },
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        21,
+        30
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "kz2zcH0deHAFiLg7",
+      "_key": "!tables.results!ZzIntItemPurp05.kz2zcH0deHAFiLg7",
+      "description": "Defeat/slay divine spellcasters",
+      "drawn": false,
+      "flags": {
+        "D35E": {
+          "code": "divine",
+          "tableKind": "purpose"
+        }
+      },
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        31,
+        40
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "CXgfmZyTIZgLazev",
+      "_key": "!tables.results!ZzIntItemPurp05.CXgfmZyTIZgLazev",
+      "description": "Defeat/slay nonspellcasters",
+      "drawn": false,
+      "flags": {
+        "D35E": {
+          "code": "noncaster",
+          "tableKind": "purpose"
+        }
+      },
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        41,
+        50
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "09aBKJuB8dUds1MB",
+      "_key": "!tables.results!ZzIntItemPurp05.09aBKJuB8dUds1MB",
+      "description": "Defeat/slay a particular creature type (bane choices)",
+      "drawn": false,
+      "flags": {
+        "D35E": {
+          "code": "creatureType",
+          "tableKind": "purpose"
+        }
+      },
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        51,
+        55
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "RAZQNmB2lEJkJM9y",
+      "_key": "!tables.results!ZzIntItemPurp05.RAZQNmB2lEJkJM9y",
+      "description": "Defeat/slay a particular race or kind",
+      "drawn": false,
+      "flags": {
+        "D35E": {
+          "code": "race",
+          "tableKind": "purpose"
+        }
+      },
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        56,
+        60
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "nedUFiHqVwdenGjC",
+      "_key": "!tables.results!ZzIntItemPurp05.nedUFiHqVwdenGjC",
+      "description": "Defend a particular race or kind",
+      "drawn": false,
+      "flags": {
+        "D35E": {
+          "code": "defendRace",
+          "tableKind": "purpose"
+        }
+      },
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        61,
+        70
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "U3AFCpqDGz652vW9",
+      "_key": "!tables.results!ZzIntItemPurp05.U3AFCpqDGz652vW9",
+      "description": "Defeat/slay the servants of a specific deity",
+      "drawn": false,
+      "flags": {
+        "D35E": {
+          "code": "slayDeityServants",
+          "tableKind": "purpose"
+        }
+      },
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        71,
+        80
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "tIvgHKVQBWvG7WBO",
+      "_key": "!tables.results!ZzIntItemPurp05.tIvgHKVQBWvG7WBO",
+      "description": "Defend the servants and interests of a specific deity",
+      "drawn": false,
+      "flags": {
+        "D35E": {
+          "code": "defendDeity",
+          "tableKind": "purpose"
+        }
+      },
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        81,
+        90
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "VYbQTu5A1CtQXa5M",
+      "_key": "!tables.results!ZzIntItemPurp05.VYbQTu5A1CtQXa5M",
+      "description": "Defeat/slay all (other than the item and the wielder)",
+      "drawn": false,
+      "flags": {
+        "D35E": {
+          "code": "slayAll",
+          "tableKind": "purpose"
+        }
+      },
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        91,
+        95
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "yJoVWv47QRSZwXaH",
+      "_key": "!tables.results!ZzIntItemPurp05.yJoVWv47QRSZwXaH",
+      "description": "Choose one",
+      "drawn": false,
+      "flags": {
+        "D35E": {
+          "code": "choose",
+          "tableKind": "purpose"
+        }
+      },
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        96,
+        100
+      ],
+      "type": "text",
+      "weight": 1
+    }
+  ],
+  "sort": 0
+}
