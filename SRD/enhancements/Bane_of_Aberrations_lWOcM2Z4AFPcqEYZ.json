@@ -138,7 +138,7 @@
     "favorite": false,
     "formula": "",
     "fullResalePrice": false,
-    "identifiedName": "Bane of Aberrations*",
+    "identifiedName": "Bane of Aberrations",
     "index": {
       "subType": null,
       "uniqueId": ""
@@ -181,7 +181,7 @@
     "nameFromFormula": false,
     "originId": "",
     "originPack": "",
-    "originVersion": 99,
+    "originVersion": 100,
     "perRoundActions": [],
     "possibleUpdate": false,
     "pr": false,
@@ -207,6 +207,9 @@
       "enabled": false,
       "formula": ""
     },
+    "requirements": [
+      "CL 8th; Craft Magic Arms and Armor, summon monster I"
+    ],
     "requiresPsionicFocus": false,
     "resalePrice": null,
     "resistances": [],
@@ -259,7 +262,7 @@
         "lawful": false
       },
       "attackRoll": "2",
-      "damageRoll": "2d6+2",
+      "damageRoll": "2d6+2*(@critMult)",
       "damageType": "",
       "damageTypeId": "damage-untyped",
       "optionalDamage": true
