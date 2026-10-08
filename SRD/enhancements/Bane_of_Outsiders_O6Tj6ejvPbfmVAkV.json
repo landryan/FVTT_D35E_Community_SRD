@@ -262,7 +262,7 @@
         "lawful": false
       },
       "attackRoll": "2",
-      "damageRoll": "2d6+2*(@critMult)",
+      "damageRoll": "((2*(@critMult))d6)+(2*(@critMult))",
       "damageType": "",
       "damageTypeId": "damage-untyped",
       "optionalDamage": true
