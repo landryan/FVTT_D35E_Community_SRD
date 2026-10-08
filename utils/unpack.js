@@ -13,30 +13,34 @@ let system = JSON.parse(rawdata);
 let packdir = "../V14/Data/systems/D35E/packs";
 fs.rmSync("export", { recursive: true, force: true });
 for (let i = 0; i < system["packs"].length; i++) {
-  let packPath = system["packs"][i]["path"];
-  let packNameFromPath = packPath.replace("packs/", "");
-  console.log("Unpacking " + packPath);
-  console.log("Unpacking " + packNameFromPath);
-  if (fs.existsSync(packdir + "/" + packNameFromPath)) {
-    let fvttProcess = execSync(
-      `.\\node_modules\\.bin\\fvtt.cmd package unpack ${packNameFromPath} --outputDirectory export/${packNameFromPath} --inputDirectory ${packdir}/`,
-    );
-    const unpackedFiles = fs.readdirSync("export/" + packNameFromPath);
-    let foundFiles = unpackedFiles.length;
-    for (let j = 0; j < unpackedFiles.length; j++) {
-      let filePath = "export/" + packNameFromPath + "/" + unpackedFiles[j];
-      let fileData = fs.readFileSync(filePath);
-      fileData = fileData.toString().replace(/\n/g, "\r\n");
-      fs.writeFileSync(filePath, fileData);
-    }
+  try {
+      let packPath = system["packs"][i]["path"];
+      let packNameFromPath = packPath.replace("packs/", "");
+      console.log("Unpacking " + packPath);
+      console.log("Unpacking " + packNameFromPath);
+      if (fs.existsSync(packdir + "/" + packNameFromPath)) {
+        let fvttProcess = execSync(
+          `.\\node_modules\\.bin\\fvtt.cmd package unpack ${packNameFromPath} --outputDirectory export/${packNameFromPath} --inputDirectory ${packdir}/`,
+        );
+        const unpackedFiles = fs.readdirSync("export/" + packNameFromPath);
+        let foundFiles = unpackedFiles.length;
+        for (let j = 0; j < unpackedFiles.length; j++) {
+          let filePath = "export/" + packNameFromPath + "/" + unpackedFiles[j];
+          let fileData = fs.readFileSync(filePath);
+          fileData = fileData.toString().replace(/\n/g, "\r\n");
+          fs.writeFileSync(filePath, fileData);
+        }
 
-    console.log(`Unpacking ${packNameFromPath} done (${foundFiles} files found)`);
-    console.log(`Sorting JSON files in ${packNameFromPath}...`);
-    execSync(`node "utils/sortJsonDir.js" "export/${packNameFromPath}"`);
+        console.log(`Unpacking ${packNameFromPath} done (${foundFiles} files found)`);
+        console.log(`Sorting JSON files in ${packNameFromPath}...`);
+        execSync(`node "utils/sortJsonDir.js" "export/${packNameFromPath}"`);
 
-  } else {
-    console.log("Pack " + packNameFromPath + " not found, skipping unpack");
-  }
+      } else {
+        console.log("Pack " + packNameFromPath + " not found, skipping unpack");
+      }
+  } catch (error) {
+    console.error(`Error unpacking ${system["packs"][i]["path"]}:`, error);
+  } 
 }
 let numberOfPacked = fs.readdirSync(packdir).length;
 console.log("Unpacked " + numberOfPacked + " packs");
