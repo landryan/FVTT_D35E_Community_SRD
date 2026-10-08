@@ -3,7 +3,7 @@
   "_key": "!actors!UhHWzZCU2SQQOHHC",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "createdTime": null,
     "duplicateSource": null,
     "exportSource": null,
@@ -22,7 +22,7 @@
       "_key": "!actors.items!UhHWzZCU2SQQOHHC.HNpa0DalmzmluCR6",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -44,6 +44,10 @@
         "activateActions": [],
         "addedAbilities": [],
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "allSpellsKnown": false,
         "attackParts": [],
         "automaticFeatures": false,
@@ -64,7 +68,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -412,7 +418,7 @@
       "_key": "!actors.items!UhHWzZCU2SQQOHHC.PRu9HIrzYWQxDeIb",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -536,6 +542,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "originalWeaponCreated": false,
         "originalWeaponId": null,
@@ -582,6 +589,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -613,7 +626,7 @@
       "_key": "!actors.items!UhHWzZCU2SQQOHHC.1ZEhsxbNXNW9hTwm",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -751,7 +764,8 @@
     "bar2": {
       "attribute": null
     },
-    "detectionModes": [],
+    "depth": 1,
+    "detectionModes": {},
     "displayBars": 40,
     "displayName": 20,
     "disposition": -1,
@@ -819,9 +833,6 @@
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "icons/svg/mystery-man.svg",
@@ -1134,6 +1145,7 @@
         "total": 0,
         "value": 0
       },
+      "maxAoO": 0,
       "maxDex": {
         "encumbrance": null,
         "gear": null,
@@ -1205,27 +1217,42 @@
       "speed": {
         "burrow": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "climb": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "fly": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "maneuverability": "average",
           "run": 0,
           "total": 0
         },
         "land": {
           "base": 30,
+          "cap": 60,
+          "effectiveBase": 30,
+          "isOvercap": false,
           "run": 80,
           "total": 20
         },
         "swim": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         }
@@ -2141,6 +2168,10 @@
       ]
     },
     "details": {
+      "actualAlignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
       "advancement": {
         "byClass": false,
         "hd": [],
@@ -2148,6 +2179,11 @@
         "originalHD": 0
       },
       "alignment": "Lawful Evil",
+      "alignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
+      "alignmentMode": "text",
       "biography": {
         "public": "",
         "value": ""
@@ -2184,6 +2220,11 @@
         "value": "<p style=\"margin-top: 0px; font-family: 'Trebuchet MS', Verdana, sans-serif; font-size: 14.4px;\">Devils are fiends from lawful evil-aligned planes.</p>\n<p style=\"font-family: 'Trebuchet MS', Verdana, sans-serif; font-size: 14.4px;\">Many devils are surrounded by a&nbsp;<a style=\"outline: none; white-space: nowrap; color: #000066; text-decoration-line: none;\" href=\"http://www.d20srd.org/srd/specialAbilities.htm#fearAura\">fear aura</a>, which they use to break up powerful groups and defeat opponents piecemeal. Devils with&nbsp;<a style=\"outline: none; white-space: nowrap; color: #000066; text-decoration-line: none;\" href=\"http://www.d20srd.org/srd/specialAbilities.htm#spellLikeAbilities\">spell-like abilities</a>&nbsp;use their illusion abilities to delude and confuse foes as much as possible. A favorite trick is to create illusory reinforcements; enemies can never be entirely sure if a threat is only a figment or real summoned devils joining the fray.</p>\n<h5 style=\"font-size: 1em; margin: 10px 0px 0px; font-family: 'Trebuchet MS', Verdana, sans-serif;\">Devil Traits</h5>\n<p style=\"margin-top: 0px; font-family: 'Trebuchet MS', Verdana, sans-serif; font-size: 14.4px;\">Most devils possesses the following traits (unless otherwise noted in a creature&rsquo;s entry).</p>\n<ul style=\"font-family: 'Trebuchet MS', Verdana, sans-serif; font-size: 14.4px;\">\n<li style=\"margin-top: 5px;\"><a style=\"outline: none; white-space: nowrap; color: #000066; text-decoration-line: none;\" href=\"http://www.d20srd.org/srd/specialAbilities.htm#fireImmunity\">Immunity to fire</a>&nbsp;and&nbsp;<a style=\"outline: none; white-space: nowrap; color: #000066; text-decoration-line: none;\" href=\"http://www.d20srd.org/srd/specialAbilities.htm#poison\">poison</a>.</li>\n<li style=\"margin-top: 5px;\"><a style=\"outline: none; white-space: nowrap; color: #000066; text-decoration-line: none;\" href=\"http://www.d20srd.org/srd/specialAbilities.htm#resistanceToEnergy\">Resistance</a>&nbsp;to acid 10 and cold 10.</li>\n<li style=\"margin-top: 5px;\">See in Darkness (<a style=\"outline: none; white-space: nowrap; color: #000066; text-decoration-line: none;\" href=\"http://www.d20srd.org/srd/specialAbilities.htm#supernaturalAbilities\">Su</a>): Some devils can see perfectly in darkness of any kind, even that created by a&nbsp;<a class=\"spell\" style=\"outline: none; white-space: nowrap; font-style: italic; color: #000066; text-decoration-line: none;\" href=\"http://www.d20srd.org/srd/spells/deeperDarkness.htm\">deeper darkness</a>&nbsp;spell.</li>\n<li style=\"margin-top: 5px;\"><a style=\"outline: none; white-space: nowrap; color: #000066; text-decoration-line: none;\" href=\"http://www.d20srd.org/srd/specialAbilities.htm#summon\">Summon</a>&nbsp;(<a style=\"outline: none; white-space: nowrap; color: #000066; text-decoration-line: none;\" href=\"http://www.d20srd.org/srd/specialAbilities.htm#spellLikeAbilities\">Sp</a>): Some devils share the ability to summon others of their kind (the success chance and type of devils summoned are noted in each monster description).</li>\n<li style=\"margin-top: 5px;\"><a style=\"outline: none; white-space: nowrap; color: #000066; text-decoration-line: none;\" href=\"http://www.d20srd.org/srd/specialAbilities.htm#telepathy\">Telepathy</a>.</li>\n</ul>\n<p style=\"font-family: 'Trebuchet MS', Verdana, sans-serif; font-size: 14.4px;\">Except when otherwise noted, devils speak Infernal, Celestial, and Draconic.</p>\n<p style=\"font-family: 'Trebuchet MS', Verdana, sans-serif; font-size: 14.4px;\">&nbsp;</p>\n<p style=\"font-family: 'Trebuchet MS', Verdana, sans-serif; font-size: 14.4px;\">A lemure is about 5 feet tall and weighs about 100 pounds.</p>\n<p style=\"font-family: 'Trebuchet MS', Verdana, sans-serif; font-size: 14.4px;\">Lemures are mindless and cannot communicate, but they are sensitive to telepathic messages from other devils, typically obeying a devil&rsquo;s mental commands.</p>\n<h3 style=\"font-size: 1.5em; margin-top: 20px; margin-bottom: 5px; font-family: 'Trebuchet MS', Verdana, sans-serif;\">Combat</h3>\n<p style=\"margin-top: 0px; font-family: 'Trebuchet MS', Verdana, sans-serif; font-size: 14.4px;\">Lemures surge toward anything they meet and try to claw it apart. Only a telepathic command from other devils or the complete destruction of the lemures can make them stop.</p>\n<p style=\"font-family: 'Trebuchet MS', Verdana, sans-serif; font-size: 14.4px;\">A lemure&rsquo;s&nbsp;<a style=\"outline: none; white-space: nowrap; color: #000066; text-decoration-line: none;\" href=\"http://www.d20srd.org/srd/specialAbilities.htm#naturalWeapons\">natural weapons</a>, as well as any weapons it wields, are treated as evil-aligned and lawful-aligned for the purpose of overcoming&nbsp;<a style=\"outline: none; white-space: nowrap; color: #000066; text-decoration-line: none;\" href=\"http://www.d20srd.org/srd/specialAbilities.htm#damageReduction\">damage reduction</a>.</p>\n<h5 style=\"font-size: 1em; margin: 10px 0px 0px; font-family: 'Trebuchet MS', Verdana, sans-serif;\">Mindless (<a style=\"outline: none; white-space: nowrap; color: #000066; text-decoration-line: none;\" href=\"http://www.d20srd.org/srd/specialAbilities.htm#extraordinaryAbilities\">Ex</a>)</h5>\n<p style=\"margin-top: 0px; font-family: 'Trebuchet MS', Verdana, sans-serif; font-size: 14.4px;\">Immunity to mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects).</p>"
       },
       "totalCr": 1,
+      "treasure": {
+        "coins": 100,
+        "goods": 100,
+        "items": 100
+      },
       "type": "Outsider (Evil, Extraplanar, Lawful)",
       "xp": {
         "value": 10
@@ -2862,6 +2903,23 @@
         "value": 0,
         "visibility": "default"
       }
+    },
+    "slotCapacities": {
+      "armor": 1,
+      "belt": 1,
+      "body": 1,
+      "chest": 1,
+      "eyes": 1,
+      "feet": 1,
+      "hands": 1,
+      "head": 1,
+      "headband": 1,
+      "neck": 1,
+      "ring": 2,
+      "shield": 1,
+      "shoulders": 1,
+      "slotless": 999,
+      "wrists": 1
     },
     "staticBonus": {
       "ac": 0,

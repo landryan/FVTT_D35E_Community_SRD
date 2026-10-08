@@ -3,7 +3,7 @@
   "_key": "!actors!gResvQDMLqLd5pCt",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "createdTime": null,
     "duplicateSource": null,
     "exportSource": null,
@@ -22,7 +22,7 @@
       "_key": "!actors.items!gResvQDMLqLd5pCt.rF4yRznsHqbYoQzJ",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -43,6 +43,10 @@
       "system": {
         "addedAbilities": [],
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "allSpellsKnown": false,
         "automaticFeatures": false,
         "bab": "med",
@@ -60,7 +64,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSkills": {
@@ -386,7 +392,7 @@
       "_key": "!actors.items!gResvQDMLqLd5pCt.KvkBurUcp40Pi5Ee",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -421,6 +427,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -447,7 +457,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "human",
@@ -683,6 +695,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -715,7 +733,7 @@
       "_key": "!actors.items!gResvQDMLqLd5pCt.MHXXc3psy9PU7FSP",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -840,6 +858,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "originalWeaponCreated": false,
         "originalWeaponId": null,
@@ -885,6 +904,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -916,7 +941,7 @@
       "_key": "!actors.items!gResvQDMLqLd5pCt.oxnnyjctcmH9T58Y",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1037,7 +1062,8 @@
     "bar2": {
       "attribute": null
     },
-    "detectionModes": [],
+    "depth": 1,
+    "detectionModes": {},
     "displayBars": 40,
     "displayName": 20,
     "disposition": -1,
@@ -1109,9 +1135,6 @@
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "scaleX": 0.6,
       "scaleY": 0.6,
       "src": "systems/D35E/icons/bestiary/token/monkey.png",
@@ -1424,6 +1447,7 @@
         "total": 2,
         "value": 0
       },
+      "maxAoO": 0,
       "maxDex": {
         "encumbrance": null,
         "gear": null,
@@ -1497,27 +1521,42 @@
       "speed": {
         "burrow": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "climb": {
           "base": 30,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 120,
           "total": 30
         },
         "fly": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "maneuverability": "average",
           "run": 0,
           "total": 0
         },
         "land": {
           "base": 30,
+          "cap": 60,
+          "effectiveBase": 30,
+          "isOvercap": false,
           "run": 120,
           "total": 30
         },
         "swim": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         }
@@ -2220,6 +2259,10 @@
       }
     },
     "details": {
+      "actualAlignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
       "advancement": {
         "byClass": false,
         "hd": [
@@ -2233,6 +2276,11 @@
         "originalHD": 0
       },
       "alignment": "None",
+      "alignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
+      "alignmentMode": "text",
       "biography": {
         "public": "",
         "value": ""
@@ -2269,6 +2317,11 @@
         "value": "<div topic='Monkey' level='2'><p>The statistics presented here can describe any arboreal monkey that is no bigger than a housecat, such as a colobus or capuchin.</p><div topic='Combat' level='5'><p><h2>Combat</h2></p><p>Monkeys generally flee into the safety of the trees, but if cornered can fight ferociously.</p><div topic='Skills' level='8'><p><b>Skills:</b> Monkeys have a +8 racial bonus on Balance and Climb checks. They can always choose to take 10 on Climb checks, even if rushed or threatened. They use their Dexterity modifier instead of their Strength modifier for Climb checks.</p><p/></div></div></div>    "
       },
       "totalCr": 0.166,
+      "treasure": {
+        "coins": 100,
+        "goods": 100,
+        "items": 100
+      },
       "type": "None",
       "xp": {
         "value": 10
@@ -2953,6 +3006,23 @@
         "value": 0,
         "visibility": "default"
       }
+    },
+    "slotCapacities": {
+      "armor": 1,
+      "belt": 1,
+      "body": 1,
+      "chest": 1,
+      "eyes": 1,
+      "feet": 1,
+      "hands": 1,
+      "head": 1,
+      "headband": 1,
+      "neck": 1,
+      "ring": 2,
+      "shield": 1,
+      "shoulders": 1,
+      "slotless": 999,
+      "wrists": 1
     },
     "staticBonus": {
       "ac": 0,

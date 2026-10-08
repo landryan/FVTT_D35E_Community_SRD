@@ -3,7 +3,7 @@
   "_key": "!actors!KxU7QgzlKLCak4Pp",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "createdTime": null,
     "duplicateSource": null,
     "exportSource": null,
@@ -22,7 +22,7 @@
       "_key": "!actors.items!KxU7QgzlKLCak4Pp.Bwcff4hUfDRa76DI",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -43,6 +43,10 @@
       "system": {
         "addedAbilities": [],
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "allSpellsKnown": false,
         "automaticFeatures": false,
         "bab": "med",
@@ -61,7 +65,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -405,7 +411,7 @@
       "_key": "!actors.items!KxU7QgzlKLCak4Pp.eSGngARsG2BaGzlE",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -440,6 +446,10 @@
           }
         ],
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "allSpellsKnown": false,
         "attackParts": [],
         "automaticFeatures": true,
@@ -461,7 +471,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -810,7 +822,8 @@
     "bar2": {
       "attribute": null
     },
-    "detectionModes": [],
+    "depth": 1,
+    "detectionModes": {},
     "displayBars": 0,
     "displayName": 0,
     "disposition": 1,
@@ -882,9 +895,6 @@
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "scaleX": 0.4,
       "scaleY": 0.4,
       "src": "systems/D35E/icons/minions/tokens/psicrystal.png",
@@ -1200,6 +1210,7 @@
         "total": -5,
         "value": 0
       },
+      "maxAoO": 0,
       "maxDex": {
         "encumbrance": null,
         "gear": null,
@@ -1273,27 +1284,42 @@
       "speed": {
         "burrow": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "climb": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "fly": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "maneuverability": "average",
           "run": 0,
           "total": 0
         },
         "land": {
           "base": null,
+          "cap": 60,
+          "effectiveBase": 30,
+          "isOvercap": false,
           "run": 120,
           "total": 0
         },
         "swim": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         }
@@ -1992,6 +2018,10 @@
       }
     },
     "details": {
+      "actualAlignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
       "advancement": {
         "byClass": false,
         "hd": [],
@@ -1999,6 +2029,11 @@
         "originalHD": 0
       },
       "alignment": "",
+      "alignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
+      "alignmentMode": "text",
       "biography": {
         "public": "",
         "value": ""
@@ -2035,6 +2070,11 @@
         "value": ""
       },
       "totalCr": 1,
+      "treasure": {
+        "coins": 100,
+        "goods": 100,
+        "items": 100
+      },
       "type": "",
       "xp": {
         "value": 10
@@ -2862,6 +2902,23 @@
         "value": 0,
         "visibility": "default"
       }
+    },
+    "slotCapacities": {
+      "armor": 1,
+      "belt": 1,
+      "body": 1,
+      "chest": 1,
+      "eyes": 1,
+      "feet": 1,
+      "hands": 1,
+      "head": 1,
+      "headband": 1,
+      "neck": 1,
+      "ring": 2,
+      "shield": 1,
+      "shoulders": 1,
+      "slotless": 999,
+      "wrists": 1
     },
     "staticBonus": {
       "ac": 0,

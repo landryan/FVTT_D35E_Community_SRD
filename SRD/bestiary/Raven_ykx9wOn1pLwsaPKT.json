@@ -3,7 +3,7 @@
   "_key": "!actors!ykx9wOn1pLwsaPKT",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "createdTime": null,
     "duplicateSource": null,
     "exportSource": null,
@@ -22,7 +22,7 @@
       "_key": "!actors.items!ykx9wOn1pLwsaPKT.k3fcj8P3mvkxobis",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -44,6 +44,10 @@
         "activateActions": [],
         "addedAbilities": [],
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "allSpellsKnown": false,
         "attackParts": [],
         "automaticFeatures": false,
@@ -65,7 +69,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSkills": {
@@ -406,7 +412,7 @@
       "_key": "!actors.items!ykx9wOn1pLwsaPKT.IDQn8L2J2fNRI3DF",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -442,6 +448,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -474,7 +484,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "human",
@@ -726,6 +738,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -758,7 +776,7 @@
       "_key": "!actors.items!ykx9wOn1pLwsaPKT.Uo9OztvPEvtJCJly",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -898,6 +916,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "nonLethalNoPenalty": false,
         "originalWeaponCreated": false,
@@ -948,6 +967,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -979,7 +1004,7 @@
       "_key": "!actors.items!ykx9wOn1pLwsaPKT.0nrk7eQ4b8tvqu5b",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1014,6 +1039,10 @@
           "type": ""
         },
         "addedLevel": 1,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -1042,7 +1071,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -1291,6 +1322,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [
           [
             "General"
@@ -1337,7 +1374,8 @@
     "bar2": {
       "attribute": null
     },
-    "detectionModes": [],
+    "depth": 1,
+    "detectionModes": {},
     "displayBars": 40,
     "displayName": 20,
     "disposition": -1,
@@ -1409,9 +1447,6 @@
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "scaleX": 0.6,
       "scaleY": 0.6,
       "src": "systems/D35E/icons/bestiary/token/animal.png",
@@ -1725,6 +1760,7 @@
         "total": 2,
         "value": 0
       },
+      "maxAoO": 0,
       "maxDex": {
         "encumbrance": null,
         "gear": null,
@@ -1798,27 +1834,42 @@
       "speed": {
         "burrow": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "climb": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "fly": {
           "base": 40,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "maneuverability": "average",
           "run": 160,
           "total": 40
         },
         "land": {
           "base": 10,
+          "cap": 60,
+          "effectiveBase": 30,
+          "isOvercap": false,
           "run": 40,
           "total": 10
         },
         "swim": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         }
@@ -2521,6 +2572,10 @@
       }
     },
     "details": {
+      "actualAlignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
       "advancement": {
         "byClass": false,
         "hd": [],
@@ -2528,6 +2583,11 @@
         "originalHD": 0
       },
       "alignment": "None",
+      "alignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
+      "alignmentMode": "text",
       "biography": {
         "public": "",
         "value": ""
@@ -2564,6 +2624,11 @@
         "value": "<div>\n<p><strong>Environment</strong>: Temperate forests<br><strong>Organization</strong>: Solitary</p>\n<p>These glossy black birds are about 2 feet long and have wingspans of about 4 feet. They combine both claws into a single attack. The statistics presented here can describe most nonpredatory birds of similar size.</p>\n</div>"
       },
       "totalCr": "0.00",
+      "treasure": {
+        "coins": 100,
+        "goods": 100,
+        "items": 100
+      },
       "type": "Animal",
       "xp": {
         "value": 10
@@ -3395,6 +3460,23 @@
         "value": 0,
         "visibility": "default"
       }
+    },
+    "slotCapacities": {
+      "armor": 1,
+      "belt": 1,
+      "body": 1,
+      "chest": 1,
+      "eyes": 1,
+      "feet": 1,
+      "hands": 1,
+      "head": 1,
+      "headband": 1,
+      "neck": 1,
+      "ring": 2,
+      "shield": 1,
+      "shoulders": 1,
+      "slotless": 999,
+      "wrists": 1
     },
     "staticBonus": {
       "ac": 0,

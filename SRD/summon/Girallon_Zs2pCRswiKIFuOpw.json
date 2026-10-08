@@ -3,7 +3,7 @@
   "_key": "!actors!Zs2pCRswiKIFuOpw",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "createdTime": null,
     "duplicateSource": null,
     "exportSource": null,
@@ -31,7 +31,8 @@
     "bar2": {
       "attribute": null
     },
-    "detectionModes": [],
+    "depth": 2,
+    "detectionModes": {},
     "displayBars": 40,
     "displayName": 20,
     "disposition": -1,
@@ -103,9 +104,6 @@
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "systems/D35E/icons/bestiary/token/magical-beast.png",
@@ -418,6 +416,7 @@
         "total": 3,
         "value": 0
       },
+      "maxAoO": 0,
       "maxDex": {
         "encumbrance": null,
         "gear": null,
@@ -491,27 +490,42 @@
       "speed": {
         "burrow": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "climb": {
           "base": 40,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 160,
           "total": 40
         },
         "fly": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "maneuverability": "average",
           "run": 0,
           "total": 0
         },
         "land": {
           "base": 40,
+          "cap": 60,
+          "effectiveBase": 30,
+          "isOvercap": false,
           "run": 160,
           "total": 40
         },
         "swim": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         }
@@ -1210,6 +1224,10 @@
       }
     },
     "details": {
+      "actualAlignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
       "advancement": {
         "byClass": false,
         "hd": [
@@ -1228,6 +1246,11 @@
         "originalHD": 0
       },
       "alignment": "Always neutral",
+      "alignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
+      "alignmentMode": "text",
       "biography": {
         "public": "",
         "value": ""
@@ -1264,6 +1287,11 @@
         "value": "<div topic='Girallon' level='2'><p>Girallons are savage, magical cousins of the gorilla. When moving on the ground, a girallon walks on its legs and lower arms. An adult girallon is about 8 feet tall, broad-chested, and covered in thick, pure white fur. It weighs about 800 pounds.</p><div topic='Combat' level='5'><p><h2>Combat</h2></p><p>A solitary girallon usually conceals itself in the branches of a tree or under a pile of leaves and brush, with only its nose showing. When it spots or scents prey, it charges to the attack. A girallon picks up prey that is small enough to carry and withdraws, often vanishing into the trees before the victim's companions can do anything to retaliate. Against larger foes, a girallon seeks to tear a single opponent to bits as quickly as it can.</p><div topic='Rend' level='8'><p><b>Rend (Ex):</b> A girallon that hits with two or more claw attacks latches onto the opponent's body and tears the flesh. This attack automatically deals an extra 2d4+12 points of damage.</p></div><div topic='Skills' level='8'><p><b>Skills:</b> A girallon has a +8 racial bonus on Climb checks and can always choose to take 10 on a Climb check, even if rushed or threatened.</p><p/></div></div></div>    "
       },
       "totalCr": 6,
+      "treasure": {
+        "coins": 100,
+        "goods": 100,
+        "items": 100
+      },
       "type": "None",
       "xp": {
         "value": 10
@@ -1957,6 +1985,23 @@
         "value": 0,
         "visibility": "default"
       }
+    },
+    "slotCapacities": {
+      "armor": 1,
+      "belt": 1,
+      "body": 1,
+      "chest": 1,
+      "eyes": 1,
+      "feet": 1,
+      "hands": 1,
+      "head": 1,
+      "headband": 1,
+      "neck": 1,
+      "ring": 2,
+      "shield": 1,
+      "shoulders": 1,
+      "slotless": 999,
+      "wrists": 1
     },
     "staticBonus": {
       "ac": 0,

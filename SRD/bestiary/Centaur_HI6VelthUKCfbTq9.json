@@ -3,7 +3,7 @@
   "_key": "!actors!HI6VelthUKCfbTq9",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "createdTime": null,
     "duplicateSource": null,
     "exportSource": null,
@@ -22,7 +22,7 @@
       "_key": "!actors.items!HI6VelthUKCfbTq9.66BhcvimKsZsHKCi",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -43,6 +43,10 @@
       "system": {
         "addedAbilities": [],
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "allSpellsKnown": false,
         "automaticFeatures": false,
         "bab": "high",
@@ -60,7 +64,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -397,7 +403,7 @@
       "_key": "!actors.items!HI6VelthUKCfbTq9.09fb0MOcPVQ91DvM",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -432,6 +438,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -458,7 +468,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -698,6 +710,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -730,7 +748,7 @@
       "_key": "!actors.items!HI6VelthUKCfbTq9.TPXuIlM4yhoh9LLA",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -765,6 +783,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -791,7 +813,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -1038,6 +1062,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1070,7 +1100,7 @@
       "_key": "!actors.items!HI6VelthUKCfbTq9.aa66kEpKLH1d6NEh",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1090,6 +1120,10 @@
       "sort": 0,
       "system": {
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "attackNotes": "",
         "bonus": {
           "_deprecated": true,
@@ -1111,7 +1145,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -1219,6 +1255,33 @@
           "subType": "martial",
           "uniqueId": ""
         },
+        "intelligent": {
+          "alignment": "nn",
+          "cha": 10,
+          "dedicatedPower": "",
+          "egoOverride": null,
+          "empathy": false,
+          "enabled": false,
+          "hasSpecialPurpose": false,
+          "int": 10,
+          "languages": "",
+          "personality": "",
+          "powers": [],
+          "readLanguages": false,
+          "readMagic": false,
+          "senses": {
+            "blindsight": 0,
+            "darkvision": 30,
+            "lowLight": false,
+            "lowLightMultiplier": 2,
+            "tremorsense": 0,
+            "truesight": 0
+          },
+          "specialPurpose": "",
+          "speech": false,
+          "telepathy": false,
+          "wis": 10
+        },
         "light": {
           "alpha": 0.5,
           "animationIntensity": "",
@@ -1243,6 +1306,7 @@
         "melded": false,
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "originId": "",
         "originPack": "",
         "originVersion": 0,
@@ -1309,7 +1373,7 @@
       "_key": "!actors.items!HI6VelthUKCfbTq9.quxosDqbMTuhmEcv",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1435,6 +1499,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "originalWeaponCreated": true,
         "originalWeaponId": null,
@@ -1495,6 +1560,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1526,7 +1597,7 @@
       "_key": "!actors.items!HI6VelthUKCfbTq9.1ZThXamrIPw0i3JH",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1546,6 +1617,10 @@
       "sort": 0,
       "system": {
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "attackNotes": "",
         "bonus": {
           "_deprecated": true,
@@ -1567,7 +1642,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -1675,6 +1752,33 @@
           "subType": "martial",
           "uniqueId": ""
         },
+        "intelligent": {
+          "alignment": "nn",
+          "cha": 10,
+          "dedicatedPower": "",
+          "egoOverride": null,
+          "empathy": false,
+          "enabled": false,
+          "hasSpecialPurpose": false,
+          "int": 10,
+          "languages": "",
+          "personality": "",
+          "powers": [],
+          "readLanguages": false,
+          "readMagic": false,
+          "senses": {
+            "blindsight": 0,
+            "darkvision": 30,
+            "lowLight": false,
+            "lowLightMultiplier": 2,
+            "tremorsense": 0,
+            "truesight": 0
+          },
+          "specialPurpose": "",
+          "speech": false,
+          "telepathy": false,
+          "wis": 10
+        },
         "light": {
           "alpha": 0.5,
           "animationIntensity": "",
@@ -1699,6 +1803,7 @@
         "melded": false,
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "originId": "",
         "originPack": "",
         "originVersion": 0,
@@ -1765,7 +1870,7 @@
       "_key": "!actors.items!HI6VelthUKCfbTq9.Zwztcy5FvhxmacY5",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1891,6 +1996,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "originalWeaponCreated": true,
         "originalWeaponId": null,
@@ -1951,6 +2057,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1982,7 +2094,7 @@
       "_key": "!actors.items!HI6VelthUKCfbTq9.FDVSPzlNDuiOGaLg",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -2111,6 +2223,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "originalWeaponCreated": false,
         "originalWeaponId": null,
@@ -2156,6 +2269,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -2187,7 +2306,7 @@
       "_key": "!actors.items!HI6VelthUKCfbTq9.qjOGIzJhDN3tq5Qz",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -2302,7 +2421,7 @@
       "_key": "!actors.items!HI6VelthUKCfbTq9.XsKSOGhXEtrx9xNr",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -2427,7 +2546,8 @@
     "bar2": {
       "attribute": null
     },
-    "detectionModes": [],
+    "depth": 2,
+    "detectionModes": {},
     "displayBars": 40,
     "displayName": 20,
     "disposition": -1,
@@ -2499,9 +2619,6 @@
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "systems/D35E/icons/bestiary/token/monstrous-humanoid.png",
@@ -2815,6 +2932,7 @@
         "total": 2,
         "value": 0
       },
+      "maxAoO": 0,
       "maxDex": {
         "encumbrance": null,
         "gear": null,
@@ -2888,27 +3006,42 @@
       "speed": {
         "burrow": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "climb": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "fly": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "maneuverability": "average",
           "run": 0,
           "total": 0
         },
         "land": {
           "base": 50,
+          "cap": 60,
+          "effectiveBase": 30,
+          "isOvercap": false,
           "run": 200,
           "total": 50
         },
         "swim": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         }
@@ -3607,6 +3740,10 @@
       }
     },
     "details": {
+      "actualAlignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
       "advancement": {
         "byClass": true,
         "hd": [],
@@ -3614,6 +3751,11 @@
         "originalHD": 0
       },
       "alignment": "Usually neutral good",
+      "alignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
+      "alignmentMode": "text",
       "biography": {
         "public": "",
         "value": ""
@@ -3650,6 +3792,11 @@
         "value": "<div topic='Centaur' level='2'><p>A centaur is as big as a heavy horse, but much taller and slightly heavier. A centaur is about 7 feet tall and weighs about 2,100 pounds.</p><p>Centaurs speak Sylvan and Elven.</p><div topic='Combat' level='5'><p><h2>Combat</h2></p><p>A centaur employing a lance deals double damage when it charges, just as a rider on a mount does.</p></div><div topic='Centaurs as Characters' level='3'><p><h4>Centaurs as Characters</h4></p><p>A centaur druid is usually a tribe's designated leader and speaker. Centaur characters possess the following racial traits.</p><ul> <li>+8 Strength, +4 Dexterity, +4 Constitution, -2 Intelligence, +2 Wisdom.</li> <li>Large size. -1 penalty to Armor Class, -1 penalty on attack rolls, -4 penalty on Hide checks, +4 bonus on grapple checks, lifting and carrying limits double those of Medium characters.</li> <li>Space/Reach: 10 feet/5 feet.</li></ul><p>-A centaur's base land speed is 50 feet.</p><ul> <li>Darkvision out to 60 feet.</li> <li>Racial Hit Dice: A centaur begins with four levels of monstrous humanoid, which provide 4d8 Hit Dice, a base attack bonus of +4, and base saving throw bonuses of Fort +1, Ref +4, and Will +4.</li> <li>Racial Skills: A centaur's monstrous humanoid levels give it skill points equal to 7 x? (2 + Int modifier). Its class skills are Listen, Move Silently, Spot, and Survival.</li> <li>Racial Feats: A centaur's monstrous humanoid levels give it two feats.</li> <li>+3 natural armor bonus.</li> <li>Automatic Languages: Sylvan, Elven. Bonus Languages: Common, Gnome, Halfling.</li> <li>Favored Class: Ranger.</li> <li>Level adjustment +2.</li></ul><p/></div></div>    "
       },
       "totalCr": 3,
+      "treasure": {
+        "coins": 100,
+        "goods": 100,
+        "items": 100
+      },
       "type": "None",
       "xp": {
         "value": 10
@@ -4481,6 +4628,23 @@
         "value": 0,
         "visibility": "default"
       }
+    },
+    "slotCapacities": {
+      "armor": 1,
+      "belt": 1,
+      "body": 1,
+      "chest": 1,
+      "eyes": 1,
+      "feet": 1,
+      "hands": 1,
+      "head": 1,
+      "headband": 1,
+      "neck": 1,
+      "ring": 2,
+      "shield": 1,
+      "shoulders": 1,
+      "slotless": 999,
+      "wrists": 1
     },
     "staticBonus": {
       "ac": 0,

@@ -3,7 +3,7 @@
   "_key": "!actors!1rQrCSwPNPUSyNjh",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "createdTime": null,
     "duplicateSource": null,
     "exportSource": null,
@@ -22,7 +22,7 @@
       "_key": "!actors.items!1rQrCSwPNPUSyNjh.75b8YH8nyiotU70E",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -43,6 +43,10 @@
       "system": {
         "addedAbilities": [],
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "allSpellsKnown": false,
         "automaticFeatures": false,
         "bab": "med",
@@ -60,7 +64,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -403,7 +409,7 @@
       "_key": "!actors.items!1rQrCSwPNPUSyNjh.fVczqo0HShEGBjAw",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -438,6 +444,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -464,7 +474,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -692,6 +704,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -720,7 +738,7 @@
       "_key": "!actors.items!1rQrCSwPNPUSyNjh.WyfiJ3FNOZRecM1F",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -755,6 +773,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -781,7 +803,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -1026,6 +1050,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1058,7 +1088,7 @@
       "_key": "!actors.items!1rQrCSwPNPUSyNjh.z1WCmDdAZu191zXi",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1187,6 +1217,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "originalWeaponCreated": false,
         "originalWeaponId": null,
@@ -1232,6 +1263,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1263,7 +1300,7 @@
       "_key": "!actors.items!1rQrCSwPNPUSyNjh.VqrCp4gDcFKE3PR5",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1388,7 +1425,8 @@
     "bar2": {
       "attribute": null
     },
-    "detectionModes": [],
+    "depth": 1,
+    "detectionModes": {},
     "displayBars": 40,
     "displayName": 20,
     "disposition": -1,
@@ -1460,9 +1498,6 @@
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "systems/D35E/icons/bestiary/token/fungus.png",
@@ -1776,6 +1811,7 @@
         "total": 0,
         "value": 0
       },
+      "maxAoO": 0,
       "maxDex": {
         "encumbrance": null,
         "gear": null,
@@ -1847,27 +1883,42 @@
       "speed": {
         "burrow": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "climb": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "fly": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "maneuverability": "average",
           "run": 0,
           "total": 0
         },
         "land": {
           "base": 20,
+          "cap": 60,
+          "effectiveBase": 30,
+          "isOvercap": false,
           "run": 80,
           "total": 20
         },
         "swim": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         }
@@ -2566,6 +2617,10 @@
       }
     },
     "details": {
+      "actualAlignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
       "advancement": {
         "byClass": false,
         "hd": [
@@ -2584,6 +2639,11 @@
         "originalHD": 0
       },
       "alignment": "Always neutral",
+      "alignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
+      "alignmentMode": "text",
       "biography": {
         "public": "",
         "value": ""
@@ -2620,6 +2680,11 @@
         "value": "<div topic='Phantom Fungus' level='2'><p>This creature looks like a brown and greenish-brown mass with a cluster of nodules atop the main mass, though it is visible only when dead. A cluster of nodules atop the main mass serve as sensory organs. The creature feeds and attacks with a gaping maw lined with rows of teeth. Four stumpy legs support the creature and allow it to move about. This ambulatory fungus is naturally invisible, making it a feared predator among subterranean inhabitants.</p><div topic='Combat' level='5'><p><h2>Combat</h2></p><p>A phantom fungus usually roams quietly, hunting for prey. It attacks lone individuals almost anywhere, but when tackling groups it prefers an open space where it has a better chance .</p><div topic='Greater Invisibility' level='8'><p><b>Greater Invisibility (Su):</b> This ability is constant, allowing a phantom fungus to remain invisible even when attacking. It works like <i>greater invisibility</i> (caster level 12th) and lasts as long as the phantom fungus is alive. This ability is not subject to the <i>invisibility purge</i> spell. A phantom fungus becomes visible 1 minute after it is killed.</p></div><div topic='Skills' level='8'><p><b>Skills:</b> A phantom fungus has a +5 racial bonus on Move Silently checks.</p><p/></div></div></div>    "
       },
       "totalCr": 3,
+      "treasure": {
+        "coins": 100,
+        "goods": 100,
+        "items": 100
+      },
       "type": "None",
       "xp": {
         "value": 10
@@ -3452,6 +3517,23 @@
         "value": 0,
         "visibility": "default"
       }
+    },
+    "slotCapacities": {
+      "armor": 1,
+      "belt": 1,
+      "body": 1,
+      "chest": 1,
+      "eyes": 1,
+      "feet": 1,
+      "hands": 1,
+      "head": 1,
+      "headband": 1,
+      "neck": 1,
+      "ring": 2,
+      "shield": 1,
+      "shoulders": 1,
+      "slotless": 999,
+      "wrists": 1
     },
     "staticBonus": {
       "ac": 0,

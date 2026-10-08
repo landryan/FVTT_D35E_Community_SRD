@@ -3,7 +3,7 @@
   "_key": "!actors!lIxlpmAJqBRu5haw",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "createdTime": null,
     "duplicateSource": null,
     "exportSource": null,
@@ -22,7 +22,7 @@
       "_key": "!actors.items!lIxlpmAJqBRu5haw.OjcgfrBwoEAJKA48",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -43,6 +43,10 @@
       "system": {
         "addedAbilities": [],
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "allSpellsKnown": false,
         "automaticFeatures": false,
         "bab": "high",
@@ -59,7 +63,9 @@
           "noStr": false,
           "oneCha": false,
           "oneInt": false,
-          "oneWis": false
+          "oneWis": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSkills": {
@@ -385,7 +391,7 @@
       "_key": "!actors.items!lIxlpmAJqBRu5haw.IZrlnv8MtiMH9xQ1",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -420,6 +426,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -446,7 +456,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -674,6 +686,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -702,7 +720,7 @@
       "_key": "!actors.items!lIxlpmAJqBRu5haw.6TGlVMoB3al8oqrk",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -737,6 +755,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -763,7 +785,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -991,6 +1015,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1019,7 +1049,7 @@
       "_key": "!actors.items!lIxlpmAJqBRu5haw.9QKri2dK5ii0VRqR",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1054,6 +1084,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -1080,7 +1114,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -1325,6 +1361,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1357,7 +1399,7 @@
       "_key": "!actors.items!lIxlpmAJqBRu5haw.bjRtu5F5kbciVOJp",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1482,7 +1524,8 @@
     "bar2": {
       "attribute": null
     },
-    "detectionModes": [],
+    "depth": 1,
+    "detectionModes": {},
     "displayBars": 40,
     "displayName": 20,
     "disposition": -1,
@@ -1554,9 +1597,6 @@
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "scaleX": 0.6,
       "scaleY": 0.6,
       "src": "systems/D35E/icons/bestiary/token/magical-beast.png",
@@ -1870,6 +1910,7 @@
         "total": 4,
         "value": 0
       },
+      "maxAoO": 0,
       "maxDex": {
         "encumbrance": null,
         "gear": null,
@@ -1943,27 +1984,42 @@
       "speed": {
         "burrow": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "climb": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "fly": {
           "base": 40,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "maneuverability": "average",
           "run": 160,
           "total": 40
         },
         "land": {
           "base": 10,
+          "cap": 60,
+          "effectiveBase": 30,
+          "isOvercap": false,
           "run": 40,
           "total": 10
         },
         "swim": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         }
@@ -2662,6 +2718,10 @@
       }
     },
     "details": {
+      "actualAlignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
       "advancement": {
         "byClass": false,
         "hd": [],
@@ -2669,6 +2729,11 @@
         "originalHD": 0
       },
       "alignment": "Always neutral",
+      "alignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
+      "alignmentMode": "text",
       "biography": {
         "public": "",
         "value": ""
@@ -2705,6 +2770,11 @@
         "value": "<div topic='Stirge' level='2'><p>A stirge's coloration ranges from rust-red to reddish-brown, with a dirty yellow underside. The proboscis is pink at the tip, fading to gray at its base.</p><p>A stirge's body is about 1 foot long, with a wingspan of about 2 feet. It weighs about 1 pound.</p><div topic='Combat' level='5'><p><h2>Combat</h2></p><p>A stirge attacks by landing on a victim, finding a vulnerable spot, and plunging its proboscis into the flesh. This is a touch attack and can target only Small or larger creatures.</p><div topic='Attach' level='8'><p><b>Attach (Ex):</b> If a stirge hits with a touch attack, it uses its eight pincers to latch onto the opponent's body. An attached stirge is effectively grappling its prey. The stirge loses its Dexterity bonus to AC and has an AC of 12, but holds on with great tenacity. Stirges have a +12 racial bonus on grapple checks (already figured into the Base Attack/Grapple entry above).</p><p>An attached stirge can be struck with a weapon or grappled itself. To remove an attached stirge through grappling, the opponent must achieve a pin against the stirge.</p></div><div topic='Blood Drain' level='8'><p><b>Blood Drain (Ex):</b> A stirge drains blood, dealing 1d4 points of Constitution damage in any round when it begins its turn attached to a victim. Once it has dealt 4 points of Constitution damage, it detaches and flies off to digest the meal. If its victim dies before the stirge's appetite has been sated, the stirge detaches and seeks a new target.</p><p/></div></div></div>    "
       },
       "totalCr": "0.50",
+      "treasure": {
+        "coins": 100,
+        "goods": 100,
+        "items": 100
+      },
       "type": "None",
       "xp": {
         "value": 10
@@ -3533,6 +3603,23 @@
         "value": 0,
         "visibility": "default"
       }
+    },
+    "slotCapacities": {
+      "armor": 1,
+      "belt": 1,
+      "body": 1,
+      "chest": 1,
+      "eyes": 1,
+      "feet": 1,
+      "hands": 1,
+      "head": 1,
+      "headband": 1,
+      "neck": 1,
+      "ring": 2,
+      "shield": 1,
+      "shoulders": 1,
+      "slotless": 999,
+      "wrists": 1
     },
     "staticBonus": {
       "ac": 0,

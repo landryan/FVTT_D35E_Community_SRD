@@ -3,7 +3,7 @@
   "_key": "!actors!VOmIbA0kefAxz79w",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "createdTime": null,
     "duplicateSource": null,
     "exportSource": null,
@@ -22,7 +22,7 @@
       "_key": "!actors.items!VOmIbA0kefAxz79w.V4cubkLnrXoHTm25",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -43,6 +43,10 @@
       "system": {
         "addedAbilities": [],
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "allSpellsKnown": false,
         "automaticFeatures": false,
         "bab": "low",
@@ -60,7 +64,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -414,7 +420,7 @@
       "_key": "!actors.items!VOmIbA0kefAxz79w.6RJ1fTMD9SLtThpr",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -449,6 +455,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -475,7 +485,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -703,6 +715,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -731,7 +749,7 @@
       "_key": "!actors.items!VOmIbA0kefAxz79w.0HTA3Qh1FhobRgIm",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -766,6 +784,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -792,7 +814,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -1031,6 +1055,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1063,7 +1093,7 @@
       "_key": "!actors.items!VOmIbA0kefAxz79w.T9mkP4nSrlA2ljwC",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1083,6 +1113,10 @@
       "sort": 0,
       "system": {
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "attackNotes": "",
         "bonus": {
           "_deprecated": true,
@@ -1104,7 +1138,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -1212,6 +1248,33 @@
           "subType": "martial",
           "uniqueId": ""
         },
+        "intelligent": {
+          "alignment": "nn",
+          "cha": 10,
+          "dedicatedPower": "",
+          "egoOverride": null,
+          "empathy": false,
+          "enabled": false,
+          "hasSpecialPurpose": false,
+          "int": 10,
+          "languages": "",
+          "personality": "",
+          "powers": [],
+          "readLanguages": false,
+          "readMagic": false,
+          "senses": {
+            "blindsight": 0,
+            "darkvision": 30,
+            "lowLight": false,
+            "lowLightMultiplier": 2,
+            "tremorsense": 0,
+            "truesight": 0
+          },
+          "specialPurpose": "",
+          "speech": false,
+          "telepathy": false,
+          "wis": 10
+        },
         "light": {
           "alpha": 0.5,
           "animationIntensity": "",
@@ -1236,6 +1299,7 @@
         "melded": false,
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "originId": "",
         "originPack": "",
         "originVersion": 0,
@@ -1302,7 +1366,7 @@
       "_key": "!actors.items!VOmIbA0kefAxz79w.RnCOu03jsQJm9KDe",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1433,6 +1497,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "originalWeaponCreated": true,
         "originalWeaponId": null,
@@ -1493,6 +1558,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1524,7 +1595,7 @@
       "_key": "!actors.items!VOmIbA0kefAxz79w.5DthaQlSO5YK2CKD",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1653,6 +1724,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "originalWeaponCreated": false,
         "originalWeaponId": null,
@@ -1698,6 +1770,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1729,7 +1807,7 @@
       "_key": "!actors.items!VOmIbA0kefAxz79w.m6SEhHxC6Kfjuy1m",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1858,6 +1936,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "originalWeaponCreated": false,
         "originalWeaponId": null,
@@ -1903,6 +1982,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1934,7 +2019,7 @@
       "_key": "!actors.items!VOmIbA0kefAxz79w.6BYlGynfFZ4D2ZgN",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -2049,7 +2134,7 @@
       "_key": "!actors.items!VOmIbA0kefAxz79w.oeKAF3oPu4k5S24r",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -2164,7 +2249,7 @@
       "_key": "!actors.items!VOmIbA0kefAxz79w.A7jgSBlmiT4LQGZK",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -2289,7 +2374,8 @@
     "bar2": {
       "attribute": null
     },
-    "detectionModes": [],
+    "depth": 2,
+    "detectionModes": {},
     "displayBars": 40,
     "displayName": 20,
     "disposition": -1,
@@ -2361,9 +2447,6 @@
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "systems/D35E/icons/bestiary/token/zombie.png",
@@ -2677,6 +2760,7 @@
         "total": -1,
         "value": 0
       },
+      "maxAoO": 0,
       "maxDex": {
         "encumbrance": null,
         "gear": null,
@@ -2748,27 +2832,42 @@
       "speed": {
         "burrow": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "climb": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "fly": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "maneuverability": "average",
           "run": 0,
           "total": 0
         },
         "land": {
           "base": 30,
+          "cap": 60,
+          "effectiveBase": 30,
+          "isOvercap": false,
           "run": 120,
           "total": 30
         },
         "swim": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         }
@@ -3467,6 +3566,10 @@
       }
     },
     "details": {
+      "actualAlignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
       "advancement": {
         "byClass": false,
         "hd": [],
@@ -3474,6 +3577,11 @@
         "originalHD": 0
       },
       "alignment": "Always neutral evil",
+      "alignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
+      "alignmentMode": "text",
       "biography": {
         "public": "",
         "value": ""
@@ -3510,6 +3618,11 @@
         "value": "<div topic='Creating A Zombie' level='3'><p><h4>Creating A Zombie</h4></p><p>'Zombie' is an acquired template that can be added to any corporeal creature (other than an undead) that has a skeletal system (referred to hereafter as the base creature).</p><div topic='Size and Type' level='8'><p><b>Size and Type:</b> The creature's type changes to undead. It retains any subtypes except alignment subtypes and subtypes that indicate kind. It does not gain the augmented subtype. It uses all the base creature's statistics and special abilities except as noted here.</p></div><div topic='Hit Dice' level='8'><p><b>Hit Dice:</b> Drop any Hit Dice from class levels (to a minimum of 1), double the number of Hit Dice left, and raise them to d12s. If the base creature has more than 10 Hit Dice (not counting those gained with experience), it can't be made into a zombie with the <i>animate dead</i> spell.</p></div><div topic='Speed' level='8'><p><b>Speed:</b> If the base creature can fly, its maneuverability rating drops to clumsy.</p></div><div topic='Armor Class' level='8'><p><b>Armor Class:</b> Natural armor bonus increases by a number based on the zombie's size:</p></div><div topic='Base Attack' level='8'><p><b>Base Attack:</b> A zombie has a base attack bonus equal to 1/2 its Hit Dice.</p></div><div topic='Attacks' level='8'><p><b>Attacks:</b> A zombie retains all the natural weapons, manufactured weapon attacks, and weapon proficiencies of the base creature. A zombie also gains a slam attack.</p></div><div topic='Damage' level='8'><p><b>Damage:</b> Natural and manufactured weapons deal damage normally. A slam attack deals damage depending on the zombie's size. (Use the base creature's slam damage if it's better.)</p></div><div topic='Special Attacks' level='8'><p><b>Special Attacks:</b> A zombie retains none of the base creature's special attacks.</p></div><div topic='Special Qualities' level='8'><p><b>Special Qualities:</b> A zombie loses most special qualities of the base creature. It retains any extraordinary special qualities that improve its melee or ranged attacks. A zombie gains the following special quality.</p><p><i>Single Actions Only (Ex):</i> Zombies have poor reflexes and can perform only a single move action or attack action each round. A zombie can move up to its speed and attack in the same round, but only if it attempts a charge.</p></div><div topic='Saves' level='8'><p><b>Saves:</b> Base save bonuses are Fort +1/3 HD, Ref +1/3 HD, and Will +1/2 HD + 2.</p></div><div topic='Abilities' level='8'><p><b>Abilities:</b> A zombie's Strength increases by +2, its Dexterity decreases by 2, it has no Constitution or Intelligence score, its Wisdom changes to 10, and its Charisma changes to 1.</p></div><div topic='Skills' level='8'><p><b>Skills:</b> A zombie has no skills.</p></div><div topic='Feats' level='8'><p><b>Feats:</b> A zombie loses all feats of the base creature and gains Toughness.</p></div><div topic='Environment' level='8'><p><b>Environment:</b> Any land and underground.</p></div><div topic='Organization' level='8'><p><b>Organization:</b> Any.</p></div><div topic='Challenge Rating' level='8'><p><b>Challenge Rating:</b> Depends on Hit Dice, as follows:</p></div><div topic='Treasure' level='8'><p><b>Treasure:</b> None.</p></div><div topic='Alignment' level='8'><p><b>Alignment:</b> Always neutral evil.</p><p>Advancement: As base creature, but double Hit Dice (maximum 20), or - if the base creature advances by character class.</p></div><div topic='Level Adjustment' level='8'><p><b>Level Adjustment:</b> -.</p><p/><p/><p/><p/><p/></div></div>    "
       },
       "totalCr": 4,
+      "treasure": {
+        "coins": 100,
+        "goods": 100,
+        "items": 100
+      },
       "type": "None",
       "xp": {
         "value": 10
@@ -4345,6 +4458,23 @@
         "value": 0,
         "visibility": "default"
       }
+    },
+    "slotCapacities": {
+      "armor": 1,
+      "belt": 1,
+      "body": 1,
+      "chest": 1,
+      "eyes": 1,
+      "feet": 1,
+      "hands": 1,
+      "head": 1,
+      "headband": 1,
+      "neck": 1,
+      "ring": 2,
+      "shield": 1,
+      "shoulders": 1,
+      "slotless": 999,
+      "wrists": 1
     },
     "staticBonus": {
       "ac": 0,

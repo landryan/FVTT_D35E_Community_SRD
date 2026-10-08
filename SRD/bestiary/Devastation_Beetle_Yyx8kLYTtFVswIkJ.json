@@ -3,7 +3,7 @@
   "_key": "!actors!Yyx8kLYTtFVswIkJ",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "createdTime": null,
     "duplicateSource": null,
     "exportSource": null,
@@ -22,7 +22,7 @@
       "_key": "!actors.items!Yyx8kLYTtFVswIkJ.cB5IqQLfyZ1ZL2wv",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -43,6 +43,10 @@
       "system": {
         "addedAbilities": [],
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "allSpellsKnown": false,
         "automaticFeatures": false,
         "bab": "med",
@@ -60,7 +64,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -408,7 +414,7 @@
       "_key": "!actors.items!Yyx8kLYTtFVswIkJ.umt7nWSZ9321YNRv",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -537,6 +543,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "originalWeaponCreated": false,
         "originalWeaponId": null,
@@ -582,6 +589,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -613,7 +626,7 @@
       "_key": "!actors.items!Yyx8kLYTtFVswIkJ.beSEurdb5MG5Gffe",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -648,6 +661,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -674,7 +691,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -902,6 +921,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -930,7 +955,7 @@
       "_key": "!actors.items!Yyx8kLYTtFVswIkJ.3JGY5NsYPWznMkax",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1059,6 +1084,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "originalWeaponCreated": false,
         "originalWeaponId": null,
@@ -1104,6 +1130,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1135,7 +1167,7 @@
       "_key": "!actors.items!Yyx8kLYTtFVswIkJ.LXSDeh3IUf9YRkqf",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1260,7 +1292,8 @@
     "bar2": {
       "attribute": null
     },
-    "detectionModes": [],
+    "depth": 6,
+    "detectionModes": {},
     "displayBars": 40,
     "displayName": 20,
     "disposition": -1,
@@ -1332,9 +1365,6 @@
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "systems/D35E/icons/bestiary/token/vermin.png",
@@ -1648,6 +1678,7 @@
         "total": 10,
         "value": 0
       },
+      "maxAoO": 0,
       "maxDex": {
         "encumbrance": null,
         "gear": null,
@@ -1719,27 +1750,42 @@
       "speed": {
         "burrow": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "climb": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "fly": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "maneuverability": "average",
           "run": 0,
           "total": 0
         },
         "land": {
           "base": 70,
+          "cap": 60,
+          "effectiveBase": 30,
+          "isOvercap": false,
           "run": 280,
           "total": 70
         },
         "swim": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         }
@@ -2438,6 +2484,10 @@
       }
     },
     "details": {
+      "actualAlignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
       "advancement": {
         "byClass": false,
         "hd": [],
@@ -2445,6 +2495,11 @@
         "originalHD": 0
       },
       "alignment": "Always neutral",
+      "alignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
+      "alignmentMode": "text",
       "biography": {
         "public": "",
         "value": ""
@@ -2481,6 +2536,11 @@
         "value": "<div topic='Devastation Vermin' level='2'><div topic='Vermin Traits' level='8'><p><b>Vermin Traits:</b> Immune to mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects).</p><p/></div><div topic='Devastation Centipede' level='3'><p><h4>Devastation Centipede</h4></p><div topic='Poison' level='8'><p><b>Poison (Ex):</b> Bite, Fort save (DC 93); initial and secondary damage 2d12 temporary Dex.</p></div><div topic='Skills' level='8'><p><b>Skills:</b> Devastation centipedes receive a +8 racial bonus on Climb, Hide, and Spot checks.</p></div></div><div topic='Devastation Spider' level='3'><p><h4>Devastation Spider</h4></p><div topic='Poison' level='8'><p><b>Poison (Ex):</b> Bite, Fort save (DC 94); initial and secondary damage 2d12 temporary Con.</p></div><div topic='Web' level='8'><p><b>Web (Ex):</b> A single web strand is strong enough to support the spider and one creature of Gargantuan size. Web-spinning devastation spiders can cast a web eight times per day. This is similar to an attack with a net but has a maximum range of 150 feet, with a range increment of 30 feet, and is effective against targets of up to Gargantuan size. The web anchors the target in place, allowing no movement. An entangled creature can escape with a successful Escape Artist check (DC 38) or burst it with a Strength check (DC 44). Both are standard actions. Web-spinning spiders often create sheets of sticky webbing about 1,000 feet square. They usually position these sheets to snare flying creatures but can also try to trap prey on the ground. Approaching creatures must succeed at a Spot check (DC 20) to notice a web; otherwise, they stumble into it and become trapped as though by a successful web attack. Attempts to escape or burst the webbing gain a +5 bonus if the trapped creature has something to walk on or grab while pulling free. Each 5-foot section has 24 hit points, and sheet webs have damage reduction 20/fire. A devastation spider can move across its own sheet web at its climb speed and can determine the exact location of any creature caught in the web.</p></div><div topic='Skills' level='8'><p><b>Skills:</b> Web-spinning devastation spiders receive a +4 racial bonus on Hide and Spot checks. Hunting spiders receive a +6 racial bonus on Jump checks and a +8 racial bonus on Spot checks (using the modifiers given in parentheses). *All devastation spiders gain a +8 competence bonus on Hide and Move Silently checks when using their webs.</p></div></div><div topic='Devastation Scorpion' level='3'><p><h4>Devastation Scorpion</h4></p><div topic='Improved Grab' level='8'><p><b>Improved Grab (Ex):</b> To use this ability, the devastation scorpion must hit with its claw attack. If it gets a hold, it hangs on and squeezes.</p></div><div topic='Squeeze' level='8'><p><b>Squeeze (Ex):</b> A devastation scorpion that gets a hold on a Gargantuan or smaller opponent automatically deals damage with both claws and its sting.</p></div><div topic='Poison' level='8'><p><b>Poison (Ex):</b> Sting, Fort save (DC 95); initial and secondary damage 2d12 temporary Str.</p></div><div topic='Skills' level='8'><p><b>Skills:</b> Devastation scorpions receive a +4 racial bonus on Climb, Hide, and Spot checks.</p></div></div><div topic='Devastation Beetle' level='3'><p><h4>Devastation Beetle</h4></p><div topic='Trample' level='8'><p><b>Trample (Ex):</b> A devastation beetle can trample Gargantuan and smaller creatures for 30d10+24 points of damage. Opponents who do not make attacks of opportunity against the devastation beetle can attempt a Reflex save (DC 90) to halve the damage.</p></div><div topic='Acid Cloud' level='8'><p><b>Acid Cloud (Ex):</b> A devastation beetle exudes a constant vapor that radiates outward in every direction for 60 feet. This vapor deals 6d6 points of acid damage each round to anyone caught in the cloud.</p><p/></div></div></div>    "
       },
       "totalCr": 50,
+      "treasure": {
+        "coins": 100,
+        "goods": 100,
+        "items": 100
+      },
       "type": "None",
       "xp": {
         "value": 10
@@ -3317,6 +3377,23 @@
         "value": 0,
         "visibility": "default"
       }
+    },
+    "slotCapacities": {
+      "armor": 1,
+      "belt": 1,
+      "body": 1,
+      "chest": 1,
+      "eyes": 1,
+      "feet": 1,
+      "hands": 1,
+      "head": 1,
+      "headband": 1,
+      "neck": 1,
+      "ring": 2,
+      "shield": 1,
+      "shoulders": 1,
+      "slotless": 999,
+      "wrists": 1
     },
     "staticBonus": {
       "ac": 0,

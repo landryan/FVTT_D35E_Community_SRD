@@ -3,7 +3,7 @@
   "_key": "!actors!YEvMY9XJxj2YBADg",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "createdTime": null,
     "duplicateSource": null,
     "exportSource": null,
@@ -31,7 +31,8 @@
     "bar2": {
       "attribute": null
     },
-    "detectionModes": [],
+    "depth": 1,
+    "detectionModes": {},
     "displayBars": 40,
     "displayName": 20,
     "disposition": -1,
@@ -103,9 +104,6 @@
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "systems/D35E/icons/bestiary/token/satyr.png",
@@ -418,6 +416,7 @@
         "total": 1,
         "value": 0
       },
+      "maxAoO": 0,
       "maxDex": {
         "encumbrance": null,
         "gear": null,
@@ -491,27 +490,42 @@
       "speed": {
         "burrow": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "climb": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "fly": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "maneuverability": "average",
           "run": 0,
           "total": 0
         },
         "land": {
           "base": 40,
+          "cap": 60,
+          "effectiveBase": 30,
+          "isOvercap": false,
           "run": 160,
           "total": 40
         },
         "swim": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         }
@@ -1210,6 +1224,10 @@
       }
     },
     "details": {
+      "actualAlignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
       "advancement": {
         "byClass": false,
         "hd": [
@@ -1223,6 +1241,11 @@
         "originalHD": 0
       },
       "alignment": "Usually chaotic neutral",
+      "alignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
+      "alignmentMode": "text",
       "biography": {
         "public": "",
         "value": ""
@@ -1259,6 +1282,11 @@
         "value": "<div topic='Satyr' level='2'><p>A satyr's hair is red or chestnut brown, while its hooves and horns are jet black. A satyr is about as tall and heavy as a half-elf.</p><p>Satyrs speak Sylvan, and most also speak Common.</p><div topic='Combat' level='5'><p><h2>Combat</h2></p><p>The keen senses of a satyr make it almost impossible to surprise one in the wild. Conversely, with their own natural grace and agility, satyrs can sneak up on travelers who are not carefully watching the surrounding wilderness. Once engaged in battle, an unarmed satyr attacks with a powerful head butt. A satyr expecting trouble is likely to be armed with a bow and a dagger and typically looses arrows from hiding, weakening an enemy before closing.</p><div topic='Pipes' level='8'><p><b>Pipes (Su):</b> Satyrs can play a variety of magical tunes on their pan pipes. Usually, only one satyr in a group carries pipes. When it plays, all creatures within a 60-foot spread (except satyrs) must succeed on a DC 13 Will save or be affected by <i>Charm person</i>,  <i>sleep</i>,  or <i>fear</i> (caster level 10th; the satyr chooses the tune and its effect).</p><p>In the hands of other beings, these pipes have no special powers. A creature that successfully saves against any of the pipe's effects cannot be affected by the same set of pipes for 24 hours. The save DC is Charisma-based.</p></div><div topic='Skills' level='8'><p><b>Skills:</b> Satyrs have a +4 racial bonus on Hide, Listen, Move Silently, Perform, and Spot checks.</p></div></div><div topic='Satyrs as Characters' level='3'><p><h4>Satyrs as Characters</h4></p><p>Satyr characters possess the following racial traits.</p><ul> <li>+2 Dexterity, +2 Constitution, +2 Intelligence, +2 Wisdom, +2 Charisma.</li> <li>Medium size.</li></ul><p>-A satyr's base land speed is 40 feet.</p><ul> <li>Low-light vision.</li> <li>Racial Hit Dice: A satyr begins with five levels of fey, which provide 5d8 Hit Dice, a base attack bonus of +2, and base saving throw bonuses of Fort +1, Ref +4, and Will +4.</li> <li>Racial Skills: A satyr's fey levels give it skill points equal to 8 x?(6 + Int modifier). Its class skills are Bluff, Hide, Knowledge (nature), Listen, Move Silently, Perform, and Spot. Satyrs have a +4 racial bonus on Hide, Listen, Move Silently, Perform, and Spot checks.</li> <li>Racial Feats: A satyr's fey levels give it two feats. A satyr receives Alertness as a bonus feat.</li> <li>+4 natural armor bonus.</li> <li>Natural Weapons: Head butt (1d6).</li> <li>Special Attacks (see above): Pipes.</li> <li>Special Qualities (see above): Damage reduction 5/cold iron.</li> <li>Automatic Languages: Sylvan. Bonus Languages: Common, Elven, Gnome.</li> <li>Favored Class: Bard.</li> <li>Level adjustment +2.</li></ul><p/></div></div>    "
       },
       "totalCr": 2,
+      "treasure": {
+        "coins": 100,
+        "goods": 100,
+        "items": 100
+      },
       "type": "None",
       "xp": {
         "value": 10
@@ -1939,6 +1967,23 @@
         "value": 0,
         "visibility": "default"
       }
+    },
+    "slotCapacities": {
+      "armor": 1,
+      "belt": 1,
+      "body": 1,
+      "chest": 1,
+      "eyes": 1,
+      "feet": 1,
+      "hands": 1,
+      "head": 1,
+      "headband": 1,
+      "neck": 1,
+      "ring": 2,
+      "shield": 1,
+      "shoulders": 1,
+      "slotless": 999,
+      "wrists": 1
     },
     "staticBonus": {
       "ac": 0,

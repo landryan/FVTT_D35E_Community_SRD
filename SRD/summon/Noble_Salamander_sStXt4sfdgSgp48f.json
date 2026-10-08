@@ -3,7 +3,7 @@
   "_key": "!actors!sStXt4sfdgSgp48f",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "createdTime": null,
     "duplicateSource": null,
     "exportSource": null,
@@ -22,7 +22,7 @@
       "_key": "!actors.items!sStXt4sfdgSgp48f.jbASU7hioVjcK7G6",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -43,6 +43,10 @@
       "system": {
         "addedAbilities": [],
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "allSpellsKnown": false,
         "automaticFeatures": false,
         "bab": "high",
@@ -60,7 +64,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -412,7 +418,7 @@
       "_key": "!actors.items!sStXt4sfdgSgp48f.98qLyVAm5uwYDs40",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -537,6 +543,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "originalWeaponCreated": false,
         "originalWeaponId": null,
@@ -582,6 +589,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": "One creature grappled"
@@ -613,7 +626,7 @@
       "_key": "!actors.items!sStXt4sfdgSgp48f.2Gw5JG32oasA1IAv",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -819,6 +832,12 @@
         "sr": true,
         "subschool": "",
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -848,7 +867,7 @@
       "_key": "!actors.items!sStXt4sfdgSgp48f.X3wPClDQ23blaX37",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1049,6 +1068,12 @@
         "sr": true,
         "subschool": "",
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1078,7 +1103,7 @@
       "_key": "!actors.items!sStXt4sfdgSgp48f.6ASABx5QlCTRF4XF",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1278,6 +1303,12 @@
         "sr": true,
         "subschool": "",
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1307,7 +1338,7 @@
       "_key": "!actors.items!sStXt4sfdgSgp48f.K02ppTKeDPjLBBve",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1512,6 +1543,12 @@
         "sr": true,
         "subschool": "",
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1541,7 +1578,7 @@
       "_key": "!actors.items!sStXt4sfdgSgp48f.Ci2gpmMCabZBleGG",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1758,6 +1795,12 @@
         "sr": false,
         "subschool": "",
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": "one spellcaster, creature, or object; or 20-ft.-radius burst"
@@ -1787,7 +1830,7 @@
       "_key": "!actors.items!sStXt4sfdgSgp48f.2jyUQX78DPVqsmcZ",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1987,6 +2030,12 @@
         "sr": false,
         "subschool": "summoning",
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -2016,7 +2065,7 @@
       "_key": "!actors.items!sStXt4sfdgSgp48f.2p1OrFn9BwZfFiwQ",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -2051,6 +2100,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -2077,7 +2130,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -2318,6 +2373,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -2350,7 +2411,7 @@
       "_key": "!actors.items!sStXt4sfdgSgp48f.vzsqso8jsTkAntgN",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -2385,6 +2446,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": [
             [
@@ -2416,7 +2481,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -2644,6 +2711,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -2676,7 +2749,7 @@
       "_key": "!actors.items!sStXt4sfdgSgp48f.BUuQhhzjjbXF9gza",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -2711,6 +2784,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -2737,7 +2814,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -2965,6 +3044,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -2997,7 +3082,7 @@
       "_key": "!actors.items!sStXt4sfdgSgp48f.pnFORDXf9Yihl4lF",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -3032,6 +3117,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -3058,7 +3147,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -3286,6 +3377,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -3318,7 +3415,7 @@
       "_key": "!actors.items!sStXt4sfdgSgp48f.oNnLnq5PTFGcxLGW",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -3353,6 +3450,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -3379,7 +3480,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -3607,6 +3710,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -3639,7 +3748,7 @@
       "_key": "!actors.items!sStXt4sfdgSgp48f.3drrSFnGXDCLZkGm",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -3674,6 +3783,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -3700,7 +3813,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -3928,6 +4043,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -3960,7 +4081,7 @@
       "_key": "!actors.items!sStXt4sfdgSgp48f.fS2t8T6g2Mk4p4gM",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -4085,6 +4206,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "originalWeaponCreated": false,
         "originalWeaponId": null,
@@ -4130,6 +4252,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -4161,7 +4289,7 @@
       "_key": "!actors.items!sStXt4sfdgSgp48f.UBqClTow19qV2AkI",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -4181,6 +4309,10 @@
       "sort": 0,
       "system": {
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "attackNotes": "",
         "bonus": {
           "_deprecated": true,
@@ -4203,7 +4335,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -4307,6 +4441,33 @@
         "identified": true,
         "identifiedCurse": false,
         "identifiedName": "Longspear",
+        "intelligent": {
+          "alignment": "nn",
+          "cha": 10,
+          "dedicatedPower": "",
+          "egoOverride": null,
+          "empathy": false,
+          "enabled": false,
+          "hasSpecialPurpose": false,
+          "int": 10,
+          "languages": "",
+          "personality": "",
+          "powers": [],
+          "readLanguages": false,
+          "readMagic": false,
+          "senses": {
+            "blindsight": 0,
+            "darkvision": 30,
+            "lowLight": false,
+            "lowLightMultiplier": 2,
+            "tremorsense": 0,
+            "truesight": 0
+          },
+          "specialPurpose": "",
+          "speech": false,
+          "telepathy": false,
+          "wis": 10
+        },
         "light": {
           "alpha": 0.5,
           "animationIntensity": 6,
@@ -4331,6 +4492,7 @@
         "melded": false,
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "originId": "",
         "originPack": "",
         "originVersion": 0,
@@ -4397,7 +4559,7 @@
       "_key": "!actors.items!sStXt4sfdgSgp48f.AikgsMsxhE8J6hc1",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -4528,6 +4690,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "originalWeaponCreated": true,
         "originalWeaponId": null,
@@ -4588,6 +4751,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -4619,7 +4788,7 @@
       "_key": "!actors.items!sStXt4sfdgSgp48f.uEaFRQEB0FNn74Yo",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -4730,7 +4899,7 @@
       "_key": "!actors.items!sStXt4sfdgSgp48f.XWQkPHh6KLI251J3",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -4765,6 +4934,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -4792,7 +4965,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -5015,6 +5190,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -5043,7 +5224,7 @@
       "_key": "!actors.items!sStXt4sfdgSgp48f.pYkqo8CX3gca1Y9f",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -5078,6 +5259,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -5105,7 +5290,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -5328,6 +5515,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -5366,7 +5559,8 @@
     "bar2": {
       "attribute": null
     },
-    "detectionModes": [],
+    "depth": 2,
+    "detectionModes": {},
     "displayBars": 40,
     "displayName": 20,
     "disposition": -1,
@@ -5438,9 +5632,6 @@
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "systems/D35E/icons/bestiary/token/salamander.png",
@@ -5753,6 +5944,7 @@
         "total": 1,
         "value": 0
       },
+      "maxAoO": 0,
       "maxDex": {
         "encumbrance": null,
         "gear": null,
@@ -5824,27 +6016,42 @@
       "speed": {
         "burrow": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "climb": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "fly": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "maneuverability": "average",
           "run": 0,
           "total": 0
         },
         "land": {
           "base": 20,
+          "cap": 60,
+          "effectiveBase": 30,
+          "isOvercap": false,
           "run": 80,
           "total": 20
         },
         "swim": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         }
@@ -6568,6 +6775,10 @@
       }
     },
     "details": {
+      "actualAlignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
       "advancement": {
         "byClass": false,
         "hd": [
@@ -6586,6 +6797,11 @@
         "originalHD": 0
       },
       "alignment": "Usually evil (any)",
+      "alignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
+      "alignmentMode": "text",
       "biography": {
         "public": "",
         "value": ""
@@ -6622,6 +6838,11 @@
         "value": "<div topic='Salamander' level='2'><p/><p>Salamanders speak Ignan. Some average salamanders and all nobles also speak Common.</p><div topic='Combat' level='5'><p><h2>Combat</h2></p><p>If a salamander has damage reduction, its natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.</p><div topic='Constrict' level='8'><p><b>Constrict (Ex):</b> A salamander deals automatic tail slap damage (including fire damage) with a successful grapple check. A noble salamander can constrict multiple creatures simultaneously, provided they are all at least two sizes smaller than it.</p></div><div topic='Heat' level='8'><p><b>Heat (Ex):</b> A salamander generates so much heat that its mere touch deals additional fire damage. Salamanders' metallic weapons also conduct this heat.</p></div><div topic='Improved Grab' level='8'><p><b>Improved Grab (Ex):</b> To use this ability, a salamander must hit a creature of up to one size larger than itself with its tail slap attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can constrict.</p></div><div topic='Spell-Like Abilities' level='8'><p><b>Spell-Like Abilities:</b> (Noble salamanders only) 3/day-<i>burning hands</i> (DC 13), <i>fireball</i> (DC 15), <i>flaming sphere</i> (DC 14), <i>wall of fire</i> (DC 16); 1/day-<i>dispel magic</i>,  <i>summon monster VII</i> (Huge fire elemental). Caster level 15th. The save DCs are Charisma-based.</p></div><div topic='Skills' level='8'><p><b>Skills:</b> Salamanders have a +4 racial bonus on Craft (blacksmithing) checks.</p></div><div topic='Feats' level='8'><p><b>Feats:</b> Salamanders have the Multiattack feat even though they do not have the requisite three natural weapons.</p><p/></div></div></div>    "
       },
       "totalCr": 10,
+      "treasure": {
+        "coins": 100,
+        "goods": 100,
+        "items": 100
+      },
       "type": "Extraplanar, Fire",
       "xp": {
         "value": 10
@@ -7315,6 +7536,23 @@
         "value": 0,
         "visibility": "default"
       }
+    },
+    "slotCapacities": {
+      "armor": 1,
+      "belt": 1,
+      "body": 1,
+      "chest": 1,
+      "eyes": 1,
+      "feet": 1,
+      "hands": 1,
+      "head": 1,
+      "headband": 1,
+      "neck": 1,
+      "ring": 2,
+      "shield": 1,
+      "shoulders": 1,
+      "slotless": 999,
+      "wrists": 1
     },
     "staticBonus": {
       "ac": 0,

@@ -3,7 +3,7 @@
   "_key": "!actors!FrjRW6WHaTG3Hkks",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "createdTime": null,
     "duplicateSource": null,
     "exportSource": null,
@@ -22,7 +22,7 @@
       "_key": "!actors.items!FrjRW6WHaTG3Hkks.EHM5EKgE57To4HUY",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -48,6 +48,10 @@
           }
         ],
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "allSpellsKnown": false,
         "automaticFeatures": true,
         "bab": "",
@@ -65,7 +69,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -420,7 +426,7 @@
       "_key": "!actors.items!FrjRW6WHaTG3Hkks.NqTNNKEffAFasZrm",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -455,6 +461,10 @@
           "type": "immediate"
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -481,7 +491,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -713,6 +725,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -751,7 +769,8 @@
     "bar2": {
       "attribute": null
     },
-    "detectionModes": [],
+    "depth": 3,
+    "detectionModes": {},
     "displayBars": 40,
     "displayName": 20,
     "disposition": -1,
@@ -823,9 +842,6 @@
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "systems/D35E/icons/bestiary/token/animal.png",
@@ -1138,6 +1154,7 @@
         "total": 2,
         "value": 0
       },
+      "maxAoO": 0,
       "maxDex": {
         "encumbrance": null,
         "gear": null,
@@ -1211,27 +1228,42 @@
       "speed": {
         "burrow": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "climb": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "fly": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "maneuverability": "average",
           "run": 0,
           "total": 0
         },
         "land": {
           "base": null,
+          "cap": 60,
+          "effectiveBase": 30,
+          "isOvercap": false,
           "run": 160,
           "total": 0
         },
         "swim": {
           "base": 50,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 200,
           "total": 50
         }
@@ -2005,6 +2037,10 @@
       }
     },
     "details": {
+      "actualAlignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
       "advancement": {
         "byClass": false,
         "hd": [
@@ -2023,6 +2059,11 @@
         "originalHD": 0
       },
       "alignment": "Neutral Good",
+      "alignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
+      "alignmentMode": "text",
       "biography": {
         "public": "",
         "value": ""
@@ -2059,6 +2100,11 @@
         "value": "<p>Some varieties of these seagoing mammals are among the largest animals known. Relatively small whales (such as the orca presented here) can be vicious predators, attacking virtually anything they detect.</p>\n<div>\n<p><strong>Blindsight (Ex):</strong> Whales can 'see' by emitting high-frequency sounds, inaudible to most other creatures, that allow them to locate objects and creatures within 120 feet. A <em>silence</em> spell negates this and forces the whale to rely on its vision, which is approximately as good as a human's.</p>\n</div>\n<div>\n<p><strong>Hold Breath (Ex):</strong> A whale can hold its breath for a number of rounds equal to 8 x ?its Constitution score before it risks drowning.</p>\n</div>\n<div>\n<p><strong>Skills:</strong> A whale has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line. *A whale has a +4 racial bonus on Spot and Listen checks. These bonuses are lost if its blindsight is negated.</p>\n<p>&nbsp;</p>\n<p>The statistics here describe a plankton-feeding whale between 30 and 60 feet long, such as gray, humpback, and right whales. These massive creatures are surprisingly gentle. If harassed or provoked, they are as likely to flee as they are to retaliate.</p>\n<p>&nbsp;</p>\n<p>These ferocious creatures are about 30 feet long. They eat fish, squid, seals, and other whales.</p>\n<p>&nbsp;</p>\n</div>"
       },
       "totalCr": 8,
+      "treasure": {
+        "coins": 100,
+        "goods": 100,
+        "items": 100
+      },
       "type": "None",
       "xp": {
         "value": 10
@@ -2786,6 +2832,23 @@
         "value": 0,
         "visibility": "default"
       }
+    },
+    "slotCapacities": {
+      "armor": 1,
+      "belt": 1,
+      "body": 1,
+      "chest": 1,
+      "eyes": 1,
+      "feet": 1,
+      "hands": 1,
+      "head": 1,
+      "headband": 1,
+      "neck": 1,
+      "ring": 2,
+      "shield": 1,
+      "shoulders": 1,
+      "slotless": 999,
+      "wrists": 1
     },
     "staticBonus": {
       "ac": 0,

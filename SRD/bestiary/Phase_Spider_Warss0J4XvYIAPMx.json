@@ -3,7 +3,7 @@
   "_key": "!actors!Warss0J4XvYIAPMx",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "createdTime": null,
     "duplicateSource": null,
     "exportSource": null,
@@ -22,7 +22,7 @@
       "_key": "!actors.items!Warss0J4XvYIAPMx.0zXHhMC3G38dcEOX",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -43,6 +43,10 @@
       "system": {
         "addedAbilities": [],
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "allSpellsKnown": false,
         "automaticFeatures": false,
         "bab": "high",
@@ -59,7 +63,9 @@
           "noStr": false,
           "oneCha": false,
           "oneInt": false,
-          "oneWis": false
+          "oneWis": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -392,7 +398,7 @@
       "_key": "!actors.items!Warss0J4XvYIAPMx.mhDnjWeV6LBezoCd",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -428,6 +434,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -460,7 +470,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -698,6 +710,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -726,7 +744,7 @@
       "_key": "!actors.items!Warss0J4XvYIAPMx.6ZbSNPr98D1krlv4",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -761,6 +779,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -787,7 +809,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -1026,6 +1050,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1058,7 +1088,7 @@
       "_key": "!actors.items!Warss0J4XvYIAPMx.7PCO6jxncppLZISV",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1187,6 +1217,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "originalWeaponCreated": false,
         "originalWeaponId": null,
@@ -1232,6 +1263,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1263,7 +1300,7 @@
       "_key": "!actors.items!Warss0J4XvYIAPMx.jl89whyAFdAnqL1g",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1378,7 +1415,7 @@
       "_key": "!actors.items!Warss0J4XvYIAPMx.qUQ4GjKzWi8eRT6h",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1512,6 +1549,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "nonLethalNoPenalty": false,
         "originalWeaponCreated": false,
@@ -1581,6 +1619,12 @@
         ],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1622,7 +1666,8 @@
     "bar2": {
       "attribute": null
     },
-    "detectionModes": [],
+    "depth": 2,
+    "detectionModes": {},
     "displayBars": 40,
     "displayName": 20,
     "disposition": -1,
@@ -1694,9 +1739,6 @@
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "systems/D35E/icons/bestiary/token/spider.png",
@@ -2010,6 +2052,7 @@
         "total": 7,
         "value": 0
       },
+      "maxAoO": 0,
       "maxDex": {
         "encumbrance": null,
         "gear": null,
@@ -2083,27 +2126,42 @@
       "speed": {
         "burrow": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "climb": {
           "base": 20,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 80,
           "total": 20
         },
         "fly": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "maneuverability": "average",
           "run": 0,
           "total": 0
         },
         "land": {
           "base": 40,
+          "cap": 60,
+          "effectiveBase": 30,
+          "isOvercap": false,
           "run": 160,
           "total": 40
         },
         "swim": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         }
@@ -2802,6 +2860,10 @@
       }
     },
     "details": {
+      "actualAlignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
       "advancement": {
         "byClass": false,
         "hd": [
@@ -2820,6 +2882,11 @@
         "originalHD": 0
       },
       "alignment": "Always neutral",
+      "alignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
+      "alignmentMode": "text",
       "biography": {
         "public": "",
         "value": ""
@@ -2856,6 +2923,11 @@
         "value": "<div topic='Phase Spider' level='2'><p>Phase spiders are aggressive predators that can move quickly from the Ethereal Plane to attack opponents on the Material Plane.</p><p>A typical phase spider's body is 8 feet long. It weighs about 700 pounds.</p><p>Phase spiders cannot speak.</p><div topic='Combat' level='5'><p><h2>Combat</h2></p><p>Phase spiders dwell and hunt on the Material Plane. Once a spider locates prey, however, it shifts to the Ethereal Plane to attack, attempting to catch its victim flat-footed. The spider shifts in, bites its victim, and retreats quickly back to the Ethereal Plane.</p><div topic='Ethereal Jaunt' level='8'><p><b>Ethereal Jaunt (Su):</b> A phase spider can shift from the Ethereal Plane to the Material Plane as a free action, and shift back again as a move action (or during a move action). The ability is otherwise identical with <i>ethereal jaunt</i> (caster level 15th).</p></div><div topic='Poison' level='8'><p><b>Poison (Ex):</b> Injury, Fortitude DC 17, initial and secondary damage 1d8 Con. The save DC is Constitution-based.</p></div><div topic='Skills' level='8'><p><b>Skills:</b> A phase spider has a +8 racial bonus on Climb checks and can always choose to take 10 on a Climb check, even if rushed or threatened.</p><p/></div></div></div>    "
       },
       "totalCr": 5,
+      "treasure": {
+        "coins": 100,
+        "goods": 100,
+        "items": 100
+      },
       "type": "None",
       "xp": {
         "value": 10
@@ -3691,6 +3763,23 @@
         "value": 0,
         "visibility": "default"
       }
+    },
+    "slotCapacities": {
+      "armor": 1,
+      "belt": 1,
+      "body": 1,
+      "chest": 1,
+      "eyes": 1,
+      "feet": 1,
+      "hands": 1,
+      "head": 1,
+      "headband": 1,
+      "neck": 1,
+      "ring": 2,
+      "shield": 1,
+      "shoulders": 1,
+      "slotless": 999,
+      "wrists": 1
     },
     "staticBonus": {
       "ac": 0,

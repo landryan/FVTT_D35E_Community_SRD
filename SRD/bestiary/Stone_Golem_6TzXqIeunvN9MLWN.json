@@ -3,7 +3,7 @@
   "_key": "!actors!6TzXqIeunvN9MLWN",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "createdTime": null,
     "duplicateSource": null,
     "exportSource": null,
@@ -22,7 +22,7 @@
       "_key": "!actors.items!6TzXqIeunvN9MLWN.q5XQvh0gAFXEktQL",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -43,6 +43,10 @@
       "system": {
         "addedAbilities": [],
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "allSpellsKnown": false,
         "automaticFeatures": false,
         "bab": "med",
@@ -60,7 +64,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -420,7 +426,7 @@
       "_key": "!actors.items!6TzXqIeunvN9MLWN.0p4jffKBhWjusgd3",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -455,6 +461,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -481,7 +491,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -709,6 +721,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -737,7 +755,7 @@
       "_key": "!actors.items!6TzXqIeunvN9MLWN.AzyREPPqz2e3jDLX",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -772,6 +790,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -798,7 +820,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -1026,6 +1050,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1054,7 +1084,7 @@
       "_key": "!actors.items!6TzXqIeunvN9MLWN.UrFmOf3YJRxuEi6z",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1183,6 +1213,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "originalWeaponCreated": false,
         "originalWeaponId": null,
@@ -1228,6 +1259,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1259,7 +1296,7 @@
       "_key": "!actors.items!6TzXqIeunvN9MLWN.g5vFR36QXJtNVs9i",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1384,7 +1421,8 @@
     "bar2": {
       "attribute": null
     },
-    "detectionModes": [],
+    "depth": 2,
+    "detectionModes": {},
     "displayBars": 40,
     "displayName": 20,
     "disposition": -1,
@@ -1456,9 +1494,6 @@
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "systems/D35E/icons/bestiary/token/construct.png",
@@ -1772,6 +1807,7 @@
         "total": -1,
         "value": 0
       },
+      "maxAoO": 0,
       "maxDex": {
         "encumbrance": null,
         "gear": null,
@@ -1843,27 +1879,42 @@
       "speed": {
         "burrow": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "climb": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "fly": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "maneuverability": "average",
           "run": 0,
           "total": 0
         },
         "land": {
           "base": 20,
+          "cap": 60,
+          "effectiveBase": 30,
+          "isOvercap": false,
           "run": 80,
           "total": 20
         },
         "swim": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         }
@@ -2562,6 +2613,10 @@
       }
     },
     "details": {
+      "actualAlignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
       "advancement": {
         "byClass": false,
         "hd": [
@@ -2580,6 +2635,11 @@
         "originalHD": 0
       },
       "alignment": "Always neutral",
+      "alignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
+      "alignmentMode": "text",
       "biography": {
         "public": "",
         "value": ""
@@ -2616,6 +2676,11 @@
         "value": "<div topic='Stone Golem' level='3'><p><h4>Stone Golem</h4></p><p>This golem has a humanoid body made from stone. A stone golem is 9 feet tall and weighs around 2,000 pounds. Its body is frequently stylized to suit its creator. For example, it might look like it is wearing armor, with a particular symbol carved on the breastplate, or have designs worked into the stone of its limbs.</p><div topic='Combat' level='5'><p><h2>Combat</h2></p><p>Stone golems are formidable opponents, being physically powerful and difficult to harm.</p><div topic='Slow' level='8'><p><b>Slow (Su):</b> A stone golem can use a slow effect, as the spell, as a free action once every 2 rounds. The effect has a range of 10 feet and a duration of 7 rounds, requiring a DC 17 Will save to negate. The save DC is Constitution-based.</p></div><div topic='Immunity to Magic' level='8'><p><b>Immunity to Magic (Ex):</b> A stone golem is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and effects function differently against the creature, as noted below.</p><p>A <i>transmute rock to mud</i> spell slows a stone golem (as the <i>slow</i> spell) for 2d6 rounds, with no saving throw, while <i>transmute mud to rock</i> heals all of its lost hit points.</p><p>A <i>stone to flesh</i> spell does not actually change the golem's structure but negates its damage reduction and immunity to magic for 1 full round.</p></div></div><div topic='Construction' level='4'><p><h4>Construction</h4></p><p>A stone golem's body is chiseled from a single block of hard stone, such as granite, weighing at least 3,000 pounds. The stone must be of exceptional quality, and costs 5,000 gp. Assembling the body requires a DC 17 Craft (sculpting) check or a DC 17 Craft (stonemasonry) check.</p><p>CL 14th; Craft Construct, <i>antimagic field</i>,  <i>geas/quest</i>,  <i>symbol of stunning</i>, caster must be at least 14th level; Price 90,000 gp; Cost 50,000 gp + 3,400 XP.</p><p/></div></div>    "
       },
       "totalCr": 11,
+      "treasure": {
+        "coins": 100,
+        "goods": 100,
+        "items": 100
+      },
       "type": "None",
       "xp": {
         "value": 10
@@ -3447,6 +3512,23 @@
         "value": 0,
         "visibility": "default"
       }
+    },
+    "slotCapacities": {
+      "armor": 1,
+      "belt": 1,
+      "body": 1,
+      "chest": 1,
+      "eyes": 1,
+      "feet": 1,
+      "hands": 1,
+      "head": 1,
+      "headband": 1,
+      "neck": 1,
+      "ring": 2,
+      "shield": 1,
+      "shoulders": 1,
+      "slotless": 999,
+      "wrists": 1
     },
     "staticBonus": {
       "ac": 0,

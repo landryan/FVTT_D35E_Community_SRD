@@ -3,7 +3,7 @@
   "_key": "!actors!upwB60mfNZGricXa",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "createdTime": null,
     "duplicateSource": null,
     "exportSource": null,
@@ -22,7 +22,7 @@
       "_key": "!actors.items!upwB60mfNZGricXa.dLVb7KYbyYWfuQNi",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -43,6 +43,10 @@
       "system": {
         "addedAbilities": [],
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "allSpellsKnown": false,
         "automaticFeatures": false,
         "bab": "med",
@@ -60,7 +64,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -415,7 +421,7 @@
       "_key": "!actors.items!upwB60mfNZGricXa.h75IVvH3CYg5MG7v",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -544,6 +550,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "originalWeaponCreated": false,
         "originalWeaponId": null,
@@ -589,6 +596,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -620,7 +633,7 @@
       "_key": "!actors.items!upwB60mfNZGricXa.M2iVRAd7c1Om5lff",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -745,7 +758,8 @@
     "bar2": {
       "attribute": null
     },
-    "detectionModes": [],
+    "depth": 3,
+    "detectionModes": {},
     "displayBars": 40,
     "displayName": 20,
     "disposition": -1,
@@ -817,9 +831,6 @@
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "systems/D35E/icons/bestiary/token/animated-object.png",
@@ -1133,6 +1144,7 @@
         "total": -1,
         "value": 0
       },
+      "maxAoO": 0,
       "maxDex": {
         "encumbrance": null,
         "gear": null,
@@ -1204,27 +1216,42 @@
       "speed": {
         "burrow": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "climb": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "fly": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "maneuverability": "average",
           "run": 0,
           "total": 0
         },
         "land": {
           "base": 20,
+          "cap": 60,
+          "effectiveBase": 30,
+          "isOvercap": false,
           "run": 80,
           "total": 20
         },
         "swim": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         }
@@ -1923,6 +1950,10 @@
       }
     },
     "details": {
+      "actualAlignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
       "advancement": {
         "byClass": false,
         "hd": [],
@@ -1930,6 +1961,11 @@
         "originalHD": 0
       },
       "alignment": "Always neutral",
+      "alignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
+      "alignmentMode": "text",
       "biography": {
         "public": "",
         "value": ""
@@ -1966,6 +2002,11 @@
         "value": "<div topic='Animated Object' level='2'><p/><p/><p>Animated objects come in all sizes, shapes, and colors. They owe their existence as creatures to spells such as <i>animate objects</i> or similar supernatural abilities.</p><div topic='Combat' level='5'><p><h2>Combat</h2></p><p>Animated objects fight only as directed by the animator. They follow orders without question and to the best of their abilities. Since they do not need to breathe and never tire, they can be extremely capable minions.</p><p>An animated object can have one or more of the following special abilities, depending on its form.</p><div topic='Blind' level='8'><p><b>Blind (Ex):</b> A sheetlike animated object such as a carpet or tapestry can grapple an opponent up to three sizes larger than itself. The object makes a normal grapple check. If it wins, it wraps itself around the opponent's head, causing that creature to be blinded until removed.</p></div><div topic='Constrict' level='8'><p><b>Constrict (Ex):</b> A flexible animated object such as a rope, vine, or rug deals damage equal to its slam damage value plus 1- 1/2 times its Strength bonus with a successful grapple check against a creature up to one size larger than itself.</p><p>An object of at least Large size can make constriction attacks against multiple creatures at once, if they all are at least two sizes smaller than the object and can fit under it.</p></div><div topic='Hardness' level='8'><p><b>Hardness (Ex):</b> An animated object has the same hardness it had before it was animated.</p></div><div topic='Improved Speed' level='8'><p><b>Improved Speed (Ex):</b> The base land speed given in the statistics block assume that an animated object lurches, rocks, or slithers along.</p><p>Objects with two legs (statues, ladders) or a similar shape that allows faster movement have a +10 foot bonus to speed. Objects with multiple legs (tables, chairs) have a +20 foot bonus to speed. Wheeled objects have a +40 foot bonus to speed.</p><p>Objects might have additional modes of movement. A wooden object can float and has a swim speed equal to half its land speed. A rope or similar sinuous object has a climb speed equal to half its land speed. A sheetlike object can fly (clumsy maneuverability) at half its normal speed.</p></div><div topic='Trample' level='8'><p><b>Trample (Ex):</b> An animated object of at least Large size and with a hardness of at least 10 can trample creatures two or more sizes smaller than itself, dealing damage equal to the object's slam damage + 1-1/2 times its Strength bonus. Opponents who do not make attacks of opportunity against the object can attempt Reflex saves (DC 10 + 1/2 object's HD + object's Str modifier) to halve the damage.</p><p/></div></div></div>    "
       },
       "totalCr": 5,
+      "treasure": {
+        "coins": 100,
+        "goods": 100,
+        "items": 100
+      },
       "type": "None",
       "xp": {
         "value": 10
@@ -2797,6 +2838,23 @@
         "value": 0,
         "visibility": "default"
       }
+    },
+    "slotCapacities": {
+      "armor": 1,
+      "belt": 1,
+      "body": 1,
+      "chest": 1,
+      "eyes": 1,
+      "feet": 1,
+      "hands": 1,
+      "head": 1,
+      "headband": 1,
+      "neck": 1,
+      "ring": 2,
+      "shield": 1,
+      "shoulders": 1,
+      "slotless": 999,
+      "wrists": 1
     },
     "staticBonus": {
       "ac": 0,

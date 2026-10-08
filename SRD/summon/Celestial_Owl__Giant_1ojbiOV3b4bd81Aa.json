@@ -3,7 +3,7 @@
   "_key": "!actors!1ojbiOV3b4bd81Aa",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "createdTime": null,
     "duplicateSource": null,
     "exportSource": null,
@@ -22,7 +22,7 @@
       "_key": "!actors.items!1ojbiOV3b4bd81Aa.h54sVpdK5k6HVr9J",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -48,6 +48,10 @@
           }
         ],
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "allSpellsKnown": false,
         "automaticFeatures": true,
         "bab": "",
@@ -65,7 +69,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -420,7 +426,7 @@
       "_key": "!actors.items!1ojbiOV3b4bd81Aa.uUJMDw3HyxF0kwfI",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -455,6 +461,10 @@
           "type": "immediate"
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -481,7 +491,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -713,6 +725,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -751,7 +769,8 @@
     "bar2": {
       "attribute": null
     },
-    "detectionModes": [],
+    "depth": 2,
+    "detectionModes": {},
     "displayBars": 40,
     "displayName": 20,
     "disposition": -1,
@@ -823,9 +842,6 @@
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "systems/D35E/icons/bestiary/token/giant.png",
@@ -1138,6 +1154,7 @@
         "total": 3,
         "value": 0
       },
+      "maxAoO": 0,
       "maxDex": {
         "encumbrance": null,
         "gear": null,
@@ -1211,27 +1228,42 @@
       "speed": {
         "burrow": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "climb": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "fly": {
           "base": 70,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "maneuverability": "average",
           "run": 280,
           "total": 70
         },
         "land": {
           "base": 10,
+          "cap": 60,
+          "effectiveBase": 30,
+          "isOvercap": false,
           "run": 40,
           "total": 10
         },
         "swim": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         }
@@ -2005,6 +2037,10 @@
       }
     },
     "details": {
+      "actualAlignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
       "advancement": {
         "byClass": false,
         "hd": [
@@ -2023,6 +2059,11 @@
         "originalHD": 0
       },
       "alignment": "Lawful Good",
+      "alignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
+      "alignmentMode": "text",
       "biography": {
         "public": "",
         "value": ""
@@ -2059,6 +2100,11 @@
         "value": "<div topic='Owl, Giant' level='2'><p>Giant owls are nocturnal birds of prey, feared for their ability to hunt and attack in near silence. They are intelligent, and though naturally suspicious, sometimes associate with good creatures.  A typical giant owl stands about 9 feet tall, has a wingspan of up to 20 feet, and resembles its smaller cousins in nearly every way except size.</p><p>Giant owls speak Common and Sylvan.</p><div topic='Combat' level='5'><p><h2>Combat</h2></p><p>A giant owl attacks by gliding silently just a few feet above its prey and plunging to strike when directly overhead.</p><div topic='Superior Low-Light Vision' level='8'><p><b>Superior Low-Light Vision (Ex):</b> A giant owl can see five times as far as a human can in dim light.</p></div><div topic='Skills' level='8'><p><b>Skills:</b> Giant owls have a +8 racial bonus on Listen checks and a +4 racial bonus on Spot checks.</p><p>*When in flight, giant owls gain a +8 bonus on Move Silently checks.</p></div></div><div topic='Training A Giant Owl' level='3'><p><h4>Training A Giant Owl</h4></p><p>Although intelligent, a giant owl requires training before it can bear a rider in combat. To be trained, a giant owl must have a friendly attitude toward the trainer (this can be achieved through a successful Diplomacy check). Training a friendly giant owl requires six weeks of work and a DC 25 Handle Animal check. Riding a giant owl requires an exotic saddle. A giant owl can fight while carrying a rider, but the rider cannot also attack unless he or she succeeds on a Ride check.</p><p>Giant owl eggs are worth 2,500 gp apiece on the open market, while chicks are worth 4,000 gp each. Professional trainers charge 1,000 gp to rear or train a giant owl.</p><div topic='Carrying Capacity' level='8'><p><b>Carrying Capacity:</b> A light load for a giant owl is up to 300 pounds; a medium load, 301-600 pounds; and a heavy load, 601-900 pounds.</p><p/></div></div></div>    "
       },
       "totalCr": 4,
+      "treasure": {
+        "coins": 100,
+        "goods": 100,
+        "items": 100
+      },
       "type": "None",
       "xp": {
         "value": 10
@@ -2750,6 +2796,23 @@
         "value": 0,
         "visibility": "default"
       }
+    },
+    "slotCapacities": {
+      "armor": 1,
+      "belt": 1,
+      "body": 1,
+      "chest": 1,
+      "eyes": 1,
+      "feet": 1,
+      "hands": 1,
+      "head": 1,
+      "headband": 1,
+      "neck": 1,
+      "ring": 2,
+      "shield": 1,
+      "shoulders": 1,
+      "slotless": 999,
+      "wrists": 1
     },
     "staticBonus": {
       "ac": 0,

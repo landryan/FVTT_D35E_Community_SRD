@@ -3,7 +3,7 @@
   "_key": "!actors!0Bfwv8irrvjbMCEQ",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "createdTime": null,
     "duplicateSource": null,
     "exportSource": null,
@@ -31,7 +31,8 @@
     "bar2": {
       "attribute": null
     },
-    "detectionModes": [],
+    "depth": 1,
+    "detectionModes": {},
     "displayBars": 40,
     "displayName": 20,
     "disposition": -1,
@@ -103,9 +104,6 @@
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "systems/D35E/icons/bestiary/token/animal.png",
@@ -418,6 +416,7 @@
         "total": 3,
         "value": 0
       },
+      "maxAoO": 0,
       "maxDex": {
         "encumbrance": null,
         "gear": null,
@@ -491,27 +490,42 @@
       "speed": {
         "burrow": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "climb": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "fly": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "maneuverability": "average",
           "run": 0,
           "total": 0
         },
         "land": {
           "base": 80,
+          "cap": 60,
+          "effectiveBase": 30,
+          "isOvercap": false,
           "run": 320,
           "total": 80
         },
         "swim": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         }
@@ -1214,6 +1228,10 @@
       }
     },
     "details": {
+      "actualAlignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
       "advancement": {
         "byClass": false,
         "hd": [
@@ -1232,6 +1250,11 @@
         "originalHD": 0
       },
       "alignment": "None",
+      "alignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
+      "alignmentMode": "text",
       "biography": {
         "public": "",
         "value": ""
@@ -1268,6 +1291,11 @@
         "value": "<div topic='Porpoise' level='2'><p>Porpoises are mammals that tend to be playful, friendly, and helpful. A typical porpoise is 4 to 6 feet long and weighs 110 to 160 pounds. The statistics presented here can describe any small whale of similar size.</p><div topic='Combat' level='5'><p><h2>Combat</h2></p><div topic='Blindsight' level='8'><p><b>Blindsight (Ex):</b> Porpoises can 'see' by emitting high-frequency sounds, inaudible to most other creatures, that allow them to locate objects and creatures within 120 feet. A <i>silence</i> spell negates this and forces the porpoise to rely on its vision, which is approximately as good as a human's.</p></div><div topic='Hold Breath' level='8'><p><b>Hold Breath (Ex):</b> A porpoise can hold its breath for a number of rounds equal to 6 x ?its Constitution score before it risks drowning.</p></div><div topic='Skills' level='8'><p><b>Skills:</b> A porpoise has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line. *A porpoise has a +4 racial bonus on Spot and Listen checks. These bonuses are lost if its blindsight is negated.</p><p/></div></div></div>    "
       },
       "totalCr": 0.5,
+      "treasure": {
+        "coins": 100,
+        "goods": 100,
+        "items": 100
+      },
       "type": "None",
       "xp": {
         "value": 10
@@ -1950,6 +1978,23 @@
         "value": 0,
         "visibility": "default"
       }
+    },
+    "slotCapacities": {
+      "armor": 1,
+      "belt": 1,
+      "body": 1,
+      "chest": 1,
+      "eyes": 1,
+      "feet": 1,
+      "hands": 1,
+      "head": 1,
+      "headband": 1,
+      "neck": 1,
+      "ring": 2,
+      "shield": 1,
+      "shoulders": 1,
+      "slotless": 999,
+      "wrists": 1
     },
     "staticBonus": {
       "ac": 0,

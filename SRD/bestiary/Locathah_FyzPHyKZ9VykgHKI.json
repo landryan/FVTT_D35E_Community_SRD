@@ -3,7 +3,7 @@
   "_key": "!actors!FyzPHyKZ9VykgHKI",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "createdTime": null,
     "duplicateSource": null,
     "exportSource": null,
@@ -22,7 +22,7 @@
       "_key": "!actors.items!FyzPHyKZ9VykgHKI.xEzim26XlzhQV6YQ",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -43,6 +43,10 @@
       "system": {
         "addedAbilities": [],
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "allSpellsKnown": false,
         "automaticFeatures": false,
         "bab": "med",
@@ -60,7 +64,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -398,7 +404,7 @@
       "_key": "!actors.items!FyzPHyKZ9VykgHKI.7yrHpIvF71HvvDwc",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -433,6 +439,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -459,7 +469,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -706,6 +718,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -738,7 +756,7 @@
       "_key": "!actors.items!FyzPHyKZ9VykgHKI.2Ix4RwsND8995Wsx",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -758,6 +776,10 @@
       "sort": 0,
       "system": {
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "attackNotes": "",
         "bonus": {
           "_deprecated": true,
@@ -779,7 +801,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -887,6 +911,33 @@
           "subType": "simple",
           "uniqueId": ""
         },
+        "intelligent": {
+          "alignment": "nn",
+          "cha": 10,
+          "dedicatedPower": "",
+          "egoOverride": null,
+          "empathy": false,
+          "enabled": false,
+          "hasSpecialPurpose": false,
+          "int": 10,
+          "languages": "",
+          "personality": "",
+          "powers": [],
+          "readLanguages": false,
+          "readMagic": false,
+          "senses": {
+            "blindsight": 0,
+            "darkvision": 30,
+            "lowLight": false,
+            "lowLightMultiplier": 2,
+            "tremorsense": 0,
+            "truesight": 0
+          },
+          "specialPurpose": "",
+          "speech": false,
+          "telepathy": false,
+          "wis": 10
+        },
         "light": {
           "alpha": 0.5,
           "animationIntensity": "",
@@ -911,6 +962,7 @@
         "melded": false,
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "originId": "",
         "originPack": "",
         "originVersion": 0,
@@ -977,7 +1029,7 @@
       "_key": "!actors.items!FyzPHyKZ9VykgHKI.aU3uztPD0IZEZsrJ",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1103,6 +1155,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "originalWeaponCreated": true,
         "originalWeaponId": null,
@@ -1163,6 +1216,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1194,7 +1253,7 @@
       "_key": "!actors.items!FyzPHyKZ9VykgHKI.5icY4zU7DNZHvB7r",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1214,6 +1273,10 @@
       "sort": 0,
       "system": {
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "attackNotes": "",
         "bonus": {
           "_deprecated": true,
@@ -1235,7 +1298,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -1343,6 +1408,33 @@
           "subType": "simple",
           "uniqueId": ""
         },
+        "intelligent": {
+          "alignment": "nn",
+          "cha": 10,
+          "dedicatedPower": "",
+          "egoOverride": null,
+          "empathy": false,
+          "enabled": false,
+          "hasSpecialPurpose": false,
+          "int": 10,
+          "languages": "",
+          "personality": "",
+          "powers": [],
+          "readLanguages": false,
+          "readMagic": false,
+          "senses": {
+            "blindsight": 0,
+            "darkvision": 30,
+            "lowLight": false,
+            "lowLightMultiplier": 2,
+            "tremorsense": 0,
+            "truesight": 0
+          },
+          "specialPurpose": "",
+          "speech": false,
+          "telepathy": false,
+          "wis": 10
+        },
         "light": {
           "alpha": 0.5,
           "animationIntensity": "",
@@ -1367,6 +1459,7 @@
         "melded": false,
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "originId": "",
         "originPack": "",
         "originVersion": 0,
@@ -1433,7 +1526,7 @@
       "_key": "!actors.items!FyzPHyKZ9VykgHKI.k8Dq5f8m3rLzK5OQ",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1559,6 +1652,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "originalWeaponCreated": true,
         "originalWeaponId": null,
@@ -1619,6 +1713,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1650,7 +1750,7 @@
       "_key": "!actors.items!FyzPHyKZ9VykgHKI.e40jH0MyynYXc6w1",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1765,7 +1865,7 @@
       "_key": "!actors.items!FyzPHyKZ9VykgHKI.qH8GWBG2XCd1Y5bG",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1890,7 +1990,8 @@
     "bar2": {
       "attribute": null
     },
-    "detectionModes": [],
+    "depth": 1,
+    "detectionModes": {},
     "displayBars": 40,
     "displayName": 20,
     "disposition": -1,
@@ -1962,9 +2063,6 @@
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "systems/D35E/icons/bestiary/token/humanoid.png",
@@ -2278,6 +2376,7 @@
         "total": 1,
         "value": 0
       },
+      "maxAoO": 0,
       "maxDex": {
         "encumbrance": null,
         "gear": null,
@@ -2351,27 +2450,42 @@
       "speed": {
         "burrow": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "climb": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "fly": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "maneuverability": "average",
           "run": 0,
           "total": 0
         },
         "land": {
           "base": 10,
+          "cap": 60,
+          "effectiveBase": 30,
+          "isOvercap": false,
           "run": 40,
           "total": 10
         },
         "swim": {
           "base": 60,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 240,
           "total": 60
         }
@@ -3070,6 +3184,10 @@
       }
     },
     "details": {
+      "actualAlignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
       "advancement": {
         "byClass": true,
         "hd": [],
@@ -3077,6 +3195,11 @@
         "originalHD": 0
       },
       "alignment": "Usually neutral",
+      "alignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
+      "alignmentMode": "text",
       "biography": {
         "public": "",
         "value": ""
@@ -3113,6 +3236,11 @@
         "value": "<div topic='Locathah' level='2'><p>Although humanoid in shape, locathahs are clearly more fish than human. The average locathah stands 5 feet tall and weighs 175 pounds. Females and males look very much alike, although the former can be recognized by the two ochre stripes marking their egg sacs.</p><p>Locathahs speak Aquan.</p><div topic='Combat' level='5'><p><h2>Combat</h2></p><p>Any battle with locathahs usually begins with the creatures loosing volleys of bolts from their crossbows; underwater, their crossbows have a range increment of 20 feet. If they have managed to set up an ambush or other trap, they continue to employ crossbows for as long as possible. Otherwise, they close to bring their longspears into play. Although primarily used for fishing, these spears make formidable weapons.</p><p>Locathahs lack teeth, claws, and other natural weapons, so they are not especially dangerous if unarmed. A weaponless locathah will generally turn and flee.</p><div topic='Skills' level='8'><p><b>Skills:</b> A locathah has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered.</p><p>It can use the run action while swimming, provided it swims in a straight line.</p><p/></div></div></div>    "
       },
       "totalCr": "0.50",
+      "treasure": {
+        "coins": 100,
+        "goods": 100,
+        "items": 100
+      },
       "type": "Aquatic",
       "xp": {
         "value": 10
@@ -3939,6 +4067,23 @@
         "value": 0,
         "visibility": "default"
       }
+    },
+    "slotCapacities": {
+      "armor": 1,
+      "belt": 1,
+      "body": 1,
+      "chest": 1,
+      "eyes": 1,
+      "feet": 1,
+      "hands": 1,
+      "head": 1,
+      "headband": 1,
+      "neck": 1,
+      "ring": 2,
+      "shield": 1,
+      "shoulders": 1,
+      "slotless": 999,
+      "wrists": 1
     },
     "staticBonus": {
       "ac": 0,

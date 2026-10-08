@@ -3,7 +3,7 @@
   "_key": "!actors!vjfUxbKLrQPDJeMX",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "createdTime": null,
     "duplicateSource": null,
     "exportSource": null,
@@ -22,7 +22,7 @@
       "_key": "!actors.items!vjfUxbKLrQPDJeMX.FNGAWcp3bBeJetau",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -43,6 +43,10 @@
       "system": {
         "addedAbilities": [],
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "allSpellsKnown": false,
         "automaticFeatures": false,
         "bab": "med",
@@ -60,7 +64,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -409,7 +415,7 @@
       "_key": "!actors.items!vjfUxbKLrQPDJeMX.ynyEfizbCrxrMt2c",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -445,6 +451,10 @@
           "type": "special"
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -477,7 +487,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -728,6 +740,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -756,7 +774,7 @@
       "_key": "!actors.items!vjfUxbKLrQPDJeMX.frxZOqjnvjVyjZY7",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -791,6 +809,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -817,7 +839,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -1056,6 +1080,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1088,7 +1118,7 @@
       "_key": "!actors.items!vjfUxbKLrQPDJeMX.nfIN92BTZH3KPTFX",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1217,6 +1247,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "originalWeaponCreated": false,
         "originalWeaponId": null,
@@ -1262,6 +1293,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1293,7 +1330,7 @@
       "_key": "!actors.items!vjfUxbKLrQPDJeMX.GExDWP9OLkO1sagp",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1418,7 +1455,8 @@
     "bar2": {
       "attribute": null
     },
-    "detectionModes": [],
+    "depth": 1,
+    "detectionModes": {},
     "displayBars": 40,
     "displayName": 20,
     "disposition": -1,
@@ -1490,9 +1528,6 @@
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "scaleX": 0.6,
       "scaleY": 0.6,
       "src": "systems/D35E/icons/bestiary/token/construct.png",
@@ -1806,6 +1841,7 @@
         "total": 2,
         "value": 0
       },
+      "maxAoO": 0,
       "maxDex": {
         "encumbrance": null,
         "gear": null,
@@ -1877,27 +1913,42 @@
       "speed": {
         "burrow": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "climb": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "fly": {
           "base": 50,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "maneuverability": "average",
           "run": 200,
           "total": 50
         },
         "land": {
           "base": 20,
+          "cap": 60,
+          "effectiveBase": 30,
+          "isOvercap": false,
           "run": 80,
           "total": 20
         },
         "swim": {
           "base": null,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         }
@@ -2596,6 +2647,10 @@
       }
     },
     "details": {
+      "actualAlignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
       "advancement": {
         "byClass": false,
         "hd": [
@@ -2609,6 +2664,11 @@
         "originalHD": 0
       },
       "alignment": "Any (same as creator)",
+      "alignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
+      "alignmentMode": "text",
       "biography": {
         "public": "",
         "value": ""
@@ -2645,6 +2705,11 @@
         "value": "<div topic='Homunculus' level='2'><p>A homunculus is a miniature servant created by a wizard. These creatures are weak combatants but make effective spies, messengers, and scouts. A homunculus's creator determines its precise features. Homunculi are little more than tools designed to carry out assigned tasks. They are extensions of their creators, sharing the same alignment and basic nature. A homunculus cannot speak, but the process of creating one links it telepathically with its creator.</p><p>It knows what its master knows and can convey to him or her everything it sees and hears, out to a distance of 1,500 feet. A homunculus never travels beyond this range willingly, though it can be removed forcibly. If this occurs, the creature does everything in its power to regain contact with its master. An attack that destroys a homunculus deals 2d10 points of damage to its master.</p><p>If the creature's master is slain, the homunculus also dies, and its body swiftly melts away into a pool of ichor.</p><div topic='Combat' level='5'><p><h2>Combat</h2></p><p>Homunculi land on their victims and bite with their venomous fangs.</p><div topic='Poison' level='8'><p><b>Poison (Ex):</b> Injury, Fortitude DC 13, initial damage sleep for 1 minute, secondary damage sleep for another 5d6 minutes. The save DC is Constitution-based and includes a +2 racial bonus.</p></div></div><div topic='Construction' level='3'><p><h4>Construction</h4></p><p>A homunculus is shaped from a mixture of clay, ashes, mandrake root, spring water, and one pint of the creator's own blood. The materials cost 50 gp. The creature's master may assemble the body or hire someone else to do the job. Creating the body requires a DC 12 Craft (sculpting) check or a DC 12 Craft (pottery) check.</p><p>After the body is sculpted, it is animated through an extended magical ritual that requires a specially prepared laboratory or workroom, similar to an alchemist's laboratory and costing 500 gp to establish. If the creator is personally constructing the creature's body, the building and ritual can be performed together.</p><p>A homunculus with more than 2 Hit Dice can be created, but each additional Hit Die adds +2,000 gp to the cost to create.</p><p>Craft Construct, <i>arcane eye</i>,  <i>mirror image</i>,  <i>mending</i>,  caster must be at least 4th level; Price - (never sold); Cost 1,050 gp + 78 XP.</p><p/></div></div>    "
       },
       "totalCr": 1,
+      "treasure": {
+        "coins": 100,
+        "goods": 100,
+        "items": 100
+      },
       "type": "None",
       "xp": {
         "value": 10
@@ -3479,6 +3544,23 @@
         "value": 0,
         "visibility": "default"
       }
+    },
+    "slotCapacities": {
+      "armor": 1,
+      "belt": 1,
+      "body": 1,
+      "chest": 1,
+      "eyes": 1,
+      "feet": 1,
+      "hands": 1,
+      "head": 1,
+      "headband": 1,
+      "neck": 1,
+      "ring": 2,
+      "shield": 1,
+      "shoulders": 1,
+      "slotless": 999,
+      "wrists": 1
     },
     "staticBonus": {
       "ac": 0,

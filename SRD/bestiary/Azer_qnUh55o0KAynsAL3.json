@@ -3,7 +3,7 @@
   "_key": "!actors!qnUh55o0KAynsAL3",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "createdTime": null,
     "duplicateSource": null,
     "exportSource": null,
@@ -22,7 +22,7 @@
       "_key": "!actors.items!qnUh55o0KAynsAL3.X9Mbh6Xb9pQpVcBQ",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -43,6 +43,10 @@
       "system": {
         "addedAbilities": [],
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "allSpellsKnown": false,
         "automaticFeatures": false,
         "bab": "high",
@@ -60,7 +64,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -417,7 +423,7 @@
       "_key": "!actors.items!qnUh55o0KAynsAL3.vgMfsLGpbjDgFyJn",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -452,6 +458,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -478,7 +488,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -706,6 +718,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -734,7 +752,7 @@
       "_key": "!actors.items!qnUh55o0KAynsAL3.V3i755U6e2BIKmlo",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -769,6 +787,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -795,7 +817,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -1027,6 +1051,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1059,7 +1089,7 @@
       "_key": "!actors.items!qnUh55o0KAynsAL3.Iv2qXqoJ9wYmJsbA",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1079,6 +1109,10 @@
       "sort": 0,
       "system": {
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "attackNotes": "",
         "bonus": {
           "_deprecated": true,
@@ -1100,7 +1134,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -1208,6 +1244,33 @@
           "subType": "simple",
           "uniqueId": ""
         },
+        "intelligent": {
+          "alignment": "nn",
+          "cha": 10,
+          "dedicatedPower": "",
+          "egoOverride": null,
+          "empathy": false,
+          "enabled": false,
+          "hasSpecialPurpose": false,
+          "int": 10,
+          "languages": "",
+          "personality": "",
+          "powers": [],
+          "readLanguages": false,
+          "readMagic": false,
+          "senses": {
+            "blindsight": 0,
+            "darkvision": 30,
+            "lowLight": false,
+            "lowLightMultiplier": 2,
+            "tremorsense": 0,
+            "truesight": 0
+          },
+          "specialPurpose": "",
+          "speech": false,
+          "telepathy": false,
+          "wis": 10
+        },
         "light": {
           "alpha": 0.5,
           "animationIntensity": "",
@@ -1232,6 +1295,7 @@
         "melded": false,
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "originId": "",
         "originPack": "",
         "originVersion": 0,
@@ -1298,7 +1362,7 @@
       "_key": "!actors.items!qnUh55o0KAynsAL3.mbV8MnoNiPZE6C7g",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1424,6 +1488,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "originalWeaponCreated": true,
         "originalWeaponId": null,
@@ -1484,6 +1549,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1515,7 +1586,7 @@
       "_key": "!actors.items!qnUh55o0KAynsAL3.AHwhk2cLIoCTVWju",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1535,6 +1606,10 @@
       "sort": 0,
       "system": {
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "attackNotes": "",
         "bonus": {
           "_deprecated": true,
@@ -1556,7 +1631,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [],
         "classSource": "",
@@ -1664,6 +1741,33 @@
           "subType": "martial",
           "uniqueId": ""
         },
+        "intelligent": {
+          "alignment": "nn",
+          "cha": 10,
+          "dedicatedPower": "",
+          "egoOverride": null,
+          "empathy": false,
+          "enabled": false,
+          "hasSpecialPurpose": false,
+          "int": 10,
+          "languages": "",
+          "personality": "",
+          "powers": [],
+          "readLanguages": false,
+          "readMagic": false,
+          "senses": {
+            "blindsight": 0,
+            "darkvision": 30,
+            "lowLight": false,
+            "lowLightMultiplier": 2,
+            "tremorsense": 0,
+            "truesight": 0
+          },
+          "specialPurpose": "",
+          "speech": false,
+          "telepathy": false,
+          "wis": 10
+        },
         "light": {
           "alpha": 0.5,
           "animationIntensity": "",
@@ -1688,6 +1792,7 @@
         "melded": false,
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "originId": "",
         "originPack": "",
         "originVersion": 0,
@@ -1754,7 +1859,7 @@
       "_key": "!actors.items!qnUh55o0KAynsAL3.reeOh9CrbVS6AxGn",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1880,6 +1985,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "originalWeaponCreated": true,
         "originalWeaponId": null,
@@ -1940,6 +2046,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1971,7 +2083,7 @@
       "_key": "!actors.items!qnUh55o0KAynsAL3.urzhtOGphRPjJQgO",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -2086,7 +2198,7 @@
       "_key": "!actors.items!qnUh55o0KAynsAL3.PV454BwOpVXNc0bH",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -2211,7 +2323,8 @@
     "bar2": {
       "attribute": null
     },
-    "detectionModes": [],
+    "depth": 1,
+    "detectionModes": {},
     "displayBars": 40,
     "displayName": 20,
     "disposition": -1,
@@ -2283,9 +2396,6 @@
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "systems/D35E/icons/bestiary/token/azer.png",
@@ -2599,6 +2709,7 @@
         "total": 1,
         "value": 0
       },
+      "maxAoO": 0,
       "maxDex": {
         "encumbrance": null,
         "gear": null,
@@ -2670,27 +2781,42 @@
       "speed": {
         "burrow": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "climb": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "fly": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "maneuverability": "average",
           "run": 0,
           "total": 0
         },
         "land": {
           "base": 20,
+          "cap": 60,
+          "effectiveBase": 30,
+          "isOvercap": false,
           "run": 80,
           "total": 20
         },
         "swim": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         }
@@ -3414,6 +3540,10 @@
       }
     },
     "details": {
+      "actualAlignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
       "advancement": {
         "byClass": true,
         "hd": [],
@@ -3421,6 +3551,11 @@
         "originalHD": 0
       },
       "alignment": "Always lawful neutral",
+      "alignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
+      "alignmentMode": "text",
       "biography": {
         "public": "",
         "value": ""
@@ -3457,6 +3592,11 @@
         "value": "<div topic='Azer' level='2'><table class='table table-sm table-hover' width='100%' border='1' cellpadding='2' cellspacing='2' frame='VOID' rules='ROWS'><tr maxcol='4' curcol='3'><td/><td colspan='2' align='center'><b>Azer</b><br/></td> </tr><tr maxcol='4' curcol='3'><td/><td colspan='2' align='center'>Medium Outsider (Extraplanar, Fire)<br/></td> </tr><tr maxcol='4' curcol='3'><td><b>Hit Dice:</b><br/></td><td colspan='2' align='center'>2d8+2 (11 hp)<br/></td></tr><tr maxcol='4' curcol='3'><td><b>Initiative:</b><br/></td><td colspan='2' align='center'>+1<br/></td></tr><tr maxcol='4' curcol='3'><td><b>Speed:</b><br/></td><td colspan='2' align='center'>20 ft. in scale mail (4 squares); base speed 30 ft.<br/></td></tr><tr maxcol='4' curcol='4'><td><b>Armor Class:</b><br/></td><td>23 (+1 Dex, +6 natural, +4 scale mail, +2 heavy shield), touch 11, flat-footed 22<br/></td><td/></tr><tr maxcol='4' curcol='3'><td><b>Base Attack/Grapple:</b><br/></td><td colspan='2' align='center'>+2/+3<br/></td></tr><tr maxcol='4' curcol='3'><td><b>Attack:</b><br/></td><td colspan='2' align='center'>Warhammer +3 melee (1d8+1/x3 plus 1 fire) or shortspear +3 ranged (1d6+1 plus 1 fire)<br/></td></tr><tr maxcol='4' curcol='3'><td><b>Full Attack:</b><br/></td><td colspan='2' align='center'>Warhammer +3 melee (1d8+1/x3 plus 1 fire) or shortspear +3 ranged (1d6+1 plus 1 fire)<br/></td></tr><tr maxcol='4' curcol='3'><td><b>Space/Reach:</b><br/></td><td colspan='2' align='center'>5 ft./5 ft.<br/></td></tr><tr maxcol='4' curcol='3'><td><b>Special Attacks:</b><br/></td><td colspan='2' align='center'>Heat<br/></td></tr><tr maxcol='4' curcol='3'><td><b>Special Qualities:</b><br/></td><td colspan='2' align='center'>Darkvision 60 ft., immunity to fire, spell resistance 13, vulnerability to cold<br/></td></tr><tr maxcol='4' curcol='3'><td><b>Saves:</b><br/></td><td colspan='2' align='center'>Fort +4, Ref +4, Will +4<br/></td></tr><tr maxcol='4' curcol='3'><td><b>Abilities:</b><br/></td><td colspan='2' align='center'>Str 13, Dex 13, Con 13, Int 12, Wis 12, Cha 9<br/></td></tr><tr maxcol='4' curcol='3'><td><b>Skills:</b><br/></td><td colspan='2' align='center'>Appraise +6, Climb +0, Craft (any two) +6, Hide +0, Jump -6, Listen +6, Search +6, Spot +6<br/></td></tr><tr maxcol='4' curcol='3'><td><b>Feats:</b><br/></td><td colspan='2' align='center'>Power Attack<br/></td></tr><tr maxcol='4' curcol='3'><td><b>Environment:</b><br/></td><td colspan='2' align='center'>Elemental Plane of Fire<br/></td></tr><tr maxcol='4' curcol='3'><td><b>Organization:</b><br/></td><td colspan='2' align='center'>Solitary, pair, team (3-4), squad (11-20 plus 2 3rd-level sergeants and 1 leader of 3rd-6th level), or clan (30-100 plus 50% noncombatants plus 1 3rd-level sergeant per 20 adults, 5 5th-level lieutenants, and 3 7th-level captains)<br/></td></tr><tr maxcol='4' curcol='3'><td><b>Challenge Rating:</b><br/></td><td colspan='2' align='center'>2<br/></td></tr><tr maxcol='4' curcol='3'><td><b>Treasure:</b><br/></td><td colspan='2' align='center'>Standard coins; double goods (nonflammables only); standard items (nonflammables only)<br/></td></tr><tr maxcol='4' curcol='3'><td><b>Alignment:</b><br/></td><td colspan='2' align='center'>Always lawful neutral<br/></td></tr><tr maxcol='4' curcol='3'><td><b>Advancement:</b><br/></td><td colspan='2' align='center'>By character class<br/></td></tr><tr maxcol='4' curcol='3'><td><b>Level Adjustment:</b><br/></td><td colspan='2' align='center'>+4<br/></td></tr></table><p>Azers are dwarflike beings native to the Elemental Plane of Fire. They wear kilts of brass, bronze, or copper, and speak Ignan and Common.</p><div topic='Combat' level='5'><p><h2>Combat</h2></p><p>Azers use broad-headed spears or well-crafted hammers in combat. When unarmed, they attempt to grapple foes.</p><p>Although unfriendly and taciturn, azers rarely provoke a fight except to relieve a foe of gems, which they love. If threatened, they fight to the death, but they see the value of taking prisoners themselves.</p><div topic='Heat' level='8'><p><b>Heat (Ex):</b> An azer's body is intensely hot, so its unarmed attacks deal extra fire damage. Its metallic weapons also conduct this heat.</p><p/></div></div><div topic='Azers as Characters' level='3'><p><h4>Azers as Characters</h4></p><p>Azer characters possess the following racial traits.</p><ul> <li>+2 Strength, +2 Dexterity, +2 Constitution, +2 Intelligence, +2 Wisdom, -2 Charisma.</li> <li>Medium size.</li> <li>An azer's base land speed is 30 feet.</li> <li>Darkvision: Azers can see in the dark up to 60 feet.</li> <li>Racial Hit Dice: An azer begins with two levels of outsider, which provide 2d8 Hit Dice, a base attack bonus of +2, and base saving throw bonuses of Fort +3, Ref +3, and Will +3.</li> <li>Racial Skills: An azer's outsider levels give it skill points equal to 5 x (8 + Int modifier). Its class skills are Appraise, Climb, Craft, Hide, Jump, Listen, Search, and Spot.</li> <li>Racial Feats: An azer's outsider levels give it one feat.</li> <li>+6 natural armor bonus.</li> <li>Special Attacks (see above): Heat.</li> <li>Special Qualities (see above): Immunity to fire, spell resistance equal to 13 + class levels, vulnerability to cold.</li> <li>Automatic Languages: Common, Ignan. Bonus Languages: Abyssal, Aquan, Auran, Celestial, Infernal, Terran.</li> <li>Favored Class: Fighter.</li> <li>Level adjustment +4.</li></ul><p/></div></div>    "
       },
       "totalCr": 2,
+      "treasure": {
+        "coins": 100,
+        "goods": 100,
+        "items": 100
+      },
       "type": "Extraplanar, Fire",
       "xp": {
         "value": 10
@@ -4282,6 +4422,23 @@
         "value": 0,
         "visibility": "default"
       }
+    },
+    "slotCapacities": {
+      "armor": 1,
+      "belt": 1,
+      "body": 1,
+      "chest": 1,
+      "eyes": 1,
+      "feet": 1,
+      "hands": 1,
+      "head": 1,
+      "headband": 1,
+      "neck": 1,
+      "ring": 2,
+      "shield": 1,
+      "shoulders": 1,
+      "slotless": 999,
+      "wrists": 1
     },
     "staticBonus": {
       "ac": 0,

@@ -3,14 +3,14 @@
   "_key": "!items!lWOcM2Z4AFPcqEYZ",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
-    "createdTime": null,
+    "coreVersion": "14.368",
+    "createdTime": 1791453134500,
     "duplicateSource": null,
     "exportSource": null,
-    "lastModifiedBy": null,
-    "modifiedTime": null,
-    "systemId": null,
-    "systemVersion": null
+    "lastModifiedBy": "NIbWooaXJQj4hIiS",
+    "modifiedTime": 1791453134500,
+    "systemId": "D35E",
+    "systemVersion": "3.1.0"
   },
   "effects": [],
   "flags": {},
@@ -38,7 +38,12 @@
       "type": ""
     },
     "addedLevel": 0,
+    "alignmentChange": {
+      "goodEvil": "",
+      "lawChaos": ""
+    },
     "allowedTypes": [],
+    "ammoDamageParts": [],
     "attack": {
       "parts": []
     },
@@ -63,7 +68,9 @@
       "noStr": false,
       "oneCha": false,
       "oneInt": false,
-      "oneWis": false
+      "oneWis": false,
+      "zeroDex": false,
+      "zeroStr": false
     },
     "changes": [],
     "classSource": "",
@@ -181,7 +188,7 @@
     "nameFromFormula": false,
     "originId": "",
     "originPack": "",
-    "originVersion": 100,
+    "originVersion": 101,
     "perRoundActions": [],
     "possibleUpdate": false,
     "pr": false,
@@ -190,6 +197,7 @@
     "properties": {
       "def": false,
       "dis": false,
+      "dnc": false,
       "inc": false,
       "kee": false,
       "mnk": false,
@@ -207,9 +215,7 @@
       "enabled": false,
       "formula": ""
     },
-    "requirements": [
-      "CL 8th; Craft Magic Arms and Armor, summon monster I"
-    ],
+    "requirements": [],
     "requiresPsionicFocus": false,
     "resalePrice": null,
     "resistances": [],
@@ -233,6 +239,12 @@
     "specialActions": [],
     "sr": false,
     "summon": [],
+    "summonWeapon": {
+      "attackActionType": "mwak",
+      "behavior": "",
+      "cooldownRounds": 4,
+      "dancingRounds": 4
+    },
     "tags": [],
     "target": {
       "value": ""

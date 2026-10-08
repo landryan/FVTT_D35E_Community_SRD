@@ -3,7 +3,7 @@
   "_key": "!actors!2TyTAjFIjk1vIoDQ",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "createdTime": null,
     "duplicateSource": null,
     "exportSource": null,
@@ -22,7 +22,7 @@
       "_key": "!actors.items!2TyTAjFIjk1vIoDQ.EwQ9YQf5lZTkFvtx",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -43,6 +43,10 @@
       "system": {
         "addedAbilities": [],
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "allSpellsKnown": false,
         "automaticFeatures": false,
         "bab": "med",
@@ -60,7 +64,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -403,7 +409,7 @@
       "_key": "!actors.items!2TyTAjFIjk1vIoDQ.G5HdEqyeRMG09U6S",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -532,6 +538,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "originalWeaponCreated": false,
         "originalWeaponId": null,
@@ -577,6 +584,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -608,7 +621,7 @@
       "_key": "!actors.items!2TyTAjFIjk1vIoDQ.XEsFjNRjZzwqApDA",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -723,7 +736,7 @@
       "_key": "!actors.items!2TyTAjFIjk1vIoDQ.13WFC8r8G0kuEdHC",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -857,6 +870,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "nonLethalNoPenalty": false,
         "originalWeaponCreated": false,
@@ -926,6 +940,12 @@
         ],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -967,7 +987,8 @@
     "bar2": {
       "attribute": null
     },
-    "detectionModes": [],
+    "depth": 1,
+    "detectionModes": {},
     "displayBars": 40,
     "displayName": 20,
     "disposition": -1,
@@ -1039,9 +1060,6 @@
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "systems/D35E/icons/bestiary/token/fungus.png",
@@ -1355,6 +1373,7 @@
         "total": -1,
         "value": 0
       },
+      "maxAoO": 0,
       "maxDex": {
         "encumbrance": null,
         "gear": null,
@@ -1426,27 +1445,42 @@
       "speed": {
         "burrow": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "climb": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "fly": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "maneuverability": "average",
           "run": 0,
           "total": 0
         },
         "land": {
           "base": 10,
+          "cap": 60,
+          "effectiveBase": 30,
+          "isOvercap": false,
           "run": 40,
           "total": 10
         },
         "swim": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         }
@@ -2145,6 +2179,10 @@
       }
     },
     "details": {
+      "actualAlignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
       "advancement": {
         "byClass": false,
         "hd": [
@@ -2158,6 +2196,11 @@
         "originalHD": 0
       },
       "alignment": "Always neutral",
+      "alignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
+      "alignmentMode": "text",
       "biography": {
         "public": "",
         "value": ""
@@ -2194,6 +2237,11 @@
         "value": "<div topic='Fungus' level='2'><div topic='Combat' level='5'><p><h2>Combat</h2></p><p>Shriekers and violet fungi often work together to attract and kill prey. When the shriekers' hellish racket attracts a curious creature, the violet fungus tries to kill it. Both creatures enjoy the fruits of a successful hunt.</p></div><div topic='Shrieker' level='3'><p><h4>Shrieker</h4></p><p>A shrieker is a stationary fungus that emits a loud noise to attract prey or when disturbed. Shriekers live in dark, subterranean places, often in the company of violet fungi, whose poison they are immune to.</p><p>Shriekers come in of shades of purple.</p><div topic='Combat' level='5'><p><h2>Combat</h2></p><p>A shrieker has no means of attack. Instead, it lures prey to its vicinity by emitting a loud noise.</p><div topic='Shriek' level='8'><p><b>Shriek (Ex):</b> Movement or a light source within 10 feet of a shrieker causes the fungus to emit a piercing sound that lasts for 1d3 rounds. The sound attracts nearby creatures that are disposed to investigate it. Some creatures that live near shriekers come to learn that the fungus's noise means there is food nearby.</p></div></div></div><div topic='Violet Fungus' level='3'><p><h4>Violet Fungus</h4></p><p>Violet fungi resemble shriekers and are often found growing among them.</p><p>A violet fungi's coloration ranges from purple overall to dull gray or violet covered with purple spots.</p><div topic='Combat' level='5'><p><h2>Combat</h2></p><p>A violet fungus flails about with its tentacles at living creatures that come within its reach.</p><div topic='Poison' level='8'><p><b>Poison (Ex):</b> Injury, Fortitude DC 14, initial and secondary damage 1d4 Str and 1d4 Con. The save DC is Constitution-based.</p><p/></div></div></div></div>    "
       },
       "totalCr": 3,
+      "treasure": {
+        "coins": 100,
+        "goods": 100,
+        "items": 100
+      },
       "type": "None",
       "xp": {
         "value": 10
@@ -3024,6 +3072,23 @@
         "value": 0,
         "visibility": "default"
       }
+    },
+    "slotCapacities": {
+      "armor": 1,
+      "belt": 1,
+      "body": 1,
+      "chest": 1,
+      "eyes": 1,
+      "feet": 1,
+      "hands": 1,
+      "head": 1,
+      "headband": 1,
+      "neck": 1,
+      "ring": 2,
+      "shield": 1,
+      "shoulders": 1,
+      "slotless": 999,
+      "wrists": 1
     },
     "staticBonus": {
       "ac": 0,

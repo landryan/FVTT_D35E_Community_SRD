@@ -3,7 +3,7 @@
   "_key": "!actors!LkypvTenA3V5cC7U",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "createdTime": null,
     "duplicateSource": null,
     "exportSource": null,
@@ -22,7 +22,7 @@
       "_key": "!actors.items!LkypvTenA3V5cC7U.9wR7pnJydVUap9gW",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -43,6 +43,10 @@
       "system": {
         "addedAbilities": [],
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "allSpellsKnown": false,
         "automaticFeatures": false,
         "bab": "low",
@@ -60,7 +64,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -421,7 +427,7 @@
       "_key": "!actors.items!LkypvTenA3V5cC7U.n5XUhMtH7QKuE4fn",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -456,6 +462,10 @@
           "type": ""
         },
         "addedLevel": 0,
+        "alignmentChange": {
+          "goodEvil": "",
+          "lawChaos": ""
+        },
         "associations": {
           "classes": []
         },
@@ -482,7 +492,9 @@
           "oneCha": false,
           "oneInt": false,
           "oneWis": false,
-          "uncannyDodge": false
+          "uncannyDodge": false,
+          "zeroDex": false,
+          "zeroStr": false
         },
         "changes": [
           [
@@ -721,6 +733,12 @@
         "spellSpecializationName": "",
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -753,7 +771,7 @@
       "_key": "!actors.items!LkypvTenA3V5cC7U.wSHIRfF2iFEecLAM",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -882,6 +900,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "originalWeaponCreated": false,
         "originalWeaponId": null,
@@ -927,6 +946,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -958,7 +983,7 @@
       "_key": "!actors.items!LkypvTenA3V5cC7U.7Ktkh5f0DeGGOgiz",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1087,6 +1112,7 @@
         },
         "nameFormula": "",
         "nameFromFormula": false,
+        "noAmmoRequired": false,
         "nonLethal": false,
         "originalWeaponCreated": false,
         "originalWeaponId": null,
@@ -1132,6 +1158,12 @@
         "specialActions": [],
         "sr": false,
         "summon": [],
+        "summonWeapon": {
+          "attackActionType": "mwak",
+          "behavior": "",
+          "cooldownRounds": 4,
+          "dancingRounds": 4
+        },
         "tags": [],
         "target": {
           "value": ""
@@ -1163,7 +1195,7 @@
       "_key": "!actors.items!LkypvTenA3V5cC7U.WwieQ2AssdZpyVnW",
       "_stats": {
         "compendiumSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.368",
         "createdTime": null,
         "duplicateSource": null,
         "exportSource": null,
@@ -1288,7 +1320,8 @@
     "bar2": {
       "attribute": null
     },
-    "detectionModes": [],
+    "depth": 2,
+    "detectionModes": {},
     "displayBars": 40,
     "displayName": 20,
     "disposition": -1,
@@ -1360,9 +1393,6 @@
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "src": "systems/D35E/icons/bestiary/token/skeleton.png",
@@ -1676,6 +1706,7 @@
         "total": 7,
         "value": 0
       },
+      "maxAoO": 0,
       "maxDex": {
         "encumbrance": null,
         "gear": null,
@@ -1747,27 +1778,42 @@
       "speed": {
         "burrow": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "climb": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         },
         "fly": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "maneuverability": "average",
           "run": 0,
           "total": 0
         },
         "land": {
           "base": 30,
+          "cap": 60,
+          "effectiveBase": 30,
+          "isOvercap": false,
           "run": 120,
           "total": 30
         },
         "swim": {
           "base": 0,
+          "cap": null,
+          "effectiveBase": 0,
+          "isOvercap": false,
           "run": 0,
           "total": 0
         }
@@ -2479,6 +2525,10 @@
       }
     },
     "details": {
+      "actualAlignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
       "advancement": {
         "byClass": false,
         "hd": [],
@@ -2486,6 +2536,11 @@
         "originalHD": 0
       },
       "alignment": "Always neutral evil",
+      "alignmentAxes": {
+        "goodEvil": "n",
+        "lawChaos": "n"
+      },
+      "alignmentMode": "text",
       "biography": {
         "public": "",
         "value": ""
@@ -2522,6 +2577,11 @@
         "value": "<div topic='Creating A Skeleton' level='3'><p><h4>Creating A Skeleton</h4></p><p>'Skeleton' is an acquired template that can be added to any corporeal creature (other than an undead) that has a skeletal system (referred to hereafter as the base creature).</p><div topic='Size and Type' level='8'><p><b>Size and Type:</b> The creature's type changes to undead. It retains any subtype except for alignment subtypes (such as good) and subtypes that indicate kind. It does not gain the augmented subtype. It uses all the base creature's statistics and special abilities except as noted here.</p></div><div topic='Hit Dice' level='8'><p><b>Hit Dice:</b> Drop any Hit Dice gained from class levels (to a minimum of 1) and raise remaining Hit Dice to d12s. If the creature has more than 20 Hit Dice, it can't be made into a skeleton by the <i>animate dead</i> spell.</p></div><div topic='Speed' level='8'><p><b>Speed:</b> Winged skeletons can't use their wings to fly. If the base creature flew magically, so can the skeleton.</p></div><div topic='Armor Class' level='8'><p><b>Armor Class:</b> Natural armor bonus changes to a number based on the skeleton's size:</p></div><div topic='Attacks' level='8'><p><b>Attacks:</b> A skeleton retains all the natural weapons, manufactured weapon attacks, and weapon proficiencies of the base creature, except for attacks that can't work without flesh. A creature with hands gains one claw attack per hand; the skeleton can strike with each of its claw attacks at its full attack bonus. A skeleton's base attack bonus is equal to 1/2 its Hit Dice.</p></div><div topic='Damage' level='8'><p><b>Damage:</b> Natural and manufactured weapons deal damage normally. A claw attack deals damage depending on the skeleton's size. (If the base creature already had claw attacks with its hands, use the skeleton claw damage only if it's better.)</p></div><div topic='Special Attacks' level='8'><p><b>Special Attacks:</b> A skeleton retains none of the base creature's special attacks.</p></div><div topic='Special Qualities' level='8'><p><b>Special Qualities:</b> A skeleton loses most special qualities of the base creature. It retains any extraordinary special qualities that improve its melee or ranged attacks. A skeleton gains the following special qualities.</p><p><i>Immunity to Cold (Ex):</i> Skeletons are not affected by cold.</p><p><i>Damage Reduction 5/Bludgeoning:</i> Skeletons lack flesh or internal organs.</p></div><div topic='Saves' level='8'><p><b>Saves:</b> Base save bonuses are Fort +1/3 HD, Ref +1/3 HD, and Will +1/2 HD + 2.</p></div><div topic='Abilities' level='8'><p><b>Abilities:</b> A skeleton's Dexterity increases by +2, it has no Constitution or Intelligence score, its Wisdom changes to 10, and its Charisma changes to 1.</p></div><div topic='Skills' level='8'><p><b>Skills:</b> A skeleton has no skills.</p></div><div topic='Feats' level='8'><p><b>Feats:</b> A skeleton loses all feats of the base creature and gains Improved Initiative.</p></div><div topic='Environment' level='8'><p><b>Environment</b>: Any, usually same as base creature.</p></div><div topic='Organization' level='8'><p><b>Organization:</b> Any.</p></div><div topic='Challenge Rating' level='8'><p><b>Challenge Rating:</b> Depends on Hit Dice, as follows:</p></div><div topic='Treasure' level='8'><p><b>Treasure:</b> None.</p></div><div topic='Alignment' level='8'><p><b>Alignment:</b> Always neutral evil.</p></div><div topic='Advancement' level='8'><p><b>Advancement:</b> As base creature (or - if the base creature advances by character class).</p></div><div topic='Level Adjustment' level='8'><p><b>Level Adjustment:</b> -.</p><p/><p/><p/><p/></div></div>    "
       },
       "totalCr": 3,
+      "treasure": {
+        "coins": 100,
+        "goods": 100,
+        "items": 100
+      },
       "type": "None",
       "xp": {
         "value": 10
@@ -3358,6 +3418,23 @@
         "value": 0,
         "visibility": "default"
       }
+    },
+    "slotCapacities": {
+      "armor": 1,
+      "belt": 1,
+      "body": 1,
+      "chest": 1,
+      "eyes": 1,
+      "feet": 1,
+      "hands": 1,
+      "head": 1,
+      "headband": 1,
+      "neck": 1,
+      "ring": 2,
+      "shield": 1,
+      "shoulders": 1,
+      "slotless": 999,
+      "wrists": 1
     },
     "staticBonus": {
       "ac": 0,
