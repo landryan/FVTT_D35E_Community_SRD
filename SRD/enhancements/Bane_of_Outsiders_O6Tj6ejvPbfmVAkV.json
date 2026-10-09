@@ -3,12 +3,12 @@
   "_key": "!items!O6Tj6ejvPbfmVAkV",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
-    "createdTime": null,
+    "coreVersion": "14.368",
+    "createdTime": 1791495527064,
     "duplicateSource": null,
     "exportSource": null,
-    "lastModifiedBy": null,
-    "modifiedTime": null,
+    "lastModifiedBy": "NIbWooaXJQj4hIiS",
+    "modifiedTime": 1791495527064,
     "systemId": null,
     "systemVersion": null
   },
@@ -20,7 +20,7 @@
   "ownership": {
     "default": 0
   },
-  "sort": 0,
+  "sort": 600000,
   "system": {
     "ability": {
       "attack": null,
@@ -38,6 +38,10 @@
       "type": ""
     },
     "addedLevel": 0,
+    "alignmentChange": {
+      "goodEvil": "",
+      "lawChaos": ""
+    },
     "allowedTypes": [],
     "attack": {
       "parts": []
@@ -63,7 +67,9 @@
       "noStr": false,
       "oneCha": false,
       "oneInt": false,
-      "oneWis": false
+      "oneWis": false,
+      "zeroDex": false,
+      "zeroStr": false
     },
     "changes": [],
     "classSource": "",
@@ -207,7 +213,9 @@
       "enabled": false,
       "formula": ""
     },
-
+    "requirements": [
+      "CL 8th; Craft Magic Arms and Armor, summon monster I"
+    ],
     "requiresPsionicFocus": false,
     "resalePrice": null,
     "resistances": [],
@@ -231,6 +239,12 @@
     "specialActions": [],
     "sr": false,
     "summon": [],
+    "summonWeapon": {
+      "attackActionType": "mwak",
+      "behavior": "",
+      "cooldownRounds": 4,
+      "dancingRounds": 4
+    },
     "tags": [],
     "target": {
       "value": ""
