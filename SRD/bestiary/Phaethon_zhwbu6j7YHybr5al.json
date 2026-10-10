@@ -1,35 +1,59 @@
 {
-  "_id": "o8qMNwfIaf47bR0U",
-  "_key": "!actors!o8qMNwfIaf47bR0U",
+  "_id": "zhwbu6j7YHybr5al",
+  "_key": "!actors!zhwbu6j7YHybr5al",
   "_stats": {
     "compendiumSource": null,
     "coreVersion": "14.368",
-    "createdTime": null,
+    "createdTime": 1791654542905,
     "duplicateSource": null,
     "exportSource": null,
-    "lastModifiedBy": null,
-    "modifiedTime": null,
-    "systemId": null,
-    "systemVersion": null
+    "lastModifiedBy": "NIbWooaXJQj4hIiS",
+    "modifiedTime": 1791654543130,
+    "systemId": "D35E",
+    "systemVersion": "3.1.0"
   },
   "effects": [],
-  "flags": {},
+  "flags": {
+    "core": {},
+    "D35E": {
+      "firstChangeTargetSelectableOnDescription": false,
+      "hasted": false,
+      "heavyArmorFullSpeed": false,
+      "improvedMultiattack": false,
+      "loseDexToAC": false,
+      "mediumArmorFullSpeed": false,
+      "multiAttack": false,
+      "multiweaponAttack": false,
+      "naturalAttackCount": 0,
+      "noCon": false,
+      "noDex": false,
+      "noEncumbrance": false,
+      "noInt": false,
+      "noStr": false,
+      "oneCha": false,
+      "oneInt": false,
+      "oneWis": false,
+      "uncannyDodge": false,
+      "zeroDex": false,
+      "zeroStr": false
+    }
+  },
   "folder": "h7FMjrU2dQXVxN9C",
   "img": "systems/D35E/icons/bestiary/token/outsider.png",
   "items": [
     {
       "_id": "L8uBJIf4xJ1uCQYh",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.L8uBJIf4xJ1uCQYh",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.L8uBJIf4xJ1uCQYh",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -41,6 +65,7 @@
       },
       "sort": 0,
       "system": {
+        "activateActions": [],
         "addedAbilities": [],
         "addedLevel": 0,
         "alignmentChange": {
@@ -48,10 +73,14 @@
           "lawChaos": ""
         },
         "allSpellsKnown": false,
+        "attackParts": [],
         "automaticFeatures": false,
         "bab": "high",
         "changeFlags": {
+          "firstChangeTargetSelectableOnDescription": false,
+          "hasted": false,
           "heavyArmorFullSpeed": false,
+          "improvedMultiattack": false,
           "loseDexToAC": false,
           "mediumArmorFullSpeed": false,
           "multiAttack": false,
@@ -68,20 +97,7 @@
           "zeroDex": false,
           "zeroStr": false
         },
-        "changes": [
-          [
-            "34",
-            "ac",
-            "nac",
-            "racial"
-          ],
-          [
-            "46",
-            "misc",
-            "spellResistance",
-            "untyped"
-          ]
-        ],
+        "changes": [],
         "classSkills": {
           "": true,
           "acr": false,
@@ -129,6 +145,7 @@
           "rid": false,
           "sen": true,
           "slt": false,
+          "spk": false,
           "spl": false,
           "spt": true,
           "src": true,
@@ -169,11 +186,15 @@
           "maxFormula": ""
         },
         "combatChangesUsesCost": "chargesPerUse",
+        "conditionals": [],
         "conditionFlags": {
           "dazzled": false,
           "polymorphed": false,
           "wildshaped": false
         },
+        "container": "None",
+        "containerWeightless": false,
+        "contextNotes": [],
         "counterName": "",
         "createdBy": "",
         "creationChanges": [],
@@ -184,18 +205,11 @@
         "customReferenceId": "",
         "customTag": "",
         "damage": {
+          "alternativeParts": [],
           "parts": []
         },
-        "damageReduction": [
-          [
-            "15",
-            "epiclawful"
-          ],
-          [
-            "15",
-            "epic"
-          ]
-        ],
+        "damageReduction": [],
+        "deactivateActions": [],
         "deckHandSizeFormula": "0",
         "deckPrestigeClass": false,
         "description": {
@@ -223,7 +237,8 @@
         "hd": 8,
         "hdReplace": "",
         "hdReplaceRacialOnly": false,
-        "hp": 279,
+        "hp": 496,
+        "identifiedName": "Outsider*",
         "index": {
           "subType": null,
           "uniqueId": ""
@@ -244,6 +259,7 @@
         "originId": "",
         "originPack": "",
         "originVersion": 1,
+        "perRoundActions": [],
         "possibleUpdate": false,
         "powerPointBonusBaseAbility": "",
         "powerPointTable": {
@@ -315,20 +331,7 @@
         "prestigeLevels": 0,
         "psionic": "",
         "requirements": [],
-        "resistances": [
-          [
-            "",
-            "energy-fire",
-            true,
-            false
-          ],
-          [
-            "",
-            "energy-cold",
-            false,
-            true
-          ]
-        ],
+        "resistances": [],
         "savingThrows": {
           "fort": {
             "value": "high"
@@ -345,6 +348,7 @@
         "sneakAttackFormula": "",
         "sneakAttackGroup": "",
         "source": "",
+        "specialActions": [],
         "spellbook": [
           {
             "level": 0,
@@ -420,6 +424,7 @@
         "spellsKnownPerLevel": [],
         "spellslotAbility": "",
         "spellsPerLevel": [],
+        "summon": [],
         "tags": [],
         "turnUndeadLevelFormula": "",
         "uniqueId": "",
@@ -429,17 +434,17 @@
     },
     {
       "_id": "q4jjmSxQuI6jZgge",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.q4jjmSxQuI6jZgge",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.q4jjmSxQuI6jZgge",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -758,17 +763,17 @@
     },
     {
       "_id": "1AgWnnzoQUl3eg8s",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.1AgWnnzoQUl3eg8s",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.1AgWnnzoQUl3eg8s",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -1087,17 +1092,17 @@
     },
     {
       "_id": "ixjVnShudU8f0LeF",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.ixjVnShudU8f0LeF",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.ixjVnShudU8f0LeF",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -1416,17 +1421,17 @@
     },
     {
       "_id": "7dqKg1elGMCcZ7L2",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.7dqKg1elGMCcZ7L2",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.7dqKg1elGMCcZ7L2",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -1745,17 +1750,17 @@
     },
     {
       "_id": "JKPELb8FAB10lORP",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.JKPELb8FAB10lORP",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.JKPELb8FAB10lORP",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -2074,17 +2079,17 @@
     },
     {
       "_id": "QhvxGyskMOR5WeOZ",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.QhvxGyskMOR5WeOZ",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.QhvxGyskMOR5WeOZ",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -2314,17 +2319,17 @@
     },
     {
       "_id": "O5SglKaKtCWzjaZR",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.O5SglKaKtCWzjaZR",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.O5SglKaKtCWzjaZR",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -2554,17 +2559,17 @@
     },
     {
       "_id": "ysBoKYn0eDmXSCsO",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.ysBoKYn0eDmXSCsO",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.ysBoKYn0eDmXSCsO",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -2790,17 +2795,17 @@
     },
     {
       "_id": "RcHAtF8ExVbkXM9x",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.RcHAtF8ExVbkXM9x",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.RcHAtF8ExVbkXM9x",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -3039,17 +3044,17 @@
     },
     {
       "_id": "JuTZcnMhW9wypR6T",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.JuTZcnMhW9wypR6T",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.JuTZcnMhW9wypR6T",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -3283,17 +3288,17 @@
     },
     {
       "_id": "OuqgxStxaGl2BB7v",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.OuqgxStxaGl2BB7v",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.OuqgxStxaGl2BB7v",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -3530,17 +3535,17 @@
     },
     {
       "_id": "sLXGeTqCSRTyuOxO",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.sLXGeTqCSRTyuOxO",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.sLXGeTqCSRTyuOxO",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -3859,17 +3864,17 @@
     },
     {
       "_id": "xyHlStPoM9fVENsv",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.xyHlStPoM9fVENsv",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.xyHlStPoM9fVENsv",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -4188,17 +4193,17 @@
     },
     {
       "_id": "7pQ5kkkMINE3JiY7",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.7pQ5kkkMINE3JiY7",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.7pQ5kkkMINE3JiY7",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -4517,17 +4522,17 @@
     },
     {
       "_id": "TugG641obCCwj7SO",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.TugG641obCCwj7SO",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.TugG641obCCwj7SO",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -4867,17 +4872,17 @@
     },
     {
       "_id": "3yZsRbbPU9P8c8hm",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.3yZsRbbPU9P8c8hm",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.3yZsRbbPU9P8c8hm",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -5209,17 +5214,17 @@
     },
     {
       "_id": "UeZMUbGHMEZ9pNP3",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.UeZMUbGHMEZ9pNP3",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.UeZMUbGHMEZ9pNP3",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -5546,17 +5551,17 @@
     },
     {
       "_id": "9k3yNMt0LVqOgf0d",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.9k3yNMt0LVqOgf0d",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.9k3yNMt0LVqOgf0d",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -5890,17 +5895,17 @@
     },
     {
       "_id": "vbFrh0JN3OWSPXTb",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.vbFrh0JN3OWSPXTb",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.vbFrh0JN3OWSPXTb",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -6234,17 +6239,17 @@
     },
     {
       "_id": "GHQpWVyGpWCoWwD2",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.GHQpWVyGpWCoWwD2",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.GHQpWVyGpWCoWwD2",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -6578,17 +6583,17 @@
     },
     {
       "_id": "3KXGjZ9ylasqcKuo",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.3KXGjZ9ylasqcKuo",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.3KXGjZ9ylasqcKuo",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -6922,17 +6927,17 @@
     },
     {
       "_id": "MAsVPaWjuHW7Qbke",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.MAsVPaWjuHW7Qbke",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.MAsVPaWjuHW7Qbke",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -7259,17 +7264,17 @@
     },
     {
       "_id": "1savOwyg2URk7ztt",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.1savOwyg2URk7ztt",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.1savOwyg2URk7ztt",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -7611,17 +7616,17 @@
     },
     {
       "_id": "yOhdwJiA7q5kYCf6",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.yOhdwJiA7q5kYCf6",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.yOhdwJiA7q5kYCf6",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -7948,17 +7953,17 @@
     },
     {
       "_id": "Tmen2OtuGjKqEr3H",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.Tmen2OtuGjKqEr3H",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.Tmen2OtuGjKqEr3H",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -8285,17 +8290,17 @@
     },
     {
       "_id": "wzZmOVj8eBfxuJrs",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.wzZmOVj8eBfxuJrs",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.wzZmOVj8eBfxuJrs",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -8622,17 +8627,17 @@
     },
     {
       "_id": "bKprlttKHilhXRUv",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.bKprlttKHilhXRUv",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.bKprlttKHilhXRUv",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -8959,17 +8964,17 @@
     },
     {
       "_id": "YQxOUPJzm4V02DO8",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.YQxOUPJzm4V02DO8",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.YQxOUPJzm4V02DO8",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -9296,17 +9301,17 @@
     },
     {
       "_id": "m66rRJTclPSZo31z",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.m66rRJTclPSZo31z",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.m66rRJTclPSZo31z",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -9640,17 +9645,17 @@
     },
     {
       "_id": "X6rEcr7Kyrh7OuOZ",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.X6rEcr7Kyrh7OuOZ",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.X6rEcr7Kyrh7OuOZ",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -9984,17 +9989,17 @@
     },
     {
       "_id": "Sx3opzCrQ1pJTqjl",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.Sx3opzCrQ1pJTqjl",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.Sx3opzCrQ1pJTqjl",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -10328,17 +10333,17 @@
     },
     {
       "_id": "DMc74S9lgR1xzFeb",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.DMc74S9lgR1xzFeb",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.DMc74S9lgR1xzFeb",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -10680,17 +10685,17 @@
     },
     {
       "_id": "G7b1yTrs2s1nulFM",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.G7b1yTrs2s1nulFM",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.G7b1yTrs2s1nulFM",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -11024,17 +11029,17 @@
     },
     {
       "_id": "4m1E5ApDGdZYyxe4",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.4m1E5ApDGdZYyxe4",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.4m1E5ApDGdZYyxe4",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -11368,17 +11373,17 @@
     },
     {
       "_id": "OJfFX3kddewFbJyy",
-      "_key": "!actors.items!o8qMNwfIaf47bR0U.OJfFX3kddewFbJyy",
+      "_key": "!actors.items!zhwbu6j7YHybr5al.OJfFX3kddewFbJyy",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654542905,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654542905,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -11484,7 +11489,8 @@
   ],
   "name": "Phaethon",
   "ownership": {
-    "default": 0
+    "default": 0,
+    "NIbWooaXJQj4hIiS": 3
   },
   "prototypeToken": {
     "actorLink": false,
@@ -11796,7 +11802,7 @@
       "cmdNotes": "",
       "concealment": {
         "total": 0,
-        "value": 0
+        "value": null
       },
       "conditions": {
         "banished": false,
@@ -11847,11 +11853,11 @@
           "medium": 409600
         }
       },
-      "energyDrain": 0,
+      "energyDrain": null,
       "energyResistance": [],
       "fortification": {
         "total": 0,
-        "value": 0
+        "value": null
       },
       "hardness": {
         "formula": "",
@@ -11871,18 +11877,18 @@
       },
       "hp": {
         "base": 0,
-        "max": 1175,
+        "max": 1392,
         "min": -100,
-        "nonlethal": 0,
-        "temp": 0,
-        "value": 1175
+        "nonlethal": null,
+        "temp": null,
+        "value": 1392
       },
       "init": {
         "bonus": 0,
         "total": 15,
         "value": 0
       },
-      "maxAoO": 0,
+      "maxAoO": 1,
       "maxDex": {
         "encumbrance": null,
         "gear": null,
@@ -11894,7 +11900,7 @@
       "mods": {
         "skills": {}
       },
-      "naturalAC": 0,
+      "naturalAC": "34",
       "naturalACTotal": 34,
       "powerPointsTotal": 0,
       "pr": {
@@ -11953,7 +11959,7 @@
       "sneakAttackDiceTotal": 0,
       "speed": {
         "burrow": {
-          "base": 0,
+          "base": null,
           "cap": null,
           "effectiveBase": 0,
           "isOvercap": false,
@@ -11961,7 +11967,7 @@
           "total": 0
         },
         "climb": {
-          "base": 0,
+          "base": null,
           "cap": null,
           "effectiveBase": 0,
           "isOvercap": false,
@@ -11969,7 +11975,7 @@
           "total": 0
         },
         "fly": {
-          "base": 0,
+          "base": null,
           "cap": null,
           "effectiveBase": 0,
           "isOvercap": false,
@@ -11979,14 +11985,14 @@
         },
         "land": {
           "base": 120,
-          "cap": 60,
-          "effectiveBase": 30,
+          "cap": 240,
+          "effectiveBase": 120,
           "isOvercap": false,
           "run": 480,
           "total": 120
         },
         "swim": {
-          "base": 0,
+          "base": null,
           "cap": null,
           "effectiveBase": 0,
           "isOvercap": false,
@@ -12596,7 +12602,7 @@
         }
       },
       "sr": {
-        "formula": "",
+        "formula": "46",
         "total": 46
       },
       "srNotes": "",
@@ -12605,10 +12611,10 @@
       "turnUndeadUsesBonusFormula": "",
       "turnUndeadUsesTotal": 0,
       "vigor": {
-        "max": 279,
+        "max": 496,
         "min": 0,
         "temp": 0,
-        "value": 279
+        "value": 496
       },
       "wounds": {
         "max": 72,
@@ -12634,6 +12640,7 @@
         "hasSpellbook": false,
         "hd": 8,
         "hp": false,
+        "id": "L8uBJIf4xJ1uCQYh",
         "isArcane": false,
         "isPsionSpellcaster": false,
         "isSpellcaster": false,
@@ -12658,31 +12665,223 @@
       }
     },
     "classLevels": 0,
-    "combinedDR": [],
+    "combinedDR": {
+      "any": 0,
+      "types": [
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Adamantine (or equivalent)",
+          "or": false,
+          "uid": "adamantine",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Alchemical Silver (or quivalent)",
+          "or": false,
+          "uid": "silver",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Bludgeoning",
+          "or": false,
+          "uid": "bludgeoning",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Chaotic",
+          "or": false,
+          "uid": "chaotic",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": true,
+          "name": "Cold Iron (or equivalent)",
+          "or": false,
+          "uid": "coldiron",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Epic",
+          "or": true,
+          "uid": "epic",
+          "value": 15
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Evil",
+          "or": false,
+          "uid": "evil",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Good",
+          "or": false,
+          "uid": "good",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Incorporeal",
+          "or": false,
+          "uid": "incorporeal",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": true,
+          "name": "Lawful",
+          "or": true,
+          "uid": "lawful",
+          "value": 15
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Magic",
+          "or": false,
+          "uid": "magic",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Piercing",
+          "or": false,
+          "uid": "piercing",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Slashing",
+          "or": false,
+          "uid": "slashing",
+          "value": 0
+        }
+      ]
+    },
     "combinedResistances": [
       {
-        "immunity": true,
-        "items": [
-          "Outsider*"
-        ],
+        "half": false,
+        "immunity": false,
         "lethal": false,
-        "modified": true,
-        "providedBy": "L8uBJIf4xJ1uCQYh",
+        "name": "Acid",
+        "uid": "energy-acid",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": true,
+        "name": "Cold",
+        "uid": "energy-cold",
+        "value": 0,
+        "vulnerable": true
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Divine",
+        "uid": "energy-divine",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Electricity",
+        "uid": "energy-electric",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Fire",
         "uid": "energy-fire",
         "value": 0,
         "vulnerable": false
       },
       {
+        "half": false,
         "immunity": false,
-        "items": [
-          "Outsider*"
-        ],
         "lethal": false,
-        "modified": true,
-        "providedBy": "L8uBJIf4xJ1uCQYh",
-        "uid": "energy-cold",
+        "name": "Force",
+        "uid": "energy-force",
         "value": 0,
-        "vulnerable": true
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Healing",
+        "uid": "damage-healing",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Negative Energy",
+        "uid": "energy-negative",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Positive Energy",
+        "uid": "energy-positive",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Repair",
+        "uid": "damage-repair",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Sonic",
+        "uid": "energy-sonic",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Untyped Energy",
+        "uid": "damage-untyped-energy",
+        "value": 0,
+        "vulnerable": false
       }
     ],
     "companionAutosync": false,
@@ -12708,9 +12907,118 @@
     "customSkills": {},
     "damage": {
       "nonlethal": {
-        "max": 1175,
+        "max": 1392,
         "value": 0
       }
+    },
+    "damageReduction": {
+      "any": 0,
+      "types": [
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Adamantine (or equivalent)",
+          "or": false,
+          "uid": "adamantine",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Alchemical Silver (or quivalent)",
+          "or": false,
+          "uid": "silver",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Bludgeoning",
+          "or": false,
+          "uid": "bludgeoning",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Chaotic",
+          "or": false,
+          "uid": "chaotic",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": true,
+          "name": "Cold Iron (or equivalent)",
+          "or": false,
+          "uid": "coldiron",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Epic",
+          "or": true,
+          "uid": "epic",
+          "value": 15
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Evil",
+          "or": false,
+          "uid": "evil",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Good",
+          "or": false,
+          "uid": "good",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Incorporeal",
+          "or": false,
+          "uid": "incorporeal",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": true,
+          "name": "Lawful",
+          "or": true,
+          "uid": "lawful",
+          "value": 15
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Magic",
+          "or": false,
+          "uid": "magic",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Piercing",
+          "or": false,
+          "uid": "piercing",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Slashing",
+          "or": false,
+          "uid": "slashing",
+          "value": 0
+        }
+      ]
     },
     "details": {
       "actualAlignmentAxes": {
@@ -12739,7 +13047,10 @@
         "goodEvil": "n",
         "lawChaos": "n"
       },
+      "alignmentCode": "",
+      "alignmentLabel": "Always chaotic evil",
       "alignmentMode": "text",
+      "alignmentUnaligned": 0,
       "biography": {
         "public": "",
         "value": ""
@@ -12786,6 +13097,118 @@
         "value": 10
       }
     },
+    "displayNonRTSkills": false,
+    "energyResistance": [
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Acid",
+        "uid": "energy-acid",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": true,
+        "name": "Cold",
+        "uid": "energy-cold",
+        "value": 0,
+        "vulnerable": true
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Divine",
+        "uid": "energy-divine",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Electricity",
+        "uid": "energy-electric",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Fire",
+        "uid": "energy-fire",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Force",
+        "uid": "energy-force",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Healing",
+        "uid": "damage-healing",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Negative Energy",
+        "uid": "energy-negative",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Positive Energy",
+        "uid": "energy-positive",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Repair",
+        "uid": "damage-repair",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Sonic",
+        "uid": "energy-sonic",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Untyped Energy",
+        "uid": "damage-untyped-energy",
+        "value": 0,
+        "vulnerable": false
+      }
+    ],
+    "isPartyMember": false,
     "jumpSkillAdjust": false,
     "lockEditingByPlayers": false,
     "master": {
@@ -12827,7 +13250,7 @@
         "energyDrainPenalty": 0,
         "mod": -1,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -12843,7 +13266,7 @@
         "energyDrainPenalty": 0,
         "mod": 4,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -12859,7 +13282,7 @@
         "energyDrainPenalty": 0,
         "mod": 7,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -12875,7 +13298,7 @@
         "energyDrainPenalty": 0,
         "mod": 14,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -12907,7 +13330,7 @@
         "energyDrainPenalty": 0,
         "mod": 13,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -12941,7 +13364,7 @@
         "energyDrainPenalty": 0,
         "mod": 7,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -12957,7 +13380,7 @@
         "energyDrainPenalty": 0,
         "mod": 14,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -12973,7 +13396,7 @@
         "energyDrainPenalty": 0,
         "mod": 14,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -12989,7 +13412,7 @@
         "energyDrainPenalty": 0,
         "mod": -1,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -13005,7 +13428,7 @@
         "energyDrainPenalty": 0,
         "mod": 7,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -13021,7 +13444,7 @@
         "energyDrainPenalty": 0,
         "mod": -1,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -13037,7 +13460,7 @@
         "energyDrainPenalty": 0,
         "mod": 14,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -13053,7 +13476,7 @@
         "energyDrainPenalty": 0,
         "mod": 14,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -13069,7 +13492,7 @@
         "energyDrainPenalty": 0,
         "mod": 4,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -13102,7 +13525,7 @@
         "energyDrainPenalty": 0,
         "mod": 14,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -13134,7 +13557,7 @@
         "energyDrainPenalty": 0,
         "mod": -1,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -13150,7 +13573,7 @@
         "energyDrainPenalty": 0,
         "mod": -1,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -13166,7 +13589,7 @@
         "energyDrainPenalty": 0,
         "mod": -1,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -13198,7 +13621,7 @@
         "energyDrainPenalty": 0,
         "mod": -1,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -13214,7 +13637,7 @@
         "energyDrainPenalty": 0,
         "mod": -1,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -13230,7 +13653,7 @@
         "energyDrainPenalty": 0,
         "mod": -1,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -13246,10 +13669,11 @@
         "energyDrainPenalty": 0,
         "mod": -1,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "kpl": {
         "ability": "int",
@@ -13261,7 +13685,7 @@
         "energyDrainPenalty": 0,
         "mod": -1,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -13277,7 +13701,7 @@
         "energyDrainPenalty": 0,
         "mod": -1,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -13293,7 +13717,7 @@
         "energyDrainPenalty": 0,
         "mod": -1,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -13342,7 +13766,7 @@
         "energyDrainPenalty": 0,
         "mod": 7,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -13394,7 +13818,7 @@
         "energyDrainPenalty": 0,
         "mod": -1,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -13410,7 +13834,7 @@
         "energyDrainPenalty": 0,
         "mod": 7,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -13426,7 +13850,7 @@
         "energyDrainPenalty": 0,
         "mod": 4,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -13442,7 +13866,7 @@
         "energyDrainPenalty": 0,
         "mod": 7,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -13458,7 +13882,7 @@
         "energyDrainPenalty": 0,
         "mod": 0,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -13474,7 +13898,7 @@
         "energyDrainPenalty": 0,
         "mod": -1,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -13523,7 +13947,7 @@
         "energyDrainPenalty": 0,
         "mod": 4,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -13539,7 +13963,7 @@
         "energyDrainPenalty": 0,
         "mod": 24,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -13556,7 +13980,7 @@
         "energyDrainPenalty": 0,
         "mod": 9,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -13572,7 +13996,7 @@
         "energyDrainPenalty": 0,
         "mod": 14,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -13588,7 +14012,7 @@
         "energyDrainPenalty": 0,
         "mod": 14,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -13604,7 +14028,7 @@
         "energyDrainPenalty": 0,
         "mod": 7,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -13666,7 +14090,8 @@
       "regenTotal": 25,
       "senses": "",
       "size": "grg",
-      "tokensize": "actor"
+      "tokensize": "actor",
+      "tokenSize": "actor"
     }
   },
   "type": "npc"

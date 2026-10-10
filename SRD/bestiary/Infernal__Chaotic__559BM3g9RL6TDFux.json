@@ -1,35 +1,59 @@
 {
-  "_id": "LH3TZgqGyakp5kkI",
-  "_key": "!actors!LH3TZgqGyakp5kkI",
+  "_id": "559BM3g9RL6TDFux",
+  "_key": "!actors!559BM3g9RL6TDFux",
   "_stats": {
     "compendiumSource": null,
     "coreVersion": "14.368",
-    "createdTime": null,
+    "createdTime": 1791654366705,
     "duplicateSource": null,
     "exportSource": null,
-    "lastModifiedBy": null,
-    "modifiedTime": null,
-    "systemId": null,
-    "systemVersion": null
+    "lastModifiedBy": "NIbWooaXJQj4hIiS",
+    "modifiedTime": 1791654367002,
+    "systemId": "D35E",
+    "systemVersion": "3.1.0"
   },
   "effects": [],
-  "flags": {},
+  "flags": {
+    "core": {},
+    "D35E": {
+      "firstChangeTargetSelectableOnDescription": false,
+      "hasted": false,
+      "heavyArmorFullSpeed": false,
+      "improvedMultiattack": false,
+      "loseDexToAC": false,
+      "mediumArmorFullSpeed": false,
+      "multiAttack": false,
+      "multiweaponAttack": false,
+      "naturalAttackCount": 4,
+      "noCon": false,
+      "noDex": false,
+      "noEncumbrance": false,
+      "noInt": false,
+      "noStr": false,
+      "oneCha": false,
+      "oneInt": false,
+      "oneWis": false,
+      "uncannyDodge": false,
+      "zeroDex": false,
+      "zeroStr": false
+    }
+  },
   "folder": "h7FMjrU2dQXVxN9C",
   "img": "systems/D35E/icons/bestiary/token/outsider.png",
   "items": [
     {
       "_id": "185k5OtkLpZRL5n0",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.185k5OtkLpZRL5n0",
+      "_key": "!actors.items!559BM3g9RL6TDFux.185k5OtkLpZRL5n0",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -41,6 +65,7 @@
       },
       "sort": 0,
       "system": {
+        "activateActions": [],
         "addedAbilities": [],
         "addedLevel": 0,
         "alignmentChange": {
@@ -48,10 +73,14 @@
           "lawChaos": ""
         },
         "allSpellsKnown": false,
+        "attackParts": [],
         "automaticFeatures": false,
         "bab": "high",
         "changeFlags": {
+          "firstChangeTargetSelectableOnDescription": false,
+          "hasted": false,
           "heavyArmorFullSpeed": false,
+          "improvedMultiattack": false,
           "loseDexToAC": false,
           "mediumArmorFullSpeed": false,
           "multiAttack": false,
@@ -68,20 +97,7 @@
           "zeroDex": false,
           "zeroStr": false
         },
-        "changes": [
-          [
-            "34",
-            "ac",
-            "nac",
-            "racial"
-          ],
-          [
-            "38",
-            "misc",
-            "spellResistance",
-            "untyped"
-          ]
-        ],
+        "changes": [],
         "classSkills": {
           "acr": false,
           "apr": false,
@@ -128,6 +144,7 @@
           "rid": false,
           "sen": true,
           "slt": false,
+          "spk": false,
           "spl": true,
           "spt": true,
           "src": true,
@@ -168,11 +185,15 @@
           "maxFormula": ""
         },
         "combatChangesUsesCost": "chargesPerUse",
+        "conditionals": [],
         "conditionFlags": {
           "dazzled": false,
           "polymorphed": false,
           "wildshaped": false
         },
+        "container": "None",
+        "containerWeightless": false,
+        "contextNotes": [],
         "counterName": "",
         "createdBy": "",
         "creationChanges": [],
@@ -183,14 +204,11 @@
         "customReferenceId": "",
         "customTag": "",
         "damage": {
+          "alternativeParts": [],
           "parts": []
         },
-        "damageReduction": [
-          [
-            "35",
-            "+7"
-          ]
-        ],
+        "damageReduction": [],
+        "deactivateActions": [],
         "deckHandSizeFormula": "0",
         "deckPrestigeClass": false,
         "description": {
@@ -218,7 +236,8 @@
         "hd": 8,
         "hdReplace": "",
         "hdReplaceRacialOnly": false,
-        "hp": 180,
+        "hp": 320,
+        "identifiedName": "Outsider*",
         "index": {
           "subType": null,
           "uniqueId": ""
@@ -239,6 +258,7 @@
         "originId": "",
         "originPack": "",
         "originVersion": 1,
+        "perRoundActions": [],
         "possibleUpdate": false,
         "powerPointBonusBaseAbility": "",
         "powerPointTable": {
@@ -327,6 +347,7 @@
         "sneakAttackFormula": "",
         "sneakAttackGroup": "",
         "source": "",
+        "specialActions": [],
         "spellbook": [
           {
             "level": 0,
@@ -402,6 +423,7 @@
         "spellsKnownPerLevel": [],
         "spellslotAbility": "",
         "spellsPerLevel": [],
+        "summon": [],
         "tags": [],
         "turnUndeadLevelFormula": "",
         "uniqueId": "",
@@ -411,17 +433,17 @@
     },
     {
       "_id": "A2aHAyLUfxIUssnb",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.A2aHAyLUfxIUssnb",
+      "_key": "!actors.items!559BM3g9RL6TDFux.A2aHAyLUfxIUssnb",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -740,17 +762,17 @@
     },
     {
       "_id": "W8MMiofW2UscsN64",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.W8MMiofW2UscsN64",
+      "_key": "!actors.items!559BM3g9RL6TDFux.W8MMiofW2UscsN64",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -1069,17 +1091,17 @@
     },
     {
       "_id": "840bkndTnT4KfAB4",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.840bkndTnT4KfAB4",
+      "_key": "!actors.items!559BM3g9RL6TDFux.840bkndTnT4KfAB4",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -1398,17 +1420,17 @@
     },
     {
       "_id": "sacRoqeYXn5MPknI",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.sacRoqeYXn5MPknI",
+      "_key": "!actors.items!559BM3g9RL6TDFux.sacRoqeYXn5MPknI",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -1727,17 +1749,17 @@
     },
     {
       "_id": "Yaur5o0uc3bOGWV1",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.Yaur5o0uc3bOGWV1",
+      "_key": "!actors.items!559BM3g9RL6TDFux.Yaur5o0uc3bOGWV1",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -1971,17 +1993,17 @@
     },
     {
       "_id": "yGZUVGFcr9cWXkmw",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.yGZUVGFcr9cWXkmw",
+      "_key": "!actors.items!559BM3g9RL6TDFux.yGZUVGFcr9cWXkmw",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -2207,17 +2229,17 @@
     },
     {
       "_id": "ntwIH2wmAAI290fu",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.ntwIH2wmAAI290fu",
+      "_key": "!actors.items!559BM3g9RL6TDFux.ntwIH2wmAAI290fu",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -2446,17 +2468,17 @@
     },
     {
       "_id": "ZasDtNvtracEJdtS",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.ZasDtNvtracEJdtS",
+      "_key": "!actors.items!559BM3g9RL6TDFux.ZasDtNvtracEJdtS",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -2690,17 +2712,17 @@
     },
     {
       "_id": "U3EvSZ9IScstnkkj",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.U3EvSZ9IScstnkkj",
+      "_key": "!actors.items!559BM3g9RL6TDFux.U3EvSZ9IScstnkkj",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -2938,17 +2960,17 @@
     },
     {
       "_id": "hoZIoT6R7pt6acoB",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.hoZIoT6R7pt6acoB",
+      "_key": "!actors.items!559BM3g9RL6TDFux.hoZIoT6R7pt6acoB",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -3189,17 +3211,17 @@
     },
     {
       "_id": "nQMi8tLeLNpgOkV9",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.nQMi8tLeLNpgOkV9",
+      "_key": "!actors.items!559BM3g9RL6TDFux.nQMi8tLeLNpgOkV9",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -3433,17 +3455,17 @@
     },
     {
       "_id": "cuWGRTHjUOZR3t3i",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.cuWGRTHjUOZR3t3i",
+      "_key": "!actors.items!559BM3g9RL6TDFux.cuWGRTHjUOZR3t3i",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -3669,17 +3691,17 @@
     },
     {
       "_id": "927WUMIZqnndhh2X",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.927WUMIZqnndhh2X",
+      "_key": "!actors.items!559BM3g9RL6TDFux.927WUMIZqnndhh2X",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -3900,17 +3922,17 @@
     },
     {
       "_id": "j14cTlv4Q6QLgDS2",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.j14cTlv4Q6QLgDS2",
+      "_key": "!actors.items!559BM3g9RL6TDFux.j14cTlv4Q6QLgDS2",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -4131,17 +4153,17 @@
     },
     {
       "_id": "WJ75ePz0b1t0panf",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.WJ75ePz0b1t0panf",
+      "_key": "!actors.items!559BM3g9RL6TDFux.WJ75ePz0b1t0panf",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -4362,17 +4384,17 @@
     },
     {
       "_id": "48WOMALbEWdyJ3y0",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.48WOMALbEWdyJ3y0",
+      "_key": "!actors.items!559BM3g9RL6TDFux.48WOMALbEWdyJ3y0",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -4609,17 +4631,17 @@
     },
     {
       "_id": "2DIvaIiq4NsjsfEF",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.2DIvaIiq4NsjsfEF",
+      "_key": "!actors.items!559BM3g9RL6TDFux.2DIvaIiq4NsjsfEF",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -4848,17 +4870,17 @@
     },
     {
       "_id": "kOYlX153HVqBg8Sz",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.kOYlX153HVqBg8Sz",
+      "_key": "!actors.items!559BM3g9RL6TDFux.kOYlX153HVqBg8Sz",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -5088,17 +5110,17 @@
     },
     {
       "_id": "52S6qQ62eGJrXdBj",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.52S6qQ62eGJrXdBj",
+      "_key": "!actors.items!559BM3g9RL6TDFux.52S6qQ62eGJrXdBj",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -5331,17 +5353,17 @@
     },
     {
       "_id": "NYeAbsDYNpq1Atmx",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.NYeAbsDYNpq1Atmx",
+      "_key": "!actors.items!559BM3g9RL6TDFux.NYeAbsDYNpq1Atmx",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -5579,17 +5601,17 @@
     },
     {
       "_id": "5sB5I4tu0WGP5yEd",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.5sB5I4tu0WGP5yEd",
+      "_key": "!actors.items!559BM3g9RL6TDFux.5sB5I4tu0WGP5yEd",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -5818,17 +5840,17 @@
     },
     {
       "_id": "QdlFjp963Mx0isph",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.QdlFjp963Mx0isph",
+      "_key": "!actors.items!559BM3g9RL6TDFux.QdlFjp963Mx0isph",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -6054,17 +6076,17 @@
     },
     {
       "_id": "9IcQ8nSF36snRnoZ",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.9IcQ8nSF36snRnoZ",
+      "_key": "!actors.items!559BM3g9RL6TDFux.9IcQ8nSF36snRnoZ",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -6285,17 +6307,17 @@
     },
     {
       "_id": "Y3vQsKRHM2NOuliA",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.Y3vQsKRHM2NOuliA",
+      "_key": "!actors.items!559BM3g9RL6TDFux.Y3vQsKRHM2NOuliA",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -6524,17 +6546,17 @@
     },
     {
       "_id": "8sMmXekHUIQazct9",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.8sMmXekHUIQazct9",
+      "_key": "!actors.items!559BM3g9RL6TDFux.8sMmXekHUIQazct9",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -6779,17 +6801,17 @@
     },
     {
       "_id": "DmNN0XK5KQVKWveC",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.DmNN0XK5KQVKWveC",
+      "_key": "!actors.items!559BM3g9RL6TDFux.DmNN0XK5KQVKWveC",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -7026,17 +7048,17 @@
     },
     {
       "_id": "iypxcoDtzYlWwepR",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.iypxcoDtzYlWwepR",
+      "_key": "!actors.items!559BM3g9RL6TDFux.iypxcoDtzYlWwepR",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -7270,17 +7292,17 @@
     },
     {
       "_id": "GBXX36dIU2v7PMGr",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.GBXX36dIU2v7PMGr",
+      "_key": "!actors.items!559BM3g9RL6TDFux.GBXX36dIU2v7PMGr",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -7514,17 +7536,17 @@
     },
     {
       "_id": "bQd2CYN6yylyUrUa",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.bQd2CYN6yylyUrUa",
+      "_key": "!actors.items!559BM3g9RL6TDFux.bQd2CYN6yylyUrUa",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -7745,17 +7767,17 @@
     },
     {
       "_id": "g2AucdimDrUp0sKe",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.g2AucdimDrUp0sKe",
+      "_key": "!actors.items!559BM3g9RL6TDFux.g2AucdimDrUp0sKe",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -7981,17 +8003,17 @@
     },
     {
       "_id": "Kp0VvlDFSqh8IFgt",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.Kp0VvlDFSqh8IFgt",
+      "_key": "!actors.items!559BM3g9RL6TDFux.Kp0VvlDFSqh8IFgt",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -8212,17 +8234,17 @@
     },
     {
       "_id": "ztaEq4UaVG00cAFa",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.ztaEq4UaVG00cAFa",
+      "_key": "!actors.items!559BM3g9RL6TDFux.ztaEq4UaVG00cAFa",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -8447,17 +8469,17 @@
     },
     {
       "_id": "V3xUEeer6DVanSuI",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.V3xUEeer6DVanSuI",
+      "_key": "!actors.items!559BM3g9RL6TDFux.V3xUEeer6DVanSuI",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -8691,17 +8713,17 @@
     },
     {
       "_id": "tlFjWokN1YeZohZL",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.tlFjWokN1YeZohZL",
+      "_key": "!actors.items!559BM3g9RL6TDFux.tlFjWokN1YeZohZL",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -8931,17 +8953,17 @@
     },
     {
       "_id": "hc26ujJM2BjvJbRv",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.hc26ujJM2BjvJbRv",
+      "_key": "!actors.items!559BM3g9RL6TDFux.hc26ujJM2BjvJbRv",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -9157,17 +9179,17 @@
     },
     {
       "_id": "1y1pf6J6XlRF4EEZ",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.1y1pf6J6XlRF4EEZ",
+      "_key": "!actors.items!559BM3g9RL6TDFux.1y1pf6J6XlRF4EEZ",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -9393,17 +9415,17 @@
     },
     {
       "_id": "eR9RUaOLuWutjBdA",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.eR9RUaOLuWutjBdA",
+      "_key": "!actors.items!559BM3g9RL6TDFux.eR9RUaOLuWutjBdA",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -9624,17 +9646,17 @@
     },
     {
       "_id": "qyfcRKBLrqNUDWpM",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.qyfcRKBLrqNUDWpM",
+      "_key": "!actors.items!559BM3g9RL6TDFux.qyfcRKBLrqNUDWpM",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -9953,17 +9975,17 @@
     },
     {
       "_id": "6kES1Me2xwpxbkDK",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.6kES1Me2xwpxbkDK",
+      "_key": "!actors.items!559BM3g9RL6TDFux.6kES1Me2xwpxbkDK",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -10282,17 +10304,17 @@
     },
     {
       "_id": "Tyv3uWrcSGhqvrIO",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.Tyv3uWrcSGhqvrIO",
+      "_key": "!actors.items!559BM3g9RL6TDFux.Tyv3uWrcSGhqvrIO",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -10632,17 +10654,17 @@
     },
     {
       "_id": "WqVwSI3ZMwe4yJvH",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.WqVwSI3ZMwe4yJvH",
+      "_key": "!actors.items!559BM3g9RL6TDFux.WqVwSI3ZMwe4yJvH",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -10974,17 +10996,17 @@
     },
     {
       "_id": "SV4zMlf1hyeEzK6t",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.SV4zMlf1hyeEzK6t",
+      "_key": "!actors.items!559BM3g9RL6TDFux.SV4zMlf1hyeEzK6t",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -11311,17 +11333,17 @@
     },
     {
       "_id": "B4Ai9601OfF6Q1ML",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.B4Ai9601OfF6Q1ML",
+      "_key": "!actors.items!559BM3g9RL6TDFux.B4Ai9601OfF6Q1ML",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -11655,17 +11677,17 @@
     },
     {
       "_id": "rhcBsMVAdqDCvMZQ",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.rhcBsMVAdqDCvMZQ",
+      "_key": "!actors.items!559BM3g9RL6TDFux.rhcBsMVAdqDCvMZQ",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -11992,17 +12014,17 @@
     },
     {
       "_id": "1LibSTsJwg8ENSvS",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.1LibSTsJwg8ENSvS",
+      "_key": "!actors.items!559BM3g9RL6TDFux.1LibSTsJwg8ENSvS",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -12343,355 +12365,18 @@
       "type": "feat"
     },
     {
-      "_id": "AurMAZVigvHw9pCd",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.AurMAZVigvHw9pCd",
-      "_stats": {
-        "compendiumSource": null,
-        "coreVersion": "14.368",
-        "createdTime": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
-      },
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "img": "systems/D35E/icons/feats/blinding-speed.png",
-      "name": "Blinding Speed",
-      "ownership": {
-        "default": 0
-      },
-      "sort": 0,
-      "system": {
-        "ability": {
-          "attack": null,
-          "critMult": 2,
-          "critRange": 20,
-          "damage": null,
-          "damageMult": 1,
-          "twoHandedOnly": false,
-          "vsTouchAc": false
-        },
-        "abilityType": "",
-        "actionType": "",
-        "activation": {
-          "cost": 1,
-          "type": ""
-        },
-        "addedLevel": 0,
-        "alignmentChange": {
-          "goodEvil": "",
-          "lawChaos": ""
-        },
-        "associations": {
-          "classes": []
-        },
-        "attack": {
-          "parts": []
-        },
-        "attackBonus": "",
-        "attackCountFormula": "",
-        "attackNotes": "",
-        "attackParts": [],
-        "autoscaleAttackParts": "",
-        "baseCl": "0",
-        "changeFlags": {
-          "heavyArmorFullSpeed": false,
-          "loseDexToAC": false,
-          "mediumArmorFullSpeed": false,
-          "multiAttack": false,
-          "multiweaponAttack": false,
-          "noCon": false,
-          "noDex": false,
-          "noEncumbrance": false,
-          "noInt": false,
-          "noStr": false,
-          "oneCha": false,
-          "oneInt": false,
-          "oneWis": false,
-          "uncannyDodge": false,
-          "zeroDex": false,
-          "zeroStr": false
-        },
-        "changes": [],
-        "classSource": "",
-        "combatChangeCustomDisplayName": "",
-        "combatChangeCustomReferenceName": "",
-        "combatChanges": [],
-        "combatChangesAdditionalRanges": {
-          "hasAdditionalRanges": false,
-          "slider1": {
-            "max": 0,
-            "maxFormula": "",
-            "name": ""
-          },
-          "slider2": {
-            "max": 0,
-            "maxFormula": "",
-            "name": ""
-          },
-          "slider3": {
-            "max": 0,
-            "maxFormula": "",
-            "name": ""
-          }
-        },
-        "combatChangesApplySpecialActionsOnce": true,
-        "combatChangesRange": {
-          "max": 0,
-          "maxFormula": ""
-        },
-        "combatChangesUsesCost": "chargesPerUse",
-        "conditionFlags": {
-          "dazzled": false,
-          "polymorphed": false,
-          "wildshaped": false
-        },
-        "contextNotes": [],
-        "counterName": "",
-        "createdBy": "",
-        "creationChanges": [],
-        "critConfirmBonus": "",
-        "crOffset": "",
-        "customAttributes": {},
-        "customAttributesLocked": false,
-        "customReferenceId": "",
-        "customTag": "",
-        "damage": {
-          "alternativeParts": [],
-          "parts": []
-        },
-        "damageReduction": [],
-        "damageType": {
-          "_deprecated": true,
-          "value": ""
-        },
-        "description": {
-          "chat": "",
-          "unidentified": "",
-          "value": "\n\n\n<h3><span class=\"mw-headline\" id=\"Prerequisite\">Prerequisite</span></h3>\n<p>Dex 25.\n</p>\n<h3><span class=\"mw-headline\" id=\"Benefit\">Benefit</span></h3>\n<p>The character can act as if <i>hasted</i> for 5 rounds each day. The duration of the effect need not be consecutive rounds. Activating this power is a free action.\n</p>\n<h3><span class=\"mw-headline\" id=\"Special\">Special</span></h3>\n<p>A character can gain this feat multiple times. Each time he or she takes the feat, it grants an additional 5 rounds of <i>haste</i> per day.\n</p><p><br/>\n</p>\n<hr/>\n\n\n"
-        },
-        "duration": {
-          "units": "",
-          "value": null
-        },
-        "effectNotes": "",
-        "epic": "",
-        "favorite": false,
-        "featType": "feat",
-        "formula": "",
-        "index": {
-          "subType": "feat",
-          "uniqueId": ""
-        },
-        "linkedChargeItem": {
-          "id": null,
-          "img": null,
-          "name": null
-        },
-        "linkedItems": [],
-        "linkId": "",
-        "linkImported": false,
-        "links": {
-          "charges": []
-        },
-        "linkSourceId": "",
-        "linkSourceName": "",
-        "maxDamageDice": 0,
-        "maxDamageDiceFormula": "",
-        "measureTemplate": {
-          "customColor": "",
-          "customTexture": "",
-          "overrideColor": false,
-          "overrideTexture": false,
-          "size": 0,
-          "type": ""
-        },
-        "metamagic": {
-          "code": "",
-          "enabled": false,
-          "shortDesc": ""
-        },
-        "metamagicFeats": {
-          "empowered": false,
-          "enhanced": false,
-          "enhancedHalf": false,
-          "enlarged": false,
-          "intensified": false,
-          "maximized": false,
-          "widened": false
-        },
-        "nameFormula": "",
-        "nameFromFormula": false,
-        "originId": "",
-        "originPack": "",
-        "originVersion": 0,
-        "possibleUpdate": false,
-        "pr": false,
-        "psionic": "",
-        "range": {
-          "long": null,
-          "units": "",
-          "value": null
-        },
-        "recharge": {
-          "_deprecated": true,
-          "charged": false,
-          "current": 0,
-          "enabled": false,
-          "formula": "",
-          "value": null
-        },
-        "requirements": [],
-        "requiresPsionicFocus": false,
-        "resistances": [],
-        "rollTableDraw": {
-          "formula": "",
-          "id": "",
-          "name": "",
-          "pack": ""
-        },
-        "save": {
-          "ability": "",
-          "dc": 0,
-          "dcAutoAbility": "",
-          "dcAutoType": "",
-          "description": "",
-          "type": ""
-        },
-        "senses": {
-          "blindsight": 0,
-          "darkvision": 0,
-          "lowLight": false,
-          "lowLightMultiplier": 2,
-          "tremorsense": 0,
-          "truesight": 0
-        },
-        "showInQuickbar": false,
-        "sizeOverride": "",
-        "source": "",
-        "specialActions": [],
-        "spellSpecialization": {
-          "isDomain": false,
-          "spells": {
-            "level1": {
-              "id": null,
-              "img": "",
-              "level": 1,
-              "name": "",
-              "pack": null
-            },
-            "level2": {
-              "id": null,
-              "img": "",
-              "level": 2,
-              "name": "",
-              "pack": null
-            },
-            "level3": {
-              "id": null,
-              "img": "",
-              "level": 3,
-              "name": "",
-              "pack": null
-            },
-            "level4": {
-              "id": null,
-              "img": "",
-              "level": 4,
-              "name": "",
-              "pack": null
-            },
-            "level5": {
-              "id": null,
-              "img": "",
-              "level": 5,
-              "name": "",
-              "pack": null
-            },
-            "level6": {
-              "id": null,
-              "img": "",
-              "level": 6,
-              "name": "",
-              "pack": null
-            },
-            "level7": {
-              "id": null,
-              "img": "",
-              "level": 7,
-              "name": "",
-              "pack": null
-            },
-            "level8": {
-              "id": null,
-              "img": "",
-              "level": 8,
-              "name": "",
-              "pack": null
-            },
-            "level9": {
-              "id": null,
-              "img": "",
-              "level": 9,
-              "name": "",
-              "pack": null
-            }
-          }
-        },
-        "spellSpecializationForbiddenNames": "",
-        "spellSpecializationName": "",
-        "sr": false,
-        "summon": [],
-        "summonWeapon": {
-          "attackActionType": "mwak",
-          "behavior": "",
-          "cooldownRounds": 4,
-          "dancingRounds": 4
-        },
-        "tags": [],
-        "target": {
-          "value": ""
-        },
-        "time": {
-          "_deprecated": true,
-          "value": ""
-        },
-        "uniqueId": "",
-        "userNonRemovable": false,
-        "uses": {
-          "allowMultipleUses": false,
-          "autoDeductCharges": true,
-          "canBeLinked": false,
-          "chargesPerUse": 1,
-          "isResource": false,
-          "max": 0,
-          "maxFormula": "",
-          "maxPerUse": null,
-          "maxPerUseFormula": "",
-          "per": null,
-          "rechargeFormula": null,
-          "value": 0
-        }
-      },
-      "type": "feat"
-    },
-    {
       "_id": "NvNWrCiDYHQIOC0h",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.NvNWrCiDYHQIOC0h",
+      "_key": "!actors.items!559BM3g9RL6TDFux.NvNWrCiDYHQIOC0h",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -13018,17 +12703,17 @@
     },
     {
       "_id": "DJIaYziDwsANzn4r",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.DJIaYziDwsANzn4r",
+      "_key": "!actors.items!559BM3g9RL6TDFux.DJIaYziDwsANzn4r",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -13362,17 +13047,17 @@
     },
     {
       "_id": "6GwyzVkWy9We5mL9",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.6GwyzVkWy9We5mL9",
+      "_key": "!actors.items!559BM3g9RL6TDFux.6GwyzVkWy9We5mL9",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -13714,17 +13399,17 @@
     },
     {
       "_id": "V2z47p9Cko7LywjP",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.V2z47p9Cko7LywjP",
+      "_key": "!actors.items!559BM3g9RL6TDFux.V2z47p9Cko7LywjP",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -14066,17 +13751,17 @@
     },
     {
       "_id": "jjI2khJYsgrGnFon",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.jjI2khJYsgrGnFon",
+      "_key": "!actors.items!559BM3g9RL6TDFux.jjI2khJYsgrGnFon",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -14410,17 +14095,17 @@
     },
     {
       "_id": "Lm80yzmkbtR8P2Fn",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.Lm80yzmkbtR8P2Fn",
+      "_key": "!actors.items!559BM3g9RL6TDFux.Lm80yzmkbtR8P2Fn",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -14754,17 +14439,17 @@
     },
     {
       "_id": "sK4qfyV5RAmZqlCb",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.sK4qfyV5RAmZqlCb",
+      "_key": "!actors.items!559BM3g9RL6TDFux.sK4qfyV5RAmZqlCb",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -14779,13 +14464,14 @@
         "ability": {
           "attack": "str",
           "critMult": 2,
-          "critRange": 20,
+          "critRange": "20",
           "damage": "str",
           "damageMult": -1,
           "twoHandedOnly": false,
           "vsTouchAc": false
         },
         "actionType": "mwak",
+        "activateActions": [],
         "activation": {
           "cost": 1,
           "type": "standard"
@@ -14812,9 +14498,15 @@
         "autoScaleOption": "default",
         "baseCl": "0",
         "baseWeaponType": "Claw",
+        "changes": [],
         "classSource": "",
+        "combatChanges": [],
         "conditionals": [],
+        "container": "None",
+        "containerWeightless": false,
+        "contextNotes": [],
         "createdBy": "",
+        "creationChanges": [],
         "critConfirmBonus": "",
         "customAttributes": {},
         "customAttributesLocked": false,
@@ -14830,6 +14522,8 @@
             ]
           ]
         },
+        "damageReduction": [],
+        "deactivateActions": [],
         "description": {
           "chat": "",
           "unidentified": "",
@@ -14845,11 +14539,13 @@
         "favorite": true,
         "finesseable": false,
         "formula": "",
+        "identifiedName": "Claw",
         "incorporeal": false,
         "index": {
           "subType": null,
           "uniqueId": ""
         },
+        "isNaturalEquivalent": false,
         "linkedChargeItem": {
           "id": null,
           "img": null,
@@ -14888,6 +14584,7 @@
         "nameFromFormula": false,
         "noAmmoRequired": false,
         "nonLethal": false,
+        "nonLethalNoPenalty": false,
         "originalWeaponCreated": false,
         "originalWeaponId": null,
         "originalWeaponImg": "",
@@ -14896,6 +14593,7 @@
         "originId": "",
         "originPack": "",
         "originVersion": 0,
+        "perRoundActions": [],
         "possibleUpdate": false,
         "pr": false,
         "primaryAttack": true,
@@ -14903,15 +14601,17 @@
         "psionic": "",
         "range": {
           "long": null,
-          "units": "",
-          "value": null
+          "units": "ft",
+          "value": "10"
         },
         "recharge": {
           "current": 0,
           "enabled": false,
           "formula": ""
         },
+        "requirements": [],
         "requiresPsionicFocus": false,
+        "resistances": [],
         "returning": false,
         "rollTableDraw": {
           "formula": "",
@@ -14927,6 +14627,7 @@
           "description": "",
           "type": ""
         },
+        "selectedMaterial": "none",
         "showInQuickbar": true,
         "source": "",
         "specialActions": [],
@@ -14966,17 +14667,17 @@
     },
     {
       "_id": "2zlYsu0X4IuBB2sy",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.2zlYsu0X4IuBB2sy",
+      "_key": "!actors.items!559BM3g9RL6TDFux.2zlYsu0X4IuBB2sy",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -14991,13 +14692,14 @@
         "ability": {
           "attack": "str",
           "critMult": 2,
-          "critRange": 20,
+          "critRange": "20",
           "damage": "str",
           "damageMult": -1,
           "twoHandedOnly": false,
           "vsTouchAc": false
         },
         "actionType": "mwak",
+        "activateActions": [],
         "activation": {
           "cost": 1,
           "type": "standard"
@@ -15024,9 +14726,15 @@
         "autoScaleOption": "default",
         "baseCl": "0",
         "baseWeaponType": "Wing",
+        "changes": [],
         "classSource": "",
+        "combatChanges": [],
         "conditionals": [],
+        "container": "None",
+        "containerWeightless": false,
+        "contextNotes": [],
         "createdBy": "",
+        "creationChanges": [],
         "critConfirmBonus": "",
         "customAttributes": {},
         "customAttributesLocked": false,
@@ -15042,6 +14750,8 @@
             ]
           ]
         },
+        "damageReduction": [],
+        "deactivateActions": [],
         "description": {
           "chat": "",
           "unidentified": "",
@@ -15057,11 +14767,13 @@
         "favorite": true,
         "finesseable": false,
         "formula": "",
+        "identifiedName": "Wing",
         "incorporeal": false,
         "index": {
           "subType": null,
           "uniqueId": ""
         },
+        "isNaturalEquivalent": false,
         "linkedChargeItem": {
           "id": null,
           "img": null,
@@ -15100,6 +14812,7 @@
         "nameFromFormula": false,
         "noAmmoRequired": false,
         "nonLethal": false,
+        "nonLethalNoPenalty": false,
         "originalWeaponCreated": false,
         "originalWeaponId": null,
         "originalWeaponImg": "",
@@ -15108,6 +14821,7 @@
         "originId": "",
         "originPack": "",
         "originVersion": 0,
+        "perRoundActions": [],
         "possibleUpdate": false,
         "pr": false,
         "primaryAttack": false,
@@ -15115,15 +14829,17 @@
         "psionic": "",
         "range": {
           "long": null,
-          "units": "",
-          "value": null
+          "units": "ft",
+          "value": "10"
         },
         "recharge": {
           "current": 0,
           "enabled": false,
           "formula": ""
         },
+        "requirements": [],
         "requiresPsionicFocus": false,
+        "resistances": [],
         "returning": false,
         "rollTableDraw": {
           "formula": "",
@@ -15139,6 +14855,7 @@
           "description": "",
           "type": ""
         },
+        "selectedMaterial": "none",
         "showInQuickbar": true,
         "source": "",
         "specialActions": [],
@@ -15178,17 +14895,17 @@
     },
     {
       "_id": "mEXe28eyACZUkyMT",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.mEXe28eyACZUkyMT",
+      "_key": "!actors.items!559BM3g9RL6TDFux.mEXe28eyACZUkyMT",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -15203,13 +14920,14 @@
         "ability": {
           "attack": "str",
           "critMult": 2,
-          "critRange": 20,
+          "critRange": "20",
           "damage": "str",
           "damageMult": -1,
           "twoHandedOnly": false,
           "vsTouchAc": false
         },
         "actionType": "mwak",
+        "activateActions": [],
         "activation": {
           "cost": 1,
           "type": "standard"
@@ -15236,9 +14954,15 @@
         "autoScaleOption": "default",
         "baseCl": "0",
         "baseWeaponType": "Bite",
+        "changes": [],
         "classSource": "",
+        "combatChanges": [],
         "conditionals": [],
+        "container": "None",
+        "containerWeightless": false,
+        "contextNotes": [],
         "createdBy": "",
+        "creationChanges": [],
         "critConfirmBonus": "",
         "customAttributes": {},
         "customAttributesLocked": false,
@@ -15254,6 +14978,8 @@
             ]
           ]
         },
+        "damageReduction": [],
+        "deactivateActions": [],
         "description": {
           "chat": "",
           "unidentified": "",
@@ -15269,11 +14995,13 @@
         "favorite": true,
         "finesseable": false,
         "formula": "",
+        "identifiedName": "Bite",
         "incorporeal": false,
         "index": {
           "subType": null,
           "uniqueId": ""
         },
+        "isNaturalEquivalent": false,
         "linkedChargeItem": {
           "id": null,
           "img": null,
@@ -15312,6 +15040,7 @@
         "nameFromFormula": false,
         "noAmmoRequired": false,
         "nonLethal": false,
+        "nonLethalNoPenalty": false,
         "originalWeaponCreated": false,
         "originalWeaponId": null,
         "originalWeaponImg": "",
@@ -15320,6 +15049,7 @@
         "originId": "",
         "originPack": "",
         "originVersion": 0,
+        "perRoundActions": [],
         "possibleUpdate": false,
         "pr": false,
         "primaryAttack": false,
@@ -15327,15 +15057,17 @@
         "psionic": "",
         "range": {
           "long": null,
-          "units": "",
-          "value": null
+          "units": "ft",
+          "value": "10"
         },
         "recharge": {
           "current": 0,
           "enabled": false,
           "formula": ""
         },
+        "requirements": [],
         "requiresPsionicFocus": false,
+        "resistances": [],
         "returning": false,
         "rollTableDraw": {
           "formula": "",
@@ -15351,6 +15083,7 @@
           "description": "",
           "type": ""
         },
+        "selectedMaterial": "none",
         "showInQuickbar": true,
         "source": "",
         "specialActions": [],
@@ -15390,17 +15123,17 @@
     },
     {
       "_id": "Ei9gT4tGafRUBvpQ",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.Ei9gT4tGafRUBvpQ",
+      "_key": "!actors.items!559BM3g9RL6TDFux.Ei9gT4tGafRUBvpQ",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -15415,13 +15148,14 @@
         "ability": {
           "attack": "str",
           "critMult": 2,
-          "critRange": 20,
+          "critRange": "20",
           "damage": "str",
           "damageMult": -1,
           "twoHandedOnly": false,
           "vsTouchAc": false
         },
         "actionType": "mwak",
+        "activateActions": [],
         "activation": {
           "cost": 1,
           "type": "standard"
@@ -15448,9 +15182,15 @@
         "autoScaleOption": "default",
         "baseCl": "0",
         "baseWeaponType": "Tail",
+        "changes": [],
         "classSource": "",
+        "combatChanges": [],
         "conditionals": [],
+        "container": "None",
+        "containerWeightless": false,
+        "contextNotes": [],
         "createdBy": "",
+        "creationChanges": [],
         "critConfirmBonus": "",
         "customAttributes": {},
         "customAttributesLocked": false,
@@ -15466,6 +15206,8 @@
             ]
           ]
         },
+        "damageReduction": [],
+        "deactivateActions": [],
         "description": {
           "chat": "",
           "unidentified": "",
@@ -15481,11 +15223,13 @@
         "favorite": true,
         "finesseable": false,
         "formula": "",
+        "identifiedName": "Tail",
         "incorporeal": false,
         "index": {
           "subType": null,
           "uniqueId": ""
         },
+        "isNaturalEquivalent": false,
         "linkedChargeItem": {
           "id": null,
           "img": null,
@@ -15524,6 +15268,7 @@
         "nameFromFormula": false,
         "noAmmoRequired": false,
         "nonLethal": false,
+        "nonLethalNoPenalty": false,
         "originalWeaponCreated": false,
         "originalWeaponId": null,
         "originalWeaponImg": "",
@@ -15532,6 +15277,7 @@
         "originId": "",
         "originPack": "",
         "originVersion": 0,
+        "perRoundActions": [],
         "possibleUpdate": false,
         "pr": false,
         "primaryAttack": false,
@@ -15539,15 +15285,17 @@
         "psionic": "",
         "range": {
           "long": null,
-          "units": "",
-          "value": null
+          "units": "ft",
+          "value": "10"
         },
         "recharge": {
           "current": 0,
           "enabled": false,
           "formula": ""
         },
+        "requirements": [],
         "requiresPsionicFocus": false,
+        "resistances": [],
         "returning": false,
         "rollTableDraw": {
           "formula": "",
@@ -15563,6 +15311,7 @@
           "description": "",
           "type": ""
         },
+        "selectedMaterial": "none",
         "showInQuickbar": true,
         "source": "",
         "specialActions": [],
@@ -15602,17 +15351,17 @@
     },
     {
       "_id": "7jh8ygwQ8ukNswJj",
-      "_key": "!actors.items!LH3TZgqGyakp5kkI.7jh8ygwQ8ukNswJj",
+      "_key": "!actors.items!559BM3g9RL6TDFux.7jh8ygwQ8ukNswJj",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.368",
-        "createdTime": null,
+        "createdTime": 1791654366705,
         "duplicateSource": null,
         "exportSource": null,
-        "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null
+        "lastModifiedBy": "NIbWooaXJQj4hIiS",
+        "modifiedTime": 1791654366705,
+        "systemId": "D35E",
+        "systemVersion": "3.1.0"
       },
       "effects": [],
       "flags": {},
@@ -15716,9 +15465,10 @@
       "type": "full-attack"
     }
   ],
-  "name": "Infernal",
+  "name": "Infernal (Chaotic)",
   "ownership": {
-    "default": 0
+    "default": 0,
+    "NIbWooaXJQj4hIiS": 3
   },
   "prototypeToken": {
     "actorLink": false,
@@ -16030,7 +15780,7 @@
       "cmdNotes": "",
       "concealment": {
         "total": 0,
-        "value": 0
+        "value": null
       },
       "conditions": {
         "banished": false,
@@ -16081,11 +15831,11 @@
           "medium": 12800
         }
       },
-      "energyDrain": 0,
+      "energyDrain": null,
       "energyResistance": [],
       "fortification": {
         "total": 0,
-        "value": 0
+        "value": null
       },
       "hardness": {
         "formula": "",
@@ -16105,18 +15855,18 @@
       },
       "hp": {
         "base": 0,
-        "max": 570,
+        "max": 710,
         "min": -100,
-        "nonlethal": 0,
-        "temp": 0,
-        "value": 570
+        "nonlethal": null,
+        "temp": null,
+        "value": 710
       },
       "init": {
         "bonus": 0,
         "total": 11,
         "value": 0
       },
-      "maxAoO": 0,
+      "maxAoO": 1,
       "maxDex": {
         "encumbrance": null,
         "gear": null,
@@ -16128,7 +15878,7 @@
       "mods": {
         "skills": {}
       },
-      "naturalAC": 0,
+      "naturalAC": "34",
       "naturalACTotal": 34,
       "powerPointsTotal": 0,
       "pr": {
@@ -16176,18 +15926,18 @@
         }
       },
       "senses": {
-        "blindsight": 0,
+        "blindsight": 500,
         "darkvision": 0,
         "lowLight": false,
         "lowLightMultiplier": 2,
-        "special": "",
+        "special": "True Seeing, Telepathy 1000 ft.",
         "tremorsense": 0,
         "truesight": 0
       },
       "sneakAttackDiceTotal": 0,
       "speed": {
         "burrow": {
-          "base": 0,
+          "base": null,
           "cap": null,
           "effectiveBase": 0,
           "isOvercap": false,
@@ -16195,7 +15945,7 @@
           "total": 0
         },
         "climb": {
-          "base": 0,
+          "base": null,
           "cap": null,
           "effectiveBase": 0,
           "isOvercap": false,
@@ -16204,23 +15954,23 @@
         },
         "fly": {
           "base": 240,
-          "cap": null,
-          "effectiveBase": 0,
+          "cap": 480,
+          "effectiveBase": 240,
           "isOvercap": false,
-          "maneuverability": "average",
+          "maneuverability": "perfect",
           "run": 960,
           "total": 240
         },
         "land": {
           "base": 80,
-          "cap": 60,
-          "effectiveBase": 30,
+          "cap": 160,
+          "effectiveBase": 80,
           "isOvercap": false,
           "run": 320,
           "total": 80
         },
         "swim": {
-          "base": 0,
+          "base": null,
           "cap": null,
           "effectiveBase": 0,
           "isOvercap": false,
@@ -16830,7 +16580,7 @@
         }
       },
       "sr": {
-        "formula": "",
+        "formula": "38",
         "total": 38
       },
       "srNotes": "",
@@ -16839,10 +16589,10 @@
       "turnUndeadUsesBonusFormula": "",
       "turnUndeadUsesTotal": 0,
       "vigor": {
-        "max": 180,
+        "max": 320,
         "min": 0,
         "temp": 0,
-        "value": 180
+        "value": 320
       },
       "wounds": {
         "max": 56,
@@ -16868,6 +16618,7 @@
         "hasSpellbook": false,
         "hd": 8,
         "hp": false,
+        "id": "185k5OtkLpZRL5n0",
         "isArcane": false,
         "isPsionSpellcaster": false,
         "isSpellcaster": false,
@@ -16892,8 +16643,225 @@
       }
     },
     "classLevels": 0,
-    "combinedDR": [],
-    "combinedResistances": [],
+    "combinedDR": {
+      "any": 0,
+      "types": [
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Adamantine (or equivalent)",
+          "or": false,
+          "uid": "adamantine",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Alchemical Silver (or quivalent)",
+          "or": false,
+          "uid": "silver",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Bludgeoning",
+          "or": false,
+          "uid": "bludgeoning",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Chaotic",
+          "or": false,
+          "uid": "chaotic",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Cold Iron (or equivalent)",
+          "or": false,
+          "uid": "coldiron",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Epic",
+          "or": false,
+          "uid": "epic",
+          "value": 15
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Evil",
+          "or": false,
+          "uid": "evil",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": true,
+          "name": "Good",
+          "or": true,
+          "uid": "good",
+          "value": 15
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Incorporeal",
+          "or": false,
+          "uid": "incorporeal",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": true,
+          "name": "Lawful",
+          "or": false,
+          "uid": "lawful",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Magic",
+          "or": false,
+          "uid": "magic",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Piercing",
+          "or": false,
+          "uid": "piercing",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Slashing",
+          "or": false,
+          "uid": "slashing",
+          "value": 0
+        }
+      ]
+    },
+    "combinedResistances": [
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Acid",
+        "uid": "energy-acid",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Cold",
+        "uid": "energy-cold",
+        "value": 20,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Divine",
+        "uid": "energy-divine",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Electricity",
+        "uid": "energy-electric",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Fire",
+        "uid": "energy-fire",
+        "value": 20,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Force",
+        "uid": "energy-force",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Healing",
+        "uid": "damage-healing",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Negative Energy",
+        "uid": "energy-negative",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Positive Energy",
+        "uid": "energy-positive",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Repair",
+        "uid": "damage-repair",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Sonic",
+        "uid": "energy-sonic",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Untyped Energy",
+        "uid": "damage-untyped-energy",
+        "value": 0,
+        "vulnerable": false
+      }
+    ],
     "companionAutosync": false,
     "companionLockGM": false,
     "companionPublicId": "",
@@ -16902,7 +16870,7 @@
     "counters": {
       "feat": {
         "base": {
-          "counted": 13,
+          "counted": 12,
           "value": 14
         }
       }
@@ -16917,9 +16885,118 @@
     "customSkills": {},
     "damage": {
       "nonlethal": {
-        "max": 570,
+        "max": 710,
         "value": 0
       }
+    },
+    "damageReduction": {
+      "any": 0,
+      "types": [
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Adamantine (or equivalent)",
+          "or": false,
+          "uid": "adamantine",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Alchemical Silver (or quivalent)",
+          "or": false,
+          "uid": "silver",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Bludgeoning",
+          "or": false,
+          "uid": "bludgeoning",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Chaotic",
+          "or": false,
+          "uid": "chaotic",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Cold Iron (or equivalent)",
+          "or": false,
+          "uid": "coldiron",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Epic",
+          "or": false,
+          "uid": "epic",
+          "value": 15
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Evil",
+          "or": false,
+          "uid": "evil",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": true,
+          "name": "Good",
+          "or": true,
+          "uid": "good",
+          "value": 15
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Incorporeal",
+          "or": false,
+          "uid": "incorporeal",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": true,
+          "name": "Lawful",
+          "or": false,
+          "uid": "lawful",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Magic",
+          "or": false,
+          "uid": "magic",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Piercing",
+          "or": false,
+          "uid": "piercing",
+          "value": 0
+        },
+        {
+          "immunity": false,
+          "lethal": false,
+          "name": "Slashing",
+          "or": false,
+          "uid": "slashing",
+          "value": 0
+        }
+      ]
     },
     "details": {
       "actualAlignmentAxes": {
@@ -16948,12 +17025,15 @@
         "none": false,
         "originalHD": 0
       },
-      "alignment": "Lawful evil or chaotic evil",
+      "alignment": "chaotic evil",
       "alignmentAxes": {
         "goodEvil": "n",
         "lawChaos": "n"
       },
+      "alignmentCode": "",
+      "alignmentLabel": "chaotic evil",
       "alignmentMode": "text",
+      "alignmentUnaligned": 0,
       "biography": {
         "public": "",
         "value": ""
@@ -16987,7 +17067,7 @@
       "levelUpProgression": false,
       "notes": {
         "public": "",
-        "value": "<div topic='Infernal' level='3'><p><h4>Infernal</h4></p><p>An infernal's natural weapons are treated as epic, evil, and chaotic-aligned or lawful-aligned for the purpose of overcoming damage reduction.</p><div topic='Combat' level='5'><p><h2>Combat</h2></p><div topic='Improved Grab' level='8'><p><b>Improved Grab (Ex):</b> If an infernal hits with a claw, it deals normal damage and attempts to start a grapple as a free action without provoking an attack of opportunity. Infernals can use this ability on Large and smaller creatures. The infernal has the option to conduct the grapple normally, or simply use its claw to hold the opponent. Each successful grapple check it makes during successive rounds automatically deals standard claw damage, in addition to automatic spell suck damage.</p></div><div topic='Spell Suck' level='8'><p><b>Spell Suck (Su):</b> If an infernal bites a foe, the foe loses one of its highest-level prepared spells or one of the spell slots for this day that it has not used. The victim chooses the prepared spell to lose. If the victim has no prepared spells or unused spell slots (either because it has exhausted its spellcasting for the day or because the victim is not a spellcaster), the bite instead deals 2 points of temporary Intelligence damage.</p></div><div topic='Learned Spell Immunity' level='8'><p><b>Learned Spell Immunity (Su):</b> If an infernal is affected by a spell cast by a particular spellcaster, the infernal thereafter becomes immune to that spell when cast by that spellcaster.</p></div><div topic='Spell-Like Abilities' level='8'><p><b>Spell-Like Abilities:</b> At will-<i>animate dead</i>,  <i>blasphemy</i>,  <i>blur</i>,  <i>charm person</i>,  <i>create undead</i>,  <i>darkness</i>,  <i>deeper darkness</i>,  <i>desecrate</i>,  <i>detect chaos</i>,  <i>detect good</i>,  <i>detect law</i>,  <i>detect magic</i>,  <i>fear</i>,  <i>fireball</i>,  <i>greater dispel magic</i>,  <i>hold person</i>,  <i>greater invisibility</i>,  <i>magic circle against good</i>,  <i>major image</i>,  <i>produce flame</i>,  <i>polymorph</i>,  <i>pyrotechnics</i>,  <i>read magic</i>,  <i>scrying</i>,  <i>suggestion</i>,  <i>symbol of death</i>,  <i>telekinesis</i>,  <i>greater teleport</i> (self plus 1,000 pounds), <i>unholy aura</i>,  <i>unholy blight</i>,  <i>unhallow</i>,  <i>wall of fire</i>; 1/day-<i>fire storm</i>,  <i>hellball</i> (epic spell), <i>implosion</i>,  <i>meteor swarm</i>. Caster level 26th; save DC 19 + spell level. The DCs are Charisma-based.</p></div><div topic='Summon Fiend' level='8'><p><b><i>Summon Fiend</i> (Sp):</b> An infernal can summon four balors or four pit fiends per day (lawful infernals summon pit fiends, and chaotic infernals summon balors).</p></div><div topic='Abomination Traits' level='8'><p><b>Abomination Traits:</b> Immune to polymorphing, petrification, and other form-altering attacks; not subject to energy drain, ability drain, ability damage, or death from massive damage; immune to mind-affecting effects; fire resistance 20; cold resistance 20; nondetection ; true seeing at will; blindsight 500 ft.; telepathy out to 1,000 ft.</p></div><div topic='Regeneration' level='8'><p><b>Regeneration (Ex):</b> Infernals take normal damage from good weapons. Lawful infernals also take normal damage from chaotic weapons, and vice versa.</p><p/></div></div></div>    "
+        "value": "<div>\n<p><strong>Environment</strong>: Any</p>\n<p><strong>Organisation</strong>: Solitary or hell brigade (1 infernal and&nbsp;<a class=\"diceRoller\" title=\"Roll the dice!\">1d4</a>&nbsp;<a href=\"https://www.d20srd.org/srd/monsters/demon.htm#balor\">balors</a>, or 1 infernal and&nbsp;<a class=\"diceRoller\" title=\"Roll the dice!\">1d4</a>&nbsp;<a href=\"https://www.d20srd.org/srd/monsters/devil.htm#pitFiend\">pit fiends</a>)</p>\n<p><strong>Treasure</strong>: Standard</p>\n<p>An infernal's natural weapons are treated as epic, evil, and chaotic-aligned or lawful-aligned for the purpose of overcoming damage reduction.</p>\n<div>\n<h2>Combat</h2>\n<div>\n<p><strong>Improved Grab (Ex):</strong> If an infernal hits with a claw, it deals normal damage and attempts to start a grapple as a free action without provoking an attack of opportunity. Infernals can use this ability on Large and smaller creatures. The infernal has the option to conduct the grapple normally, or simply use its claw to hold the opponent. Each successful grapple check it makes during successive rounds automatically deals standard claw damage, in addition to automatic spell suck damage.</p>\n</div>\n<div>\n<p><strong>Spell Suck (Su):</strong> If an infernal bites a foe, the foe loses one of its highest-level prepared spells or one of the spell slots for this day that it has not used. The victim chooses the prepared spell to lose. If the victim has no prepared spells or unused spell slots (either because it has exhausted its spellcasting for the day or because the victim is not a spellcaster), the bite instead deals 2 points of temporary Intelligence damage.</p>\n</div>\n<div>\n<p><strong>Learned Spell Immunity (Su):</strong> If an infernal is affected by a spell cast by a particular spellcaster, the infernal thereafter becomes immune to that spell when cast by that spellcaster.</p>\n</div>\n<div>\n<p><strong>Spell-Like Abilities:</strong> At will-<em>animate dead</em>, <em>blasphemy</em>, <em>blur</em>, <em>charm person</em>, <em>create undead</em>, <em>darkness</em>, <em>deeper darkness</em>, <em>desecrate</em>, <em>detect chaos</em>, <em>detect good</em>, <em>detect law</em>, <em>detect magic</em>, <em>fear</em>, <em>fireball</em>, <em>greater dispel magic</em>, <em>hold person</em>, <em>greater invisibility</em>, <em>magic circle against good</em>, <em>major image</em>, <em>produce flame</em>, <em>polymorph</em>, <em>pyrotechnics</em>, <em>read magic</em>, <em>scrying</em>, <em>suggestion</em>, <em>symbol of death</em>, <em>telekinesis</em>, <em>greater teleport</em> (self plus 1,000 pounds), <em>unholy aura</em>, <em>unholy blight</em>, <em>unhallow</em>, <em>wall of fire</em>; 1/day-<em>fire storm</em>, <em>hellball</em> (epic spell), <em>implosion</em>, <em>meteor swarm</em>. Caster level 26th; save DC 19 + spell level. The DCs are Charisma-based.</p>\n</div>\n<div>\n<p><strong><em>Summon Fiend</em> (Sp):</strong> An infernal can summon four balors or four pit fiends per day (lawful infernals summon pit fiends, and chaotic infernals summon balors).</p>\n</div>\n<div>\n<p><strong>Abomination Traits:</strong> Immune to polymorphing, petrification, and other form-altering attacks; not subject to energy drain, ability drain, ability damage, or death from massive damage; immune to mind-affecting effects; fire resistance 20; cold resistance 20; nondetection ; true seeing at will; blindsight 500 ft.; telepathy out to 1,000 ft.</p>\n</div>\n<div>\n<p><strong>Regeneration (Ex):</strong> Infernals take normal damage from good weapons. Lawful infernals also take normal damage from chaotic weapons, and vice versa.</p>\n<p>&nbsp;</p>\n</div>\n</div>\n</div>"
       },
       "totalCr": 26,
       "treasure": {
@@ -16995,11 +17075,123 @@
         "goods": 100,
         "items": 100
       },
-      "type": "Evil Chaotic or Lawful",
+      "type": "Outsider (Evil, Chaotic)",
       "xp": {
         "value": 10
       }
     },
+    "displayNonRTSkills": false,
+    "energyResistance": [
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Acid",
+        "uid": "energy-acid",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Cold",
+        "uid": "energy-cold",
+        "value": 20,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Divine",
+        "uid": "energy-divine",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Electricity",
+        "uid": "energy-electric",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Fire",
+        "uid": "energy-fire",
+        "value": 20,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Force",
+        "uid": "energy-force",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Healing",
+        "uid": "damage-healing",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Negative Energy",
+        "uid": "energy-negative",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Positive Energy",
+        "uid": "energy-positive",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Repair",
+        "uid": "damage-repair",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Sonic",
+        "uid": "energy-sonic",
+        "value": 0,
+        "vulnerable": false
+      },
+      {
+        "half": false,
+        "immunity": false,
+        "lethal": false,
+        "name": "Untyped Energy",
+        "uid": "damage-untyped-energy",
+        "value": 0,
+        "vulnerable": false
+      }
+    ],
+    "isPartyMember": false,
     "jumpSkillAdjust": false,
     "lockEditingByPlayers": false,
     "master": {
@@ -17037,12 +17229,12 @@
       }
     },
     "senses": {
-      "blindsight": 0,
+      "blindsight": 500,
       "darkvision": 0,
       "lowLight": false,
       "lowLightMultiplier": 2,
       "modified": {},
-      "special": "",
+      "special": "True Seeing, Telepathy 1000 ft.",
       "tremorsense": 0,
       "truesight": 0
     },
@@ -17061,7 +17253,7 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -17078,7 +17270,7 @@
         "energyDrainPenalty": 0,
         "mod": 10,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -17111,7 +17303,7 @@
         "energyDrainPenalty": 0,
         "mod": 9,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -17127,7 +17319,7 @@
         "energyDrainPenalty": 0,
         "mod": 16,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -17177,7 +17369,7 @@
         "energyDrainPenalty": 0,
         "mod": 7,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -17210,7 +17402,7 @@
         "energyDrainPenalty": 0,
         "mod": 9,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -17226,7 +17418,7 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -17258,7 +17450,7 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -17274,7 +17466,7 @@
         "energyDrainPenalty": 0,
         "mod": 9,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -17290,7 +17482,7 @@
         "energyDrainPenalty": 0,
         "mod": 9,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -17306,7 +17498,7 @@
         "energyDrainPenalty": 0,
         "mod": 8,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -17339,7 +17531,7 @@
         "energyDrainPenalty": 0,
         "mod": 9,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -17388,7 +17580,7 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -17404,7 +17596,7 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -17420,7 +17612,7 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -17436,7 +17628,7 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -17452,7 +17644,7 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -17468,7 +17660,7 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -17484,10 +17676,11 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
-        "value": 0
+        "value": 0,
+        "visibility": "default"
       },
       "kpl": {
         "ability": "int",
@@ -17515,7 +17708,7 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -17531,7 +17724,7 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -17580,7 +17773,7 @@
         "energyDrainPenalty": 0,
         "mod": 7,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -17632,7 +17825,7 @@
         "energyDrainPenalty": 0,
         "mod": 6,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -17648,7 +17841,7 @@
         "energyDrainPenalty": 0,
         "mod": 7,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -17680,7 +17873,7 @@
         "energyDrainPenalty": 0,
         "mod": 7,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -17696,7 +17889,7 @@
         "energyDrainPenalty": 0,
         "mod": 0,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -17762,7 +17955,7 @@
         "energyDrainPenalty": 0,
         "mod": 8,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -17778,7 +17971,7 @@
         "energyDrainPenalty": 0,
         "mod": 16,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -17811,7 +18004,7 @@
         "energyDrainPenalty": 0,
         "mod": 9,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -17827,7 +18020,7 @@
         "energyDrainPenalty": 0,
         "mod": 9,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": true,
         "value": 0,
@@ -17843,7 +18036,7 @@
         "energyDrainPenalty": 0,
         "mod": 7,
         "notes": "",
-        "points": 0,
+        "points": null,
         "rank": 0,
         "rt": false,
         "value": 0,
@@ -17876,8 +18069,12 @@
     "traits": {
       "actualSize": "lg",
       "ci": {
-        "custom": "",
-        "value": []
+        "custom": "Polymorph, Ability Drain, Ability Damage, Massive Damage",
+        "value": [
+          "energyDrain",
+          "mindAffecting",
+          "petrify"
+        ]
       },
       "cres": "",
       "di": {
@@ -17905,7 +18102,8 @@
       "regenTotal": 15,
       "senses": "",
       "size": "lg",
-      "tokensize": "actor"
+      "tokensize": "actor",
+      "tokenSize": "actor"
     }
   },
   "type": "npc"
