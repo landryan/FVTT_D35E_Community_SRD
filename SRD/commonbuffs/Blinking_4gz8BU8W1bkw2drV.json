@@ -52,9 +52,19 @@
     },
     "changes": [],
     "classSource": "",
-    "combatChangeCustomDisplayName": "",
-    "combatChangeCustomReferenceName": "",
-    "combatChanges": [],
+    "combatChangeCustomDisplayName": "Blinking Bonus (sighted targets only)",
+    "combatChangeCustomReferenceName": "+2 to attack due to Blinking (applied)",
+    "combatChanges": [
+      [
+        "attackOptional",
+        "",
+        "",
+        "featAttackBonus",
+        "2",
+        "",
+        ""
+      ]
+    ],
     "combatChangesAdditionalRanges": {
       "hasAdditionalRanges": false,
       "slider1": {
@@ -97,11 +107,6 @@
         "50% miss chance for attacker, except for those that can see invisible or can hit ethereal creatures - then 20% or 0% for both.",
         "misc",
         "ac"
-      ],
-      [
-        "+2 to attack opponents as if invisible",
-        "attacks",
-        "attack"
       ]
     ],
     "counterName": "",
