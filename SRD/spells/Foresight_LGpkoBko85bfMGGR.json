@@ -3,14 +3,14 @@
   "_key": "!items!LGpkoBko85bfMGGR",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
-    "createdTime": null,
+    "coreVersion": "14.368",
+    "createdTime": 1791754039728,
     "duplicateSource": null,
     "exportSource": null,
-    "lastModifiedBy": null,
-    "modifiedTime": null,
-    "systemId": null,
-    "systemVersion": null
+    "lastModifiedBy": "NIbWooaXJQj4hIiS",
+    "modifiedTime": 1791754044244,
+    "systemId": "D35E",
+    "systemVersion": "3.1.0"
   },
   "effects": [],
   "flags": {},
@@ -38,6 +38,7 @@
       "type": "standard"
     },
     "addedLevel": 0,
+    "ammoDamageParts": [],
     "attack": {
       "parts": []
     },
@@ -166,7 +167,7 @@
     "nameFromFormula": false,
     "originId": "G3YVkOwI8L1tS35u",
     "originPack": "world.srd-update-spells",
-    "originVersion": 109,
+    "originVersion": 111,
     "perRoundActions": [],
     "possibleUpdate": false,
     "powerPointsCost": 17,
@@ -216,13 +217,13 @@
       {
         "action": "Create unique \"Foresight - Self\" from \"D35E.commonbuffs\" on target;Set buff \"Foresight - Self\" field data.level to max(1,(@cl)) on target;Activate buff \"Foresight - Self\" on target",
         "condition": "",
-        "img": "icons/svg/item-bag.svg",
+        "img": "systems/D35E/icons/spells/named-spells/foresight.png",
         "name": "Foresight - Self"
       },
       {
         "action": "Create unique \"Foresight - Another\" from \"D35E.commonbuffs\" on target;Set buff \"Foresight - Another\" field data.level to max(1,(@cl)) on target;Activate buff \"Foresight - Another\" on target",
         "condition": "",
-        "img": "icons/svg/item-bag.svg",
+        "img": "systems/D35E/icons/spells/named-spells/foresight.png",
         "name": "Foresight - Another"
       }
     ],
@@ -244,6 +245,12 @@
     "sr": false,
     "subschool": "",
     "summon": [],
+    "summonWeapon": {
+      "attackActionType": "mwak",
+      "behavior": "",
+      "cooldownRounds": 4,
+      "dancingRounds": 4
+    },
     "tags": [],
     "target": {
       "value": "see text"

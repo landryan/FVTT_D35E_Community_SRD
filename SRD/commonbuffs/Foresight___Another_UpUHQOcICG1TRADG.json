@@ -3,24 +3,24 @@
   "_key": "!items!UpUHQOcICG1TRADG",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "13.351",
-    "createdTime": null,
+    "coreVersion": "14.368",
+    "createdTime": 1791754163418,
     "duplicateSource": null,
     "exportSource": null,
-    "lastModifiedBy": null,
-    "modifiedTime": null,
-    "systemId": null,
-    "systemVersion": null
+    "lastModifiedBy": "NIbWooaXJQj4hIiS",
+    "modifiedTime": 1791754206515,
+    "systemId": "D35E",
+    "systemVersion": "3.1.0"
   },
   "effects": [],
   "flags": {},
-  "folder": null,
+  "folder": "D2KzUM1xR6EpnzkX",
   "img": "systems/D35E/icons/spells/buffs/buff/foresight.png",
   "name": "Foresight - Another",
   "ownership": {
     "default": 0
   },
-  "sort": 0,
+  "sort": 100000,
   "system": {
     "activateActions": [],
     "activation": {
@@ -29,6 +29,10 @@
     },
     "active": true,
     "addedLevel": 0,
+    "alignmentChange": {
+      "goodEvil": "",
+      "lawChaos": ""
+    },
     "attackParts": [],
     "buffType": "temp",
     "changeFlags": {
@@ -47,30 +51,15 @@
       "oneCha": false,
       "oneInt": false,
       "oneWis": false,
-      "uncannyDodge": false
+      "uncannyDodge": false,
+      "zeroDex": false,
+      "zeroStr": false
     },
     "changes": [],
     "classSource": "",
     "combatChangeCustomDisplayName": "",
     "combatChangeCustomReferenceName": "",
-    "combatChanges": [
-      [
-        "defenseOptional",
-        "",
-        "",
-        "featAC",
-        "2",
-        ""
-      ],
-      [
-        "savingThrowOptional",
-        "",
-        "",
-        "featSavingThrow",
-        "2",
-        ""
-      ]
-    ],
+    "combatChanges": [],
     "combatChangesAdditionalRanges": {
       "hasAdditionalRanges": false,
       "slider1": {
@@ -165,7 +154,7 @@
     "nameFromFormula": false,
     "originId": "",
     "originPack": "",
-    "originVersion": 4,
+    "originVersion": 6,
     "perRoundActions": [],
     "possibleUpdate": false,
     "psionic": "",
@@ -207,7 +196,7 @@
       "enabled": true,
       "formula": "@item.level*100",
       "tickOnEnd": false,
-      "total": 100
+      "total": 0
     },
     "uniqueId": "",
     "userNonRemovable": false,
