@@ -1,46 +1,57 @@
 "use strict";
-const { execSync } = require("child_process");
 const fs = require("fs");
-const sortJson = require("sort-json");
-const version = require(
-"@foundryvtt/foundryvtt-cli/package.json"
-).version;
+const { execSync } = require("child_process");
+const {
+  assertPackAccessible,
+  normalizePackName,
+  readSystemPacks,
+  unpackPackToSource
+} = require("./pack-db");
+const { createLogger } = require("./cli-log");
 
-console.log(`##### Using Foundry CLI ${version} #####`);
+const log = createLogger("unpack");
 
-let rawdata = fs.readFileSync("../V14/Data/systems/D35E/system.json");
-let system = JSON.parse(rawdata);
-let packdir = "../V14/Data/systems/D35E/packs";
-fs.rmSync("export", { recursive: true, force: true });
-for (let i = 0; i < system["packs"].length; i++) {
-  try {
-      let packPath = system["packs"][i]["path"];
-      let packNameFromPath = packPath.replace("packs/", "");
-      console.log("Unpacking " + packPath);
-      console.log("Unpacking " + packNameFromPath);
-      if (fs.existsSync(packdir + "/" + packNameFromPath)) {
-        let fvttProcess = execSync(
-          `.\\node_modules\\.bin\\fvtt.cmd package unpack ${packNameFromPath} --outputDirectory export/${packNameFromPath} --inputDirectory ${packdir}/`,
-        );
-        const unpackedFiles = fs.readdirSync("export/" + packNameFromPath);
-        let foundFiles = unpackedFiles.length;
-        for (let j = 0; j < unpackedFiles.length; j++) {
-          let filePath = "export/" + packNameFromPath + "/" + unpackedFiles[j];
-          let fileData = fs.readFileSync(filePath);
-          fileData = fileData.toString().replace(/\n/g, "\r\n");
-          fs.writeFileSync(filePath, fileData);
-        }
+async function run() {
+  const packs = readSystemPacks();
+  const packdir = "export";
 
-        console.log(`Unpacking ${packNameFromPath} done (${foundFiles} files found)`);
-        console.log(`Sorting JSON files in ${packNameFromPath}...`);
-        execSync(`node "utils/sortJsonDir.js" "export/${packNameFromPath}"`);
+  // Fail before deleting source data if any pack DB is currently locked.
+  for (let i = 0; i < packs.length; i++) {
+    const packNameFromPath = normalizePackName(packs[i].path);
+    const dbPath = `../V14/Data/systems/D35E/packs/${packNameFromPath}`;
+    log.info(`DBPath = ${dbPath}`);
 
-      } else {
-        console.log("Pack " + packNameFromPath + " not found, skipping unpack");
-      }
-  } catch (error) {
-    console.error(`Error unpacking ${system["packs"][i]["path"]}:`, error);
-  } 
+    if (fs.existsSync(dbPath)) {
+      await assertPackAccessible(dbPath, `source pack "${packNameFromPath}"`);
+    }
+  }
+
+  fs.rmSync(packdir, { recursive: true, force: true });
+
+  for (let i = 0; i < packs.length; i++) {
+    const packPath = packs[i].path;
+    const packNameFromPath = normalizePackName(packPath);
+    const sourcePath = `export/${packNameFromPath}`;
+    const dbPath = `../V14/Data/systems/D35E/packs/${packNameFromPath}`;
+    log.info(`DBPath ${dbPath}`);
+    log.info(`Unpacking ${packNameFromPath}`);
+
+    if (!fs.existsSync(dbPath)) {
+      log.warn(`Pack ${packNameFromPath} not found; skipping`);
+      continue;
+    }
+
+    const result = await unpackPackToSource(dbPath, sourcePath);
+    log.success(`Unpacked ${packNameFromPath} (${result.files} files)`);
+    log.info(`Sorting JSON files in ${packNameFromPath}`);
+    execSync(`node "utils/sort-json-dir.js" "${sourcePath}"`);
+  }
+
+  const numberOfPacked = fs.existsSync(packdir) ? fs.readdirSync(packdir).length : 0;
+  log.success(`Finished unpacking ${numberOfPacked} packs`);
 }
-let numberOfPacked = fs.readdirSync(packdir).length;
-console.log("Unpacked " + numberOfPacked + " packs");
+
+run().catch((err) => {
+  log.error(err.message || String(err));
+  process.exitCode = 1;
+});

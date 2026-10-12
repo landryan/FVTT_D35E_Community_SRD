@@ -1,36 +1,71 @@
 "use strict";
 const { execSync } = require("child_process");
 const fs = require("fs");
-const sortJson = require("sort-json");
-const version = require(
-"@foundryvtt/foundryvtt-cli/package.json"
-).version;
+const { compactPack } = require("./compact-pack");
+const {
+  assertPackAccessible,
+  normalizePackName,
+  readSystemPacks,
+  repackSourceToPack,
+  verifySourceAndPackSync
+} = require("./pack-db");
+const { createLogger } = require("./cli-log");
 
-console.log(`##### Using Foundry CLI ${version} #####`);
+const log = createLogger("repack");
 
-let rawdata = fs.readFileSync("../V14/Data/systems/D35E/system.json");
-let system = JSON.parse(rawdata);
-let packdir = "../V14/Data/systems/D35E/packs";
-fs.rmSync(packdir, { recursive: true, force: true });
-for (let i = 0; i < system["packs"].length; i++) {
-  let packPath = system["packs"][i]["path"];
-  let packNameFromPath = packPath.replace("packs/", "");
-  if (fs.existsSync("SRD/" + packNameFromPath)) {
-    let foundFiles = fs.readdirSync("SRD/" + packNameFromPath).length;
+async function run() {
+  const packs = readSystemPacks();
+  const packdir = "../V14/Data/systems/D35E/packs";
 
-    /* DISABLED SORT ON IMPORT AS IT TOUCHES FILES AND CREATES UNNECESSARY GIT CHANGES
-    console.log(`Sorting JSON files in ${packNameFromPath}... (${foundFiles} files found)`);
-    execSync(`node "utils/sortJsonDir.js" "SRD/${packNameFromPath}"`);
-    */
-
-    console.log(`Repacking ${packNameFromPath}... (${foundFiles} files found)`);
-    let fvttProcess = execSync(
-      `.\\node_modules\\.bin\\fvtt.cmd package pack ${packNameFromPath} --inputDirectory SRD/${packNameFromPath} --outputDirectory ${packdir}/`,
-    );
-    console.log("Repacking " + packNameFromPath + " done");
-  } else {
-    console.log("Pack " + packNameFromPath + " not found, skipping repack");
+  // Fail fast before deleting packs if the existing DBs are locked.
+  for (let i = 0; i < packs.length; i++) {
+    const packNameFromPath = normalizePackName(packs[i].path);
+    const dbPath = `${packdir}/${packNameFromPath}`;
+    if (fs.existsSync(dbPath)) {
+      await assertPackAccessible(dbPath, `target pack "${packNameFromPath}"`);
+    }
   }
+
+  fs.rmSync(packdir, { recursive: true, force: true });
+
+  for (let i = 0; i < packs.length; i++) {
+    const packPath = packs[i].path;
+    const packNameFromPath = normalizePackName(packPath);
+    const sourcePath = `SRD/${packNameFromPath}`;
+    const outputPath = `${packdir}/${packNameFromPath}`;
+
+    if (!fs.existsSync(sourcePath)) {
+      log.warn(`Pack ${packNameFromPath} not found; skipping`);
+      continue;
+    }
+
+    const foundFiles = fs
+      .readdirSync(sourcePath)
+      .filter((file) => file.toLowerCase().endsWith(".json") && file !== ".index.json").length;
+    log.info(`Sorting JSON files in ${packNameFromPath} (${foundFiles} files)`);
+    execSync(`node "utils/sort-json-dir.js" "${sourcePath}"`);
+
+    log.info(`Repacking ${packNameFromPath} (${foundFiles} files)`);
+    await repackSourceToPack(sourcePath, outputPath);
+    await compactPack(outputPath);
+
+    const verification = await verifySourceAndPackSync(sourcePath, outputPath);
+    if (!verification.ok) {
+      const details = verification.mismatches.slice(0, 20).join("\n");
+      throw new Error(
+        `Sync verification failed for ${packNameFromPath}.\n` +
+        `Source: ${verification.sourceCount}, Repacked: ${verification.packCount}\n${details}`
+      );
+    }
+
+    log.success(`Repacked ${packNameFromPath} (verified ${verification.packCount} docs)`);
+  }
+
+  const numberOfPacked = fs.existsSync(packdir) ? fs.readdirSync(packdir).length : 0;
+  log.success(`Finished repacking ${numberOfPacked} packs`);
 }
-let numberOfPacked = fs.readdirSync(packdir).length;
-console.log("Recreated " + numberOfPacked + " packs");
+
+run().catch((err) => {
+  log.error(err.message || String(err));
+  process.exitCode = 1;
+});
