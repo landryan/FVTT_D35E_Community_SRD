@@ -15,7 +15,7 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/D35E/icons/spells/school/abj.png",
   "name": "Prismatic Wall",
   "ownership": {
     "default": 0
@@ -107,9 +107,9 @@
     "damageReduction": [],
     "deactivateActions": [
       {
-        "action": "Remove attack ps1RedBeam on self; Remove attack ps2OrangeBeam on self; Remove attack ps3YellowBeam on self; Remove attack ps4GreenBeam on self; Remove attack ps5BlueBeam on self; Remove attack ps6IndigoBeam on self; Remove attack ps7VioletBeam on self;",
+        "action": "Remove attack \"Prismatic Effect (Red)\" on self; Remove attack \"Prismatic Effect (Orange)\" on self; Remove attack \"Prismatic Effect (Yellow)\" on self; Remove attack \"Prismatic Effect (Green)\" on self; Remove attack \"Prismatic Effect (Blue)\" on self; Remove attack \"Prismatic Effect (Indigo)\" on self; Remove attack \"Prismatic Effect (Violet)\" on self;",
         "condition": "",
-        "img": "",
+        "img": "systems/D35E/icons/spells/named-spells/prismatic-sphere.png",
         "name": "Remove Attacks"
       }
     ],
@@ -155,7 +155,7 @@
     "nameFromFormula": false,
     "originId": "LEd5XZqMzjYp2w4F",
     "originPack": "D35E.commonbuffs",
-    "originVersion": 3,
+    "originVersion": 11,
     "perRoundActions": [],
     "possibleUpdate": false,
     "psionic": "",
@@ -195,9 +195,9 @@
       "deleteOnExpiry": true,
       "elapsed": 0,
       "enabled": true,
-      "formula": "@item.level*600",
+      "formula": "@item.level*100",
       "tickOnEnd": false,
-      "total": 600
+      "total": 100
     },
     "uniqueId": "",
     "userNonRemovable": false,
